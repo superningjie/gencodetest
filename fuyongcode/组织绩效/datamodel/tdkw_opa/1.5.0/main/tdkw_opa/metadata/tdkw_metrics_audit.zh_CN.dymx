@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DeployMetadata>
+  <MasterId>4BBIH7TG1OSD</MasterId>
+  <Id>4BBIH7TG1OSD</Id>
+  <DesignMetas>
+    <DesignFormMetaL>
+      <Number>tdkw_metrics_audit</Number>
+      <PkId>51DTO5+2=JCU</PkId>
+      <DataXml>
+        <FormMetadata/>
+      </DataXml>
+      <Name>组织绩效指标审批单</Name>
+      <Id>4BBIH7TG1OSD</Id>
+      <LocaleId>zh_CN</LocaleId>
+    </DesignFormMetaL>
+    <DesignEntityMetaL>
+      <Number>tdkw_metrics_audit</Number>
+      <PkId>51DTO5DJ314V</PkId>
+      <DataXml>
+        <EntityMetadata/>
+      </DataXml>
+      <Name>组织绩效指标审批单</Name>
+      <Id>4BBIH7TG1OSD</Id>
+      <LocaleId>zh_CN</LocaleId>
+    </DesignEntityMetaL>
+  </DesignMetas>
+  <Version>1751452697696</Version>
+  <BOSVersion>1.0</BOSVersion>
+</DeployMetadata>

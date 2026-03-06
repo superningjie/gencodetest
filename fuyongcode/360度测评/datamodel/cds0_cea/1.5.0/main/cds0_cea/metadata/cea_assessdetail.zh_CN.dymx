@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DeployMetadata>
+  <MasterId>48EOY+UXRY49</MasterId>
+  <Id>48EOY+UXRY49</Id>
+  <DesignMetas>
+    <DesignFormMetaL>
+      <Number>cea_assessdetail</Number>
+      <PkId>4=XRIRI=W79Y</PkId>
+      <DataXml>
+        <FormMetadata/>
+      </DataXml>
+      <Name>查看测评明细</Name>
+      <Id>48EOY+UXRY49</Id>
+      <LocaleId>zh_CN</LocaleId>
+    </DesignFormMetaL>
+    <DesignEntityMetaL>
+      <Number>cea_assessdetail</Number>
+      <PkId>4=XRIRTUHOH9</PkId>
+      <DataXml>
+        <EntityMetadata/>
+      </DataXml>
+      <Name>查看测评明细</Name>
+      <Id>48EOY+UXRY49</Id>
+      <LocaleId>zh_CN</LocaleId>
+    </DesignEntityMetaL>
+  </DesignMetas>
+  <Version>1722836619939</Version>
+  <BOSVersion>1.0</BOSVersion>
+</DeployMetadata>

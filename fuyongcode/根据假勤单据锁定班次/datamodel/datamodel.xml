@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Package name="wtc_ext">
+    <ver>1.5.0</ver>
+    <app>
+        <item id="wtc_ext" name="wtc_ext" pkname="wtc_ext_wtc_ext" path="main/wtc_ext"/>
+    </app>
+</Package>

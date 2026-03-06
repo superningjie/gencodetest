@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DeployMetadata>
+  <MasterId>3YR7U3UJ6Q0U</MasterId>
+  <Id>3YR7U3UJ6Q0U</Id>
+  <DesignMetas>
+    <DesignFormMetaL>
+      <Number>tdkw_myteam_branchun_temp</Number>
+      <PkId>3ZA4ETG1OTPZ</PkId>
+      <DataXml>
+        <FormMetadata>
+          <Name>下屬崗位中間表</Name>
+          <Items>
+            <BasedataFormAp action="edit" oid="1942c188000064ac">
+              <Name>下屬崗位中間表</Name>
+              <ListMeta>
+                <FormMetadata>
+                  <Items>
+                    <ListColumnAp action="edit" oid="3JMRLP3MKHKX">
+                      <Name>崗位</Name>
+                    </ListColumnAp>
+                    <ListColumnAp action="edit" oid="3JMRLVVCQV+4">
+                      <Name>角色協作類型</Name>
+                    </ListColumnAp>
+                  </Items>
+                </FormMetadata>
+              </ListMeta>
+            </BasedataFormAp>
+            <FieldAp action="edit" oid="tS54cjBTI7">
+              <Name>崗位</Name>
+            </FieldAp>
+            <FieldAp action="edit" oid="7jG1kY4SOv">
+              <Name>角色協作類型</Name>
+            </FieldAp>
+            <EntryAp action="edit" oid="UeIm3R9M38">
+              <Name>單據體</Name>
+            </EntryAp>
+            <AdvConAp action="edit" oid="vRfYl1VGBi">
+              <Name>下屬崗位明細</Name>
+            </AdvConAp>
+            <EntryFieldAp action="edit" oid="seSyikXvU4">
+              <Name>崗位</Name>
+            </EntryFieldAp>
+            <AdvConBarItemAp action="edit" oid="AAk9244BIP">
+              <Name>新增分錄</Name>
+            </AdvConBarItemAp>
+            <AdvConBarItemAp action="edit" oid="YZay3KvEwO">
+              <Name>刪除分錄</Name>
+            </AdvConBarItemAp>
+            <AdvConSummaryPanelAp action="edit" oid="7dTdzo3os2">
+              <Name>高級面板摘要容器</Name>
+            </AdvConSummaryPanelAp>
+            <AdvConToolbarAp action="edit" oid="VvE81xm1tr">
+              <Name>高級面板工具欄</Name>
+            </AdvConToolbarAp>
+            <AdvConChildPanelAp action="edit" oid="IvQBvbze2A">
+              <Name>高級面板子容器</Name>
+            </AdvConChildPanelAp>
+          </Items>
+        </FormMetadata>
+      </DataXml>
+      <Name>下屬崗位中間表</Name>
+      <Id>3YR7U3UJ6Q0U</Id>
+      <LocaleId>zh_TW</LocaleId>
+    </DesignFormMetaL>
+    <DesignEntityMetaL>
+      <Number>tdkw_myteam_branchun_temp</Number>
+      <PkId>3ZA4ETHFZWBV</PkId>
+      <DataXml>
+        <EntityMetadata>
+          <Name>下屬崗位中間表</Name>
+          <Items>
+            <BaseEntity action="edit" oid="1942c188000066ac">
+              <Name>下屬崗位中間表</Name>
+              <Operations>
+                <Operation action="edit" oid="3JM1A2T9GIQZ">
+                  <Name>新增分錄</Name>
+                </Operation>
+                <Operation action="edit" oid="3JM1BWQWB3FA">
+                  <Name>刪除分錄</Name>
+                </Operation>
+              </Operations>
+            </BaseEntity>
+            <EntryEntity action="edit" oid="UeIm3R9M38">
+              <Name>單據體</Name>
+            </EntryEntity>
+            <BasedataField action="edit" oid="tS54cjBTI7">
+              <Name>崗位</Name>
+            </BasedataField>
+            <BasedataField action="edit" oid="7jG1kY4SOv">
+              <Name>角色協作類型</Name>
+            </BasedataField>
+            <BasedataField action="edit" oid="seSyikXvU4">
+              <Name>崗位</Name>
+            </BasedataField>
+          </Items>
+        </EntityMetadata>
+      </DataXml>
+      <Name>下屬崗位中間表</Name>
+      <Id>3YR7U3UJ6Q0U</Id>
+      <LocaleId>zh_TW</LocaleId>
+    </DesignEntityMetaL>
+  </DesignMetas>
+  <Version>1709633592532</Version>
+  <BOSVersion>1.0</BOSVersion>
+</DeployMetadata>

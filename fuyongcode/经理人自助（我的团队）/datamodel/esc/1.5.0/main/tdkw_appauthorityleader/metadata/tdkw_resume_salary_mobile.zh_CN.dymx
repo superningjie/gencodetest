@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DeployMetadata>
+  <MasterId>3W933AC+GZWS</MasterId>
+  <Id>3W933AC+GZWS</Id>
+  <DesignMetas>
+    <DesignFormMetaL>
+      <Number>tdkw_resume_salary_mobile</Number>
+      <PkId>3W9HAXI8CPWW</PkId>
+      <DataXml>
+        <FormMetadata/>
+      </DataXml>
+      <Name>员工简历薪酬信息APP端</Name>
+      <Id>3W933AC+GZWS</Id>
+      <LocaleId>zh_CN</LocaleId>
+    </DesignFormMetaL>
+    <DesignEntityMetaL>
+      <Number>tdkw_resume_salary_mobile</Number>
+      <PkId>3W9HAXK2UYZC</PkId>
+      <DataXml>
+        <EntityMetadata/>
+      </DataXml>
+      <Name>员工简历薪酬信息APP端</Name>
+      <Id>3W933AC+GZWS</Id>
+      <LocaleId>zh_CN</LocaleId>
+    </DesignEntityMetaL>
+  </DesignMetas>
+  <Version>1706681460130</Version>
+  <BOSVersion>1.0</BOSVersion>
+</DeployMetadata>

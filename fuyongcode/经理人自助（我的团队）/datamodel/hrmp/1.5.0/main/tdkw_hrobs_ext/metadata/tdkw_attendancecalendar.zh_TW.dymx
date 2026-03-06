@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DeployMetadata>
+  <MasterId>3DU8G8AU=C3O</MasterId>
+  <Id>3DU8G8AU=C3O</Id>
+  <DesignMetas>
+    <DesignFormMetaL>
+      <Number>tdkw_attendancecalendar</Number>
+      <PkId>3ZUO/LXWAYGF</PkId>
+      <DataXml>
+        <FormMetadata>
+          <Items>
+            <FieldAp action="edit" oid="mRF1CJIsMg">
+              <Name>數據2</Name>
+            </FieldAp>
+            <FieldAp action="edit" oid="XY2cRxirnk">
+              <Name>文本2</Name>
+            </FieldAp>
+            <FlexPanelAp action="edit" oid="f0B0cNWrGM">
+              <Name>Flex容器</Name>
+            </FlexPanelAp>
+            <FlexPanelAp action="edit" oid="uC6DMdfnX5">
+              <Name>Flex容器</Name>
+            </FlexPanelAp>
+            <FieldAp action="edit" oid="mgWQi1XUDQ">
+              <Name>小數</Name>
+            </FieldAp>
+            <LabelAp action="edit" oid="aIDLmJCtaI">
+              <Name>剩餘年假(天)</Name>
+            </LabelAp>
+            <FlexPanelAp action="edit" oid="OJowX4C71c">
+              <Name>Flex容器</Name>
+            </FlexPanelAp>
+            <FieldAp action="edit" oid="lna0JNIolv">
+              <Name>數據1</Name>
+            </FieldAp>
+            <FieldAp action="edit" oid="1y2akrXSIJ">
+              <Name>文本1</Name>
+            </FieldAp>
+            <LabelAp action="edit" oid="c0Amwsxxon">
+              <Name>考勤門戶</Name>
+            </LabelAp>
+            <VectorAp action="edit" oid="oyf6DDuD2H">
+              <Name>圖標</Name>
+            </VectorAp>
+            <LabelAp action="edit" oid="u4veP2KElt">
+              <Name>考勤日曆</Name>
+            </LabelAp>
+            <FlexPanelAp action="edit" oid="Hjy7zpD4xE">
+              <Name>Flex容器</Name>
+            </FlexPanelAp>
+            <FlexPanelAp action="edit" oid="DLPLwuXDr0">
+              <Name>Flex容器</Name>
+            </FlexPanelAp>
+            <FlexPanelAp action="edit" oid="Mx9vga82FP">
+              <Name>Flex容器</Name>
+            </FlexPanelAp>
+            <FlexPanelAp action="edit" oid="5QrF7hdtSK">
+              <Name>Flex容器</Name>
+            </FlexPanelAp>
+          </Items>
+        </FormMetadata>
+      </DataXml>
+      <Name>PC_自定義卡片模板</Name>
+      <Id>3DU8G8AU=C3O</Id>
+      <LocaleId>zh_TW</LocaleId>
+    </DesignFormMetaL>
+    <DesignEntityMetaL>
+      <Number>tdkw_attendancecalendar</Number>
+      <PkId>3ZUO/LZN7UTF</PkId>
+      <DataXml>
+        <EntityMetadata>
+          <Items>
+            <DecimalField action="edit" oid="mgWQi1XUDQ">
+              <Name>小數</Name>
+            </DecimalField>
+            <DecimalField action="edit" oid="lna0JNIolv">
+              <Name>數據1</Name>
+            </DecimalField>
+            <TextField action="edit" oid="1y2akrXSIJ">
+              <Name>文本1</Name>
+            </TextField>
+            <DecimalField action="edit" oid="mRF1CJIsMg">
+              <Name>數據2</Name>
+            </DecimalField>
+            <TextField action="edit" oid="XY2cRxirnk">
+              <Name>文本2</Name>
+            </TextField>
+          </Items>
+        </EntityMetadata>
+      </DataXml>
+      <Name>PC_自定義卡片模板</Name>
+      <Id>3DU8G8AU=C3O</Id>
+      <LocaleId>zh_TW</LocaleId>
+    </DesignEntityMetaL>
+  </DesignMetas>
+  <Version>1733311496422</Version>
+  <BOSVersion>1.0</BOSVersion>
+</DeployMetadata>

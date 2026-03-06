@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DeployMetadata>
+  <MasterId>3BSAF+DOFIP7</MasterId>
+  <Id>3BSAF+DOFIP7</Id>
+  <DesignMetas>
+    <DesignFormMetaL>
+      <Number>tdkw_hrobs_pc_application</Number>
+      <PkId>3BTA/XGV6W30</PkId>
+      <DataXml>
+        <FormMetadata/>
+      </DataXml>
+      <Name>PC_我的申请卡片</Name>
+      <Id>3BSAF+DOFIP7</Id>
+      <LocaleId>zh_CN</LocaleId>
+    </DesignFormMetaL>
+    <DesignEntityMetaL>
+      <Number>tdkw_hrobs_pc_application</Number>
+      <PkId>3BTA/XHOT39B</PkId>
+      <DataXml>
+        <EntityMetadata/>
+      </DataXml>
+      <Name>PC_我的申请卡片</Name>
+      <Id>3BSAF+DOFIP7</Id>
+      <LocaleId>zh_CN</LocaleId>
+    </DesignEntityMetaL>
+  </DesignMetas>
+  <Version>1686820674746</Version>
+  <BOSVersion>1.0</BOSVersion>
+</DeployMetadata>

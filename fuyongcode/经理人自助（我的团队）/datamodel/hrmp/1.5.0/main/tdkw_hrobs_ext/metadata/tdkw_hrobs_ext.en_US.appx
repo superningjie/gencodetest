@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DeployAppMetadata>
+  <MasterId>2W6FZY1I61I+</MasterId>
+  <Id>3==6P77F4X8W</Id>
+  <DesignMetas>
+    <DesignAppMetaL>
+      <PkId>3Y=O4ZOKP8/E</PkId>
+      <DataXml>
+        <AppMetadata>
+          <AppFunctionPackets>
+            <AppFunctionPacketElement action="edit" oid="3NCMH673B519">
+              <ParentId/>
+            </AppFunctionPacketElement>
+          </AppFunctionPackets>
+        </AppMetadata>
+      </DataXml>
+      <Name>HR Operation Basic Service</Name>
+      <Description>Public configuration and basic data of HR operation service</Description>
+      <Id>3==6P77F4X8W</Id>
+      <LocaleId>en_US</LocaleId>
+    </DesignAppMetaL>
+  </DesignMetas>
+  <BOSVersion>1.0</BOSVersion>
+</DeployAppMetadata>

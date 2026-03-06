@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DeployMetadata>
+  <MasterId>4B/GBYMOBA42</MasterId>
+  <Id>4B/GBYMOBA42</Id>
+  <DesignMetas>
+    <DesignFormMetaL>
+      <Number>tdkw_add_area</Number>
+      <PkId>4EMEH++QWLEL</PkId>
+      <DataXml>
+        <FormMetadata>
+          <Name>添加区域</Name>
+          <Items>
+            <FormAp action="edit" oid="62b02ccc00005eac">
+              <Name>添加区域</Name>
+            </FormAp>
+            <FieldAp action="edit" oid="LhK5JNdr3tlXKMCYYH">
+              <Name>区域类型</Name>
+            </FieldAp>
+          </Items>
+        </FormMetadata>
+      </DataXml>
+      <Name>添加区域</Name>
+      <Id>4B/GBYMOBA42</Id>
+      <LocaleId>en_US</LocaleId>
+    </DesignFormMetaL>
+    <DesignEntityMetaL>
+      <Number>tdkw_add_area</Number>
+      <PkId>4EMEH+5PURJB</PkId>
+      <DataXml>
+        <EntityMetadata>
+          <Name>添加区域</Name>
+          <Items>
+            <MainEntity action="edit" oid="62b02ccc000060ac">
+              <Name>添加区域</Name>
+            </MainEntity>
+            <BasedataField action="edit" oid="LhK5JNdr3tlXKMCYYH">
+              <Name>区域类型</Name>
+            </BasedataField>
+          </Items>
+        </EntityMetadata>
+      </DataXml>
+      <Name>添加区域</Name>
+      <Id>4B/GBYMOBA42</Id>
+      <LocaleId>en_US</LocaleId>
+    </DesignEntityMetaL>
+  </DesignMetas>
+  <Version>1727406650843</Version>
+  <BOSVersion>1.0</BOSVersion>
+</DeployMetadata>

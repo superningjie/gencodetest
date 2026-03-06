@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DeployMetadata>
+  <MasterId>4CZL8VGR8N+8</MasterId>
+  <Id>4CZL8VGR8N+8</Id>
+  <DesignMetas>
+    <DesignFormMetaL>
+      <Number>tdkw_transferbaseinfo</Number>
+      <PkId>4D0B6FPSME7R</PkId>
+      <DataXml>
+        <FormMetadata/>
+      </DataXml>
+      <Name>调动单据转基础资料</Name>
+      <Id>4CZL8VGR8N+8</Id>
+      <LocaleId>zh_CN</LocaleId>
+    </DesignFormMetaL>
+    <DesignEntityMetaL>
+      <Number>tdkw_transferbaseinfo</Number>
+      <PkId>4D0B6FTL=EFI</PkId>
+      <DataXml>
+        <EntityMetadata/>
+      </DataXml>
+      <Name>调动单据转基础资料</Name>
+      <Id>4CZL8VGR8N+8</Id>
+      <LocaleId>zh_CN</LocaleId>
+    </DesignEntityMetaL>
+  </DesignMetas>
+  <Version>1725861842027</Version>
+  <BOSVersion>1.0</BOSVersion>
+</DeployMetadata>

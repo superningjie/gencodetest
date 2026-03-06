@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DeployMetadata>
+  <MasterId>3EWWBL+HDP60</MasterId>
+  <Id>3EWWBL+HDP60</Id>
+  <DesignMetas>
+    <DesignFormMetaL>
+      <Number>tdkw_thismonthdepart_pc</Number>
+      <PkId>3EWWBL2OKC5V</PkId>
+      <DataXml>
+        <FormMetadata/>
+      </DataXml>
+      <Name>本月离职PC端</Name>
+      <Id>3EWWBL+HDP60</Id>
+      <LocaleId>zh_CN</LocaleId>
+    </DesignFormMetaL>
+    <DesignEntityMetaL>
+      <Number>tdkw_thismonthdepart_pc</Number>
+      <PkId>3EWWBL4+B6J=</PkId>
+      <DataXml>
+        <EntityMetadata/>
+      </DataXml>
+      <Name>本月离职PC端</Name>
+      <Id>3EWWBL+HDP60</Id>
+      <LocaleId>zh_CN</LocaleId>
+    </DesignEntityMetaL>
+  </DesignMetas>
+  <Version>1689820801578</Version>
+  <BOSVersion>1.0</BOSVersion>
+</DeployMetadata>

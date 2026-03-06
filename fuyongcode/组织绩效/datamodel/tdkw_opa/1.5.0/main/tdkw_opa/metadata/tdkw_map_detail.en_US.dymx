@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DeployMetadata>
+  <MasterId>4B8AB61Y3IEV</MasterId>
+  <Id>4B8AB61Y3IEV</Id>
+  <DesignMetas>
+    <DesignFormMetaL>
+      <Number>tdkw_map_detail</Number>
+      <PkId>4FP0DJDQ4Z8I</PkId>
+      <DataXml>
+        <FormMetadata>
+          <Name>查看详情</Name>
+          <Items>
+            <FormAp action="edit" oid="62b02ccc00005eac">
+              <Name>查看详情</Name>
+            </FormAp>
+            <LabelAp action="edit" oid="6245p4LoXt">
+              <Name>评分标准：</Name>
+            </LabelAp>
+            <FieldAp action="edit" oid="7y4slu8MQTacnYtXIV">
+              <Name>评分标准</Name>
+            </FieldAp>
+            <LabelAp action="edit" oid="gJHXj4y5rW">
+              <Name>年度完成情况：</Name>
+            </LabelAp>
+            <FieldAp action="edit" oid="c1JLQVkLc7ZMw4Zonc">
+              <Name>年度完成情况</Name>
+            </FieldAp>
+            <LabelAp action="edit" oid="1iUbeMeCs1ar6l0k0I">
+              <Name>指标名称：</Name>
+            </LabelAp>
+            <FieldAp action="edit" oid="Irx0o5Vw75LfXmo45f">
+              <Name>指标名称</Name>
+            </FieldAp>
+            <FlexPanelAp action="edit" oid="pcl95FK1l46UXSkVXJ">
+              <Name>Flex容器</Name>
+            </FlexPanelAp>
+            <FlexPanelAp action="edit" oid="zeu65LqbW40dD5rXky">
+              <Name>Flex容器</Name>
+            </FlexPanelAp>
+            <FlexPanelAp action="edit" oid="3ko0O2oKSj2FRiOQR2">
+              <Name>Flex容器</Name>
+            </FlexPanelAp>
+            <FlexPanelAp action="edit" oid="zuwkGQEiW0MBctgEH3">
+              <Name>Flex容器</Name>
+            </FlexPanelAp>
+            <FlexPanelAp action="edit" oid="QF93NAPiKcxr8T61oU">
+              <Name>Flex容器</Name>
+            </FlexPanelAp>
+            <EntryFieldAp action="edit" oid="bLkKi5t0jHyrdF3PKn">
+              <Name>Q1完成情况</Name>
+            </EntryFieldAp>
+            <EntryFieldAp action="edit" oid="s2k6OD3keQjdsCOz6L">
+              <Name>Q2完成情况</Name>
+            </EntryFieldAp>
+            <EntryFieldAp action="edit" oid="n4ZEu0uHrolNLrSR6i">
+              <Name>Q3完成情况</Name>
+            </EntryFieldAp>
+            <EntryFieldAp action="edit" oid="c04jhi3dldU6vlspBJ">
+              <Name>Q4完成情况</Name>
+            </EntryFieldAp>
+            <LabelAp action="edit" oid="m6hgEgxPF0">
+              <Name>指标描述：</Name>
+            </LabelAp>
+            <FieldAp action="edit" oid="IcjHuJV2nbZkJRtSn7">
+              <Name>指标描述</Name>
+            </FieldAp>
+            <EntryAp action="edit" oid="vhgECYgL0e1H3WyMwW">
+              <Name>单据体</Name>
+            </EntryAp>
+          </Items>
+        </FormMetadata>
+      </DataXml>
+      <Name>查看详情</Name>
+      <Id>4B8AB61Y3IEV</Id>
+      <LocaleId>en_US</LocaleId>
+    </DesignFormMetaL>
+    <DesignEntityMetaL>
+      <Number>tdkw_map_detail</Number>
+      <PkId>4FP0DJO49F4P</PkId>
+      <DataXml>
+        <EntityMetadata>
+          <Name>查看详情</Name>
+          <Items>
+            <MainEntity action="edit" oid="62b02ccc000060ac">
+              <Name>查看详情</Name>
+            </MainEntity>
+            <EntryEntity action="edit" oid="vhgECYgL0e1H3WyMwW">
+              <Name>单据体</Name>
+            </EntryEntity>
+            <TextField action="edit" oid="bLkKi5t0jHyrdF3PKn">
+              <Name>Q1完成情况</Name>
+            </TextField>
+            <TextField action="edit" oid="s2k6OD3keQjdsCOz6L">
+              <Name>Q2完成情况</Name>
+            </TextField>
+            <TextField action="edit" oid="n4ZEu0uHrolNLrSR6i">
+              <Name>Q3完成情况</Name>
+            </TextField>
+            <TextField action="edit" oid="c04jhi3dldU6vlspBJ">
+              <Name>Q4完成情况</Name>
+            </TextField>
+            <TextField action="edit" oid="Irx0o5Vw75LfXmo45f">
+              <Name>指标名称</Name>
+            </TextField>
+            <TextField action="edit" oid="IcjHuJV2nbZkJRtSn7">
+              <Name>指标描述</Name>
+            </TextField>
+            <TextField action="edit" oid="7y4slu8MQTacnYtXIV">
+              <Name>评分标准</Name>
+            </TextField>
+            <TextField action="edit" oid="c1JLQVkLc7ZMw4Zonc">
+              <Name>年度完成情况</Name>
+            </TextField>
+          </Items>
+        </EntityMetadata>
+      </DataXml>
+      <Name>查看详情</Name>
+      <Id>4B8AB61Y3IEV</Id>
+      <LocaleId>en_US</LocaleId>
+    </DesignEntityMetaL>
+  </DesignMetas>
+  <Version>1728442083778</Version>
+  <BOSVersion>1.0</BOSVersion>
+</DeployMetadata>

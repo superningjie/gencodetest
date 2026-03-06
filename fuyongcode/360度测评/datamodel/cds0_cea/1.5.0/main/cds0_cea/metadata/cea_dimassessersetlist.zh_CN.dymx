@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DeployMetadata>
+  <MasterId>46QW=1KN51AC</MasterId>
+  <Id>46QW=1KN51AC</Id>
+  <DesignMetas>
+    <DesignFormMetaL>
+      <Number>cea_dimassessersetlist</Number>
+      <PkId>4=GW+LCFL7EK</PkId>
+      <DataXml>
+        <FormMetadata/>
+      </DataXml>
+      <Name>设置测评人</Name>
+      <Id>46QW=1KN51AC</Id>
+      <LocaleId>zh_CN</LocaleId>
+    </DesignFormMetaL>
+    <DesignEntityMetaL>
+      <Number>cea_dimassessersetlist</Number>
+      <PkId>4=GW+LEDQXT2</PkId>
+      <DataXml>
+        <EntityMetadata/>
+      </DataXml>
+      <Name>设置测评人</Name>
+      <Id>46QW=1KN51AC</Id>
+      <LocaleId>zh_CN</LocaleId>
+    </DesignEntityMetaL>
+  </DesignMetas>
+  <Version>1722416463795</Version>
+  <BOSVersion>1.0</BOSVersion>
+</DeployMetadata>

@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DeployMetadata>
+  <MasterId>3UGNN3985U6E</MasterId>
+  <Id>3UGNN3985U6E</Id>
+  <DesignMetas>
+    <DesignFormMetaL>
+      <Number>tdkw_hrobs_pcpwdreset</Number>
+      <PkId>3UYJTJMR=MKV</PkId>
+      <DataXml>
+        <FormMetadata>
+          <Name>简历薪资重置密码弹窗</Name>
+          <Items>
+            <FormAp action="edit" oid="3UGNN3985UVO">
+              <Name>简历薪资重置密码弹窗</Name>
+            </FormAp>
+            <FieldAp action="edit" oid="46q1QyL4gv">
+              <Name>确认密码</Name>
+            </FieldAp>
+            <FlexPanelAp action="edit" oid="ZCRQb2vK2E">
+              <Name>Flex容器</Name>
+            </FlexPanelAp>
+            <FlexPanelAp action="edit" oid="MduO2KiLwM">
+              <Name>Flex容器</Name>
+            </FlexPanelAp>
+            <FlexPanelAp action="edit" oid="rc31tpxtSZ">
+              <Name>Flex容器</Name>
+            </FlexPanelAp>
+            <ImageAp action="edit" oid="INwmGfBCOT">
+              <Name>图片展示</Name>
+            </ImageAp>
+            <FieldAp action="edit" oid="9HWK3wm8MI">
+              <Name>请输入新密码</Name>
+            </FieldAp>
+            <FlexPanelAp action="edit" oid="4r20xEyp5Y">
+              <Name>Flex容器</Name>
+            </FlexPanelAp>
+            <ButtonAp action="edit" oid="VVQ5j4Op25">
+              <Name>确定</Name>
+            </ButtonAp>
+            <ButtonAp action="edit" oid="KMcR4eXcZf">
+              <Name>×</Name>
+            </ButtonAp>
+            <FlexPanelAp action="edit" oid="WN8hwJcDem">
+              <Name>Flex容器</Name>
+            </FlexPanelAp>
+            <FlexPanelAp action="edit" oid="2nDAn8eP9o">
+              <Name>Flex容器</Name>
+            </FlexPanelAp>
+            <FlexPanelAp action="edit" oid="ra3PycAMvl">
+              <Name>Flex容器</Name>
+            </FlexPanelAp>
+          </Items>
+        </FormMetadata>
+      </DataXml>
+      <Name>简历薪资重置密码弹窗</Name>
+      <Id>3UGNN3985U6E</Id>
+      <LocaleId>en_US</LocaleId>
+    </DesignFormMetaL>
+    <DesignEntityMetaL>
+      <Number>tdkw_hrobs_pcpwdreset</Number>
+      <PkId>3UYJTJN05WUO</PkId>
+      <DataXml>
+        <EntityMetadata>
+          <Name>简历薪资重置密码弹窗</Name>
+          <Items>
+            <MainEntity action="edit" oid="3UGNN3=BOU5U">
+              <Operations>
+                <Operation action="edit" oid="3UH98UKSNGR1">
+                  <Name>确认</Name>
+                </Operation>
+              </Operations>
+              <Name>简历薪资重置密码弹窗</Name>
+            </MainEntity>
+            <TextField action="edit" oid="9HWK3wm8MI">
+              <EmptyText>请输入新密码</EmptyText>
+              <Name>请输入新密码</Name>
+            </TextField>
+            <TextField action="edit" oid="46q1QyL4gv">
+              <EmptyText>请再次输入新密码</EmptyText>
+              <Name>确认密码</Name>
+            </TextField>
+          </Items>
+        </EntityMetadata>
+      </DataXml>
+      <Name>简历薪资重置密码弹窗</Name>
+      <Id>3UGNN3985U6E</Id>
+      <LocaleId>en_US</LocaleId>
+    </DesignEntityMetaL>
+  </DesignMetas>
+  <Version>1705389158450</Version>
+  <BOSVersion>1.0</BOSVersion>
+</DeployMetadata>

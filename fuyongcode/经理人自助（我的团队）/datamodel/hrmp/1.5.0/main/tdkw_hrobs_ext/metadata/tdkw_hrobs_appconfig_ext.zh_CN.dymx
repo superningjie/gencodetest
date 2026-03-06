@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DeployMetadata>
+  <MasterId>2WMT/EC17I+8</MasterId>
+  <Id>4GV3BQMSX7FD</Id>
+  <DesignMetas>
+    <DesignFormMetaL>
+      <Number>tdkw_hrobs_appconfig_ext</Number>
+      <PkId>4GV3BRHBX2A9</PkId>
+      <DataXml>
+        <FormMetadata/>
+      </DataXml>
+      <Name>HR服务应用</Name>
+      <Id>4GV3BQMSX7FD</Id>
+      <LocaleId>zh_CN</LocaleId>
+    </DesignFormMetaL>
+    <DesignEntityMetaL>
+      <Number>tdkw_hrobs_appconfig_ext</Number>
+      <PkId>4GV3BRR0/=/V</PkId>
+      <DataXml>
+        <EntityMetadata/>
+      </DataXml>
+      <Name>HR服务应用</Name>
+      <Id>4GV3BQMSX7FD</Id>
+      <LocaleId>zh_CN</LocaleId>
+    </DesignEntityMetaL>
+  </DesignMetas>
+  <Version>1729563674624</Version>
+  <BOSVersion>1.0</BOSVersion>
+</DeployMetadata>

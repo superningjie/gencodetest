@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DeployMetadata>
+  <MasterId>15D680ZV7YNR</MasterId>
+  <Id>4I35TMRFOHZC</Id>
+  <DesignMetas>
+    <DesignFormMetaL>
+      <Number>tdkw_hrpi_empposorgre_ext</Number>
+      <PkId>4I3=QUJ56OGA</PkId>
+      <DataXml>
+        <FormMetadata/>
+      </DataXml>
+      <Name>任职经历基础页面</Name>
+      <Id>4I35TMRFOHZC</Id>
+      <LocaleId>zh_CN</LocaleId>
+    </DesignFormMetaL>
+    <DesignEntityMetaL>
+      <Number>tdkw_hrpi_empposorgre_ext</Number>
+      <PkId>4I3=QUQ44UL0</PkId>
+      <DataXml>
+        <EntityMetadata/>
+      </DataXml>
+      <Name>任职经历基础页面</Name>
+      <Id>4I35TMRFOHZC</Id>
+      <LocaleId>zh_CN</LocaleId>
+    </DesignEntityMetaL>
+  </DesignMetas>
+  <Version>1730787623026</Version>
+  <BOSVersion>1.0</BOSVersion>
+</DeployMetadata>

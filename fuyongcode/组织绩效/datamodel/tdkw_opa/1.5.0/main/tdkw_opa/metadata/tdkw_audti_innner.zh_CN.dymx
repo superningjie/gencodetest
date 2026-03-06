@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DeployMetadata>
+  <MasterId>4BBK7AH/75MU</MasterId>
+  <Id>4BBK7AH/75MU</Id>
+  <DesignMetas>
+    <DesignFormMetaL>
+      <Number>tdkw_audti_innner</Number>
+      <PkId>4DURCN+UCTXL</PkId>
+      <DataXml>
+        <FormMetadata/>
+      </DataXml>
+      <Name>审核内嵌页面</Name>
+      <Id>4BBK7AH/75MU</Id>
+      <LocaleId>zh_CN</LocaleId>
+    </DesignFormMetaL>
+    <DesignEntityMetaL>
+      <Number>tdkw_audti_innner</Number>
+      <PkId>4DURCN0AD+TW</PkId>
+      <DataXml>
+        <EntityMetadata/>
+      </DataXml>
+      <Name>审核内嵌页面</Name>
+      <Id>4BBK7AH/75MU</Id>
+      <LocaleId>zh_CN</LocaleId>
+    </DesignEntityMetaL>
+  </DesignMetas>
+  <Version>1726643520954</Version>
+  <BOSVersion>1.0</BOSVersion>
+</DeployMetadata>

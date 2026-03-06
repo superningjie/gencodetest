@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DeployMetadata>
+  <MasterId>3C7PCKJL6YGC</MasterId>
+  <Id>3C7PCKJL6YGC</Id>
+  <DesignMetas>
+    <DesignFormMetaL>
+      <Number>tdkw_personanalysis</Number>
+      <PkId>4MNI6V24E4TM</PkId>
+      <DataXml>
+        <FormMetadata/>
+      </DataXml>
+      <Name>人员分析</Name>
+      <Id>3C7PCKJL6YGC</Id>
+      <LocaleId>zh_CN</LocaleId>
+    </DesignFormMetaL>
+    <DesignEntityMetaL>
+      <Number>tdkw_personanalysis</Number>
+      <PkId>4MNI6V2P5M=F</PkId>
+      <DataXml>
+        <EntityMetadata/>
+      </DataXml>
+      <Name>人员分析</Name>
+      <Id>3C7PCKJL6YGC</Id>
+      <LocaleId>zh_CN</LocaleId>
+    </DesignEntityMetaL>
+  </DesignMetas>
+  <Version>1735197199470</Version>
+  <BOSVersion>1.0</BOSVersion>
+</DeployMetadata>

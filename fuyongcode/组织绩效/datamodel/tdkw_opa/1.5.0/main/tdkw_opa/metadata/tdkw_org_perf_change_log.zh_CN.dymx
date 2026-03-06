@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DeployMetadata>
+  <MasterId>4BS=5DEMV6QU</MasterId>
+  <Id>4BS=5DEMV6QU</Id>
+  <DesignMetas>
+    <DesignFormMetaL>
+      <Number>tdkw_org_perf_change_log</Number>
+      <PkId>4BWL4RT+VY9W</PkId>
+      <DataXml>
+        <FormMetadata/>
+      </DataXml>
+      <Name>组织绩效变更记录</Name>
+      <Id>4BS=5DEMV6QU</Id>
+      <LocaleId>zh_CN</LocaleId>
+    </DesignFormMetaL>
+    <DesignEntityMetaL>
+      <Number>tdkw_org_perf_change_log</Number>
+      <PkId>4BWL4S2WZKC7</PkId>
+      <DataXml>
+        <EntityMetadata/>
+      </DataXml>
+      <Name>组织绩效变更记录</Name>
+      <Id>4BS=5DEMV6QU</Id>
+      <LocaleId>zh_CN</LocaleId>
+    </DesignEntityMetaL>
+  </DesignMetas>
+  <Version>1724748488307</Version>
+  <BOSVersion>1.0</BOSVersion>
+</DeployMetadata>

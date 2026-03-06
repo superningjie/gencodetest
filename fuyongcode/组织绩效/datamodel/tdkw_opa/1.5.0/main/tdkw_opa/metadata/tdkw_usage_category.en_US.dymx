@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DeployMetadata>
+  <MasterId>4=XC5DD5T0=/</MasterId>
+  <Id>4=XC5DD5T0=/</Id>
+  <DesignMetas>
+    <DesignFormMetaL>
+      <Number>tdkw_usage_category</Number>
+      <PkId>4DA0KN+H67AR</PkId>
+      <DataXml>
+        <FormMetadata>
+          <Name>指标用途分类</Name>
+          <Items>
+            <BasedataFormAp action="edit" oid="1942c188000064ac">
+              <Name>指标用途分类</Name>
+            </BasedataFormAp>
+            <FieldAp action="edit" oid="rOx6ZSZZm5MXkPwd0c">
+              <Name>分类说明</Name>
+            </FieldAp>
+            <FlexPanelAp action="edit" oid="LL4BVAnADa">
+              <ParentId>PxNfkkak4s</ParentId>
+            </FlexPanelAp>
+          </Items>
+        </FormMetadata>
+      </DataXml>
+      <Name>指标用途分类</Name>
+      <Id>4=XC5DD5T0=/</Id>
+      <LocaleId>en_US</LocaleId>
+    </DesignFormMetaL>
+    <DesignEntityMetaL>
+      <Number>tdkw_usage_category</Number>
+      <PkId>4DA0KN0Q9AEV</PkId>
+      <DataXml>
+        <EntityMetadata>
+          <Name>指标用途分类</Name>
+          <Items>
+            <BaseEntity action="edit" oid="1942c188000066ac">
+              <Name>指标用途分类</Name>
+            </BaseEntity>
+            <TextField action="edit" oid="rOx6ZSZZm5MXkPwd0c">
+              <Name>分类说明</Name>
+            </TextField>
+          </Items>
+        </EntityMetadata>
+      </DataXml>
+      <Name>指标用途分类</Name>
+      <Id>4=XC5DD5T0=/</Id>
+      <LocaleId>en_US</LocaleId>
+    </DesignEntityMetaL>
+  </DesignMetas>
+  <Version>1726128140375</Version>
+  <BOSVersion>1.0</BOSVersion>
+</DeployMetadata>

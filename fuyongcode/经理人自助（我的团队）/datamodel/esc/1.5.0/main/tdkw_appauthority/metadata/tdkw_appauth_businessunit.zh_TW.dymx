@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DeployMetadata>
+  <MasterId>3D/UG1EB6JN2</MasterId>
+  <Id>3D/UG1EB6JN2</Id>
+  <DesignMetas>
+    <DesignFormMetaL>
+      <Number>tdkw_appauth_businessunit</Number>
+      <PkId>4CO0=B7AMQMC</PkId>
+      <DataXml>
+        <FormMetadata>
+          <Items>
+            <BasedataFormAp action="edit" oid="1942c188000064ac">
+              <ListMeta>
+                <FormMetadata>
+                  <Items>
+                    <ListColumnAp action="edit" oid="3D4G47ON17AA">
+                      <Name>經理人</Name>
+                    </ListColumnAp>
+                    <ListColumnAp action="edit" oid="3D4G4CIWZI8=">
+                      <Name>崗位</Name>
+                    </ListColumnAp>
+                  </Items>
+                </FormMetadata>
+              </ListMeta>
+            </BasedataFormAp>
+            <AdvConBarItemAp action="edit" oid="u1N2qVk1Ia">
+              <Name>新增分錄</Name>
+            </AdvConBarItemAp>
+            <AdvConBarItemAp action="edit" oid="lNDJp65g2y">
+              <Name>刪除分錄</Name>
+            </AdvConBarItemAp>
+            <EntryAp action="edit" oid="gI1d1ZSpeJ">
+              <Name>單據體</Name>
+            </EntryAp>
+            <FieldAp action="edit" oid="yAI1gtFJAo">
+              <Name>經理人</Name>
+            </FieldAp>
+            <FieldAp action="edit" oid="50z23Ew7H4">
+              <Name>崗位</Name>
+            </FieldAp>
+            <FieldAp action="edit" oid="j8nOiBkYji">
+              <Name>角色協作類型</Name>
+            </FieldAp>
+            <FieldAp action="edit" oid="xN2fZZKA73">
+              <Name>是否離職前最新任職</Name>
+            </FieldAp>
+            <FieldAp action="edit" oid="IQ02yVScVt">
+              <Name>僅查看直屬下屬</Name>
+            </FieldAp>
+            <FieldAp action="edit" oid="vzOJ2rP4f0xOlrKXsf">
+              <Name>我的崗位</Name>
+            </FieldAp>
+            <FieldAp action="edit" oid="j0eN6nNVfs">
+              <Name>職層</Name>
+            </FieldAp>
+            <FieldAp action="edit" oid="M9QiBipoNg">
+              <Name>掛靠行政組織</Name>
+            </FieldAp>
+            <FieldAp action="edit" oid="mcHHPiqgrXtZb2V3XY">
+              <Name>職層</Name>
+            </FieldAp>
+            <FieldAp action="edit" oid="SsPP7OQj1HrCVUmHuh">
+              <Name>目標執行計畫名稱</Name>
+            </FieldAp>
+            <FieldAp action="edit" oid="HM94KmCTip37GpdomL">
+              <Name>操作</Name>
+            </FieldAp>
+            <BarItemAp action="edit" oid="SH98tIb3Zb">
+              <Name>測試列印</Name>
+            </BarItemAp>
+            <AdvConAp action="edit" oid="ttYKjurWTy">
+              <Name>人員下級明細</Name>
+            </AdvConAp>
+            <EntryFieldAp action="edit" oid="ccMBVlmfq1">
+              <Name>下屬</Name>
+            </EntryFieldAp>
+            <EntryFieldAp action="edit" oid="HCwl1mgVkV">
+              <Name>頭像</Name>
+            </EntryFieldAp>
+            <EntryFieldAp action="edit" oid="EMahWX1Yk5">
+              <Name>手機號碼</Name>
+            </EntryFieldAp>
+            <EntryFieldAp action="edit" oid="E7dvlZhDb5">
+              <Name>郵箱</Name>
+            </EntryFieldAp>
+            <EntryFieldAp action="edit" oid="ArOtRJyMHl">
+              <Name>所屬部門</Name>
+            </EntryFieldAp>
+            <EntryFieldAp action="edit" oid="cOHnmqLHkt">
+              <Name>所屬崗位</Name>
+            </EntryFieldAp>
+            <EntryFieldAp action="edit" oid="3bbz6vgvn2">
+              <Name>所屬公司</Name>
+            </EntryFieldAp>
+            <EntryFieldAp action="edit" oid="TXuKR25LTD">
+              <Name>是否離職前最新任職</Name>
+            </EntryFieldAp>
+            <EntryFieldAp action="edit" oid="RS855Gb9J5Nm8Jdq7l">
+              <Name>排序號</Name>
+            </EntryFieldAp>
+            <AdvConSummaryPanelAp action="edit" oid="bjY6GhGz0S">
+              <Name>高級面板摘要容器</Name>
+            </AdvConSummaryPanelAp>
+            <AdvConToolbarAp action="edit" oid="648m7OcciY">
+              <Name>高級面板工具欄</Name>
+            </AdvConToolbarAp>
+            <AdvConChildPanelAp action="edit" oid="B3Yn61k3cX">
+              <Name>高級面板子容器</Name>
+            </AdvConChildPanelAp>
+          </Items>
+        </FormMetadata>
+      </DataXml>
+      <Name>基礎資料模板</Name>
+      <Id>3D/UG1EB6JN2</Id>
+      <LocaleId>zh_TW</LocaleId>
+    </DesignFormMetaL>
+    <DesignEntityMetaL>
+      <Number>tdkw_appauth_businessunit</Number>
+      <PkId>4CO0=BD3D44U</PkId>
+      <DataXml>
+        <EntityMetadata>
+          <Items>
+            <BaseEntity action="edit" oid="1942c188000066ac">
+              <Operations>
+                <Operation action="edit" oid="3G15ZAWEQTK3">
+                  <Name>刪除分錄</Name>
+                </Operation>
+                <Operation action="edit" oid="3G16/4JOE=9O">
+                  <Name>新增分錄</Name>
+                </Operation>
+                <Operation action="edit" oid="3VJR2S/56NMM">
+                  <Name>查看歷史目標</Name>
+                </Operation>
+              </Operations>
+            </BaseEntity>
+            <BasedataField action="edit" oid="yAI1gtFJAo">
+              <Name>經理人</Name>
+            </BasedataField>
+            <EntryEntity action="edit" oid="gI1d1ZSpeJ">
+              <Name>單據體</Name>
+            </EntryEntity>
+            <BasedataField action="edit" oid="ccMBVlmfq1">
+              <Name>下屬</Name>
+            </BasedataField>
+            <BasedataField action="edit" oid="50z23Ew7H4">
+              <Name>崗位</Name>
+            </BasedataField>
+            <PictureField action="edit" oid="HCwl1mgVkV">
+              <Name>頭像</Name>
+            </PictureField>
+            <TelephoneField action="edit" oid="EMahWX1Yk5">
+              <Name>手機號碼</Name>
+            </TelephoneField>
+            <TextField action="edit" oid="E7dvlZhDb5">
+              <Name>郵箱</Name>
+            </TextField>
+            <BasedataField action="edit" oid="ArOtRJyMHl">
+              <Name>所屬部門</Name>
+            </BasedataField>
+            <BasedataField action="edit" oid="cOHnmqLHkt">
+              <Name>所屬崗位</Name>
+            </BasedataField>
+            <BasedataField action="edit" oid="j8nOiBkYji">
+              <Name>角色協作類型</Name>
+            </BasedataField>
+            <BasedataField action="edit" oid="3bbz6vgvn2">
+              <Name>所屬公司</Name>
+            </BasedataField>
+            <CheckBoxField action="edit" oid="xN2fZZKA73">
+              <Name>是否離職前最新任職</Name>
+            </CheckBoxField>
+            <CheckBoxField action="edit" oid="TXuKR25LTD">
+              <Name>是否離職前最新任職</Name>
+            </CheckBoxField>
+            <CheckBoxField action="edit" oid="IQ02yVScVt">
+              <Name>僅查看直屬下屬</Name>
+            </CheckBoxField>
+            <ComboField action="edit" oid="vzOJ2rP4f0xOlrKXsf">
+              <Name>我的崗位</Name>
+            </ComboField>
+            <BasedataField action="edit" oid="M9QiBipoNg">
+              <Name>掛靠行政組織</Name>
+            </BasedataField>
+            <BasedataField action="edit" oid="j0eN6nNVfs">
+              <Name>職層</Name>
+            </BasedataField>
+            <TextField action="edit" oid="mcHHPiqgrXtZb2V3XY">
+              <Name>職層</Name>
+            </TextField>
+            <TextField action="edit" oid="SsPP7OQj1HrCVUmHuh">
+              <Name>目標執行計畫名稱</Name>
+            </TextField>
+            <TextField action="edit" oid="HM94KmCTip37GpdomL">
+              <Name>操作</Name>
+            </TextField>
+            <TextField action="edit" oid="RS855Gb9J5Nm8Jdq7l">
+              <Name>排序號</Name>
+            </TextField>
+          </Items>
+        </EntityMetadata>
+      </DataXml>
+      <Name>基礎資料模板</Name>
+      <Id>3D/UG1EB6JN2</Id>
+      <LocaleId>zh_TW</LocaleId>
+    </DesignEntityMetaL>
+  </DesignMetas>
+  <Version>1760060864277</Version>
+  <BOSVersion>1.0</BOSVersion>
+</DeployMetadata>

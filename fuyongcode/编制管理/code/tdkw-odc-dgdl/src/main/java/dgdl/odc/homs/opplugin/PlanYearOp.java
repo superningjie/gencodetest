@@ -1,0 +1,28 @@
+package dgdl.odc.homs.opplugin;
+
+import dgdl.odc.homs.validator.PlanYearSaveValidator;
+import kd.bos.entity.plugin.AbstractOperationServicePlugIn;
+import kd.bos.entity.plugin.AddValidatorsEventArgs;
+import kd.bos.entity.plugin.PreparePropertysEventArgs;
+
+/**
+ * 年度编制计划保存校验
+ *
+ * @version 1.0
+ * @author: yaoshuai
+ * @date:2023/12/26
+ */
+public class PlanYearOp extends AbstractOperationServicePlugIn {
+
+    @Override
+    public void onPreparePropertys(PreparePropertysEventArgs e) {
+        super.onPreparePropertys(e);
+        e.getFieldKeys().add("dgdl_org");
+    }
+
+    @Override
+    public void onAddValidators(AddValidatorsEventArgs e) {
+        super.onAddValidators(e);
+        e.addValidator(new PlanYearSaveValidator());
+    }
+}

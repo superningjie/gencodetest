@@ -1,0 +1,8 @@
+\1.5.0\main\tdkw_haos_ext\metadata\tdkw_bzchange_request.dym
+\1.5.0\main\tdkw_haos_ext\metadata\tdkw_bzchange_request.zh_CN.dymx
+\1.5.0\main\tdkw_haos_ext\metadata\tdkw_bzxxtemplate.dym
+\1.5.0\main\tdkw_haos_ext\metadata\tdkw_bzxxtemplate.zh_CN.dymx
+\1.5.0\main\tdkw_haos_ext\metadata\tdkw_haos_ext.app
+\1.5.0\main\tdkw_haos_ext\metadata\tdkw_haos_ext.zh_CN.appx
+\1.5.0\main\tdkw_haos_ext\tdkw_haos_ext.xml
+\datamodel.xml

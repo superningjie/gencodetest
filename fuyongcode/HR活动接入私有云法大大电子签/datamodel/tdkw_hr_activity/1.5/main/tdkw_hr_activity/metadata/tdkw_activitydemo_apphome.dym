@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DeployMetadata>
+  <Multilanguage>false</Multilanguage>
+  <MasterId>4CHFD+WP4U5=</MasterId>
+  <BizappId>4CHFD+7332QW</BizappId>
+  <Id>4CHFD+WP4U5=</Id>
+  <DesignMetas>
+    <DesignFormMeta>
+      <DevType>0</DevType>
+      <ModifyDate>1725341988036</ModifyDate>
+      <DataXml>
+        <FormMetadata>
+          <Isv>tdkw</Isv>
+          <Id>4CHFD+WP4U5=</Id>
+          <Key>tdkw_activitydemo_apphome</Key>
+          <EntityId>4CHFD+WP4U5=</EntityId>
+          <ParentId>/8T+06O/GOEH</ParentId>
+          <BizappId>4CHFD+7332QW</BizappId>
+          <Name>活动案例_应用首页</Name>
+          <InheritPath>/8T+06O/GOEH</InheritPath>
+          <Items>
+            <FormAp action="edit" oid="/8T+06O/H6M6">
+              <Id>4CHFD+WP4U5=</Id>
+              <Name>活动案例_应用首页</Name>
+              <Key>tdkw_activitydemo_apphome</Key>
+            </FormAp>
+          </Items>
+        </FormMetadata>
+      </DataXml>
+      <ModifierId>2027699484829418496</ModifierId>
+      <EntityId>4CHFD+WP4U5=</EntityId>
+      <ModelType>DynamicFormModel</ModelType>
+      <Isv>tdkw</Isv>
+      <Version>1725341988036</Version>
+      <ParentId>/8T+06O/GOEH</ParentId>
+      <MasterId></MasterId>
+      <Number>tdkw_activitydemo_apphome</Number>
+      <BizappId>4CHFD+7332QW</BizappId>
+      <IsvSign></IsvSign>
+      <Id>4CHFD+WP4U5=</Id>
+      <InheritPath>/8T+06O/GOEH</InheritPath>
+    </DesignFormMeta>
+    <DesignEntityMeta>
+      <DevType>0</DevType>
+      <ModifyDate>1725341988055</ModifyDate>
+      <DataXml>
+        <EntityMetadata>
+          <Isv>tdkw</Isv>
+          <Id>4CHFD+WP4U5=</Id>
+          <ParentId>/8T+06O/GOEH</ParentId>
+          <BizappId>4CHFD+7332QW</BizappId>
+          <Name>活动案例_应用首页</Name>
+          <InheritPath>/8T+06O/GOEH</InheritPath>
+          <Items>
+            <MainEntity action="edit" oid="/8T+06O6R0/7">
+              <Template action="reset"/>
+              <dbRoute>secd</dbRoute>
+              <Id>4CHFD+WP4U5=</Id>
+              <Key>tdkw_activitydemo_apphome</Key>
+              <Name>活动案例_应用首页</Name>
+            </MainEntity>
+          </Items>
+        </EntityMetadata>
+      </DataXml>
+      <ModelType>DynamicFormModel</ModelType>
+      <Isv>tdkw</Isv>
+      <Version>1725341988055</Version>
+      <ParentId>/8T+06O/GOEH</ParentId>
+      <MasterId></MasterId>
+      <Number>tdkw_activitydemo_apphome</Number>
+      <BizappId>4CHFD+7332QW</BizappId>
+      <Id>4CHFD+WP4U5=</Id>
+      <InheritPath>/8T+06O/GOEH</InheritPath>
+    </DesignEntityMeta>
+  </DesignMetas>
+  <Version>1725341988036</Version>
+  <BOSVersion>1.0</BOSVersion>
+  <BizunitId>4CHFD+9B41C6</BizunitId>
+</DeployMetadata>

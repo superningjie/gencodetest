@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DeployMetadata>
+  <MasterId>4B/PB=6MLYC+</MasterId>
+  <Id>4B/PB=6MLYC+</Id>
+  <DesignMetas>
+    <DesignFormMetaL>
+      <Number>tdkw_inner_area</Number>
+      <PkId>54BJKK0GBIS6</PkId>
+      <DataXml>
+        <FormMetadata/>
+      </DataXml>
+      <Name>区域内嵌页面</Name>
+      <Id>4B/PB=6MLYC+</Id>
+      <LocaleId>zh_CN</LocaleId>
+    </DesignFormMetaL>
+    <DesignEntityMetaL>
+      <Number>tdkw_inner_area</Number>
+      <PkId>54BJKK6SXR6T</PkId>
+      <DataXml>
+        <EntityMetadata/>
+      </DataXml>
+      <Name>区域内嵌页面</Name>
+      <Id>4B/PB=6MLYC+</Id>
+      <LocaleId>zh_CN</LocaleId>
+    </DesignEntityMetaL>
+  </DesignMetas>
+  <Version>1754307730152</Version>
+  <BOSVersion>1.0</BOSVersion>
+</DeployMetadata>

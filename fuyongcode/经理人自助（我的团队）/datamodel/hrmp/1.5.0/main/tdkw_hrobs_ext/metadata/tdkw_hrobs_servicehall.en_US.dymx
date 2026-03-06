@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DeployMetadata>
+  <MasterId>3E6MPGREUEQB</MasterId>
+  <Id>3E6MPGREUEQB</Id>
+  <DesignMetas>
+    <DesignFormMetaL>
+      <Number>tdkw_hrobs_servicehall</Number>
+      <PkId>3GOZS2WNCPXN</PkId>
+      <DataXml>
+        <FormMetadata>
+          <Items>
+            <LabelAp action="edit" oid="BaR13Q6tIO">
+              <Name>更多 &gt;</Name>
+            </LabelAp>
+          </Items>
+        </FormMetadata>
+      </DataXml>
+      <Name>PC_Custom Card Template</Name>
+      <Id>3E6MPGREUEQB</Id>
+      <LocaleId>en_US</LocaleId>
+    </DesignFormMetaL>
+    <DesignEntityMetaL>
+      <Number>tdkw_hrobs_servicehall</Number>
+      <PkId>3GOZS2XH/GAI</PkId>
+      <DataXml>
+        <EntityMetadata/>
+      </DataXml>
+      <Name>PC_Custom Card Template</Name>
+      <Id>3E6MPGREUEQB</Id>
+      <LocaleId>en_US</LocaleId>
+    </DesignEntityMetaL>
+  </DesignMetas>
+  <Version>1691564750834</Version>
+  <BOSVersion>1.0</BOSVersion>
+</DeployMetadata>

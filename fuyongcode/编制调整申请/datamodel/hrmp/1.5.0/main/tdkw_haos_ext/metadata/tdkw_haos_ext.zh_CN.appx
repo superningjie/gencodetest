@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DeployAppMetadata>
+  <MasterId>W11R1282DJK</MasterId>
+  <Id>4FQ3K/XTFP3M</Id>
+  <DesignMetas>
+    <DesignAppMetaL>
+      <PkId>4FQ3K0425ML/</PkId>
+      <DataXml>
+        <AppMetadata/>
+      </DataXml>
+      <Name>HR基础组织</Name>
+      <Description>维护行政组织、项目团队等组织信息</Description>
+      <Id>4FQ3K/XTFP3M</Id>
+      <LocaleId>zh_CN</LocaleId>
+    </DesignAppMetaL>
+  </DesignMetas>
+  <BOSVersion>1.0</BOSVersion>
+</DeployAppMetadata>

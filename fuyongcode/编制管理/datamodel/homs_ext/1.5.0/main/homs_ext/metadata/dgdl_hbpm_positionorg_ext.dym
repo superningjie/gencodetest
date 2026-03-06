@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DeployMetadata>
+  <Multilanguage>false</Multilanguage>
+  <MasterId>3KETR0=/0EFM</MasterId>
+  <BizappId>4E/7AN1DAFA1</BizappId>
+  <Id>4/8DXP=HVJ7=</Id>
+  <DesignMetas>
+    <DesignFormMeta>
+      <DevType>2</DevType>
+      <ModifyDate>1730282584882</ModifyDate>
+      <DataXml>
+        <FormMetadata>
+          <DevType>2</DevType>
+          <Isv>tdkw</Isv>
+          <Id>4/8DXP=HVJ7=</Id>
+          <Key>dgdl_hbpm_positionorg_ext</Key>
+          <EntityId>4/8DXP=HVJ7=</EntityId>
+          <ParentId>3KETR0=/0EFM</ParentId>
+          <MasterId>3KETR0=/0EFM</MasterId>
+          <BizappId>4E/7AN1DAFA1</BizappId>
+          <InheritPath>2B9=DMZVK591,3KETR0=/0EFM</InheritPath>
+          <Items>
+            <FormAp action="edit" oid="2B9=DMZVI/3/">
+              <Plugins>
+                <Plugin>
+                  <FPK/>
+                  <Description>树插件</Description>
+                  <ClassName>dgdl.odc.homs.listPlugin.PlanMonthTreeListPlugin</ClassName>
+                  <Enabled>true</Enabled>
+                  <BizAppId/>
+                  <RowKey>1</RowKey>
+                </Plugin>
+              </Plugins>
+              <Id>4/8DXP=HVJ7=</Id>
+              <Key>dgdl_hbpm_positionorg_ext</Key>
+            </FormAp>
+            <FlexPanelAp action="edit" oid="lSvRTldtZh">
+              <Invisible>true</Invisible>
+            </FlexPanelAp>
+            <FlexPanelAp action="edit" oid="d9jO3fpQxO">
+              <Invisible>true</Invisible>
+            </FlexPanelAp>
+          </Items>
+        </FormMetadata>
+      </DataXml>
+      <ModifierId>2027699484829418496</ModifierId>
+      <EntityId>4/8DXP=HVJ7=</EntityId>
+      <ModelType>DynamicFormModel</ModelType>
+      <Isv>tdkw</Isv>
+      <Version>1730282584882</Version>
+      <ParentId>3KETR0=/0EFM</ParentId>
+      <MasterId>3KETR0=/0EFM</MasterId>
+      <Number>dgdl_hbpm_positionorg_ext</Number>
+      <BizappId>4E/7AN1DAFA1</BizappId>
+      <IsvSign>XlGHsxTeHiEQjQHdc2G25zTgVnf/Yh476xv3JTaHZDk+H52exOGf03awBWWCDfjNT+hD/bcCF5CUmZRMruKBTrDVtbZz+JMp17ajO0eMC8AF3uWyt6L2I4n3rupgEY9EBX4y5Ba+ObtskHlw+bt6zgRtySoaJGcrR5bFpZlwGhU=</IsvSign>
+      <Id>4/8DXP=HVJ7=</Id>
+      <InheritPath>2B9=DMZVK591,3KETR0=/0EFM</InheritPath>
+    </DesignFormMeta>
+    <DesignEntityMeta>
+      <DevType>2</DevType>
+      <ModifyDate>1730282584942</ModifyDate>
+      <DataXml>
+        <EntityMetadata>
+          <DevType>2</DevType>
+          <Isv>tdkw</Isv>
+          <Id>4/8DXP=HVJ7=</Id>
+          <ParentId>3KETR0=/0EFM</ParentId>
+          <MasterId>3KETR0=/0EFM</MasterId>
+          <BizappId>4E/7AN1DAFA1</BizappId>
+          <InheritPath>2B9=DMZVK591,3KETR0=/0EFM</InheritPath>
+          <Items>
+            <MainEntity action="edit" oid="2B9=DN+E9H92">
+              <Id>4/8DXP=HVJ7=</Id>
+              <Key>dgdl_hbpm_positionorg_ext</Key>
+            </MainEntity>
+          </Items>
+        </EntityMetadata>
+      </DataXml>
+      <ModelType>DynamicFormModel</ModelType>
+      <Isv>tdkw</Isv>
+      <Version>1730282584942</Version>
+      <ParentId>3KETR0=/0EFM</ParentId>
+      <MasterId>3KETR0=/0EFM</MasterId>
+      <Number>dgdl_hbpm_positionorg_ext</Number>
+      <BizappId>4E/7AN1DAFA1</BizappId>
+      <Id>4/8DXP=HVJ7=</Id>
+      <InheritPath>2B9=DMZVK591,3KETR0=/0EFM</InheritPath>
+    </DesignEntityMeta>
+  </DesignMetas>
+  <Version>1730282584882</Version>
+  <BOSVersion>1.0</BOSVersion>
+  <BizunitId>4HKZ/X71T/VS</BizunitId>
+</DeployMetadata>

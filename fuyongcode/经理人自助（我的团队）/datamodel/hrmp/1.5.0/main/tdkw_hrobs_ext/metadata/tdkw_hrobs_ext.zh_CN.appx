@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DeployAppMetadata>
+  <MasterId>2W6FZY1I61I+</MasterId>
+  <Id>3==6P77F4X8W</Id>
+  <DesignMetas>
+    <DesignAppMetaL>
+      <PkId>4K2DU=P9+F2W</PkId>
+      <DataXml>
+        <AppMetadata/>
+      </DataXml>
+      <Name>HR运营基础服务</Name>
+      <Description>HR运营服务的公共配置及基础资料</Description>
+      <Id>3==6P77F4X8W</Id>
+      <LocaleId>zh_CN</LocaleId>
+    </DesignAppMetaL>
+  </DesignMetas>
+  <BOSVersion>1.0</BOSVersion>
+</DeployAppMetadata>

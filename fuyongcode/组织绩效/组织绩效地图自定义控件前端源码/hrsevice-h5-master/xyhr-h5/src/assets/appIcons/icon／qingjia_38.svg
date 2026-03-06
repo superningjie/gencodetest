@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="38px" height="38px" viewBox="0 0 38 38" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>icon/qingjia_38</title>
+    <defs>
+        <filter id="filter-1">
+            <feColorMatrix in="SourceGraphic" type="matrix" values="0 0 0 0 1.000000 0 0 0 0 1.000000 0 0 0 0 1.000000 0 0 0 1.000000 0"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="2-工作台首页" transform="translate(-25.000000, -198.000000)">
+            <g id="icon/qingjia_38" transform="translate(25.000000, 198.000000)">
+                <rect id="矩形" fill="#D0332F" x="1" y="1" width="36" height="36" rx="8"></rect>
+                <g filter="url(#filter-1)" id="qingjia">
+                    <g transform="translate(9.000000, 9.000000)">
+                        <path d="M10,0 C15.5228475,0 20,4.4771525 20,10 C20,15.5228475 15.5228475,20 10,20 C4.4771525,20 0,15.5228475 0,10 C0,4.4771525 4.4771525,0 10,0 Z M9.375,5 C8.74128146,5.0000836 8.20789506,5.47438389 8.13375,6.10375 L8.125,6.25 L8.125,11.25 C8.125,11.9403559 8.68464406,12.5 9.375,12.5 L14.375,12.5 C15.0653559,12.5 15.625,11.9403559 15.625,11.25 C15.625,10.5596441 15.0653559,10 14.375,10 L10.625,10 L10.625,6.25 C10.625,5.55964406 10.0653559,5 9.375,5 Z" id="形状" fill="#000000" fill-rule="nonzero"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

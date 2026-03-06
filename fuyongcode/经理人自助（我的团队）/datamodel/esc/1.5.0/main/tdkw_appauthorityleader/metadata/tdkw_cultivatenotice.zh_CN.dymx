@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DeployMetadata>
+  <MasterId>3EWTZ8MB1Q0Z</MasterId>
+  <Id>3EWTZ8MB1Q0Z</Id>
+  <DesignMetas>
+    <DesignFormMetaL>
+      <Number>tdkw_cultivatenotice</Number>
+      <PkId>3FBC2KZ=5AIT</PkId>
+      <DataXml>
+        <FormMetadata/>
+      </DataXml>
+      <Name>领导自助-培训看板移动端</Name>
+      <Id>3EWTZ8MB1Q0Z</Id>
+      <LocaleId>zh_CN</LocaleId>
+    </DesignFormMetaL>
+    <DesignEntityMetaL>
+      <Number>tdkw_cultivatenotice</Number>
+      <PkId>3FBC2L+H=QPQ</PkId>
+      <DataXml>
+        <EntityMetadata/>
+      </DataXml>
+      <Name>领导自助-培训看板移动端</Name>
+      <Id>3EWTZ8MB1Q0Z</Id>
+      <LocaleId>zh_CN</LocaleId>
+    </DesignEntityMetaL>
+  </DesignMetas>
+  <Version>1690255760218</Version>
+  <BOSVersion>1.0</BOSVersion>
+</DeployMetadata>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DeployMetadata>
+  <MasterId>4767BPZ8V5O6</MasterId>
+  <Id>4767BPZ8V5O6</Id>
+  <DesignMetas>
+    <DesignFormMetaL>
+      <Number>tdkw_talentkanban</Number>
+      <PkId>4767BQ1X4XMK</PkId>
+      <DataXml>
+        <FormMetadata/>
+      </DataXml>
+      <Name>领导自助-人才看板</Name>
+      <Id>4767BPZ8V5O6</Id>
+      <LocaleId>zh_CN</LocaleId>
+    </DesignFormMetaL>
+    <DesignEntityMetaL>
+      <Number>tdkw_talentkanban</Number>
+      <PkId>4767BQ3D5KD0</PkId>
+      <DataXml>
+        <EntityMetadata/>
+      </DataXml>
+      <Name>领导自助-人才看板</Name>
+      <Id>4767BPZ8V5O6</Id>
+      <LocaleId>zh_CN</LocaleId>
+    </DesignEntityMetaL>
+  </DesignMetas>
+  <Version>1719215164526</Version>
+  <BOSVersion>1.0</BOSVersion>
+</DeployMetadata>

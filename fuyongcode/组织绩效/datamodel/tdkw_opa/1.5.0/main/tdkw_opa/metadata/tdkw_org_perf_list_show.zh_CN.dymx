@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DeployMetadata>
+  <MasterId>4B5PG/OIG7FK</MasterId>
+  <Id>4B5PG/OIG7FK</Id>
+  <DesignMetas>
+    <DesignFormMetaL>
+      <Number>tdkw_org_perf_list_show</Number>
+      <PkId>4BBX/00T4QGS</PkId>
+      <DataXml>
+        <FormMetadata/>
+      </DataXml>
+      <Name>组织绩效指标列表</Name>
+      <Id>4B5PG/OIG7FK</Id>
+      <LocaleId>zh_CN</LocaleId>
+    </DesignFormMetaL>
+    <DesignEntityMetaL>
+      <Number>tdkw_org_perf_list_show</Number>
+      <PkId>4BBX/03073A3</PkId>
+      <DataXml>
+        <EntityMetadata/>
+      </DataXml>
+      <Name>组织绩效指标列表</Name>
+      <Id>4B5PG/OIG7FK</Id>
+      <LocaleId>zh_CN</LocaleId>
+    </DesignEntityMetaL>
+  </DesignMetas>
+  <Version>1724233521041</Version>
+  <BOSVersion>1.0</BOSVersion>
+</DeployMetadata>

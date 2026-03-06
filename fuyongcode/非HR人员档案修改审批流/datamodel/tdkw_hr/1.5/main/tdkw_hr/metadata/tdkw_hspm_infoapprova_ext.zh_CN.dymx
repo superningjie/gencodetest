@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DeployMetadata>
+  <MasterId>2BWX=EPWXPRK</MasterId>
+  <Id>44ZIS3TPRQ8F</Id>
+  <DesignMetas>
+    <DesignFormMetaL>
+      <Number>tdkw_hspm_infoapprova_ext</Number>
+      <PkId>4ID0YZBC1ABE</PkId>
+      <DataXml>
+        <FormMetadata/>
+      </DataXml>
+      <Name>人员档案信息变更申请</Name>
+      <Id>44ZIS3TPRQ8F</Id>
+      <LocaleId>zh_CN</LocaleId>
+    </DesignFormMetaL>
+    <DesignEntityMetaL>
+      <Number>tdkw_hspm_infoapprova_ext</Number>
+      <PkId>4ID0YZG=8=WB</PkId>
+      <DataXml>
+        <EntityMetadata/>
+      </DataXml>
+      <Name>人员档案信息变更申请</Name>
+      <Id>44ZIS3TPRQ8F</Id>
+      <LocaleId>zh_CN</LocaleId>
+    </DesignEntityMetaL>
+  </DesignMetas>
+  <Version>1731055081780</Version>
+  <BOSVersion>1.0</BOSVersion>
+</DeployMetadata>

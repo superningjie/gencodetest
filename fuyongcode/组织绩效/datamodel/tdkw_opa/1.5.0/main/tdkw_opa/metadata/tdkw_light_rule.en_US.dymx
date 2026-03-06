@@ -1,0 +1,318 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DeployMetadata>
+  <MasterId>4CDO/DRATVX6</MasterId>
+  <Id>4CDO/DRATVX6</Id>
+  <DesignMetas>
+    <DesignFormMetaL>
+      <Number>tdkw_light_rule</Number>
+      <PkId>4DH/UKIAGGHK</PkId>
+      <DataXml>
+        <FormMetadata>
+          <Name>亮灯规则</Name>
+          <Items>
+            <BasedataFormAp action="edit" oid="1942c188000064ac">
+              <Name>亮灯规则</Name>
+              <ListMeta>
+                <FormMetadata>
+                  <Items>
+                    <ListColumnAp action="edit" oid="4CDPRNHNP0R/">
+                      <Name>创建组织</Name>
+                    </ListColumnAp>
+                    <ListColumnAp action="edit" oid="4CDPSB2PF31H">
+                      <Name>描述</Name>
+                    </ListColumnAp>
+                  </Items>
+                </FormMetadata>
+              </ListMeta>
+            </BasedataFormAp>
+            <EntryAp action="edit" oid="ISSZCKea8g">
+              <Name>指标得分率解释</Name>
+            </EntryAp>
+            <FlexPanelAp action="edit" oid="LUoFlPPmhp">
+              <Name>Flex容器</Name>
+            </FlexPanelAp>
+            <FieldAp action="edit" oid="QhPwXEXMAD">
+              <Name>比较符</Name>
+            </FieldAp>
+            <FieldAp action="edit" oid="KtPc9GRnQh">
+              <Name>比较符</Name>
+            </FieldAp>
+            <AdvConSummaryPanelAp action="edit" oid="ONMis0bGGF">
+              <Name>高级面板摘要容器</Name>
+            </AdvConSummaryPanelAp>
+            <AdvConToolbarAp action="edit" oid="pNgIugpaId">
+              <Name>高级面板工具栏</Name>
+            </AdvConToolbarAp>
+            <AdvConChildPanelAp action="edit" oid="0OMwY7Osuf">
+              <Name>高级面板子容器</Name>
+            </AdvConChildPanelAp>
+            <LabelAp action="edit" oid="2q1Z4F3U1b">
+              <Name>公式</Name>
+            </LabelAp>
+            <FlexPanelAp action="edit" oid="LhYil64xwR">
+              <Name>Flex容器</Name>
+            </FlexPanelAp>
+            <FlexPanelAp action="edit" oid="mVzSjmuOad">
+              <Name>Flex容器</Name>
+            </FlexPanelAp>
+            <LabelAp action="edit" oid="hGSp50m9O3">
+              <Name>%</Name>
+            </LabelAp>
+            <LabelAp action="edit" oid="aHc8kzodAm">
+              <Name>%</Name>
+            </LabelAp>
+            <FieldAp action="edit" oid="OkxHbUgNU9">
+              <Name>比较符</Name>
+            </FieldAp>
+            <FieldAp action="edit" oid="d1VSM30MMT">
+              <Name>比较符</Name>
+            </FieldAp>
+            <LabelAp action="edit" oid="hV6MSeCE56">
+              <Name>得分率</Name>
+            </LabelAp>
+            <LabelAp action="edit" oid="PJ0RhGCaRX">
+              <Name>得分率</Name>
+            </LabelAp>
+            <LabelAp action="edit" oid="Iv5ip7q4lp">
+              <Name>得分率</Name>
+            </LabelAp>
+            <FlexPanelAp action="edit" oid="r74Go1wYLI">
+              <Name>Flex容器-主界面</Name>
+            </FlexPanelAp>
+            <FlexPanelAp action="edit" oid="KtOavA7tM3">
+              <Name>外支撑占位</Name>
+            </FlexPanelAp>
+            <FieldAp action="edit" oid="LHg1h2FSJw">
+              <Name>创建组织</Name>
+            </FieldAp>
+            <FieldAp action="edit" oid="V9ywCD94bM">
+              <Name>描述</Name>
+            </FieldAp>
+            <EntryFieldAp action="edit" oid="2wDhE0hzaY">
+              <Name>指标分制情况</Name>
+            </EntryFieldAp>
+            <EntryFieldAp action="edit" oid="DuojYP31pf">
+              <Name>指标得分率换算方式</Name>
+            </EntryFieldAp>
+            <EntryFieldAp action="edit" oid="dyYD8b4ZX8">
+              <Name>评分示例</Name>
+            </EntryFieldAp>
+            <EntryFieldAp action="edit" oid="Msa9S3o3cE">
+              <Name>指标得分率结果</Name>
+            </EntryFieldAp>
+            <FieldsetPanelAp action="edit" oid="R7hefOXzYb">
+              <Name>系统隐藏字段</Name>
+            </FieldsetPanelAp>
+            <FieldsetPanelAp action="edit" oid="GiNKiVo3sK">
+              <Name>亮灯预警规则设置</Name>
+            </FieldsetPanelAp>
+            <FlexPanelAp action="edit" oid="V92Oy6sNf7">
+              <Name>Flex容器</Name>
+            </FlexPanelAp>
+            <FlexPanelAp action="edit" oid="8rJrBQbcKO">
+              <Name>Flex容器</Name>
+            </FlexPanelAp>
+            <FlexPanelAp action="edit" oid="1nllpgZr8t">
+              <Name>Flex容器</Name>
+            </FlexPanelAp>
+            <FlexPanelAp action="edit" oid="FR0M88062N">
+              <Name>Flex容器</Name>
+            </FlexPanelAp>
+            <FlexPanelAp action="edit" oid="9pwf6u1iUt">
+              <Name>Flex容器</Name>
+            </FlexPanelAp>
+            <FlexPanelAp action="edit" oid="SsRZuDrewx">
+              <Name>Flex容器</Name>
+            </FlexPanelAp>
+            <FlexPanelAp action="edit" oid="apQvLZPVP2">
+              <Name>Flex容器</Name>
+            </FlexPanelAp>
+            <FlexPanelAp action="edit" oid="IX0cW3UQRq">
+              <Name>亮灯预警规则设置</Name>
+            </FlexPanelAp>
+            <AdvConAp action="edit" oid="2aPHeILYtT">
+              <Name>指标得分率解释</Name>
+            </AdvConAp>
+            <FieldAp action="edit" oid="xw5wPVuB9x">
+              <Name>修改人</Name>
+            </FieldAp>
+            <FieldAp action="edit" oid="Tt46N8gjpN">
+              <Name>创建时间</Name>
+            </FieldAp>
+            <FieldAp action="edit" oid="IhtMD9NMZt">
+              <Name>修改时间</Name>
+            </FieldAp>
+            <FieldAp action="edit" oid="XkQN9J0tHa">
+              <Name>红灯预警上限</Name>
+            </FieldAp>
+            <FieldAp action="edit" oid="p253MIDJmE">
+              <Name>黄灯预警上限</Name>
+            </FieldAp>
+            <FlexPanelAp action="edit" oid="2DneiKjiSW">
+              <Name>Flex容器</Name>
+            </FlexPanelAp>
+            <FieldAp action="edit" oid="JwMztXN6Sl">
+              <Name>黄灯预警下限</Name>
+            </FieldAp>
+            <FieldAp action="edit" oid="NCVM70w3Vb">
+              <Name>绿灯预警下限</Name>
+            </FieldAp>
+            <LabelAp action="edit" oid="qL5mmbNNiZ">
+              <Name>%</Name>
+            </LabelAp>
+            <LabelAp action="edit" oid="y9LMzmpwVO">
+              <Name>%</Name>
+            </LabelAp>
+            <FlexPanelAp action="edit" oid="zpelP8p8ej">
+              <Name>Flex容器-左亮灯类型界面</Name>
+            </FlexPanelAp>
+            <FlexPanelAp action="edit" oid="5mN97eRWHY">
+              <Name>Flex容器-右公式界面</Name>
+            </FlexPanelAp>
+            <FlexPanelAp action="edit" oid="0ckQaRfKaq">
+              <Name>内支撑占位</Name>
+            </FlexPanelAp>
+            <LabelAp action="edit" oid="0YksVCieJh">
+              <Name>亮灯类型</Name>
+            </LabelAp>
+            <LabelAp action="edit" oid="8MwDJuboFE">
+              <Name>红灯</Name>
+            </LabelAp>
+            <LabelAp action="edit" oid="dvQogaoLo7">
+              <Name>黄灯</Name>
+            </LabelAp>
+            <LabelAp action="edit" oid="8amqoI4rvg">
+              <Name>绿灯</Name>
+            </LabelAp>
+          </Items>
+        </FormMetadata>
+      </DataXml>
+      <Name>亮灯规则</Name>
+      <Id>4CDO/DRATVX6</Id>
+      <LocaleId>en_US</LocaleId>
+    </DesignFormMetaL>
+    <DesignEntityMetaL>
+      <Number>tdkw_light_rule</Number>
+      <PkId>4DH/UL/CTLNZ</PkId>
+      <DataXml>
+        <EntityMetadata>
+          <Name>亮灯规则</Name>
+          <Items>
+            <BaseEntity action="edit" oid="1942c188000066ac">
+              <Rules>
+                <BizRule action="edit" oid="4CDPB26BS33R">
+                  <Description>绿灯左边不为空</Description>
+                </BizRule>
+                <BizRule action="edit" oid="4CDPB26BS4G9">
+                  <Description>黄灯左边不为空</Description>
+                </BizRule>
+              </Rules>
+              <Name>亮灯规则</Name>
+              <Operations>
+                <Operation action="edit" oid="b599405400001aac">
+                  <Validations>
+                    <GrpfieldsuniqueValidation action="edit" oid="4CSG568/YNAG">
+                      <Description>组合字段唯一性校验</Description>
+                    </GrpfieldsuniqueValidation>
+                  </Validations>
+                </Operation>
+              </Operations>
+            </BaseEntity>
+            <ModifierField action="edit" oid="xw5wPVuB9x">
+              <Name>修改人</Name>
+            </ModifierField>
+            <CreateDateField action="edit" oid="Tt46N8gjpN">
+              <Name>创建时间</Name>
+            </CreateDateField>
+            <ModifyDateField action="edit" oid="IhtMD9NMZt">
+              <Name>修改时间</Name>
+            </ModifyDateField>
+            <IntegerField action="edit" oid="JwMztXN6Sl">
+              <Name>黄灯预警下限</Name>
+            </IntegerField>
+            <IntegerField action="edit" oid="NCVM70w3Vb">
+              <Name>绿灯预警下限</Name>
+            </IntegerField>
+            <ComboField action="edit" oid="QhPwXEXMAD">
+              <Name>比较符</Name>
+              <Items>
+                <ComboItem action="edit" oid="1">
+                  <Caption>&lt;</Caption>
+                </ComboItem>
+                <ComboItem action="edit" oid="2">
+                  <Caption>≤</Caption>
+                </ComboItem>
+              </Items>
+            </ComboField>
+            <ComboField action="edit" oid="KtPc9GRnQh">
+              <Name>比较符</Name>
+              <Items>
+                <ComboItem action="edit" oid="1">
+                  <Caption>&lt;</Caption>
+                </ComboItem>
+                <ComboItem action="edit" oid="2">
+                  <Caption>≤</Caption>
+                </ComboItem>
+              </Items>
+            </ComboField>
+            <ComboField action="edit" oid="OkxHbUgNU9">
+              <Name>比较符</Name>
+              <Items>
+                <ComboItem action="edit" oid="1">
+                  <Caption>&lt;</Caption>
+                </ComboItem>
+                <ComboItem action="edit" oid="2">
+                  <Caption>≤</Caption>
+                </ComboItem>
+              </Items>
+            </ComboField>
+            <ComboField action="edit" oid="d1VSM30MMT">
+              <Name>比较符</Name>
+              <Items>
+                <ComboItem action="edit" oid="1">
+                  <Caption>&lt;</Caption>
+                </ComboItem>
+                <ComboItem action="edit" oid="2">
+                  <Caption>≤</Caption>
+                </ComboItem>
+              </Items>
+            </ComboField>
+            <IntegerField action="edit" oid="XkQN9J0tHa">
+              <Name>红灯预警上限</Name>
+            </IntegerField>
+            <IntegerField action="edit" oid="p253MIDJmE">
+              <Name>黄灯预警上限</Name>
+            </IntegerField>
+            <EntryEntity action="edit" oid="ISSZCKea8g">
+              <Name>指标得分率解释</Name>
+            </EntryEntity>
+            <TextField action="edit" oid="2wDhE0hzaY">
+              <Name>指标分制情况</Name>
+            </TextField>
+            <TextField action="edit" oid="DuojYP31pf">
+              <Name>指标得分率换算方式</Name>
+            </TextField>
+            <TextField action="edit" oid="dyYD8b4ZX8">
+              <Name>评分示例</Name>
+            </TextField>
+            <TextField action="edit" oid="Msa9S3o3cE">
+              <Name>指标得分率结果</Name>
+            </TextField>
+            <OrgField action="edit" oid="LHg1h2FSJw">
+              <Name>创建组织</Name>
+            </OrgField>
+            <TextField action="edit" oid="V9ywCD94bM">
+              <Name>描述</Name>
+            </TextField>
+          </Items>
+        </EntityMetadata>
+      </DataXml>
+      <Name>亮灯规则</Name>
+      <Id>4CDO/DRATVX6</Id>
+      <LocaleId>en_US</LocaleId>
+    </DesignEntityMetaL>
+  </DesignMetas>
+  <Version>1726301841234</Version>
+  <BOSVersion>1.0</BOSVersion>
+</DeployMetadata>

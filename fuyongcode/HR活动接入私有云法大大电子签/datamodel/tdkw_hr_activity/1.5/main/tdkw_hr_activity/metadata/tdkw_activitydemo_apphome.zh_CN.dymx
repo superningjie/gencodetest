@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DeployMetadata>
+  <MasterId>4CHFD+WP4U5=</MasterId>
+  <Id>4CHFD+WP4U5=</Id>
+  <DesignMetas>
+    <DesignFormMetaL>
+      <Number>tdkw_activitydemo_apphome</Number>
+      <PkId>4CHFD/0JL+ZV</PkId>
+      <DataXml>
+        <FormMetadata/>
+      </DataXml>
+      <Name>活动案例_应用首页</Name>
+      <Id>4CHFD+WP4U5=</Id>
+      <LocaleId>zh_CN</LocaleId>
+    </DesignFormMetaL>
+    <DesignEntityMetaL>
+      <Number>tdkw_activitydemo_apphome</Number>
+      <PkId>4CHFD/27VFRU</PkId>
+      <DataXml>
+        <EntityMetadata/>
+      </DataXml>
+      <Name>活动案例_应用首页</Name>
+      <Id>4CHFD+WP4U5=</Id>
+      <LocaleId>zh_CN</LocaleId>
+    </DesignEntityMetaL>
+  </DesignMetas>
+  <Version>1725341988036</Version>
+  <BOSVersion>1.0</BOSVersion>
+</DeployMetadata>

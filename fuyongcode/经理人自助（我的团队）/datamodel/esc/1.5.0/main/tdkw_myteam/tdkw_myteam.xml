@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataModel dympath="metadata">
+    <!--<SqlScript Type="KSQL" Separator=";" dbkey="sys">preinsdata/kd_1.5.119_tdkw_hspm_ext_reporttask.sql</SqlScript>-->
+    <!--<SqlScript Type="KSQL" Separator=";" dbkey="sys.meta">preinsdata/kd_1.5.120_tdkw_hspm_ext_reporttask.sql</SqlScript>-->
+<!--    <SqlScript Type="KSQL" Separator=";" dbkey="hmp">preinsdata/tk_tdkw_empresumemapping-20230828.sql</SqlScript>-->
+
+
+    <SqlScript Type="KSQL" Separator=";" dbkey="sys">preinsdata/1722581869381321728.sql</SqlScript>
+    <SqlScript Type="KSQL" Separator=";" dbkey="sys">preinsdata/1724044634771970048.sql</SqlScript>
+    <SqlScript Type="KSQL" Separator=";" dbkey="sys">preinsdata/1725996863913507840.sql</SqlScript>
+    <SqlScript Type="KSQL" Separator=";" dbkey="sys">preinsdata/1726846776100611072.sql</SqlScript>
+    <SqlScript Type="KSQL" Separator=";" dbkey="sys">preinsdata/1727741449967033344.sql</SqlScript>
+
+    <SqlScript Type="KSQL" Separator=";" dbkey="sys">preinsdata/1728454858186546176.sql</SqlScript>
+    <SqlScript Type="KSQL" Separator=";" dbkey="sys">preinsdata/1731819192975500288.sql</SqlScript>
+    <SqlScript Type="KSQL" Separator=";" dbkey="sys">preinsdata/1731821375221411840.sql</SqlScript>
+    <SqlScript Type="KSQL" Separator=";" dbkey="sys">preinsdata/1732000007986448384.sql</SqlScript>
+    <SqlScript Type="KSQL" Separator=";" dbkey="sys">preinsdata/1732726106047386624.sql</SqlScript>
+
+    <SqlScript Type="KSQL" Separator=";" dbkey="sys">preinsdata/1737097740506110976.sql</SqlScript>
+    <SqlScript Type="KSQL" Separator=";" dbkey="sys">preinsdata/1738310578386027520.sql</SqlScript>
+    <SqlScript Type="KSQL" Separator=";" dbkey="sys">preinsdata/1744240936738623488.sql</SqlScript>
+    <SqlScript Type="KSQL" Separator=";" dbkey="sys">preinsdata/1744512448540465152.sql</SqlScript>
+    <SqlScript Type="KSQL" Separator=";" dbkey="sys">preinsdata/1745096384769428480.sql</SqlScript>
+
+    <SqlScript Type="KSQL" Separator=";" dbkey="sys">preinsdata/1745102008181976064.sql</SqlScript>
+    <SqlScript Type="KSQL" Separator=";" dbkey="sys">preinsdata/1752067642287579136.sql</SqlScript>
+    <SqlScript Type="KSQL" Separator=";" dbkey="sys">preinsdata/1752096515783957504.sql</SqlScript>
+    <SqlScript Type="KSQL" Separator=";" dbkey="sys">preinsdata/1752096958928912384.sql</SqlScript>
+    <SqlScript Type="KSQL" Separator=";" dbkey="sys">preinsdata/1757368914112695296.sql</SqlScript>
+    <SqlScript Type="KSQL" Separator=";" dbkey="hmp">preinsdata/1103.sql</SqlScript>
+    <SqlScript Type="KSQL" Separator=";" dbkey="sys">tdkw_hspm_ext_task1.sql</SqlScript>
+    <SqlScript Type="KSQL" Separator=";" dbkey="sys.meta">tdkw_hspm_ext_task2.sql</SqlScript>
+
+    <!--  暂时不用建表  -->
+    <!--<SqlScript Type="POSTGRESQL" Separator=";" dbkey="hr">preinsdata/authorityInit_2024_03_06.sql</SqlScript>-->
+</DataModel>

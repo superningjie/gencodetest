@@ -1,0 +1,306 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DeployMetadata>
+  <MasterId>3N27CL5U=H69</MasterId>
+  <Id>3N27CL5U=H69</Id>
+  <DesignMetas>
+    <DesignFormMetaL>
+      <Number>tdkw_myteam_positionson</Number>
+      <PkId>40Z=1QB=Q=M6</PkId>
+      <DataXml>
+        <FormMetadata>
+          <Name>Statement Template</Name>
+          <Items>
+            <FlexPanelAp action="edit" oid="Hvr6yxIcsA">
+              <Name>Flex容器</Name>
+            </FlexPanelAp>
+            <SearchAp action="edit" oid="GdoDBvgrt6">
+              <Name>搜索控件</Name>
+              <SearchEmptyText>输入姓名</SearchEmptyText>
+              <SearchFieldItems>
+                <SearchItem action="edit" oid="tdkw_person.name">
+                  <FieldCaption>姓名</FieldCaption>
+                </SearchItem>
+              </SearchFieldItems>
+            </SearchAp>
+            <FlexPanelAp action="edit" oid="ON9Wz04Wdg">
+              <Name>团队人数</Name>
+            </FlexPanelAp>
+            <FlexPanelAp action="edit" oid="FyBoAlpc0o">
+              <Name>平均司龄</Name>
+            </FlexPanelAp>
+            <FlexPanelAp action="edit" oid="fr5CRhZy8J">
+              <Name>平均年龄</Name>
+            </FlexPanelAp>
+            <LabelAp action="edit" oid="7XIK2Ma6xs">
+              <Name>团队人数</Name>
+            </LabelAp>
+            <FlexPanelAp action="edit" oid="oc9vD3B3uwJF9ZTvIy">
+              <Name>Flex容器</Name>
+            </FlexPanelAp>
+            <FlexPanelAp action="edit" oid="WPsavSa9lh">
+              <Name>Flex容器</Name>
+            </FlexPanelAp>
+            <FlexPanelAp action="edit" oid="TKo7FAXOM6">
+              <Name>Flex容器</Name>
+            </FlexPanelAp>
+            <FlexPanelAp action="edit" oid="Nkhqk6pX5Z">
+              <Name>Flex容器</Name>
+            </FlexPanelAp>
+            <FlexPanelAp action="edit" oid="6oWS8Vr4TH">
+              <Name>Flex容器</Name>
+            </FlexPanelAp>
+            <FieldAp action="edit" oid="oh9MA99euf">
+              <Name>年龄</Name>
+            </FieldAp>
+            <LabelAp action="edit" oid="h11YSndhzu">
+              <Name>——</Name>
+            </LabelAp>
+            <FieldAp action="edit" oid="XaZTQ403l5">
+              <Name>年龄</Name>
+            </FieldAp>
+            <FlexPanelAp action="edit" oid="pRl9NH2KB4tTxCbYxs">
+              <Name>Flex容器</Name>
+            </FlexPanelAp>
+            <LabelAp action="edit" oid="kRwLuY2ORr">
+              <Name>平均年龄</Name>
+            </LabelAp>
+            <FieldAp action="edit" oid="S7cFisSDqw">
+              <Name>职能团队</Name>
+            </FieldAp>
+            <FieldAp action="edit" oid="owEMlAvR3uIm9bRhqi">
+              <Name>名字（隐藏）</Name>
+            </FieldAp>
+            <FlexPanelAp action="edit" oid="z63nujS6ST">
+              <Name>Flex容器</Name>
+            </FlexPanelAp>
+            <FlexPanelAp action="edit" oid="7R4wZwWW0q">
+              <Name>Flex容器</Name>
+            </FlexPanelAp>
+            <FieldAp action="edit" oid="W3pSEy77NU">
+              <Name>工龄</Name>
+            </FieldAp>
+            <LabelAp action="edit" oid="KCcnL5bnJD">
+              <Name>——</Name>
+            </LabelAp>
+            <FieldAp action="edit" oid="yt2kFTpL01">
+              <Name>工龄2</Name>
+            </FieldAp>
+            <LabelAp action="edit" oid="qy6u05gFrh">
+              <Name>平均司龄</Name>
+            </LabelAp>
+            <EntryFieldAp action="edit" oid="XNN3O0G3QD">
+              <Name>姓名</Name>
+            </EntryFieldAp>
+            <EntryFieldAp action="edit" oid="Ltgl3uB2E8">
+              <Name>公司</Name>
+            </EntryFieldAp>
+            <EntryFieldAp action="edit" oid="POTh8GKlqS">
+              <Name>部门</Name>
+            </EntryFieldAp>
+            <EntryFieldAp action="edit" oid="Ck6tYb7SSg">
+              <Name>岗位</Name>
+            </EntryFieldAp>
+            <EntryFieldAp action="edit" oid="UCJbeW2oxg">
+              <Name>年龄</Name>
+            </EntryFieldAp>
+            <EntryFieldAp action="edit" oid="sCXchYOXby">
+              <Name>司龄</Name>
+            </EntryFieldAp>
+            <EntryFieldAp action="edit" oid="VvCBuiXKET">
+              <Name>工龄</Name>
+            </EntryFieldAp>
+            <EntryFieldAp action="edit" oid="0AtVaF05CA">
+              <Name>学历</Name>
+            </EntryFieldAp>
+            <EntryFieldAp action="edit" oid="jrBPZ1m2hF">
+              <Name>学校</Name>
+            </EntryFieldAp>
+            <EntryFieldAp action="edit" oid="eOgmOyfjTUADnokBjw">
+              <Name>学校</Name>
+            </EntryFieldAp>
+            <EntryFieldAp action="edit" oid="YvuQivfHk4">
+              <Name>专业</Name>
+            </EntryFieldAp>
+            <EntryFieldAp action="edit" oid="7Lrn52UKLZMJgy7eSr">
+              <Name>工号</Name>
+            </EntryFieldAp>
+            <LabelAp action="edit" oid="7v2dp1IADv">
+              <Name>0</Name>
+            </LabelAp>
+            <FlexPanelAp action="edit" oid="qCBC22GLlz">
+              <Name>Flex容器</Name>
+            </FlexPanelAp>
+            <FlexPanelAp action="edit" oid="M6CDqCY452">
+              <Name>Flex容器</Name>
+            </FlexPanelAp>
+            <FieldAp action="edit" oid="Gtz5yg1YZB">
+              <Name>姓名</Name>
+            </FieldAp>
+            <FieldAp action="edit" oid="Cn5H5UULal">
+              <Name>是否兼职</Name>
+            </FieldAp>
+            <FlexPanelAp action="edit" oid="uMLek9732q">
+              <Name>Flex容器</Name>
+            </FlexPanelAp>
+            <FlexPanelAp action="edit" oid="QuqHf52UME">
+              <Name>Flex容器</Name>
+            </FlexPanelAp>
+            <FlexPanelAp action="edit" oid="LnOP4T9kIu">
+              <Name>Flex容器</Name>
+            </FlexPanelAp>
+            <FieldAp action="edit" oid="couMWBvwuV">
+              <Name>所属组织</Name>
+            </FieldAp>
+            <FieldAp action="edit" oid="yO7euu8ktx">
+              <Name>领导姓名</Name>
+            </FieldAp>
+            <FieldAp action="edit" oid="gAZVnZI7IU">
+              <Name>学历</Name>
+            </FieldAp>
+            <FieldAp action="edit" oid="vUWfkHu4me">
+              <Name>学校</Name>
+            </FieldAp>
+            <FieldAp action="edit" oid="tf45rYGI3b">
+              <Name>学校</Name>
+            </FieldAp>
+            <FieldAp action="edit" oid="IhYejYFA76">
+              <Name>专业</Name>
+            </FieldAp>
+            <FieldAp action="edit" oid="6efgc3U14n7Qrp3Y5p">
+              <Name>任职类型</Name>
+            </FieldAp>
+            <LabelAp action="edit" oid="2rMlXVIyDO">
+              <Name>0</Name>
+            </LabelAp>
+            <FieldAp action="edit" oid="FLZATg6ZYS">
+              <Name>司龄</Name>
+            </FieldAp>
+            <LabelAp action="edit" oid="URcjt0SetE">
+              <Name>——</Name>
+            </LabelAp>
+            <FieldAp action="edit" oid="84l1eXKMLc">
+              <Name>司龄</Name>
+            </FieldAp>
+            <LabelAp action="edit" oid="Aj5sTXAv3w">
+              <Name>0</Name>
+            </LabelAp>
+          </Items>
+        </FormMetadata>
+      </DataXml>
+      <Name>Statement Template</Name>
+      <Id>3N27CL5U=H69</Id>
+      <LocaleId>en_US</LocaleId>
+    </DesignFormMetaL>
+    <DesignEntityMetaL>
+      <Number>tdkw_myteam_positionson</Number>
+      <PkId>40Z=1QDIR9XR</PkId>
+      <DataXml>
+        <EntityMetadata>
+          <Items>
+            <BasedataField action="edit" oid="XNN3O0G3QD">
+              <Name>姓名</Name>
+            </BasedataField>
+            <BasedataField action="edit" oid="Ck6tYb7SSg">
+              <Name>岗位</Name>
+            </BasedataField>
+            <IntegerField action="edit" oid="UCJbeW2oxg">
+              <Name>年龄</Name>
+            </IntegerField>
+            <DecimalField action="edit" oid="sCXchYOXby">
+              <Name>司龄</Name>
+            </DecimalField>
+            <DecimalField action="edit" oid="VvCBuiXKET">
+              <Name>工龄</Name>
+            </DecimalField>
+            <BasedataField action="edit" oid="0AtVaF05CA">
+              <Name>学历</Name>
+            </BasedataField>
+            <BasedataField action="edit" oid="Ltgl3uB2E8">
+              <Name>公司</Name>
+            </BasedataField>
+            <BasedataField action="edit" oid="POTh8GKlqS">
+              <Name>部门</Name>
+            </BasedataField>
+            <BasedataField action="edit" oid="couMWBvwuV">
+              <Name>所属组织</Name>
+            </BasedataField>
+            <TextField action="edit" oid="Gtz5yg1YZB">
+              <Name>姓名</Name>
+            </TextField>
+            <BasedataField action="edit" oid="yO7euu8ktx">
+              <Name>领导姓名</Name>
+            </BasedataField>
+            <BasedataField action="edit" oid="gAZVnZI7IU">
+              <Name>学历</Name>
+            </BasedataField>
+            <IntegerField action="edit" oid="oh9MA99euf">
+              <Name>年龄</Name>
+            </IntegerField>
+            <IntegerField action="edit" oid="XaZTQ403l5">
+              <Name>年龄</Name>
+            </IntegerField>
+            <DecimalField action="edit" oid="W3pSEy77NU">
+              <Name>工龄</Name>
+            </DecimalField>
+            <DecimalField action="edit" oid="yt2kFTpL01">
+              <Name>工龄2</Name>
+            </DecimalField>
+            <DecimalField action="edit" oid="FLZATg6ZYS">
+              <Name>司龄</Name>
+            </DecimalField>
+            <DecimalField action="edit" oid="84l1eXKMLc">
+              <Name>司龄</Name>
+            </DecimalField>
+            <HisModelBasedataField action="edit" oid="S7cFisSDqw">
+              <Name>职能团队</Name>
+            </HisModelBasedataField>
+            <ComboField action="edit" oid="Cn5H5UULal">
+              <Name>是否兼职</Name>
+              <Items>
+                <ComboItem action="edit" oid="0">
+                  <Caption>否</Caption>
+                </ComboItem>
+                <ComboItem action="edit" oid="1">
+                  <Caption>是</Caption>
+                </ComboItem>
+              </Items>
+            </ComboField>
+            <TextField action="edit" oid="IhYejYFA76">
+              <Name>专业</Name>
+            </TextField>
+            <HisModelBasedataField action="edit" oid="tf45rYGI3b">
+              <Name>学校</Name>
+            </HisModelBasedataField>
+            <BasedataField action="edit" oid="jrBPZ1m2hF">
+              <Name>学校</Name>
+            </BasedataField>
+            <MuliLangTextField action="edit" oid="YvuQivfHk4">
+              <Name>专业</Name>
+            </MuliLangTextField>
+            <TextField action="edit" oid="eOgmOyfjTUADnokBjw">
+              <Name>学校</Name>
+            </TextField>
+            <BasedataPropField action="edit" oid="7Lrn52UKLZMJgy7eSr">
+              <Name>工号</Name>
+            </BasedataPropField>
+            <TextField action="edit" oid="vUWfkHu4me">
+              <Name>学校</Name>
+            </TextField>
+            <MulBasedataField action="edit" oid="6efgc3U14n7Qrp3Y5p">
+              <Name>任职类型</Name>
+            </MulBasedataField>
+            <TextField action="edit" oid="owEMlAvR3uIm9bRhqi">
+              <Name>名字（隐藏）</Name>
+            </TextField>
+          </Items>
+        </EntityMetadata>
+      </DataXml>
+      <Name>Statement Template</Name>
+      <Id>3N27CL5U=H69</Id>
+      <LocaleId>en_US</LocaleId>
+    </DesignEntityMetaL>
+  </DesignMetas>
+  <Version>1761898551554</Version>
+  <BOSVersion>1.0</BOSVersion>
+</DeployMetadata>

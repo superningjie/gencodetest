@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DeployMetadata>
+  <MasterId>3ZX3SNQZWMCO</MasterId>
+  <Id>3ZX3SNQZWMCO</Id>
+  <DesignMetas>
+    <DesignFormMetaL>
+      <Number>dgdl_plancollect4</Number>
+      <PkId>4HL/=PSCYXG3</PkId>
+      <DataXml>
+        <FormMetadata/>
+      </DataXml>
+      <Name>年度编制一一线非一线汇总表</Name>
+      <Id>3ZX3SNQZWMCO</Id>
+      <LocaleId>zh_CN</LocaleId>
+    </DesignFormMetaL>
+    <DesignEntityMetaL>
+      <Number>dgdl_plancollect4</Number>
+      <PkId>4HL/=PUPL9LO</PkId>
+      <DataXml>
+        <EntityMetadata/>
+      </DataXml>
+      <Name>年度编制一一线非一线汇总表</Name>
+      <Id>3ZX3SNQZWMCO</Id>
+      <LocaleId>zh_CN</LocaleId>
+    </DesignEntityMetaL>
+  </DesignMetas>
+  <Version>1730282677633</Version>
+  <BOSVersion>1.0</BOSVersion>
+</DeployMetadata>

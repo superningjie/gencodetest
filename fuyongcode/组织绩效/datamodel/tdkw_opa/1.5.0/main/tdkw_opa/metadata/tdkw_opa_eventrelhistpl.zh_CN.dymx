@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DeployMetadata>
+  <MasterId>4APH=UERB=QB</MasterId>
+  <Id>4APH=UERB=QB</Id>
+  <DesignMetas>
+    <DesignFormMetaL>
+      <Number>tdkw_opa_eventrelhistpl</Number>
+      <PkId>4APHZDRIRTDR</PkId>
+      <DataXml>
+        <FormMetadata/>
+      </DataXml>
+      <Name>历史版本事务关系表</Name>
+      <Id>4APH=UERB=QB</Id>
+      <LocaleId>zh_CN</LocaleId>
+    </DesignFormMetaL>
+    <DesignEntityMetaL>
+      <Number>tdkw_opa_eventrelhistpl</Number>
+      <PkId>4APHZDT=LM9Q</PkId>
+      <DataXml>
+        <EntityMetadata/>
+      </DataXml>
+      <Name>历史版本事务关系表</Name>
+      <Id>4APH=UERB=QB</Id>
+      <LocaleId>zh_CN</LocaleId>
+    </DesignEntityMetaL>
+  </DesignMetas>
+  <Version>1723601865378</Version>
+  <BOSVersion>1.0</BOSVersion>
+</DeployMetadata>

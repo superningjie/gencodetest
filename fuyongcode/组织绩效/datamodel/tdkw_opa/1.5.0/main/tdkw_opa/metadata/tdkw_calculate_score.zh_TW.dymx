@@ -1,0 +1,363 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DeployMetadata>
+  <MasterId>4ATK8C5VFJ4=</MasterId>
+  <Id>4ATK8C5VFJ4=</Id>
+  <DesignMetas>
+    <DesignFormMetaL>
+      <Number>tdkw_calculate_score</Number>
+      <PkId>4FM3QU4BGD4Q</PkId>
+      <DataXml>
+        <FormMetadata>
+          <Name>計算總分</Name>
+          <Items>
+            <BillFormAp action="edit" oid="00305e8b000005ac">
+              <MobListMeta>
+                <FormMetadata>
+                  <Items>
+                    <CardListColumnAp action="edit" oid="4ATK8COCXQL1">
+                      <Name>單據狀態</Name>
+                    </CardListColumnAp>
+                    <CardListColumnAp action="edit" oid="4ATK8COCZHYH">
+                      <Name>創建人.姓名</Name>
+                    </CardListColumnAp>
+                    <CardFlexPanelAp action="edit" oid="4ATK8COCZHYG">
+                      <Name>卡片佈局容器</Name>
+                    </CardFlexPanelAp>
+                    <MobSortPanelAp action="edit" oid="mobsortpanel">
+                      <Name>排序項1</Name>
+                    </MobSortPanelAp>
+                    <MobFilterPanelAp action="edit" oid="mobfilterpanel">
+                      <Name>過濾項1</Name>
+                    </MobFilterPanelAp>
+                    <MobFilterPanelAp action="edit" oid="4ATK8COCXQL0">
+                      <Name>過濾項2</Name>
+                    </MobFilterPanelAp>
+                  </Items>
+                </FormMetadata>
+              </MobListMeta>
+              <Name>計算總分</Name>
+              <MobMeta>
+                <FormMetadata>
+                  <Items>
+                    <LayoutFlexAp action="edit" oid="4ATK8CO==ADG">
+                      <Name>字段佈局容器</Name>
+                    </LayoutFlexAp>
+                    <LayoutFlexAp action="edit" oid="4ATK8COCZHYD">
+                      <Name>字段佈局容器</Name>
+                    </LayoutFlexAp>
+                    <FieldAp action="edit" oid="4ATK8COCXQL+">
+                      <Name>單據狀態</Name>
+                    </FieldAp>
+                    <FieldAp action="edit" oid="4ATK8COCZHYE">
+                      <Name>審核人</Name>
+                    </FieldAp>
+                    <FieldAp action="edit" oid="4ATK8COCXQL/">
+                      <Name>創建人</Name>
+                    </FieldAp>
+                    <MBarItemAp action="edit" oid="4ATK8COCZHYF">
+                      <Name>提交</Name>
+                    </MBarItemAp>
+                  </Items>
+                </FormMetadata>
+              </MobMeta>
+            </BillFormAp>
+            <AdvConAp action="edit" oid="OrwTrGbXsS">
+              <Name>計算組織總分</Name>
+            </AdvConAp>
+            <AdvConSummaryPanelAp action="edit" oid="4ATK8CO30H/F">
+              <Name>高級面板摘要容器</Name>
+            </AdvConSummaryPanelAp>
+            <AdvConToolbarAp action="edit" oid="4ATK8CO329BV">
+              <Name>高級面板工具欄</Name>
+            </AdvConToolbarAp>
+            <AdvConChildPanelAp action="edit" oid="4ATK8CO30H/G">
+              <Name>高級面板子容器</Name>
+            </AdvConChildPanelAp>
+            <EntryAp action="edit" oid="4ATK8CO329BX">
+              <Rules>
+                <FormRule action="edit" oid="4AWBSZVQ/8WZ">
+                  <Description>中心重點工作類和協同類可編輯，其他類型只讀</Description>
+                </FormRule>
+                <FormRule action="edit" oid="4CP/KONBZ+SC">
+                  <Description>kpi類</Description>
+                </FormRule>
+              </Rules>
+              <Name>單據體</Name>
+            </EntryAp>
+            <AdvConBarItemAp action="edit" oid="KZrV2mUTFV">
+              <Name>引入</Name>
+            </AdvConBarItemAp>
+            <AdvConBarItemAp action="edit" oid="2acs3YElsC">
+              <Name>引出</Name>
+            </AdvConBarItemAp>
+            <AdvConBarItemAp action="edit" oid="sFjqNzbRnu">
+              <Name>計算</Name>
+            </AdvConBarItemAp>
+            <EntryFieldAp action="edit" oid="4ATK8CO30H/I">
+              <Name>修改人</Name>
+            </EntryFieldAp>
+            <EntryFieldAp action="edit" oid="4ATK8CO329BY">
+              <Name>修改時間</Name>
+            </EntryFieldAp>
+            <EntryFieldAp action="edit" oid="2oDbZBobmRgT4dn3kg">
+              <Name>所屬組織</Name>
+            </EntryFieldAp>
+            <EntryFieldAp action="edit" oid="u5qNRb0I4C">
+              <Name>上級組織</Name>
+            </EntryFieldAp>
+            <EntryFieldAp action="edit" oid="S9QzbOrihjiGeQt5DA">
+              <Name>指標名稱</Name>
+            </EntryFieldAp>
+            <EntryFieldAp action="edit" oid="zjE2qJLkk5">
+              <Name>指標類型</Name>
+            </EntryFieldAp>
+            <EntryFieldAp action="edit" oid="JleulJ30WR">
+              <Name>指標名稱</Name>
+            </EntryFieldAp>
+            <EntryFieldAp action="edit" oid="e4Zkko0uEOSuX9HOrH">
+              <Name>權重</Name>
+            </EntryFieldAp>
+            <EntryFieldAp action="edit" oid="lHsbUZ51Ah">
+              <Name>指標描述</Name>
+            </EntryFieldAp>
+            <EntryFieldAp action="edit" oid="IExe7KRx1S">
+              <Name>評分標準</Name>
+            </EntryFieldAp>
+            <EntryFieldAp action="edit" oid="qJq9R9u9jeSW8SzHd1">
+              <Name>目標值</Name>
+            </EntryFieldAp>
+            <EntryFieldAp action="edit" oid="igh98QrBj6p6OOGbkF">
+              <Name>單位</Name>
+            </EntryFieldAp>
+            <EntryFieldAp action="edit" oid="y8yzpFLMsnwAOMIrV6">
+              <Name>公司年度完成值</Name>
+            </EntryFieldAp>
+            <EntryFieldAp action="edit" oid="FL1acHdfV9372rPKL5">
+              <Name>中心年度完成情況</Name>
+            </EntryFieldAp>
+            <EntryFieldAp action="edit" oid="LEzqUrc9rKdNH5YmuC">
+              <Name>評估結果</Name>
+            </EntryFieldAp>
+            <EntryFieldAp action="edit" oid="w7IEyAY6lyR6LYpnKc">
+              <Name>計算結果</Name>
+            </EntryFieldAp>
+            <EntryFieldAp action="edit" oid="M0j0751gSk">
+              <Name>組織績效指標子行主鍵</Name>
+            </EntryFieldAp>
+            <TabPageAp action="edit" oid="bpItlCYuqa">
+              <Name>計算指標分數</Name>
+            </TabPageAp>
+            <TabPageAp action="edit" oid="0vtMw03Ruv">
+              <Name>計算組織總分</Name>
+            </TabPageAp>
+            <BarItemAp action="edit" oid="PUr3AiWy9E">
+              <Name>下一步</Name>
+            </BarItemAp>
+            <BarItemAp action="edit" oid="67qIMN5rGm">
+              <Name>上一步</Name>
+            </BarItemAp>
+            <BarItemAp action="edit" oid="mhT3iIXeT7">
+              <Name>確定</Name>
+            </BarItemAp>
+            <AdvConSummaryPanelAp action="edit" oid="APRuYRXycg">
+              <Name>高級面板摘要容器</Name>
+            </AdvConSummaryPanelAp>
+            <AdvConToolbarAp action="edit" oid="XfF2D20M2D">
+              <Name>高級面板工具欄</Name>
+            </AdvConToolbarAp>
+            <AdvConChildPanelAp action="edit" oid="mjNALiiJ2q">
+              <Name>高級面板子容器</Name>
+            </AdvConChildPanelAp>
+            <EntryFieldAp action="edit" oid="gLYtZs7fL7">
+              <Name>修改人</Name>
+            </EntryFieldAp>
+            <EntryFieldAp action="edit" oid="mbxT2BOEnV">
+              <Name>修改時間</Name>
+            </EntryFieldAp>
+            <EntryFieldAp action="edit" oid="CJFvn5kfwr">
+              <Name>所屬組織</Name>
+            </EntryFieldAp>
+            <EntryFieldAp action="edit" oid="2h5QdhOqg7">
+              <Name>評估結果</Name>
+            </EntryFieldAp>
+            <EntryFieldAp action="edit" oid="o2HkwkevTOlDpK5aSX">
+              <Name>組織績效指標主鍵</Name>
+            </EntryFieldAp>
+            <AdvConBarItemAp action="edit" oid="ThTESoJhl3">
+              <Name>計算</Name>
+            </AdvConBarItemAp>
+            <AdvConBarItemAp action="edit" oid="WWF4OsqEkX">
+              <Name>新增分錄</Name>
+            </AdvConBarItemAp>
+            <WizardAp action="edit" oid="gAuT9ldwmmMeyJO3Ks">
+              <Name>嚮導控件</Name>
+            </WizardAp>
+            <AdvConAp action="edit" oid="4ATK8CHL96VZ">
+              <Name>分錄</Name>
+            </AdvConAp>
+            <EntryAp action="edit" oid="Vl09bDNtOJ">
+              <Name>計算組織總分</Name>
+            </EntryAp>
+            <FieldAp action="edit" oid="hWE84S6WtP1noF6ELB">
+              <Name>計算組織</Name>
+            </FieldAp>
+            <FieldAp action="edit" oid="vjS82lWJG8i74PMwRP">
+              <Name>考核年份</Name>
+            </FieldAp>
+            <FlexPanelAp action="edit" oid="bljE9PHxSQlg59LD53">
+              <Name>Flex容器</Name>
+            </FlexPanelAp>
+            <TabAp action="edit" oid="HVxjWv47sE3Y7yZqsW">
+              <Name>頁簽控件</Name>
+            </TabAp>
+          </Items>
+        </FormMetadata>
+      </DataXml>
+      <Name>計算總分</Name>
+      <Id>4ATK8C5VFJ4=</Id>
+      <LocaleId>zh_TW</LocaleId>
+    </DesignFormMetaL>
+    <DesignEntityMetaL>
+      <Number>tdkw_calculate_score</Number>
+      <PkId>4FM3QUXJYBEN</PkId>
+      <DataXml>
+        <EntityMetadata>
+          <Name>計算總分</Name>
+          <Items>
+            <BillEntity action="edit" oid="00305e8b000007ac">
+              <Operations>
+                <Operation action="edit" oid="4ATK8CO6NX6Z">
+                  <Name>新增分錄</Name>
+                </Operation>
+                <Operation action="edit" oid="4ATK8CO6POJC">
+                  <Name>刪除分錄</Name>
+                </Operation>
+                <Operation action="edit" oid="4ATUOF=VKBVJ">
+                  <Name>計算</Name>
+                </Operation>
+                <Operation action="edit" oid="4ATUV7URDC7R">
+                  <Name>計算</Name>
+                </Operation>
+                <Operation action="edit" oid="4ATZI+SAI82/">
+                  <Name>下一步</Name>
+                </Operation>
+                <Operation action="edit" oid="4ATZKKUXHU0Y">
+                  <Name>上一步</Name>
+                </Operation>
+                <Operation action="edit" oid="4ATZSSZ14U3D">
+                  <Name>確定</Name>
+                  <SuccessMsg>保存成功</SuccessMsg>
+                </Operation>
+                <Operation action="edit" oid="4D0X1B4GL3U+">
+                  <Name>引出</Name>
+                </Operation>
+              </Operations>
+              <Name>計算總分</Name>
+            </BillEntity>
+            <EntryEntity action="edit" oid="4ATK8CO329BX">
+              <Name>單據體</Name>
+            </EntryEntity>
+            <ModifierField action="edit" oid="4ATK8CO30H/I">
+              <Name>修改人</Name>
+            </ModifierField>
+            <ModifyDateField action="edit" oid="4ATK8CO329BY">
+              <Name>修改時間</Name>
+            </ModifyDateField>
+            <EntryEntity action="edit" oid="Vl09bDNtOJ">
+              <Name>計算組織總分</Name>
+            </EntryEntity>
+            <ModifierField action="edit" oid="gLYtZs7fL7">
+              <Name>修改人</Name>
+            </ModifierField>
+            <ModifyDateField action="edit" oid="mbxT2BOEnV">
+              <Name>修改時間</Name>
+            </ModifyDateField>
+            <BasedataField action="edit" oid="2oDbZBobmRgT4dn3kg">
+              <Name>所屬組織</Name>
+            </BasedataField>
+            <TextField action="edit" oid="e4Zkko0uEOSuX9HOrH">
+              <Name>權重</Name>
+            </TextField>
+            <ComboField action="edit" oid="igh98QrBj6p6OOGbkF">
+              <Name>單位</Name>
+              <Items>
+                <ComboItem action="edit" oid="yuan">
+                  <Caption>元</Caption>
+                </ComboItem>
+                <ComboItem action="edit" oid="wan_yuan">
+                  <Caption>萬元</Caption>
+                </ComboItem>
+                <ComboItem action="edit" oid="bai_wan_yuan">
+                  <Caption>百萬元</Caption>
+                </ComboItem>
+                <ComboItem action="edit" oid="qian_wan_yuan">
+                  <Caption>千萬元</Caption>
+                </ComboItem>
+                <ComboItem action="edit" oid="percent">
+                  <Caption>百分比</Caption>
+                </ComboItem>
+              </Items>
+            </ComboField>
+            <TextField action="edit" oid="FL1acHdfV9372rPKL5">
+              <Name>中心年度完成情況</Name>
+            </TextField>
+            <TextField action="edit" oid="w7IEyAY6lyR6LYpnKc">
+              <Name>計算結果</Name>
+            </TextField>
+            <DecimalField action="edit" oid="qJq9R9u9jeSW8SzHd1">
+              <Name>目標值</Name>
+            </DecimalField>
+            <DecimalField action="edit" oid="y8yzpFLMsnwAOMIrV6">
+              <Name>公司年度完成值</Name>
+            </DecimalField>
+            <DecimalField action="edit" oid="LEzqUrc9rKdNH5YmuC">
+              <Name>評估結果</Name>
+            </DecimalField>
+            <BasedataField action="edit" oid="CJFvn5kfwr">
+              <Name>所屬組織</Name>
+            </BasedataField>
+            <DecimalField action="edit" oid="2h5QdhOqg7">
+              <Name>評估結果</Name>
+            </DecimalField>
+            <BasedataField action="edit" oid="S9QzbOrihjiGeQt5DA">
+              <Name>指標名稱</Name>
+            </BasedataField>
+            <MulBasedataField action="edit" oid="hWE84S6WtP1noF6ELB">
+              <Name>計算組織</Name>
+            </MulBasedataField>
+            <BasedataField action="edit" oid="u5qNRb0I4C">
+              <Name>上級組織</Name>
+            </BasedataField>
+            <DateField action="edit" oid="vjS82lWJG8i74PMwRP">
+              <Name>考核年份</Name>
+            </DateField>
+            <BigIntField action="edit" oid="o2HkwkevTOlDpK5aSX">
+              <Name>組織績效指標主鍵</Name>
+            </BigIntField>
+            <BigIntField action="edit" oid="M0j0751gSk">
+              <Name>組織績效指標子行主鍵</Name>
+            </BigIntField>
+            <TextField action="edit" oid="JleulJ30WR">
+              <Name>指標名稱</Name>
+            </TextField>
+            <TextField action="edit" oid="lHsbUZ51Ah">
+              <Name>指標描述</Name>
+            </TextField>
+            <TextField action="edit" oid="IExe7KRx1S">
+              <Name>評分標準</Name>
+            </TextField>
+            <BasedataField action="edit" oid="zjE2qJLkk5">
+              <Name>指標類型</Name>
+            </BasedataField>
+          </Items>
+        </EntityMetadata>
+      </DataXml>
+      <Name>計算總分</Name>
+      <Id>4ATK8C5VFJ4=</Id>
+      <LocaleId>zh_TW</LocaleId>
+    </DesignEntityMetaL>
+  </DesignMetas>
+  <Version>1728369567796</Version>
+  <BOSVersion>1.0</BOSVersion>
+</DeployMetadata>

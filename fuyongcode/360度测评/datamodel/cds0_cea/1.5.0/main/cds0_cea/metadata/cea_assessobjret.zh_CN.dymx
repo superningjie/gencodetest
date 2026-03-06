@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DeployMetadata>
+  <MasterId>48LJJHSMO2XU</MasterId>
+  <Id>48LJJHSMO2XU</Id>
+  <DesignMetas>
+    <DesignFormMetaL>
+      <Number>cea_assessobjret</Number>
+      <PkId>4=Y6RZIC0MLZ</PkId>
+      <DataXml>
+        <FormMetadata/>
+      </DataXml>
+      <Name>能力素质考核结果</Name>
+      <Id>48LJJHSMO2XU</Id>
+      <LocaleId>zh_CN</LocaleId>
+    </DesignFormMetaL>
+    <DesignEntityMetaL>
+      <Number>cea_assessobjret</Number>
+      <PkId>4=Y6RZM5PMUQ</PkId>
+      <DataXml>
+        <EntityMetadata/>
+      </DataXml>
+      <Name>能力素质考核结果</Name>
+      <Id>48LJJHSMO2XU</Id>
+      <LocaleId>zh_CN</LocaleId>
+    </DesignEntityMetaL>
+  </DesignMetas>
+  <Version>1722847616720</Version>
+  <BOSVersion>1.0</BOSVersion>
+</DeployMetadata>

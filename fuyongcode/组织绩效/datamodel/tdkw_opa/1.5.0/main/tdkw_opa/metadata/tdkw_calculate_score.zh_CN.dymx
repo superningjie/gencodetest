@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DeployMetadata>
+  <MasterId>4ATK8C5VFJ4=</MasterId>
+  <Id>4ATK8C5VFJ4=</Id>
+  <DesignMetas>
+    <DesignFormMetaL>
+      <Number>tdkw_calculate_score</Number>
+      <PkId>4FM3QTZJS2RJ</PkId>
+      <DataXml>
+        <FormMetadata/>
+      </DataXml>
+      <Name>计算分数</Name>
+      <Id>4ATK8C5VFJ4=</Id>
+      <LocaleId>zh_CN</LocaleId>
+    </DesignFormMetaL>
+    <DesignEntityMetaL>
+      <Number>tdkw_calculate_score</Number>
+      <PkId>4FM3QUW1XOO6</PkId>
+      <DataXml>
+        <EntityMetadata/>
+      </DataXml>
+      <Name>计算分数</Name>
+      <Id>4ATK8C5VFJ4=</Id>
+      <LocaleId>zh_CN</LocaleId>
+    </DesignEntityMetaL>
+  </DesignMetas>
+  <Version>1728369567796</Version>
+  <BOSVersion>1.0</BOSVersion>
+</DeployMetadata>

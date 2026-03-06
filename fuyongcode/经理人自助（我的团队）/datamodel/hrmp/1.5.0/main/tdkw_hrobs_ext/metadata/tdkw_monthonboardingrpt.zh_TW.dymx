@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DeployMetadata>
+  <MasterId>3EC57JAWQCW8</MasterId>
+  <Id>3EC57JAWQCW8</Id>
+  <DesignMetas>
+    <DesignFormMetaL>
+      <Number>tdkw_monthonboardingrpt</Number>
+      <PkId>3T1U=78=KP0Q</PkId>
+      <DataXml>
+        <FormMetadata>
+          <Items>
+            <FlexPanelAp action="edit" oid="MrKLj5Gdt1krRm5gnw">
+              <Name>Flex容器</Name>
+            </FlexPanelAp>
+            <FieldAp action="edit" oid="lAMp7gjbhJ">
+              <Name>姓名</Name>
+            </FieldAp>
+            <FieldAp action="edit" oid="r3NzOlKceB">
+              <Name>所屬組織</Name>
+            </FieldAp>
+            <FieldAp action="edit" oid="GeQ6ELvfQN">
+              <Name>崗位層級</Name>
+            </FieldAp>
+            <FieldAp action="edit" oid="n3p93kQgga">
+              <Name>入職日期</Name>
+            </FieldAp>
+            <FieldAp action="edit" oid="hmgBvH2wDC">
+              <Name>人員類型</Name>
+            </FieldAp>
+            <FieldAp action="edit" oid="ouKNatRJYY">
+              <Name>任職類型</Name>
+            </FieldAp>
+            <EntryFieldAp action="edit" oid="16SbCnS3uZ">
+              <Name>姓名</Name>
+            </EntryFieldAp>
+            <EntryFieldAp action="edit" oid="hW9m4GjVL6">
+              <Name>姓名(廢棄)</Name>
+            </EntryFieldAp>
+            <EntryFieldAp action="edit" oid="qk6vlIKqYj">
+              <Name>崗位</Name>
+            </EntryFieldAp>
+            <EntryFieldAp action="edit" oid="73407Y4uvv">
+              <Name>崗位層級</Name>
+            </EntryFieldAp>
+            <EntryFieldAp action="edit" oid="mwtO7DdHNK">
+              <Name>入職日期</Name>
+            </EntryFieldAp>
+            <EntryFieldAp action="edit" oid="D9AHu0hi65">
+              <Name>公司</Name>
+            </EntryFieldAp>
+            <EntryFieldAp action="edit" oid="6UzR23ny3F">
+              <Name>部門</Name>
+            </EntryFieldAp>
+            <EntryFieldAp action="edit" oid="Ejo7jklyCI">
+              <Name>人事業務檔案id</Name>
+            </EntryFieldAp>
+            <EntryFieldAp action="edit" oid="pFJmfByaQi">
+              <Name>人員pkid</Name>
+            </EntryFieldAp>
+            <EntryFieldAp action="edit" oid="7GliIAMbgD203WnJKx">
+              <Name>工號</Name>
+            </EntryFieldAp>
+          </Items>
+        </FormMetadata>
+      </DataXml>
+      <Name>報表模板</Name>
+      <Id>3EC57JAWQCW8</Id>
+      <LocaleId>zh_TW</LocaleId>
+    </DesignFormMetaL>
+    <DesignEntityMetaL>
+      <Number>tdkw_monthonboardingrpt</Number>
+      <PkId>3T1U=79AG8H3</PkId>
+      <DataXml>
+        <EntityMetadata>
+          <Items>
+            <ReportEntity action="edit" oid="1b760aa100003cac">
+              <PermissionDimension>
+                <PermissionDimension>
+                  <Name>維度控制</Name>
+                </PermissionDimension>
+              </PermissionDimension>
+              <PermissionControl>
+                <PermissionControl>
+                  <Name>控制功能許可權</Name>
+                </PermissionControl>
+              </PermissionControl>
+            </ReportEntity>
+            <BasedataField action="edit" oid="hW9m4GjVL6">
+              <Name>姓名(廢棄)</Name>
+            </BasedataField>
+            <BasedataField action="edit" oid="qk6vlIKqYj">
+              <Name>崗位</Name>
+            </BasedataField>
+            <ComboField action="edit" oid="73407Y4uvv">
+              <Name>崗位層級</Name>
+              <Items>
+                <ComboItem action="edit" oid="1">
+                  <Caption>集團高管-集團直管</Caption>
+                </ComboItem>
+                <ComboItem action="edit" oid="2">
+                  <Caption>集團高管-授權行業</Caption>
+                </ComboItem>
+                <ComboItem action="edit" oid="3">
+                  <Caption>其他高管</Caption>
+                </ComboItem>
+                <ComboItem action="edit" oid="4">
+                  <Caption>中層</Caption>
+                </ComboItem>
+                <ComboItem action="edit" oid="5">
+                  <Caption>基層</Caption>
+                </ComboItem>
+              </Items>
+            </ComboField>
+            <DateField action="edit" oid="mwtO7DdHNK">
+              <Name>入職日期</Name>
+            </DateField>
+            <BasedataField action="edit" oid="D9AHu0hi65">
+              <Name>公司</Name>
+            </BasedataField>
+            <BasedataField action="edit" oid="6UzR23ny3F">
+              <Name>部門</Name>
+            </BasedataField>
+            <BasedataField action="edit" oid="r3NzOlKceB">
+              <Name>所屬組織</Name>
+            </BasedataField>
+            <ComboField action="edit" oid="GeQ6ELvfQN">
+              <Name>崗位層級</Name>
+              <Items>
+                <ComboItem action="edit" oid="1">
+                  <Caption>集團高管</Caption>
+                </ComboItem>
+                <ComboItem action="edit" oid="2">
+                  <Caption>行業高管</Caption>
+                </ComboItem>
+                <ComboItem action="edit" oid="3">
+                  <Caption>其他高管</Caption>
+                </ComboItem>
+                <ComboItem action="edit" oid="4">
+                  <Caption>中層</Caption>
+                </ComboItem>
+                <ComboItem action="edit" oid="5">
+                  <Caption>基層</Caption>
+                </ComboItem>
+              </Items>
+            </ComboField>
+            <DateRangeField action="edit" oid="n3p93kQgga">
+              <Name>入職日期</Name>
+            </DateRangeField>
+            <MulBasedataField action="edit" oid="hmgBvH2wDC">
+              <Name>人員類型</Name>
+            </MulBasedataField>
+            <BasedataField action="edit" oid="16SbCnS3uZ">
+              <Name>姓名</Name>
+            </BasedataField>
+            <ComboField action="edit" oid="ouKNatRJYY">
+              <Name>任職類型</Name>
+              <Items>
+                <ComboItem action="edit" oid="A">
+                  <Caption>黨委會</Caption>
+                </ComboItem>
+                <ComboItem action="edit" oid="B">
+                  <Caption>工會</Caption>
+                </ComboItem>
+                <ComboItem action="edit" oid="C">
+                  <Caption>團委</Caption>
+                </ComboItem>
+                <ComboItem action="edit" oid="D">
+                  <Caption>紀檢委</Caption>
+                </ComboItem>
+                <ComboItem action="edit" oid="E">
+                  <Caption>經營班子</Caption>
+                </ComboItem>
+                <ComboItem action="edit" oid="F">
+                  <Caption>財務負責人</Caption>
+                </ComboItem>
+                <ComboItem action="edit" oid="G">
+                  <Caption>董監事</Caption>
+                </ComboItem>
+              </Items>
+            </ComboField>
+            <TextField action="edit" oid="Ejo7jklyCI">
+              <Name>人事業務檔案id</Name>
+            </TextField>
+            <TextField action="edit" oid="lAMp7gjbhJ">
+              <Name>姓名</Name>
+            </TextField>
+            <TextField action="edit" oid="pFJmfByaQi">
+              <Name>人員pkid</Name>
+            </TextField>
+            <BasedataPropField action="edit" oid="7GliIAMbgD203WnJKx">
+              <Name>工號</Name>
+            </BasedataPropField>
+          </Items>
+        </EntityMetadata>
+      </DataXml>
+      <Name>報表模板</Name>
+      <Id>3EC57JAWQCW8</Id>
+      <LocaleId>zh_TW</LocaleId>
+    </DesignEntityMetaL>
+  </DesignMetas>
+  <Version>1703579431494</Version>
+  <BOSVersion>1.0</BOSVersion>
+</DeployMetadata>

@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DeployMetadata>
+  <MasterId>3GI+S++8CZP/</MasterId>
+  <Id>3GI+S++8CZP/</Id>
+  <DesignMetas>
+    <DesignFormMetaL>
+      <Number>tdkw_onborad_report</Number>
+      <PkId>3T/BOME1RL8L</PkId>
+      <DataXml>
+        <FormMetadata>
+          <Items>
+            <EntryFieldAp action="edit" oid="QVuskQqjfS">
+              <Name>公司簡稱</Name>
+            </EntryFieldAp>
+            <EntryFieldAp action="edit" oid="vwljieOovK">
+              <Name>姓名</Name>
+            </EntryFieldAp>
+            <EntryFieldAp action="edit" oid="RVWsNifxWf">
+              <Name>崗位</Name>
+            </EntryFieldAp>
+            <EntryFieldAp action="edit" oid="ddFtauU10j">
+              <Name>崗位層級</Name>
+            </EntryFieldAp>
+            <EntryFieldAp action="edit" oid="p84qHKY91m">
+              <Name>人員類型</Name>
+            </EntryFieldAp>
+            <EntryFieldAp action="edit" oid="kmKSkimSuq">
+              <Name>性別</Name>
+            </EntryFieldAp>
+            <EntryFieldAp action="edit" oid="Zcqq0O6Ey5">
+              <Name>籍貫</Name>
+            </EntryFieldAp>
+            <EntryFieldAp action="edit" oid="rofNlpBw1J">
+              <Name>婚姻狀況</Name>
+            </EntryFieldAp>
+            <EntryFieldAp action="edit" oid="tvPjriOHg4">
+              <Name>學歷</Name>
+            </EntryFieldAp>
+            <EntryFieldAp action="edit" oid="Wwxez2AyeT">
+              <Name>政治面貌</Name>
+            </EntryFieldAp>
+            <EntryFieldAp action="edit" oid="73is8TDwmm">
+              <Name>年齡</Name>
+            </EntryFieldAp>
+            <EntryFieldAp action="edit" oid="SDtUE63Fc5">
+              <Name>入職日期</Name>
+            </EntryFieldAp>
+            <EntryFieldAp action="edit" oid="IO9hKKEtxZ">
+              <Name>工齡</Name>
+            </EntryFieldAp>
+            <EntryFieldAp action="edit" oid="B2Q4MrgwNJ13aI3IjV">
+              <Name>工號</Name>
+            </EntryFieldAp>
+          </Items>
+        </FormMetadata>
+      </DataXml>
+      <Name>報表模板</Name>
+      <Id>3GI+S++8CZP/</Id>
+      <LocaleId>zh_TW</LocaleId>
+    </DesignFormMetaL>
+    <DesignEntityMetaL>
+      <Number>tdkw_onborad_report</Number>
+      <PkId>3T/BOMM57PAZ</PkId>
+      <DataXml>
+        <EntityMetadata>
+          <Items>
+            <BasedataField action="edit" oid="QVuskQqjfS">
+              <Name>公司簡稱</Name>
+            </BasedataField>
+            <BasedataField action="edit" oid="vwljieOovK">
+              <Name>姓名</Name>
+            </BasedataField>
+            <BasedataField action="edit" oid="RVWsNifxWf">
+              <Name>崗位</Name>
+            </BasedataField>
+            <ComboField action="edit" oid="ddFtauU10j">
+              <Name>崗位層級</Name>
+              <Items>
+                <ComboItem action="edit" oid="1">
+                  <Caption>集團高管</Caption>
+                </ComboItem>
+                <ComboItem action="edit" oid="2">
+                  <Caption>行業高管</Caption>
+                </ComboItem>
+                <ComboItem action="edit" oid="3">
+                  <Caption>其他高管</Caption>
+                </ComboItem>
+                <ComboItem action="edit" oid="4">
+                  <Caption>中層</Caption>
+                </ComboItem>
+                <ComboItem action="edit" oid="5">
+                  <Caption>基層</Caption>
+                </ComboItem>
+              </Items>
+            </ComboField>
+            <BasedataField action="edit" oid="p84qHKY91m">
+              <Name>人員類型</Name>
+            </BasedataField>
+            <DecimalField action="edit" oid="IO9hKKEtxZ">
+              <Name>工齡</Name>
+            </DecimalField>
+            <DateField action="edit" oid="SDtUE63Fc5">
+              <Name>入職日期</Name>
+            </DateField>
+            <BasedataField action="edit" oid="tvPjriOHg4">
+              <Name>學歷</Name>
+            </BasedataField>
+            <BasedataField action="edit" oid="rofNlpBw1J">
+              <Name>婚姻狀況</Name>
+            </BasedataField>
+            <TextField action="edit" oid="Zcqq0O6Ey5">
+              <Name>籍貫</Name>
+            </TextField>
+            <BasedataField action="edit" oid="kmKSkimSuq">
+              <Name>性別</Name>
+            </BasedataField>
+            <BasedataField action="edit" oid="Wwxez2AyeT">
+              <Name>政治面貌</Name>
+            </BasedataField>
+            <IntegerField action="edit" oid="73is8TDwmm">
+              <Name>年齡</Name>
+            </IntegerField>
+            <BasedataPropField action="edit" oid="B2Q4MrgwNJ13aI3IjV">
+              <Name>工號</Name>
+            </BasedataPropField>
+          </Items>
+        </EntityMetadata>
+      </DataXml>
+      <Name>報表模板</Name>
+      <Id>3GI+S++8CZP/</Id>
+      <LocaleId>zh_TW</LocaleId>
+    </DesignEntityMetaL>
+  </DesignMetas>
+  <Version>1703517796744</Version>
+  <BOSVersion>1.0</BOSVersion>
+</DeployMetadata>

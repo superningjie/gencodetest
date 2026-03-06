@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DeployMetadata>
+  <MasterId>3=QNWT5CW=KY</MasterId>
+  <Id>3=QNWT5CW=KY</Id>
+  <DesignMetas>
+    <DesignFormMetaL>
+      <Number>tdkw_leaderquery1d</Number>
+      <PkId>43ERFSZOIJ3R</PkId>
+      <DataXml>
+        <FormMetadata>
+          <Items>
+            <FlexPanelAp action="edit" oid="z6WE4yByHM">
+              <Name>Flex容器</Name>
+            </FlexPanelAp>
+            <LabelAp action="edit" oid="07jC5uhvgR">
+              <Name>本月入職</Name>
+            </LabelAp>
+            <LabelAp action="edit" oid="Z5X7rZM2km">
+              <Name>本月入職</Name>
+            </LabelAp>
+            <LabelAp action="edit" oid="G38Yf6P6M6">
+              <Name>組織變動</Name>
+            </LabelAp>
+            <LabelAp action="edit" oid="WDnsWIipoc">
+              <Name>組織變動</Name>
+            </LabelAp>
+            <LabelAp action="edit" oid="OzMxVdxIrU">
+              <Name>本月異動</Name>
+            </LabelAp>
+            <LabelAp action="edit" oid="H2EFk46rW4">
+              <Name>本月輪動</Name>
+            </LabelAp>
+            <LabelAp action="edit" oid="TffabofH75">
+              <Name>組織撤銷</Name>
+            </LabelAp>
+            <LabelAp action="edit" oid="59anSUK43J">
+              <Name>組織撤銷</Name>
+            </LabelAp>
+            <FlexPanelAp action="edit" oid="8RsZ7TT7mj">
+              <Name>Flex容器</Name>
+            </FlexPanelAp>
+            <FlexPanelAp action="edit" oid="bJ5DdIHbOG">
+              <Name>Flex容器</Name>
+            </FlexPanelAp>
+            <FlexPanelAp action="edit" oid="CqB8p78LZw">
+              <Name>Flex容器</Name>
+            </FlexPanelAp>
+            <LabelAp action="edit" oid="uC7qAMbb2x">
+              <Name>本月離職</Name>
+            </LabelAp>
+            <LabelAp action="edit" oid="6wSuUt1XlA">
+              <Name>本月離職</Name>
+            </LabelAp>
+            <LabelAp action="edit" oid="tmgN2wJhHZ">
+              <Name>本月入職</Name>
+            </LabelAp>
+            <LabelAp action="edit" oid="oovWkrvxRa">
+              <Name>本月入職</Name>
+            </LabelAp>
+            <FlexPanelAp action="edit" oid="RlOqms9OCe">
+              <Name>Flex容器</Name>
+            </FlexPanelAp>
+            <LabelAp action="edit" oid="pZoRHStuJF">
+              <Name>標籤</Name>
+            </LabelAp>
+            <FlexPanelAp action="edit" oid="ZAF7r1Y28t">
+              <Name>Flex容器</Name>
+            </FlexPanelAp>
+            <FlexPanelAp action="edit" oid="sYRSQ0bcbf">
+              <Name>Flex容器</Name>
+            </FlexPanelAp>
+            <FlexPanelAp action="edit" oid="IRm1uUVb7g">
+              <Name>Flex容器</Name>
+            </FlexPanelAp>
+            <FlexPanelAp action="edit" oid="AyKboxG7aM">
+              <Name>Flex容器</Name>
+            </FlexPanelAp>
+            <LabelAp action="edit" oid="u4veP2KElt">
+              <Name>領導查詢</Name>
+            </LabelAp>
+            <LabelAp action="edit" oid="1rIcRq32uI">
+              <Name>組織新增</Name>
+            </LabelAp>
+            <LabelAp action="edit" oid="Nl54tmQz2G">
+              <Name>組織新增</Name>
+            </LabelAp>
+            <FlexPanelAp action="edit" oid="Rg32XS55gp">
+              <Name>Flex容器</Name>
+            </FlexPanelAp>
+            <FlexPanelAp action="edit" oid="l5JlbTQ7DM">
+              <Name>Flex容器</Name>
+            </FlexPanelAp>
+          </Items>
+        </FormMetadata>
+      </DataXml>
+      <Name>PC_自定義卡片模板</Name>
+      <Id>3=QNWT5CW=KY</Id>
+      <LocaleId>zh_TW</LocaleId>
+    </DesignFormMetaL>
+    <DesignEntityMetaL>
+      <Number>tdkw_leaderquery1d</Number>
+      <PkId>43ERFT+I5963</PkId>
+      <DataXml>
+        <EntityMetadata/>
+      </DataXml>
+      <Name>PC_自定義卡片模板</Name>
+      <Id>3=QNWT5CW=KY</Id>
+      <LocaleId>zh_TW</LocaleId>
+    </DesignEntityMetaL>
+  </DesignMetas>
+  <Version>1715570922502</Version>
+  <BOSVersion>1.0</BOSVersion>
+</DeployMetadata>

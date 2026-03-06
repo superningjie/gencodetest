@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DeployMetadata>
+  <MasterId>3DV/NQB36AG8</MasterId>
+  <Id>3DV/NQB36AG8</Id>
+  <DesignMetas>
+    <DesignFormMetaL>
+      <Number>tdkw_announcement_type</Number>
+      <PkId>4CL7NB3QRR8=</PkId>
+      <DataXml>
+        <FormMetadata/>
+      </DataXml>
+      <Name>公告类型</Name>
+      <Id>3DV/NQB36AG8</Id>
+      <LocaleId>zh_CN</LocaleId>
+    </DesignFormMetaL>
+    <DesignEntityMetaL>
+      <Number>tdkw_announcement_type</Number>
+      <PkId>4CL7NB5HPPOT</PkId>
+      <DataXml>
+        <EntityMetadata/>
+      </DataXml>
+      <Name>公告类型</Name>
+      <Id>3DV/NQB36AG8</Id>
+      <LocaleId>zh_CN</LocaleId>
+    </DesignEntityMetaL>
+  </DesignMetas>
+  <Version>1725435944472</Version>
+  <BOSVersion>1.0</BOSVersion>
+</DeployMetadata>

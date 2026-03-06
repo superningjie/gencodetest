@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DeployMetadata>
+  <MasterId>3G8SWII3M1V1</MasterId>
+  <Id>3G8SWII3M1V1</Id>
+  <DesignMetas>
+    <DesignFormMetaL>
+      <Number>tdkw_teamperform</Number>
+      <PkId>3G9AWVQLL4RZ</PkId>
+      <DataXml>
+        <FormMetadata/>
+      </DataXml>
+      <Name>团队绩效</Name>
+      <Id>3G8SWII3M1V1</Id>
+      <LocaleId>zh_CN</LocaleId>
+    </DesignFormMetaL>
+    <DesignEntityMetaL>
+      <Number>tdkw_teamperform</Number>
+      <PkId>3G9AWVR1Q719</PkId>
+      <DataXml>
+        <EntityMetadata/>
+      </DataXml>
+      <Name>团队绩效</Name>
+      <Id>3G8SWII3M1V1</Id>
+      <LocaleId>zh_CN</LocaleId>
+    </DesignEntityMetaL>
+  </DesignMetas>
+  <Version>1691150760802</Version>
+  <BOSVersion>1.0</BOSVersion>
+</DeployMetadata>

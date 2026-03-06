@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DeployMetadata>
+  <MasterId>4C0T+=6V2N2E</MasterId>
+  <Id>4C0T+=6V2N2E</Id>
+  <DesignMetas>
+    <DesignFormMetaL>
+      <Number>tdkw_performance_map_bill</Number>
+      <PkId>4D7GVEOI7WD/</PkId>
+      <DataXml>
+        <FormMetadata>
+          <Name>組織績效地圖單據</Name>
+          <Items>
+            <BillFormAp action="edit" oid="00305e8b000005ac">
+              <MobListMeta>
+                <FormMetadata>
+                  <Items>
+                    <CardListColumnAp action="edit" oid="4C0T+=F4P5BP">
+                      <Name>單據狀態</Name>
+                    </CardListColumnAp>
+                    <CardListColumnAp action="edit" oid="4C0T+=F4P4OF">
+                      <Name>創建人.姓名</Name>
+                    </CardListColumnAp>
+                    <CardFlexPanelAp action="edit" oid="4C0T+=F11QGY">
+                      <Name>卡片佈局容器</Name>
+                    </CardFlexPanelAp>
+                    <MobSortPanelAp action="edit" oid="mobsortpanel">
+                      <Name>排序項1</Name>
+                    </MobSortPanelAp>
+                    <MobFilterPanelAp action="edit" oid="mobfilterpanel">
+                      <Name>過濾項1</Name>
+                    </MobFilterPanelAp>
+                    <MobFilterPanelAp action="edit" oid="4C0T+=F11R56">
+                      <Name>過濾項2</Name>
+                    </MobFilterPanelAp>
+                  </Items>
+                </FormMetadata>
+              </MobListMeta>
+              <Name>組織績效地圖單據</Name>
+              <MobMeta>
+                <FormMetadata>
+                  <Items>
+                    <LayoutFlexAp action="edit" oid="4C0T+=EVTXS5">
+                      <Name>字段佈局容器</Name>
+                    </LayoutFlexAp>
+                    <LayoutFlexAp action="edit" oid="4C0T+=EVTX2X">
+                      <Name>字段佈局容器</Name>
+                    </LayoutFlexAp>
+                    <FieldAp action="edit" oid="4C0T+=EVTX2Y">
+                      <Name>審核人</Name>
+                    </FieldAp>
+                    <FieldAp action="edit" oid="4C0T+=EVTXS7">
+                      <Name>創建人</Name>
+                    </FieldAp>
+                    <FieldAp action="edit" oid="4C0T+=EVTXS6">
+                      <Name>單據狀態</Name>
+                    </FieldAp>
+                    <MBarItemAp action="edit" oid="4C0T+=EVTX2Z">
+                      <Name>提交</Name>
+                    </MBarItemAp>
+                  </Items>
+                </FormMetadata>
+              </MobMeta>
+            </BillFormAp>
+            <AdvConSummaryPanelAp action="edit" oid="4C0T+=E0660J">
+              <Name>高級面板摘要容器</Name>
+            </AdvConSummaryPanelAp>
+            <AdvConToolbarAp action="edit" oid="4C0T+=E065CA">
+              <Name>高級面板工具欄</Name>
+            </AdvConToolbarAp>
+            <AdvConChildPanelAp action="edit" oid="4C0T+=E0660K">
+              <Name>高級面板子容器</Name>
+            </AdvConChildPanelAp>
+            <AdvConBarItemAp action="edit" oid="4C0T+=E065CB">
+              <Name>增行</Name>
+            </AdvConBarItemAp>
+            <AdvConBarItemAp action="edit" oid="4C0T+=E3TL81">
+              <Name>刪行</Name>
+            </AdvConBarItemAp>
+            <EntryAp action="edit" oid="4C0T+=EA1DYU">
+              <Name>單據體</Name>
+            </EntryAp>
+            <EntryFieldAp action="edit" oid="4C0T+=EDOUTL">
+              <Name>修改人</Name>
+            </EntryFieldAp>
+            <EntryFieldAp action="edit" oid="4C0T+=EDOU4B">
+              <Name>修改時間</Name>
+            </EntryFieldAp>
+            <FieldAp action="edit" oid="QaoUQyJjuDiRjqrxPf">
+              <Name>HR行政組織</Name>
+            </FieldAp>
+            <AdvConAp action="edit" oid="4C0T+=E065C=">
+              <Name>分錄</Name>
+            </AdvConAp>
+          </Items>
+        </FormMetadata>
+      </DataXml>
+      <Name>組織績效地圖單據</Name>
+      <Id>4C0T+=6V2N2E</Id>
+      <LocaleId>zh_TW</LocaleId>
+    </DesignFormMetaL>
+    <DesignEntityMetaL>
+      <Number>tdkw_performance_map_bill</Number>
+      <PkId>4D7GVEV02W9M</PkId>
+      <DataXml>
+        <EntityMetadata>
+          <Name>組織績效地圖單據</Name>
+          <Items>
+            <BillEntity action="edit" oid="00305e8b000007ac">
+              <Operations>
+                <Operation action="edit" oid="4C0T+=EOK2D4">
+                  <Name>新增分錄</Name>
+                </Operation>
+                <Operation action="edit" oid="4C0T+=EOK1PW">
+                  <Name>刪除分錄</Name>
+                </Operation>
+              </Operations>
+              <Name>組織績效地圖單據</Name>
+            </BillEntity>
+            <EntryEntity action="edit" oid="4C0T+=EA1DYU">
+              <Name>單據體</Name>
+            </EntryEntity>
+            <ModifierField action="edit" oid="4C0T+=EDOUTL">
+              <Name>修改人</Name>
+            </ModifierField>
+            <ModifyDateField action="edit" oid="4C0T+=EDOU4B">
+              <Name>修改時間</Name>
+            </ModifyDateField>
+            <BasedataField action="edit" oid="QaoUQyJjuDiRjqrxPf">
+              <Name>HR行政組織</Name>
+            </BasedataField>
+          </Items>
+        </EntityMetadata>
+      </DataXml>
+      <Name>組織績效地圖單據</Name>
+      <Id>4C0T+=6V2N2E</Id>
+      <LocaleId>zh_TW</LocaleId>
+    </DesignEntityMetaL>
+  </DesignMetas>
+  <Version>1726039633536</Version>
+  <BOSVersion>1.0</BOSVersion>
+</DeployMetadata>

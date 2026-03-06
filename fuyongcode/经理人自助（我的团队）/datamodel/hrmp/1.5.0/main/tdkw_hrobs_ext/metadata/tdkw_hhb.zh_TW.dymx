@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DeployMetadata>
+  <MasterId>3AM=HRLN8==1</MasterId>
+  <Id>3AM=HRLN8==1</Id>
+  <DesignMetas>
+    <DesignFormMetaL>
+      <Number>tdkw_hhb</Number>
+      <PkId>3AMA9/6/ZOKL</PkId>
+      <DataXml>
+        <FormMetadata>
+          <Name>試試</Name>
+          <Items>
+            <BasedataFormAp action="edit" oid="3AM=HRLN8=ZA">
+              <Name>試試</Name>
+              <ListMeta>
+                <FormMetadata>
+                  <Name>試試列表</Name>
+                  <Items>
+                    <ListFormAp action="edit" oid="3AM=TSAKRCDG">
+                      <Name>試試列表</Name>
+                    </ListFormAp>
+                    <FilterContainerAp action="edit" oid="_FilterContainer_">
+                      <Name>試試列表</Name>
+                    </FilterContainerAp>
+                    <ToolbarAp action="edit" oid="_toolbar_">
+                      <Name>列表工具欄</Name>
+                    </ToolbarAp>
+                    <BillListAp action="edit" oid="_BillList_">
+                      <Name>試試列表</Name>
+                    </BillListAp>
+                    <ListGridViewAp action="edit" oid="gridview">
+                      <Name>表格視圖</Name>
+                    </ListGridViewAp>
+                    <ListCardViewAp action="edit" oid="cardview">
+                      <Name>卡片視圖</Name>
+                    </ListCardViewAp>
+                    <FastSearchGridViewAp action="edit" oid="fastsearchgridview">
+                      <Name>快捷搜索視圖</Name>
+                    </FastSearchGridViewAp>
+                    <FilterGridViewAp action="edit" oid="filtergridview">
+                      <Name>常用過濾視圖</Name>
+                    </FilterGridViewAp>
+                    <SchemeFilterViewAp action="edit" oid="schemefilterview">
+                      <Name>方案過濾視圖</Name>
+                    </SchemeFilterViewAp>
+                    <CardRowPanelAp action="edit" oid="3AM=TSAH3YIP">
+                      <Name>卡片</Name>
+                    </CardRowPanelAp>
+                    <ListColumnAp action="edit" oid="3AM=U06OS3=K">
+                      <Name>序號</Name>
+                    </ListColumnAp>
+                    <ListColumnAp action="edit" oid="3AM=U16XZ=XQ">
+                      <Name>編碼</Name>
+                    </ListColumnAp>
+                    <ListColumnAp action="edit" oid="3AM=U2I4X2QJ">
+                      <Name>文章標題</Name>
+                    </ListColumnAp>
+                  </Items>
+                </FormMetadata>
+              </ListMeta>
+            </BasedataFormAp>
+            <FieldAp action="edit" oid="R2Afw3CFoS">
+              <Name>編碼</Name>
+            </FieldAp>
+            <FieldAp action="edit" oid="Ps9KW4kmgY">
+              <Name>文章標題</Name>
+            </FieldAp>
+            <FieldAp action="edit" oid="BuUV1WLYsb">
+              <Name>文章內容</Name>
+            </FieldAp>
+            <RichTextEditorAp action="edit" oid="tQcGVDJd1e">
+              <Name>富文本編輯器</Name>
+            </RichTextEditorAp>
+          </Items>
+        </FormMetadata>
+      </DataXml>
+      <Name>試試</Name>
+      <Id>3AM=HRLN8==1</Id>
+      <LocaleId>zh_TW</LocaleId>
+    </DesignFormMetaL>
+    <DesignEntityMetaL>
+      <Number>tdkw_hhb</Number>
+      <PkId>3AMA9/6=UXGW</PkId>
+      <DataXml>
+        <EntityMetadata>
+          <Name>試試</Name>
+          <Items>
+            <BaseEntity action="edit" oid="3AM=HRLQVQ4U">
+              <Name>試試</Name>
+            </BaseEntity>
+            <TextField action="edit" oid="R2Afw3CFoS">
+              <Name>編碼</Name>
+            </TextField>
+            <TextField action="edit" oid="Ps9KW4kmgY">
+              <Name>文章標題</Name>
+            </TextField>
+            <LargeTextField action="edit" oid="BuUV1WLYsb">
+              <Name>文章內容</Name>
+            </LargeTextField>
+          </Items>
+        </EntityMetadata>
+      </DataXml>
+      <Name>試試</Name>
+      <Id>3AM=HRLN8==1</Id>
+      <LocaleId>zh_TW</LocaleId>
+    </DesignEntityMetaL>
+  </DesignMetas>
+  <Version>1685695952706</Version>
+  <BOSVersion>1.0</BOSVersion>
+</DeployMetadata>

@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DeployMetadata>
+  <MasterId>3Y+/NEAU7ZC4</MasterId>
+  <Id>3Y+/NEAU7ZC4</Id>
+  <DesignMetas>
+    <DesignFormMetaL>
+      <Number>tdkw_personbirthday</Number>
+      <PkId>3Y+/Q=NBNXEO</PkId>
+      <DataXml>
+        <FormMetadata>
+          <Name>生日列表-移动端</Name>
+          <Items>
+            <BillFormAp action="edit" oid="00305e8b000005ac">
+              <MobListMeta>
+                <FormMetadata>
+                  <Items>
+                    <CardListColumnAp action="edit" oid="3Y+/NECHHEUC">
+                      <Name>Document Status</Name>
+                    </CardListColumnAp>
+                    <CardListColumnAp action="edit" oid="3Y+/NECHHFHM">
+                      <Name>Created By.Name</Name>
+                    </CardListColumnAp>
+                    <CardFlexPanelAp action="edit" oid="3Y+/NECDW0A9">
+                      <Name>Card Layout Container</Name>
+                    </CardFlexPanelAp>
+                    <MobSortPanelAp action="edit" oid="mobsortpanel">
+                      <Name>Sorting Item 1</Name>
+                    </MobSortPanelAp>
+                    <MobFilterPanelAp action="edit" oid="mobfilterpanel">
+                      <Name>Filter Item 1</Name>
+                    </MobFilterPanelAp>
+                    <MobFilterPanelAp action="edit" oid="3Y+/NECDW/N/">
+                      <Name>Filter Item 2</Name>
+                    </MobFilterPanelAp>
+                  </Items>
+                </FormMetadata>
+              </MobListMeta>
+              <Name>生日列表-移动端</Name>
+              <MobMeta>
+                <FormMetadata>
+                  <Items>
+                    <LayoutFlexAp action="edit" oid="3Y+/NECDW/MY">
+                      <Name>Field Layout Container</Name>
+                    </LayoutFlexAp>
+                    <LayoutFlexAp action="edit" oid="3Y+/NECDW0A6">
+                      <Name>Field Layout Container</Name>
+                    </LayoutFlexAp>
+                    <FieldAp action="edit" oid="3Y+/NECDW/MZ">
+                      <Name>Document Status</Name>
+                    </FieldAp>
+                    <FieldAp action="edit" oid="3Y+/NECDW0A7">
+                      <Name>Approved By</Name>
+                    </FieldAp>
+                    <FieldAp action="edit" oid="3Y+/NECDW/N+">
+                      <Name>Created By</Name>
+                    </FieldAp>
+                    <MBarItemAp action="edit" oid="3Y+/NECDW0A8">
+                      <Name>Submit</Name>
+                    </MBarItemAp>
+                  </Items>
+                </FormMetadata>
+              </MobMeta>
+            </BillFormAp>
+            <EntryAp action="edit" oid="3Y+/NECDW0A3">
+              <Name>Grid</Name>
+            </EntryAp>
+            <AdvConSummaryPanelAp action="edit" oid="3Y+/NEC4+S1A">
+              <Name>Advanced Panel Summary Container</Name>
+            </AdvConSummaryPanelAp>
+            <AdvConToolbarAp action="edit" oid="3Y+/NEC4+SQL">
+              <Name>Advanced Panel Toolbar</Name>
+            </AdvConToolbarAp>
+            <AdvConChildPanelAp action="edit" oid="3Y+/NEC4+S1B">
+              <Name>Advanced Panel Subcontainer</Name>
+            </AdvConChildPanelAp>
+            <AdvConBarItemAp action="edit" oid="3Y+/NEC4+SQM">
+              <Name>Add Row</Name>
+            </AdvConBarItemAp>
+            <AdvConBarItemAp action="edit" oid="3Y+/NECDW/MV">
+              <Name>Delete Row</Name>
+            </AdvConBarItemAp>
+            <EntryFieldAp action="edit" oid="3Y+/NECDW/MW">
+              <Name>Modified By</Name>
+            </EntryFieldAp>
+            <EntryFieldAp action="edit" oid="3Y+/NECDW0A4">
+              <Name>Modified At</Name>
+            </EntryFieldAp>
+            <FieldAp action="edit" oid="RKDh6C9VLw">
+              <Name>HR行政组织</Name>
+            </FieldAp>
+            <AdvConAp action="edit" oid="3Y+/NEC4+SQK">
+              <Name>Entry</Name>
+            </AdvConAp>
+          </Items>
+        </FormMetadata>
+      </DataXml>
+      <Name>生日列表-移动端</Name>
+      <Id>3Y+/NEAU7ZC4</Id>
+      <LocaleId>en_US</LocaleId>
+    </DesignFormMetaL>
+    <DesignEntityMetaL>
+      <Number>tdkw_personbirthday</Number>
+      <PkId>3Y+/Q=P/YDK5</PkId>
+      <DataXml>
+        <EntityMetadata>
+          <Name>生日列表-移动端</Name>
+          <Items>
+            <BillEntity action="edit" oid="00305e8b000007ac">
+              <Operations>
+                <Operation action="edit" oid="3Y+/NECDW/MX">
+                  <Name>New Entry</Name>
+                </Operation>
+                <Operation action="edit" oid="3Y+/NECDW0A5">
+                  <Name>Delete Entry</Name>
+                </Operation>
+              </Operations>
+              <Name>生日列表-移动端</Name>
+            </BillEntity>
+            <EntryEntity action="edit" oid="3Y+/NECDW0A3">
+              <Name>Grid</Name>
+            </EntryEntity>
+            <ModifierField action="edit" oid="3Y+/NECDW/MW">
+              <Name>Modified By</Name>
+            </ModifierField>
+            <ModifyDateField action="edit" oid="3Y+/NECDW0A4">
+              <Name>Modified At</Name>
+            </ModifyDateField>
+            <BasedataField action="edit" oid="RKDh6C9VLw">
+              <Name>HR行政组织</Name>
+            </BasedataField>
+          </Items>
+        </EntityMetadata>
+      </DataXml>
+      <Name>生日列表-移动端</Name>
+      <Id>3Y+/NEAU7ZC4</Id>
+      <LocaleId>en_US</LocaleId>
+    </DesignEntityMetaL>
+  </DesignMetas>
+  <Version>1708336707782</Version>
+  <BOSVersion>1.0</BOSVersion>
+</DeployMetadata>

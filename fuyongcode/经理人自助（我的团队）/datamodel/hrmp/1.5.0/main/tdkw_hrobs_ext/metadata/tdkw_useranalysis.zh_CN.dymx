@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DeployMetadata>
+  <MasterId>3C55AVOQE70U</MasterId>
+  <Id>3C55AVOQE70U</Id>
+  <DesignMetas>
+    <DesignFormMetaL>
+      <Number>tdkw_useranalysis</Number>
+      <PkId>3C8CBE=GV+1=</PkId>
+      <DataXml>
+        <FormMetadata/>
+      </DataXml>
+      <Name>人员分析（废弃）</Name>
+      <Id>3C55AVOQE70U</Id>
+      <LocaleId>zh_CN</LocaleId>
+    </DesignFormMetaL>
+    <DesignEntityMetaL>
+      <Number>tdkw_useranalysis</Number>
+      <PkId>3C8CBEC6+ZMD</PkId>
+      <DataXml>
+        <EntityMetadata/>
+      </DataXml>
+      <Name>人员分析（废弃）</Name>
+      <Id>3C55AVOQE70U</Id>
+      <LocaleId>zh_CN</LocaleId>
+    </DesignEntityMetaL>
+  </DesignMetas>
+  <Version>1687245155471</Version>
+  <BOSVersion>1.0</BOSVersion>
+</DeployMetadata>

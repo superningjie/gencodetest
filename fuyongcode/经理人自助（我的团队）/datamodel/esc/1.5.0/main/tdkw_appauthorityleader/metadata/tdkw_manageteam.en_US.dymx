@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DeployMetadata>
+  <MasterId>3N/CXBEO1IWV</MasterId>
+  <Id>3N/CXBEO1IWV</Id>
+  <DesignMetas>
+    <DesignFormMetaL>
+      <Number>tdkw_manageteam</Number>
+      <PkId>3OT3AEZCGXFU</PkId>
+      <DataXml>
+        <FormMetadata>
+          <Items>
+            <BillFormAp action="edit" oid="00305e8b000005ac">
+              <MobListMeta>
+                <FormMetadata>
+                  <Items>
+                    <CardListColumnAp action="edit" oid="3N/CXBGBB/C4">
+                      <Name>单据状态</Name>
+                    </CardListColumnAp>
+                    <CardListColumnAp action="edit" oid="3N/CXBGBB=TI">
+                      <Name>创建人.姓名</Name>
+                    </CardListColumnAp>
+                    <CardFlexPanelAp action="edit" oid="3N/CXBGBB=TH">
+                      <Name>卡片布局容器</Name>
+                    </CardFlexPanelAp>
+                    <MobFilterPanelAp action="edit" oid="3N/CXBGBB/C3">
+                      <Name>过滤项2</Name>
+                    </MobFilterPanelAp>
+                  </Items>
+                </FormMetadata>
+              </MobListMeta>
+              <MobMeta>
+                <FormMetadata>
+                  <Items>
+                    <LayoutFlexAp action="edit" oid="3N/CXBG8PL5P">
+                      <Name>字段布局容器</Name>
+                    </LayoutFlexAp>
+                    <LayoutFlexAp action="edit" oid="3N/CXBG8PWM2">
+                      <Name>字段布局容器</Name>
+                    </LayoutFlexAp>
+                    <FieldAp action="edit" oid="3N/CXBG8PL5Q">
+                      <Name>单据状态</Name>
+                    </FieldAp>
+                    <FieldAp action="edit" oid="3N/CXBGBB=TF">
+                      <Name>审核人</Name>
+                    </FieldAp>
+                    <FieldAp action="edit" oid="3N/CXBGBB/C2">
+                      <Name>创建人</Name>
+                    </FieldAp>
+                    <MBarItemAp action="edit" oid="3N/CXBGBB=TG">
+                      <Name>提交</Name>
+                    </MBarItemAp>
+                  </Items>
+                </FormMetadata>
+              </MobMeta>
+            </BillFormAp>
+            <EntryAp action="edit" oid="3N/CXBG8PWM/">
+              <Name>单据体</Name>
+            </EntryAp>
+            <AdvConSummaryPanelAp action="edit" oid="3N/CXBG8PL5K">
+              <Name>高级面板摘要容器</Name>
+            </AdvConSummaryPanelAp>
+            <AdvConToolbarAp action="edit" oid="3N/CXBG8PWLZ">
+              <Name>高级面板工具栏</Name>
+            </AdvConToolbarAp>
+            <AdvConChildPanelAp action="edit" oid="3N/CXBG8PL5L">
+              <Name>高级面板子容器</Name>
+            </AdvConChildPanelAp>
+            <AdvConBarItemAp action="edit" oid="3N/CXBG8PWM+">
+              <Name>增行</Name>
+            </AdvConBarItemAp>
+            <AdvConBarItemAp action="edit" oid="3N/CXBG8PL5M">
+              <Name>删行</Name>
+            </AdvConBarItemAp>
+            <EntryFieldAp action="edit" oid="3N/CXBG8PL5N">
+              <Name>修改人</Name>
+            </EntryFieldAp>
+            <EntryFieldAp action="edit" oid="3N/CXBG8PWM0">
+              <Name>修改时间</Name>
+            </EntryFieldAp>
+            <FieldAp action="edit" oid="8EFPYU5aG5">
+              <Name>HR行政组织</Name>
+            </FieldAp>
+            <FieldAp action="edit" oid="SK0Po3ncoY">
+              <Name>职位子序列</Name>
+            </FieldAp>
+            <FieldAp action="edit" oid="SpWAHScT0H">
+              <Name>岗位标签</Name>
+            </FieldAp>
+            <AdvConAp action="edit" oid="3N/CXBG8PWLY">
+              <Name>分录</Name>
+            </AdvConAp>
+          </Items>
+        </FormMetadata>
+      </DataXml>
+      <Name>Document Template</Name>
+      <Id>3N/CXBEO1IWV</Id>
+      <LocaleId>en_US</LocaleId>
+    </DesignFormMetaL>
+    <DesignEntityMetaL>
+      <Number>tdkw_manageteam</Number>
+      <PkId>3OT3AF+H+W2Q</PkId>
+      <DataXml>
+        <EntityMetadata>
+          <Items>
+            <BillEntity action="edit" oid="00305e8b000007ac">
+              <Operations>
+                <Operation action="edit" oid="3N/CXBG8PL5O">
+                  <Name>新增分录</Name>
+                </Operation>
+                <Operation action="edit" oid="3N/CXBG8PWM1">
+                  <Name>删除分录</Name>
+                </Operation>
+              </Operations>
+            </BillEntity>
+            <EntryEntity action="edit" oid="3N/CXBG8PWM/">
+              <Name>单据体</Name>
+            </EntryEntity>
+            <ModifierField action="edit" oid="3N/CXBG8PL5N">
+              <Name>修改人</Name>
+            </ModifierField>
+            <ModifyDateField action="edit" oid="3N/CXBG8PWM0">
+              <Name>修改日期</Name>
+            </ModifyDateField>
+            <BasedataField action="edit" oid="8EFPYU5aG5">
+              <Name>HR行政组织</Name>
+            </BasedataField>
+            <BasedataField action="edit" oid="SK0Po3ncoY">
+              <Name>职位子序列</Name>
+            </BasedataField>
+            <MulBasedataField action="edit" oid="SpWAHScT0H">
+              <Name>岗位标签</Name>
+              <RefLayout/>
+              <DefValue/>
+            </MulBasedataField>
+          </Items>
+        </EntityMetadata>
+      </DataXml>
+      <Name>Document Template</Name>
+      <Id>3N/CXBEO1IWV</Id>
+      <LocaleId>en_US</LocaleId>
+    </DesignEntityMetaL>
+  </DesignMetas>
+  <Version>1699431115549</Version>
+  <BOSVersion>1.0</BOSVersion>
+</DeployMetadata>

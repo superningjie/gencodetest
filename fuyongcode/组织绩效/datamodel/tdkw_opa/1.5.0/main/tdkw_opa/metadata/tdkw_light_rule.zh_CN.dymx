@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DeployMetadata>
+  <MasterId>4CDO/DRATVX6</MasterId>
+  <Id>4CDO/DRATVX6</Id>
+  <DesignMetas>
+    <DesignFormMetaL>
+      <Number>tdkw_light_rule</Number>
+      <PkId>4DH/UKCQXJYT</PkId>
+      <DataXml>
+        <FormMetadata/>
+      </DataXml>
+      <Name>亮灯规则</Name>
+      <Id>4CDO/DRATVX6</Id>
+      <LocaleId>zh_CN</LocaleId>
+    </DesignFormMetaL>
+    <DesignEntityMetaL>
+      <Number>tdkw_light_rule</Number>
+      <PkId>4DH/UKXRDE4Z</PkId>
+      <DataXml>
+        <EntityMetadata/>
+      </DataXml>
+      <Name>亮灯规则</Name>
+      <Id>4CDO/DRATVX6</Id>
+      <LocaleId>zh_CN</LocaleId>
+    </DesignEntityMetaL>
+  </DesignMetas>
+  <Version>1726301841234</Version>
+  <BOSVersion>1.0</BOSVersion>
+</DeployMetadata>

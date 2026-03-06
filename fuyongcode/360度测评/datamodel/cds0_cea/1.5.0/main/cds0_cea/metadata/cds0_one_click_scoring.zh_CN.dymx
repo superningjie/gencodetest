@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DeployMetadata>
+  <MasterId>48EK30TS58YP</MasterId>
+  <Id>48EK30TS58YP</Id>
+  <DesignMetas>
+    <DesignFormMetaL>
+      <Number>cds0_one_click_scoring</Number>
+      <PkId>4=0CWQZ6P==3</PkId>
+      <DataXml>
+        <FormMetadata/>
+      </DataXml>
+      <Name>一键评分</Name>
+      <Id>48EK30TS58YP</Id>
+      <LocaleId>zh_CN</LocaleId>
+    </DesignFormMetaL>
+    <DesignEntityMetaL>
+      <Number>cds0_one_click_scoring</Number>
+      <PkId>4=0CWR1=8KEY</PkId>
+      <DataXml>
+        <EntityMetadata/>
+      </DataXml>
+      <Name>一键评分</Name>
+      <Id>48EK30TS58YP</Id>
+      <LocaleId>zh_CN</LocaleId>
+    </DesignEntityMetaL>
+  </DesignMetas>
+  <Version>1721981278402</Version>
+  <BOSVersion>1.0</BOSVersion>
+</DeployMetadata>

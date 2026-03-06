@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Package name="tdkw_hr_activity">
+    <ver>1.5.0</ver>
+    <app>
+        <item id="tdkw_hr_activity" name="tdkw_hr_activity" pkname="tdkw_hr_activity-tdkw_hr_activity" path="main/tdkw_hr_activity"/>
+    </app>
+</Package>

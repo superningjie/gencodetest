@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DeployMetadata>
+  <MasterId>494Z5H2H=B3U</MasterId>
+  <Id>494Z5H2H=B3U</Id>
+  <DesignMetas>
+    <DesignFormMetaL>
+      <Number>cds0_test_wjl</Number>
+      <PkId>494Z5H4XK445</PkId>
+      <DataXml>
+        <FormMetadata/>
+      </DataXml>
+      <Name>cds0_test_wjl</Name>
+      <Id>494Z5H2H=B3U</Id>
+      <LocaleId>zh_CN</LocaleId>
+    </DesignFormMetaL>
+    <DesignEntityMetaL>
+      <Number>cds0_test_wjl</Number>
+      <PkId>494Z5H5CP7S+</PkId>
+      <DataXml>
+        <EntityMetadata/>
+      </DataXml>
+      <Name>cds0_test_wjl</Name>
+      <Id>494Z5H2H=B3U</Id>
+      <LocaleId>zh_CN</LocaleId>
+    </DesignEntityMetaL>
+  </DesignMetas>
+  <Version>1721124607868</Version>
+  <BOSVersion>1.0</BOSVersion>
+</DeployMetadata>

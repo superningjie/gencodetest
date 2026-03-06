@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DeployMetadata>
+  <MasterId>3OPKK8E8FVNI</MasterId>
+  <Id>3OPKK8E8FVNI</Id>
+  <DesignMetas>
+    <DesignFormMetaL>
+      <Number>tdkw_haos_divisionreport</Number>
+      <PkId>3PKR2R0KFED2</PkId>
+      <DataXml>
+        <FormMetadata>
+          <Name>事业部统计报表</Name>
+          <Items>
+            <ReportFormAp action="edit" oid="1b760aa100003aac">
+              <Name>事业部统计报表</Name>
+            </ReportFormAp>
+            <VectorAp action="edit" oid="L02Hau5lOR">
+              <Name>图标</Name>
+            </VectorAp>
+            <FlexPanelAp action="edit" oid="07XStRl82j">
+              <Name>Flex容器</Name>
+            </FlexPanelAp>
+            <EntryFieldAp action="edit" oid="BJl43Xfq4T">
+              <Name>板块</Name>
+            </EntryFieldAp>
+            <EntryFieldAp action="edit" oid="q8SSjaqJPj">
+              <Name>二级板块</Name>
+            </EntryFieldAp>
+            <EntryFieldAp action="edit" oid="BOMbiU5Gq0">
+              <Name>公司/事业部</Name>
+            </EntryFieldAp>
+            <EntryFieldAp action="edit" oid="HGcprCbKGH">
+              <Name>总人数</Name>
+            </EntryFieldAp>
+            <EntryFieldAp action="edit" oid="hVaOxutub4">
+              <Name>正式员工/退休返聘</Name>
+            </EntryFieldAp>
+            <EntryFieldAp action="edit" oid="uIViy23hXS">
+              <Name>劳务派遣/劳务人员</Name>
+            </EntryFieldAp>
+            <EntryFieldAp action="edit" oid="M6v456MtzE">
+              <Name>劳务外包人员</Name>
+            </EntryFieldAp>
+            <EntryFieldAp action="edit" oid="icWwD6ADFv">
+              <Name>id列</Name>
+            </EntryFieldAp>
+            <EntryFieldAp action="edit" oid="NLq3OfYSUf">
+              <Name>二级板块id</Name>
+            </EntryFieldAp>
+            <EntryFieldAp action="edit" oid="563S7oeqAW">
+              <Name>板块id</Name>
+            </EntryFieldAp>
+            <EntryFieldAp action="edit" oid="ABqvEZjsln">
+              <Name>板块排序</Name>
+            </EntryFieldAp>
+            <EntryFieldAp action="edit" oid="k6Xxq5XH85">
+              <Name>二级板块排序</Name>
+            </EntryFieldAp>
+            <EntryFieldAp action="edit" oid="PnSENXhYNw">
+              <Name>事业部排序</Name>
+            </EntryFieldAp>
+          </Items>
+        </FormMetadata>
+      </DataXml>
+      <Name>事业部统计报表</Name>
+      <Id>3OPKK8E8FVNI</Id>
+      <LocaleId>en_US</LocaleId>
+    </DesignFormMetaL>
+    <DesignEntityMetaL>
+      <Number>tdkw_haos_divisionreport</Number>
+      <PkId>3PKR2R9L5PR2</PkId>
+      <DataXml>
+        <EntityMetadata>
+          <Name>事业部统计报表</Name>
+          <Items>
+            <ReportEntity action="edit" oid="1b760aa100003cac">
+              <Name>事业部统计报表</Name>
+            </ReportEntity>
+            <TextField action="edit" oid="BJl43Xfq4T">
+              <Name>板块</Name>
+            </TextField>
+            <TextField action="edit" oid="q8SSjaqJPj">
+              <Name>二级板块</Name>
+            </TextField>
+            <TextField action="edit" oid="BOMbiU5Gq0">
+              <Name>公司/事业部</Name>
+            </TextField>
+            <IntegerField action="edit" oid="HGcprCbKGH">
+              <Name>总人数</Name>
+            </IntegerField>
+            <IntegerField action="edit" oid="hVaOxutub4">
+              <Name>正式员工/退休返聘</Name>
+            </IntegerField>
+            <IntegerField action="edit" oid="uIViy23hXS">
+              <Name>劳务派遣/劳务人员</Name>
+            </IntegerField>
+            <IntegerField action="edit" oid="M6v456MtzE">
+              <Name>劳务外包人员</Name>
+            </IntegerField>
+            <TextField action="edit" oid="icWwD6ADFv">
+              <Name>id列</Name>
+            </TextField>
+            <TextField action="edit" oid="NLq3OfYSUf">
+              <Name>二级板块id</Name>
+            </TextField>
+            <TextField action="edit" oid="563S7oeqAW">
+              <Name>板块id</Name>
+            </TextField>
+            <TextField action="edit" oid="ABqvEZjsln">
+              <Name>板块排序</Name>
+            </TextField>
+            <TextField action="edit" oid="k6Xxq5XH85">
+              <Name>二级板块排序</Name>
+            </TextField>
+            <TextField action="edit" oid="PnSENXhYNw">
+              <Name>事业部排序</Name>
+            </TextField>
+          </Items>
+        </EntityMetadata>
+      </DataXml>
+      <Name>事业部统计报表</Name>
+      <Id>3OPKK8E8FVNI</Id>
+      <LocaleId>en_US</LocaleId>
+    </DesignEntityMetaL>
+  </DesignMetas>
+  <Version>1735200483963</Version>
+  <BOSVersion>1.0</BOSVersion>
+</DeployMetadata>

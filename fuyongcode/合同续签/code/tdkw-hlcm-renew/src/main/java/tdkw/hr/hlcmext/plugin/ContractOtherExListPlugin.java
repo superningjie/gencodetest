@@ -1,0 +1,276 @@
+package tdkw.hr.hlcmext.plugin;
+
+import kd.bos.bill.BillShowParameter;
+import kd.bos.dataentity.OperateOption;
+import kd.bos.dataentity.entity.DynamicObject;
+import kd.bos.dataentity.utils.StringUtils;
+import kd.bos.entity.datamodel.ListSelectedRow;
+import kd.bos.entity.datamodel.ListSelectedRowCollection;
+import kd.bos.entity.operate.result.IOperateInfo;
+import kd.bos.entity.operate.result.OperationResult;
+import kd.bos.form.*;
+import kd.bos.form.control.events.BeforeItemClickEvent;
+import kd.bos.form.control.events.ClickListener;
+import kd.bos.form.events.AfterDoOperationEventArgs;
+import kd.bos.form.events.BeforeDoOperationEventArgs;
+import kd.bos.form.operate.FormOperate;
+import kd.bos.list.BillList;
+import kd.bos.list.IListView;
+import kd.bos.list.plugin.AbstractListPlugin;
+import kd.bos.logging.Log;
+import kd.bos.logging.LogFactory;
+import kd.bos.mvc.list.ListView;
+import kd.bos.servicehelper.BusinessDataServiceHelper;
+import kd.bos.servicehelper.operation.OperationServiceHelper;
+import kd.bos.servicehelper.operation.SaveServiceHelper;
+import kd.bos.servicehelper.user.UserServiceHelper;
+
+import java.util.ArrayList;
+import java.util.Date;
+import java.util.EventObject;
+import java.util.List;
+import java.util.stream.Collectors;
+
+public class ContractOtherExListPlugin extends AbstractListPlugin implements ClickListener {
+
+    private static Log logger = LogFactory.getLog(ContractOtherExListPlugin.class);
+
+    @Override
+    public void registerListener(EventObject e) {
+
+        super.registerListener(e);
+        this.addClickListeners("tblsubmiteffect", "tblsubmit","tdkw_baritemapex1");
+    }
+
+    @Override
+    public void beforeItemClick(BeforeItemClickEvent evt) {
+        BillList list = this.getControl(AbstractListPlugin.BILLLISTID);
+        ListSelectedRowCollection selectedRows = list.getSelectedRows();
+        if ("tblsubmiteffect".equals(evt.getItemKey())) {
+            for (ListSelectedRow selectedRow : selectedRows) {
+                Long id = (Long) selectedRow.getPrimaryKeyValue();
+                DynamicObject contractObj = BusinessDataServiceHelper.loadSingle(id, ((ListView) this.getView()).getBillFormId());
+                String tdkw_fddsignstatuss = contractObj.getString("tdkw_fddsignstatuss");
+                String tdkw_signwaynew = contractObj.getString("tdkw_signwaynew");
+
+                String billstatus = contractObj.getString("billstatus");
+
+                boolean flag = true;
+                if (!("C".equals(billstatus) || "审批通过".equals(billstatus))) {
+                    flag = false;
+                    this.getView().showErrorNotification("选中单据中存在未审批通过、无法提交并生效");
+                    evt.setCancel(true);
+                }
+
+                if (flag) {
+                    if (!("已完成".equals(tdkw_fddsignstatuss) || "F".equals(tdkw_fddsignstatuss))) {
+                        if (!("纸质签署".equals(tdkw_signwaynew) || "A".equals(tdkw_signwaynew))) {
+                            this.getView().showErrorNotification("选中单据中存在电子签未完成、无法提交并生效");
+                            evt.setCancel(true);
+                        }
+                    }
+                }
+            }
+
+        }
+        // todo 屏蔽二开
+       /* if ("submit".equals(evt.getOperationKey())) {
+            for (ListSelectedRow selectedRow : selectedRows) {
+                Long id = (Long) selectedRow.getPrimaryKeyValue();
+                DynamicObject obj = BusinessDataServiceHelper.loadSingle(id, "hlcm_contractapplyrenew");
+                String tdkw_fillinstatus = obj.getString("tdkw_fillinstatus");
+                if (!"2".equals(tdkw_fillinstatus)) {
+                    this.getView().showErrorNotification("选中单据中存在未填写完成单据、无法提交");
+                    evt.setCancel(true);
+                }
+            }
+
+        }*/
+        if ("unsubmit".equals(evt.getOperationKey())) {
+            for (ListSelectedRow selectedRow : selectedRows) {
+                Long id = (Long) selectedRow.getPrimaryKeyValue();
+                DynamicObject obj = BusinessDataServiceHelper.loadSingle(id, "hlcm_contractapplyrenew");
+                Long renBatchId = obj.getLong("tdkw_renewbatch.id");
+                if (renBatchId != null && renBatchId != 0) {
+                    this.getView().showErrorNotification("选中单据中存在已批量续签单据、无法撤销提交");
+                    evt.setCancel(true);
+                }
+            }
+
+        }
+        // todo 屏蔽二开
+       /* if ("fdd_auto_start".equals(evt.getOperationKey())) {
+            boolean flag = true;
+            int size = selectedRows.size();
+            int repeatSum = 0;
+            for (ListSelectedRow selectedRow : selectedRows) {
+                Long id = (Long) selectedRow.getPrimaryKeyValue();
+                DynamicObject obj = BusinessDataServiceHelper.loadSingle(id, "hlcm_contractapplyrenew");
+                String billstatus = obj.getString("billstatus");
+                String tdkw_signwaynew = obj.getString("tdkw_signwaynew");
+                String tdkw_fddsignstatuss = obj.getString("tdkw_fddsignstatuss");
+                if (!"C".equals(billstatus)) {
+                    flag = false;
+                    this.getView().showErrorNotification("选中单据中存在未审批通过单据、无法发起电子签");
+                    evt.setCancel(true);
+                }else  if ("A".equals(tdkw_signwaynew)) {
+                    flag = false;
+                    this.getView().showErrorNotification("选中单据中存在纸质签署方式、纸质签署无法发起电子签");
+                    evt.setCancel(true);
+                }
+                if("E".equals(tdkw_fddsignstatuss) || "F".equals(tdkw_fddsignstatuss)){
+                    this.getView().showErrorNotification("选中单据中存在 待相对方签署/已完成 单据、无法发起电子签");
+                    evt.setCancel(true);
+                }
+
+            }
+            *//*if(flag){
+                String content = "";
+                if(repeatSum > 0 ){
+                    content = "批量发起电子签存在 待相对方签署/已完成 单据、请根据列表法大大签署状态批量发起电子签、本次是否继续批量发起电子签？";
+                }else{
+                    content = "是否批量发起电子签 ?";
+                }
+                this.getView().showConfirm(content,  MessageBoxOptions.YesNo, new ConfirmCallBackListener("fdd_auto_start", this));
+            }*//*
+        }*/
+
+
+        super.beforeItemClick(evt);
+    }
+
+    @Override
+    public void beforeDoOperation(BeforeDoOperationEventArgs args) {
+        FormOperate opreate = (FormOperate) args.getSource();
+        String operateKey = opreate.getOperateKey();
+        if ("delete".equals(operateKey)) {
+            BillList list = this.getControl(AbstractListPlugin.BILLLISTID);
+            ListSelectedRowCollection selectedRows = list.getSelectedRows();
+            for (ListSelectedRow selectedRow : selectedRows) {
+                Long id = (Long) selectedRow.getPrimaryKeyValue();
+                DynamicObject contractObj = BusinessDataServiceHelper.loadSingle(id, ((ListView) this.getView()).getBillFormId());
+                String tdkw_fddsignstatuss = contractObj.getString("tdkw_fddsignstatuss");
+                if (("已完成".equals(tdkw_fddsignstatuss) || "F".equals(tdkw_fddsignstatuss) || "待相对方签署".equals(tdkw_fddsignstatuss) || "E".equals(tdkw_fddsignstatuss))) {
+                    this.getView().showErrorNotification("选中单据中存在电子签：待相对方签署/已完成、无法删除");
+                    args.setCancel(true);
+                }
+            }
+        }
+        super.beforeDoOperation(args);
+    }
+
+   /* @Override
+    public void confirmCallBack(MessageBoxClosedEvent event) {
+        super.confirmCallBack(event);
+        String callBackId = event.getCallBackId();
+        IListView listview = (IListView) this.getView();
+        if ("fdd_auto_start".equals(callBackId) && event.getResult() == MessageBoxResult.Yes){
+            List<Object> pks = listview.getSelectedRows().stream().map(ListSelectedRow::getPrimaryKeyValue).collect(Collectors.toList());
+            DynamicObject[] contractColl = BusinessDataServiceHelper.load(pks.toArray(), EntityMetadataCache.getDataEntityType("hlcm_contractapplyrenew"));
+
+            String hear = "";
+            
+            String context = "";
+            this.getView().showMessage(hear, context, MessageTypes.Default);
+        }
+    }*/
+
+    @Override
+    public void afterDoOperation(AfterDoOperationEventArgs afterDoOperationEventArgs) {
+        String operateKey = afterDoOperationEventArgs.getOperateKey();
+        OperationResult operationResult = afterDoOperationEventArgs.getOperationResult();
+        IListView listview = (IListView) this.getView();
+   //todo  屏蔽二开
+
+   /*     if ("fillsub".equals(operateKey) && operationResult != null && operationResult.isSuccess()) {
+            this.getView().showSuccessNotification("填写状态并提交成功");
+            listview.refresh();
+        }
+
+        if ("canfillsub".equals(operateKey) && operationResult != null && operationResult.isSuccess()) {
+            this.getView().showSuccessNotification("撤销填写提交成功");
+            listview.refresh();
+        }*/
+
+
+        if ("batchren".equals(afterDoOperationEventArgs.getOperateKey())) {
+            Long currentUserId = UserServiceHelper.getCurrentUserId();
+            logger.info("批量续签用户：" + currentUserId);
+
+            BillList list = this.getControl(AbstractListPlugin.BILLLISTID);
+            ListSelectedRowCollection selectedRows = list.getSelectedRows();
+            List<DynamicObject> itemList = new ArrayList<>();
+            StringBuilder idsStr = new StringBuilder();
+            for (ListSelectedRow selectedRow : selectedRows) {
+                Long id = (Long) selectedRow.getPrimaryKeyValue();
+                DynamicObject obj = BusinessDataServiceHelper.loadSingle(id, "hlcm_contractapplyrenew");
+                Long renBatchId = obj.getLong("tdkw_renewbatch.id");
+//                String fillStatus = obj.getString("tdkw_fillinstatus");
+                String billstatus = obj.getString("billstatus");
+//                if (!"2".equals(fillStatus)) {
+//                    this.getView().showErrorNotification("选中单据中存在未填写完成单据、无法批量续签");
+//                    return;
+//                }
+                if (renBatchId != null && renBatchId != 0) {
+                    this.getView().showErrorNotification("选中单据中存在已批量续签单据、无法批量续签");
+                    return;
+                }
+                if(!"A".equals(billstatus)){
+                    this.getView().showErrorNotification("选中单据中存在非暂存状态单据、无法批量续签");
+                    return;
+                }
+                idsStr.append(id).append(",");
+                itemList.add(obj);
+            }
+            idsStr.deleteCharAt(idsStr.length() - 1);
+            //创建批量续签单
+
+            DynamicObject renBatchObj = BusinessDataServiceHelper.newDynamicObject("tdkw_hlcm_renewbatch");
+            DynamicObject orgObj = BusinessDataServiceHelper.newDynamicObject("bos_org");
+            orgObj.set("id", Long.valueOf(100000));
+            DynamicObject affiliationOrdObj = BusinessDataServiceHelper.newDynamicObject("haos_adminorghr");
+            affiliationOrdObj.set("id", Long.valueOf(100000));
+            renBatchObj.set("org", orgObj);
+            renBatchObj.set("tdkw_affiliationord", affiliationOrdObj);
+            renBatchObj.set("tdkw_itemids_tag", idsStr.toString());
+            renBatchObj.set("billstatus", "A");
+            renBatchObj.set("tdkw_billstatus", "A");
+            renBatchObj.set("creator", currentUserId);
+            renBatchObj.set("createtime", new Date());
+            renBatchObj.set("modifier", currentUserId);
+            renBatchObj.set("modifytime", new Date());
+            renBatchObj.set("tdkw_personsize", itemList.size());
+            renBatchObj.set("auditstatus", "A");
+
+            OperationResult save = OperationServiceHelper.executeOperate("save", "tdkw_hlcm_renewbatch", new DynamicObject[]{renBatchObj}, OperateOption.create());
+            if (!save.isSuccess()) {
+                outErrorInfo(save);
+                return;
+            }
+
+            itemList.stream().forEach(item -> {
+                item.set("tdkw_renewbatch", renBatchObj.getPkValue());
+                item.set("billstatus", "B");
+                item.set("modifytime", new Date());
+                item.set("modifier", currentUserId);
+            });
+            SaveServiceHelper.save(itemList.toArray(new DynamicObject[0]));
+
+            BillShowParameter showParameter = new BillShowParameter();
+            showParameter.setPkId(renBatchObj.getPkValue());
+            showParameter.setFormId("tdkw_hlcm_renewbatch");
+            showParameter.getOpenStyle().setShowType(ShowType.MainNewTabPage);
+            showParameter.setCloseCallBack(new CloseCallBack(this, "refreshCallBack"));
+            this.getView().showForm(showParameter);
+//            this.getView().showSuccessNotification("批量续签创建成功");
+        }
+        super.afterDoOperation(afterDoOperationEventArgs);
+    }
+
+    private void outErrorInfo(OperationResult save) {
+        List<IOperateInfo> errorInfos = save.getAllErrorOrValidateInfo();
+        String error = StringUtils.join(errorInfos.stream().map(i -> i.getMessage()).collect(Collectors.toList()));
+        this.getView().showErrorNotification("生成批量续签失败：" +error);
+        logger.info("生成批量续签失败：" +error);
+    }
+}

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DeployMetadata>
+  <MasterId>3PZB9K6VZ+EN</MasterId>
+  <Id>3PZB9K6VZ+EN</Id>
+  <DesignMetas>
+    <DesignFormMetaL>
+      <Number>tdkw_ryxxwzd_pc</Number>
+      <PkId>3PZBDDQPZA7=</PkId>
+      <DataXml>
+        <FormMetadata/>
+      </DataXml>
+      <Name>人员信息完整度PC端</Name>
+      <Id>3PZB9K6VZ+EN</Id>
+      <LocaleId>zh_CN</LocaleId>
+    </DesignFormMetaL>
+    <DesignEntityMetaL>
+      <Number>tdkw_ryxxwzd_pc</Number>
+      <PkId>3PZBDE01B+D3</PkId>
+      <DataXml>
+        <EntityMetadata/>
+      </DataXml>
+      <Name>人员信息完整度PC端</Name>
+      <Id>3PZB9K6VZ+EN</Id>
+      <LocaleId>zh_CN</LocaleId>
+    </DesignEntityMetaL>
+  </DesignMetas>
+  <Version>1700556612356</Version>
+  <BOSVersion>1.0</BOSVersion>
+</DeployMetadata>

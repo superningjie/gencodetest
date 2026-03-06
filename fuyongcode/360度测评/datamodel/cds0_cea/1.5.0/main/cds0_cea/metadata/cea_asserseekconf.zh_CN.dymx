@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DeployMetadata>
+  <MasterId>4A2SPARRS3DS</MasterId>
+  <Id>4A2SPARRS3DS</Id>
+  <DesignMetas>
+    <DesignFormMetaL>
+      <Number>cea_asserseekconf</Number>
+      <PkId>4APIUEUMP4F+</PkId>
+      <DataXml>
+        <FormMetadata/>
+      </DataXml>
+      <Name>测评人查找BU配置表</Name>
+      <Id>4A2SPARRS3DS</Id>
+      <LocaleId>zh_CN</LocaleId>
+    </DesignFormMetaL>
+    <DesignEntityMetaL>
+      <Number>cea_asserseekconf</Number>
+      <PkId>4APIUEYMM+0S</PkId>
+      <DataXml>
+        <EntityMetadata/>
+      </DataXml>
+      <Name>测评人查找BU配置表</Name>
+      <Id>4A2SPARRS3DS</Id>
+      <LocaleId>zh_CN</LocaleId>
+    </DesignEntityMetaL>
+  </DesignMetas>
+  <Version>1723602422035</Version>
+  <BOSVersion>1.0</BOSVersion>
+</DeployMetadata>

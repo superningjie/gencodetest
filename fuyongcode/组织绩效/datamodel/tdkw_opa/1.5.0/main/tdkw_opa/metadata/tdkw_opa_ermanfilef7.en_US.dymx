@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DeployMetadata>
+  <MasterId>4DDQABMRR+LM</MasterId>
+  <Id>4DDQABMRR+LM</Id>
+  <DesignMetas>
+    <DesignFormMetaL>
+      <Number>tdkw_opa_ermanfilef7</Number>
+      <PkId>4DY49YC=/MCA</PkId>
+      <DataXml>
+        <FormMetadata>
+          <Name>人事业务档案_组织绩效</Name>
+          <Items>
+            <BasedataFormAp action="edit" oid="0NKB12K4W9D7">
+              <Name>人事业务档案_组织绩效</Name>
+            </BasedataFormAp>
+          </Items>
+        </FormMetadata>
+      </DataXml>
+      <Name>人事业务档案_组织绩效</Name>
+      <Id>4DDQABMRR+LM</Id>
+      <LocaleId>en_US</LocaleId>
+    </DesignFormMetaL>
+  </DesignMetas>
+  <Version>1726727677491</Version>
+  <BOSVersion>1.0</BOSVersion>
+</DeployMetadata>

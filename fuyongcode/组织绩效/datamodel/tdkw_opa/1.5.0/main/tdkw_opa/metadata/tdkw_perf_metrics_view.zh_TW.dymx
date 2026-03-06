@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DeployMetadata>
+  <MasterId>4=Y+=X8M8BQE</MasterId>
+  <Id>4=Y+=X8M8BQE</Id>
+  <DesignMetas>
+    <DesignFormMetaL>
+      <Number>tdkw_perf_metrics_view</Number>
+      <PkId>4D3=CZYL/Q+M</PkId>
+      <DataXml>
+        <FormMetadata>
+          <Name>樹形列表_繼承</Name>
+          <Items>
+            <ListFormAp action="edit" oid="c5ed6a1300000aac">
+              <Name>樹形列表_繼承</Name>
+            </ListFormAp>
+            <FieldAp action="edit" oid="W63Nh4vT8DaVXGAmDT">
+              <Name>所屬組織</Name>
+            </FieldAp>
+            <FieldAp action="edit" oid="GLzFP4Otbw7VEIPa9n">
+              <Name>考核年份</Name>
+            </FieldAp>
+            <FieldAp action="edit" oid="em9LCJXJEmh04S1Ncg">
+              <Name>指標類型</Name>
+            </FieldAp>
+            <FlexPanelAp action="edit" oid="1w3ZXNdGewq5xVP9mu">
+              <Name>組織績效列表</Name>
+            </FlexPanelAp>
+            <FlexPanelAp action="edit" oid="nS5eo5uPt6">
+              <Name>Flex面板</Name>
+            </FlexPanelAp>
+            <FlexPanelAp action="edit" oid="gn8YPWBp4i">
+              <Name>Flex面板</Name>
+            </FlexPanelAp>
+            <FlexPanelAp action="edit" oid="sb1m7QwRtv">
+              <Name>架構方案Flex容器</Name>
+            </FlexPanelAp>
+          </Items>
+        </FormMetadata>
+      </DataXml>
+      <Name>樹形列表_繼承</Name>
+      <Id>4=Y+=X8M8BQE</Id>
+      <LocaleId>zh_TW</LocaleId>
+    </DesignFormMetaL>
+    <DesignEntityMetaL>
+      <Number>tdkw_perf_metrics_view</Number>
+      <PkId>4D3=D+3R7PHC</PkId>
+      <DataXml>
+        <EntityMetadata>
+          <Name>樹形列表_繼承</Name>
+          <Items>
+            <MainEntity action="edit" oid="c5ed6a1300000cac">
+              <Name>樹形列表_繼承</Name>
+            </MainEntity>
+            <DateField action="edit" oid="GLzFP4Otbw7VEIPa9n">
+              <Name>考核年份</Name>
+            </DateField>
+            <MulBasedataField action="edit" oid="W63Nh4vT8DaVXGAmDT">
+              <Name>所屬組織</Name>
+            </MulBasedataField>
+            <BasedataField action="edit" oid="em9LCJXJEmh04S1Ncg">
+              <Name>指標類型</Name>
+            </BasedataField>
+          </Items>
+        </EntityMetadata>
+      </DataXml>
+      <Name>樹形列表_繼承</Name>
+      <Id>4=Y+=X8M8BQE</Id>
+      <LocaleId>zh_TW</LocaleId>
+    </DesignEntityMetaL>
+  </DesignMetas>
+  <Version>1725935336137</Version>
+  <BOSVersion>1.0</BOSVersion>
+</DeployMetadata>

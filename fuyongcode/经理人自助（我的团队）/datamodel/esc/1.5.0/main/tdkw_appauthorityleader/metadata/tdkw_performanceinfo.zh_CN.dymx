@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DeployMetadata>
+  <MasterId>3ED11HTEZ465</MasterId>
+  <Id>3ED11HTEZ465</Id>
+  <DesignMetas>
+    <DesignFormMetaL>
+      <Number>tdkw_performanceinfo</Number>
+      <PkId>3FBBS9AK3P31</PkId>
+      <DataXml>
+        <FormMetadata/>
+      </DataXml>
+      <Name>员工简历-绩效信息移动端</Name>
+      <Id>3ED11HTEZ465</Id>
+      <LocaleId>zh_CN</LocaleId>
+    </DesignFormMetaL>
+    <DesignEntityMetaL>
+      <Number>tdkw_performanceinfo</Number>
+      <PkId>3FBBS9BHCVPF</PkId>
+      <DataXml>
+        <EntityMetadata/>
+      </DataXml>
+      <Name>员工简历-绩效信息移动端</Name>
+      <Id>3ED11HTEZ465</Id>
+      <LocaleId>zh_CN</LocaleId>
+    </DesignEntityMetaL>
+  </DesignMetas>
+  <Version>1690255558609</Version>
+  <BOSVersion>1.0</BOSVersion>
+</DeployMetadata>

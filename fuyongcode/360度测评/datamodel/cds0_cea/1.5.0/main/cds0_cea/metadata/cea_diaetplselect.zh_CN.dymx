@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DeployMetadata>
+  <MasterId>497TU1E0=9P4</MasterId>
+  <Id>497TU1E0=9P4</Id>
+  <DesignMetas>
+    <DesignFormMetaL>
+      <Number>cea_diaetplselect</Number>
+      <PkId>4=0CO9G8AJ52</PkId>
+      <DataXml>
+        <FormMetadata/>
+      </DataXml>
+      <Name>引入引出模板选择列表</Name>
+      <Id>497TU1E0=9P4</Id>
+      <LocaleId>zh_CN</LocaleId>
+    </DesignFormMetaL>
+    <DesignEntityMetaL>
+      <Number>cea_diaetplselect</Number>
+      <PkId>4=0CO9HMPRCI</PkId>
+      <DataXml>
+        <EntityMetadata/>
+      </DataXml>
+      <Name>引入引出模板选择列表</Name>
+      <Id>497TU1E0=9P4</Id>
+      <LocaleId>zh_CN</LocaleId>
+    </DesignEntityMetaL>
+  </DesignMetas>
+  <Version>1721981139772</Version>
+  <BOSVersion>1.0</BOSVersion>
+</DeployMetadata>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DeployMetadata>
+  <MasterId>4513U0O7NQYT</MasterId>
+  <Id>4513U0O7NQYT</Id>
+  <DesignMetas>
+    <DesignFormMetaL>
+      <Number>cds0_cea_apphome</Number>
+      <PkId>4=400T0D6MIR</PkId>
+      <DataXml>
+        <FormMetadata/>
+      </DataXml>
+      <Name>360测评_应用首页</Name>
+      <Id>4513U0O7NQYT</Id>
+      <LocaleId>zh_CN</LocaleId>
+    </DesignFormMetaL>
+    <DesignEntityMetaL>
+      <Number>cds0_cea_apphome</Number>
+      <PkId>4=400T2IL6MT</PkId>
+      <DataXml>
+        <EntityMetadata/>
+      </DataXml>
+      <Name>360测评_应用首页</Name>
+      <Id>4513U0O7NQYT</Id>
+      <LocaleId>zh_CN</LocaleId>
+    </DesignEntityMetaL>
+  </DesignMetas>
+  <Version>1722071974745</Version>
+  <BOSVersion>1.0</BOSVersion>
+</DeployMetadata>

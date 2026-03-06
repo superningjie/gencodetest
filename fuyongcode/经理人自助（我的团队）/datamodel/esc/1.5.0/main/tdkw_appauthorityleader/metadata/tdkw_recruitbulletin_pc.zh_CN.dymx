@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DeployMetadata>
+  <MasterId>3EWW=ANH2FEH</MasterId>
+  <Id>3EWW=ANH2FEH</Id>
+  <DesignMetas>
+    <DesignFormMetaL>
+      <Number>tdkw_recruitbulletin_pc</Number>
+      <PkId>3EWW=AS0RS6C</PkId>
+      <DataXml>
+        <FormMetadata/>
+      </DataXml>
+      <Name>招聘看板PC端</Name>
+      <Id>3EWW=ANH2FEH</Id>
+      <LocaleId>zh_CN</LocaleId>
+    </DesignFormMetaL>
+    <DesignEntityMetaL>
+      <Number>tdkw_recruitbulletin_pc</Number>
+      <PkId>3EWW=ATMDV4B</PkId>
+      <DataXml>
+        <EntityMetadata/>
+      </DataXml>
+      <Name>招聘看板PC端</Name>
+      <Id>3EWW=ANH2FEH</Id>
+      <LocaleId>zh_CN</LocaleId>
+    </DesignEntityMetaL>
+  </DesignMetas>
+  <Version>1689820764528</Version>
+  <BOSVersion>1.0</BOSVersion>
+</DeployMetadata>

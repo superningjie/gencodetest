@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DeployMetadata>
+  <MasterId>4C0Q1DME5=JD</MasterId>
+  <Id>4C0Q1DME5=JD</Id>
+  <DesignMetas>
+    <DesignFormMetaL>
+      <Number>tdkw_performance_map_temp</Number>
+      <PkId>4D4EI63SY4A8</PkId>
+      <DataXml>
+        <FormMetadata>
+          <Name>組織績效地圖</Name>
+          <Items>
+            <ListFormAp action="edit" oid="c5ed6a1300000aac">
+              <Name>組織績效地圖</Name>
+            </ListFormAp>
+            <FlexPanelAp action="edit" oid="gob8bi7pmXAS14rcJJ">
+              <Name>Flex容器</Name>
+            </FlexPanelAp>
+            <ToolbarAp action="edit" oid="gg4shifbGb9LlcW0rn">
+              <Name>工具欄</Name>
+            </ToolbarAp>
+            <CustomControlAp action="edit" oid="Y2bYrncIX03lTheJpr">
+              <Name>自定義控件</Name>
+            </CustomControlAp>
+            <BarItemAp action="edit" oid="tjR8ti6GvW">
+              <Name>刷新</Name>
+            </BarItemAp>
+            <BarItemAp action="edit" oid="egfGlw7QoK">
+              <Name>退出</Name>
+            </BarItemAp>
+            <FieldAp action="edit" oid="4dghDbeffdY6NdenJI">
+              <Name>文本</Name>
+            </FieldAp>
+            <FieldAp action="edit" oid="437wmNGPeAebLN51tj">
+              <Name>日期</Name>
+            </FieldAp>
+            <FieldAp action="edit" oid="eqhPgtSmSI3AaLBQhq">
+              <Name>指標類型編碼</Name>
+            </FieldAp>
+            <FlexPanelAp action="edit" oid="xjLJxtgp7g">
+              <Name>架構方案Flex容器</Name>
+            </FlexPanelAp>
+          </Items>
+        </FormMetadata>
+      </DataXml>
+      <Name>組織績效地圖</Name>
+      <Id>4C0Q1DME5=JD</Id>
+      <LocaleId>zh_TW</LocaleId>
+    </DesignFormMetaL>
+    <DesignEntityMetaL>
+      <Number>tdkw_performance_map_temp</Number>
+      <PkId>4D4EI65/15/9</PkId>
+      <DataXml>
+        <EntityMetadata>
+          <Name>組織績效地圖</Name>
+          <Items>
+            <MainEntity action="edit" oid="c5ed6a1300000cac">
+              <Operations>
+                <Operation action="edit" oid="4CEHB3GD14TI">
+                  <Name>關閉</Name>
+                </Operation>
+                <Operation action="edit" oid="4CEHCA6P9/51">
+                  <Name>刷新</Name>
+                </Operation>
+              </Operations>
+              <Name>組織績效地圖</Name>
+            </MainEntity>
+            <TextField action="edit" oid="4dghDbeffdY6NdenJI">
+              <Name>文本</Name>
+            </TextField>
+            <DateField action="edit" oid="437wmNGPeAebLN51tj">
+              <Name>日期</Name>
+            </DateField>
+            <TextField action="edit" oid="eqhPgtSmSI3AaLBQhq">
+              <Name>指標類型編碼</Name>
+            </TextField>
+          </Items>
+        </EntityMetadata>
+      </DataXml>
+      <Name>組織績效地圖</Name>
+      <Id>4C0Q1DME5=JD</Id>
+      <LocaleId>zh_TW</LocaleId>
+    </DesignEntityMetaL>
+  </DesignMetas>
+  <Version>1754027881459</Version>
+  <BOSVersion>1.0</BOSVersion>
+</DeployMetadata>

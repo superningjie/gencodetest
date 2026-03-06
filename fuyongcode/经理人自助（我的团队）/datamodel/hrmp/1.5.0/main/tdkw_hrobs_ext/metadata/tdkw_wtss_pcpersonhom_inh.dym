@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DeployMetadata>
+  <Multilanguage>false</Multilanguage>
+  <MasterId>4EFOB=NRYL90</MasterId>
+  <BizappId>3==6P77F4X8W</BizappId>
+  <Id>4EFOB=NRYL90</Id>
+  <DesignMetas>
+    <DesignFormMeta>
+      <DevType>0</DevType>
+      <ModifyDate>1735272468069</ModifyDate>
+      <DataXml>
+        <FormMetadata>
+          <Isv>tdkw</Isv>
+          <Id>4EFOB=NRYL90</Id>
+          <Key>tdkw_wtss_pcpersonhom_inh</Key>
+          <EntityId>4EFOB=NRYL90</EntityId>
+          <ParentId>30UWUYOD=BZP</ParentId>
+          <BizappId>3==6P77F4X8W</BizappId>
+          <IsvSign/>
+          <Name>我的假勤日历</Name>
+          <InheritPath>30UWUYOD=BZP</InheritPath>
+          <Items>
+            <FormAp action="edit" oid="30UWUYO719IP">
+              <Id>4EFOB=NRYL90</Id>
+              <Name>我的假勤日历</Name>
+              <Style>
+                <Style>
+                  <Border>
+                    <Border>
+                      <Top action="reset"/>
+                    </Border>
+                  </Border>
+                </Style>
+              </Style>
+              <Key>tdkw_wtss_pcpersonhom_inh</Key>
+            </FormAp>
+            <FlexPanelAp action="edit" oid="F3Q6RKbsQz">
+              <Invisible>true</Invisible>
+            </FlexPanelAp>
+            <FlexPanelAp action="edit" oid="X5vGyI94Q3">
+              <Invisible>true</Invisible>
+            </FlexPanelAp>
+            <FlexPanelAp action="edit" oid="S2CzMBqSrF">
+              <Style>
+                <Style>
+                  <Border action="setnull"/>
+                </Style>
+              </Style>
+              <CustomeStyles>eyJ0eXBlIjowLCJjb250ZW50IjoiwqAvKiogXG4qIOagt+S+i1xuKiDmlK/mjIHljp/nlJ9jc3PmoLflvI/lhpnms5Vcbiog5b2T5YmN5YWD57Sg55qEY2xhc3NOYW1l5L2/55SoIFwiJFwiIOS7o+abv++8jOS4jeaUr+aMgeiHquWumuS5ieWFg+e0oGNsYXNzTmFtZVxuKiDnm67liY3mj5DkvpvkuInkuKrmoLfmnb/vvIzmiZPlvIDms6jph4rljbPlj6/kvb/nlKhcbiog5rOo6YeK5YaF5a655Lya6KKr6L+H5ruk5LiN5bGV56S6XG4qIOWmgumcgOS9v+eUqOW5s+WPsOS4u+mimOiJsu+8jOWPr+S7peS9v+eUqCd0aGVtZUNvbG9yJ+adpeS7o+aMh1xuICovXG4vKipcbiog5b2T5YmN5YWD57Sg6IOM5pmv6aKc6Imy6Lef6ZqP5Li76aKY6ImyXG4qL1xuXG4kIHtcbiAgcGFkZGluZy10b3A6IDAgIWltcG9ydGFudDtcbn1cblxuJCAud3RjLWhvbWVQYWdlUEMtY2FsZW5kYXItd3JhcCB7XG4gIGJvcmRlci1yaWdodC13aWR0aDogMXB4ICFpbXBvcnRhbnQ7XG59XG5cbiQgLnd0Yy1ob21lUGFnZVBDLWNhbGVuZGFyLXdyYXAgLnd0Yy1ob21lUGFnZS1jYWxlbmRhci1kZXRhaWwtY2FyZC1saXN0IHtcbiAgaGVpZ2h0OiBhdXRvO1xufVxuXG4kIC53dGMtaG9tZVBhZ2VQQy1jYWxlbmRhci13cmFwIC53dGMtaG9tZVBhZ2UtY2FsZW5kYXItY29udGVudC13cmFwIHtcbiAgaGVpZ2h0OiBhdXRvO1xufVxuICBcbiQ+ZGl2Omxhc3QtY2hpbGQge1xuwqDCoHdpZHRoOiAxMDAlO1xuwqB9XG5cbiQgLnd0Yy1ob21lUGFnZS1jYWxlbmRhci1kZXRhaWwge1xuICBvdmVyZmxvdzogaGlkZGVuICFpbXBvcnRhbnQ7XG59XG5cbiQgLnd0Yy1ob21lUGFnZS1jYWxlbmRhci1kZXRhaWwtYXR0cmlidXRlIHtcbiAgd2hpdGUtc3BhY2U6IG5vd3JhcCAhaW1wb3J0YW50O1xufVxuXG7CoC8qKlxuKiDkv67mlLnlvZPliY3lhYPntKDog4zmma/popzoibJcbiovXG4vKipcbiQge1xuwqDCoGJhY2tncm91bmQ6cmVkO1xuwqB9XG4qL1xuwqAvKipcbiog5L+u5pS55b2T5YmN5YWD57SgaG92ZXLmlYjmnpxcbsKgICovXG4vKipcbiQ6aG92ZXIge1xuwqDCoGJhY2tncm91bmQ6cmVkO1xuwqB9XG4qL1xuLyoqXG4gKiDkv67mlLnlvZPliY3lhYPntKDkuLpkaXbmoIfnrb7lrZDlhYPntKBcbiovXG4vKipcbiQgPiBkaXYge1xuwqBiYWNrZ3JvdW5kOnJlZDtcbsKgfVxuICovXG4ifQ==</CustomeStyles>
+            </FlexPanelAp>
+            <LabelAp action="edit" oid="ije5lBaMlG">
+              <Invisible>true</Invisible>
+            </LabelAp>
+          </Items>
+        </FormMetadata>
+      </DataXml>
+      <ModifierId>1425399182121766912</ModifierId>
+      <EntityId>4EFOB=NRYL90</EntityId>
+      <ModelType>DynamicFormModel</ModelType>
+      <Isv>tdkw</Isv>
+      <Version>1735272468069</Version>
+      <ParentId>30UWUYOD=BZP</ParentId>
+      <MasterId></MasterId>
+      <Number>tdkw_wtss_pcpersonhom_inh</Number>
+      <BizappId>3==6P77F4X8W</BizappId>
+      <IsvSign></IsvSign>
+      <Id>4EFOB=NRYL90</Id>
+      <InheritPath>30UWUYOD=BZP</InheritPath>
+    </DesignFormMeta>
+    <DesignEntityMeta>
+      <DevType>0</DevType>
+      <ModifyDate>1735272468082</ModifyDate>
+      <DataXml>
+        <EntityMetadata>
+          <Isv>tdkw</Isv>
+          <Id>4EFOB=NRYL90</Id>
+          <ParentId>30UWUYOD=BZP</ParentId>
+          <BizappId>3==6P77F4X8W</BizappId>
+          <IsvSign/>
+          <Name>我的假勤日历</Name>
+          <InheritPath>30UWUYOD=BZP</InheritPath>
+          <Items>
+            <MainEntity action="edit" oid="30UWUYPLFHED">
+              <dbRoute>hmp</dbRoute>
+              <Id>4EFOB=NRYL90</Id>
+              <Key>tdkw_wtss_pcpersonhom_inh</Key>
+              <Name>我的假勤日历</Name>
+            </MainEntity>
+          </Items>
+        </EntityMetadata>
+      </DataXml>
+      <ModelType>DynamicFormModel</ModelType>
+      <Isv>tdkw</Isv>
+      <Version>1735272468082</Version>
+      <ParentId>30UWUYOD=BZP</ParentId>
+      <MasterId></MasterId>
+      <Number>tdkw_wtss_pcpersonhom_inh</Number>
+      <BizappId>3==6P77F4X8W</BizappId>
+      <Id>4EFOB=NRYL90</Id>
+      <InheritPath>30UWUYOD=BZP</InheritPath>
+    </DesignEntityMeta>
+  </DesignMetas>
+  <Version>1735272468069</Version>
+  <BOSVersion>1.0</BOSVersion>
+  <BizunitId>3=D3DC=KSU/E</BizunitId>
+</DeployMetadata>

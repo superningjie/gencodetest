@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DeployAppMetadata>
+  <MasterId>217WYC/L9U7E</MasterId>
+  <Id>4E/7AN1DAFA1</Id>
+  <DesignMetas>
+    <DesignAppMetaL>
+      <PkId>4KSCJZ550J36</PkId>
+      <DataXml>
+        <AppMetadata/>
+      </DataXml>
+      <Name>组织管理</Name>
+      <Description>行政组织、岗位主数据管理</Description>
+      <Id>4E/7AN1DAFA1</Id>
+      <LocaleId>zh_CN</LocaleId>
+    </DesignAppMetaL>
+  </DesignMetas>
+  <BOSVersion>1.0</BOSVersion>
+</DeployAppMetadata>

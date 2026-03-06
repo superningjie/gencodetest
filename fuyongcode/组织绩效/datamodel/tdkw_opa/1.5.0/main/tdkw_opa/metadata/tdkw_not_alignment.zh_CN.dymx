@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DeployMetadata>
+  <MasterId>4BYZMADPJUXD</MasterId>
+  <Id>4BYZMADPJUXD</Id>
+  <DesignMetas>
+    <DesignFormMetaL>
+      <Number>tdkw_not_alignment</Number>
+      <PkId>4DXDSC7R715V</PkId>
+      <DataXml>
+        <FormMetadata/>
+      </DataXml>
+      <Name>上级分解待对齐指标</Name>
+      <Id>4BYZMADPJUXD</Id>
+      <LocaleId>zh_CN</LocaleId>
+    </DesignFormMetaL>
+    <DesignEntityMetaL>
+      <Number>tdkw_not_alignment</Number>
+      <PkId>4DXDSCCWID6O</PkId>
+      <DataXml>
+        <EntityMetadata/>
+      </DataXml>
+      <Name>上级分解待对齐指标</Name>
+      <Id>4BYZMADPJUXD</Id>
+      <LocaleId>zh_CN</LocaleId>
+    </DesignEntityMetaL>
+  </DesignMetas>
+  <Version>1726709493103</Version>
+  <BOSVersion>1.0</BOSVersion>
+</DeployMetadata>

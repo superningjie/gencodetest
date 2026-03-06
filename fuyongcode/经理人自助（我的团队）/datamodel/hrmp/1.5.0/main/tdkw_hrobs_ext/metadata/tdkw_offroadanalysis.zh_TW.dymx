@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DeployMetadata>
+  <MasterId>3DH3=WBE/P2W</MasterId>
+  <Id>3DH3=WBE/P2W</Id>
+  <DesignMetas>
+    <DesignFormMetaL>
+      <Number>tdkw_offroadanalysis</Number>
+      <PkId>3Z6QDYK5407N</PkId>
+      <DataXml>
+        <FormMetadata>
+          <Name>離職分析</Name>
+          <Items>
+            <FormAp action="edit" oid="3DH3=WB7RXQM">
+              <Name>離職分析</Name>
+            </FormAp>
+            <FieldAp action="edit" oid="CB7KvKYJr5">
+              <Name>餅圖類型</Name>
+            </FieldAp>
+            <FlexPanelAp action="edit" oid="vrovooZ25l">
+              <Name>Flex容器</Name>
+            </FlexPanelAp>
+            <FlexPanelAp action="edit" oid="5Sz6vghdQ7">
+              <Name>Flex容器</Name>
+            </FlexPanelAp>
+            <FlexPanelAp action="edit" oid="lJYWgxKjNI">
+              <Name>Flex容器</Name>
+            </FlexPanelAp>
+            <FlexPanelAp action="edit" oid="CD4MYUmsuT">
+              <Name>Flex容器</Name>
+            </FlexPanelAp>
+            <FieldAp action="edit" oid="InFXt1z3Xh">
+              <Name>所屬組織</Name>
+            </FieldAp>
+            <FieldAp action="edit" oid="DQxHQ2lyWL">
+              <Name>開始日期</Name>
+            </FieldAp>
+            <FieldAp action="edit" oid="SbtueIXRZd">
+              <Name>結束日期</Name>
+            </FieldAp>
+            <FieldAp action="edit" oid="U1Vvb7e6rF">
+              <Name>單選按鈕組</Name>
+            </FieldAp>
+            <FieldAp action="edit" oid="dHgVDo0Pkl">
+              <Name>學歷</Name>
+            </FieldAp>
+            <FieldAp action="edit" oid="QpzuokLSCg">
+              <Name>崗位序列</Name>
+            </FieldAp>
+            <FieldAp action="edit" oid="IBMS6VOL5N">
+              <Name>政治面貌</Name>
+            </FieldAp>
+            <FieldAp action="edit" oid="rh1FyPnjzK">
+              <Name>性別</Name>
+            </FieldAp>
+            <FieldAp action="edit" oid="DF1T5g3RTO">
+              <Name>人員類別</Name>
+            </FieldAp>
+            <FieldAp action="edit" oid="1ncfvlNCfR">
+              <Name>職務</Name>
+            </FieldAp>
+            <FieldAp action="edit" oid="Qf6IlHumhU">
+              <Name>崗位層級</Name>
+            </FieldAp>
+            <FlexPanelAp action="edit" oid="e8SbKxTYPF">
+              <Name>Flex容器</Name>
+            </FlexPanelAp>
+            <LabelAp action="edit" oid="9mrJ2TbqbZ">
+              <Name>人員結構分佈</Name>
+            </LabelAp>
+            <FieldAp action="edit" oid="6jK7TsBHV4">
+              <Name>餅圖日期</Name>
+            </FieldAp>
+            <FieldAp action="edit" oid="yZl5yBoen4">
+              <Name>餅圖日期</Name>
+            </FieldAp>
+            <FlexPanelAp action="edit" oid="63GUz3I7ao">
+              <Name>Flex容器</Name>
+            </FlexPanelAp>
+            <FlexPanelAp action="edit" oid="31kW0LtjRT">
+              <Name>Flex容器</Name>
+            </FlexPanelAp>
+            <PieChartAp action="edit" oid="iXCorGUGRZ">
+              <Name>餅圖</Name>
+            </PieChartAp>
+            <LabelAp action="edit" oid="5hCu4xSJSl">
+              <Name>人員變化趨勢</Name>
+            </LabelAp>
+            <FieldAp action="edit" oid="8b6bB0ILHm">
+              <Name>點線圖日期範圍</Name>
+            </FieldAp>
+            <ButtonAp action="edit" oid="2Hb44ugUM6">
+              <Name>查詢</Name>
+            </ButtonAp>
+            <ButtonAp action="edit" oid="d9z50hQ1tM">
+              <Name>重置</Name>
+            </ButtonAp>
+            <FlexPanelAp action="edit" oid="JenusswpP3">
+              <Name>Flex容器</Name>
+            </FlexPanelAp>
+            <PointLineChartAp action="edit" oid="YbRH89LaqA">
+              <Name>點線圖</Name>
+            </PointLineChartAp>
+          </Items>
+        </FormMetadata>
+      </DataXml>
+      <Name>離職分析</Name>
+      <Id>3DH3=WBE/P2W</Id>
+      <LocaleId>zh_TW</LocaleId>
+    </DesignFormMetaL>
+    <DesignEntityMetaL>
+      <Number>tdkw_offroadanalysis</Number>
+      <PkId>3Z6QDYKTHZ8H</PkId>
+      <DataXml>
+        <EntityMetadata>
+          <Name>離職分析</Name>
+          <Items>
+            <MainEntity action="edit" oid="3DH3=WC8NGV9">
+              <PermissionDimension>
+                <PermissionDimension>
+                  <Name>維度控制</Name>
+                </PermissionDimension>
+              </PermissionDimension>
+              <Rules>
+                <BizRule action="edit" oid="3DH3SHFAA/BZ">
+                  <Description>開始日期</Description>
+                </BizRule>
+                <BizRule action="edit" oid="3DH3SHFA=ZB6">
+                  <Description>人員變化趨勢</Description>
+                </BizRule>
+                <BizRule action="edit" oid="3DH3SHFAA/C+">
+                  <Description>人員結構分佈</Description>
+                </BizRule>
+              </Rules>
+              <PermissionControl>
+                <PermissionControl>
+                  <Name>控制功能許可權</Name>
+                </PermissionControl>
+              </PermissionControl>
+              <Operations>
+                <Operation action="edit" oid="3GMAT7FNVU2V">
+                  <Name>查詢</Name>
+                  <Validations>
+                    <ConditionValidation action="edit" oid="3GMAT2YV0OU3">
+                      <Description>合法性校驗</Description>
+                      <Message>"請選擇所屬組織"</Message>
+                    </ConditionValidation>
+                  </Validations>
+                </Operation>
+              </Operations>
+              <Name>離職分析</Name>
+            </MainEntity>
+            <BasedataField action="edit" oid="InFXt1z3Xh">
+              <Name>所屬組織</Name>
+            </BasedataField>
+            <DateField action="edit" oid="DQxHQ2lyWL">
+              <Name>開始日期</Name>
+            </DateField>
+            <DateField action="edit" oid="SbtueIXRZd">
+              <Name>結束日期</Name>
+            </DateField>
+            <RadioGroupField action="edit" oid="U1Vvb7e6rF">
+              <Name>單選按鈕組</Name>
+            </RadioGroupField>
+            <MulBasedataField action="edit" oid="dHgVDo0Pkl">
+              <Name>學歷</Name>
+            </MulBasedataField>
+            <MulBasedataField action="edit" oid="QpzuokLSCg">
+              <Name>崗位序列</Name>
+            </MulBasedataField>
+            <MulBasedataField action="edit" oid="IBMS6VOL5N">
+              <Name>政治面貌</Name>
+            </MulBasedataField>
+            <MulBasedataField action="edit" oid="rh1FyPnjzK">
+              <Name>性別</Name>
+            </MulBasedataField>
+            <MulBasedataField action="edit" oid="DF1T5g3RTO">
+              <Name>人員類別</Name>
+            </MulBasedataField>
+            <MulBasedataField action="edit" oid="1ncfvlNCfR">
+              <Name>職務</Name>
+            </MulBasedataField>
+            <DateRangeField action="edit" oid="8b6bB0ILHm">
+              <Name>點線圖日期範圍</Name>
+            </DateRangeField>
+            <DateField action="edit" oid="6jK7TsBHV4">
+              <Name>餅圖日期</Name>
+            </DateField>
+            <ComboField action="edit" oid="CB7KvKYJr5">
+              <Name>餅圖類型</Name>
+              <Items>
+                <ComboItem action="edit" oid="0">
+                  <Caption>離職原因Top10</Caption>
+                </ComboItem>
+                <ComboItem action="edit" oid="1">
+                  <Caption>離職類型</Caption>
+                </ComboItem>
+                <ComboItem action="edit" oid="2">
+                  <Caption>崗位層級</Caption>
+                </ComboItem>
+                <ComboItem action="edit" oid="3">
+                  <Caption>人員類型</Caption>
+                </ComboItem>
+                <ComboItem action="edit" oid="4">
+                  <Caption>集團司齡</Caption>
+                </ComboItem>
+                <ComboItem action="edit" oid="5">
+                  <Caption>年齡</Caption>
+                </ComboItem>
+              </Items>
+            </ComboField>
+            <MulComboField action="edit" oid="Qf6IlHumhU">
+              <Name>崗位層級</Name>
+              <Items>
+                <ComboItem action="edit" oid="1">
+                  <Caption>集團高管</Caption>
+                </ComboItem>
+                <ComboItem action="edit" oid="2">
+                  <Caption>行業高管</Caption>
+                </ComboItem>
+                <ComboItem action="edit" oid="3">
+                  <Caption>其他高管</Caption>
+                </ComboItem>
+                <ComboItem action="edit" oid="4">
+                  <Caption>中層</Caption>
+                </ComboItem>
+                <ComboItem action="edit" oid="5">
+                  <Caption>基層</Caption>
+                </ComboItem>
+              </Items>
+            </MulComboField>
+            <DateRangeField action="edit" oid="yZl5yBoen4">
+              <Name>餅圖日期</Name>
+            </DateRangeField>
+          </Items>
+        </EntityMetadata>
+      </DataXml>
+      <Name>離職分析</Name>
+      <Id>3DH3=WBE/P2W</Id>
+      <LocaleId>zh_TW</LocaleId>
+    </DesignEntityMetaL>
+  </DesignMetas>
+  <Version>1734403486147</Version>
+  <BOSVersion>1.0</BOSVersion>
+</DeployMetadata>

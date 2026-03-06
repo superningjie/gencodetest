@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Package name="hbjm_ext">
+    <ver>1.5.0</ver>
+    <app>
+        <item id="hbjm_ext" name="hbjm_ext" pkname="hbjm_ext-hbjm_ext" path="main/hbjm_ext"/>
+    </app>
+</Package>
+<Package name="hbss_ext">
+    <ver>1.5.0</ver>
+    <app>
+        <item id="hbss_ext" name="hbss_ext" pkname="hbss_ext-hbss_ext" path="main/hbss_ext"/>
+    </app>
+</Package>
+
+<Package name="hjm_ext">
+    <ver>1.5.0</ver>
+    <app>
+        <item id="hjm_ext" name="khr_hjm_ext" pkname="hjm_ext-hjm_ext" path="main/hjm_ext"/>
+    </app>
+</Package>
+<Package name="homs_ext">
+    <ver>1.5.0</ver>
+    <app>
+        <item id="homs_ext" name="homs_ext" pkname="homs_ext-homs_ext" path="main/homs_ext"/>
+    </app>
+</Package>
+<Package name="hrpi_ext">
+    <ver>1.5.0</ver>
+    <app>
+        <item id="hrpi_ext" name="hrpi_ext" pkname="hrpi_ext-hrpi_ext" path="main/hrpi_ext"/>
+    </app>
+</Package>
+

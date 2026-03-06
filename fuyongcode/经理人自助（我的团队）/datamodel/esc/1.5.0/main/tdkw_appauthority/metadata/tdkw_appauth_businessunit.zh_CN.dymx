@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DeployMetadata>
+  <MasterId>3D/UG1EB6JN2</MasterId>
+  <Id>3D/UG1EB6JN2</Id>
+  <DesignMetas>
+    <DesignFormMetaL>
+      <Number>tdkw_appauth_businessunit</Number>
+      <PkId>5=9RX2/1G8DC</PkId>
+      <DataXml>
+        <FormMetadata/>
+      </DataXml>
+      <Name>人员下属信息表</Name>
+      <Id>3D/UG1EB6JN2</Id>
+      <LocaleId>zh_CN</LocaleId>
+    </DesignFormMetaL>
+    <DesignEntityMetaL>
+      <Number>tdkw_appauth_businessunit</Number>
+      <PkId>5=9RX2138CMN</PkId>
+      <DataXml>
+        <EntityMetadata/>
+      </DataXml>
+      <Name>人员下属信息表</Name>
+      <Id>3D/UG1EB6JN2</Id>
+      <LocaleId>zh_CN</LocaleId>
+    </DesignEntityMetaL>
+  </DesignMetas>
+  <Version>1760060864277</Version>
+  <BOSVersion>1.0</BOSVersion>
+</DeployMetadata>

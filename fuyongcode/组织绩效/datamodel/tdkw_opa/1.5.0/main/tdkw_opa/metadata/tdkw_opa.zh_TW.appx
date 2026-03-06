@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DeployAppMetadata>
+  <MasterId>4A6IGSR0AFR3</MasterId>
+  <Id>4A6IGSR0AFR3</Id>
+  <DesignMetas>
+    <DesignAppMetaL>
+      <PkId>4CE61JP0G5SF</PkId>
+      <DataXml>
+        <AppMetadata>
+          <AppFunctionPackets>
+            <AppFunctionPacketElement action="edit" oid="4A6IGSWLWC=W">
+              <Name>首頁</Name>
+            </AppFunctionPacketElement>
+            <AppFunctionPacketElement action="edit" oid="4A6IUEPW=Y26">
+              <Name>基礎設置</Name>
+            </AppFunctionPacketElement>
+            <AppFunctionPacketElement action="edit" oid="4ANTK6C4QH37">
+              <Name>組織績效單據</Name>
+            </AppFunctionPacketElement>
+            <AppFunctionPacketElement action="edit" oid="4APHG8PYCD91">
+              <Name>曆史模型事務</Name>
+            </AppFunctionPacketElement>
+            <AppFunctionPacketElement action="edit" oid="4AWB6WIQ9DU5">
+              <Name>組織績效地圖</Name>
+            </AppFunctionPacketElement>
+            <AppFunctionPacketElement action="edit" oid="4AWB9BCWFRZM">
+              <Name>組織績效審核</Name>
+            </AppFunctionPacketElement>
+          </AppFunctionPackets>
+          <AppMenus>
+            <AppMenuElement action="edit" oid="2019025346657110016">
+              <Name>亮燈規則</Name>
+            </AppMenuElement>
+            <AppMenuElement action="edit" oid="2020984195936957440">
+              <Name>組織績效列表</Name>
+            </AppMenuElement>
+            <AppMenuElement action="edit" oid="2019031372991154176">
+              <Name>計算規則</Name>
+            </AppMenuElement>
+            <AppMenuElement action="edit" oid="2020981488631165952">
+              <Name>組織績效指標庫</Name>
+            </AppMenuElement>
+            <AppMenuElement action="edit" oid="2019031864051878912">
+              <Name>通知人員配置表</Name>
+            </AppMenuElement>
+            <AppMenuElement action="edit" oid="2022582815597647872">
+              <Name>組織績效審核列表</Name>
+            </AppMenuElement>
+            <AppMenuElement action="edit" oid="2019024594719066112">
+              <Name>基礎設置</Name>
+            </AppMenuElement>
+            <AppMenuElement action="edit" oid="2020982879017775104">
+              <Name>指標類型</Name>
+            </AppMenuElement>
+            <AppMenuElement action="edit" oid="2028434506616165376">
+              <Name>組織績效地圖</Name>
+            </AppMenuElement>
+          </AppMenus>
+          <AppElement>
+            <AppElement>
+              <Description>麵向組織進行的績效考核與評價</Description>
+              <Name>組織績效考核</Name>
+            </AppElement>
+          </AppElement>
+        </AppMetadata>
+      </DataXml>
+      <Name>組織績效考核</Name>
+      <Description>麵向組織進行的績效考核與評價</Description>
+      <Id>4A6IGSR0AFR3</Id>
+      <LocaleId>zh_TW</LocaleId>
+    </DesignAppMetaL>
+  </DesignMetas>
+  <BOSVersion>1.0</BOSVersion>
+</DeployAppMetadata>

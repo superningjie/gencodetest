@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Package name="esc">
+    <ver>1.5.0</ver>
+    <app>
+        <item id="tdkw_appauthority" name="tdkw_appauthority" pkname="esc-tdkw_appauthority" path="main/tdkw_appauthority"/>
+    </app>
+</Package>
+<Package name="tdkw_appauthorityleader">
+    <ver>1.5.0</ver>
+    <app>
+        <item id="tdkw_appauthorityleader" name="tdkw_appauthorityleader" pkname="esc-tdkw_appauthorityleader" path="main/tdkw_appauthorityleader"/>
+    </app>
+</Package>
+
+<Package name="esc">
+    <ver>1.5.0</ver>
+    <app>
+        <item id="tdkw_leader_query" name="tdkw_leader_query" pkname="esc-tdkw_leader_query" path="main/tdkw_leader_query"/>
+    </app>
+</Package>
+<Package name="esc">
+    <ver>1.5.0</ver>
+    <app>
+        <item id="tdkw_myteam" name="tdkw_myteam" pkname="esc-tdkw_myteam" path="main/tdkw_myteam"/>
+    </app>
+</Package>
+<Package name="hrmp">
+    <ver>1.5.0</ver>
+    <app>
+        <item id="tdkw_hrobs_ext" name="tdkw_hrobs_ext" pkname="hrmp-tdkw_hrobs_ext" path="main/tdkw_hrobs_ext"/>
+    </app>
+</Package>
+

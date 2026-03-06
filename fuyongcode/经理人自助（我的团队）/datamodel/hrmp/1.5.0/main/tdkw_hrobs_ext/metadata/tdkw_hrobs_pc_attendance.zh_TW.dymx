@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DeployMetadata>
+  <MasterId>3=QAXYO7F4U5</MasterId>
+  <Id>3=QAXYO7F4U5</Id>
+  <DesignMetas>
+    <DesignFormMetaL>
+      <Number>tdkw_hrobs_pc_attendance</Number>
+      <PkId>3COOQHU/O1S4</PkId>
+      <DataXml>
+        <FormMetadata>
+          <Items>
+            <FlexPanelAp action="edit" oid="Fy43gzPozu">
+              <Name>Flex容器</Name>
+            </FlexPanelAp>
+            <FlexPanelAp action="edit" oid="u4FdUIURPj">
+              <Name>Flex容器</Name>
+            </FlexPanelAp>
+            <FlexPanelAp action="edit" oid="YSFQiOnZIe">
+              <Name>Flex容器</Name>
+            </FlexPanelAp>
+            <LabelAp action="edit" oid="M45KPtJNAt">
+              <Name>實際天數</Name>
+            </LabelAp>
+            <FieldAp action="edit" oid="1n8ZiEUAB2">
+              <Name>文本4</Name>
+            </FieldAp>
+            <FieldAp action="edit" oid="zhAIdOcMK3">
+              <Name>數據3</Name>
+            </FieldAp>
+            <LabelAp action="edit" oid="i9SQsHstp1">
+              <Name>天</Name>
+            </LabelAp>
+            <FlexPanelAp action="edit" oid="rUr0PWmCPI">
+              <Name>Flex容器</Name>
+            </FlexPanelAp>
+            <FlexPanelAp action="edit" oid="3c2rpyb2Bw">
+              <Name>Flex容器</Name>
+            </FlexPanelAp>
+            <FlexPanelAp action="edit" oid="6rssbFn9vG">
+              <Name>Flex容器</Name>
+            </FlexPanelAp>
+            <FlexPanelAp action="edit" oid="kwTM2zoO92">
+              <Name>Flex容器</Name>
+            </FlexPanelAp>
+            <FlexPanelAp action="edit" oid="rvkB4X6EWZ">
+              <Name>真實標題區</Name>
+            </FlexPanelAp>
+            <FlexPanelAp action="edit" oid="7cXDisHpP6">
+              <Name>真實內容區</Name>
+            </FlexPanelAp>
+            <FieldAp action="edit" oid="o23oeE1zsc">
+              <Name>數據1</Name>
+            </FieldAp>
+            <LabelAp action="edit" oid="10v8b6uhtf">
+              <Name>天</Name>
+            </LabelAp>
+            <FieldAp action="edit" oid="QVCeG7mDu7">
+              <Name>數據4</Name>
+            </FieldAp>
+            <LabelAp action="edit" oid="ixHLd9SRMf">
+              <Name>天</Name>
+            </LabelAp>
+            <LabelAp action="edit" oid="E7Iu8m8Q7v">
+              <Name>實際天數</Name>
+            </LabelAp>
+            <FieldAp action="edit" oid="JXQWBEBCtQ">
+              <Name>文本3</Name>
+            </FieldAp>
+            <LabelAp action="edit" oid="e3c5FHvYZ8">
+              <Name>實際天數</Name>
+            </LabelAp>
+            <FieldAp action="edit" oid="EYjQxdDYLZ">
+              <Name>文本2</Name>
+            </FieldAp>
+            <LabelAp action="edit" oid="J35IiM1MLZ">
+              <Name>實際天數</Name>
+            </LabelAp>
+            <FieldAp action="edit" oid="wfN3UWhEKD">
+              <Name>文本1</Name>
+            </FieldAp>
+            <FlexPanelAp action="edit" oid="T0U889qZCR">
+              <Name>Flex容器</Name>
+            </FlexPanelAp>
+            <FlexPanelAp action="edit" oid="4krngSwv4d">
+              <Name>Flex容器</Name>
+            </FlexPanelAp>
+            <FlexPanelAp action="edit" oid="6CDRMe44N2">
+              <Name>Flex容器</Name>
+            </FlexPanelAp>
+            <FlexPanelAp action="edit" oid="VOLcZVl0n5">
+              <Name>Flex容器</Name>
+            </FlexPanelAp>
+            <FlexPanelAp action="edit" oid="ix1M97aKOO">
+              <Name>Flex容器</Name>
+            </FlexPanelAp>
+            <FlexPanelAp action="edit" oid="iuv9OAXKiD">
+              <Name>Flex容器</Name>
+            </FlexPanelAp>
+            <FlexPanelAp action="edit" oid="QpVpK1tvfQ">
+              <Name>Flex容器</Name>
+            </FlexPanelAp>
+            <FlexPanelAp action="edit" oid="bRT29rynYL">
+              <Name>Flex容器</Name>
+            </FlexPanelAp>
+            <LabelAp action="edit" oid="u4veP2KElt">
+              <Name>當月出勤</Name>
+            </LabelAp>
+            <FieldAp action="edit" oid="uwr3eog1ug">
+              <Name>數據2</Name>
+            </FieldAp>
+            <LabelAp action="edit" oid="Me8d7zW2jE">
+              <Name>天</Name>
+            </LabelAp>
+          </Items>
+        </FormMetadata>
+      </DataXml>
+      <Name>卡片模板</Name>
+      <Id>3=QAXYO7F4U5</Id>
+      <LocaleId>zh_TW</LocaleId>
+    </DesignFormMetaL>
+    <DesignEntityMetaL>
+      <Number>tdkw_hrobs_pc_attendance</Number>
+      <PkId>3COOQHURNMP+</PkId>
+      <DataXml>
+        <EntityMetadata>
+          <Items>
+            <DecimalField action="edit" oid="o23oeE1zsc">
+              <Name>數據1</Name>
+            </DecimalField>
+            <TextField action="edit" oid="wfN3UWhEKD">
+              <Name>文本1</Name>
+            </TextField>
+            <DecimalField action="edit" oid="uwr3eog1ug">
+              <Name>數據2</Name>
+            </DecimalField>
+            <TextField action="edit" oid="EYjQxdDYLZ">
+              <Name>文本2</Name>
+            </TextField>
+            <DecimalField action="edit" oid="zhAIdOcMK3">
+              <Name>數據3</Name>
+            </DecimalField>
+            <TextField action="edit" oid="JXQWBEBCtQ">
+              <Name>文本3</Name>
+            </TextField>
+            <DecimalField action="edit" oid="QVCeG7mDu7">
+              <Name>數據4</Name>
+            </DecimalField>
+            <TextField action="edit" oid="1n8ZiEUAB2">
+              <Name>文本4</Name>
+            </TextField>
+          </Items>
+        </EntityMetadata>
+      </DataXml>
+      <Name>卡片模板</Name>
+      <Id>3=QAXYO7F4U5</Id>
+      <LocaleId>zh_TW</LocaleId>
+    </DesignEntityMetaL>
+  </DesignMetas>
+  <Version>1685449873581</Version>
+  <BOSVersion>1.0</BOSVersion>
+</DeployMetadata>

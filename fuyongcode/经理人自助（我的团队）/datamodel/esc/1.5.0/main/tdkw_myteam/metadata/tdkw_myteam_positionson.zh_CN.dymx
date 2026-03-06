@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DeployMetadata>
+  <MasterId>3N27CL5U=H69</MasterId>
+  <Id>3N27CL5U=H69</Id>
+  <DesignMetas>
+    <DesignFormMetaL>
+      <Number>tdkw_myteam_positionson</Number>
+      <PkId>5B5M8K9DH0JI</PkId>
+      <DataXml>
+        <FormMetadata/>
+      </DataXml>
+      <Name>职能团队</Name>
+      <Id>3N27CL5U=H69</Id>
+      <LocaleId>zh_CN</LocaleId>
+    </DesignFormMetaL>
+    <DesignEntityMetaL>
+      <Number>tdkw_myteam_positionson</Number>
+      <PkId>5B5M8KFQYU2S</PkId>
+      <DataXml>
+        <EntityMetadata/>
+      </DataXml>
+      <Name>职能团队</Name>
+      <Id>3N27CL5U=H69</Id>
+      <LocaleId>zh_CN</LocaleId>
+    </DesignEntityMetaL>
+  </DesignMetas>
+  <Version>1761898551554</Version>
+  <BOSVersion>1.0</BOSVersion>
+</DeployMetadata>

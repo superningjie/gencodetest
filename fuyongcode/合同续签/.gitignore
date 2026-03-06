@@ -1,0 +1,8 @@
+.gradle
+.idea
+base/tdkw-base-common/build
+base/tdkw-base-helper/build
+filestorage
+tdkw-cosmic-debug/build
+hr/tdkw-hr-hlcmext/build
+logs

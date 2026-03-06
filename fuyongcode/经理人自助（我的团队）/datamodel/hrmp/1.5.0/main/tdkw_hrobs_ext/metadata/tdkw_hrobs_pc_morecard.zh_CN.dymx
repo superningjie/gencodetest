@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DeployMetadata>
+  <MasterId>3B2MAJSOYHQW</MasterId>
+  <Id>3B2MAJSOYHQW</Id>
+  <DesignMetas>
+    <DesignFormMetaL>
+      <Number>tdkw_hrobs_pc_morecard</Number>
+      <PkId>3B52/XJUF1Y+</PkId>
+      <DataXml>
+        <FormMetadata/>
+      </DataXml>
+      <Name>PC_更多应用卡片</Name>
+      <Id>3B2MAJSOYHQW</Id>
+      <LocaleId>zh_CN</LocaleId>
+    </DesignFormMetaL>
+    <DesignEntityMetaL>
+      <Number>tdkw_hrobs_pc_morecard</Number>
+      <PkId>3B52/XKKH+DO</PkId>
+      <DataXml>
+        <EntityMetadata/>
+      </DataXml>
+      <Name>PC_更多应用卡片</Name>
+      <Id>3B2MAJSOYHQW</Id>
+      <LocaleId>zh_CN</LocaleId>
+    </DesignEntityMetaL>
+  </DesignMetas>
+  <Version>1686192873705</Version>
+  <BOSVersion>1.0</BOSVersion>
+</DeployMetadata>

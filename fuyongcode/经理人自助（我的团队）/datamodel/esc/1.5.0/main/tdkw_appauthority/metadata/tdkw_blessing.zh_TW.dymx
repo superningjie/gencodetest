@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DeployMetadata>
+  <MasterId>3DCTVAJ74YY2</MasterId>
+  <Id>3DCTVAJ74YY2</Id>
+  <DesignMetas>
+    <DesignFormMetaL>
+      <Number>tdkw_blessing</Number>
+      <PkId>3ENULFLD/1N1</PkId>
+      <DataXml>
+        <FormMetadata>
+          <Items>
+            <AdvConAp action="edit" oid="8tOq1YAX3o">
+              <Name>高級容器</Name>
+            </AdvConAp>
+            <AdvConSummaryPanelAp action="edit" oid="5Kz2B1bWTx">
+              <Name>高級面板摘要容器</Name>
+            </AdvConSummaryPanelAp>
+            <AdvConToolbarAp action="edit" oid="RIxxLDJc9H">
+              <Name>高級面板工具欄</Name>
+            </AdvConToolbarAp>
+            <AdvConChildPanelAp action="edit" oid="JOou8yPj6l">
+              <Name>高級面板子容器</Name>
+            </AdvConChildPanelAp>
+            <EntryAp action="edit" oid="K4D5iPbXXg">
+              <Name>單據體</Name>
+            </EntryAp>
+            <EntryFieldAp action="edit" oid="jqFyXkoqFE">
+              <Name>語句</Name>
+            </EntryFieldAp>
+            <AdvConBarItemAp action="edit" oid="AqPKLEnrsa">
+              <Name>新增行</Name>
+            </AdvConBarItemAp>
+            <AdvConBarItemAp action="edit" oid="2VafzSuqfh">
+              <Name>刪除行</Name>
+            </AdvConBarItemAp>
+          </Items>
+        </FormMetadata>
+      </DataXml>
+      <Name>基礎資料模板</Name>
+      <Id>3DCTVAJ74YY2</Id>
+      <LocaleId>zh_TW</LocaleId>
+    </DesignFormMetaL>
+    <DesignEntityMetaL>
+      <Number>tdkw_blessing</Number>
+      <PkId>3ENULG65EVMG</PkId>
+      <DataXml>
+        <EntityMetadata>
+          <Items>
+            <BaseEntity action="edit" oid="1942c188000066ac">
+              <Operations>
+                <Operation action="edit" oid="b599405400001cac">
+                  <Validations>
+                    <CustValidation action="edit" oid="2W/BRWU+MXP7">
+                      <Description>基礎資料在流程中校驗</Description>
+                    </CustValidation>
+                  </Validations>
+                </Operation>
+                <Operation action="edit" oid="b599405400001dac">
+                  <Validations>
+                    <CustValidation action="edit" oid="2W/BU/L+T3I2">
+                      <Description>基礎資料在流程中校驗</Description>
+                    </CustValidation>
+                  </Validations>
+                </Operation>
+                <Operation action="edit" oid="3ENUBFV54/SL">
+                  <Name>新增行</Name>
+                </Operation>
+                <Operation action="edit" oid="3ENUCU6RF9LH">
+                  <Name>刪除行</Name>
+                </Operation>
+              </Operations>
+            </BaseEntity>
+            <EntryEntity action="edit" oid="K4D5iPbXXg">
+              <Name>單據體</Name>
+            </EntryEntity>
+            <TextField action="edit" oid="jqFyXkoqFE">
+              <Name>語句</Name>
+            </TextField>
+          </Items>
+        </EntityMetadata>
+      </DataXml>
+      <Name>基礎資料模板</Name>
+      <Id>3DCTVAJ74YY2</Id>
+      <LocaleId>zh_TW</LocaleId>
+    </DesignEntityMetaL>
+  </DesignMetas>
+  <Version>1689595745609</Version>
+  <BOSVersion>1.0</BOSVersion>
+</DeployMetadata>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DeployMetadata>
+  <MasterId>485IRFTP+OM=</MasterId>
+  <Id>485IRFTP+OM=</Id>
+  <DesignMetas>
+    <DesignFormMetaL>
+      <Number>cea_assesspreview</Number>
+      <PkId>4=0CEPK8VFBQ</PkId>
+      <DataXml>
+        <FormMetadata/>
+      </DataXml>
+      <Name>导入测评表预览</Name>
+      <Id>485IRFTP+OM=</Id>
+      <LocaleId>zh_CN</LocaleId>
+    </DesignFormMetaL>
+    <DesignEntityMetaL>
+      <Number>cea_assesspreview</Number>
+      <PkId>4=0CEPLQW1RO</PkId>
+      <DataXml>
+        <EntityMetadata/>
+      </DataXml>
+      <Name>导入测评表预览</Name>
+      <Id>485IRFTP+OM=</Id>
+      <LocaleId>zh_CN</LocaleId>
+    </DesignEntityMetaL>
+  </DesignMetas>
+  <Version>1721980983357</Version>
+  <BOSVersion>1.0</BOSVersion>
+</DeployMetadata>

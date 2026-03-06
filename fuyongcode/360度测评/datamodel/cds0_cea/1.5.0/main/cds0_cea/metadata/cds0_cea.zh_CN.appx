@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DeployAppMetadata>
+  <MasterId>4513U+LB/HOD</MasterId>
+  <Id>4513U+LB/HOD</Id>
+  <DesignMetas>
+    <DesignAppMetaL>
+      <PkId>590AQ0FU55WT</PkId>
+      <DataXml>
+        <AppMetadata/>
+      </DataXml>
+      <Name>能力素质考核</Name>
+      <Description>能力素质考核</Description>
+      <Id>4513U+LB/HOD</Id>
+      <LocaleId>zh_CN</LocaleId>
+    </DesignAppMetaL>
+  </DesignMetas>
+  <BOSVersion>1.0</BOSVersion>
+</DeployAppMetadata>

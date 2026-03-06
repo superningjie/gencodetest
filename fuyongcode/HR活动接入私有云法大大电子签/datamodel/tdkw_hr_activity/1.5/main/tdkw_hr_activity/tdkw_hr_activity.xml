@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataModel dympath="metadata">
+    <SqlScript Type="KSQL" Separator=";" dbkey="basedata">preinsdata/perm_permitem_tdkw_activitydemo_1725863130101.sql</SqlScript>
+</DataModel>

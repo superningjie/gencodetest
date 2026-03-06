@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DeployMetadata>
+  <MasterId>3ED/X3ILGZY/</MasterId>
+  <Id>3ED/X3ILGZY/</Id>
+  <DesignMetas>
+    <DesignFormMetaL>
+      <Number>tdkw_ldpersoninfo</Number>
+      <PkId>3FBBR7Z0=CGP</PkId>
+      <DataXml>
+        <FormMetadata/>
+      </DataXml>
+      <Name>员工简历-个人信息移动端</Name>
+      <Id>3ED/X3ILGZY/</Id>
+      <LocaleId>zh_CN</LocaleId>
+    </DesignFormMetaL>
+    <DesignEntityMetaL>
+      <Number>tdkw_ldpersoninfo</Number>
+      <PkId>3FBBR7ZZJHQK</PkId>
+      <DataXml>
+        <EntityMetadata/>
+      </DataXml>
+      <Name>员工简历-个人信息移动端</Name>
+      <Id>3ED/X3ILGZY/</Id>
+      <LocaleId>zh_CN</LocaleId>
+    </DesignEntityMetaL>
+  </DesignMetas>
+  <Version>1690255541673</Version>
+  <BOSVersion>1.0</BOSVersion>
+</DeployMetadata>

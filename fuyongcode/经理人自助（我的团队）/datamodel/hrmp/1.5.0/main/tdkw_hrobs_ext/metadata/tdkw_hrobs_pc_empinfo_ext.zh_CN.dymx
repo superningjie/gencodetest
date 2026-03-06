@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DeployMetadata>
+  <MasterId>2Y0E1ONV=/LO</MasterId>
+  <Id>3=DGJ61CFQ=M</Id>
+  <DesignMetas>
+    <DesignFormMetaL>
+      <Number>tdkw_hrobs_pc_empinfo_ext</Number>
+      <PkId>3RQXFK+X63L0</PkId>
+      <DataXml>
+        <FormMetadata/>
+      </DataXml>
+      <Name>PC_人员信息卡片</Name>
+      <Id>3=DGJ61CFQ=M</Id>
+      <LocaleId>zh_CN</LocaleId>
+    </DesignFormMetaL>
+    <DesignEntityMetaL>
+      <Number>tdkw_hrobs_pc_empinfo_ext</Number>
+      <PkId>3RQXFK/Y3RHF</PkId>
+      <DataXml>
+        <EntityMetadata/>
+      </DataXml>
+      <Name>PC_人员信息卡片</Name>
+      <Id>3=DGJ61CFQ=M</Id>
+      <LocaleId>zh_CN</LocaleId>
+    </DesignEntityMetaL>
+  </DesignMetas>
+  <Version>1702287566747</Version>
+  <BOSVersion>1.0</BOSVersion>
+</DeployMetadata>

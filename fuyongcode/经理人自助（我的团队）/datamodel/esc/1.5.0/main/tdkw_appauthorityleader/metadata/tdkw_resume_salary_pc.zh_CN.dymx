@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DeployMetadata>
+  <MasterId>3W92QVQM48EQ</MasterId>
+  <Id>3W92QVQM48EQ</Id>
+  <DesignMetas>
+    <DesignFormMetaL>
+      <Number>tdkw_resume_salary_pc</Number>
+      <PkId>3W9HAQEQIF2P</PkId>
+      <DataXml>
+        <FormMetadata/>
+      </DataXml>
+      <Name>员工简历薪酬信息PC端</Name>
+      <Id>3W92QVQM48EQ</Id>
+      <LocaleId>zh_CN</LocaleId>
+    </DesignFormMetaL>
+    <DesignEntityMetaL>
+      <Number>tdkw_resume_salary_pc</Number>
+      <PkId>3W9HAQG7J1HN</PkId>
+      <DataXml>
+        <EntityMetadata/>
+      </DataXml>
+      <Name>员工简历薪酬信息PC端</Name>
+      <Id>3W92QVQM48EQ</Id>
+      <LocaleId>zh_CN</LocaleId>
+    </DesignEntityMetaL>
+  </DesignMetas>
+  <Version>1706681457157</Version>
+  <BOSVersion>1.0</BOSVersion>
+</DeployMetadata>

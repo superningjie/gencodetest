@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DeployMetadata>
+  <MasterId>3==Y53C=3819</MasterId>
+  <Id>3==Y53C=3819</Id>
+  <DesignMetas>
+    <DesignFormMetaL>
+      <Number>tdkw_portalbanner</Number>
+      <PkId>3PL5MVANJQ27</PkId>
+      <DataXml>
+        <FormMetadata/>
+      </DataXml>
+      <Name>门户Banner图片</Name>
+      <Id>3==Y53C=3819</Id>
+      <LocaleId>zh_CN</LocaleId>
+    </DesignFormMetaL>
+    <DesignEntityMetaL>
+      <Number>tdkw_portalbanner</Number>
+      <PkId>3PL5MVUJIL+7</PkId>
+      <DataXml>
+        <EntityMetadata/>
+      </DataXml>
+      <Name>门户Banner图片</Name>
+      <Id>3==Y53C=3819</Id>
+      <LocaleId>zh_CN</LocaleId>
+    </DesignEntityMetaL>
+  </DesignMetas>
+  <Version>1700203947792</Version>
+  <BOSVersion>1.0</BOSVersion>
+</DeployMetadata>

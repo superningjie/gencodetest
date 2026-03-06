@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DeployMetadata>
+  <MasterId>3E2QFQELW9TM</MasterId>
+  <Id>3E2QFQELW9TM</Id>
+  <DesignMetas>
+    <DesignFormMetaL>
+      <Number>tdkw_urltest</Number>
+      <PkId>3E2QP1/1JYQL</PkId>
+      <DataXml>
+        <FormMetadata/>
+      </DataXml>
+      <Name>跳转测试</Name>
+      <Id>3E2QFQELW9TM</Id>
+      <LocaleId>zh_CN</LocaleId>
+    </DesignFormMetaL>
+    <DesignEntityMetaL>
+      <Number>tdkw_urltest</Number>
+      <PkId>3E2QP1/F1M5X</PkId>
+      <DataXml>
+        <EntityMetadata/>
+      </DataXml>
+      <Name>跳转测试</Name>
+      <Id>3E2QFQELW9TM</Id>
+      <LocaleId>zh_CN</LocaleId>
+    </DesignEntityMetaL>
+  </DesignMetas>
+  <Version>1689045840556</Version>
+  <BOSVersion>1.0</BOSVersion>
+</DeployMetadata>

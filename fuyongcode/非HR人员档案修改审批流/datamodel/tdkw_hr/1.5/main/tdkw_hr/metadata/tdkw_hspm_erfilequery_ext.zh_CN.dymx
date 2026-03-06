@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DeployMetadata>
+  <MasterId>20DQDN96CUTF</MasterId>
+  <Id>4I=BVEZRBTZ=</Id>
+  <DesignMetas>
+    <DesignFormMetaL>
+      <Number>tdkw_hspm_erfilequery_ext</Number>
+      <PkId>4ICRITHQV4P4</PkId>
+      <DataXml>
+        <FormMetadata/>
+      </DataXml>
+      <Name>人员档案</Name>
+      <Id>4I=BVEZRBTZ=</Id>
+      <LocaleId>zh_CN</LocaleId>
+    </DesignFormMetaL>
+    <DesignEntityMetaL>
+      <Number>tdkw_hspm_erfilequery_ext</Number>
+      <PkId>4ICRITARX+KE</PkId>
+      <DataXml>
+        <EntityMetadata>
+          <Items>
+            <QueryEntity action="edit" oid="3E3IIVDI+F08">
+              <PermissionItems>
+                <PermissionItem>
+                  <ItemId>47150e89000000ac</ItemId>
+                  <Index>0</Index>
+                </PermissionItem>
+                <PermissionItem>
+                  <ItemId>4730fc9e000000ac</ItemId>
+                  <Index>1</Index>
+                </PermissionItem>
+                <PermissionItem>
+                  <ItemId>4715a0df000000ac</ItemId>
+                  <Index>2</Index>
+                </PermissionItem>
+              </PermissionItems>
+            </QueryEntity>
+          </Items>
+        </EntityMetadata>
+      </DataXml>
+      <Name>人员档案</Name>
+      <Id>4I=BVEZRBTZ=</Id>
+      <LocaleId>zh_CN</LocaleId>
+    </DesignEntityMetaL>
+  </DesignMetas>
+  <Version>1731047799486</Version>
+  <BOSVersion>1.0</BOSVersion>
+</DeployMetadata>

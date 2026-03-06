@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DeployMetadata>
+  <MasterId>3DNP3CWW40WT</MasterId>
+  <Id>3DNP3CWW40WT</Id>
+  <DesignMetas>
+    <DesignFormMetaL>
+      <Number>dgdl_subsidy_location</Number>
+      <PkId>4I2S63+DGB+J</PkId>
+      <DataXml>
+        <FormMetadata/>
+      </DataXml>
+      <Name>补贴地点</Name>
+      <Id>3DNP3CWW40WT</Id>
+      <LocaleId>zh_CN</LocaleId>
+    </DesignFormMetaL>
+    <DesignEntityMetaL>
+      <Number>dgdl_subsidy_location</Number>
+      <PkId>4I2S634BIWN3</PkId>
+      <DataXml>
+        <EntityMetadata/>
+      </DataXml>
+      <Name>补贴地点</Name>
+      <Id>3DNP3CWW40WT</Id>
+      <LocaleId>zh_CN</LocaleId>
+    </DesignEntityMetaL>
+  </DesignMetas>
+  <Version>1730774507316</Version>
+  <BOSVersion>1.0</BOSVersion>
+</DeployMetadata>

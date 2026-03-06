@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DeployMetadata>
+  <MasterId>4=XC5DD5T0=/</MasterId>
+  <Id>4=XC5DD5T0=/</Id>
+  <DesignMetas>
+    <DesignFormMetaL>
+      <Number>tdkw_usage_category</Number>
+      <PkId>4DA0KN+=YCYQ</PkId>
+      <DataXml>
+        <FormMetadata>
+          <Items>
+            <FlexPanelAp action="edit" oid="LL4BVAnADa">
+              <ParentId>PxNfkkak4s</ParentId>
+            </FlexPanelAp>
+          </Items>
+        </FormMetadata>
+      </DataXml>
+      <Name>指标用途分类</Name>
+      <Id>4=XC5DD5T0=/</Id>
+      <LocaleId>zh_CN</LocaleId>
+    </DesignFormMetaL>
+    <DesignEntityMetaL>
+      <Number>tdkw_usage_category</Number>
+      <PkId>4DA0KN0MMX8B</PkId>
+      <DataXml>
+        <EntityMetadata/>
+      </DataXml>
+      <Name>指标用途分类</Name>
+      <Id>4=XC5DD5T0=/</Id>
+      <LocaleId>zh_CN</LocaleId>
+    </DesignEntityMetaL>
+  </DesignMetas>
+  <Version>1726128140375</Version>
+  <BOSVersion>1.0</BOSVersion>
+</DeployMetadata>

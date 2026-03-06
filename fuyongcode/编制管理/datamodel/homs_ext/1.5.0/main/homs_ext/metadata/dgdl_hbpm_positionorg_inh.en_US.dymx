@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DeployMetadata>
+  <MasterId>3VYFYW0YR=YP</MasterId>
+  <Id>3VYFYW0YR=YP</Id>
+  <DesignMetas>
+    <DesignFormMetaL>
+      <Number>dgdl_hbpm_positionorg_inh</Number>
+      <PkId>4/TBRC=K5BG5</PkId>
+      <DataXml>
+        <FormMetadata>
+          <Name>编制组织树列表</Name>
+          <Items>
+            <FormAp action="edit" oid="2B9=DMZVI/3/">
+              <Name>编制组织树列表</Name>
+            </FormAp>
+            <FlexPanelAp action="edit" oid="2b2LjOkMRq">
+              <Name>Flex面板</Name>
+            </FlexPanelAp>
+            <TreeViewAp action="edit" oid="hUo5dKd5TC">
+              <Name>树形控件</Name>
+            </TreeViewAp>
+            <FlexPanelAp action="edit" oid="uMnPNAa0sl">
+              <Name>Flex面板</Name>
+            </FlexPanelAp>
+            <FlexPanelAp action="edit" oid="lSvRTldtZh">
+              <Name>Flex面板</Name>
+            </FlexPanelAp>
+            <FlexPanelAp action="edit" oid="d9jO3fpQxO">
+              <Name>架构方案Flex容器</Name>
+            </FlexPanelAp>
+            <FlexPanelAp action="edit" oid="R5mhZfNKY2">
+              <Name>Flex面板</Name>
+            </FlexPanelAp>
+            <FlexPanelAp action="edit" oid="hW7ciNX7gY">
+              <Name>Flex面板</Name>
+            </FlexPanelAp>
+            <SplitContainerAp action="edit" oid="haT5zZ8Jjo">
+              <Name>分割容器</Name>
+            </SplitContainerAp>
+            <BillListAp action="edit" oid="C0hQzWsDV3">
+              <Name>单据列表</Name>
+            </BillListAp>
+            <ListGridViewAp action="edit" oid="ivdbshryk8">
+              <Name>表格视图</Name>
+            </ListGridViewAp>
+            <ListCardViewAp action="edit" oid="vrl6UkolfD">
+              <Name>卡片视图</Name>
+            </ListCardViewAp>
+            <SearchAp action="edit" oid="LkHyGocBfx">
+              <Name>搜索控件</Name>
+              <SearchEmptyText>请输入名称后按回车键</SearchEmptyText>
+            </SearchAp>
+            <VectorAp action="edit" oid="ArdQZHT1ic">
+              <Name>矢量图标</Name>
+            </VectorAp>
+            <VectorAp action="edit" oid="gnaA4CTA7c">
+              <Name>矢量图标</Name>
+            </VectorAp>
+            <VectorAp action="edit" oid="Dtx8Mwl8bK">
+              <Name>矢量图标</Name>
+            </VectorAp>
+            <VectorAp action="edit" oid="4JH1VCEvw3">
+              <Name>矢量图标</Name>
+            </VectorAp>
+            <FastSearchGridViewAp action="edit" oid="3g3TIevNh1">
+              <Name>快捷搜索视图</Name>
+            </FastSearchGridViewAp>
+            <FilterGridViewAp action="edit" oid="vcumKlPplt">
+              <Name>常用过滤视图</Name>
+            </FilterGridViewAp>
+            <SchemeFilterViewAp action="edit" oid="cWrSsIBU72">
+              <Name>方案过滤视图</Name>
+            </SchemeFilterViewAp>
+            <ToolbarAp action="edit" oid="V7GyYDy9Rr">
+              <Name>工具栏</Name>
+            </ToolbarAp>
+            <SplitPanelAp action="edit" oid="0CYLZZoVRp">
+              <Name>分割容器面板</Name>
+            </SplitPanelAp>
+            <SplitPanelAp action="edit" oid="45OyJ6pJxh">
+              <Name>分割容器面板</Name>
+            </SplitPanelAp>
+            <FieldAp action="edit" oid="wvnZtOYasD">
+              <Name>列表包含所有下级</Name>
+            </FieldAp>
+            <CardRowPanelAp action="edit" oid="4h7171IfPO">
+              <Name>卡片视图行</Name>
+            </CardRowPanelAp>
+          </Items>
+        </FormMetadata>
+      </DataXml>
+      <Name>编制组织树列表</Name>
+      <Id>3VYFYW0YR=YP</Id>
+      <LocaleId>en_US</LocaleId>
+    </DesignFormMetaL>
+    <DesignEntityMetaL>
+      <Number>dgdl_hbpm_positionorg_inh</Number>
+      <PkId>4/TBRCEVV/FD</PkId>
+      <DataXml>
+        <EntityMetadata>
+          <Name>编制组织树列表</Name>
+          <Items>
+            <MainEntity action="edit" oid="2B9=DN+E9H92">
+              <Name>编制组织树列表</Name>
+            </MainEntity>
+            <CheckBoxField action="edit" oid="wvnZtOYasD">
+              <Name>列表包含所有下级</Name>
+            </CheckBoxField>
+          </Items>
+        </EntityMetadata>
+      </DataXml>
+      <Name>编制组织树列表</Name>
+      <Id>3VYFYW0YR=YP</Id>
+      <LocaleId>en_US</LocaleId>
+    </DesignEntityMetaL>
+  </DesignMetas>
+  <Version>1730282592617</Version>
+  <BOSVersion>1.0</BOSVersion>
+</DeployMetadata>

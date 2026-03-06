@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DeployMetadata>
+  <MasterId>3E68WCAO3K7K</MasterId>
+  <Id>3E68WCAO3K7K</Id>
+  <DesignMetas>
+    <DesignFormMetaL>
+      <Number>tdkw_hruserinfo</Number>
+      <PkId>3ETKTQFKHOYM</PkId>
+      <DataXml>
+        <FormMetadata/>
+      </DataXml>
+      <Name>HR用户信息报表</Name>
+      <Id>3E68WCAO3K7K</Id>
+      <LocaleId>zh_CN</LocaleId>
+    </DesignFormMetaL>
+    <DesignEntityMetaL>
+      <Number>tdkw_hruserinfo</Number>
+      <PkId>3ETKTQR6RKBG</PkId>
+      <DataXml>
+        <EntityMetadata/>
+      </DataXml>
+      <Name>HR用户信息报表</Name>
+      <Id>3E68WCAO3K7K</Id>
+      <LocaleId>zh_CN</LocaleId>
+    </DesignEntityMetaL>
+  </DesignMetas>
+  <Version>1689738795076</Version>
+  <BOSVersion>1.0</BOSVersion>
+</DeployMetadata>

@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DeployMetadata>
+  <Multilanguage>false</Multilanguage>
+  <MasterId>4APHA0RWK8CO</MasterId>
+  <BizappId>4A6IGSR0AFR3</BizappId>
+  <Id>4APHA0RWK8CO</Id>
+  <DesignMetas>
+    <DesignFormMeta>
+      <DevType>0</DevType>
+      <ModifyDate>1723601886505</ModifyDate>
+      <DataXml>
+        <FormMetadata>
+          <Isv>tdkw</Isv>
+          <Id>4APHA0RWK8CO</Id>
+          <Key>tdkw_opa_eventtpl</Key>
+          <EntityId>4APHA0RWK8CO</EntityId>
+          <ParentId>2/B92QWSD51A</ParentId>
+          <BizappId>4A6IGSR0AFR3</BizappId>
+          <IsvSign/>
+          <Name>事务表</Name>
+          <InheritPath>0NKB12K4VH2O,2/B92QWSD51A</InheritPath>
+          <Items>
+            <BasedataFormAp action="edit" oid="0NKB12K4W9D7">
+              <Id>4APHA0RWK8CO</Id>
+              <Name>事务表</Name>
+              <Key>tdkw_opa_eventtpl</Key>
+              <ListMeta>
+                <FormMetadata>
+                  <Items>
+                    <FilterGridViewAp action="edit" oid="filtergridview">
+                      <NewFilter>true</NewFilter>
+                    </FilterGridViewAp>
+                  </Items>
+                </FormMetadata>
+              </ListMeta>
+            </BasedataFormAp>
+          </Items>
+        </FormMetadata>
+      </DataXml>
+      <ModifierId>2005735093842332672</ModifierId>
+      <EntityId>4APHA0RWK8CO</EntityId>
+      <ModelType>BaseFormModel</ModelType>
+      <Isv>tdkw</Isv>
+      <Version>1723601886505</Version>
+      <ParentId>2/B92QWSD51A</ParentId>
+      <MasterId></MasterId>
+      <Number>tdkw_opa_eventtpl</Number>
+      <BizappId>4A6IGSR0AFR3</BizappId>
+      <IsvSign></IsvSign>
+      <Id>4APHA0RWK8CO</Id>
+      <InheritPath>0NKB12K4VH2O,2/B92QWSD51A</InheritPath>
+    </DesignFormMeta>
+    <DesignEntityMeta>
+      <DevType>0</DevType>
+      <ModifyDate>1723601886525</ModifyDate>
+      <DataXml>
+        <EntityMetadata>
+          <Isv>tdkw</Isv>
+          <Id>4APHA0RWK8CO</Id>
+          <ParentId>2/B92QWSD51A</ParentId>
+          <BizappId>4A6IGSR0AFR3</BizappId>
+          <IsvSign/>
+          <Name>事务表</Name>
+          <InheritPath>0NKB12K4VH2O,2/B92QWSD51A</InheritPath>
+          <Items>
+            <BaseEntity action="edit" oid="1A3I8S4L91=9">
+              <dbRoute>opmc</dbRoute>
+              <TableName>t_mbo_eventtpl</TableName>
+              <Id>4APHA0RWK8CO</Id>
+              <Name>事务表</Name>
+              <PermissionDimension>
+                <PermissionDimension>
+                  <Id>D1jiWnw0</Id>
+                </PermissionDimension>
+              </PermissionDimension>
+              <Template action="reset"/>
+              <PermissionControl>
+                <PermissionControl>
+                  <Id>GhK0kmxo</Id>
+                  <ControlFunction action="reset"/>
+                </PermissionControl>
+              </PermissionControl>
+              <Key>tdkw_opa_eventtpl</Key>
+              <DefaultPageSetting>{"mblist":"","pclist":"","pcbill":"","mbbill":""}</DefaultPageSetting>
+            </BaseEntity>
+          </Items>
+        </EntityMetadata>
+      </DataXml>
+      <ModelType>BaseFormModel</ModelType>
+      <Isv>tdkw</Isv>
+      <Version>1723601886525</Version>
+      <ParentId>2/B92QWSD51A</ParentId>
+      <MasterId></MasterId>
+      <Number>tdkw_opa_eventtpl</Number>
+      <BizappId>4A6IGSR0AFR3</BizappId>
+      <Id>4APHA0RWK8CO</Id>
+      <InheritPath>0NKB12K4VH2O,2/B92QWSD51A</InheritPath>
+    </DesignEntityMeta>
+  </DesignMetas>
+  <Version>1723601886505</Version>
+  <BOSVersion>1.0</BOSVersion>
+  <BizunitId>4APHG8PYCD91</BizunitId>
+</DeployMetadata>

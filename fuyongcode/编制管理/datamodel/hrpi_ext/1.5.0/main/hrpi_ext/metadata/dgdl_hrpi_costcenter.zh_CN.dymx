@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DeployMetadata>
+  <MasterId>3DN6ZS2BXRN=</MasterId>
+  <Id>3DN6ZS2BXRN=</Id>
+  <DesignMetas>
+    <DesignFormMetaL>
+      <Number>dgdl_hrpi_costcenter</Number>
+      <PkId>4HRMY93Z6WTI</PkId>
+      <DataXml>
+        <FormMetadata/>
+      </DataXml>
+      <Name>成本中心</Name>
+      <Id>3DN6ZS2BXRN=</Id>
+      <LocaleId>zh_CN</LocaleId>
+    </DesignFormMetaL>
+    <DesignEntityMetaL>
+      <Number>dgdl_hrpi_costcenter</Number>
+      <PkId>4HRMY9BSOBSH</PkId>
+      <DataXml>
+        <EntityMetadata/>
+      </DataXml>
+      <Name>成本中心</Name>
+      <Id>3DN6ZS2BXRN=</Id>
+      <LocaleId>zh_CN</LocaleId>
+    </DesignEntityMetaL>
+  </DesignMetas>
+  <Version>1730447685558</Version>
+  <BOSVersion>1.0</BOSVersion>
+</DeployMetadata>

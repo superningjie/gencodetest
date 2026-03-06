@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DeployMetadata>
+  <MasterId>46/=NSRQ+TO8</MasterId>
+  <Id>46/=NSRQ+TO8</Id>
+  <DesignMetas>
+    <DesignFormMetaL>
+      <Number>cea_assessformrow</Number>
+      <PkId>4=0CDTU0UITL</PkId>
+      <DataXml>
+        <FormMetadata/>
+      </DataXml>
+      <Name>测评表行自定义</Name>
+      <Id>46/=NSRQ+TO8</Id>
+      <LocaleId>zh_CN</LocaleId>
+    </DesignFormMetaL>
+    <DesignEntityMetaL>
+      <Number>cea_assessformrow</Number>
+      <PkId>4=0CDTY0RDRX</PkId>
+      <DataXml>
+        <EntityMetadata/>
+      </DataXml>
+      <Name>测评表行自定义</Name>
+      <Id>46/=NSRQ+TO8</Id>
+      <LocaleId>zh_CN</LocaleId>
+    </DesignEntityMetaL>
+  </DesignMetas>
+  <Version>1721980968779</Version>
+  <BOSVersion>1.0</BOSVersion>
+</DeployMetadata>

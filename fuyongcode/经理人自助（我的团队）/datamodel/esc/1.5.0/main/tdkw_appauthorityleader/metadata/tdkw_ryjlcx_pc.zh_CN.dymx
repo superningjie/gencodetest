@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DeployMetadata>
+  <MasterId>3MU2O0I4VRRG</MasterId>
+  <Id>3MU2O0I4VRRG</Id>
+  <DesignMetas>
+    <DesignFormMetaL>
+      <Number>tdkw_ryjlcx_pc</Number>
+      <PkId>3MUJGQR9HHP2</PkId>
+      <DataXml>
+        <FormMetadata/>
+      </DataXml>
+      <Name>人员简历查询_PC端</Name>
+      <Id>3MU2O0I4VRRG</Id>
+      <LocaleId>zh_CN</LocaleId>
+    </DesignFormMetaL>
+    <DesignEntityMetaL>
+      <Number>tdkw_ryjlcx_pc</Number>
+      <PkId>3MUJGQT0DCOK</PkId>
+      <DataXml>
+        <EntityMetadata/>
+      </DataXml>
+      <Name>人员简历查询_PC端</Name>
+      <Id>3MU2O0I4VRRG</Id>
+      <LocaleId>zh_CN</LocaleId>
+    </DesignEntityMetaL>
+  </DesignMetas>
+  <Version>1697526123114</Version>
+  <BOSVersion>1.0</BOSVersion>
+</DeployMetadata>

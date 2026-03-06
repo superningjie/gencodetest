@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DeployMetadata>
+  <MasterId>20DR1V26N2=O</MasterId>
+  <Id>4I=BOLK1=PNT</Id>
+  <DesignMetas>
+    <DesignFormMetaL>
+      <Number>tdkw_hspm_erfilelist_ext</Number>
+      <PkId>4I=SHK1FUZ3X</PkId>
+      <DataXml>
+        <FormMetadata/>
+      </DataXml>
+      <Name>人员档案</Name>
+      <Id>4I=BOLK1=PNT</Id>
+      <LocaleId>zh_CN</LocaleId>
+    </DesignFormMetaL>
+  </DesignMetas>
+  <Version>1730973770066</Version>
+  <BOSVersion>1.0</BOSVersion>
+</DeployMetadata>

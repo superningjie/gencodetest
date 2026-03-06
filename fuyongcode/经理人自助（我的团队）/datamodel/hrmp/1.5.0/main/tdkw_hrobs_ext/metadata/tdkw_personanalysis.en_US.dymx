@@ -1,0 +1,328 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DeployMetadata>
+  <MasterId>3C7PCKJL6YGC</MasterId>
+  <Id>3C7PCKJL6YGC</Id>
+  <DesignMetas>
+    <DesignFormMetaL>
+      <Number>tdkw_personanalysis</Number>
+      <PkId>3Z6QE44TWULQ</PkId>
+      <DataXml>
+        <FormMetadata>
+          <Name>人员分析</Name>
+          <Items>
+            <FormAp action="edit" oid="3C7PCKJL5E7T">
+              <Name>人员分析</Name>
+            </FormAp>
+            <FlexPanelAp action="edit" oid="woJPuiG9fg">
+              <Name>查询条件</Name>
+            </FlexPanelAp>
+            <FlexPanelAp action="edit" oid="6QM85A8xJu">
+              <Name>Flex容器</Name>
+            </FlexPanelAp>
+            <FlexPanelAp action="edit" oid="dJ3yoA6y1t">
+              <Name>Flex容器</Name>
+            </FlexPanelAp>
+            <FlexPanelAp action="edit" oid="IGU2b291Cv">
+              <Name>Flex容器</Name>
+            </FlexPanelAp>
+            <FlexPanelAp action="edit" oid="R9TEF3TbDt">
+              <Name>Flex容器</Name>
+            </FlexPanelAp>
+            <FlexPanelAp action="edit" oid="5swe86Ep0j">
+              <Name>Flex容器</Name>
+            </FlexPanelAp>
+            <FlexPanelAp action="edit" oid="x6pAM70tzV">
+              <Name>Flex容器</Name>
+            </FlexPanelAp>
+            <FlexPanelAp action="edit" oid="yT9gwq1Ns2">
+              <Name>Flex容器</Name>
+            </FlexPanelAp>
+            <HistogramChartAp action="edit" oid="TejlPGUv2h">
+              <Name>简历完整度柱状图</Name>
+            </HistogramChartAp>
+            <FlexPanelAp action="edit" oid="ks68aJp526">
+              <Name>Flex容器</Name>
+            </FlexPanelAp>
+            <PointLineChartAp action="edit" oid="RDkIKwP69B">
+              <Name>点线图</Name>
+            </PointLineChartAp>
+            <ButtonAp action="edit" oid="E84gUqavYr">
+              <Name>查询</Name>
+            </ButtonAp>
+            <ButtonAp action="edit" oid="ZGjTvculSq">
+              <Name>重置</Name>
+            </ButtonAp>
+            <FieldAp action="edit" oid="nYSzqWIPl5">
+              <Name>饼图类型</Name>
+            </FieldAp>
+            <FlexPanelAp action="edit" oid="mOY5q2H03o">
+              <Name>Flex容器</Name>
+            </FlexPanelAp>
+            <FlexPanelAp action="edit" oid="ipdZ7TOqEd">
+              <Name>Flex容器</Name>
+            </FlexPanelAp>
+            <HistogramChartAp action="edit" oid="mC987Myn8h">
+              <Name>总人数柱状图</Name>
+            </HistogramChartAp>
+            <LabelAp action="edit" oid="0JzG0LhC76">
+              <Name>平均年龄</Name>
+            </LabelAp>
+            <FieldAp action="edit" oid="BAth4qzh6M">
+              <Name>平均年龄日期</Name>
+            </FieldAp>
+            <LabelAp action="edit" oid="6B0qdoI2pc">
+              <Name>政治面貌分级</Name>
+            </LabelAp>
+            <FieldAp action="edit" oid="qca3GZnvs7">
+              <Name>政治面貌分级人数日期</Name>
+            </FieldAp>
+            <FlexPanelAp action="edit" oid="KLGOF7AiRa">
+              <Name>Flex容器</Name>
+            </FlexPanelAp>
+            <HistogramChartAp action="edit" oid="eRWJAHfkSS">
+              <Name>平均年龄柱状图</Name>
+            </HistogramChartAp>
+            <FlexPanelAp action="edit" oid="yDldJnCgfT">
+              <Name>Flex容器</Name>
+            </FlexPanelAp>
+            <FlexPanelAp action="edit" oid="DEHfdpe011">
+              <Name>Flex容器</Name>
+            </FlexPanelAp>
+            <PieChartAp action="edit" oid="rZ45vW9Xhz">
+              <Name>饼图</Name>
+            </PieChartAp>
+            <LabelAp action="edit" oid="Q61yF33Eyz">
+              <Name>总人数</Name>
+            </LabelAp>
+            <FieldAp action="edit" oid="oY15LmQJkI">
+              <Name>总人数日期</Name>
+            </FieldAp>
+            <LabelAp action="edit" oid="6b78RMC53W">
+              <Name>人员变化趋势</Name>
+            </LabelAp>
+            <FieldAp action="edit" oid="6KgWks3wG4">
+              <Name>点线图日期范围</Name>
+            </FieldAp>
+            <FieldAp action="edit" oid="C4Ngt2eVPu">
+              <Name>所属组织</Name>
+            </FieldAp>
+            <FieldAp action="edit" oid="lPWkOxo6q3">
+              <Name>开始日期</Name>
+            </FieldAp>
+            <FieldAp action="edit" oid="bVyGY6R6za">
+              <Name>结束日期</Name>
+            </FieldAp>
+            <FieldAp action="edit" oid="8mX5Rpoy2a">
+              <Name>学历</Name>
+            </FieldAp>
+            <FieldAp action="edit" oid="0ilA1cTYpw">
+              <Name>岗位序列</Name>
+            </FieldAp>
+            <FieldAp action="edit" oid="47Gisees3c">
+              <Name>政治面貌</Name>
+            </FieldAp>
+            <FieldAp action="edit" oid="lZzrR0J23B">
+              <Name>性别</Name>
+            </FieldAp>
+            <FieldAp action="edit" oid="g6X9znzJ71">
+              <Name>人员类别</Name>
+            </FieldAp>
+            <FieldAp action="edit" oid="8BxQsZtOdz">
+              <Name>职务</Name>
+            </FieldAp>
+            <FieldAp action="edit" oid="iH7z7xQx1f">
+              <Name>岗位层级</Name>
+            </FieldAp>
+            <FlexPanelAp action="edit" oid="8eEXux1yWX">
+              <Name>Flex容器</Name>
+            </FlexPanelAp>
+            <FlexPanelAp action="edit" oid="PZgTOU8t9p">
+              <Name>Flex容器</Name>
+            </FlexPanelAp>
+            <HistogramChartAp action="edit" oid="8Ka1foIreT">
+              <Name>政治面貌柱状图</Name>
+            </HistogramChartAp>
+            <LabelAp action="edit" oid="gYxfwL2JP4">
+              <Name>人员结构分布</Name>
+            </LabelAp>
+            <FieldAp action="edit" oid="Sgp5uBiSOM">
+              <Name>饼图日期</Name>
+            </FieldAp>
+            <LabelAp action="edit" oid="P6r0L6JCSA">
+              <Name>人员信息简历完整度(%)</Name>
+              <CtlTips>
+                <Tips>
+                  <Content>1、统计“人员类别”为正式员工、退休返聘的人员； 2、职务为“技工”、“普工”的人员不在统计范围内。</Content>
+                </Tips>
+              </CtlTips>
+            </LabelAp>
+            <FieldAp action="edit" oid="imxNWrUT6V">
+              <Name>简历完整度日期</Name>
+            </FieldAp>
+          </Items>
+        </FormMetadata>
+      </DataXml>
+      <Name>人员分析</Name>
+      <Id>3C7PCKJL6YGC</Id>
+      <LocaleId>en_US</LocaleId>
+    </DesignFormMetaL>
+    <DesignEntityMetaL>
+      <Number>tdkw_personanalysis</Number>
+      <PkId>3Z6QE45G9RMK</PkId>
+      <DataXml>
+        <EntityMetadata>
+          <Name>人员分析</Name>
+          <Items>
+            <MainEntity action="edit" oid="3C7PCKKET4ZE">
+              <PermissionDimension>
+                <PermissionDimension>
+                  <Name>维度控制</Name>
+                </PermissionDimension>
+              </PermissionDimension>
+              <Rules>
+                <BizRule action="edit" oid="3D0G3VSY8L5N">
+                  <Description>开始日期</Description>
+                </BizRule>
+                <BizRule action="edit" oid="3C7Q1ZT33R92">
+                  <Description>人员变化趋势</Description>
+                </BizRule>
+                <BizRule action="edit" oid="3C7VB53PI+NP">
+                  <Description>人员结构分布</Description>
+                </BizRule>
+                <BizRule action="edit" oid="3C8NXOBJJ1+V">
+                  <Description>总人数</Description>
+                </BizRule>
+                <BizRule action="edit" oid="3C8NXOBJJ/NB">
+                  <Description>平均年龄</Description>
+                </BizRule>
+                <BizRule action="edit" oid="3C8NXOBJJ1+W">
+                  <Description>人员信息简历完整度</Description>
+                </BizRule>
+                <BizRule action="edit" oid="3O2G0619CWHY">
+                  <Description>政治面貌分级</Description>
+                </BizRule>
+              </Rules>
+              <PermissionControl>
+                <PermissionControl>
+                  <Name>控制功能权限</Name>
+                </PermissionControl>
+              </PermissionControl>
+              <Operations>
+                <Operation action="edit" oid="3GIDLPM11/=5">
+                  <Name>重置</Name>
+                </Operation>
+                <Operation action="edit" oid="3GIFB7L9C66R">
+                  <Name>查询</Name>
+                </Operation>
+              </Operations>
+              <Name>人员分析</Name>
+            </MainEntity>
+            <BasedataField action="edit" oid="C4Ngt2eVPu">
+              <Name>所属组织</Name>
+            </BasedataField>
+            <DateField action="edit" oid="lPWkOxo6q3">
+              <Name>开始日期</Name>
+            </DateField>
+            <DateField action="edit" oid="bVyGY6R6za">
+              <Name>结束日期</Name>
+            </DateField>
+            <DateRangeField action="edit" oid="6KgWks3wG4">
+              <Name>点线图日期范围</Name>
+            </DateRangeField>
+            <DateField action="edit" oid="Sgp5uBiSOM">
+              <Name>饼图日期</Name>
+            </DateField>
+            <DateField action="edit" oid="oY15LmQJkI">
+              <Name>总人数日期</Name>
+            </DateField>
+            <DateField action="edit" oid="BAth4qzh6M">
+              <Name>平均年龄日期</Name>
+            </DateField>
+            <DateField action="edit" oid="imxNWrUT6V">
+              <Name>简历完整度日期</Name>
+            </DateField>
+            <ComboField action="edit" oid="nYSzqWIPl5">
+              <Name>饼图类型</Name>
+              <Items>
+                <ComboItem action="edit" oid="0">
+                  <Caption>岗位层级</Caption>
+                </ComboItem>
+                <ComboItem action="edit" oid="1">
+                  <Caption>集团司龄</Caption>
+                </ComboItem>
+                <ComboItem action="edit" oid="2">
+                  <Caption>性别</Caption>
+                </ComboItem>
+                <ComboItem action="edit" oid="3">
+                  <Caption>学历</Caption>
+                </ComboItem>
+                <ComboItem action="edit" oid="4">
+                  <Caption>年龄</Caption>
+                </ComboItem>
+                <ComboItem action="edit" oid="5">
+                  <Caption>政治面貌</Caption>
+                </ComboItem>
+                <ComboItem action="edit" oid="6">
+                  <Caption>社会工龄</Caption>
+                </ComboItem>
+                <ComboItem action="edit" oid="7">
+                  <Caption>婚姻状况</Caption>
+                </ComboItem>
+                <ComboItem action="edit" oid="8">
+                  <Caption>人员类型</Caption>
+                </ComboItem>
+              </Items>
+            </ComboField>
+            <MulBasedataField action="edit" oid="8mX5Rpoy2a">
+              <Name>学历</Name>
+            </MulBasedataField>
+            <MulBasedataField action="edit" oid="0ilA1cTYpw">
+              <Name>岗位序列</Name>
+            </MulBasedataField>
+            <MulBasedataField action="edit" oid="47Gisees3c">
+              <Name>政治面貌</Name>
+            </MulBasedataField>
+            <MulBasedataField action="edit" oid="lZzrR0J23B">
+              <Name>性别</Name>
+            </MulBasedataField>
+            <MulBasedataField action="edit" oid="g6X9znzJ71">
+              <Name>人员类别</Name>
+            </MulBasedataField>
+            <MulBasedataField action="edit" oid="8BxQsZtOdz">
+              <Name>职务</Name>
+            </MulBasedataField>
+            <MulComboField action="edit" oid="iH7z7xQx1f">
+              <Name>岗位层级</Name>
+              <Items>
+                <ComboItem action="edit" oid="1">
+                  <Caption>集团高管</Caption>
+                </ComboItem>
+                <ComboItem action="edit" oid="2">
+                  <Caption>行业高管</Caption>
+                </ComboItem>
+                <ComboItem action="edit" oid="3">
+                  <Caption>其他高管</Caption>
+                </ComboItem>
+                <ComboItem action="edit" oid="4">
+                  <Caption>中层</Caption>
+                </ComboItem>
+                <ComboItem action="edit" oid="5">
+                  <Caption>基层</Caption>
+                </ComboItem>
+              </Items>
+            </MulComboField>
+            <DateField action="edit" oid="qca3GZnvs7">
+              <Name>政治面貌分级人数日期</Name>
+            </DateField>
+          </Items>
+        </EntityMetadata>
+      </DataXml>
+      <Name>人员分析</Name>
+      <Id>3C7PCKJL6YGC</Id>
+      <LocaleId>en_US</LocaleId>
+    </DesignEntityMetaL>
+  </DesignMetas>
+  <Version>1735197199470</Version>
+  <BOSVersion>1.0</BOSVersion>
+</DeployMetadata>

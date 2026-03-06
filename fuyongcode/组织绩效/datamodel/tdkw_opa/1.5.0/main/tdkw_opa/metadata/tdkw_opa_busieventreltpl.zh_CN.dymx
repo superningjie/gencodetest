@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DeployMetadata>
+  <MasterId>4APH=HWEJ3WC</MasterId>
+  <Id>4APH=HWEJ3WC</Id>
+  <DesignMetas>
+    <DesignFormMetaL>
+      <Number>tdkw_opa_busieventreltpl</Number>
+      <PkId>4APHWEYWRYIO</PkId>
+      <DataXml>
+        <FormMetadata/>
+      </DataXml>
+      <Name>业务事务关系表</Name>
+      <Id>4APH=HWEJ3WC</Id>
+      <LocaleId>zh_CN</LocaleId>
+    </DesignFormMetaL>
+    <DesignEntityMetaL>
+      <Number>tdkw_opa_busieventreltpl</Number>
+      <PkId>4APHWF+R=8CY</PkId>
+      <DataXml>
+        <EntityMetadata/>
+      </DataXml>
+      <Name>业务事务关系表</Name>
+      <Id>4APH=HWEJ3WC</Id>
+      <LocaleId>zh_CN</LocaleId>
+    </DesignEntityMetaL>
+  </DesignMetas>
+  <Version>1723601816785</Version>
+  <BOSVersion>1.0</BOSVersion>
+</DeployMetadata>

@@ -1,0 +1,7 @@
+/.gradle/
+/.idea/
+/base/tdkw-base-common/build/
+/base/tdkw-base-helper/build/
+/hrmp/tdkw-hrmp-hrobs/build/
+/logs/
+/tdkw-cosmic-debug/build/

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DeployMetadata>
+  <MasterId>3DJU/RMZ=/5V</MasterId>
+  <Id>3DJU/RMZ=/5V</Id>
+  <DesignMetas>
+    <DesignFormMetaL>
+      <Number>tdkw_cultivatequery</Number>
+      <PkId>3EDGFM90RZ+O</PkId>
+      <DataXml>
+        <FormMetadata/>
+      </DataXml>
+      <Name>培训查询移动端</Name>
+      <Id>3DJU/RMZ=/5V</Id>
+      <LocaleId>zh_CN</LocaleId>
+    </DesignFormMetaL>
+    <DesignEntityMetaL>
+      <Number>tdkw_cultivatequery</Number>
+      <PkId>3EDGFM=+1C1I</PkId>
+      <DataXml>
+        <EntityMetadata/>
+      </DataXml>
+      <Name>培训查询移动端</Name>
+      <Id>3DJU/RMZ=/5V</Id>
+      <LocaleId>zh_CN</LocaleId>
+    </DesignEntityMetaL>
+  </DesignMetas>
+  <Version>1689337894523</Version>
+  <BOSVersion>1.0</BOSVersion>
+</DeployMetadata>

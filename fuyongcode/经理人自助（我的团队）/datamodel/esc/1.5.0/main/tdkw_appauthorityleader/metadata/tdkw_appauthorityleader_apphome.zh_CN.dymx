@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DeployMetadata>
+  <MasterId>3DHP9EA8SNM+</MasterId>
+  <Id>3DHP9EA8SNM+</Id>
+  <DesignMetas>
+    <DesignFormMetaL>
+      <Number>tdkw_appauthorityleader_apphome</Number>
+      <PkId>3NFJO76+3X2B</PkId>
+      <DataXml>
+        <FormMetadata/>
+      </DataXml>
+      <Name>数据分析PC端</Name>
+      <Id>3DHP9EA8SNM+</Id>
+      <LocaleId>zh_CN</LocaleId>
+    </DesignFormMetaL>
+    <DesignEntityMetaL>
+      <Number>tdkw_appauthorityleader_apphome</Number>
+      <PkId>3NFJO76MHSRO</PkId>
+      <DataXml>
+        <EntityMetadata/>
+      </DataXml>
+      <Name>数据分析PC端</Name>
+      <Id>3DHP9EA8SNM+</Id>
+      <LocaleId>zh_CN</LocaleId>
+    </DesignEntityMetaL>
+  </DesignMetas>
+  <Version>1698123421995</Version>
+  <BOSVersion>1.0</BOSVersion>
+</DeployMetadata>

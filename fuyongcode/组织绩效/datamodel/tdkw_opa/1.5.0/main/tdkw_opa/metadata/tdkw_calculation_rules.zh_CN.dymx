@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DeployMetadata>
+  <MasterId>4AWNOH=QS=VI</MasterId>
+  <Id>4AWNOH=QS=VI</Id>
+  <DesignMetas>
+    <DesignFormMetaL>
+      <Number>tdkw_calculation_rules</Number>
+      <PkId>4FP+KBYIBKJ4</PkId>
+      <DataXml>
+        <FormMetadata/>
+      </DataXml>
+      <Name>计算规则</Name>
+      <Id>4AWNOH=QS=VI</Id>
+      <LocaleId>zh_CN</LocaleId>
+    </DesignFormMetaL>
+    <DesignEntityMetaL>
+      <Number>tdkw_calculation_rules</Number>
+      <PkId>4FP+KC5XKIO6</PkId>
+      <DataXml>
+        <EntityMetadata/>
+      </DataXml>
+      <Name>计算规则</Name>
+      <Id>4AWNOH=QS=VI</Id>
+      <LocaleId>zh_CN</LocaleId>
+    </DesignEntityMetaL>
+  </DesignMetas>
+  <Version>1728440919128</Version>
+  <BOSVersion>1.0</BOSVersion>
+</DeployMetadata>

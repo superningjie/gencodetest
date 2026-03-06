@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DeployMetadata>
+  <MasterId>4ATTKWN943WT</MasterId>
+  <Id>4ATTKWN943WT</Id>
+  <DesignMetas>
+    <DesignFormMetaL>
+      <Number>tdkw_target_decompose</Number>
+      <PkId>4D7I88/=A5JG</PkId>
+      <DataXml>
+        <FormMetadata>
+          <Name>指标分解</Name>
+          <Items>
+            <BillFormAp action="edit" oid="00305e8b000005ac">
+              <MobListMeta>
+                <FormMetadata>
+                  <Items>
+                    <CardListColumnAp action="edit" oid="4ATTKWPH52IA">
+                      <Name>Document Status</Name>
+                    </CardListColumnAp>
+                    <CardListColumnAp action="edit" oid="4ATTKWPH73ZK">
+                      <Name>Created By.Name</Name>
+                    </CardListColumnAp>
+                    <CardFlexPanelAp action="edit" oid="4ATTKWPH73ZJ">
+                      <Name>Card Layout Container</Name>
+                    </CardFlexPanelAp>
+                    <MobSortPanelAp action="edit" oid="mobsortpanel">
+                      <Name>Sorting Item 1</Name>
+                    </MobSortPanelAp>
+                    <MobFilterPanelAp action="edit" oid="mobfilterpanel">
+                      <Name>Filter Item 1</Name>
+                    </MobFilterPanelAp>
+                    <MobFilterPanelAp action="edit" oid="4ATTKWPH52I=">
+                      <Name>Filter Item 2</Name>
+                    </MobFilterPanelAp>
+                  </Items>
+                </FormMetadata>
+              </MobListMeta>
+              <Name>指标分解</Name>
+              <MobMeta>
+                <FormMetadata>
+                  <Items>
+                    <LayoutFlexAp action="edit" oid="4ATTKWPH52I7">
+                      <Name>Field Layout Container</Name>
+                    </LayoutFlexAp>
+                    <LayoutFlexAp action="edit" oid="4ATTKWPH73ZG">
+                      <Name>Field Layout Container</Name>
+                    </LayoutFlexAp>
+                    <FieldAp action="edit" oid="4ATTKWPH52I8">
+                      <Name>Document Status</Name>
+                    </FieldAp>
+                    <FieldAp action="edit" oid="4ATTKWPH73ZH">
+                      <Name>Approved By</Name>
+                    </FieldAp>
+                    <FieldAp action="edit" oid="4ATTKWPH52I9">
+                      <Name>Created By</Name>
+                    </FieldAp>
+                    <MBarItemAp action="edit" oid="4ATTKWPH73ZI">
+                      <Name>Submit</Name>
+                    </MBarItemAp>
+                  </Items>
+                </FormMetadata>
+              </MobMeta>
+            </BillFormAp>
+            <EntryFieldAp action="edit" oid="sGLkoEqLpLcqeoBnXZ">
+              <Name>指标</Name>
+            </EntryFieldAp>
+            <EntryFieldAp action="edit" oid="q9evjsjxBqKqqam39e">
+              <Name>指标</Name>
+            </EntryFieldAp>
+            <EntryFieldAp action="edit" oid="rNjHU9xVGfekLg7Gqf">
+              <Name>指标描述（隐藏）</Name>
+            </EntryFieldAp>
+            <EntryFieldAp action="edit" oid="cyr55tpg0UZoVPvHfa">
+              <Name>评分标准（隐藏）</Name>
+            </EntryFieldAp>
+            <BarItemAp action="edit" oid="e8jge2RUwB">
+              <Name>退出</Name>
+            </BarItemAp>
+            <BarItemAp action="edit" oid="BjQXy6BIpA">
+              <Name>保存</Name>
+            </BarItemAp>
+            <BarItemAp action="edit" oid="7HgjzWVUOW">
+              <Name>发送通知</Name>
+            </BarItemAp>
+            <EntryFieldAp action="edit" oid="2BbgZRUNz1tkceBUAS">
+              <Name>分解组织</Name>
+            </EntryFieldAp>
+            <EntryFieldAp action="edit" oid="51OUULJW8tNP6OXmfL">
+              <Name>分解说明</Name>
+            </EntryFieldAp>
+            <EntryFieldAp action="edit" oid="HC90zdvPazaRdVcAaT">
+              <Name>是否可见</Name>
+            </EntryFieldAp>
+            <OperationColumnAp action="edit" oid="1zM3943tpABQEi80wS">
+              <OperationColItems>
+                <OperationColItem action="edit" oid="4B86D+4=BFZJ">
+                  <operationName>删除</operationName>
+                </OperationColItem>
+              </OperationColItems>
+            </OperationColumnAp>
+            <BarItemAp action="edit" oid="M3Stt53Bkp">
+              <Name>新增</Name>
+            </BarItemAp>
+            <BarItemAp action="edit" oid="4iWqpkDFvO">
+              <Name>删除所有</Name>
+            </BarItemAp>
+            <FlexPanelAp action="edit" oid="kLpTMMSpmKLqZtjLPO">
+              <Name>Flex容器</Name>
+            </FlexPanelAp>
+            <ToolbarAp action="edit" oid="ECrlbycQVEJX3hlEmT">
+              <Name>工具栏</Name>
+            </ToolbarAp>
+            <FlexPanelAp action="edit" oid="plki2J9imlsEOI7S03">
+              <Name>Flex容器</Name>
+            </FlexPanelAp>
+            <TabAp action="edit" oid="SQAeS5KOwLxMzjAyZH">
+              <Name>页签控件</Name>
+            </TabAp>
+            <FieldAp action="edit" oid="2R8e96mBoxjFuJZMbW">
+              <Name>分解组织：</Name>
+            </FieldAp>
+            <FieldAp action="edit" oid="8FX5iQw7NA5XSjaOH6">
+              <Name>被分解组织</Name>
+            </FieldAp>
+            <FieldAp action="edit" oid="9O7MFV6hao">
+              <Name>考核年份：</Name>
+            </FieldAp>
+            <FieldAp action="edit" oid="Py6fxw7d07pLHqhZ8q">
+              <Name>日期</Name>
+            </FieldAp>
+            <EntryAp action="edit" oid="8weJ42lEoq4jd50G5O">
+              <Name>单据体</Name>
+            </EntryAp>
+            <EntryAp action="edit" oid="EwM03n4qyYf9Rcrlgw">
+              <Name>子单据体</Name>
+            </EntryAp>
+            <FlexPanelAp action="edit" oid="mVgb2234Zh3ntgMpUE">
+              <Name>Flex容器</Name>
+            </FlexPanelAp>
+            <FlexPanelAp action="edit" oid="MbPQn1fzQChbet16hh">
+              <Name>Flex容器</Name>
+            </FlexPanelAp>
+            <FlexPanelAp action="edit" oid="j2Dtss0p5RHjQz0YRv">
+              <Name>Flex容器</Name>
+            </FlexPanelAp>
+            <FieldAp action="edit" oid="AEI8sbSmBv1Y8LVlIu">
+              <Name>组织绩效kpi类区id</Name>
+            </FieldAp>
+            <FieldAp action="edit" oid="OsCiQU4NpCFR4hN3Po">
+              <Name>描述</Name>
+            </FieldAp>
+          </Items>
+        </FormMetadata>
+      </DataXml>
+      <Name>指标分解</Name>
+      <Id>4ATTKWN943WT</Id>
+      <LocaleId>en_US</LocaleId>
+    </DesignFormMetaL>
+    <DesignEntityMetaL>
+      <Number>tdkw_target_decompose</Number>
+      <PkId>4D7I8832YO6Y</PkId>
+      <DataXml>
+        <EntityMetadata>
+          <Name>指标分解</Name>
+          <Items>
+            <BillEntity action="edit" oid="00305e8b000007ac">
+              <Operations>
+                <Operation action="edit" oid="4ATTKWPH52I6">
+                  <Name>New Entry</Name>
+                </Operation>
+                <Operation action="edit" oid="4ATTKWPH73ZF">
+                  <Name>Delete Entry</Name>
+                </Operation>
+                <Operation action="edit" oid="4B6/M64OJ2B1">
+                  <Name>新增</Name>
+                </Operation>
+                <Operation action="edit" oid="4B6/O08X2I/B">
+                  <Name>新增</Name>
+                </Operation>
+                <Operation action="edit" oid="4B8HMJLBE497">
+                  <Name>删除所有</Name>
+                </Operation>
+                <Operation action="edit" oid="4BS5P7PE=M56">
+                  <Name>发送通知</Name>
+                </Operation>
+                <Operation action="edit" oid="4BX/CV3=04=M">
+                  <Name>退出</Name>
+                </Operation>
+              </Operations>
+              <Name>指标分解</Name>
+            </BillEntity>
+            <BasedataField action="edit" oid="8FX5iQw7NA5XSjaOH6">
+              <Name>被分解组织</Name>
+            </BasedataField>
+            <BigIntField action="edit" oid="AEI8sbSmBv1Y8LVlIu">
+              <Name>组织绩效kpi类区id</Name>
+            </BigIntField>
+            <BasedataField action="edit" oid="2BbgZRUNz1tkceBUAS">
+              <Name>分解组织</Name>
+            </BasedataField>
+            <TextField action="edit" oid="51OUULJW8tNP6OXmfL">
+              <Name>分解说明</Name>
+            </TextField>
+            <CheckBoxField action="edit" oid="HC90zdvPazaRdVcAaT">
+              <Name>是否可见</Name>
+            </CheckBoxField>
+            <TextField action="edit" oid="OsCiQU4NpCFR4hN3Po">
+              <Name>描述</Name>
+            </TextField>
+            <TextField action="edit" oid="2R8e96mBoxjFuJZMbW">
+              <Name>分解组织：</Name>
+            </TextField>
+            <TextField action="edit" oid="9O7MFV6hao">
+              <Name>考核年份：</Name>
+            </TextField>
+            <DateField action="edit" oid="Py6fxw7d07pLHqhZ8q">
+              <Name>日期</Name>
+            </DateField>
+            <EntryEntity action="edit" oid="8weJ42lEoq4jd50G5O">
+              <Name>单据体</Name>
+            </EntryEntity>
+            <BasedataField action="edit" oid="sGLkoEqLpLcqeoBnXZ">
+              <Name>指标</Name>
+            </BasedataField>
+            <SubEntryEntity action="edit" oid="EwM03n4qyYf9Rcrlgw">
+              <Name>子单据体</Name>
+            </SubEntryEntity>
+            <TextField action="edit" oid="q9evjsjxBqKqqam39e">
+              <Name>指标</Name>
+            </TextField>
+            <TextField action="edit" oid="rNjHU9xVGfekLg7Gqf">
+              <Name>指标描述（隐藏）</Name>
+            </TextField>
+            <TextField action="edit" oid="cyr55tpg0UZoVPvHfa">
+              <Name>评分标准（隐藏）</Name>
+            </TextField>
+          </Items>
+        </EntityMetadata>
+      </DataXml>
+      <Name>指标分解</Name>
+      <Id>4ATTKWN943WT</Id>
+      <LocaleId>en_US</LocaleId>
+    </DesignEntityMetaL>
+  </DesignMetas>
+  <Version>1726040513733</Version>
+  <BOSVersion>1.0</BOSVersion>
+</DeployMetadata>

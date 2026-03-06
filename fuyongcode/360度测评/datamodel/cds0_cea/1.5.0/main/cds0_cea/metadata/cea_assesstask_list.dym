@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DeployMetadata>
+  <Multilanguage>false</Multilanguage>
+  <MasterId>47CO651MDHAQ</MasterId>
+  <BizappId>4513U+LB/HOD</BizappId>
+  <Id>47CO651MDHAQ</Id>
+  <DesignMetas>
+    <DesignFormMeta>
+      <DevType>0</DevType>
+      <ModifyDate>1722992183098</ModifyDate>
+      <DataXml>
+        <FormMetadata>
+          <Id>47CO651MDHAQ</Id>
+          <Key>cea_assesstask_list</Key>
+          <EntityId>47CO651MDHAQ</EntityId>
+          <ParentId>45O3CV6V8NY3</ParentId>
+          <Name>测评任务列表</Name>
+          <InheritPath>1942c188000065ac,45O3CV6V8NY3</InheritPath>
+          <Items>
+            <BasedataFormAp action="edit" oid="1942c188000064ac">
+              <MobListMeta>
+                <FormMetadata>
+                  <Items>
+                    <BillListAp action="edit" oid="_BillList_">
+                      <EntityId>47CO651MDHAQ</EntityId>
+                    </BillListAp>
+                  </Items>
+                </FormMetadata>
+              </MobListMeta>
+              <Id>47CO651MDHAQ</Id>
+              <Name>测评任务列表</Name>
+              <Key>cea_assesstask_list</Key>
+              <ListMeta>
+                <FormMetadata>
+                  <Name>测评任务列表</Name>
+                  <Items>
+                    <FormAp action="edit" oid="b5994054000024ac">
+                      <Plugins>
+                        <Plugin>
+                          <FPK/>
+                          <Description>测评任务列表插件</Description>
+                          <ClassName>cds0.opmc.cea.plugin.form.AssessTaskListPlugin</ClassName>
+                          <Enabled>true</Enabled>
+                          <BizAppId/>
+                          <RowKey>2</RowKey>
+                        </Plugin>
+                      </Plugins>
+                      <Name>测评任务列表</Name>
+                    </FormAp>
+                    <ListGridViewAp action="edit" oid="gridview">
+                      <ShowSelCheckbox>false</ShowSelCheckbox>
+                    </ListGridViewAp>
+                    <BarItemAp action="edit" oid="FUMD89PFCB">
+                      <Invisible>true</Invisible>
+                    </BarItemAp>
+                    <BarItemAp action="edit" oid="C1IXIpJx1c">
+                      <Invisible>true</Invisible>
+                    </BarItemAp>
+                    <BarItemAp action="edit" oid="rQ81rnW9l8">
+                      <Invisible>true</Invisible>
+                    </BarItemAp>
+                    <BarItemAp action="edit" oid="ms32Hsufcq">
+                      <Invisible>true</Invisible>
+                    </BarItemAp>
+                    <BarItemAp action="edit" oid="BTjy6Ie3Bc">
+                      <Invisible>true</Invisible>
+                    </BarItemAp>
+                    <BarItemAp action="edit" oid="A3zkgmttgA">
+                      <Invisible>true</Invisible>
+                    </BarItemAp>
+                    <BarItemAp action="edit" oid="NVARV5u7I4">
+                      <Invisible>true</Invisible>
+                    </BarItemAp>
+                    <BarItemAp action="edit" oid="v71lQcKgcH">
+                      <Invisible>true</Invisible>
+                    </BarItemAp>
+                    <BarItemAp action="edit" oid="0gAY5TLeX3">
+                      <Invisible>true</Invisible>
+                    </BarItemAp>
+                    <BarItemAp action="edit" oid="UlRxLeBKL1">
+                      <Invisible>true</Invisible>
+                    </BarItemAp>
+                    <BarItemAp action="edit" oid="2wMiRwClCC">
+                      <Invisible>true</Invisible>
+                    </BarItemAp>
+                    <BarItemAp>
+                      <Id>MhnARuscUb</Id>
+                      <Key>evaluate</Key>
+                      <OperationStyle>0</OperationStyle>
+                      <Index>10</Index>
+                      <ParentId>_toolbar_</ParentId>
+                      <Name>评价</Name>
+                    </BarItemAp>
+                    <BarItemAp>
+                      <OperationKey>refresh</OperationKey>
+                      <Id>ZNnwo3RxqR</Id>
+                      <Key>refresh</Key>
+                      <OperationStyle>0</OperationStyle>
+                      <Index>11</Index>
+                      <ParentId>_toolbar_</ParentId>
+                      <Name>刷新</Name>
+                    </BarItemAp>
+                    <BillListAp action="edit" oid="_BillList_">
+                      <EntityId>47CO651MDHAQ</EntityId>
+                    </BillListAp>
+                    <ListColumnAp action="edit" oid="b5994054000028ac">
+                      <Visible/>
+                    </ListColumnAp>
+                    <ListColumnAp action="edit" oid="b5994054000029ac">
+                      <Visible/>
+                    </ListColumnAp>
+                    <ComboListColumnAp action="edit" oid="UGA0V8HS=6S">
+                      <Visible/>
+                    </ComboListColumnAp>
+                    <PictureListColumnAp>
+                      <ColumnOrderAndFilter>1</ColumnOrderAndFilter>
+                      <SeqColumnType>NotSeq</SeqColumnType>
+                      <Id>47COE24JMKDL</Id>
+                      <Key>cds0_picturelistcolumnap</Key>
+                      <Order>NotOrder</Order>
+                      <Index>4</Index>
+                      <ParentId>gridview</ParentId>
+                      <ListFieldId>person.headsculpture</ListFieldId>
+                      <Name>头像</Name>
+                    </PictureListColumnAp>
+                    <ListColumnAp>
+                      <SeqColumnType>NotSeq</SeqColumnType>
+                      <Id>47COEQWL4=BT</Id>
+                      <Key>cds0_listcolumnap</Key>
+                      <Order>NotOrder</Order>
+                      <Index>5</Index>
+                      <ParentId>gridview</ParentId>
+                      <ListFieldId>assessobj.person.name</ListFieldId>
+                      <Name>测评对象</Name>
+                    </ListColumnAp>
+                    <ListColumnAp>
+                      <SeqColumnType>NotSeq</SeqColumnType>
+                      <Id>47COEXPZPTKS</Id>
+                      <Key>cds0_listcolumnap1</Key>
+                      <Order>NotOrder</Order>
+                      <Index>6</Index>
+                      <ParentId>gridview</ParentId>
+                      <ListFieldId>assessobj.person.number</ListFieldId>
+                      <Name>测评对象工号</Name>
+                    </ListColumnAp>
+                    <ListColumnAp>
+                      <SeqColumnType>NotSeq</SeqColumnType>
+                      <Id>47COJLHCGWP+</Id>
+                      <Key>cds0_listcolumnap2</Key>
+                      <Order>NotOrder</Order>
+                      <Index>7</Index>
+                      <ParentId>gridview</ParentId>
+                      <ListFieldId>assessobj.affiliateadminorg.name</ListFieldId>
+                      <Name>挂靠行政组织</Name>
+                    </ListColumnAp>
+                    <ListColumnAp>
+                      <SeqColumnType>NotSeq</SeqColumnType>
+                      <Id>47COK7KLN608</Id>
+                      <Key>cds0_listcolumnap3</Key>
+                      <Order>NotOrder</Order>
+                      <Index>8</Index>
+                      <ParentId>gridview</ParentId>
+                      <ListFieldId>evaldim.dimname</ListFieldId>
+                      <Name>测评角色</Name>
+                    </ListColumnAp>
+                    <ListColumnAp>
+                      <SeqColumnType>NotSeq</SeqColumnType>
+                      <Id>47COMDFB2B5W</Id>
+                      <Key>cds0_listcolumnap4</Key>
+                      <Order>NotOrder</Order>
+                      <Index>9</Index>
+                      <ParentId>gridview</ParentId>
+                      <ListFieldId>evaldim.evalrole.name</ListFieldId>
+                      <Name>角色类型</Name>
+                    </ListColumnAp>
+                    <ListColumnAp>
+                      <SeqColumnType>NotSeq</SeqColumnType>
+                      <Id>47COS+426OI=</Id>
+                      <Key>cds0_listcolumnap5</Key>
+                      <Order>NotOrder</Order>
+                      <Index>10</Index>
+                      <ParentId>gridview</ParentId>
+                      <ListFieldId>assessact.name</ListFieldId>
+                      <Name>测评活动</Name>
+                    </ListColumnAp>
+                    <ComboListColumnAp>
+                      <SeqColumnType>NotSeq</SeqColumnType>
+                      <Id>47COVCM9GLGT</Id>
+                      <Key>cds0_combolistcolumnap</Key>
+                      <Order>NotOrder</Order>
+                      <Index>11</Index>
+                      <ParentId>gridview</ParentId>
+                      <ListFieldId>assestaskstatus</ListFieldId>
+                      <Name>测评状态</Name>
+                    </ComboListColumnAp>
+                    <TimeListColumnAp>
+                      <ColumnOrderAndFilter>1</ColumnOrderAndFilter>
+                      <SeqColumnType>NotSeq</SeqColumnType>
+                      <Id>47COVJK/GO3D</Id>
+                      <Key>cds0_timelistcolumnap</Key>
+                      <Order>NotOrder</Order>
+                      <Index>12</Index>
+                      <ParentId>gridview</ParentId>
+                      <ListFieldId>taskarrivaltime</ListFieldId>
+                      <Name>任务到达时间</Name>
+                    </TimeListColumnAp>
+                  </Items>
+                </FormMetadata>
+              </ListMeta>
+            </BasedataFormAp>
+          </Items>
+        </FormMetadata>
+      </DataXml>
+      <ModifierId>1992915822795867136</ModifierId>
+      <EntityId>47CO651MDHAQ</EntityId>
+      <ModelType>BaseFormModel</ModelType>
+      <Isv>tdkw</Isv>
+      <Version>1722992183098</Version>
+      <ParentId>45O3CV6V8NY3</ParentId>
+      <MasterId></MasterId>
+      <Number>cea_assesstask_list</Number>
+      <BizappId>4513U+LB/HOD</BizappId>
+      <IsvSign></IsvSign>
+      <Id>47CO651MDHAQ</Id>
+      <InheritPath>1942c188000065ac,45O3CV6V8NY3</InheritPath>
+    </DesignFormMeta>
+    <DesignEntityMeta>
+      <DevType>0</DevType>
+      <ModifyDate>1722992183212</ModifyDate>
+      <DataXml>
+        <EntityMetadata>
+          <Id>47CO651MDHAQ</Id>
+          <ParentId>45O3CV6V8NY3</ParentId>
+          <Name>测评任务列表</Name>
+          <InheritPath>1942c188000065ac,45O3CV6V8NY3</InheritPath>
+          <Items>
+            <BaseEntity action="edit" oid="1942c188000066ac">
+              <Id>47CO651MDHAQ</Id>
+              <Name>测评任务列表</Name>
+              <Key>cea_assesstask_list</Key>
+            </BaseEntity>
+            <BasedataField action="edit" oid="n0oYXeh3Cubc5gauNJ">
+              <RefProps>
+                <RefProp>
+                  <Name>affiliateadminorg.name</Name>
+                </RefProp>
+              </RefProps>
+            </BasedataField>
+          </Items>
+        </EntityMetadata>
+      </DataXml>
+      <ModelType>BaseFormModel</ModelType>
+      <Isv>tdkw</Isv>
+      <Version>1722992183212</Version>
+      <ParentId>45O3CV6V8NY3</ParentId>
+      <MasterId></MasterId>
+      <Number>cea_assesstask_list</Number>
+      <BizappId>4513U+LB/HOD</BizappId>
+      <Id>47CO651MDHAQ</Id>
+      <InheritPath>1942c188000065ac,45O3CV6V8NY3</InheritPath>
+    </DesignEntityMeta>
+  </DesignMetas>
+  <Version>1722992183098</Version>
+  <BOSVersion>1.0</BOSVersion>
+  <BizunitId>45O23XJ9UE1I</BizunitId>
+</DeployMetadata>

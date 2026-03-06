@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DeployMetadata>
+  <MasterId>3=G2PYJ/SA+R</MasterId>
+  <Id>3=G2PYJ/SA+R</Id>
+  <DesignMetas>
+    <DesignFormMetaL>
+      <Number>tdkw_myhistory</Number>
+      <PkId>3MUH/KPHSUPI</PkId>
+      <DataXml>
+        <FormMetadata>
+          <Items>
+            <FlexPanelAp action="edit" oid="Fy43gzPozu">
+              <Name>Flex容器</Name>
+            </FlexPanelAp>
+            <LabelAp action="edit" oid="aKgq9IJi9G">
+              <Name>已入职</Name>
+            </LabelAp>
+            <FlexPanelAp action="edit" oid="ARp8XqoM85">
+              <Name>Flex容器</Name>
+            </FlexPanelAp>
+            <FlexPanelAp action="edit" oid="owEo1v87GY">
+              <Name>Flex容器</Name>
+            </FlexPanelAp>
+            <FlexPanelAp action="edit" oid="H5s7MV6v7m">
+              <Name>Flex容器</Name>
+            </FlexPanelAp>
+            <FlexPanelAp action="edit" oid="4HxqWoKPRO">
+              <Name>Flex容器</Name>
+            </FlexPanelAp>
+            <FlexPanelAp action="edit" oid="zTL1PcIfE9">
+              <Name>Flex容器</Name>
+            </FlexPanelAp>
+            <FlexPanelAp action="edit" oid="mRiBQp3l5u">
+              <Name>Flex容器</Name>
+            </FlexPanelAp>
+            <FlexPanelAp action="edit" oid="d9H5tLsouY">
+              <Name>Flex容器</Name>
+            </FlexPanelAp>
+            <FlexPanelAp action="edit" oid="geJePfuVrB">
+              <Name>Flex容器</Name>
+            </FlexPanelAp>
+            <FlexPanelAp action="edit" oid="bxUm9TQ0sy">
+              <Name>Flex容器</Name>
+            </FlexPanelAp>
+            <FlexPanelAp action="edit" oid="GFId5XHi2T">
+              <Name>Flex容器</Name>
+            </FlexPanelAp>
+            <FieldAp action="edit" oid="jG8Yo2yRzQ">
+              <Name>文本</Name>
+            </FieldAp>
+            <FlexPanelAp action="edit" oid="rvkB4X6EWZ">
+              <Name>真实标题区</Name>
+            </FlexPanelAp>
+            <FlexPanelAp action="edit" oid="7cXDisHpP6">
+              <Name>真实内容区</Name>
+            </FlexPanelAp>
+            <LabelAp action="edit" oid="QPBCC5l2fh">
+              <Name>日</Name>
+            </LabelAp>
+            <FlexPanelAp action="edit" oid="xgl1ifb7sr">
+              <Name>Flex容器</Name>
+            </FlexPanelAp>
+            <FlexPanelAp action="edit" oid="oYRB45wWLQ">
+              <Name>Flex容器</Name>
+            </FlexPanelAp>
+            <FlexPanelAp action="edit" oid="SLlJZuxsO1">
+              <Name>Flex容器</Name>
+            </FlexPanelAp>
+            <FlexPanelAp action="edit" oid="s9DbFh5o8y">
+              <Name>Flex容器</Name>
+            </FlexPanelAp>
+            <FieldAp action="edit" oid="lAzz5U8shd">
+              <Name>日期</Name>
+            </FieldAp>
+            <LabelAp action="edit" oid="x2B5Iu9yo9">
+              <Name>|</Name>
+            </LabelAp>
+            <LabelAp action="edit" oid="DQTaxgBjbi">
+              <Name>|</Name>
+            </LabelAp>
+            <FieldAp action="edit" oid="bnRhS6FQ77">
+              <Name>日期</Name>
+            </FieldAp>
+            <FlexPanelAp action="edit" oid="dk4PpDoUnz">
+              <Name>Flex容器</Name>
+            </FlexPanelAp>
+            <FlexPanelAp action="edit" oid="Z1FGo83Bib">
+              <Name>Flex容器</Name>
+            </FlexPanelAp>
+            <FlexPanelAp action="edit" oid="pTqgZirFty">
+              <Name>Flex容器</Name>
+            </FlexPanelAp>
+            <FlexPanelAp action="edit" oid="yul9OPcemt">
+              <Name>Flex容器</Name>
+            </FlexPanelAp>
+            <FlexPanelAp action="edit" oid="Qb3SBhG47L">
+              <Name>Flex容器</Name>
+            </FlexPanelAp>
+            <FlexPanelAp action="edit" oid="FSH6lzTq6W">
+              <Name>Flex容器</Name>
+            </FlexPanelAp>
+            <FieldAp action="edit" oid="HE5nDoA5aO">
+              <Name>日期</Name>
+            </FieldAp>
+            <LabelAp action="edit" oid="wKiBb1gjKk">
+              <Name>|</Name>
+            </LabelAp>
+            <FlexPanelAp action="edit" oid="mctjdAH4h6">
+              <Name>Flex容器</Name>
+            </FlexPanelAp>
+            <FlexPanelAp action="edit" oid="n3CQMhT2Oz">
+              <Name>Flex容器</Name>
+            </FlexPanelAp>
+            <FlexPanelAp action="edit" oid="j5JVT3Xi5a">
+              <Name>Flex容器</Name>
+            </FlexPanelAp>
+            <LabelAp action="edit" oid="26zby9CCTu">
+              <Name>当前职层名称：</Name>
+            </LabelAp>
+            <LabelAp action="edit" oid="PwqyfAnjw4">
+              <Name>职层名称</Name>
+            </LabelAp>
+            <LabelAp action="edit" oid="CgEfNb5333">
+              <Name>月</Name>
+            </LabelAp>
+            <LabelAp action="edit" oid="qbVOjlaRu1">
+              <Name>0</Name>
+            </LabelAp>
+            <ImageAp action="edit" oid="nlsYSuqNLE">
+              <Name>图片展示</Name>
+            </ImageAp>
+            <FieldAp action="edit" oid="7Vdn56Oq4q">
+              <Name>文本</Name>
+            </FieldAp>
+            <LabelAp action="edit" oid="tQZqZCBa43">
+              <Name>年</Name>
+            </LabelAp>
+            <LabelAp action="edit" oid="cnIpWRBvNq">
+              <Name>0</Name>
+            </LabelAp>
+            <LabelAp action="edit" oid="ImZAVuOm1N">
+              <Name>0</Name>
+            </LabelAp>
+            <FlexPanelAp action="edit" oid="Ee6DebwB0D">
+              <Name>Flex容器</Name>
+            </FlexPanelAp>
+            <FlexPanelAp action="edit" oid="v1G4uUHVEc">
+              <Name>Flex容器</Name>
+            </FlexPanelAp>
+            <FlexPanelAp action="edit" oid="eZTv6htsSD">
+              <Name>Flex容器</Name>
+            </FlexPanelAp>
+            <FlexPanelAp action="edit" oid="iRWb4Ky1VS">
+              <Name>Flex容器</Name>
+            </FlexPanelAp>
+            <LabelAp action="edit" oid="u4veP2KElt">
+              <Name>我的历程</Name>
+            </LabelAp>
+            <FieldAp action="edit" oid="HGFwq7FBtK">
+              <Name>文本</Name>
+            </FieldAp>
+            <LabelAp action="edit" oid="vJHAC7k9w3">
+              <Name>当前职层编码：</Name>
+            </LabelAp>
+            <LabelAp action="edit" oid="kOwQjABt99">
+              <Name>职层编码</Name>
+            </LabelAp>
+            <FlexPanelAp action="edit" oid="IEboronhrT">
+              <Name>Flex容器</Name>
+            </FlexPanelAp>
+            <FlexPanelAp action="edit" oid="wXkSko77jm">
+              <Name>Flex容器</Name>
+            </FlexPanelAp>
+            <FlexPanelAp action="edit" oid="SClb4Ad3Q8">
+              <Name>Flex容器</Name>
+            </FlexPanelAp>
+            <FlexPanelAp action="edit" oid="NClOA3B3CW">
+              <Name>Flex容器</Name>
+            </FlexPanelAp>
+            <FlexPanelAp action="edit" oid="gzxgE7WS1p">
+              <Name>Flex容器</Name>
+            </FlexPanelAp>
+          </Items>
+        </FormMetadata>
+      </DataXml>
+      <Name>PC_Custom Card Template</Name>
+      <Id>3=G2PYJ/SA+R</Id>
+      <LocaleId>en_US</LocaleId>
+    </DesignFormMetaL>
+    <DesignEntityMetaL>
+      <Number>tdkw_myhistory</Number>
+      <PkId>3MUH/KR+VJKH</PkId>
+      <DataXml>
+        <EntityMetadata>
+          <Items>
+            <TextField action="edit" oid="HGFwq7FBtK">
+              <Name>文本</Name>
+            </TextField>
+            <DateField action="edit" oid="lAzz5U8shd">
+              <Name>日期</Name>
+            </DateField>
+            <TextField action="edit" oid="jG8Yo2yRzQ">
+              <Name>文本</Name>
+            </TextField>
+            <DateField action="edit" oid="HE5nDoA5aO">
+              <Name>日期</Name>
+            </DateField>
+            <TextField action="edit" oid="7Vdn56Oq4q">
+              <Name>文本</Name>
+            </TextField>
+            <DateField action="edit" oid="bnRhS6FQ77">
+              <Name>日期</Name>
+            </DateField>
+          </Items>
+        </EntityMetadata>
+      </DataXml>
+      <Name>PC_Custom Card Template</Name>
+      <Id>3=G2PYJ/SA+R</Id>
+      <LocaleId>en_US</LocaleId>
+    </DesignEntityMetaL>
+  </DesignMetas>
+  <Version>1732513822210</Version>
+  <BOSVersion>1.0</BOSVersion>
+</DeployMetadata>

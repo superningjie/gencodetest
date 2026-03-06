@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DeployMetadata>
+  <Multilanguage>false</Multilanguage>
+  <MasterId>4=XG6A4++B=N</MasterId>
+  <BizappId>4A6IGSR0AFR3</BizappId>
+  <Id>4=XG6A4++B=N</Id>
+  <DesignMetas>
+    <DesignFormMeta>
+      <DevType>0</DevType>
+      <ModifyDate>1725616228341</ModifyDate>
+      <DataXml>
+        <FormMetadata>
+          <Isv>tdkw</Isv>
+          <Id>4=XG6A4++B=N</Id>
+          <Key>tdkw_metric_type</Key>
+          <EntityId>4=XG6A4++B=N</EntityId>
+          <ParentId>1942c188000065ac</ParentId>
+          <BizappId>4A6IGSR0AFR3</BizappId>
+          <IsvSign/>
+          <Name>指标类型</Name>
+          <InheritPath>1942c188000065ac</InheritPath>
+          <Items>
+            <BasedataFormAp action="edit" oid="1942c188000064ac">
+              <Plugins>
+                <Plugin action="edit" oid="kd.bos.form.plugin.CodeRulePlugin">
+                  <FPK/>
+                  <Description/>
+                  <BizAppId/>
+                </Plugin>
+                <Plugin action="edit" oid="dev.tpl.base.kd.bos.form.plugin.templatebaseedit">
+                  <Description/>
+                  <RowKey>1</RowKey>
+                </Plugin>
+              </Plugins>
+              <MobListMeta>
+                <FormMetadata>
+                  <Items>
+                    <BillListAp action="edit" oid="_BillList_">
+                      <EntityId>4=XG6A4++B=N</EntityId>
+                    </BillListAp>
+                  </Items>
+                </FormMetadata>
+              </MobListMeta>
+              <Id>4=XG6A4++B=N</Id>
+              <BackColor>#E2E7EF</BackColor>
+              <Name>指标类型</Name>
+              <Key>tdkw_metric_type</Key>
+              <ListMeta>
+                <FormMetadata>
+                  <Name>指标类型</Name>
+                  <Items>
+                    <FormAp action="edit" oid="b5994054000024ac">
+                      <Name>指标类型</Name>
+                    </FormAp>
+                    <FilterGridViewAp action="edit" oid="filtergridview">
+                      <NewFilter>true</NewFilter>
+                    </FilterGridViewAp>
+                    <BarItemAp action="edit" oid="C1IXIpJx1c">
+                      <DropdownItems>
+                        <DropdownItem action="remove" oid="PQLEDWKM3DH"/>
+                      </DropdownItems>
+                    </BarItemAp>
+                    <BarItemAp action="edit" oid="ms32Hsufcq">
+                      <Invisible>true</Invisible>
+                    </BarItemAp>
+                    <BarItemAp action="edit" oid="BTjy6Ie3Bc">
+                      <Invisible>true</Invisible>
+                    </BarItemAp>
+                    <BarItemAp action="edit" oid="A3zkgmttgA">
+                      <DropdownItems>
+                        <DropdownItem>
+                          <Visible>,init,new,edit,view,submit,audit,</Visible>
+                          <Index>1</Index>
+                          <Title>禁用</Title>
+                          <OperationKey>disable</OperationKey>
+                          <SubTitle/>
+                          <Background/>
+                          <IsSwitch>true</IsSwitch>
+                          <Lock>,,</Lock>
+                          <Id>4C4+0RRRQ5BQ</Id>
+                          <Key>tbldisable</Key>
+                        </DropdownItem>
+                        <DropdownItem action="remove" oid="PQLEDWO8A6A"/>
+                      </DropdownItems>
+                      <OperationKey>enable</OperationKey>
+                      <Name>启用</Name>
+                    </BarItemAp>
+                    <BarItemAp action="edit" oid="NVARV5u7I4">
+                      <Invisible>true</Invisible>
+                    </BarItemAp>
+                    <BarItemAp action="edit" oid="v71lQcKgcH">
+                      <Invisible>true</Invisible>
+                    </BarItemAp>
+                    <BillListAp action="edit" oid="_BillList_">
+                      <Name>指标类型</Name>
+                      <EntityId>4=XG6A4++B=N</EntityId>
+                    </BillListAp>
+                    <ComboListColumnAp>
+                      <ColumnOrderAndFilter>1</ColumnOrderAndFilter>
+                      <SeqColumnType>NotSeq</SeqColumnType>
+                      <Id>4AXGM2FRSV22</Id>
+                      <Key>tdkw_combolistcolumnap</Key>
+                      <Order>NotOrder</Order>
+                      <Visible/>
+                      <Index>4</Index>
+                      <ParentId>gridview</ParentId>
+                      <ListFieldId>status</ListFieldId>
+                      <Name>数据状态</Name>
+                    </ComboListColumnAp>
+                  </Items>
+                </FormMetadata>
+              </ListMeta>
+            </BasedataFormAp>
+            <FlexPanelAp action="edit" oid="PxNfkkak4s">
+              <Grow>0</Grow>
+              <BackColor>#ffffff</BackColor>
+              <Style>
+                <Style>
+                  <Border>
+                    <Border>
+                      <Top>10px_solid_#E2E7EF</Top>
+                      <Left>10px_solid_#E2E7EF</Left>
+                      <Bottom>10px_solid_#E2E7EF</Bottom>
+                      <Right>10px_solid_#E2E7EF</Right>
+                    </Border>
+                  </Border>
+                  <Padding>
+                    <Padding>
+                      <Left>2px</Left>
+                      <Right action="reset"/>
+                    </Padding>
+                  </Padding>
+                </Style>
+              </Style>
+            </FlexPanelAp>
+            <FieldAp action="edit" oid="8oq6R4m9CF">
+              <Lock>submit</Lock>
+            </FieldAp>
+            <BarItemAp action="edit" oid="4CNTAsZdaN">
+              <Invisible>true</Invisible>
+            </BarItemAp>
+            <BarItemAp action="edit" oid="V8H211iajj">
+              <Invisible>true</Invisible>
+            </BarItemAp>
+            <BarItemAp action="edit" oid="ZcIwi70dTc">
+              <Visible>init,new,edit,audit,view,submit</Visible>
+            </BarItemAp>
+            <BarItemAp action="edit" oid="PubXYtLD8J">
+              <Invisible>true</Invisible>
+            </BarItemAp>
+            <BarItemAp action="edit" oid="zlTJbHhEqT">
+              <Invisible>true</Invisible>
+            </BarItemAp>
+            <BarItemAp action="edit" oid="z20rAqlGP8">
+              <Invisible>true</Invisible>
+            </BarItemAp>
+            <BarItemAp action="edit" oid="8XYTQ7uc8H">
+              <Invisible>true</Invisible>
+            </BarItemAp>
+            <BarItemAp action="edit" oid="HVX5nv5C2i">
+              <Invisible>true</Invisible>
+            </BarItemAp>
+            <BarItemAp action="edit" oid="TK7j147AL2">
+              <Invisible>true</Invisible>
+            </BarItemAp>
+            <FieldsetPanelAp action="edit" oid="STdfsCCFTj">
+              <Invisible>true</Invisible>
+              <Hidden action="reset"/>
+            </FieldsetPanelAp>
+          </Items>
+        </FormMetadata>
+      </DataXml>
+      <ModifierId>2005809205306574848</ModifierId>
+      <EntityId>4=XG6A4++B=N</EntityId>
+      <ModelType>BaseFormModel</ModelType>
+      <Isv>tdkw</Isv>
+      <Version>1725616228341</Version>
+      <ParentId>1942c188000065ac</ParentId>
+      <MasterId></MasterId>
+      <Number>tdkw_metric_type</Number>
+      <BizappId>4A6IGSR0AFR3</BizappId>
+      <IsvSign></IsvSign>
+      <Id>4=XG6A4++B=N</Id>
+      <InheritPath>1942c188000065ac</InheritPath>
+    </DesignFormMeta>
+    <DesignEntityMeta>
+      <DevType>0</DevType>
+      <ModifyDate>1725616228415</ModifyDate>
+      <DataXml>
+        <EntityMetadata>
+          <Isv>tdkw</Isv>
+          <Id>4=XG6A4++B=N</Id>
+          <ParentId>1942c188000065ac</ParentId>
+          <BizappId>4A6IGSR0AFR3</BizappId>
+          <IsvSign/>
+          <Name>指标类型</Name>
+          <InheritPath>1942c188000065ac</InheritPath>
+          <Items>
+            <BaseEntity action="edit" oid="1942c188000066ac">
+              <dbRoute>opmc</dbRoute>
+              <TableName>tk_tdkw_metric_type</TableName>
+              <Id>4=XG6A4++B=N</Id>
+              <Name>指标类型</Name>
+              <Template action="reset"/>
+              <Operations>
+                <Operation action="edit" oid="b599405400001aac">
+                  <Validations>
+                    <GrpfieldsuniqueValidation>
+                      <CustomPromp/>
+                      <Description>组合字段唯一性校验</Description>
+                      <Enabled>true</Enabled>
+                      <LevelId>2</LevelId>
+                      <RuleType>GroupFieldUnique</RuleType>
+                      <Id>4CSG7BX0ECU1</Id>
+                      <Fields>
+                        <FieldId>
+                          <Id>number</Id>
+                        </FieldId>
+                      </Fields>
+                    </GrpfieldsuniqueValidation>
+                  </Validations>
+                </Operation>
+                <Operation action="edit" oid="b599405400001bac">
+                  <Validations>
+                    <ConditionValidation action="edit" oid="1cc0054f000016ac">
+                      <Enabled action="reset"/>
+                    </ConditionValidation>
+                  </Validations>
+                </Operation>
+                <Operation action="edit" oid="b599405400001dac">
+                  <RefreshFields>
+                    <FieldId action="remove" oid="status"/>
+                  </RefreshFields>
+                  <Parameter>
+                    <UnAuditParameter>
+                      <CommentFieldId/>
+                    </UnAuditParameter>
+                  </Parameter>
+                  <Name>变更</Name>
+                </Operation>
+              </Operations>
+              <BusinessControl>
+                <BusinessControl>
+                  <CodeNumber>true</CodeNumber>
+                  <WorkFlow>false</WorkFlow>
+                </BusinessControl>
+              </BusinessControl>
+              <Key>tdkw_metric_type</Key>
+              <NetworkControl>
+                <NetCtrlOperation>
+                  <OperationKey>submit</OperationKey>
+                  <GroupId>default_netctrl</GroupId>
+                  <Id>c91d5125000034ac</Id>
+                  <Key>default_netctrl_submit</Key>
+                </NetCtrlOperation>
+              </NetworkControl>
+              <DefaultPageSetting>{"mblist":"","pclist":"","pcbill":"","mbbill":""}</DefaultPageSetting>
+            </BaseEntity>
+            <MuliLangTextField action="edit" oid="8oq6R4m9CF">
+              <GL>true</GL>
+            </MuliLangTextField>
+            <BillStatusField action="edit" oid="AkId5S4yTs">
+              <DefValue>C</DefValue>
+            </BillStatusField>
+          </Items>
+        </EntityMetadata>
+      </DataXml>
+      <ModelType>BaseFormModel</ModelType>
+      <Isv>tdkw</Isv>
+      <Version>1725616228415</Version>
+      <ParentId>1942c188000065ac</ParentId>
+      <MasterId></MasterId>
+      <Number>tdkw_metric_type</Number>
+      <BizappId>4A6IGSR0AFR3</BizappId>
+      <Id>4=XG6A4++B=N</Id>
+      <InheritPath>1942c188000065ac</InheritPath>
+    </DesignEntityMeta>
+  </DesignMetas>
+  <Version>1725616228341</Version>
+  <BOSVersion>1.0</BOSVersion>
+  <BizunitId>4A6IUEPW=Y26</BizunitId>
+</DeployMetadata>

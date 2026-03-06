@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DeployMetadata>
+  <MasterId>48ELGSIC63L0</MasterId>
+  <Id>48ELGSIC63L0</Id>
+  <DesignMetas>
+    <DesignFormMetaL>
+      <Number>cds0_cea_previewexample</Number>
+      <PkId>4=NHVPO8BT1L</PkId>
+      <DataXml>
+        <FormMetadata/>
+      </DataXml>
+      <Name>测评表预览指标实例</Name>
+      <Id>48ELGSIC63L0</Id>
+      <LocaleId>zh_CN</LocaleId>
+    </DesignFormMetaL>
+    <DesignEntityMetaL>
+      <Number>cds0_cea_previewexample</Number>
+      <PkId>4=NHVPPJ3MF0</PkId>
+      <DataXml>
+        <EntityMetadata/>
+      </DataXml>
+      <Name>测评表预览指标实例</Name>
+      <Id>48ELGSIC63L0</Id>
+      <LocaleId>zh_CN</LocaleId>
+    </DesignEntityMetaL>
+  </DesignMetas>
+  <Version>1722581628186</Version>
+  <BOSVersion>1.0</BOSVersion>
+</DeployMetadata>

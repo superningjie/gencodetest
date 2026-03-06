@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DeployMetadata>
+  <MasterId>4C0T+=6V2N2E</MasterId>
+  <Id>4C0T+=6V2N2E</Id>
+  <DesignMetas>
+    <DesignFormMetaL>
+      <Number>tdkw_performance_map_bill</Number>
+      <PkId>4D7GVEOT51C9</PkId>
+      <DataXml>
+        <FormMetadata>
+          <Name>组织绩效地图单据</Name>
+          <Items>
+            <BillFormAp action="edit" oid="00305e8b000005ac">
+              <MobListMeta>
+                <FormMetadata>
+                  <Items>
+                    <CardListColumnAp action="edit" oid="4C0T+=F4P5BP">
+                      <Name>Document Status</Name>
+                    </CardListColumnAp>
+                    <CardListColumnAp action="edit" oid="4C0T+=F4P4OF">
+                      <Name>Created By.Name</Name>
+                    </CardListColumnAp>
+                    <CardFlexPanelAp action="edit" oid="4C0T+=F11QGY">
+                      <Name>Card Layout Container</Name>
+                    </CardFlexPanelAp>
+                    <MobSortPanelAp action="edit" oid="mobsortpanel">
+                      <Name>Sorting Item 1</Name>
+                    </MobSortPanelAp>
+                    <MobFilterPanelAp action="edit" oid="mobfilterpanel">
+                      <Name>Filter Item 1</Name>
+                    </MobFilterPanelAp>
+                    <MobFilterPanelAp action="edit" oid="4C0T+=F11R56">
+                      <Name>Filter Item 2</Name>
+                    </MobFilterPanelAp>
+                  </Items>
+                </FormMetadata>
+              </MobListMeta>
+              <Name>组织绩效地图单据</Name>
+              <MobMeta>
+                <FormMetadata>
+                  <Items>
+                    <LayoutFlexAp action="edit" oid="4C0T+=EVTXS5">
+                      <Name>Field Layout Container</Name>
+                    </LayoutFlexAp>
+                    <LayoutFlexAp action="edit" oid="4C0T+=EVTX2X">
+                      <Name>Field Layout Container</Name>
+                    </LayoutFlexAp>
+                    <FieldAp action="edit" oid="4C0T+=EVTX2Y">
+                      <Name>Approved By</Name>
+                    </FieldAp>
+                    <FieldAp action="edit" oid="4C0T+=EVTXS7">
+                      <Name>Created By</Name>
+                    </FieldAp>
+                    <FieldAp action="edit" oid="4C0T+=EVTXS6">
+                      <Name>Document Status</Name>
+                    </FieldAp>
+                    <MBarItemAp action="edit" oid="4C0T+=EVTX2Z">
+                      <Name>Submit</Name>
+                    </MBarItemAp>
+                  </Items>
+                </FormMetadata>
+              </MobMeta>
+            </BillFormAp>
+            <AdvConSummaryPanelAp action="edit" oid="4C0T+=E0660J">
+              <Name>Advanced Panel Summary Container</Name>
+            </AdvConSummaryPanelAp>
+            <AdvConToolbarAp action="edit" oid="4C0T+=E065CA">
+              <Name>Advanced Panel Toolbar</Name>
+            </AdvConToolbarAp>
+            <AdvConChildPanelAp action="edit" oid="4C0T+=E0660K">
+              <Name>Advanced Panel Subcontainer</Name>
+            </AdvConChildPanelAp>
+            <AdvConBarItemAp action="edit" oid="4C0T+=E065CB">
+              <Name>Add Row</Name>
+            </AdvConBarItemAp>
+            <AdvConBarItemAp action="edit" oid="4C0T+=E3TL81">
+              <Name>Delete Row</Name>
+            </AdvConBarItemAp>
+            <EntryAp action="edit" oid="4C0T+=EA1DYU">
+              <Name>Grid</Name>
+            </EntryAp>
+            <EntryFieldAp action="edit" oid="4C0T+=EDOUTL">
+              <Name>Modified By</Name>
+            </EntryFieldAp>
+            <EntryFieldAp action="edit" oid="4C0T+=EDOU4B">
+              <Name>Modified At</Name>
+            </EntryFieldAp>
+            <FieldAp action="edit" oid="QaoUQyJjuDiRjqrxPf">
+              <Name>HR行政组织</Name>
+            </FieldAp>
+            <AdvConAp action="edit" oid="4C0T+=E065C=">
+              <Name>Entry</Name>
+            </AdvConAp>
+          </Items>
+        </FormMetadata>
+      </DataXml>
+      <Name>组织绩效地图单据</Name>
+      <Id>4C0T+=6V2N2E</Id>
+      <LocaleId>en_US</LocaleId>
+    </DesignFormMetaL>
+    <DesignEntityMetaL>
+      <Number>tdkw_performance_map_bill</Number>
+      <PkId>4D7GVEV3OC1E</PkId>
+      <DataXml>
+        <EntityMetadata>
+          <Name>组织绩效地图单据</Name>
+          <Items>
+            <BillEntity action="edit" oid="00305e8b000007ac">
+              <Operations>
+                <Operation action="edit" oid="4C0T+=EOK2D4">
+                  <Name>New Entry</Name>
+                </Operation>
+                <Operation action="edit" oid="4C0T+=EOK1PW">
+                  <Name>Delete Entry</Name>
+                </Operation>
+              </Operations>
+              <Name>组织绩效地图单据</Name>
+            </BillEntity>
+            <EntryEntity action="edit" oid="4C0T+=EA1DYU">
+              <Name>Grid</Name>
+            </EntryEntity>
+            <ModifierField action="edit" oid="4C0T+=EDOUTL">
+              <Name>Modified By</Name>
+            </ModifierField>
+            <ModifyDateField action="edit" oid="4C0T+=EDOU4B">
+              <Name>Modified At</Name>
+            </ModifyDateField>
+            <BasedataField action="edit" oid="QaoUQyJjuDiRjqrxPf">
+              <Name>HR行政组织</Name>
+            </BasedataField>
+          </Items>
+        </EntityMetadata>
+      </DataXml>
+      <Name>组织绩效地图单据</Name>
+      <Id>4C0T+=6V2N2E</Id>
+      <LocaleId>en_US</LocaleId>
+    </DesignEntityMetaL>
+  </DesignMetas>
+  <Version>1726039633536</Version>
+  <BOSVersion>1.0</BOSVersion>
+</DeployMetadata>

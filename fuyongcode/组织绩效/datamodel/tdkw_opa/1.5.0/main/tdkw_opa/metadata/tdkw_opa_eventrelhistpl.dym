@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DeployMetadata>
+  <Multilanguage>false</Multilanguage>
+  <MasterId>4APH=UERB=QB</MasterId>
+  <BizappId>4A6IGSR0AFR3</BizappId>
+  <Id>4APH=UERB=QB</Id>
+  <DesignMetas>
+    <DesignFormMeta>
+      <DevType>0</DevType>
+      <ModifyDate>1723601865378</ModifyDate>
+      <DataXml>
+        <FormMetadata>
+          <Isv>tdkw</Isv>
+          <Id>4APH=UERB=QB</Id>
+          <Key>tdkw_opa_eventrelhistpl</Key>
+          <EntityId>4APH=UERB=QB</EntityId>
+          <ParentId>2/B9DZUYUQ19</ParentId>
+          <BizappId>4A6IGSR0AFR3</BizappId>
+          <IsvSign/>
+          <Name>历史版本事务关系表</Name>
+          <InheritPath>0NKB12K4VH2O,2/B9DZUYUQ19</InheritPath>
+          <Items>
+            <BasedataFormAp action="edit" oid="0NKB12K4W9D7">
+              <Id>4APH=UERB=QB</Id>
+              <Name>历史版本事务关系表</Name>
+              <Key>tdkw_opa_eventrelhistpl</Key>
+              <ListMeta>
+                <FormMetadata>
+                  <Items>
+                    <FilterGridViewAp action="edit" oid="filtergridview">
+                      <NewFilter>true</NewFilter>
+                    </FilterGridViewAp>
+                  </Items>
+                </FormMetadata>
+              </ListMeta>
+            </BasedataFormAp>
+          </Items>
+        </FormMetadata>
+      </DataXml>
+      <ModifierId>2005735093842332672</ModifierId>
+      <EntityId>4APH=UERB=QB</EntityId>
+      <ModelType>BaseFormModel</ModelType>
+      <Isv>tdkw</Isv>
+      <Version>1723601865378</Version>
+      <ParentId>2/B9DZUYUQ19</ParentId>
+      <MasterId></MasterId>
+      <Number>tdkw_opa_eventrelhistpl</Number>
+      <BizappId>4A6IGSR0AFR3</BizappId>
+      <IsvSign></IsvSign>
+      <Id>4APH=UERB=QB</Id>
+      <InheritPath>0NKB12K4VH2O,2/B9DZUYUQ19</InheritPath>
+    </DesignFormMeta>
+    <DesignEntityMeta>
+      <DevType>0</DevType>
+      <ModifyDate>1723601865397</ModifyDate>
+      <DataXml>
+        <EntityMetadata>
+          <Isv>tdkw</Isv>
+          <Id>4APH=UERB=QB</Id>
+          <ParentId>2/B9DZUYUQ19</ParentId>
+          <BizappId>4A6IGSR0AFR3</BizappId>
+          <IsvSign/>
+          <Name>历史版本事务关系表</Name>
+          <InheritPath>0NKB12K4VH2O,2/B9DZUYUQ19</InheritPath>
+          <Items>
+            <BaseEntity action="edit" oid="1A3I8S4L91=9">
+              <dbRoute>opmc</dbRoute>
+              <TableName>t_mbo_eventrelhistpl</TableName>
+              <Id>4APH=UERB=QB</Id>
+              <Name>历史版本事务关系表</Name>
+              <PermissionDimension>
+                <PermissionDimension>
+                  <Id>9t0aZ3pg</Id>
+                </PermissionDimension>
+              </PermissionDimension>
+              <Template action="reset"/>
+              <PermissionControl>
+                <PermissionControl>
+                  <Id>YceS3EMT</Id>
+                  <ControlFunction action="reset"/>
+                </PermissionControl>
+              </PermissionControl>
+              <Key>tdkw_opa_eventrelhistpl</Key>
+              <DefaultPageSetting>{"mblist":"","pclist":"","pcbill":"","mbbill":""}</DefaultPageSetting>
+            </BaseEntity>
+          </Items>
+        </EntityMetadata>
+      </DataXml>
+      <ModelType>BaseFormModel</ModelType>
+      <Isv>tdkw</Isv>
+      <Version>1723601865397</Version>
+      <ParentId>2/B9DZUYUQ19</ParentId>
+      <MasterId></MasterId>
+      <Number>tdkw_opa_eventrelhistpl</Number>
+      <BizappId>4A6IGSR0AFR3</BizappId>
+      <Id>4APH=UERB=QB</Id>
+      <InheritPath>0NKB12K4VH2O,2/B9DZUYUQ19</InheritPath>
+    </DesignEntityMeta>
+  </DesignMetas>
+  <Version>1723601865378</Version>
+  <BOSVersion>1.0</BOSVersion>
+  <BizunitId>4APHG8PYCD91</BizunitId>
+</DeployMetadata>

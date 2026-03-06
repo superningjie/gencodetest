@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DeployMetadata>
+  <MasterId>4A6IGVWYYBE1</MasterId>
+  <Id>4A6IGVWYYBE1</Id>
+  <DesignMetas>
+    <DesignFormMetaL>
+      <Number>tdkw_opa_apphome</Number>
+      <PkId>4B/1HHOCDR73</PkId>
+      <DataXml>
+        <FormMetadata/>
+      </DataXml>
+      <Name>组织绩效考核_应用首页</Name>
+      <Id>4A6IGVWYYBE1</Id>
+      <LocaleId>zh_CN</LocaleId>
+    </DesignFormMetaL>
+    <DesignEntityMetaL>
+      <Number>tdkw_opa_apphome</Number>
+      <PkId>4B/1HHXYWHCO</PkId>
+      <DataXml>
+        <EntityMetadata/>
+      </DataXml>
+      <Name>组织绩效考核_应用首页</Name>
+      <Id>4A6IGVWYYBE1</Id>
+      <LocaleId>zh_CN</LocaleId>
+    </DesignEntityMetaL>
+  </DesignMetas>
+  <Version>1723889314690</Version>
+  <BOSVersion>1.0</BOSVersion>
+</DeployMetadata>

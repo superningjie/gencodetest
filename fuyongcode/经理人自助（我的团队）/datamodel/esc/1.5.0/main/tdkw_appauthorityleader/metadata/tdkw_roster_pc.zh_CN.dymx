@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DeployMetadata>
+  <MasterId>3EX1GQU8+=Z2</MasterId>
+  <Id>3EX1GQU8+=Z2</Id>
+  <DesignMetas>
+    <DesignFormMetaL>
+      <Number>tdkw_roster_pc</Number>
+      <PkId>3EX1HZZ7==K5</PkId>
+      <DataXml>
+        <FormMetadata/>
+      </DataXml>
+      <Name>花名册PC端</Name>
+      <Id>3EX1GQU8+=Z2</Id>
+      <LocaleId>zh_CN</LocaleId>
+    </DesignFormMetaL>
+    <DesignEntityMetaL>
+      <Number>tdkw_roster_pc</Number>
+      <PkId>3EX1I++AT971</PkId>
+      <DataXml>
+        <EntityMetadata/>
+      </DataXml>
+      <Name>花名册PC端</Name>
+      <Id>3EX1GQU8+=Z2</Id>
+      <LocaleId>zh_CN</LocaleId>
+    </DesignEntityMetaL>
+  </DesignMetas>
+  <Version>1689825372032</Version>
+  <BOSVersion>1.0</BOSVersion>
+</DeployMetadata>

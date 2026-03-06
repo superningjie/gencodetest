@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DeployMetadata>
+  <MasterId>3VU3=PA+CSB8</MasterId>
+  <Id>3VU3=PA+CSB8</Id>
+  <DesignMetas>
+    <DesignFormMetaL>
+      <Number>dgdl_planperson</Number>
+      <PkId>4I/7FDS7PO71</PkId>
+      <DataXml>
+        <FormMetadata/>
+      </DataXml>
+      <Name>编制计划催办配置</Name>
+      <Id>3VU3=PA+CSB8</Id>
+      <LocaleId>zh_CN</LocaleId>
+    </DesignFormMetaL>
+    <DesignEntityMetaL>
+      <Number>dgdl_planperson</Number>
+      <PkId>4I/7FE+DTEXI</PkId>
+      <DataXml>
+        <EntityMetadata/>
+      </DataXml>
+      <Name>编制计划催办配置</Name>
+      <Id>3VU3=PA+CSB8</Id>
+      <LocaleId>zh_CN</LocaleId>
+    </DesignEntityMetaL>
+  </DesignMetas>
+  <Version>1730685992526</Version>
+  <BOSVersion>1.0</BOSVersion>
+</DeployMetadata>

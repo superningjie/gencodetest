@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DeployMetadata>
+  <Id>24BBHV84L8E9</Id>
+  <DesignMetas>
+    <DesignCloudMetaL>
+      <PkId>24BBHV84OQE1</PkId>
+      <Name>目标绩效云</Name>
+      <Description>以人力资源管理为导向，提供面向组织和个人的绩效管理，包含：组织与个人目标管理，业绩数据管理，OKR，组织与个人绩效考核</Description>
+      <Id>24BBHV84L8E9</Id>
+      <LocaleId>zh_CN</LocaleId>
+    </DesignCloudMetaL>
+  </DesignMetas>
+  <BOSVersion>1.0</BOSVersion>
+</DeployMetadata>

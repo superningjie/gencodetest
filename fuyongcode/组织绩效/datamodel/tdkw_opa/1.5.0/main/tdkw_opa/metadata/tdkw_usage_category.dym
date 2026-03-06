@@ -1,0 +1,333 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DeployMetadata>
+  <Multilanguage>false</Multilanguage>
+  <MasterId>4=XC5DD5T0=/</MasterId>
+  <BizappId>4A6IGSR0AFR3</BizappId>
+  <Id>4=XC5DD5T0=/</Id>
+  <DesignMetas>
+    <DesignFormMeta>
+      <DevType>0</DevType>
+      <ModifyDate>1726128140375</ModifyDate>
+      <DataXml>
+        <FormMetadata>
+          <Isv>tdkw</Isv>
+          <Id>4=XC5DD5T0=/</Id>
+          <Key>tdkw_usage_category</Key>
+          <EntityId>4=XC5DD5T0=/</EntityId>
+          <ParentId>b0d31cea000001ac</ParentId>
+          <BizappId>4A6IGSR0AFR3</BizappId>
+          <Name>指标用途分类</Name>
+          <InheritPath>1942c188000065ac,b0d31cea000001ac</InheritPath>
+          <Items>
+            <BasedataFormAp action="edit" oid="1942c188000064ac">
+              <Plugins>
+                <Plugin action="edit" oid="kd.bos.form.plugin.CodeRulePlugin">
+                  <FPK/>
+                  <Description/>
+                  <BizAppId/>
+                </Plugin>
+                <Plugin action="edit" oid="dev.tpl.base.kd.bos.form.plugin.templatebaseedit">
+                  <Description/>
+                  <RowKey>1</RowKey>
+                </Plugin>
+                <Plugin action="edit" oid="kd.bos.form.plugin.TemplateTreeBaseDataPlugin">
+                  <FPK/>
+                  <Description/>
+                  <BizAppId/>
+                  <RowKey>2</RowKey>
+                </Plugin>
+                <Plugin action="edit" oid="kd.bos.form.plugin.TemplateBaseGroupEdit">
+                  <FPK/>
+                  <Description/>
+                  <BizAppId/>
+                  <RowKey>3</RowKey>
+                </Plugin>
+                <Plugin>
+                  <FPK/>
+                  <Description>保存后关闭页面</Description>
+                  <ClassName>tdkw.opa.tdkw_opa.formplugin.basedata.UsageCategoryFormPlugin</ClassName>
+                  <Enabled>true</Enabled>
+                  <BizAppId/>
+                  <RowKey>4</RowKey>
+                </Plugin>
+              </Plugins>
+              <MobListMeta>
+                <FormMetadata>
+                  <Items>
+                    <BillListAp action="edit" oid="_BillList_">
+                      <EntityId>4=XC5DD5T0=/</EntityId>
+                    </BillListAp>
+                  </Items>
+                </FormMetadata>
+              </MobListMeta>
+              <Id>4=XC5DD5T0=/</Id>
+              <Height>310px</Height>
+              <BackColor>#E2E7EF</BackColor>
+              <Name>指标用途分类</Name>
+              <Key>tdkw_usage_category</Key>
+              <ListMeta>
+                <FormMetadata>
+                  <Items>
+                    <FormAp action="edit" oid="b5994054000024ac">
+                      <ShowType>Modal</ShowType>
+                    </FormAp>
+                    <FilterGridViewAp action="edit" oid="filtergridview">
+                      <NewFilter>true</NewFilter>
+                    </FilterGridViewAp>
+                    <BillListAp action="edit" oid="_BillList_">
+                      <EntityId>4=XC5DD5T0=/</EntityId>
+                    </BillListAp>
+                  </Items>
+                </FormMetadata>
+              </ListMeta>
+              <Width>600px</Width>
+            </BasedataFormAp>
+            <FlexPanelAp action="edit" oid="PxNfkkak4s">
+              <Height>100%</Height>
+              <Grow>0</Grow>
+              <Index action="reset"/>
+              <BackColor>#ffffff</BackColor>
+              <Style>
+                <Style>
+                  <Border action="setnull"/>
+                  <Padding>
+                    <Padding>
+                      <Left>2px</Left>
+                      <Right action="reset"/>
+                    </Padding>
+                  </Padding>
+                </Style>
+              </Style>
+              <Width>100%</Width>
+            </FlexPanelAp>
+            <FieldAp action="edit" oid="h736cFwZ6e">
+              <Invisible>true</Invisible>
+            </FieldAp>
+            <FieldAp action="edit" oid="8oq6R4m9CF">
+              <Lock/>
+              <Name>分类名称</Name>
+            </FieldAp>
+            <FieldAp action="edit" oid="xUIw80RKlq">
+              <Lock/>
+              <Index>2</Index>
+              <Name>上级分类</Name>
+            </FieldAp>
+            <FieldAp>
+              <Lock/>
+              <Id>rOx6ZSZZm5MXkPwd0c</Id>
+              <FieldId>rOx6ZSZZm5MXkPwd0c</FieldId>
+              <Index>3</Index>
+              <Name>分类说明</Name>
+              <Key>tdkw_description</Key>
+              <ParentId>I8M9X0FOPr</ParentId>
+            </FieldAp>
+            <FieldAp action="edit" oid="AkId5S4yTs">
+              <Invisible>true</Invisible>
+              <Index>4</Index>
+            </FieldAp>
+            <FieldAp action="edit" oid="jiRpZNc99A">
+              <Invisible>true</Invisible>
+              <Index>5</Index>
+            </FieldAp>
+            <FieldAp action="edit" oid="ac5Y5Dax1q">
+              <Invisible>true</Invisible>
+              <Index>6</Index>
+            </FieldAp>
+            <FieldAp action="edit" oid="O75mQrM58q">
+              <Invisible>true</Invisible>
+              <Index>7</Index>
+            </FieldAp>
+            <FieldAp action="edit" oid="U4H3owwXTX">
+              <Invisible>true</Invisible>
+              <Index>8</Index>
+            </FieldAp>
+            <FieldAp action="edit" oid="NHDPhh2S5Q">
+              <Invisible>true</Invisible>
+              <Index>9</Index>
+            </FieldAp>
+            <FieldAp action="edit" oid="49eO8WfYRm">
+              <Invisible>true</Invisible>
+              <Index>10</Index>
+            </FieldAp>
+            <FieldAp action="edit" oid="Q652GNK2vg">
+              <Invisible>true</Invisible>
+              <Index>11</Index>
+            </FieldAp>
+            <BarItemAp action="edit" oid="4CNTAsZdaN">
+              <Invisible>true</Invisible>
+            </BarItemAp>
+            <BarItemAp action="edit" oid="V8H211iajj">
+              <Invisible>true</Invisible>
+            </BarItemAp>
+            <BarItemAp action="edit" oid="evV9jbiOYW">
+              <Index>2</Index>
+              <ForeColor>#000000</ForeColor>
+              <BackColor>#ffffff</BackColor>
+              <Name>取消</Name>
+              <Style>
+                <Style>
+                  <Border>
+                    <Border>
+                      <Top>1px_solid_#000000</Top>
+                      <Left>1px_solid_#000000</Left>
+                      <Bottom>1px_solid_#000000</Bottom>
+                      <Right>1px_solid_#000000</Right>
+                    </Border>
+                  </Border>
+                </Style>
+              </Style>
+            </BarItemAp>
+            <BarItemAp action="edit" oid="PubXYtLD8J">
+              <Invisible>true</Invisible>
+            </BarItemAp>
+            <BarItemAp action="edit" oid="zlTJbHhEqT">
+              <Invisible>true</Invisible>
+            </BarItemAp>
+            <BarItemAp action="edit" oid="z20rAqlGP8">
+              <Invisible>true</Invisible>
+            </BarItemAp>
+            <BarItemAp action="edit" oid="8XYTQ7uc8H">
+              <Invisible>true</Invisible>
+            </BarItemAp>
+            <BarItemAp action="edit" oid="HVX5nv5C2i">
+              <Invisible>true</Invisible>
+            </BarItemAp>
+            <BarItemAp action="edit" oid="TK7j147AL2">
+              <Invisible>true</Invisible>
+            </BarItemAp>
+            <BarItemAp action="edit" oid="ZcIwi70dTc">
+              <Visible action="reset"/>
+              <Index>9</Index>
+            </BarItemAp>
+            <FlexPanelAp action="edit" oid="ojEchAUgVf">
+              <Invisible>true</Invisible>
+              <Grow>0</Grow>
+            </FlexPanelAp>
+            <FieldsetPanelAp action="edit" oid="STdfsCCFTj">
+              <Invisible>true</Invisible>
+              <Collapsible action="reset"/>
+              <Hidden action="reset"/>
+            </FieldsetPanelAp>
+            <FieldsetPanelAp action="edit" oid="I8M9X0FOPr">
+              <Collapsible action="reset"/>
+              <AlignItems>center</AlignItems>
+              <JustifyContent>center</JustifyContent>
+              <Direction>column</Direction>
+              <ContainerType>FlexPanelAp</ContainerType>
+              <Wrap>false</Wrap>
+            </FieldsetPanelAp>
+            <FlexPanelAp action="edit" oid="LL4BVAnADa">
+              <AlignItems>flex-start</AlignItems>
+              <Index>2</Index>
+              <JustifyContent>center</JustifyContent>
+              <ParentId>PxNfkkak4s</ParentId>
+            </FlexPanelAp>
+          </Items>
+        </FormMetadata>
+      </DataXml>
+      <ModifierId>2005809205306574848</ModifierId>
+      <EntityId>4=XC5DD5T0=/</EntityId>
+      <ModelType>BaseFormModel</ModelType>
+      <Isv>tdkw</Isv>
+      <Version>1726128140375</Version>
+      <ParentId>b0d31cea000001ac</ParentId>
+      <MasterId></MasterId>
+      <Number>tdkw_usage_category</Number>
+      <BizappId>4A6IGSR0AFR3</BizappId>
+      <IsvSign></IsvSign>
+      <Id>4=XC5DD5T0=/</Id>
+      <InheritPath>1942c188000065ac,b0d31cea000001ac</InheritPath>
+    </DesignFormMeta>
+    <DesignEntityMeta>
+      <DevType>0</DevType>
+      <ModifyDate>1726128140400</ModifyDate>
+      <DataXml>
+        <EntityMetadata>
+          <Isv>tdkw</Isv>
+          <Id>4=XC5DD5T0=/</Id>
+          <ParentId>b0d31cea000001ac</ParentId>
+          <BizappId>4A6IGSR0AFR3</BizappId>
+          <IsvSign/>
+          <Name>指标用途分类</Name>
+          <InheritPath>1942c188000065ac,b0d31cea000001ac</InheritPath>
+          <Items>
+            <BaseEntity action="edit" oid="1942c188000066ac">
+              <dbRoute>opmc</dbRoute>
+              <TableName>tk_tdkw_usage_category</TableName>
+              <Id>4=XC5DD5T0=/</Id>
+              <Name>指标用途分类</Name>
+              <Template action="reset"/>
+              <Operations>
+                <Operation action="edit" oid="b599405400001aac">
+                  <Validations>
+                    <GrpfieldsuniqueValidation action="edit" oid="/D4C17LPW9F+">
+                      <CustomPromp/>
+                      <LevelId>2</LevelId>
+                      <Fields>
+                        <FieldId>
+                          <Id>number</Id>
+                        </FieldId>
+                        <FieldId action="remove" oid="h736cFwZ6e"/>
+                      </Fields>
+                    </GrpfieldsuniqueValidation>
+                  </Validations>
+                </Operation>
+              </Operations>
+              <BusinessControl>
+                <BusinessControl>
+                  <CodeNumber>true</CodeNumber>
+                  <WorkFlow>false</WorkFlow>
+                </BusinessControl>
+              </BusinessControl>
+              <Key>tdkw_usage_category</Key>
+              <NetworkControl>
+                <NetCtrlOperation>
+                  <OperationKey>submit</OperationKey>
+                  <GroupId>default_netctrl</GroupId>
+                  <Id>c91d5125000034ac</Id>
+                  <Key>default_netctrl_submit</Key>
+                </NetCtrlOperation>
+              </NetworkControl>
+              <DefaultPageSetting>{"mblist":"","pclist":"","pcbill":"","mbbill":""}</DefaultPageSetting>
+            </BaseEntity>
+            <MuliLangTextField action="edit" oid="8oq6R4m9CF">
+              <Name>分类名称</Name>
+              <GL>true</GL>
+            </MuliLangTextField>
+            <BillStatusField action="edit" oid="AkId5S4yTs">
+              <DefValue>C</DefValue>
+            </BillStatusField>
+            <ParentBasedataField action="edit" oid="xUIw80RKlq">
+              <Name>上级分类</Name>
+            </ParentBasedataField>
+            <TextField>
+              <FieldName>fk_tdkw_description</FieldName>
+              <Features>
+                <Features>
+                  <Ver>1</Ver>
+                </Features>
+              </Features>
+              <Id>rOx6ZSZZm5MXkPwd0c</Id>
+              <Key>tdkw_description</Key>
+              <Name>分类说明</Name>
+              <MaxLength>200</MaxLength>
+            </TextField>
+          </Items>
+        </EntityMetadata>
+      </DataXml>
+      <ModelType>BaseFormModel</ModelType>
+      <Isv>tdkw</Isv>
+      <Version>1726128140400</Version>
+      <ParentId>b0d31cea000001ac</ParentId>
+      <MasterId></MasterId>
+      <Number>tdkw_usage_category</Number>
+      <BizappId>4A6IGSR0AFR3</BizappId>
+      <Id>4=XC5DD5T0=/</Id>
+      <InheritPath>1942c188000065ac,b0d31cea000001ac</InheritPath>
+    </DesignEntityMeta>
+  </DesignMetas>
+  <Version>1726128140375</Version>
+  <BOSVersion>1.0</BOSVersion>
+  <BizunitId>4A6IUEPW=Y26</BizunitId>
+</DeployMetadata>

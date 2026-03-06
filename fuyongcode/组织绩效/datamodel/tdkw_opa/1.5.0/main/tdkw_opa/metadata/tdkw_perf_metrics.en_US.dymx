@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DeployMetadata>
+  <MasterId>4=XC2R/KUWBO</MasterId>
+  <Id>4=XC2R/KUWBO</Id>
+  <DesignMetas>
+    <DesignFormMetaL>
+      <Number>tdkw_perf_metrics</Number>
+      <PkId>4D=Z=TB5XPIX</PkId>
+      <DataXml>
+        <FormMetadata>
+          <Name>指标库</Name>
+          <Items>
+            <BasedataFormAp action="edit" oid="1942c188000064ac">
+              <Name>指标库</Name>
+              <ListMeta>
+                <FormMetadata>
+                  <Items>
+                    <BarItemAp action="edit" oid="HMuhMolOtF">
+                      <DropdownItems>
+                        <DropdownItem action="edit" oid="4ALWWAOKQP0G">
+                          <Title>禁用</Title>
+                        </DropdownItem>
+                      </DropdownItems>
+                      <Name>启用</Name>
+                    </BarItemAp>
+                    <ListColumnAp action="edit" oid="4ALXDVFR647V">
+                      <Name>指标类型</Name>
+                    </ListColumnAp>
+                    <ListColumnAp action="edit" oid="4ALXFA1F9Y09">
+                      <Name>指标用途分类</Name>
+                    </ListColumnAp>
+                    <ListColumnAp action="edit" oid="4ALXHDESAZXB">
+                      <Name>指标描述</Name>
+                    </ListColumnAp>
+                    <ListColumnAp action="edit" oid="4ALXITJ+NMWP">
+                      <Name>评分标准</Name>
+                    </ListColumnAp>
+                    <ListColumnAp action="edit" oid="4ALX91V0S222">
+                      <Name>最近修改人</Name>
+                    </ListColumnAp>
+                    <DateListColumnAp action="edit" oid="4ALXOZP3QO0Q">
+                      <Name>最近修改时间</Name>
+                    </DateListColumnAp>
+                    <ComboListColumnAp action="edit" oid="4BAP0H7==754">
+                      <Name>数据状态</Name>
+                    </ComboListColumnAp>
+                  </Items>
+                </FormMetadata>
+              </ListMeta>
+            </BasedataFormAp>
+            <FlexPanelAp action="edit" oid="at0PViVzXI12FEQskV">
+              <Name>Flex容器</Name>
+            </FlexPanelAp>
+            <FlexPanelAp action="edit" oid="S2F9kUg9qiy16UV8bC">
+              <Name>Flex容器</Name>
+            </FlexPanelAp>
+            <FieldAp action="edit" oid="mqL6wc2dPgHd95E8nc">
+              <Name>指标描述</Name>
+            </FieldAp>
+            <FieldAp action="edit" oid="NANLlMzr0A5uDkuxVH">
+              <Name>评分标准</Name>
+            </FieldAp>
+            <FieldAp action="edit" oid="QEa47ZQgrLUTH7WVHA">
+              <Name>指标类型</Name>
+            </FieldAp>
+          </Items>
+        </FormMetadata>
+      </DataXml>
+      <Name>指标库</Name>
+      <Id>4=XC2R/KUWBO</Id>
+      <LocaleId>en_US</LocaleId>
+    </DesignFormMetaL>
+    <DesignEntityMetaL>
+      <Number>tdkw_perf_metrics</Number>
+      <PkId>4D=Z=TLS=+GL</PkId>
+      <DataXml>
+        <EntityMetadata>
+          <Name>指标库</Name>
+          <Items>
+            <BaseEntity action="edit" oid="1942c188000066ac">
+              <Name>指标库</Name>
+              <Operations>
+                <Operation action="edit" oid="b599405400001aac">
+                  <Validations>
+                    <GrpfieldsuniqueValidation action="edit" oid="4CSGAS9HYN69">
+                      <Description>组合字段唯一性校验</Description>
+                    </GrpfieldsuniqueValidation>
+                  </Validations>
+                </Operation>
+              </Operations>
+            </BaseEntity>
+            <BasedataField action="edit" oid="QEa47ZQgrLUTH7WVHA">
+              <Name>指标类型</Name>
+            </BasedataField>
+            <TextAreaField action="edit" oid="mqL6wc2dPgHd95E8nc">
+              <Name>指标描述</Name>
+            </TextAreaField>
+            <TextAreaField action="edit" oid="NANLlMzr0A5uDkuxVH">
+              <Name>评分标准</Name>
+            </TextAreaField>
+          </Items>
+        </EntityMetadata>
+      </DataXml>
+      <Name>指标库</Name>
+      <Id>4=XC2R/KUWBO</Id>
+      <LocaleId>en_US</LocaleId>
+    </DesignEntityMetaL>
+  </DesignMetas>
+  <Version>1726126048969</Version>
+  <BOSVersion>1.0</BOSVersion>
+</DeployMetadata>

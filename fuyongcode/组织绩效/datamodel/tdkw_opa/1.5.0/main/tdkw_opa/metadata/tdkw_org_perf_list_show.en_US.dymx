@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DeployMetadata>
+  <MasterId>4B5PG/OIG7FK</MasterId>
+  <Id>4B5PG/OIG7FK</Id>
+  <DesignMetas>
+    <DesignFormMetaL>
+      <Number>tdkw_org_perf_list_show</Number>
+      <PkId>4BBX/00T4QGT</PkId>
+      <DataXml>
+        <FormMetadata>
+          <Name>组织绩效列表</Name>
+          <Items>
+            <FormAp action="edit" oid="4B5PG/OII=XL">
+              <Name>组织绩效列表</Name>
+            </FormAp>
+            <FlexPanelAp action="edit" oid="CjquGg62JU06w1rcWu">
+              <Name>Flex容器</Name>
+            </FlexPanelAp>
+            <TabAp action="edit" oid="zeO3XFY3KyKn7A0zkU">
+              <Name>页签控件</Name>
+            </TabAp>
+            <TabPageAp action="edit" oid="AIZ1H66Mgx">
+              <Name>按组织查看</Name>
+            </TabPageAp>
+            <TabPageAp action="edit" oid="lwaQMO3BL8">
+              <Name>按公司指标查看</Name>
+            </TabPageAp>
+            <TabPageAp action="edit" oid="IvYKkzl0aE">
+              <Name>按中心指标查看</Name>
+            </TabPageAp>
+          </Items>
+        </FormMetadata>
+      </DataXml>
+      <Name>组织绩效列表</Name>
+      <Id>4B5PG/OIG7FK</Id>
+      <LocaleId>en_US</LocaleId>
+    </DesignFormMetaL>
+    <DesignEntityMetaL>
+      <Number>tdkw_org_perf_list_show</Number>
+      <PkId>4BBX/03073A4</PkId>
+      <DataXml>
+        <EntityMetadata>
+          <Name>组织绩效列表</Name>
+          <Items>
+            <MainEntity action="edit" oid="4B5PG/P9IMFP">
+              <Name>组织绩效列表</Name>
+            </MainEntity>
+          </Items>
+        </EntityMetadata>
+      </DataXml>
+      <Name>组织绩效列表</Name>
+      <Id>4B5PG/OIG7FK</Id>
+      <LocaleId>en_US</LocaleId>
+    </DesignEntityMetaL>
+  </DesignMetas>
+  <Version>1724233521041</Version>
+  <BOSVersion>1.0</BOSVersion>
+</DeployMetadata>

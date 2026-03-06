@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DeployMetadata>
+  <MasterId>3Y+/NEAU7ZC4</MasterId>
+  <Id>3Y+/NEAU7ZC4</Id>
+  <DesignMetas>
+    <DesignFormMetaL>
+      <Number>tdkw_personbirthday</Number>
+      <PkId>3Y+/Q=N1SNV4</PkId>
+      <DataXml>
+        <FormMetadata/>
+      </DataXml>
+      <Name>生日列表-移动端</Name>
+      <Id>3Y+/NEAU7ZC4</Id>
+      <LocaleId>zh_CN</LocaleId>
+    </DesignFormMetaL>
+    <DesignEntityMetaL>
+      <Number>tdkw_personbirthday</Number>
+      <PkId>3Y+/Q=OYA+CN</PkId>
+      <DataXml>
+        <EntityMetadata/>
+      </DataXml>
+      <Name>生日列表-移动端</Name>
+      <Id>3Y+/NEAU7ZC4</Id>
+      <LocaleId>zh_CN</LocaleId>
+    </DesignEntityMetaL>
+  </DesignMetas>
+  <Version>1708336707782</Version>
+  <BOSVersion>1.0</BOSVersion>
+</DeployMetadata>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DeployMetadata>
+  <MasterId>3DUUNVPJ/AC4</MasterId>
+  <Id>3DUUNVPJ/AC4</Id>
+  <DesignMetas>
+    <DesignFormMetaL>
+      <Number>tdkw_pc_bulletinbrd</Number>
+      <PkId>3GLS3U515XWE</PkId>
+      <DataXml>
+        <FormMetadata/>
+      </DataXml>
+      <Name>公告栏</Name>
+      <Id>3DUUNVPJ/AC4</Id>
+      <LocaleId>zh_CN</LocaleId>
+    </DesignFormMetaL>
+    <DesignEntityMetaL>
+      <Number>tdkw_pc_bulletinbrd</Number>
+      <PkId>3GLS3U6+D//S</PkId>
+      <DataXml>
+        <EntityMetadata/>
+      </DataXml>
+      <Name>公告栏</Name>
+      <Id>3DUUNVPJ/AC4</Id>
+      <LocaleId>zh_CN</LocaleId>
+    </DesignEntityMetaL>
+  </DesignMetas>
+  <Version>1691485224201</Version>
+  <BOSVersion>1.0</BOSVersion>
+</DeployMetadata>

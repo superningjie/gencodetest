@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DeployMetadata>
+  <MasterId>3DRSMKWVH0+U</MasterId>
+  <Id>3DRSMKWVH0+U</Id>
+  <DesignMetas>
+    <DesignFormMetaL>
+      <Number>tdkw_recruitbulletin</Number>
+      <PkId>3FBC11V8LTC7</PkId>
+      <DataXml>
+        <FormMetadata/>
+      </DataXml>
+      <Name>领导自助-招聘看板移动端</Name>
+      <Id>3DRSMKWVH0+U</Id>
+      <LocaleId>zh_CN</LocaleId>
+    </DesignFormMetaL>
+    <DesignEntityMetaL>
+      <Number>tdkw_recruitbulletin</Number>
+      <PkId>3FBC11W5VYM2</PkId>
+      <DataXml>
+        <EntityMetadata/>
+      </DataXml>
+      <Name>领导自助-招聘看板移动端</Name>
+      <Id>3DRSMKWVH0+U</Id>
+      <LocaleId>zh_CN</LocaleId>
+    </DesignEntityMetaL>
+  </DesignMetas>
+  <Version>1690255735426</Version>
+  <BOSVersion>1.0</BOSVersion>
+</DeployMetadata>

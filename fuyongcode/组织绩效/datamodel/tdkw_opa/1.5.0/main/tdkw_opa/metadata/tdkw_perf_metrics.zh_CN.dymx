@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DeployMetadata>
+  <MasterId>4=XC2R/KUWBO</MasterId>
+  <Id>4=XC2R/KUWBO</Id>
+  <DesignMetas>
+    <DesignFormMetaL>
+      <Number>tdkw_perf_metrics</Number>
+      <PkId>4D=Z=T9/ML+G</PkId>
+      <DataXml>
+        <FormMetadata/>
+      </DataXml>
+      <Name>指标项</Name>
+      <Id>4=XC2R/KUWBO</Id>
+      <LocaleId>zh_CN</LocaleId>
+    </DesignFormMetaL>
+    <DesignEntityMetaL>
+      <Number>tdkw_perf_metrics</Number>
+      <PkId>4D=Z=TKYN8R+</PkId>
+      <DataXml>
+        <EntityMetadata/>
+      </DataXml>
+      <Name>指标项</Name>
+      <Id>4=XC2R/KUWBO</Id>
+      <LocaleId>zh_CN</LocaleId>
+    </DesignEntityMetaL>
+  </DesignMetas>
+  <Version>1726126048969</Version>
+  <BOSVersion>1.0</BOSVersion>
+</DeployMetadata>

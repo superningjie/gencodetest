@@ -1,0 +1,6 @@
+/6.0.037.0/main/tdkw_homs_ext/metadata/odc.cld
+/6.0.037.0/main/tdkw_homs_ext/metadata/odc.zh_CN.cldx
+/6.0.037.0/main/tdkw_homs_ext/metadata/tdkw_homs_ext.app
+/6.0.037.0/main/tdkw_homs_ext/metadata/tdkw_homs_ext.zh_CN.appx
+/6.0.037.0/main/tdkw_homs_ext/tdkw_homs_ext.xml
+/datamodel.xml

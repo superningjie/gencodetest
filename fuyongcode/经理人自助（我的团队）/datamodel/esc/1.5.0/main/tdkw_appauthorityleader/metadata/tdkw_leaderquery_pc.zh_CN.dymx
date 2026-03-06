@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DeployMetadata>
+  <MasterId>3EWWOENZ39MA</MasterId>
+  <Id>3EWWOENZ39MA</Id>
+  <DesignMetas>
+    <DesignFormMetaL>
+      <Number>tdkw_leaderquery_pc</Number>
+      <PkId>3EWYIXZ6OE83</PkId>
+      <DataXml>
+        <FormMetadata/>
+      </DataXml>
+      <Name>领导查询PC端</Name>
+      <Id>3EWWOENZ39MA</Id>
+      <LocaleId>zh_CN</LocaleId>
+    </DesignFormMetaL>
+    <DesignEntityMetaL>
+      <Number>tdkw_leaderquery_pc</Number>
+      <PkId>3EWYIY+A6CW/</PkId>
+      <DataXml>
+        <EntityMetadata/>
+      </DataXml>
+      <Name>领导查询PC端</Name>
+      <Id>3EWWOENZ39MA</Id>
+      <LocaleId>zh_CN</LocaleId>
+    </DesignEntityMetaL>
+  </DesignMetas>
+  <Version>1689822197504</Version>
+  <BOSVersion>1.0</BOSVersion>
+</DeployMetadata>

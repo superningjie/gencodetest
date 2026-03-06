@@ -1,0 +1,1 @@
+-- UPDATE t_hrobs_portalscheme SET FISSYSPRESET ='1' WHERE FNUMBER = '1020_S';

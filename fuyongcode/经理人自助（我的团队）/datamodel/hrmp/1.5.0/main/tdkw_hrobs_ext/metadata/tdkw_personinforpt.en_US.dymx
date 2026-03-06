@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DeployMetadata>
+  <MasterId>3CVK62NTR/NR</MasterId>
+  <Id>3CVK62NTR/NR</Id>
+  <DesignMetas>
+    <DesignFormMetaL>
+      <Number>xyjt_personinforpt</Number>
+      <PkId>3T+JQPU1KLJG</PkId>
+      <DataXml>
+        <FormMetadata>
+          <Name>Statement Template</Name>
+          <Items>
+            <FieldAp action="edit" oid="X4gGoY4vxy">
+              <Name>人员</Name>
+            </FieldAp>
+            <EntryFieldAp action="edit" oid="Ovc4P9m3tY">
+              <Name>公司简称</Name>
+            </EntryFieldAp>
+            <EntryFieldAp action="edit" oid="EauNrbaese">
+              <Name>姓名</Name>
+            </EntryFieldAp>
+            <EntryFieldAp action="edit" oid="ax1JvrvfTz">
+              <Name>姓名（废弃）</Name>
+            </EntryFieldAp>
+            <EntryFieldAp action="edit" oid="GdtJzm6HvI">
+              <Name>岗位</Name>
+            </EntryFieldAp>
+            <EntryFieldAp action="edit" oid="vlimhUQUKh">
+              <Name>岗位层级</Name>
+            </EntryFieldAp>
+            <EntryFieldAp action="edit" oid="1WTvJJ7MFx">
+              <Name>人员类型</Name>
+            </EntryFieldAp>
+            <EntryFieldAp action="edit" oid="02FGq8lQhw">
+              <Name>性别</Name>
+            </EntryFieldAp>
+            <EntryFieldAp action="edit" oid="Kfcj34C4vm">
+              <Name>籍贯</Name>
+            </EntryFieldAp>
+            <EntryFieldAp action="edit" oid="TdxNrGc4bW">
+              <Name>婚姻状况</Name>
+            </EntryFieldAp>
+            <EntryFieldAp action="edit" oid="yW6rPpBW4u">
+              <Name>学历</Name>
+            </EntryFieldAp>
+            <EntryFieldAp action="edit" oid="P8YD6Dagds">
+              <Name>政治面貌</Name>
+            </EntryFieldAp>
+            <EntryFieldAp action="edit" oid="8lGlE5XpEh">
+              <Name>年龄</Name>
+            </EntryFieldAp>
+            <EntryFieldAp action="edit" oid="B6Kft5BrRJ">
+              <Name>入职日期</Name>
+            </EntryFieldAp>
+            <EntryFieldAp action="edit" oid="xMASPcSq58">
+              <Name>集团司龄</Name>
+            </EntryFieldAp>
+            <EntryFieldAp action="edit" oid="0jneg4NsJY">
+              <Name>工龄</Name>
+            </EntryFieldAp>
+            <EntryFieldAp action="edit" oid="06OYFIGS7C">
+              <Name>工号</Name>
+            </EntryFieldAp>
+          </Items>
+        </FormMetadata>
+      </DataXml>
+      <Name>Statement Template</Name>
+      <Id>3CVK62NTR/NR</Id>
+      <LocaleId>en_US</LocaleId>
+    </DesignFormMetaL>
+    <DesignEntityMetaL>
+      <Number>xyjt_personinforpt</Number>
+      <PkId>3T+JQQ1N1ACI</PkId>
+      <DataXml>
+        <EntityMetadata>
+          <Items>
+            <TextField action="edit" oid="ax1JvrvfTz">
+              <Name>姓名（废弃）</Name>
+            </TextField>
+            <BasedataField action="edit" oid="GdtJzm6HvI">
+              <Name>岗位</Name>
+            </BasedataField>
+            <ComboField action="edit" oid="vlimhUQUKh">
+              <Name>岗位层级</Name>
+              <Items>
+                <ComboItem action="edit" oid="1">
+                  <Caption>集团高管-集团直管</Caption>
+                </ComboItem>
+                <ComboItem action="edit" oid="2">
+                  <Caption>集团高管-授权行业</Caption>
+                </ComboItem>
+                <ComboItem action="edit" oid="3">
+                  <Caption>其他高管</Caption>
+                </ComboItem>
+                <ComboItem action="edit" oid="4">
+                  <Caption>中层</Caption>
+                </ComboItem>
+                <ComboItem action="edit" oid="5">
+                  <Caption>基层</Caption>
+                </ComboItem>
+              </Items>
+            </ComboField>
+            <BasedataField action="edit" oid="1WTvJJ7MFx">
+              <Name>人员类型</Name>
+            </BasedataField>
+            <BasedataField action="edit" oid="02FGq8lQhw">
+              <Name>性别</Name>
+            </BasedataField>
+            <TextField action="edit" oid="Kfcj34C4vm">
+              <Name>籍贯</Name>
+            </TextField>
+            <BasedataField action="edit" oid="TdxNrGc4bW">
+              <Name>婚姻状况</Name>
+            </BasedataField>
+            <BasedataField action="edit" oid="yW6rPpBW4u">
+              <Name>学历</Name>
+            </BasedataField>
+            <BasedataField action="edit" oid="P8YD6Dagds">
+              <Name>政治面貌</Name>
+            </BasedataField>
+            <IntegerField action="edit" oid="8lGlE5XpEh">
+              <Name>年龄</Name>
+            </IntegerField>
+            <DateField action="edit" oid="B6Kft5BrRJ">
+              <Name>入职日期</Name>
+            </DateField>
+            <DecimalField action="edit" oid="xMASPcSq58">
+              <Name>集团司龄</Name>
+            </DecimalField>
+            <DecimalField action="edit" oid="0jneg4NsJY">
+              <Name>工龄</Name>
+            </DecimalField>
+            <MulBasedataField action="edit" oid="X4gGoY4vxy">
+              <Name>人员</Name>
+            </MulBasedataField>
+            <BasedataField action="edit" oid="Ovc4P9m3tY">
+              <Name>公司简称</Name>
+            </BasedataField>
+            <BasedataField action="edit" oid="EauNrbaese">
+              <Name>姓名</Name>
+            </BasedataField>
+            <BasedataPropField action="edit" oid="06OYFIGS7C">
+              <Name>工号</Name>
+            </BasedataPropField>
+          </Items>
+        </EntityMetadata>
+      </DataXml>
+      <Name>Statement Template</Name>
+      <Id>3CVK62NTR/NR</Id>
+      <LocaleId>en_US</LocaleId>
+    </DesignEntityMetaL>
+  </DesignMetas>
+  <Version>1733717428519</Version>
+  <BOSVersion>1.0</BOSVersion>
+</DeployMetadata>

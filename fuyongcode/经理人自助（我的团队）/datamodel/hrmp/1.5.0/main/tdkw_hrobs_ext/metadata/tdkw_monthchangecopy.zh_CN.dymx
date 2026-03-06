@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DeployMetadata>
+  <MasterId>41MZWM8C4N3X</MasterId>
+  <Id>41MZWM8C4N3X</Id>
+  <DesignMetas>
+    <DesignFormMetaL>
+      <Number>tdkw_monthchangecopy</Number>
+      <PkId>41N1E0E3M8HD</PkId>
+      <DataXml>
+        <FormMetadata/>
+      </DataXml>
+      <Name>本月轮动报表-复制</Name>
+      <Id>41MZWM8C4N3X</Id>
+      <LocaleId>zh_CN</LocaleId>
+    </DesignFormMetaL>
+    <DesignEntityMetaL>
+      <Number>tdkw_monthchangecopy</Number>
+      <PkId>41N1E0F4HU==</PkId>
+      <DataXml>
+        <EntityMetadata/>
+      </DataXml>
+      <Name>本月轮动报表-复制</Name>
+      <Id>41MZWM8C4N3X</Id>
+      <LocaleId>zh_CN</LocaleId>
+    </DesignEntityMetaL>
+  </DesignMetas>
+  <Version>1713836784683</Version>
+  <BOSVersion>1.0</BOSVersion>
+</DeployMetadata>

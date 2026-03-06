@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DeployMetadata>
+  <Multilanguage>false</Multilanguage>
+  <MasterId>3VYFYW0YR=YP</MasterId>
+  <BizappId>4E/7AN1DAFA1</BizappId>
+  <Id>3VYFYW0YR=YP</Id>
+  <DesignMetas>
+    <DesignFormMeta>
+      <DevType>0</DevType>
+      <ModifyDate>1730282592617</ModifyDate>
+      <DataXml>
+        <FormMetadata>
+          <Isv>tdkw</Isv>
+          <Id>3VYFYW0YR=YP</Id>
+          <Key>dgdl_hbpm_positionorg_inh</Key>
+          <EntityId>3VYFYW0YR=YP</EntityId>
+          <ParentId>3KETR0=/0EFM</ParentId>
+          <BizappId>4E/7AN1DAFA1</BizappId>
+          <IsvSign/>
+          <Name>编制组织树列表</Name>
+          <InheritPath>2B9=DMZVK591,3KETR0=/0EFM</InheritPath>
+          <Items>
+            <FormAp action="edit" oid="2B9=DMZVI/3/">
+              <Plugins>
+                <Plugin>
+                  <FPK/>
+                  <Description>编制组织树过滤插件</Description>
+                  <ClassName>dgdl.odc.homs.listPlugin.PlanyearTreeListPlugin</ClassName>
+                  <Enabled>true</Enabled>
+                  <BizAppId/>
+                </Plugin>
+                <Plugin action="remove" oid="kd.hrmp.hbpm.formplugin.web.position.PositionTreeList"/>
+              </Plugins>
+              <Id>3VYFYW0YR=YP</Id>
+              <Name>编制组织树列表</Name>
+              <Key>dgdl_hbpm_positionorg_inh</Key>
+            </FormAp>
+            <FlexPanelAp action="edit" oid="lSvRTldtZh">
+              <Invisible action="reset"/>
+            </FlexPanelAp>
+            <FlexPanelAp action="edit" oid="d9jO3fpQxO">
+              <Invisible action="reset"/>
+            </FlexPanelAp>
+            <FieldAp action="edit" oid="DNCdrBxRhX">
+              <Invisible>true</Invisible>
+            </FieldAp>
+          </Items>
+        </FormMetadata>
+      </DataXml>
+      <ModifierId>2027699484829418496</ModifierId>
+      <EntityId>3VYFYW0YR=YP</EntityId>
+      <ModelType>DynamicFormModel</ModelType>
+      <Isv>tdkw</Isv>
+      <Version>1730282592617</Version>
+      <ParentId>3KETR0=/0EFM</ParentId>
+      <MasterId></MasterId>
+      <Number>dgdl_hbpm_positionorg_inh</Number>
+      <BizappId>4E/7AN1DAFA1</BizappId>
+      <IsvSign></IsvSign>
+      <Id>3VYFYW0YR=YP</Id>
+      <InheritPath>2B9=DMZVK591,3KETR0=/0EFM</InheritPath>
+    </DesignFormMeta>
+    <DesignEntityMeta>
+      <DevType>0</DevType>
+      <ModifyDate>1730282592689</ModifyDate>
+      <DataXml>
+        <EntityMetadata>
+          <Isv>tdkw</Isv>
+          <Id>3VYFYW0YR=YP</Id>
+          <ParentId>3KETR0=/0EFM</ParentId>
+          <BizappId>4E/7AN1DAFA1</BizappId>
+          <IsvSign/>
+          <Name>编制组织树列表</Name>
+          <InheritPath>2B9=DMZVK591,3KETR0=/0EFM</InheritPath>
+          <Items>
+            <MainEntity action="edit" oid="2B9=DN+E9H92">
+              <Id>3VYFYW0YR=YP</Id>
+              <Key>dgdl_hbpm_positionorg_inh</Key>
+              <Name>编制组织树列表</Name>
+            </MainEntity>
+          </Items>
+        </EntityMetadata>
+      </DataXml>
+      <ModelType>DynamicFormModel</ModelType>
+      <Isv>tdkw</Isv>
+      <Version>1730282592689</Version>
+      <ParentId>3KETR0=/0EFM</ParentId>
+      <MasterId></MasterId>
+      <Number>dgdl_hbpm_positionorg_inh</Number>
+      <BizappId>4E/7AN1DAFA1</BizappId>
+      <Id>3VYFYW0YR=YP</Id>
+      <InheritPath>2B9=DMZVK591,3KETR0=/0EFM</InheritPath>
+    </DesignEntityMeta>
+  </DesignMetas>
+  <Version>1730282592617</Version>
+  <BOSVersion>1.0</BOSVersion>
+  <BizunitId>4HKZ/X71T/VS</BizunitId>
+</DeployMetadata>

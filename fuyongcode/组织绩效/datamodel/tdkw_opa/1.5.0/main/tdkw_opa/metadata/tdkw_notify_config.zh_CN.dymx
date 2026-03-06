@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DeployMetadata>
+  <MasterId>4AINJOMJECHD</MasterId>
+  <Id>4AINJOMJECHD</Id>
+  <DesignMetas>
+    <DesignFormMetaL>
+      <Number>tdkw_notify_config</Number>
+      <PkId>540XWNB51RHD</PkId>
+      <DataXml>
+        <FormMetadata/>
+      </DataXml>
+      <Name>通知人员配置表</Name>
+      <Id>4AINJOMJECHD</Id>
+      <LocaleId>zh_CN</LocaleId>
+    </DesignFormMetaL>
+    <DesignEntityMetaL>
+      <Number>tdkw_notify_config</Number>
+      <PkId>540XWNH6RQBG</PkId>
+      <DataXml>
+        <EntityMetadata/>
+      </DataXml>
+      <Name>通知人员配置表</Name>
+      <Id>4AINJOMJECHD</Id>
+      <LocaleId>zh_CN</LocaleId>
+    </DesignEntityMetaL>
+  </DesignMetas>
+  <Version>1754018271932</Version>
+  <BOSVersion>1.0</BOSVersion>
+</DeployMetadata>

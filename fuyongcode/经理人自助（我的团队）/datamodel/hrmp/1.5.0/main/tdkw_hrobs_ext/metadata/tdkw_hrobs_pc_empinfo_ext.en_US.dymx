@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DeployMetadata>
+  <MasterId>2Y0E1ONV=/LO</MasterId>
+  <Id>3=DGJ61CFQ=M</Id>
+  <DesignMetas>
+    <DesignFormMetaL>
+      <Number>tdkw_hrobs_pc_empinfo_ext</Number>
+      <PkId>3RQXFK/+TISJ</PkId>
+      <DataXml>
+        <FormMetadata>
+          <Items>
+            <FlexPanelAp action="edit" oid="Fy43gzPozu">
+              <Name>Flex容器</Name>
+            </FlexPanelAp>
+            <FlexPanelAp action="edit" oid="bF3mw9g2YI">
+              <Name>Flex容器</Name>
+            </FlexPanelAp>
+            <FlexPanelAp action="edit" oid="zFUhLi0Kz7">
+              <Name>隐藏元素</Name>
+            </FlexPanelAp>
+            <FlexPanelAp action="edit" oid="yXWm2TxYgS">
+              <Name>Flex容器</Name>
+            </FlexPanelAp>
+            <FlexPanelAp action="edit" oid="xwy16smgTN">
+              <Name>Flex容器</Name>
+            </FlexPanelAp>
+            <FlexPanelAp action="edit" oid="BaZFGp6m0C">
+              <Name>Flex容器</Name>
+            </FlexPanelAp>
+            <FlexPanelAp action="edit" oid="jUac6L4W3N">
+              <Name>Flex容器</Name>
+            </FlexPanelAp>
+            <VectorAp action="edit" oid="nO69BRhCgD">
+              <CtlTips>
+                <Tips>
+                  <Content>组织</Content>
+                </Tips>
+              </CtlTips>
+              <Name>图标</Name>
+            </VectorAp>
+            <LabelAp action="edit" oid="K0WuJIrc9R">
+              <Name>部门</Name>
+            </LabelAp>
+            <FieldAp action="edit" oid="1zqLV3MfCe">
+              <Name>人员姓名</Name>
+            </FieldAp>
+            <LabelAp action="edit" oid="elrk3K6JFp">
+              <Name>工号</Name>
+            </LabelAp>
+            <FlexPanelAp action="edit" oid="UmA4tpDWEQ">
+              <Name>Flex容器</Name>
+            </FlexPanelAp>
+            <ProgressBarAp action="edit" oid="VvainrTtLt">
+              <Name>信息完成度</Name>
+            </ProgressBarAp>
+            <FlexPanelAp action="edit" oid="n57gWdOI6B">
+              <Name>Flex容器</Name>
+            </FlexPanelAp>
+            <FlexPanelAp action="edit" oid="rvkB4X6EWZ">
+              <Name>真实标题区</Name>
+            </FlexPanelAp>
+            <FlexPanelAp action="edit" oid="7cXDisHpP6">
+              <Name>真实内容区</Name>
+            </FlexPanelAp>
+            <VectorAp action="edit" oid="4n4uiaFEbs">
+              <CtlTips>
+                <Tips>
+                  <Content>职位</Content>
+                </Tips>
+              </CtlTips>
+              <Name>图标</Name>
+            </VectorAp>
+            <VectorAp action="edit" oid="bjHBiPoGTy">
+              <CtlTips>
+                <Tips>
+                  <Content>岗位</Content>
+                </Tips>
+              </CtlTips>
+              <Name>职位</Name>
+            </VectorAp>
+            <VectorAp action="edit" oid="aj9PiFmjbt">
+              <CtlTips>
+                <Tips>
+                  <Content>标准岗位</Content>
+                </Tips>
+              </CtlTips>
+              <Name>职位</Name>
+            </VectorAp>
+            <LabelAp action="edit" oid="1TUfNdaK4U">
+              <Name>岗位</Name>
+            </LabelAp>
+            <LabelAp action="edit" oid="eddh8ZledS">
+              <Name>信息完成度</Name>
+            </LabelAp>
+            <LabelAp action="edit" oid="WUEqUoc9V0">
+              <Name>进度</Name>
+            </LabelAp>
+            <FieldAp action="edit" oid="BaZqrx6lN8">
+              <Name>在职天数</Name>
+            </FieldAp>
+            <LabelAp action="edit" oid="R9owjxjXRy">
+              <Name>职位</Name>
+            </LabelAp>
+            <VectorAp action="edit" oid="pU9MkgFHWx">
+              <CtlTips>
+                <Tips>
+                  <Content>职位</Content>
+                </Tips>
+              </CtlTips>
+              <Name>岗位</Name>
+            </VectorAp>
+            <FlexPanelAp action="edit" oid="frgqy4E3fe">
+              <Name>Flex容器</Name>
+            </FlexPanelAp>
+            <FlexPanelAp action="edit" oid="9ow44aQieL">
+              <Name>Flex容器</Name>
+            </FlexPanelAp>
+            <FlexPanelAp action="edit" oid="SmDmwivORK">
+              <Name>Flex容器</Name>
+            </FlexPanelAp>
+            <VectorAp action="edit" oid="KLcuEyIlJd">
+              <CtlTips>
+                <Tips>
+                  <Content>公司</Content>
+                </Tips>
+              </CtlTips>
+              <Name>职位</Name>
+            </VectorAp>
+            <LabelAp action="edit" oid="qEm0PO4b29">
+              <Name>公司</Name>
+            </LabelAp>
+            <FieldAp action="edit" oid="onQ18lYJQ0">
+              <Name>企业标语</Name>
+            </FieldAp>
+            <LabelAp action="edit" oid="qYWmxkIyke">
+              <Name>我的档案</Name>
+            </LabelAp>
+            <VectorAp action="edit" oid="LFvOpqKPh5">
+              <Name>图标</Name>
+            </VectorAp>
+            <LabelAp action="edit" oid="u4veP2KElt">
+              <Name>我的信息</Name>
+            </LabelAp>
+            <FieldAp action="edit" oid="C64cu7xKbI">
+              <Name>用户头像</Name>
+            </FieldAp>
+            <FlexPanelAp action="edit" oid="AWUYIrG8B4">
+              <Name>Flex容器</Name>
+            </FlexPanelAp>
+            <FlexPanelAp action="edit" oid="bmG4E1lunb">
+              <Name>Flex容器</Name>
+            </FlexPanelAp>
+            <FlexPanelAp action="edit" oid="tkzR8h1LdB">
+              <Name>Flex容器</Name>
+            </FlexPanelAp>
+            <FlexPanelAp action="edit" oid="FrS7sOOAgG">
+              <Name>Flex容器</Name>
+            </FlexPanelAp>
+            <LabelAp action="edit" oid="P6cGD7p1bu">
+              <Name>职位</Name>
+            </LabelAp>
+            <LabelAp action="edit" oid="T1aTcAeOp5">
+              <Name>部门</Name>
+            </LabelAp>
+            <LabelAp action="edit" oid="X4umzx4E0g">
+              <Name>公司</Name>
+            </LabelAp>
+            <LabelAp action="edit" oid="iHg6LIjj5J">
+              <Name>姓名</Name>
+            </LabelAp>
+          </Items>
+        </FormMetadata>
+      </DataXml>
+      <Name>PC_personnel Personnel Information Card</Name>
+      <Id>3=DGJ61CFQ=M</Id>
+      <LocaleId>en_US</LocaleId>
+    </DesignFormMetaL>
+    <DesignEntityMetaL>
+      <Number>tdkw_hrobs_pc_empinfo_ext</Number>
+      <PkId>3RQXFK/Y3RHG</PkId>
+      <DataXml>
+        <EntityMetadata>
+          <Items>
+            <PictureField action="edit" oid="C64cu7xKbI">
+              <Name>用户头像</Name>
+            </PictureField>
+            <TextField action="edit" oid="1zqLV3MfCe">
+              <Name>人员姓名</Name>
+            </TextField>
+            <MuliLangTextField action="edit" oid="BaZqrx6lN8">
+              <Name>在职天数</Name>
+            </MuliLangTextField>
+            <TextField action="edit" oid="onQ18lYJQ0">
+              <Name>企业标语</Name>
+            </TextField>
+          </Items>
+        </EntityMetadata>
+      </DataXml>
+      <Name>PC_personnel Personnel Information Card</Name>
+      <Id>3=DGJ61CFQ=M</Id>
+      <LocaleId>en_US</LocaleId>
+    </DesignEntityMetaL>
+  </DesignMetas>
+  <Version>1702287566747</Version>
+  <BOSVersion>1.0</BOSVersion>
+</DeployMetadata>

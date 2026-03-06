@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DeployMetadata>
+  <MasterId>3=QNWT5CW=KY</MasterId>
+  <Id>3=QNWT5CW=KY</Id>
+  <DesignMetas>
+    <DesignFormMetaL>
+      <Number>tdkw_leaderquery1d</Number>
+      <PkId>43ERFSZKX39+</PkId>
+      <DataXml>
+        <FormMetadata/>
+      </DataXml>
+      <Name>领导查询1</Name>
+      <Id>3=QNWT5CW=KY</Id>
+      <LocaleId>zh_CN</LocaleId>
+    </DesignFormMetaL>
+    <DesignEntityMetaL>
+      <Number>tdkw_leaderquery1d</Number>
+      <PkId>43ERFT+I59VC</PkId>
+      <DataXml>
+        <EntityMetadata/>
+      </DataXml>
+      <Name>领导查询1</Name>
+      <Id>3=QNWT5CW=KY</Id>
+      <LocaleId>zh_CN</LocaleId>
+    </DesignEntityMetaL>
+  </DesignMetas>
+  <Version>1715570922502</Version>
+  <BOSVersion>1.0</BOSVersion>
+</DeployMetadata>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DeployMetadata>
+  <MasterId>3=G2PYJ/SA+R</MasterId>
+  <Id>3=G2PYJ/SA+R</Id>
+  <DesignMetas>
+    <DesignFormMetaL>
+      <Number>tdkw_myhistory</Number>
+      <PkId>4JWOBAJEENDI</PkId>
+      <DataXml>
+        <FormMetadata/>
+      </DataXml>
+      <Name>我的历程</Name>
+      <Id>3=G2PYJ/SA+R</Id>
+      <LocaleId>zh_CN</LocaleId>
+    </DesignFormMetaL>
+    <DesignEntityMetaL>
+      <Number>tdkw_myhistory</Number>
+      <PkId>4JWOBANHZYJB</PkId>
+      <DataXml>
+        <EntityMetadata/>
+      </DataXml>
+      <Name>我的历程</Name>
+      <Id>3=G2PYJ/SA+R</Id>
+      <LocaleId>zh_CN</LocaleId>
+    </DesignEntityMetaL>
+  </DesignMetas>
+  <Version>1732513822210</Version>
+  <BOSVersion>1.0</BOSVersion>
+</DeployMetadata>

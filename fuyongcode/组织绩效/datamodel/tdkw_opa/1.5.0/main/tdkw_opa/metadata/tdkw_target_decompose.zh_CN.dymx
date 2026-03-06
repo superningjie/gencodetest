@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DeployMetadata>
+  <MasterId>4ATTKWN943WT</MasterId>
+  <Id>4ATTKWN943WT</Id>
+  <DesignMetas>
+    <DesignFormMetaL>
+      <Number>tdkw_target_decompose</Number>
+      <PkId>4D7I88/31B5F</PkId>
+      <DataXml>
+        <FormMetadata/>
+      </DataXml>
+      <Name>指标分解</Name>
+      <Id>4ATTKWN943WT</Id>
+      <LocaleId>zh_CN</LocaleId>
+    </DesignFormMetaL>
+    <DesignEntityMetaL>
+      <Number>tdkw_target_decompose</Number>
+      <PkId>4D7I882XOUTX</PkId>
+      <DataXml>
+        <EntityMetadata/>
+      </DataXml>
+      <Name>指标分解</Name>
+      <Id>4ATTKWN943WT</Id>
+      <LocaleId>zh_CN</LocaleId>
+    </DesignEntityMetaL>
+  </DesignMetas>
+  <Version>1726040513733</Version>
+  <BOSVersion>1.0</BOSVersion>
+</DeployMetadata>

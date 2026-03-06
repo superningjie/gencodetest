@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DeployMetadata>
+  <MasterId>3KL7FQ/22TBU</MasterId>
+  <Id>3KL7FQ/22TBU</Id>
+  <DesignMetas>
+    <DesignFormMetaL>
+      <Number>tdkw_myinterview</Number>
+      <PkId>3KL7FXM47=0I</PkId>
+      <DataXml>
+        <FormMetadata>
+          <Name>我的麵試</Name>
+          <Items>
+            <FormAp action="edit" oid="3KL7FQ/20QK1">
+              <Name>我的麵試</Name>
+            </FormAp>
+          </Items>
+        </FormMetadata>
+      </DataXml>
+      <Name>我的麵試</Name>
+      <Id>3KL7FQ/22TBU</Id>
+      <LocaleId>zh_TW</LocaleId>
+    </DesignFormMetaL>
+    <DesignEntityMetaL>
+      <Number>tdkw_myinterview</Number>
+      <PkId>3KL7FXMHS/LB</PkId>
+      <DataXml>
+        <EntityMetadata>
+          <Name>我的麵試</Name>
+          <Items>
+            <MainEntity action="edit" oid="3KL7FQ/9=JZ2">
+              <Name>我的麵試</Name>
+            </MainEntity>
+          </Items>
+        </EntityMetadata>
+      </DataXml>
+      <Name>我的麵試</Name>
+      <Id>3KL7FQ/22TBU</Id>
+      <LocaleId>zh_TW</LocaleId>
+    </DesignEntityMetaL>
+  </DesignMetas>
+  <Version>1695353050232</Version>
+  <BOSVersion>1.0</BOSVersion>
+</DeployMetadata>

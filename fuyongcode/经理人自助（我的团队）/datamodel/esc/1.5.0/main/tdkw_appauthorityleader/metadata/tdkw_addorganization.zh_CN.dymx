@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DeployMetadata>
+  <MasterId>3EWTB+2=LIME</MasterId>
+  <Id>3EWTB+2=LIME</Id>
+  <DesignMetas>
+    <DesignFormMetaL>
+      <Number>tdkw_addorganization</Number>
+      <PkId>3FBC1ULKGESZ</PkId>
+      <DataXml>
+        <FormMetadata/>
+      </DataXml>
+      <Name>领导自助-组织新增移动端</Name>
+      <Id>3EWTB+2=LIME</Id>
+      <LocaleId>zh_CN</LocaleId>
+    </DesignFormMetaL>
+    <DesignEntityMetaL>
+      <Number>tdkw_addorganization</Number>
+      <PkId>3FBC1UMLC/KV</PkId>
+      <DataXml>
+        <EntityMetadata/>
+      </DataXml>
+      <Name>领导自助-组织新增移动端</Name>
+      <Id>3EWTB+2=LIME</Id>
+      <LocaleId>zh_CN</LocaleId>
+    </DesignEntityMetaL>
+  </DesignMetas>
+  <Version>1690255747903</Version>
+  <BOSVersion>1.0</BOSVersion>
+</DeployMetadata>

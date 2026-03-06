@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DeployMetadata>
+  <MasterId>3EXH7XCYT=H1</MasterId>
+  <Id>3EXH7XCYT=H1</Id>
+  <DesignMetas>
+    <DesignFormMetaL>
+      <Number>tdkw_ry_pjnl_pc</Number>
+      <PkId>3EXH93R24ZY/</PkId>
+      <DataXml>
+        <FormMetadata/>
+      </DataXml>
+      <Name>人员分析-平均年龄PC端</Name>
+      <Id>3EXH7XCYT=H1</Id>
+      <LocaleId>zh_CN</LocaleId>
+    </DesignFormMetaL>
+    <DesignEntityMetaL>
+      <Number>tdkw_ry_pjnl_pc</Number>
+      <PkId>3EXH93S/E4ID</PkId>
+      <DataXml>
+        <EntityMetadata/>
+      </DataXml>
+      <Name>人员分析-平均年龄PC端</Name>
+      <Id>3EXH7XCYT=H1</Id>
+      <LocaleId>zh_CN</LocaleId>
+    </DesignEntityMetaL>
+  </DesignMetas>
+  <Version>1689836057026</Version>
+  <BOSVersion>1.0</BOSVersion>
+</DeployMetadata>

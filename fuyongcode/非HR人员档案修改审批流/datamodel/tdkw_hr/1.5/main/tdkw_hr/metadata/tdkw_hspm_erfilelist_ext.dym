@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DeployMetadata>
+  <Multilanguage>false</Multilanguage>
+  <MasterId>20DR1V26N2=O</MasterId>
+  <BizappId>4C44KE2RK8W9</BizappId>
+  <Id>4I=BOLK1=PNT</Id>
+  <DesignMetas>
+    <DesignFormMeta>
+      <DevType>2</DevType>
+      <ModifyDate>1730973770066</ModifyDate>
+      <DataXml>
+        <FormMetadata>
+          <DevType>2</DevType>
+          <Isv>tdkw</Isv>
+          <Id>4I=BOLK1=PNT</Id>
+          <Key>tdkw_hspm_erfilelist_ext</Key>
+          <ParentId>20DR1V26N2=O</ParentId>
+          <MasterId>20DR1V26N2=O</MasterId>
+          <BizappId>4C44KE2RK8W9</BizappId>
+          <InheritPath>20DR1V26N2=O</InheritPath>
+          <Items>
+            <QueryListFormAp action="edit" oid="20DR1V4EO0Y+">
+              <Plugins>
+                <Plugin>
+                  <FPK/>
+                  <Description>ErfileUpdateListPlugin</Description>
+                  <ClassName>hr.ErfileUpdateListPlugin</ClassName>
+                  <Enabled>true</Enabled>
+                  <BizAppId/>
+                  <RowKey>5</RowKey>
+                </Plugin>
+              </Plugins>
+              <Id>4I=BOLK1=PNT</Id>
+              <Key>tdkw_hspm_erfilelist_ext</Key>
+            </QueryListFormAp>
+            <BarItemAp>
+              <OperationKey>filesupdate</OperationKey>
+              <Id>TCQ1y9YtRQ</Id>
+              <Key>filesupdate</Key>
+              <OperationStyle>0</OperationStyle>
+              <Index>4</Index>
+              <ParentId>_toolbar_</ParentId>
+              <Name>档案修改</Name>
+            </BarItemAp>
+          </Items>
+        </FormMetadata>
+      </DataXml>
+      <ModifierId>2030587023881928704</ModifierId>
+      <EntityId>20DQDN96CUTF</EntityId>
+      <ModelType>QueryListModel</ModelType>
+      <Isv>tdkw</Isv>
+      <Version>1730973770066</Version>
+      <ParentId>20DR1V26N2=O</ParentId>
+      <MasterId>20DR1V26N2=O</MasterId>
+      <Number>tdkw_hspm_erfilelist_ext</Number>
+      <BizappId>4C44KE2RK8W9</BizappId>
+      <IsvSign></IsvSign>
+      <Id>4I=BOLK1=PNT</Id>
+      <InheritPath>20DR1V26N2=O</InheritPath>
+    </DesignFormMeta>
+  </DesignMetas>
+  <Version>1730973770066</Version>
+  <BOSVersion>1.0</BOSVersion>
+  <BizunitId>2+QC521V4KPM</BizunitId>
+</DeployMetadata>

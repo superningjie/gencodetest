@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DeployMetadata>
+  <MasterId>4BS1PBCMXBFD</MasterId>
+  <Id>4BS1PBCMXBFD</Id>
+  <DesignMetas>
+    <DesignFormMetaL>
+      <Number>tdkw_inner_decompose</Number>
+      <PkId>4DXHCNKMRC=2</PkId>
+      <DataXml>
+        <FormMetadata>
+          <Name>指标分解内嵌页面</Name>
+          <Items>
+            <FormAp action="edit" oid="4BS1PBC5S8TK">
+              <Name>指标分解内嵌页面</Name>
+            </FormAp>
+            <FlexPanelAp action="edit" oid="qvLrrKXtVGIOzK8Hz2">
+              <Name>数据隐藏面板</Name>
+            </FlexPanelAp>
+            <FlexPanelAp action="edit" oid="OXVfB1CPE0IlpszdJA">
+              <Name>Flex容器</Name>
+            </FlexPanelAp>
+            <FlexPanelAp action="edit" oid="gqpHe6ZyQvxLCzsgdM">
+              <Name>Flex容器</Name>
+            </FlexPanelAp>
+            <FlexPanelAp action="edit" oid="SjCUWx7dnDp3XPi1xN">
+              <Name>Flex容器</Name>
+            </FlexPanelAp>
+            <AdvConSummaryPanelAp action="edit" oid="xJnSHzFwEc">
+              <Name>高级面板摘要容器</Name>
+            </AdvConSummaryPanelAp>
+            <AdvConToolbarAp action="edit" oid="prICiDSO67">
+              <Name>高级面板工具栏</Name>
+            </AdvConToolbarAp>
+            <AdvConChildPanelAp action="edit" oid="U9t1f3fR9d">
+              <Name>高级面板子容器</Name>
+            </AdvConChildPanelAp>
+            <LabelAp action="edit" oid="J70gb95Pj1UhM2QTs5">
+              <Name>指标描述</Name>
+            </LabelAp>
+            <FieldAp action="edit" oid="FsPveJA6ajvGVefJtW">
+              <Name>文本1</Name>
+            </FieldAp>
+            <EntryFieldAp action="edit" oid="w7a6rMfVxBJ8jFOStD">
+              <Name>基础资料</Name>
+            </EntryFieldAp>
+            <EntryFieldAp action="edit" oid="XkJODCdP1p3gliS42n">
+              <Name>分解说明</Name>
+            </EntryFieldAp>
+            <EntryFieldAp action="edit" oid="XsA0DERksJYVq4Ssif">
+              <Name>是否可见</Name>
+            </EntryFieldAp>
+            <OperationColumnAp action="edit" oid="G9QUtb91w8xCP02cF8">
+              <OperationColItems>
+                <OperationColItem action="edit" oid="4BSTE/VHV=VA">
+                  <operationName>删除</operationName>
+                </OperationColItem>
+              </OperationColItems>
+            </OperationColumnAp>
+            <FlexPanelAp action="edit" oid="jKwRfq6nuj">
+              <Name>Flex容器</Name>
+            </FlexPanelAp>
+            <FlexPanelAp action="edit" oid="7BBiGYIWBSfaUXyO1e">
+              <Name>Flex容器</Name>
+            </FlexPanelAp>
+            <FlexPanelAp action="edit" oid="xZoV3tmRwP8e4lLIZp">
+              <Name>Flex容器</Name>
+            </FlexPanelAp>
+            <EntryAp action="edit" oid="AYbVpZsXpIiDLi4umv">
+              <Name>单据体</Name>
+            </EntryAp>
+            <LabelAp action="edit" oid="aBhB701nsG">
+              <Name>指标名称：</Name>
+            </LabelAp>
+            <FieldAp action="edit" oid="BhCBR23pI9">
+              <Name>文本3</Name>
+            </FieldAp>
+            <AdvConBarItemAp action="edit" oid="Z9LjD9RMZz">
+              <Name>新增</Name>
+            </AdvConBarItemAp>
+            <AdvConBarItemAp action="edit" oid="c4zCRYeXml">
+              <Name>全部删除</Name>
+            </AdvConBarItemAp>
+            <FieldAp action="edit" oid="G6gYAODck34hhrrPLO">
+              <Name>指标名称</Name>
+            </FieldAp>
+            <FieldAp action="edit" oid="k5so3OAVYAqfYIOu4I">
+              <Name>整数</Name>
+            </FieldAp>
+            <LabelAp action="edit" oid="GYlnRe4rpjvpNql3k1">
+              <Name>评分标准</Name>
+            </LabelAp>
+            <FieldAp action="edit" oid="4Wd2cV3E4H1cbj9Qni">
+              <Name>文本2</Name>
+            </FieldAp>
+          </Items>
+        </FormMetadata>
+      </DataXml>
+      <Name>指标分解内嵌页面</Name>
+      <Id>4BS1PBCMXBFD</Id>
+      <LocaleId>en_US</LocaleId>
+    </DesignFormMetaL>
+    <DesignEntityMetaL>
+      <Number>tdkw_inner_decompose</Number>
+      <PkId>4DXHCNMS5+DY</PkId>
+      <DataXml>
+        <EntityMetadata>
+          <Name>指标分解内嵌页面</Name>
+          <Items>
+            <MainEntity action="edit" oid="4BS1PBD30DQP">
+              <PermissionDimension>
+                <PermissionDimension>
+                  <Name>维度控制</Name>
+                </PermissionDimension>
+              </PermissionDimension>
+              <PermissionControl>
+                <PermissionControl>
+                  <Name>控制功能权限</Name>
+                </PermissionControl>
+              </PermissionControl>
+              <Operations>
+                <Operation action="edit" oid="4BS4KF9W40QS">
+                  <Name>新增</Name>
+                </Operation>
+                <Operation action="edit" oid="4BS4N6H1BUG2">
+                  <Name>全部删除</Name>
+                </Operation>
+                <Operation action="edit" oid="4BSTD58G6N5=">
+                  <Name>删除分录</Name>
+                </Operation>
+              </Operations>
+              <Name>指标分解内嵌页面</Name>
+            </MainEntity>
+            <EntryEntity action="edit" oid="AYbVpZsXpIiDLi4umv">
+              <Name>单据体</Name>
+            </EntryEntity>
+            <BasedataField action="edit" oid="w7a6rMfVxBJ8jFOStD">
+              <Name>基础资料</Name>
+            </BasedataField>
+            <TextField action="edit" oid="XkJODCdP1p3gliS42n">
+              <Name>分解说明</Name>
+            </TextField>
+            <CheckBoxField action="edit" oid="XsA0DERksJYVq4Ssif">
+              <Name>是否可见</Name>
+            </CheckBoxField>
+            <BasedataField action="edit" oid="G6gYAODck34hhrrPLO">
+              <Name>指标名称</Name>
+            </BasedataField>
+            <TextField action="edit" oid="FsPveJA6ajvGVefJtW">
+              <Name>文本1</Name>
+            </TextField>
+            <TextField action="edit" oid="4Wd2cV3E4H1cbj9Qni">
+              <Name>文本2</Name>
+            </TextField>
+            <IntegerField action="edit" oid="k5so3OAVYAqfYIOu4I">
+              <Name>整数</Name>
+            </IntegerField>
+            <TextField action="edit" oid="BhCBR23pI9">
+              <Name>文本3</Name>
+            </TextField>
+          </Items>
+        </EntityMetadata>
+      </DataXml>
+      <Name>指标分解内嵌页面</Name>
+      <Id>4BS1PBCMXBFD</Id>
+      <LocaleId>en_US</LocaleId>
+    </DesignEntityMetaL>
+  </DesignMetas>
+  <Version>1726711788165</Version>
+  <BOSVersion>1.0</BOSVersion>
+</DeployMetadata>

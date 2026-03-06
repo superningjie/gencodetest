@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DeployMetadata>
+  <MasterId>3EXGNKW+23EW</MasterId>
+  <Id>3EXGNKW+23EW</Id>
+  <DesignMetas>
+    <DesignFormMetaL>
+      <Number>tdkw_lz_rybhqs_pc</Number>
+      <PkId>3EXGOHP71OCJ</PkId>
+      <DataXml>
+        <FormMetadata/>
+      </DataXml>
+      <Name>离职分析-人员变化趋势PC端</Name>
+      <Id>3EXGNKW+23EW</Id>
+      <LocaleId>zh_CN</LocaleId>
+    </DesignFormMetaL>
+    <DesignEntityMetaL>
+      <Number>tdkw_lz_rybhqs_pc</Number>
+      <PkId>3EXGOHQ4AUZY</PkId>
+      <DataXml>
+        <EntityMetadata/>
+      </DataXml>
+      <Name>离职分析-人员变化趋势PC端</Name>
+      <Id>3EXGNKW+23EW</Id>
+      <LocaleId>zh_CN</LocaleId>
+    </DesignEntityMetaL>
+  </DesignMetas>
+  <Version>1689835687036</Version>
+  <BOSVersion>1.0</BOSVersion>
+</DeployMetadata>

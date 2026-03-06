@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DeployMetadata>
+  <MasterId>4BBIH7TG1OSD</MasterId>
+  <Id>4BBIH7TG1OSD</Id>
+  <DesignMetas>
+    <DesignFormMetaL>
+      <Number>tdkw_metrics_audit</Number>
+      <PkId>4DUNYXK/EJL5</PkId>
+      <DataXml>
+        <FormMetadata>
+          <Name>審批單_新</Name>
+          <Items>
+            <BillFormAp action="edit" oid="00305e8b000005ac">
+              <MobListMeta>
+                <FormMetadata>
+                  <Items>
+                    <CardListColumnAp action="edit" oid="4AMXM1SYTQC/">
+                      <Name>單據狀態</Name>
+                    </CardListColumnAp>
+                    <CardListColumnAp action="edit" oid="4AMXM1SYTN+Q">
+                      <Name>創建人.姓名</Name>
+                    </CardListColumnAp>
+                    <CardFlexPanelAp action="edit" oid="4AMXM1SYTN+P">
+                      <Name>卡片佈局容器</Name>
+                    </CardFlexPanelAp>
+                    <MobSortPanelAp action="edit" oid="mobsortpanel">
+                      <Name>排序項1</Name>
+                    </MobSortPanelAp>
+                    <MobFilterPanelAp action="edit" oid="mobfilterpanel">
+                      <Name>過濾項1</Name>
+                    </MobFilterPanelAp>
+                    <MobFilterPanelAp action="edit" oid="4AMXM1SYTQC+">
+                      <Name>過濾項2</Name>
+                    </MobFilterPanelAp>
+                  </Items>
+                </FormMetadata>
+              </MobListMeta>
+              <Name>審批單_新</Name>
+              <MobMeta>
+                <FormMetadata>
+                  <Items>
+                    <LayoutFlexAp action="edit" oid="4AMXM1SV6A5L">
+                      <Name>字段佈局容器</Name>
+                    </LayoutFlexAp>
+                    <LayoutFlexAp action="edit" oid="4AMXM1SV67TB">
+                      <Name>字段佈局容器</Name>
+                    </LayoutFlexAp>
+                    <FieldAp action="edit" oid="4AMXM1SV67TC">
+                      <Name>審核人</Name>
+                    </FieldAp>
+                    <FieldAp action="edit" oid="4AMXM1SV6A5N">
+                      <Name>創建人</Name>
+                    </FieldAp>
+                    <FieldAp action="edit" oid="4AMXM1SV6A5M">
+                      <Name>單據狀態</Name>
+                    </FieldAp>
+                    <MBarItemAp action="edit" oid="4AMXM1SV67TD">
+                      <Name>提交</Name>
+                    </MBarItemAp>
+                  </Items>
+                </FormMetadata>
+              </MobMeta>
+              <ListMeta>
+                <FormMetadata>
+                  <Items>
+                    <BarItemAp action="edit" oid="tK1OBdqQx6">
+                      <DropdownItems>
+                        <DropdownItem action="edit" oid="4B4YXQUYOBO=">
+                          <Title>引出列表</Title>
+                        </DropdownItem>
+                      </DropdownItems>
+                      <Name>引入數據</Name>
+                    </BarItemAp>
+                    <BarItemAp action="edit" oid="YdyKQ2C6jE">
+                      <Name>查看流程圖</Name>
+                    </BarItemAp>
+                    <ListColumnAp action="edit" oid="4BBXS/AZU4EG">
+                      <Name>創建人</Name>
+                    </ListColumnAp>
+                    <ListColumnAp action="edit" oid="4BBXS45WWDNH">
+                      <Name>組織績效指標所屬組織</Name>
+                    </ListColumnAp>
+                  </Items>
+                </FormMetadata>
+              </ListMeta>
+            </BillFormAp>
+            <TabAp action="edit" oid="vyl4rK6K4O5kucB8ut">
+              <Name>頁簽控件</Name>
+            </TabAp>
+            <AdvConSummaryPanelAp action="edit" oid="4AMXM1SV6A5G">
+              <Name>高級面板摘要容器</Name>
+            </AdvConSummaryPanelAp>
+            <AdvConToolbarAp action="edit" oid="4AMXM1SV67T7">
+              <Name>高級面板工具欄</Name>
+            </AdvConToolbarAp>
+            <AdvConChildPanelAp action="edit" oid="4AMXM1SV6A5H">
+              <Name>高級面板子容器</Name>
+            </AdvConChildPanelAp>
+            <EntryFieldAp action="edit" oid="G11xSEOeNZ66ubOJR1">
+              <Name>所屬組織</Name>
+            </EntryFieldAp>
+            <EntryFieldAp action="edit" oid="1gRO95MOPRshYY31Zc">
+              <Name>考核年份</Name>
+            </EntryFieldAp>
+            <EntryFieldAp action="edit" oid="3mxgsGjoMj">
+              <Name>組織績效指標主鍵</Name>
+            </EntryFieldAp>
+            <EntryAp action="edit" oid="4AMXM1SV67T9">
+              <Name>單據體</Name>
+            </EntryAp>
+            <EntryAp action="edit" oid="aotUxXwOB3wxR6WCaL">
+              <Name>子單據體</Name>
+            </EntryAp>
+            <FlatFieldAp action="edit" oid="22Gzr3ts4i">
+              <Name>上級組織</Name>
+            </FlatFieldAp>
+            <FlatFieldAp action="edit" oid="fGMYEkVFqa">
+              <Name>指標名稱</Name>
+            </FlatFieldAp>
+            <FlatFieldAp action="edit" oid="cbMjZtQthL">
+              <Name>權重</Name>
+            </FlatFieldAp>
+            <FlatFieldAp action="edit" oid="fUSFIZeIe9">
+              <Name>目標值</Name>
+            </FlatFieldAp>
+            <FlatFieldAp action="edit" oid="nyjwNcmmIY">
+              <Name>單位</Name>
+            </FlatFieldAp>
+            <BarItemAp action="edit" oid="CjoZ9u1uOc">
+              <Name>查看流程圖</Name>
+            </BarItemAp>
+            <FieldsetPanelAp action="edit" oid="Ca2Xy9iP2v">
+              <Name>字段佈局面板</Name>
+            </FieldsetPanelAp>
+            <EntryFieldAp action="edit" oid="cGNHXqfb3W">
+              <Name>上級組織</Name>
+            </EntryFieldAp>
+            <EntryFieldAp action="edit" oid="pu288MpkGy">
+              <Name>指標名稱</Name>
+            </EntryFieldAp>
+            <EntryFieldAp action="edit" oid="Gw0N7EdGbD">
+              <Name>指標名稱</Name>
+            </EntryFieldAp>
+            <EntryFieldAp action="edit" oid="Q7a4x15S0fmMo25gie">
+              <Name>指標類型</Name>
+            </EntryFieldAp>
+            <EntryFieldAp action="edit" oid="EDD713kn77">
+              <Name>權重</Name>
+            </EntryFieldAp>
+            <EntryFieldAp action="edit" oid="okpnDcDu2NAsuBZx0F">
+              <Name>指標描述</Name>
+            </EntryFieldAp>
+            <EntryFieldAp action="edit" oid="5NgwqORl0n">
+              <Name>目標值</Name>
+            </EntryFieldAp>
+            <EntryFieldAp action="edit" oid="WlSQMzrrTZ">
+              <Name>單位</Name>
+            </EntryFieldAp>
+            <EntryFieldAp action="edit" oid="mhtkIfyhT2UWH0DSEx">
+              <Name>評分標準</Name>
+            </EntryFieldAp>
+            <GridFlatPanelAp action="edit" oid="Pwe2dkH64d">
+              <Name>分錄平鋪容器</Name>
+            </GridFlatPanelAp>
+            <FieldAp action="edit" oid="Hsqo5joPGHAKzMySg8">
+              <Name>所屬組織</Name>
+            </FieldAp>
+            <FlexPanelAp action="edit" oid="19H4PAsH4ivs55J1mf">
+              <Name>Flex容器</Name>
+            </FlexPanelAp>
+            <AdvConAp action="edit" oid="4AMXM1SV67T6">
+              <Name>分錄</Name>
+            </AdvConAp>
+            <HtmlAp action="edit" oid="CQIYb0I2LSCu81p4JQ">
+              <Name>HTML控件</Name>
+            </HtmlAp>
+          </Items>
+        </FormMetadata>
+      </DataXml>
+      <Name>審批單_新</Name>
+      <Id>4BBIH7TG1OSD</Id>
+      <LocaleId>zh_TW</LocaleId>
+    </DesignFormMetaL>
+    <DesignEntityMetaL>
+      <Number>tdkw_metrics_audit</Number>
+      <PkId>4DUNYXQPJIY3</PkId>
+      <DataXml>
+        <EntityMetadata>
+          <Name>審批單_新</Name>
+          <Items>
+            <BillEntity action="edit" oid="00305e8b000007ac">
+              <Operations>
+                <Operation action="edit" oid="4BBXY/NVWDEN">
+                  <Name>查看流程圖</Name>
+                </Operation>
+                <Operation action="edit" oid="4CRBC=L5S253">
+                  <Name>審核未通過</Name>
+                </Operation>
+              </Operations>
+              <Name>審批單_新</Name>
+            </BillEntity>
+            <BillStatusField action="edit" oid="6q69iznvHX">
+              <StatusItems>
+                <StatusItem action="edit" oid="4CRB90PZJRI1">
+                  <statusname>審核未通過</statusname>
+                </StatusItem>
+              </StatusItems>
+            </BillStatusField>
+            <EntryEntity action="edit" oid="4AMXM1SV67T9">
+              <Name>單據體</Name>
+            </EntryEntity>
+            <SubEntryEntity action="edit" oid="aotUxXwOB3wxR6WCaL">
+              <Name>子單據體</Name>
+            </SubEntryEntity>
+            <DecimalField action="edit" oid="5NgwqORl0n">
+              <Name>目標值</Name>
+            </DecimalField>
+            <TextField action="edit" oid="EDD713kn77">
+              <Name>權重</Name>
+            </TextField>
+            <BasedataField action="edit" oid="pu288MpkGy">
+              <Name>指標名稱</Name>
+            </BasedataField>
+            <ComboField action="edit" oid="WlSQMzrrTZ">
+              <Name>單位</Name>
+              <Items>
+                <ComboItem action="edit" oid="yuan">
+                  <Caption>元</Caption>
+                </ComboItem>
+                <ComboItem action="edit" oid="wan_yuan">
+                  <Caption>萬元</Caption>
+                </ComboItem>
+                <ComboItem action="edit" oid="bai_wan_yuan">
+                  <Caption>百萬元</Caption>
+                </ComboItem>
+                <ComboItem action="edit" oid="qian_wan_yuan">
+                  <Caption>千萬元</Caption>
+                </ComboItem>
+                <ComboItem action="edit" oid="percent">
+                  <Caption>百分比</Caption>
+                </ComboItem>
+              </Items>
+            </ComboField>
+            <BasedataField action="edit" oid="cGNHXqfb3W">
+              <Name>上級組織</Name>
+            </BasedataField>
+            <BasedataField action="edit" oid="G11xSEOeNZ66ubOJR1">
+              <Name>所屬組織</Name>
+            </BasedataField>
+            <MulBasedataField action="edit" oid="Hsqo5joPGHAKzMySg8">
+              <Name>所屬組織</Name>
+            </MulBasedataField>
+            <DateField action="edit" oid="1gRO95MOPRshYY31Zc">
+              <Name>考核年份</Name>
+            </DateField>
+            <BigIntField action="edit" oid="3mxgsGjoMj">
+              <Name>組織績效指標主鍵</Name>
+            </BigIntField>
+            <TextField action="edit" oid="Gw0N7EdGbD">
+              <Name>指標名稱</Name>
+            </TextField>
+            <TextField action="edit" oid="okpnDcDu2NAsuBZx0F">
+              <Name>指標描述</Name>
+            </TextField>
+            <TextField action="edit" oid="mhtkIfyhT2UWH0DSEx">
+              <Name>評分標準</Name>
+            </TextField>
+            <BasedataField action="edit" oid="Q7a4x15S0fmMo25gie">
+              <Name>指標類型</Name>
+            </BasedataField>
+          </Items>
+        </EntityMetadata>
+      </DataXml>
+      <Name>審批單_新</Name>
+      <Id>4BBIH7TG1OSD</Id>
+      <LocaleId>zh_TW</LocaleId>
+    </DesignEntityMetaL>
+  </DesignMetas>
+  <Version>1751452697696</Version>
+  <BOSVersion>1.0</BOSVersion>
+</DeployMetadata>

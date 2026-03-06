@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DeployMetadata>
+  <MasterId>44A8MV44M2N/</MasterId>
+  <Id>44A8MV44M2N/</Id>
+  <DesignMetas>
+    <DesignFormMetaL>
+      <Number>tdkw_board</Number>
+      <PkId>44BN9+BNWHTV</PkId>
+      <DataXml>
+        <FormMetadata/>
+      </DataXml>
+      <Name>移动门户-绩效看板</Name>
+      <Id>44A8MV44M2N/</Id>
+      <LocaleId>zh_CN</LocaleId>
+    </DesignFormMetaL>
+    <DesignEntityMetaL>
+      <Number>tdkw_board</Number>
+      <PkId>44BN9+EC1+XD</PkId>
+      <DataXml>
+        <EntityMetadata/>
+      </DataXml>
+      <Name>移动门户-绩效看板</Name>
+      <Id>44A8MV44M2N/</Id>
+      <LocaleId>zh_CN</LocaleId>
+    </DesignEntityMetaL>
+  </DesignMetas>
+  <Version>1716464007629</Version>
+  <BOSVersion>1.0</BOSVersion>
+</DeployMetadata>

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DeployMetadata>
+  <Multilanguage>false</Multilanguage>
+  <MasterId>49ZAV34NQ75L</MasterId>
+  <BizappId>4513U+LB/HOD</BizappId>
+  <Id>49ZAV34NQ75L</Id>
+  <DesignMetas>
+    <DesignFormMeta>
+      <DevType>0</DevType>
+      <ModifyDate>1722220490390</ModifyDate>
+      <DataXml>
+        <FormMetadata>
+          <Id>49ZAV34NQ75L</Id>
+          <Key>cea_uploadreportwork</Key>
+          <EntityId>49ZAV34NQ75L</EntityId>
+          <ParentId>49Y/Z+4C26M/</ParentId>
+          <Name>上传述职报告附件</Name>
+          <InheritPath>6fb46130000000ac,49Y/Z+4C26M/</InheritPath>
+          <Items>
+            <FormAp action="edit" oid="db6d1d5500007bac">
+              <Id>49ZAV34NQ75L</Id>
+              <Name>上传述职报告附件</Name>
+              <Style>
+                <Style>
+                  <Margin>
+                    <Margin>
+                      <Left>3px</Left>
+                    </Margin>
+                  </Margin>
+                </Style>
+              </Style>
+              <Key>cea_uploadreportwork</Key>
+            </FormAp>
+            <AttachmentPanelAp action="edit" oid="1kF7cNeBQU">
+              <MaxAtmCount>1</MaxAtmCount>
+            </AttachmentPanelAp>
+          </Items>
+        </FormMetadata>
+      </DataXml>
+      <ModifierId>1992915822795867136</ModifierId>
+      <EntityId>49ZAV34NQ75L</EntityId>
+      <ModelType>DynamicFormModel</ModelType>
+      <Isv>tdkw</Isv>
+      <Version>1722220490390</Version>
+      <ParentId>49Y/Z+4C26M/</ParentId>
+      <MasterId></MasterId>
+      <Number>cea_uploadreportwork</Number>
+      <BizappId>4513U+LB/HOD</BizappId>
+      <IsvSign></IsvSign>
+      <Id>49ZAV34NQ75L</Id>
+      <InheritPath>6fb46130000000ac,49Y/Z+4C26M/</InheritPath>
+    </DesignFormMeta>
+    <DesignEntityMeta>
+      <DevType>0</DevType>
+      <ModifyDate>1722220490504</ModifyDate>
+      <DataXml>
+        <EntityMetadata>
+          <Id>49ZAV34NQ75L</Id>
+          <ParentId>49Y/Z+4C26M/</ParentId>
+          <Name>上传述职报告附件</Name>
+          <InheritPath>6fb46130000000ac,49Y/Z+4C26M/</InheritPath>
+          <Items>
+            <MainEntity action="edit" oid="db6d1d5500007cac">
+              <Id>49ZAV34NQ75L</Id>
+              <Key>cea_uploadreportwork</Key>
+              <Name>上传述职报告附件</Name>
+            </MainEntity>
+          </Items>
+        </EntityMetadata>
+      </DataXml>
+      <ModelType>DynamicFormModel</ModelType>
+      <Isv>tdkw</Isv>
+      <Version>1722220490504</Version>
+      <ParentId>49Y/Z+4C26M/</ParentId>
+      <MasterId></MasterId>
+      <Number>cea_uploadreportwork</Number>
+      <BizappId>4513U+LB/HOD</BizappId>
+      <Id>49ZAV34NQ75L</Id>
+      <InheritPath>6fb46130000000ac,49Y/Z+4C26M/</InheritPath>
+    </DesignEntityMeta>
+  </DesignMetas>
+  <Version>1722220490390</Version>
+  <BOSVersion>1.0</BOSVersion>
+  <BizunitId>45KUGRD4HA1J</BizunitId>
+</DeployMetadata>

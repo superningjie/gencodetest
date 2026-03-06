@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DeployMetadata>
+  <MasterId>3EWTGS1SJLDQ</MasterId>
+  <Id>3EWTGS1SJLDQ</Id>
+  <DesignMetas>
+    <DesignFormMetaL>
+      <Number>tdkw_organizationrevoke</Number>
+      <PkId>3FBC3OM5LOMH</PkId>
+      <DataXml>
+        <FormMetadata/>
+      </DataXml>
+      <Name>领导自助-组织撤销移动端</Name>
+      <Id>3EWTGS1SJLDQ</Id>
+      <LocaleId>zh_CN</LocaleId>
+    </DesignFormMetaL>
+    <DesignEntityMetaL>
+      <Number>tdkw_organizationrevoke</Number>
+      <PkId>3FBC3ON2VTWC</PkId>
+      <DataXml>
+        <EntityMetadata/>
+      </DataXml>
+      <Name>领导自助-组织撤销移动端</Name>
+      <Id>3EWTGS1SJLDQ</Id>
+      <LocaleId>zh_CN</LocaleId>
+    </DesignEntityMetaL>
+  </DesignMetas>
+  <Version>1690255778114</Version>
+  <BOSVersion>1.0</BOSVersion>
+</DeployMetadata>

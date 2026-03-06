@@ -1,0 +1,382 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DeployMetadata>
+  <Multilanguage>false</Multilanguage>
+  <MasterId>3==Y53C=3819</MasterId>
+  <BizappId>3==6P77F4X8W</BizappId>
+  <Id>3==Y53C=3819</Id>
+  <DesignMetas>
+    <DesignFormMeta>
+      <DevType>0</DevType>
+      <ModifyDate>1700203947792</ModifyDate>
+      <DataXml>
+        <FormMetadata>
+          <Isv>tdkw</Isv>
+          <Id>3==Y53C=3819</Id>
+          <Key>tdkw_portalbanner</Key>
+          <EntityId>3==Y53C=3819</EntityId>
+          <ParentId>1942c188000065ac</ParentId>
+          <BizappId>3==6P77F4X8W</BizappId>
+          <IsvSign/>
+          <Name>门户Banner图片</Name>
+          <InheritPath>1942c188000065ac</InheritPath>
+          <Items>
+            <BasedataFormAp action="edit" oid="1942c188000064ac">
+              <Plugins>
+                <Plugin action="edit" oid="kd.bos.form.plugin.CodeRulePlugin">
+                  <FPK/>
+                  <Description/>
+                  <BizAppId/>
+                </Plugin>
+                <Plugin action="edit" oid="dev.tpl.base.kd.bos.form.plugin.templatebaseedit">
+                  <Description/>
+                  <RowKey>1</RowKey>
+                </Plugin>
+                <Plugin>
+                  <FPK/>
+                  <Description>字段必录控制</Description>
+                  <ClassName>tdkw.hrmp.hrobs.formplugin.PortalBannerPlugin</ClassName>
+                  <Enabled>true</Enabled>
+                  <BizAppId/>
+                  <RowKey>2</RowKey>
+                </Plugin>
+              </Plugins>
+              <MobListMeta>
+                <FormMetadata>
+                  <Items>
+                    <BillListAp action="edit" oid="_BillList_">
+                      <EntityId>3==Y53C=3819</EntityId>
+                    </BillListAp>
+                  </Items>
+                </FormMetadata>
+              </MobListMeta>
+              <Id>3==Y53C=3819</Id>
+              <BackColor>#E2E7EF</BackColor>
+              <Name>门户Banner图片</Name>
+              <Key>tdkw_portalbanner</Key>
+              <ListMeta>
+                <FormMetadata>
+                  <Name>门户Banner</Name>
+                  <Items>
+                    <FormAp action="edit" oid="b5994054000024ac">
+                      <Name>门户Banner</Name>
+                    </FormAp>
+                    <FilterGridViewAp action="edit" oid="filtergridview">
+                      <NewFilter>true</NewFilter>
+                    </FilterGridViewAp>
+                    <BarItemAp action="edit" oid="ms32Hsufcq">
+                      <Invisible>true</Invisible>
+                    </BarItemAp>
+                    <BarItemAp action="edit" oid="BTjy6Ie3Bc">
+                      <Invisible>true</Invisible>
+                    </BarItemAp>
+                    <BarItemAp action="edit" oid="NVARV5u7I4">
+                      <Invisible>true</Invisible>
+                    </BarItemAp>
+                    <BarItemAp action="edit" oid="v71lQcKgcH">
+                      <Invisible>true</Invisible>
+                    </BarItemAp>
+                    <BillListAp action="edit" oid="_BillList_">
+                      <EntityId>3==Y53C=3819</EntityId>
+                    </BillListAp>
+                    <CommonFilterColumnAp action="edit" oid="f31a499a0000d2ac">
+                      <DefValue>1,0</DefValue>
+                    </CommonFilterColumnAp>
+                    <PictureListColumnAp>
+                      <ColumnOrderAndFilter>1</ColumnOrderAndFilter>
+                      <SeqColumnType>NotSeq</SeqColumnType>
+                      <Id>3AIQAV1=QV+I</Id>
+                      <Key>tdkw_picturelistcolumnap</Key>
+                      <Order>NotOrder</Order>
+                      <ThumbnailsParamList>
+                        <ThumbnailsParameter>
+                          <scale>0.10</scale>
+                          <thumbnailsTag>k</thumbnailsTag>
+                          <Id>3AIQ9J1VKOAS</Id>
+                        </ThumbnailsParameter>
+                      </ThumbnailsParamList>
+                      <Index>4</Index>
+                      <ParentId>gridview</ParentId>
+                      <ListFieldId>tdkw_picture</ListFieldId>
+                      <Name>图片</Name>
+                    </PictureListColumnAp>
+                    <DateListColumnAp>
+                      <ColumnOrderAndFilter>1</ColumnOrderAndFilter>
+                      <SeqColumnType>NotSeq</SeqColumnType>
+                      <Id>3AIQBV=DAIT6</Id>
+                      <Key>tdkw_datelistcolumnap</Key>
+                      <Order>NotOrder</Order>
+                      <Index>5</Index>
+                      <ParentId>gridview</ParentId>
+                      <ListFieldId>createtime</ListFieldId>
+                      <Name>创建时间</Name>
+                    </DateListColumnAp>
+                    <ListColumnAp>
+                      <ColumnOrderAndFilter>1</ColumnOrderAndFilter>
+                      <SeqColumnType>NotSeq</SeqColumnType>
+                      <Id>3AIQCF=P4SB8</Id>
+                      <Key>tdkw_listcolumnap</Key>
+                      <Order>NotOrder</Order>
+                      <Index>6</Index>
+                      <ParentId>gridview</ParentId>
+                      <ListFieldId>creator.name</ListFieldId>
+                      <Name>创建人</Name>
+                    </ListColumnAp>
+                  </Items>
+                </FormMetadata>
+              </ListMeta>
+            </BasedataFormAp>
+            <FieldAp>
+              <Id>2iKCx49HZ9</Id>
+              <FieldId>2iKCx49HZ9</FieldId>
+              <ShowTitle>false</ShowTitle>
+              <Name>图片</Name>
+              <Key>tdkw_picture</Key>
+              <ParentId>1Z5qHT1X8I</ParentId>
+            </FieldAp>
+            <FlexPanelAp action="edit" oid="PxNfkkak4s">
+              <Height>100%</Height>
+              <Grow>0</Grow>
+              <BackColor>#ffffff</BackColor>
+              <Style>
+                <Style>
+                  <Border>
+                    <Border>
+                      <Top>10px_solid_#E2E7EF</Top>
+                      <Left>10px_solid_#E2E7EF</Left>
+                      <Bottom>10px_solid_#E2E7EF</Bottom>
+                      <Right>10px_solid_#E2E7EF</Right>
+                    </Border>
+                  </Border>
+                  <Padding>
+                    <Padding>
+                      <Left>2px</Left>
+                      <Right action="reset"/>
+                    </Padding>
+                  </Padding>
+                </Style>
+              </Style>
+            </FlexPanelAp>
+            <FieldAp action="edit" oid="AkId5S4yTs">
+              <Invisible>true</Invisible>
+            </FieldAp>
+            <FieldAp action="edit" oid="ac5Y5Dax1q">
+              <Visible>init,edit,new,view,submit,audit</Visible>
+              <Index>3</Index>
+            </FieldAp>
+            <FieldAp action="edit" oid="jiRpZNc99A">
+              <Index>4</Index>
+            </FieldAp>
+            <FieldAp>
+              <Id>sdtaOqI08h</Id>
+              <FieldId>sdtaOqI08h</FieldId>
+              <Index>5</Index>
+              <Name>url</Name>
+              <Key>tdkw_url</Key>
+              <ParentId>I8M9X0FOPr</ParentId>
+            </FieldAp>
+            <FieldAp>
+              <Id>w2OAwucnhv</Id>
+              <FieldId>w2OAwucnhv</FieldId>
+              <Index>6</Index>
+              <Name>MC参数</Name>
+              <Key>tdkw_mc</Key>
+              <ParentId>I8M9X0FOPr</ParentId>
+            </FieldAp>
+            <FieldAp>
+              <FireUpdEvt>true</FireUpdEvt>
+              <Id>6e0HnbcgcG</Id>
+              <FieldId>6e0HnbcgcG</FieldId>
+              <Index>7</Index>
+              <Name>是否跳转</Name>
+              <Key>tdkw_skipornot</Key>
+              <ParentId>I8M9X0FOPr</ParentId>
+            </FieldAp>
+            <BarItemAp action="edit" oid="4CNTAsZdaN">
+              <Invisible>true</Invisible>
+            </BarItemAp>
+            <BarItemAp action="edit" oid="V8H211iajj">
+              <Invisible>true</Invisible>
+            </BarItemAp>
+            <BarItemAp action="edit" oid="zlTJbHhEqT">
+              <Invisible>true</Invisible>
+            </BarItemAp>
+            <BarItemAp action="edit" oid="z20rAqlGP8">
+              <Invisible>true</Invisible>
+            </BarItemAp>
+            <BarItemAp action="edit" oid="8XYTQ7uc8H">
+              <Invisible>true</Invisible>
+            </BarItemAp>
+            <BarItemAp action="edit" oid="HVX5nv5C2i">
+              <Visible>init,view,submit,audit,new,edit</Visible>
+            </BarItemAp>
+            <BarItemAp action="edit" oid="TK7j147AL2">
+              <Invisible>true</Invisible>
+            </BarItemAp>
+            <FieldsetPanelAp action="edit" oid="STdfsCCFTj">
+              <Invisible>true</Invisible>
+              <Hidden action="reset"/>
+            </FieldsetPanelAp>
+            <FieldsetPanelAp action="edit" oid="I8M9X0FOPr">
+              <Grow>0</Grow>
+            </FieldsetPanelAp>
+            <FlexPanelAp>
+              <Collapsible>true</Collapsible>
+              <Id>1Z5qHT1X8I</Id>
+              <Grow>0</Grow>
+              <Index>2</Index>
+              <Name>banner图片</Name>
+              <Key>tdkw_flexpanelap</Key>
+              <ParentId>PxNfkkak4s</ParentId>
+            </FlexPanelAp>
+            <FieldAp action="edit" oid="O75mQrM58q">
+              <Index>3</Index>
+              <ParentId>STdfsCCFTj</ParentId>
+            </FieldAp>
+          </Items>
+        </FormMetadata>
+      </DataXml>
+      <ModifierId>1777451250070071296</ModifierId>
+      <EntityId>3==Y53C=3819</EntityId>
+      <ModelType>BaseFormModel</ModelType>
+      <Isv>tdkw</Isv>
+      <Version>1700203947792</Version>
+      <ParentId>1942c188000065ac</ParentId>
+      <MasterId></MasterId>
+      <Number>tdkw_portalbanner</Number>
+      <BizappId>3==6P77F4X8W</BizappId>
+      <IsvSign></IsvSign>
+      <Id>3==Y53C=3819</Id>
+      <InheritPath>1942c188000065ac</InheritPath>
+    </DesignFormMeta>
+    <DesignEntityMeta>
+      <DevType>0</DevType>
+      <ModifyDate>1700203948056</ModifyDate>
+      <DataXml>
+        <EntityMetadata>
+          <Isv>tdkw</Isv>
+          <Id>3==Y53C=3819</Id>
+          <ParentId>1942c188000065ac</ParentId>
+          <BizappId>3==6P77F4X8W</BizappId>
+          <IsvSign/>
+          <Name>门户Banner图片</Name>
+          <InheritPath>1942c188000065ac</InheritPath>
+          <Items>
+            <BaseEntity action="edit" oid="1942c188000066ac">
+              <dbRoute>hmp</dbRoute>
+              <TableName>tk_tdkw_portalbanner</TableName>
+              <Id>3==Y53C=3819</Id>
+              <Name>门户Banner图片</Name>
+              <Template action="reset"/>
+              <Operations>
+                <Operation action="edit" oid="b599405400001eac">
+                  <Validations>
+                    <ConditionValidation action="edit" oid="f2843bab0000baac">
+                      <Enabled action="reset"/>
+                      <TrueThrow action="reset"/>
+                    </ConditionValidation>
+                  </Validations>
+                </Operation>
+              </Operations>
+              <Key>tdkw_portalbanner</Key>
+              <NetworkControl>
+                <NetCtrlOperation>
+                  <OperationKey>submit</OperationKey>
+                  <GroupId>default_netctrl</GroupId>
+                  <Id>c91d5125000034ac</Id>
+                  <Key>default_netctrl_submit</Key>
+                </NetCtrlOperation>
+              </NetworkControl>
+              <DefaultPageSetting>{"mblist":"","pclist":"","pcbill":"","mbbill":""}</DefaultPageSetting>
+            </BaseEntity>
+            <MuliLangTextField action="edit" oid="8oq6R4m9CF">
+              <GL>true</GL>
+            </MuliLangTextField>
+            <BillStatusField action="edit" oid="ac5Y5Dax1q">
+              <DefValue>0</DefValue>
+            </BillStatusField>
+            <PictureField>
+              <FieldName>fk_tdkw_picture</FieldName>
+              <Features>
+                <Features>
+                  <Copyable>false</Copyable>
+                  <Ver>1</Ver>
+                </Features>
+              </Features>
+              <MaxImgSize>3</MaxImgSize>
+              <Id>2iKCx49HZ9</Id>
+              <Key>tdkw_picture</Key>
+              <MustInput>true</MustInput>
+              <ThumbnailsParam>
+                <ThumbnailsParameter>
+                  <scale>0.10</scale>
+                  <thumbnailsTag>k</thumbnailsTag>
+                  <Id>3AISJ/ORMR58</Id>
+                </ThumbnailsParameter>
+              </ThumbnailsParam>
+              <canUpload>true</canUpload>
+              <Name>图片</Name>
+            </PictureField>
+            <TextField>
+              <FieldName>fk_tdkw_openurl</FieldName>
+              <Features>
+                <Features>
+                  <Ver>1</Ver>
+                </Features>
+              </Features>
+              <Id>sdtaOqI08h</Id>
+              <Key>tdkw_url</Key>
+              <Name>url</Name>
+              <MaxLength>200</MaxLength>
+            </TextField>
+            <ComboField>
+              <FieldName>fk_tdkw_combofield</FieldName>
+              <Features>
+                <Features>
+                  <Ver>1</Ver>
+                </Features>
+              </Features>
+              <Id>w2OAwucnhv</Id>
+              <Key>tdkw_mc</Key>
+              <Name>MC参数</Name>
+              <Items>
+                <ComboItem>
+                  <Caption>云学堂</Caption>
+                  <Value>0</Value>
+                </ComboItem>
+                <ComboItem>
+                  <Caption>社招</Caption>
+                  <Value>1</Value>
+                  <Seq>1</Seq>
+                </ComboItem>
+              </Items>
+            </ComboField>
+            <CheckBoxField>
+              <FieldName>fk_tdkw_skipornot</FieldName>
+              <Features>
+                <Features>
+                  <Ver>1</Ver>
+                </Features>
+              </Features>
+              <Id>6e0HnbcgcG</Id>
+              <Key>tdkw_skipornot</Key>
+              <Name>是否跳转</Name>
+            </CheckBoxField>
+          </Items>
+        </EntityMetadata>
+      </DataXml>
+      <ModelType>BaseFormModel</ModelType>
+      <Isv>tdkw</Isv>
+      <Version>1700203948056</Version>
+      <ParentId>1942c188000065ac</ParentId>
+      <MasterId></MasterId>
+      <Number>tdkw_portalbanner</Number>
+      <BizappId>3==6P77F4X8W</BizappId>
+      <Id>3==Y53C=3819</Id>
+      <InheritPath>1942c188000065ac</InheritPath>
+    </DesignEntityMeta>
+  </DesignMetas>
+  <Version>1700203947792</Version>
+  <BOSVersion>1.0</BOSVersion>
+  <BizunitId>2W6G4T/FX+WF</BizunitId>
+</DeployMetadata>

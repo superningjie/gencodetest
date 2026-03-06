@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DeployMetadata>
+  <MasterId>3BOPQ1//JGTG</MasterId>
+  <Id>3BOPQ1//JGTG</Id>
+  <DesignMetas>
+    <DesignFormMetaL>
+      <Number>tdkw_application</Number>
+      <PkId>47SUT76OMB0P</PkId>
+      <DataXml>
+        <FormMetadata/>
+      </DataXml>
+      <Name>我的申请</Name>
+      <Id>3BOPQ1//JGTG</Id>
+      <LocaleId>zh_CN</LocaleId>
+    </DesignFormMetaL>
+    <DesignEntityMetaL>
+      <Number>tdkw_application</Number>
+      <PkId>47SUT77LWHN2</PkId>
+      <DataXml>
+        <EntityMetadata/>
+      </DataXml>
+      <Name>我的申请</Name>
+      <Id>3BOPQ1//JGTG</Id>
+      <LocaleId>zh_CN</LocaleId>
+    </DesignEntityMetaL>
+  </DesignMetas>
+  <Version>1719803057149</Version>
+  <BOSVersion>1.0</BOSVersion>
+</DeployMetadata>

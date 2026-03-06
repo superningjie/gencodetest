@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DeployMetadata>
+  <Multilanguage>false</Multilanguage>
+  <Id>18Y2T5WS5AFV</Id>
+  <DesignMetas>
+    <DesignCloudMeta>
+      <DevType>1</DevType>
+      <Image>images/pc/cardbackground/cloud_yuangongfuwu.png</Image>
+      <Visible>1</Visible>
+      <ModifyDate>1555497562000</ModifyDate>
+      <Modifier>208460</Modifier>
+      <Isv>kingdee</Isv>
+      <Version>1.0</Version>
+      <BackImage></BackImage>
+      <Number>ESC</Number>
+      <IndustryId>0</IndustryId>
+      <BaseAppId>/OSOW2CPH91+</BaseAppId>
+      <Creater>1</Creater>
+      <SimpleNumber>ESC</SimpleNumber>
+      <Id>18Y2T5WS5AFV</Id>
+      <Seq>1</Seq>
+      <CreateDate>1529657048000</CreateDate>
+    </DesignCloudMeta>
+  </DesignMetas>
+  <BOSVersion>1.0</BOSVersion>
+</DeployMetadata>

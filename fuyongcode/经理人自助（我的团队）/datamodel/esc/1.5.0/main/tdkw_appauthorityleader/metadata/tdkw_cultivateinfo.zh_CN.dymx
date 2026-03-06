@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DeployMetadata>
+  <MasterId>3ED1TK2H8N9I</MasterId>
+  <Id>3ED1TK2H8N9I</Id>
+  <DesignMetas>
+    <DesignFormMetaL>
+      <Number>tdkw_cultivateinfo</Number>
+      <PkId>3FBBQKQXN1VW</PkId>
+      <DataXml>
+        <FormMetadata/>
+      </DataXml>
+      <Name>员工简历-培训信息移动端</Name>
+      <Id>3ED1TK2H8N9I</Id>
+      <LocaleId>zh_CN</LocaleId>
+    </DesignFormMetaL>
+    <DesignEntityMetaL>
+      <Number>tdkw_cultivateinfo</Number>
+      <PkId>3FBBQKRUX8G9</PkId>
+      <DataXml>
+        <EntityMetadata/>
+      </DataXml>
+      <Name>员工简历-培训信息移动端</Name>
+      <Id>3ED1TK2H8N9I</Id>
+      <LocaleId>zh_CN</LocaleId>
+    </DesignEntityMetaL>
+  </DesignMetas>
+  <Version>1690255531099</Version>
+  <BOSVersion>1.0</BOSVersion>
+</DeployMetadata>

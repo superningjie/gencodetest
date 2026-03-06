@@ -1,0 +1,354 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DeployMetadata>
+  <Multilanguage>false</Multilanguage>
+  <MasterId>484UX4L1YPF5</MasterId>
+  <BizappId>4513U+LB/HOD</BizappId>
+  <Id>484UX4L1YPF5</Id>
+  <DesignMetas>
+    <DesignFormMeta>
+      <DevType>0</DevType>
+      <ModifyDate>1723705609483</ModifyDate>
+      <DataXml>
+        <FormMetadata>
+          <Isv>tdkw</Isv>
+          <Id>484UX4L1YPF5</Id>
+          <Key>cds0_cea_assessrowimport</Key>
+          <EntityId>484UX4L1YPF5</EntityId>
+          <ParentId>1942c188000065ac</ParentId>
+          <BizappId>4513U+LB/HOD</BizappId>
+          <IsvSign/>
+          <Name>引入测评表行</Name>
+          <InheritPath>1942c188000065ac</InheritPath>
+          <Items>
+            <BasedataFormAp action="edit" oid="1942c188000064ac">
+              <MobListMeta>
+                <FormMetadata>
+                  <Items>
+                    <BillListAp action="edit" oid="_BillList_">
+                      <EntityId>484UX4L1YPF5</EntityId>
+                    </BillListAp>
+                  </Items>
+                </FormMetadata>
+              </MobListMeta>
+              <Id>484UX4L1YPF5</Id>
+              <BackColor>#E2E7EF</BackColor>
+              <Name>引入测评表行</Name>
+              <Key>cds0_cea_assessrowimport</Key>
+              <ListMeta>
+                <FormMetadata>
+                  <Items>
+                    <FilterGridViewAp action="edit" oid="filtergridview">
+                      <NewFilter>true</NewFilter>
+                    </FilterGridViewAp>
+                    <BillListAp action="edit" oid="_BillList_">
+                      <EntityId>484UX4L1YPF5</EntityId>
+                    </BillListAp>
+                  </Items>
+                </FormMetadata>
+              </ListMeta>
+            </BasedataFormAp>
+            <FlexPanelAp action="edit" oid="LL4BVAnADa">
+              <Index action="reset"/>
+            </FlexPanelAp>
+            <FlexPanelAp action="edit" oid="PxNfkkak4s">
+              <Grow>0</Grow>
+              <Index>1</Index>
+              <BackColor>#ffffff</BackColor>
+              <Style>
+                <Style>
+                  <Border>
+                    <Border>
+                      <Top>10px_solid_#E2E7EF</Top>
+                      <Left>10px_solid_#E2E7EF</Left>
+                      <Bottom>10px_solid_#E2E7EF</Bottom>
+                      <Right>10px_solid_#E2E7EF</Right>
+                    </Border>
+                  </Border>
+                  <Padding>
+                    <Padding>
+                      <Left>2px</Left>
+                      <Right action="reset"/>
+                    </Padding>
+                  </Padding>
+                </Style>
+              </Style>
+            </FlexPanelAp>
+            <FieldAp action="edit" oid="h736cFwZ6e">
+              <Invisible>true</Invisible>
+            </FieldAp>
+            <FieldAp action="edit" oid="8oq6R4m9CF">
+              <Invisible>true</Invisible>
+            </FieldAp>
+            <FieldAp action="edit" oid="AkId5S4yTs">
+              <Invisible>true</Invisible>
+            </FieldAp>
+            <FieldAp action="edit" oid="jiRpZNc99A">
+              <Invisible>true</Invisible>
+            </FieldAp>
+            <FieldAp action="edit" oid="ac5Y5Dax1q">
+              <Invisible>true</Invisible>
+            </FieldAp>
+            <FieldAp action="edit" oid="O75mQrM58q">
+              <Invisible>true</Invisible>
+            </FieldAp>
+            <FieldAp>
+              <Id>KSnL7YUkmGiGDyXZgV</Id>
+              <FieldId>KSnL7YUkmGiGDyXZgV</FieldId>
+              <Index>6</Index>
+              <Name>职责/角色</Name>
+              <Key>responsibility</Key>
+              <ParentId>I8M9X0FOPr</ParentId>
+            </FieldAp>
+            <FieldAp>
+              <Id>d8u27YZSPhbzHXtvAx</Id>
+              <FieldId>d8u27YZSPhbzHXtvAx</FieldId>
+              <Index>7</Index>
+              <Name>指标名称</Name>
+              <Key>indicatorname</Key>
+              <ParentId>I8M9X0FOPr</ParentId>
+            </FieldAp>
+            <FieldAp>
+              <Id>p8ceeux4OTg6ORFVV1</Id>
+              <FieldId>p8ceeux4OTg6ORFVV1</FieldId>
+              <Index>8</Index>
+              <Name>指标描述</Name>
+              <Key>indicatordesc</Key>
+              <ParentId>I8M9X0FOPr</ParentId>
+            </FieldAp>
+            <FieldAp>
+              <Id>w5324YSXIlMbMQHfCK</Id>
+              <FieldId>w5324YSXIlMbMQHfCK</FieldId>
+              <Index>9</Index>
+              <Name>指标顺序</Name>
+              <Key>indicatorindex</Key>
+              <ParentId>I8M9X0FOPr</ParentId>
+            </FieldAp>
+            <FieldAp>
+              <Id>TIotfNMbaf</Id>
+              <FieldId>TIotfNMbaf</FieldId>
+              <Index>10</Index>
+              <Name>权重</Name>
+              <Key>indicatorweight</Key>
+              <ParentId>I8M9X0FOPr</ParentId>
+            </FieldAp>
+            <FieldAp>
+              <Id>1tDEAcgK90YahCJ809</Id>
+              <FieldId>1tDEAcgK90YahCJ809</FieldId>
+              <Index>11</Index>
+              <Name>指标分值</Name>
+              <Key>indicatorscore</Key>
+              <ParentId>I8M9X0FOPr</ParentId>
+            </FieldAp>
+            <FieldAp>
+              <Id>WBk55RmLRpC0r0aNfb</Id>
+              <FieldId>WBk55RmLRpC0r0aNfb</FieldId>
+              <Index>12</Index>
+              <Name>等级映射编码</Name>
+              <Key>levelmap</Key>
+              <ParentId>I8M9X0FOPr</ParentId>
+            </FieldAp>
+            <FieldsetPanelAp action="edit" oid="STdfsCCFTj">
+              <Invisible>true</Invisible>
+              <Hidden action="reset"/>
+            </FieldsetPanelAp>
+          </Items>
+        </FormMetadata>
+      </DataXml>
+      <ModifierId>1992915822795867136</ModifierId>
+      <EntityId>484UX4L1YPF5</EntityId>
+      <ModelType>BaseFormModel</ModelType>
+      <Isv>tdkw</Isv>
+      <Version>1723705609483</Version>
+      <ParentId>1942c188000065ac</ParentId>
+      <MasterId></MasterId>
+      <Number>cds0_cea_assessrowimport</Number>
+      <BizappId>4513U+LB/HOD</BizappId>
+      <IsvSign></IsvSign>
+      <Id>484UX4L1YPF5</Id>
+      <InheritPath>1942c188000065ac</InheritPath>
+    </DesignFormMeta>
+    <DesignEntityMeta>
+      <DevType>0</DevType>
+      <ModifyDate>1723705609589</ModifyDate>
+      <DataXml>
+        <EntityMetadata>
+          <Isv>tdkw</Isv>
+          <Id>484UX4L1YPF5</Id>
+          <ParentId>1942c188000065ac</ParentId>
+          <BizappId>4513U+LB/HOD</BizappId>
+          <IsvSign/>
+          <Name>引入测评表行</Name>
+          <InheritPath>1942c188000065ac</InheritPath>
+          <Items>
+            <BaseEntity action="edit" oid="1942c188000066ac">
+              <dbRoute>opmc</dbRoute>
+              <TableName>t_cea_assessformrowfix</TableName>
+              <PermissionItems>
+                <PermissionItem action="remove" oid="47160c2b000000ac"/>
+                <PermissionItem action="remove" oid="47165e8e000000ac"/>
+                <PermissionItem action="remove" oid="47156aff000000ac"/>
+                <PermissionItem action="remove" oid="80513207000000ac"/>
+                <PermissionItem action="remove" oid="4715e1f1000000ac"/>
+                <PermissionItem action="remove" oid="47150e89000000ac"/>
+                <PermissionItem action="remove" oid="804f6478000000ac"/>
+                <PermissionItem action="remove" oid="4730fc5d000000ac"/>
+                <PermissionItem action="remove" oid="4715a0df000000ac"/>
+                <PermissionItem action="remove" oid="47162f66000000ac"/>
+                <PermissionItem action="remove" oid="4730fc9f000003ae"/>
+                <PermissionItem action="remove" oid="4730fc9f000004ae"/>
+              </PermissionItems>
+              <Id>484UX4L1YPF5</Id>
+              <Name>引入测评表行</Name>
+              <PermissionDimension>
+                <PermissionDimension>
+                  <DataAssistDimension/>
+                  <DataDimensionField/>
+                  <PublishApps>[]</PublishApps>
+                  <Name>维度控制</Name>
+                  <DataAssistDimensionField/>
+                  <Id>7ocw00eg</Id>
+                  <DataDimension/>
+                  <DimensionControl>DIM_NULL</DimensionControl>
+                  <Key>permissiondimension</Key>
+                </PermissionDimension>
+              </PermissionDimension>
+              <Template action="reset"/>
+              <PermissionControl>
+                <PermissionControl>
+                  <Id>FOf2nol1</Id>
+                  <ControlFunction action="reset"/>
+                </PermissionControl>
+              </PermissionControl>
+              <Operations>
+                <Operation action="edit" oid="b599405400001aac">
+                  <Plugins>
+                    <Plugin>
+                      <FPK/>
+                      <Description>cds0.opmc.cea.plugin.operate.AssessForImportOp</Description>
+                      <ClassName>cds0.opmc.cea.plugin.operate.AssessForImportOp</ClassName>
+                      <Enabled>true</Enabled>
+                      <BizAppId/>
+                      <RowKey>2</RowKey>
+                    </Plugin>
+                  </Plugins>
+                </Operation>
+              </Operations>
+              <Key>cds0_cea_assessrowimport</Key>
+              <NetworkControl>
+                <NetCtrlOperation>
+                  <OperationKey>submit</OperationKey>
+                  <GroupId>default_netctrl</GroupId>
+                  <Id>c91d5125000034ac</Id>
+                  <Key>default_netctrl_submit</Key>
+                </NetCtrlOperation>
+              </NetworkControl>
+              <DefaultPageSetting>{"mblist":"","pclist":"","pcbill":"","mbbill":""}</DefaultPageSetting>
+              <PkFieldName>fentryid</PkFieldName>
+            </BaseEntity>
+            <TextField action="edit" oid="h736cFwZ6e">
+              <MustInput action="reset"/>
+            </TextField>
+            <MuliLangTextField action="edit" oid="8oq6R4m9CF">
+              <MustInput action="reset"/>
+              <GL>true</GL>
+            </MuliLangTextField>
+            <TextField>
+              <FieldName>findicatorname</FieldName>
+              <Features>
+                <Features>
+                  <Ver>1</Ver>
+                </Features>
+              </Features>
+              <Id>d8u27YZSPhbzHXtvAx</Id>
+              <Key>indicatorname</Key>
+              <Name>指标名称</Name>
+            </TextField>
+            <TextAreaField>
+              <FieldName>findicatordesc</FieldName>
+              <Features>
+                <Features>
+                  <Ver>1</Ver>
+                </Features>
+              </Features>
+              <Id>p8ceeux4OTg6ORFVV1</Id>
+              <Key>indicatordesc</Key>
+              <Name>指标描述</Name>
+              <MaxLength>1000</MaxLength>
+            </TextAreaField>
+            <IntegerField>
+              <FieldName>findicatorindex</FieldName>
+              <Features>
+                <Features>
+                  <Ver>1</Ver>
+                </Features>
+              </Features>
+              <Id>w5324YSXIlMbMQHfCK</Id>
+              <Key>indicatorindex</Key>
+              <DefValue>0</DefValue>
+              <Name>指标顺序</Name>
+            </IntegerField>
+            <TextField>
+              <FieldName>fresponsibility</FieldName>
+              <Features>
+                <Features>
+                  <Ver>1</Ver>
+                </Features>
+              </Features>
+              <Id>KSnL7YUkmGiGDyXZgV</Id>
+              <Key>responsibility</Key>
+              <Name>职责/角色</Name>
+            </TextField>
+            <IntegerField>
+              <FieldName>findicatorscore</FieldName>
+              <Features>
+                <Features>
+                  <Ver>1</Ver>
+                </Features>
+              </Features>
+              <Id>1tDEAcgK90YahCJ809</Id>
+              <Key>indicatorscore</Key>
+              <DefValue>0</DefValue>
+              <Name>指标分值</Name>
+            </IntegerField>
+            <IntegerField>
+              <FieldName>findicatorweight</FieldName>
+              <Features>
+                <Features>
+                  <Ver>1</Ver>
+                </Features>
+              </Features>
+              <Id>TIotfNMbaf</Id>
+              <Key>indicatorweight</Key>
+              <DefValue>0</DefValue>
+              <Name>权重</Name>
+            </IntegerField>
+            <TextField>
+              <FieldName>flevelmap</FieldName>
+              <Features>
+                <Features>
+                  <Ver>1</Ver>
+                </Features>
+              </Features>
+              <Id>WBk55RmLRpC0r0aNfb</Id>
+              <Key>levelmap</Key>
+              <Name>等级映射编码</Name>
+            </TextField>
+          </Items>
+        </EntityMetadata>
+      </DataXml>
+      <ModelType>BaseFormModel</ModelType>
+      <Isv>tdkw</Isv>
+      <Version>1723705609589</Version>
+      <ParentId>1942c188000065ac</ParentId>
+      <MasterId></MasterId>
+      <Number>cds0_cea_assessrowimport</Number>
+      <BizappId>4513U+LB/HOD</BizappId>
+      <Id>484UX4L1YPF5</Id>
+      <InheritPath>1942c188000065ac</InheritPath>
+    </DesignEntityMeta>
+  </DesignMetas>
+  <Version>1723705609483</Version>
+  <BOSVersion>1.0</BOSVersion>
+  <BizunitId>45H2DV8V8L98</BizunitId>
+</DeployMetadata>

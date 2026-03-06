@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DeployMetadata>
+  <MasterId>4CHY=VI5LUFS</MasterId>
+  <Id>4CHY=VI5LUFS</Id>
+  <DesignMetas>
+    <DesignFormMetaL>
+      <Number>tdkw_hlcm_renewbatch</Number>
+      <PkId>4TKO1=BOQ5I5</PkId>
+      <DataXml>
+        <FormMetadata/>
+      </DataXml>
+      <Name>批量劳动合同续签</Name>
+      <Id>4CHY=VI5LUFS</Id>
+      <LocaleId>zh_CN</LocaleId>
+    </DesignFormMetaL>
+    <DesignEntityMetaL>
+      <Number>tdkw_hlcm_renewbatch</Number>
+      <PkId>4TKO1=NVQKEL</PkId>
+      <DataXml>
+        <EntityMetadata/>
+      </DataXml>
+      <Name>批量劳动合同续签</Name>
+      <Id>4CHY=VI5LUFS</Id>
+      <LocaleId>zh_CN</LocaleId>
+    </DesignEntityMetaL>
+  </DesignMetas>
+  <Version>1741919173668</Version>
+  <BOSVersion>1.0</BOSVersion>
+</DeployMetadata>

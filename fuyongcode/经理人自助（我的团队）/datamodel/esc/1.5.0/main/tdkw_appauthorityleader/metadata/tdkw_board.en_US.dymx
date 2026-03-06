@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DeployMetadata>
+  <MasterId>44A8MV44M2N/</MasterId>
+  <Id>44A8MV44M2N/</Id>
+  <DesignMetas>
+    <DesignFormMetaL>
+      <Number>tdkw_board</Number>
+      <PkId>44BN9+CHI8JG</PkId>
+      <DataXml>
+        <FormMetadata>
+          <Name>绩效看板</Name>
+          <Items>
+            <BillFormAp action="edit" oid="00305e8b000005ac">
+              <MobListMeta>
+                <FormMetadata>
+                  <Items>
+                    <CardListColumnAp action="edit" oid="44A8MV5TWK3B">
+                      <Name>Document Status</Name>
+                    </CardListColumnAp>
+                    <CardListColumnAp action="edit" oid="44A8MV5TWKSM">
+                      <Name>Created By.Name</Name>
+                    </CardListColumnAp>
+                    <CardFlexPanelAp action="edit" oid="44A8MV5TWKSL">
+                      <Name>Card Layout Container</Name>
+                    </CardFlexPanelAp>
+                    <MobSortPanelAp action="edit" oid="mobsortpanel">
+                      <Name>Sorting Item 1</Name>
+                    </MobSortPanelAp>
+                    <MobFilterPanelAp action="edit" oid="mobfilterpanel">
+                      <Name>Filter Item 1</Name>
+                    </MobFilterPanelAp>
+                    <MobFilterPanelAp action="edit" oid="44A8MV5TWK3A">
+                      <Name>Filter Item 2</Name>
+                    </MobFilterPanelAp>
+                  </Items>
+                </FormMetadata>
+              </MobListMeta>
+              <Name>绩效看板</Name>
+              <MobMeta>
+                <FormMetadata>
+                  <Items>
+                    <LayoutFlexAp action="edit" oid="44A8MV5TWK38">
+                      <Name>Field Layout Container</Name>
+                    </LayoutFlexAp>
+                    <LayoutFlexAp action="edit" oid="44A8MV5TWKSI">
+                      <Name>Field Layout Container</Name>
+                    </LayoutFlexAp>
+                    <FieldAp action="edit" oid="44A8MV5TWK39">
+                      <Name>Document Status</Name>
+                    </FieldAp>
+                    <FieldAp action="edit" oid="44A8MV5TWKSJ">
+                      <Name>Approved By</Name>
+                    </FieldAp>
+                    <FieldAp action="edit" oid="44A8MV5TWK3=">
+                      <Name>Created By</Name>
+                    </FieldAp>
+                    <MBarItemAp action="edit" oid="44A8MV5TWKSK">
+                      <Name>Submit</Name>
+                    </MBarItemAp>
+                  </Items>
+                </FormMetadata>
+              </MobMeta>
+            </BillFormAp>
+            <EntryAp action="edit" oid="44A8MV5Q95L1">
+              <Name>Grid</Name>
+            </EntryAp>
+            <AdvConSummaryPanelAp action="edit" oid="44A8MV5Q94XQ">
+              <Name>Advanced Panel Summary Container</Name>
+            </AdvConSummaryPanelAp>
+            <AdvConToolbarAp action="edit" oid="44A8MV5Q95L/">
+              <Name>Advanced Panel Toolbar</Name>
+            </AdvConToolbarAp>
+            <AdvConChildPanelAp action="edit" oid="44A8MV5Q94XR">
+              <Name>Advanced Panel Subcontainer</Name>
+            </AdvConChildPanelAp>
+            <AdvConBarItemAp action="edit" oid="44A8MV5Q95L0">
+              <Name>Add Row</Name>
+            </AdvConBarItemAp>
+            <AdvConBarItemAp action="edit" oid="44A8MV5Q94XS">
+              <Name>Delete Row</Name>
+            </AdvConBarItemAp>
+            <EntryFieldAp action="edit" oid="44A8MV5Q94XT">
+              <Name>Modified By</Name>
+            </EntryFieldAp>
+            <EntryFieldAp action="edit" oid="44A8MV5Q95L2">
+              <Name>Modified At</Name>
+            </EntryFieldAp>
+            <FieldAp action="edit" oid="tym6WKKGb1">
+              <Name>HR行政组织</Name>
+            </FieldAp>
+            <AdvConAp action="edit" oid="44A8MV5Q95L+">
+              <Name>Entry</Name>
+            </AdvConAp>
+          </Items>
+        </FormMetadata>
+      </DataXml>
+      <Name>绩效看板</Name>
+      <Id>44A8MV44M2N/</Id>
+      <LocaleId>en_US</LocaleId>
+    </DesignFormMetaL>
+    <DesignEntityMetaL>
+      <Number>tdkw_board</Number>
+      <PkId>44BN9+EMY8GY</PkId>
+      <DataXml>
+        <EntityMetadata>
+          <Name>绩效看板</Name>
+          <Items>
+            <BillEntity action="edit" oid="00305e8b000007ac">
+              <Operations>
+                <Operation action="edit" oid="44A8MV5Q94XU">
+                  <Name>New Entry</Name>
+                </Operation>
+                <Operation action="edit" oid="44A8MV5TWKSH">
+                  <Name>Delete Entry</Name>
+                </Operation>
+              </Operations>
+              <Name>绩效看板</Name>
+            </BillEntity>
+            <EntryEntity action="edit" oid="44A8MV5Q95L1">
+              <Name>Grid</Name>
+            </EntryEntity>
+            <ModifierField action="edit" oid="44A8MV5Q94XT">
+              <Name>Modified By</Name>
+            </ModifierField>
+            <ModifyDateField action="edit" oid="44A8MV5Q95L2">
+              <Name>Modified At</Name>
+            </ModifyDateField>
+            <BasedataField action="edit" oid="tym6WKKGb1">
+              <Name>HR行政组织</Name>
+            </BasedataField>
+          </Items>
+        </EntityMetadata>
+      </DataXml>
+      <Name>绩效看板</Name>
+      <Id>44A8MV44M2N/</Id>
+      <LocaleId>en_US</LocaleId>
+    </DesignEntityMetaL>
+  </DesignMetas>
+  <Version>1716464007629</Version>
+  <BOSVersion>1.0</BOSVersion>
+</DeployMetadata>

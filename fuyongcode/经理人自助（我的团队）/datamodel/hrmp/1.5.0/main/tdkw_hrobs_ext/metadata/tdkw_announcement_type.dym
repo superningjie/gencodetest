@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DeployMetadata>
+  <Multilanguage>false</Multilanguage>
+  <MasterId>3DV/NQB36AG8</MasterId>
+  <BizappId>3==6P77F4X8W</BizappId>
+  <Id>3DV/NQB36AG8</Id>
+  <DesignMetas>
+    <DesignFormMeta>
+      <DevType>0</DevType>
+      <ModifyDate>1725435944472</ModifyDate>
+      <DataXml>
+        <FormMetadata>
+          <Isv>tdkw</Isv>
+          <Id>3DV/NQB36AG8</Id>
+          <Key>tdkw_announcement_type</Key>
+          <EntityId>3DV/NQB36AG8</EntityId>
+          <ParentId>1942c188000065ac</ParentId>
+          <BizappId>3==6P77F4X8W</BizappId>
+          <IsvSign/>
+          <Name>公告类型</Name>
+          <InheritPath>1942c188000065ac</InheritPath>
+          <Items>
+            <BasedataFormAp action="edit" oid="1942c188000064ac">
+              <MobListMeta>
+                <FormMetadata>
+                  <Items>
+                    <BillListAp action="edit" oid="_BillList_">
+                      <EntityId>3DV/NQB36AG8</EntityId>
+                    </BillListAp>
+                  </Items>
+                </FormMetadata>
+              </MobListMeta>
+              <Id>3DV/NQB36AG8</Id>
+              <BackColor>#E2E7EF</BackColor>
+              <Name>公告类型</Name>
+              <Key>tdkw_announcement_type</Key>
+              <ListMeta>
+                <FormMetadata>
+                  <Name>公告类型</Name>
+                  <Items>
+                    <FormAp action="edit" oid="b5994054000024ac">
+                      <Name>公告类型</Name>
+                    </FormAp>
+                    <FilterGridViewAp action="edit" oid="filtergridview">
+                      <NewFilter>true</NewFilter>
+                    </FilterGridViewAp>
+                    <BarItemAp action="edit" oid="C1IXIpJx1c">
+                      <DropdownItems>
+                        <DropdownItem action="remove" oid="PQLEDWKM3DH"/>
+                      </DropdownItems>
+                      <Index action="reset"/>
+                    </BarItemAp>
+                    <BarItemAp action="edit" oid="rQ81rnW9l8">
+                      <Index>1</Index>
+                    </BarItemAp>
+                    <BarItemAp action="edit" oid="ms32Hsufcq">
+                      <DropdownItems>
+                        <DropdownItem action="remove" oid="PQLEDWO8A69"/>
+                      </DropdownItems>
+                      <Index>2</Index>
+                    </BarItemAp>
+                    <BarItemAp action="edit" oid="BTjy6Ie3Bc">
+                      <DropdownItems>
+                        <DropdownItem action="remove" oid="PQLEDWO7JK/"/>
+                      </DropdownItems>
+                      <Index>3</Index>
+                    </BarItemAp>
+                    <BarItemAp action="edit" oid="A3zkgmttgA">
+                      <Index>4</Index>
+                    </BarItemAp>
+                    <BarItemAp action="edit" oid="0gAY5TLeX3">
+                      <Index>5</Index>
+                    </BarItemAp>
+                    <BarItemAp action="edit" oid="UlRxLeBKL1">
+                      <Index>6</Index>
+                    </BarItemAp>
+                    <BillListAp action="edit" oid="_BillList_">
+                      <EntityId>3DV/NQB36AG8</EntityId>
+                    </BillListAp>
+                    <BarItemAp action="remove" oid="FUMD89PFCB"/>
+                    <BarItemAp action="remove" oid="NVARV5u7I4"/>
+                    <BarItemAp action="remove" oid="v71lQcKgcH"/>
+                  </Items>
+                </FormMetadata>
+              </ListMeta>
+            </BasedataFormAp>
+            <FlexPanelAp action="edit" oid="PxNfkkak4s">
+              <Grow>0</Grow>
+              <BackColor>#ffffff</BackColor>
+              <Style>
+                <Style>
+                  <Border>
+                    <Border>
+                      <Top>10px_solid_#E2E7EF</Top>
+                      <Left>10px_solid_#E2E7EF</Left>
+                      <Bottom>10px_solid_#E2E7EF</Bottom>
+                      <Right>10px_solid_#E2E7EF</Right>
+                    </Border>
+                  </Border>
+                  <Padding>
+                    <Padding>
+                      <Left>2px</Left>
+                      <Right action="reset"/>
+                    </Padding>
+                  </Padding>
+                </Style>
+              </Style>
+            </FlexPanelAp>
+            <FieldAp action="edit" oid="AkId5S4yTs">
+              <Invisible>true</Invisible>
+            </FieldAp>
+            <FieldAp action="edit" oid="jiRpZNc99A">
+              <Invisible>true</Invisible>
+            </FieldAp>
+            <FieldAp action="edit" oid="O75mQrM58q">
+              <Invisible>true</Invisible>
+            </FieldAp>
+            <BarItemAp action="edit" oid="4CNTAsZdaN">
+              <DropdownItems>
+                <DropdownItem action="remove" oid="T2KFDA1SF0H"/>
+              </DropdownItems>
+            </BarItemAp>
+            <BarItemAp action="edit" oid="PubXYtLD8J">
+              <Invisible>true</Invisible>
+            </BarItemAp>
+            <BarItemAp action="edit" oid="zlTJbHhEqT">
+              <Invisible>true</Invisible>
+            </BarItemAp>
+            <BarItemAp action="edit" oid="z20rAqlGP8">
+              <DropdownItems>
+                <DropdownItem action="remove" oid="T2KIT9MASWF"/>
+              </DropdownItems>
+            </BarItemAp>
+            <BarItemAp action="edit" oid="8XYTQ7uc8H">
+              <DropdownItems>
+                <DropdownItem action="remove" oid="T2KOBQQZYC3"/>
+              </DropdownItems>
+            </BarItemAp>
+            <BarItemAp action="edit" oid="TK7j147AL2">
+              <Invisible>true</Invisible>
+            </BarItemAp>
+            <FieldsetPanelAp action="edit" oid="STdfsCCFTj">
+              <Invisible>true</Invisible>
+              <Hidden action="reset"/>
+            </FieldsetPanelAp>
+          </Items>
+        </FormMetadata>
+      </DataXml>
+      <ModifierId>1774865593649093632</ModifierId>
+      <EntityId>3DV/NQB36AG8</EntityId>
+      <ModelType>BaseFormModel</ModelType>
+      <Isv>tdkw</Isv>
+      <Version>1725435944472</Version>
+      <ParentId>1942c188000065ac</ParentId>
+      <MasterId></MasterId>
+      <Number>tdkw_announcement_type</Number>
+      <BizappId>3==6P77F4X8W</BizappId>
+      <IsvSign></IsvSign>
+      <Id>3DV/NQB36AG8</Id>
+      <InheritPath>1942c188000065ac</InheritPath>
+    </DesignFormMeta>
+    <DesignEntityMeta>
+      <DevType>0</DevType>
+      <ModifyDate>1725435944493</ModifyDate>
+      <DataXml>
+        <EntityMetadata>
+          <Isv>tdkw</Isv>
+          <Id>3DV/NQB36AG8</Id>
+          <ParentId>1942c188000065ac</ParentId>
+          <BizappId>3==6P77F4X8W</BizappId>
+          <IsvSign/>
+          <Name>公告类型</Name>
+          <InheritPath>1942c188000065ac</InheritPath>
+          <Items>
+            <BaseEntity action="edit" oid="1942c188000066ac">
+              <dbRoute>hmp</dbRoute>
+              <TableName>tk_tdkw_announcement_type</TableName>
+              <Id>3DV/NQB36AG8</Id>
+              <Name>公告类型</Name>
+              <Template action="reset"/>
+              <Operations>
+                <Operation action="edit" oid="b5994054000016ac">
+                  <LogEnable>true</LogEnable>
+                </Operation>
+                <Operation action="edit" oid="b5994054000017ac">
+                  <LogEnable>true</LogEnable>
+                </Operation>
+              </Operations>
+              <BusinessControl>
+                <BusinessControl>
+                  <CodeNumber>true</CodeNumber>
+                  <WorkFlow>false</WorkFlow>
+                </BusinessControl>
+              </BusinessControl>
+              <Key>tdkw_announcement_type</Key>
+              <NetworkControl>
+                <NetCtrlOperation>
+                  <OperationKey>submit</OperationKey>
+                  <GroupId>default_netctrl</GroupId>
+                  <Id>c91d5125000034ac</Id>
+                  <Key>default_netctrl_submit</Key>
+                </NetCtrlOperation>
+              </NetworkControl>
+              <DefaultPageSetting>{"mblist":"","pclist":"","pcbill":"","mbbill":""}</DefaultPageSetting>
+            </BaseEntity>
+            <MuliLangTextField action="edit" oid="8oq6R4m9CF">
+              <GL>true</GL>
+            </MuliLangTextField>
+          </Items>
+        </EntityMetadata>
+      </DataXml>
+      <ModelType>BaseFormModel</ModelType>
+      <Isv>tdkw</Isv>
+      <Version>1725435944493</Version>
+      <ParentId>1942c188000065ac</ParentId>
+      <MasterId></MasterId>
+      <Number>tdkw_announcement_type</Number>
+      <BizappId>3==6P77F4X8W</BizappId>
+      <Id>3DV/NQB36AG8</Id>
+      <InheritPath>1942c188000065ac</InheritPath>
+    </DesignEntityMeta>
+  </DesignMetas>
+  <Version>1725435944472</Version>
+  <BOSVersion>1.0</BOSVersion>
+  <BizunitId>2W6G4T/FX+WF</BizunitId>
+</DeployMetadata>

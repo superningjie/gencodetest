@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DeployMetadata>
+  <Id>18Y2T5WS5AFV</Id>
+  <DesignMetas>
+    <DesignCloudMetaL>
+      <PkId>18Y2T5WVTRAM</PkId>
+      <Name>员工服务云</Name>
+      <Description>员工服务云面向用户提供各类业务申请、进度查询和个人业务报表一站式服务，包括经营类服务和后勤行政类服务，是企业对外服务的统一平台。</Description>
+      <Id>18Y2T5WS5AFV</Id>
+      <LocaleId>zh_CN</LocaleId>
+    </DesignCloudMetaL>
+  </DesignMetas>
+  <BOSVersion>1.0</BOSVersion>
+</DeployMetadata>

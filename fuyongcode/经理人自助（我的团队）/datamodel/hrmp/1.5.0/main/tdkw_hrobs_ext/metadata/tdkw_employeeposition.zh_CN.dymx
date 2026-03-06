@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DeployMetadata>
+  <MasterId>3=3PAU3XF50P</MasterId>
+  <Id>3=3PAU3XF50P</Id>
+  <DesignMetas>
+    <DesignFormMetaL>
+      <Number>tdkw_employeeposition</Number>
+      <PkId>3E2I2CLWNM3G</PkId>
+      <DataXml>
+        <FormMetadata/>
+      </DataXml>
+      <Name>员工用户组识别</Name>
+      <Id>3=3PAU3XF50P</Id>
+      <LocaleId>zh_CN</LocaleId>
+    </DesignFormMetaL>
+    <DesignEntityMetaL>
+      <Number>tdkw_employeeposition</Number>
+      <PkId>3E2I2CNG=P1F</PkId>
+      <DataXml>
+        <EntityMetadata/>
+      </DataXml>
+      <Name>员工用户组识别</Name>
+      <Id>3=3PAU3XF50P</Id>
+      <LocaleId>zh_CN</LocaleId>
+    </DesignEntityMetaL>
+  </DesignMetas>
+  <Version>1689040349149</Version>
+  <BOSVersion>1.0</BOSVersion>
+</DeployMetadata>

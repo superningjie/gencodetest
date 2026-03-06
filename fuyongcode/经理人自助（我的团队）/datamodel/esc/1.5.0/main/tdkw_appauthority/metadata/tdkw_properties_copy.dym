@@ -1,0 +1,450 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DeployMetadata>
+  <Multilanguage>false</Multilanguage>
+  <MasterId>3E71Q7JA939D</MasterId>
+  <BizappId>3C438QESNO1T</BizappId>
+  <Id>3E71Q7JA939D</Id>
+  <DesignMetas>
+    <DesignFormMeta>
+      <DevType>0</DevType>
+      <ModifyDate>1689165613689</ModifyDate>
+      <DataXml>
+        <FormMetadata>
+          <Isv>tdkw</Isv>
+          <Id>3E71Q7JA939D</Id>
+          <Key>tdkw_properties_copy</Key>
+          <EntityId>3E71Q7JA939D</EntityId>
+          <ParentId>1942c188000065ac</ParentId>
+          <BizappId>3C438QESNO1T</BizappId>
+          <IsvSign/>
+          <Name>参数配置_复制</Name>
+          <InheritPath>1942c188000065ac</InheritPath>
+          <Items>
+            <BasedataFormAp action="edit" oid="1942c188000064ac">
+              <Plugins>
+                <Plugin action="edit" oid="kd.bos.form.plugin.CodeRulePlugin">
+                  <FPK/>
+                  <Description/>
+                  <BizAppId/>
+                </Plugin>
+                <Plugin action="edit" oid="dev.tpl.base.kd.bos.form.plugin.templatebaseedit">
+                  <Description/>
+                  <RowKey>1</RowKey>
+                </Plugin>
+              </Plugins>
+              <AlignContent>flex-start</AlignContent>
+              <MobListMeta>
+                <FormMetadata>
+                  <Items>
+                    <BillListAp action="edit" oid="_BillList_">
+                      <EntityId>3E71Q7JA939D</EntityId>
+                    </BillListAp>
+                  </Items>
+                </FormMetadata>
+              </MobListMeta>
+              <Id>3E71Q7JA939D</Id>
+              <Height/>
+              <AlignItems>flex-start</AlignItems>
+              <Shrink>0</Shrink>
+              <JustifyContent>flex-start</JustifyContent>
+              <Name>参数配置_复制</Name>
+              <Key>tdkw_properties_copy</Key>
+              <Direction action="reset"/>
+              <ListMeta>
+                <FormMetadata>
+                  <Name>参数列表</Name>
+                  <Items>
+                    <FormAp action="edit" oid="b5994054000024ac">
+                      <Name>参数列表</Name>
+                    </FormAp>
+                    <BarItemAp>
+                      <OperationKey>modify</OperationKey>
+                      <Id>5MZDlUsgR3</Id>
+                      <Key>modify</Key>
+                      <OperationStyle>0</OperationStyle>
+                      <Index>2</Index>
+                      <ParentId>_toolbar_</ParentId>
+                      <Name>修改</Name>
+                    </BarItemAp>
+                    <BillListAp action="edit" oid="_BillList_">
+                      <EntityId>05SKPBOU3=AU</EntityId>
+                    </BillListAp>
+                    <FilterColumnAp>
+                      <FieldName>number</FieldName>
+                      <Id>05Y71H2UFAX0</Id>
+                      <Key>filtercolumnap</Key>
+                      <ParentId>fastsearchgridview</ParentId>
+                      <Name>编码（参数key）</Name>
+                    </FilterColumnAp>
+                    <FilterColumnAp action="edit" oid="3c48f498000026ac">
+                      <Index>1</Index>
+                    </FilterColumnAp>
+                    <DateListColumnAp>
+                      <SeqColumnType>NotSeq</SeqColumnType>
+                      <Id>23XC=DX8RMGN</Id>
+                      <Key>tdkw_datelistcolumnap</Key>
+                      <Order>NotOrder</Order>
+                      <Index>4</Index>
+                      <ParentId>gridview</ParentId>
+                      <ListFieldId>createtime</ListFieldId>
+                      <Name>创建时间</Name>
+                    </DateListColumnAp>
+                    <DateListColumnAp>
+                      <SeqColumnType>NotSeq</SeqColumnType>
+                      <Id>23XC=FNS4WJF</Id>
+                      <Key>tdkw_datelistcolumnap1</Key>
+                      <Order>NotOrder</Order>
+                      <Index>5</Index>
+                      <ParentId>gridview</ParentId>
+                      <ListFieldId>modifytime</ListFieldId>
+                      <Name>修改时间</Name>
+                    </DateListColumnAp>
+                    <ListColumnAp>
+                      <SeqColumnType>NotSeq</SeqColumnType>
+                      <Id>23XCCONP3TS0</Id>
+                      <Key>tdkw_listcolumnap</Key>
+                      <Order>NotOrder</Order>
+                      <Index>6</Index>
+                      <ParentId>gridview</ParentId>
+                      <ListFieldId>creator.name</ListFieldId>
+                      <Name>创建人.姓名</Name>
+                    </ListColumnAp>
+                    <ListColumnAp>
+                      <SeqColumnType>NotSeq</SeqColumnType>
+                      <Id>23XCCQ01FW8J</Id>
+                      <Key>tdkw_listcolumnap1</Key>
+                      <Order>NotOrder</Order>
+                      <Index>7</Index>
+                      <ParentId>gridview</ParentId>
+                      <ListFieldId>modifier.name</ListFieldId>
+                      <Name>修改人.姓名</Name>
+                    </ListColumnAp>
+                    <SchemeFilterColumnAp>
+                      <FieldName>number</FieldName>
+                      <Id>05Y70MHTO7+4</Id>
+                      <Key>schemefiltercolumnap1</Key>
+                      <Index>1</Index>
+                      <ParentId>schemefilterview</ParentId>
+                      <Name>编码（参数key）</Name>
+                    </SchemeFilterColumnAp>
+                    <SchemeFilterColumnAp>
+                      <FieldName>name</FieldName>
+                      <Id>05Y70T0K+VGI</Id>
+                      <Key>schemefiltercolumnap2</Key>
+                      <Index>2</Index>
+                      <ParentId>schemefilterview</ParentId>
+                      <Name>名称</Name>
+                    </SchemeFilterColumnAp>
+                    <BarItemAp action="remove" oid="rQ81rnW9l8"/>
+                    <FilterColumnAp action="remove" oid="3c48f498000025ac"/>
+                  </Items>
+                </FormMetadata>
+              </ListMeta>
+              <Wrap action="reset"/>
+            </BasedataFormAp>
+            <FlexPanelAp action="edit" oid="PxNfkkak4s">
+              <JustifyContent>flex-start</JustifyContent>
+            </FlexPanelAp>
+            <FieldAp action="edit" oid="h736cFwZ6e">
+              <Name>编码（参数key）</Name>
+            </FieldAp>
+            <FieldAp action="edit" oid="ac5Y5Dax1q">
+              <Index>3</Index>
+            </FieldAp>
+            <FieldAp action="edit" oid="O75mQrM58q">
+              <Index>4</Index>
+            </FieldAp>
+            <FieldAp>
+              <Id>0wM6CxL9Lm</Id>
+              <FieldId>0wM6CxL9Lm</FieldId>
+              <Index>5</Index>
+              <Name>参数值</Name>
+              <Key>tdkw_bigvalue</Key>
+              <ParentId>I8M9X0FOPr</ParentId>
+            </FieldAp>
+            <FieldAp>
+              <Id>UOTxAs8Qlj</Id>
+              <FieldId>UOTxAs8Qlj</FieldId>
+              <Index>6</Index>
+              <Name>备注</Name>
+              <Key>tdkw_mark</Key>
+              <ParentId>I8M9X0FOPr</ParentId>
+            </FieldAp>
+            <FieldAp action="edit" oid="jiRpZNc99A">
+              <Index>7</Index>
+            </FieldAp>
+            <BarItemAp action="edit" oid="V8H211iajj">
+              <Invisible>true</Invisible>
+            </BarItemAp>
+            <BarItemAp action="edit" oid="PubXYtLD8J">
+              <Index>2</Index>
+            </BarItemAp>
+            <BarItemAp>
+              <OperationKey>save</OperationKey>
+              <Id>RoyKMpeSr1</Id>
+              <Key>bar_save1</Key>
+              <Visible>init,new,edit</Visible>
+              <OperationStyle>0</OperationStyle>
+              <Index>3</Index>
+              <ParentId>IDHr4o2NNH</ParentId>
+              <CommitValidate>true</CommitValidate>
+              <Name>保存</Name>
+            </BarItemAp>
+            <BarItemAp action="edit" oid="ZcIwi70dTc">
+              <Index>4</Index>
+              <Name>保存(参数值加密)</Name>
+            </BarItemAp>
+            <BarItemAp action="edit" oid="zlTJbHhEqT">
+              <Index>5</Index>
+            </BarItemAp>
+            <BarItemAp action="edit" oid="z20rAqlGP8">
+              <Index>6</Index>
+            </BarItemAp>
+            <BarItemAp action="edit" oid="8XYTQ7uc8H">
+              <Index>7</Index>
+            </BarItemAp>
+            <BarItemAp action="edit" oid="HVX5nv5C2i">
+              <Index>8</Index>
+            </BarItemAp>
+            <BarItemAp action="edit" oid="TK7j147AL2">
+              <Index>9</Index>
+            </BarItemAp>
+            <BarItemAp action="edit" oid="evV9jbiOYW">
+              <Index>10</Index>
+            </BarItemAp>
+            <ToolbarAp action="edit" oid="IDHr4o2NNH">
+              <Style>
+                <Style>
+                  <Margin>
+                    <Margin>
+                      <Left>40px</Left>
+                    </Margin>
+                  </Margin>
+                </Style>
+              </Style>
+            </ToolbarAp>
+            <FlexPanelAp action="edit" oid="ojEchAUgVf">
+              <Style>
+                <Style>
+                  <Padding>
+                    <Padding>
+                      <Right>040px</Right>
+                    </Padding>
+                  </Padding>
+                </Style>
+              </Style>
+            </FlexPanelAp>
+            <FieldsetPanelAp action="edit" oid="I8M9X0FOPr">
+              <Grow>0</Grow>
+              <Shrink>0</Shrink>
+              <Index action="reset"/>
+            </FieldsetPanelAp>
+            <FieldsetPanelAp action="edit" oid="STdfsCCFTj">
+              <Index>1</Index>
+            </FieldsetPanelAp>
+          </Items>
+        </FormMetadata>
+      </DataXml>
+      <ModifierId>1681098732466095104</ModifierId>
+      <EntityId>3E71Q7JA939D</EntityId>
+      <ModelType>BaseFormModel</ModelType>
+      <Isv>tdkw</Isv>
+      <Version>1689165613689</Version>
+      <ParentId>1942c188000065ac</ParentId>
+      <MasterId></MasterId>
+      <Number>tdkw_properties_copy</Number>
+      <BizappId>3C438QESNO1T</BizappId>
+      <IsvSign></IsvSign>
+      <Id>3E71Q7JA939D</Id>
+      <InheritPath>1942c188000065ac</InheritPath>
+    </DesignFormMeta>
+    <DesignEntityMeta>
+      <DevType>0</DevType>
+      <ModifyDate>1689165613778</ModifyDate>
+      <DataXml>
+        <EntityMetadata>
+          <Isv>tdkw</Isv>
+          <Id>3E71Q7JA939D</Id>
+          <ParentId>1942c188000065ac</ParentId>
+          <BizappId>3C438QESNO1T</BizappId>
+          <IsvSign/>
+          <Name>参数配置_复制</Name>
+          <InheritPath>1942c188000065ac</InheritPath>
+          <Items>
+            <BaseEntity action="edit" oid="1942c188000066ac">
+              <dbRoute>secd</dbRoute>
+              <TableName>t_tdkw_properties_copy</TableName>
+              <PermissionItems>
+                <PermissionItem action="edit" oid="47165e8e000000ac">
+                  <Index>2</Index>
+                </PermissionItem>
+                <PermissionItem action="edit" oid="47156aff000000ac">
+                  <Index>4</Index>
+                </PermissionItem>
+                <PermissionItem action="edit" oid="80513207000000ac">
+                  <Index>5</Index>
+                </PermissionItem>
+                <PermissionItem action="edit" oid="4715e1f1000000ac">
+                  <Index>6</Index>
+                </PermissionItem>
+                <PermissionItem action="edit" oid="47150e89000000ac">
+                  <Index>7</Index>
+                </PermissionItem>
+                <PermissionItem action="edit" oid="804f6478000000ac">
+                  <Index>8</Index>
+                </PermissionItem>
+                <PermissionItem action="edit" oid="4730fc5d000000ac">
+                  <Index>9</Index>
+                </PermissionItem>
+                <PermissionItem action="edit" oid="4715a0df000000ac">
+                  <Index>10</Index>
+                </PermissionItem>
+                <PermissionItem action="edit" oid="47162f66000000ac">
+                  <Index>11</Index>
+                </PermissionItem>
+                <PermissionItem action="edit" oid="4730fc9f000003ae">
+                  <Index>3</Index>
+                </PermissionItem>
+                <PermissionItem action="edit" oid="4730fc9f000004ae">
+                  <Index>1</Index>
+                </PermissionItem>
+              </PermissionItems>
+              <Id>3E71Q7JA939D</Id>
+              <Name>参数配置_复制</Name>
+              <PermissionDimension>
+                <PermissionDimension>
+                  <DataDimensionField/>
+                  <PublishApps>[]</PublishApps>
+                  <Name>维度控制</Name>
+                  <Id>S3Q1LwxX</Id>
+                  <DataDimension/>
+                  <DimensionControl>DIM_ORG</DimensionControl>
+                  <Key>permissiondimension</Key>
+                </PermissionDimension>
+              </PermissionDimension>
+              <Template action="reset"/>
+              <PermissionControl>
+                <PermissionControl>
+                  <Id>CCP70JZc</Id>
+                  <ControlFunction action="reset"/>
+                </PermissionControl>
+              </PermissionControl>
+              <Operations>
+                <Operation action="edit" oid="b599405400001aac">
+                  <Validations>
+                    <GrpfieldsuniqueValidation>
+                      <Description>组合字段唯一性校验</Description>
+                      <Enabled>true</Enabled>
+                      <RuleType>GroupFieldUnique</RuleType>
+                      <Id>070A1/5UQ6EP</Id>
+                      <Fields>
+                        <FieldId>
+                          <Id>number</Id>
+                        </FieldId>
+                      </Fields>
+                    </GrpfieldsuniqueValidation>
+                  </Validations>
+                </Operation>
+                <Operation>
+                  <ConfirmMsg/>
+                  <Parameter>
+                    <NewEntryParameter>
+                      <EntryId>Ae1Xlnh22g</EntryId>
+                    </NewEntryParameter>
+                  </Parameter>
+                  <Name>新增分录</Name>
+                  <OperationType>newentry</OperationType>
+                  <Id>1PRSNKPJLABD</Id>
+                  <SuccessMsg/>
+                  <Key>newentry</Key>
+                </Operation>
+                <Operation>
+                  <ConfirmMsg/>
+                  <Parameter>
+                    <EntryOpParameter>
+                      <EntryId>Ae1Xlnh22g</EntryId>
+                    </EntryOpParameter>
+                  </Parameter>
+                  <Name>删除分录</Name>
+                  <LogEnable>true</LogEnable>
+                  <OperationType>deleteentry</OperationType>
+                  <Id>1RFQSCD58BU6</Id>
+                  <SuccessMsg/>
+                  <Key>deleteentry</Key>
+                </Operation>
+                <Operation>
+                  <ConfirmMsg/>
+                  <Parameter>
+                    <NewEntryParameter>
+                      <EntryId>CVtoCDXPE5</EntryId>
+                    </NewEntryParameter>
+                  </Parameter>
+                  <Name>新增分录</Name>
+                  <OperationType>newentry</OperationType>
+                  <Id>2D3MGPZCMXT9</Id>
+                  <SuccessMsg/>
+                  <Key>newentrycheckmsg</Key>
+                </Operation>
+                <Operation>
+                  <ConfirmMsg/>
+                  <Parameter>
+                    <EntryOpParameter>
+                      <EntryId>CVtoCDXPE5</EntryId>
+                    </EntryOpParameter>
+                  </Parameter>
+                  <Name>删除分录</Name>
+                  <OperationType>deleteentry</OperationType>
+                  <Id>2D3MHSGTUTTU</Id>
+                  <SuccessMsg/>
+                  <Key>deleteentrycheckmsg</Key>
+                </Operation>
+              </Operations>
+              <Key>tdkw_properties_copy</Key>
+              <DefaultPageSetting>{"mblist":"","pclist":"","pcbill":"","mbbill":""}</DefaultPageSetting>
+            </BaseEntity>
+            <TextField action="edit" oid="h736cFwZ6e">
+              <Name>编码（参数key）</Name>
+            </TextField>
+            <TextField>
+              <FieldName>fk_tdkw_mark</FieldName>
+              <Features>
+                <Features>
+                  <Ver>1</Ver>
+                </Features>
+              </Features>
+              <Id>UOTxAs8Qlj</Id>
+              <Key>tdkw_mark</Key>
+              <Name>备注</Name>
+              <MaxLength>1000</MaxLength>
+            </TextField>
+            <LargeTextField>
+              <Features>
+                <Features>
+                  <Ver>1</Ver>
+                </Features>
+              </Features>
+              <Id>0wM6CxL9Lm</Id>
+              <EditingMode>largeText</EditingMode>
+              <Name>参数值</Name>
+              <FieldName>fk_tdkw_bigvalue</FieldName>
+              <Key>tdkw_bigvalue</Key>
+            </LargeTextField>
+          </Items>
+        </EntityMetadata>
+      </DataXml>
+      <ModelType>BaseFormModel</ModelType>
+      <Isv>tdkw</Isv>
+      <Version>1689165613778</Version>
+      <ParentId>1942c188000065ac</ParentId>
+      <MasterId></MasterId>
+      <Number>tdkw_properties_copy</Number>
+      <BizappId>3C438QESNO1T</BizappId>
+      <Id>3E71Q7JA939D</Id>
+      <InheritPath>1942c188000065ac</InheritPath>
+    </DesignEntityMeta>
+  </DesignMetas>
+  <Version>1689165613689</Version>
+  <BOSVersion>1.0</BOSVersion>
+  <BizunitId>3C438QGQTD3K</BizunitId>
+</DeployMetadata>

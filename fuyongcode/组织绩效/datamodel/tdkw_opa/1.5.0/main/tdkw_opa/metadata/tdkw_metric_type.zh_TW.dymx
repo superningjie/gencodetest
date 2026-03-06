@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DeployMetadata>
+  <MasterId>4=XG6A4++B=N</MasterId>
+  <Id>4=XG6A4++B=N</Id>
+  <DesignMetas>
+    <DesignFormMetaL>
+      <Number>tdkw_metric_type</Number>
+      <PkId>4CSG7NYR3Z/U</PkId>
+      <DataXml>
+        <FormMetadata>
+          <Name>指標類型</Name>
+          <Items>
+            <BasedataFormAp action="edit" oid="1942c188000064ac">
+              <Name>指標類型</Name>
+              <ListMeta>
+                <FormMetadata>
+                  <Items>
+                    <BarItemAp action="edit" oid="A3zkgmttgA">
+                      <DropdownItems>
+                        <DropdownItem action="edit" oid="4C4+0RRRQ5BQ">
+                          <Title>禁用</Title>
+                        </DropdownItem>
+                      </DropdownItems>
+                    </BarItemAp>
+                    <ComboListColumnAp action="edit" oid="4AXGM2FRSV22">
+                      <Name>數據狀態</Name>
+                    </ComboListColumnAp>
+                  </Items>
+                </FormMetadata>
+              </ListMeta>
+            </BasedataFormAp>
+          </Items>
+        </FormMetadata>
+      </DataXml>
+      <Name>指標類型</Name>
+      <Id>4=XG6A4++B=N</Id>
+      <LocaleId>zh_TW</LocaleId>
+    </DesignFormMetaL>
+    <DesignEntityMetaL>
+      <Number>tdkw_metric_type</Number>
+      <PkId>4CSG7O3Q20FI</PkId>
+      <DataXml>
+        <EntityMetadata>
+          <Name>指標類型</Name>
+          <Items>
+            <BaseEntity action="edit" oid="1942c188000066ac">
+              <Name>指標類型</Name>
+              <Operations>
+                <Operation action="edit" oid="b599405400001aac">
+                  <Validations>
+                    <GrpfieldsuniqueValidation action="edit" oid="4CSG7BX0ECU1">
+                      <Description>組合字段唯一性校驗</Description>
+                    </GrpfieldsuniqueValidation>
+                  </Validations>
+                </Operation>
+              </Operations>
+            </BaseEntity>
+          </Items>
+        </EntityMetadata>
+      </DataXml>
+      <Name>指標類型</Name>
+      <Id>4=XG6A4++B=N</Id>
+      <LocaleId>zh_TW</LocaleId>
+    </DesignEntityMetaL>
+  </DesignMetas>
+  <Version>1725616228341</Version>
+  <BOSVersion>1.0</BOSVersion>
+</DeployMetadata>

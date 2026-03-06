@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DeployMetadata>
+  <MasterId>3DU8G8AU=C3O</MasterId>
+  <Id>3DU8G8AU=C3O</Id>
+  <DesignMetas>
+    <DesignFormMetaL>
+      <Number>tdkw_attendancecalendar</Number>
+      <PkId>4KPQL9BDXJY2</PkId>
+      <DataXml>
+        <FormMetadata/>
+      </DataXml>
+      <Name>考勤日历</Name>
+      <Id>3DU8G8AU=C3O</Id>
+      <LocaleId>zh_CN</LocaleId>
+    </DesignFormMetaL>
+    <DesignEntityMetaL>
+      <Number>tdkw_attendancecalendar</Number>
+      <PkId>4KPQL9CET3CG</PkId>
+      <DataXml>
+        <EntityMetadata/>
+      </DataXml>
+      <Name>考勤日历</Name>
+      <Id>3DU8G8AU=C3O</Id>
+      <LocaleId>zh_CN</LocaleId>
+    </DesignEntityMetaL>
+  </DesignMetas>
+  <Version>1733311496422</Version>
+  <BOSVersion>1.0</BOSVersion>
+</DeployMetadata>

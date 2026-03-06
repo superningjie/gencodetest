@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DeployMetadata>
+  <Multilanguage>false</Multilanguage>
+  <MasterId>3ZRAV/O2XJOM</MasterId>
+  <BizappId>4E/7AN1DAFA1</BizappId>
+  <Id>3ZRAV/O2XJOM</Id>
+  <DesignMetas>
+    <DesignFormMeta>
+      <DevType>0</DevType>
+      <ModifyDate>1730282566349</ModifyDate>
+      <DataXml>
+        <FormMetadata>
+          <Isv>tdkw</Isv>
+          <Id>3ZRAV/O2XJOM</Id>
+          <Key>dgdl_haos_adminorglis_inh</Key>
+          <EntityId>3ZRAV/O2XJOM</EntityId>
+          <ParentId>2BEN1QKHYHE+</ParentId>
+          <BizappId>4E/7AN1DAFA1</BizappId>
+          <IsvSign/>
+          <Name>月度行政组织树列表</Name>
+          <InheritPath>2B9=DMZVK591,2BEN1QKHYHE+</InheritPath>
+          <Items>
+            <FormAp action="edit" oid="2B9=DMZVI/3/">
+              <Plugins>
+                <Plugin action="edit" oid="kd.hr.haos.formplugin.web.adminorg.AdminOrgPermTreeListPlugin">
+                  <Description>月度行政组织树列表插件</Description>
+                  <Enabled action="reset"/>
+                </Plugin>
+                <Plugin>
+                  <FPK/>
+                  <Description>月度树插件</Description>
+                  <ClassName>dgdl.odc.homs.listPlugin.PlanMonthTreeListPlugin</ClassName>
+                  <Enabled>true</Enabled>
+                  <BizAppId/>
+                  <RowKey>1</RowKey>
+                </Plugin>
+              </Plugins>
+              <Id>3ZRAV/O2XJOM</Id>
+              <Name>月度行政组织树列表</Name>
+              <Key>dgdl_haos_adminorglis_inh</Key>
+            </FormAp>
+            <FlexPanelAp action="edit" oid="2b2LjOkMRq">
+              <Invisible>true</Invisible>
+            </FlexPanelAp>
+            <FlexPanelAp action="edit" oid="R5mhZfNKY2">
+              <Overflow>visible</Overflow>
+            </FlexPanelAp>
+            <SearchAp action="edit" oid="LkHyGocBfx">
+              <Invisible>true</Invisible>
+              <Grow>0</Grow>
+              <Shrink>0</Shrink>
+              <Width>240px</Width>
+            </SearchAp>
+            <VectorAp action="edit" oid="4JH1VCEvw3">
+              <Invisible>true</Invisible>
+            </VectorAp>
+            <SplitPanelAp action="edit" oid="45OyJ6pJxh">
+              <DefaultCollapse>true</DefaultCollapse>
+            </SplitPanelAp>
+          </Items>
+        </FormMetadata>
+      </DataXml>
+      <ModifierId>2027699484829418496</ModifierId>
+      <EntityId>3ZRAV/O2XJOM</EntityId>
+      <ModelType>DynamicFormModel</ModelType>
+      <Isv>tdkw</Isv>
+      <Version>1730282566349</Version>
+      <ParentId>2BEN1QKHYHE+</ParentId>
+      <MasterId></MasterId>
+      <Number>dgdl_haos_adminorglis_inh</Number>
+      <BizappId>4E/7AN1DAFA1</BizappId>
+      <IsvSign></IsvSign>
+      <Id>3ZRAV/O2XJOM</Id>
+      <InheritPath>2B9=DMZVK591,2BEN1QKHYHE+</InheritPath>
+    </DesignFormMeta>
+    <DesignEntityMeta>
+      <DevType>0</DevType>
+      <ModifyDate>1730282566405</ModifyDate>
+      <DataXml>
+        <EntityMetadata>
+          <Isv>tdkw</Isv>
+          <Id>3ZRAV/O2XJOM</Id>
+          <ParentId>2BEN1QKHYHE+</ParentId>
+          <BizappId>4E/7AN1DAFA1</BizappId>
+          <IsvSign/>
+          <Name>月度行政组织树列表</Name>
+          <InheritPath>2B9=DMZVK591,2BEN1QKHYHE+</InheritPath>
+          <Items>
+            <MainEntity action="edit" oid="2B9=DN+E9H92">
+              <Id>3ZRAV/O2XJOM</Id>
+              <Key>dgdl_haos_adminorglis_inh</Key>
+              <Name>月度行政组织树列表</Name>
+            </MainEntity>
+          </Items>
+        </EntityMetadata>
+      </DataXml>
+      <ModelType>DynamicFormModel</ModelType>
+      <Isv>tdkw</Isv>
+      <Version>1730282566405</Version>
+      <ParentId>2BEN1QKHYHE+</ParentId>
+      <MasterId></MasterId>
+      <Number>dgdl_haos_adminorglis_inh</Number>
+      <BizappId>4E/7AN1DAFA1</BizappId>
+      <Id>3ZRAV/O2XJOM</Id>
+      <InheritPath>2B9=DMZVK591,2BEN1QKHYHE+</InheritPath>
+    </DesignEntityMeta>
+  </DesignMetas>
+  <Version>1730282566349</Version>
+  <BOSVersion>1.0</BOSVersion>
+  <BizunitId>4HKZ/X71T/VS</BizunitId>
+</DeployMetadata>

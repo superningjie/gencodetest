@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DeployMetadata>
+  <MasterId>3FFJ+4Q867TO</MasterId>
+  <Id>3FFJ+4Q867TO</Id>
+  <DesignMetas>
+    <DesignFormMetaL>
+      <Number>tdkw_myteam_epsilon</Number>
+      <PkId>3HY=S2CZLIE8</PkId>
+      <DataXml>
+        <FormMetadata/>
+      </DataXml>
+      <Name>我的团队</Name>
+      <Id>3FFJ+4Q867TO</Id>
+      <LocaleId>zh_CN</LocaleId>
+    </DesignFormMetaL>
+    <DesignEntityMetaL>
+      <Number>tdkw_myteam_epsilon</Number>
+      <PkId>3HY=S2JGG/SE</PkId>
+      <DataXml>
+        <EntityMetadata/>
+      </DataXml>
+      <Name>我的团队</Name>
+      <Id>3FFJ+4Q867TO</Id>
+      <LocaleId>zh_CN</LocaleId>
+    </DesignEntityMetaL>
+  </DesignMetas>
+  <Version>1692767397958</Version>
+  <BOSVersion>1.0</BOSVersion>
+</DeployMetadata>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DeployMetadata>
+  <MasterId>3KETR0=/0EFM</MasterId>
+  <Id>4/8DXP=HVJ7=</Id>
+  <DesignMetas>
+    <DesignFormMetaL>
+      <Number>dgdl_hbpm_positionorg_ext</Number>
+      <PkId>4HL/50O07WZ9</PkId>
+      <DataXml>
+        <FormMetadata/>
+      </DataXml>
+      <Name>岗位组织树列表</Name>
+      <Id>4/8DXP=HVJ7=</Id>
+      <LocaleId>zh_CN</LocaleId>
+    </DesignFormMetaL>
+    <DesignEntityMetaL>
+      <Number>dgdl_hbpm_positionorg_ext</Number>
+      <PkId>4HL/50TWO1RU</PkId>
+      <DataXml>
+        <EntityMetadata/>
+      </DataXml>
+      <Name>岗位组织树列表</Name>
+      <Id>4/8DXP=HVJ7=</Id>
+      <LocaleId>zh_CN</LocaleId>
+    </DesignEntityMetaL>
+  </DesignMetas>
+  <Version>1730282584882</Version>
+  <BOSVersion>1.0</BOSVersion>
+</DeployMetadata>

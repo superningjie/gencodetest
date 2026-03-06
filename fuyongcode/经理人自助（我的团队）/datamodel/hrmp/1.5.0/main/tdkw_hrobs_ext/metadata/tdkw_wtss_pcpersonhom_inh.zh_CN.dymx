@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DeployMetadata>
+  <MasterId>4EFOB=NRYL90</MasterId>
+  <Id>4EFOB=NRYL90</Id>
+  <DesignMetas>
+    <DesignFormMetaL>
+      <Number>tdkw_wtss_pcpersonhom_inh</Number>
+      <PkId>4MQJ5US18QUX</PkId>
+      <DataXml>
+        <FormMetadata/>
+      </DataXml>
+      <Name>我的假勤日历</Name>
+      <Id>4EFOB=NRYL90</Id>
+      <LocaleId>zh_CN</LocaleId>
+    </DesignFormMetaL>
+    <DesignEntityMetaL>
+      <Number>tdkw_wtss_pcpersonhom_inh</Number>
+      <PkId>4MQJ5UT+HXF=</PkId>
+      <DataXml>
+        <EntityMetadata/>
+      </DataXml>
+      <Name>我的假勤日历</Name>
+      <Id>4EFOB=NRYL90</Id>
+      <LocaleId>zh_CN</LocaleId>
+    </DesignEntityMetaL>
+  </DesignMetas>
+  <Version>1735272468069</Version>
+  <BOSVersion>1.0</BOSVersion>
+</DeployMetadata>

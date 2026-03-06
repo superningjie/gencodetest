@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DeployMetadata>
+  <MasterId>3Y+B7PD=LKSO</MasterId>
+  <Id>3Y+B7PD=LKSO</Id>
+  <DesignMetas>
+    <DesignFormMetaL>
+      <Number>dgdl_planmonth_bill</Number>
+      <PkId>4I2RVWCPSZXZ</PkId>
+      <DataXml>
+        <FormMetadata/>
+      </DataXml>
+      <Name>月度编制信息管理</Name>
+      <Id>3Y+B7PD=LKSO</Id>
+      <LocaleId>zh_CN</LocaleId>
+    </DesignFormMetaL>
+    <DesignEntityMetaL>
+      <Number>dgdl_planmonth_bill</Number>
+      <PkId>4I2RVWIRGYS0</PkId>
+      <DataXml>
+        <EntityMetadata/>
+      </DataXml>
+      <Name>月度编制信息管理</Name>
+      <Id>3Y+B7PD=LKSO</Id>
+      <LocaleId>zh_CN</LocaleId>
+    </DesignEntityMetaL>
+  </DesignMetas>
+  <Version>1730774307398</Version>
+  <BOSVersion>1.0</BOSVersion>
+</DeployMetadata>

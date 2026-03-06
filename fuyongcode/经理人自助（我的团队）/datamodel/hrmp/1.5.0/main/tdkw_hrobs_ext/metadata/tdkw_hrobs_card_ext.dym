@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DeployMetadata>
+  <Multilanguage>false</Multilanguage>
+  <MasterId>2WMV+OLJEQYT</MasterId>
+  <BizappId>3==6P77F4X8W</BizappId>
+  <Id>4HH/3S6K=B=B</Id>
+  <DesignMetas>
+    <DesignFormMeta>
+      <DevType>2</DevType>
+      <ModifyDate>1730183060414</ModifyDate>
+      <DataXml>
+        <FormMetadata>
+          <DevType>2</DevType>
+          <Isv>tdkw</Isv>
+          <Id>4HH/3S6K=B=B</Id>
+          <Key>tdkw_hrobs_card_ext</Key>
+          <EntityId>4HH/3S6K=B=B</EntityId>
+          <ParentId>2WMV+OLJEQYT</ParentId>
+          <MasterId>2WMV+OLJEQYT</MasterId>
+          <BizappId>3==6P77F4X8W</BizappId>
+          <InheritPath>0NKB12K4VH2O,2WMV+OLJEQYT</InheritPath>
+          <Items>
+            <BasedataFormAp action="edit" oid="0NKB12K4W9D7">
+              <Id>4HH/3S6K=B=B</Id>
+              <Key>tdkw_hrobs_card_ext</Key>
+              <ListMeta>
+                <FormMetadata>
+                  <Items>
+                    <BillListAp action="edit" oid="_BillList_">
+                      <EntityId>4HH/3S6K=B=B</EntityId>
+                    </BillListAp>
+                    <BarItemAp action="edit" oid="iDakMzfVbD">
+                      <Visible action="reset"/>
+                    </BarItemAp>
+                  </Items>
+                </FormMetadata>
+              </ListMeta>
+            </BasedataFormAp>
+          </Items>
+        </FormMetadata>
+      </DataXml>
+      <ModifierId>2030587023881928704</ModifierId>
+      <EntityId>4HH/3S6K=B=B</EntityId>
+      <ModelType>BaseFormModel</ModelType>
+      <Isv>tdkw</Isv>
+      <Version>1730183060414</Version>
+      <ParentId>2WMV+OLJEQYT</ParentId>
+      <MasterId>2WMV+OLJEQYT</MasterId>
+      <Number>tdkw_hrobs_card_ext</Number>
+      <BizappId>3==6P77F4X8W</BizappId>
+      <IsvSign>hL8Y9MtbnpvDP8Sc1TiNJ7luYwq00mgYvAJFKwBZ2eas0VZXFFTo8Sds/gNZfZxVqeq+e3mmxRNm/g4HPwWzbwgZ0Yph2hcf+T+jPgm3zRccQDBcNuw34XuCiPRZKiHJWGPwItYlB2OSGneilRDZtqbPN1ZcA+9YIeitPJd13+E=</IsvSign>
+      <Id>4HH/3S6K=B=B</Id>
+      <InheritPath>0NKB12K4VH2O,2WMV+OLJEQYT</InheritPath>
+    </DesignFormMeta>
+    <DesignEntityMeta>
+      <DevType>2</DevType>
+      <ModifyDate>1730183060491</ModifyDate>
+      <DataXml>
+        <EntityMetadata>
+          <DevType>2</DevType>
+          <Isv>tdkw</Isv>
+          <Id>4HH/3S6K=B=B</Id>
+          <ParentId>2WMV+OLJEQYT</ParentId>
+          <MasterId>2WMV+OLJEQYT</MasterId>
+          <BizappId>3==6P77F4X8W</BizappId>
+          <InheritPath>0NKB12K4VH2O,2WMV+OLJEQYT</InheritPath>
+          <Items>
+            <BaseEntity action="edit" oid="1A3I8S4L91=9">
+              <Id>4HH/3S6K=B=B</Id>
+              <Key>tdkw_hrobs_card_ext</Key>
+            </BaseEntity>
+          </Items>
+        </EntityMetadata>
+      </DataXml>
+      <ModelType>BaseFormModel</ModelType>
+      <Isv>tdkw</Isv>
+      <Version>1730183060491</Version>
+      <ParentId>2WMV+OLJEQYT</ParentId>
+      <MasterId>2WMV+OLJEQYT</MasterId>
+      <Number>tdkw_hrobs_card_ext</Number>
+      <BizappId>3==6P77F4X8W</BizappId>
+      <Id>4HH/3S6K=B=B</Id>
+      <InheritPath>0NKB12K4VH2O,2WMV+OLJEQYT</InheritPath>
+    </DesignEntityMeta>
+  </DesignMetas>
+  <Version>1730183060414</Version>
+  <BOSVersion>1.0</BOSVersion>
+  <BizunitId>2W6G6Z3BCVI7</BizunitId>
+</DeployMetadata>

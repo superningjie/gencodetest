@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DeployMetadata>
+  <MasterId>3=3PAU3XF50P</MasterId>
+  <Id>3=3PAU3XF50P</Id>
+  <DesignMetas>
+    <DesignFormMetaL>
+      <Number>tdkw_employeeposition</Number>
+      <PkId>3DN3XR/EXLXT</PkId>
+      <DataXml>
+        <FormMetadata>
+          <Items>
+            <BasedataFormAp action="edit" oid="1942c188000064ac">
+              <ListMeta>
+                <FormMetadata>
+                  <Items>
+                    <ListColumnAp action="edit" oid="3ACFNLWZA+YR">
+                      <Name>序號</Name>
+                    </ListColumnAp>
+                    <ListColumnAp action="edit" oid="3ACFMGD/OW7W">
+                      <Name>人員名稱.姓名</Name>
+                    </ListColumnAp>
+                    <ListColumnAp action="edit" oid="3ACFMX4XKA5Y">
+                      <Name>人員編碼</Name>
+                    </ListColumnAp>
+                    <ComboListColumnAp action="edit" oid="3ACFLVC=F4JL">
+                      <Name>用戶組</Name>
+                    </ComboListColumnAp>
+                    <CheckBoxListColumnAp action="edit" oid="3=3QJITFM+M0">
+                      <Name>是否屬於領導組</Name>
+                    </CheckBoxListColumnAp>
+                  </Items>
+                </FormMetadata>
+              </ListMeta>
+            </BasedataFormAp>
+            <EntryFieldAp action="edit" oid="Qy9BPVPLjz">
+              <Name>任職類型</Name>
+            </EntryFieldAp>
+            <EntryFieldAp action="edit" oid="0AP68QztVS">
+              <Name>崗位</Name>
+            </EntryFieldAp>
+            <EntryFieldAp action="edit" oid="0goLm8g717">
+              <Name>下屬姓名</Name>
+            </EntryFieldAp>
+            <EntryFieldAp action="edit" oid="4g6uGGpVkP">
+              <Name>下屬編碼</Name>
+            </EntryFieldAp>
+            <EntryFieldAp action="edit" oid="F47WwgInJW">
+              <Name>下屬用戶</Name>
+            </EntryFieldAp>
+            <FieldAp action="edit" oid="qq3Iil1FHL">
+              <Name>人員名稱</Name>
+            </FieldAp>
+            <FieldAp action="edit" oid="4yFJj20zwZ">
+              <Name>人員編碼</Name>
+            </FieldAp>
+            <FieldAp action="edit" oid="TjHVFma3Y1">
+              <Name>HR人員信息</Name>
+            </FieldAp>
+            <FieldAp action="edit" oid="FmUHRgrBqR">
+              <Name>用戶組</Name>
+            </FieldAp>
+            <FieldAp action="edit" oid="7cCShLTG4q">
+              <Name>是否屬於領導組</Name>
+            </FieldAp>
+            <AdvConBarItemAp action="edit" oid="7ZEYfA0bzj">
+              <Name>新增分錄</Name>
+            </AdvConBarItemAp>
+            <AdvConBarItemAp action="edit" oid="9J0iaIMY10">
+              <Name>插入分錄</Name>
+            </AdvConBarItemAp>
+            <AdvConAp action="edit" oid="Tv6KX9rmoF">
+              <Name>任職</Name>
+            </AdvConAp>
+            <AdvConSummaryPanelAp action="edit" oid="V3eEmeUUPD">
+              <Name>高級面板摘要容器</Name>
+            </AdvConSummaryPanelAp>
+            <AdvConToolbarAp action="edit" oid="MoHwFm6P1m">
+              <Name>高級面板工具欄</Name>
+            </AdvConToolbarAp>
+            <AdvConChildPanelAp action="edit" oid="wQYKni2Uiu">
+              <Name>高級面板子容器</Name>
+            </AdvConChildPanelAp>
+            <EntryAp action="edit" oid="H1OYx570Fh">
+              <Name>樹形單據體</Name>
+            </EntryAp>
+          </Items>
+        </FormMetadata>
+      </DataXml>
+      <Name>基礎資料帶組織模板</Name>
+      <Id>3=3PAU3XF50P</Id>
+      <LocaleId>zh_TW</LocaleId>
+    </DesignFormMetaL>
+    <DesignEntityMetaL>
+      <Number>tdkw_employeeposition</Number>
+      <PkId>3DN3XR0QODYQ</PkId>
+      <DataXml>
+        <EntityMetadata>
+          <Items>
+            <BaseEntity action="edit" oid="1942c188000066ac">
+              <Operations>
+                <Operation action="edit" oid="b599405400001cac">
+                  <Validations>
+                    <CustValidation action="edit" oid="2W/BRWU+MXP7">
+                      <Description>基礎資料在流程中校驗</Description>
+                    </CustValidation>
+                  </Validations>
+                </Operation>
+                <Operation action="edit" oid="b599405400001dac">
+                  <Validations>
+                    <CustValidation action="edit" oid="2W/BU/L+T3I2">
+                      <Description>基礎資料在流程中校驗</Description>
+                    </CustValidation>
+                  </Validations>
+                </Operation>
+                <Operation action="edit" oid="3A2YUMIMK=+4">
+                  <Name>新增分錄</Name>
+                </Operation>
+                <Operation action="edit" oid="3A2YVPAO4H9X">
+                  <Name>插入分錄</Name>
+                </Operation>
+                <Operation action="edit" oid="3DN3WC=EK/8E">
+                  <Name>新增</Name>
+                </Operation>
+              </Operations>
+            </BaseEntity>
+            <ComboField action="edit" oid="FmUHRgrBqR">
+              <Name>用戶組</Name>
+              <Items>
+                <ComboItem action="edit" oid="1">
+                  <Caption>經理人</Caption>
+                </ComboItem>
+                <ComboItem action="edit" oid="2">
+                  <Caption>員工</Caption>
+                </ComboItem>
+                <ComboItem action="edit" oid="3">
+                  <Caption>領導</Caption>
+                </ComboItem>
+              </Items>
+            </ComboField>
+            <CheckBoxField action="edit" oid="7cCShLTG4q">
+              <Name>是否屬於領導組</Name>
+            </CheckBoxField>
+            <UserField action="edit" oid="qq3Iil1FHL">
+              <Name>人員名稱</Name>
+            </UserField>
+            <TreeEntryEntity action="edit" oid="H1OYx570Fh">
+              <Name>樹形單據體</Name>
+            </TreeEntryEntity>
+            <BasedataPropField action="edit" oid="4yFJj20zwZ">
+              <Name>人員編碼</Name>
+            </BasedataPropField>
+            <BasedataField action="edit" oid="0AP68QztVS">
+              <Name>崗位</Name>
+            </BasedataField>
+            <BasedataField action="edit" oid="Qy9BPVPLjz">
+              <Name>任職類型</Name>
+            </BasedataField>
+            <BasedataField action="edit" oid="0goLm8g717">
+              <Name>下屬姓名</Name>
+            </BasedataField>
+            <BasedataPropField action="edit" oid="4g6uGGpVkP">
+              <Name>下屬編碼</Name>
+            </BasedataPropField>
+            <BasedataField action="edit" oid="TjHVFma3Y1">
+              <Name>HR人員信息</Name>
+            </BasedataField>
+            <UserField action="edit" oid="F47WwgInJW">
+              <Name>下屬用戶</Name>
+            </UserField>
+          </Items>
+        </EntityMetadata>
+      </DataXml>
+      <Name>基礎資料帶組織模板</Name>
+      <Id>3=3PAU3XF50P</Id>
+      <LocaleId>zh_TW</LocaleId>
+    </DesignEntityMetaL>
+  </DesignMetas>
+  <Version>1689040349149</Version>
+  <BOSVersion>1.0</BOSVersion>
+</DeployMetadata>

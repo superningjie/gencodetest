@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DeployMetadata>
+  <MasterId>45NZ0NNDVNC2</MasterId>
+  <Id>45NZ0NNDVNC2</Id>
+  <DesignMetas>
+    <DesignFormMetaL>
+      <Number>cea_evaldimsetting</Number>
+      <PkId>4=0CFHZUA+K2</PkId>
+      <DataXml>
+        <FormMetadata/>
+      </DataXml>
+      <Name>测评维度</Name>
+      <Id>45NZ0NNDVNC2</Id>
+      <LocaleId>zh_CN</LocaleId>
+    </DesignFormMetaL>
+    <DesignEntityMetaL>
+      <Number>cea_evaldimsetting</Number>
+      <PkId>4=0CFI2NVJXH</PkId>
+      <DataXml>
+        <EntityMetadata/>
+      </DataXml>
+      <Name>测评维度</Name>
+      <Id>45NZ0NNDVNC2</Id>
+      <LocaleId>zh_CN</LocaleId>
+    </DesignEntityMetaL>
+  </DesignMetas>
+  <Version>1721980996522</Version>
+  <BOSVersion>1.0</BOSVersion>
+</DeployMetadata>

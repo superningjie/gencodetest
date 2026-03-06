@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DeployMetadata>
+  <MasterId>3DQWC60NHE6/</MasterId>
+  <Id>3DQWC60NHE6/</Id>
+  <DesignMetas>
+    <DesignFormMetaL>
+      <Number>tdkw_wtst_yjj_test</Number>
+      <PkId>3DU/YLE4MH2R</PkId>
+      <DataXml>
+        <FormMetadata/>
+      </DataXml>
+      <Name>考勤门户测试</Name>
+      <Id>3DQWC60NHE6/</Id>
+      <LocaleId>zh_CN</LocaleId>
+    </DesignFormMetaL>
+    <DesignEntityMetaL>
+      <Number>tdkw_wtst_yjj_test</Number>
+      <PkId>3DU/YLK2P021</PkId>
+      <DataXml>
+        <EntityMetadata/>
+      </DataXml>
+      <Name>考勤门户测试</Name>
+      <Id>3DQWC60NHE6/</Id>
+      <LocaleId>zh_CN</LocaleId>
+    </DesignEntityMetaL>
+  </DesignMetas>
+  <Version>1688779308903</Version>
+  <BOSVersion>1.0</BOSVersion>
+</DeployMetadata>

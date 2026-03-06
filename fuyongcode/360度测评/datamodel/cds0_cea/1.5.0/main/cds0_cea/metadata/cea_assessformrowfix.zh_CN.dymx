@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DeployMetadata>
+  <MasterId>47BCUA2O3LLB</MasterId>
+  <Id>47BCUA2O3LLB</Id>
+  <DesignMetas>
+    <DesignFormMetaL>
+      <Number>cea_assessformrowfix</Number>
+      <PkId>4A9AXRBKCIY9</PkId>
+      <DataXml>
+        <FormMetadata/>
+      </DataXml>
+      <Name>测评表行</Name>
+      <Id>47BCUA2O3LLB</Id>
+      <LocaleId>zh_CN</LocaleId>
+    </DesignFormMetaL>
+    <DesignEntityMetaL>
+      <Number>cea_assessformrowfix</Number>
+      <PkId>4A9AXRNCW8Q4</PkId>
+      <DataXml>
+        <EntityMetadata/>
+      </DataXml>
+      <Name>测评表行</Name>
+      <Id>47BCUA2O3LLB</Id>
+      <LocaleId>zh_CN</LocaleId>
+    </DesignEntityMetaL>
+  </DesignMetas>
+  <Version>1723174372101</Version>
+  <BOSVersion>1.0</BOSVersion>
+</DeployMetadata>

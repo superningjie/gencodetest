@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DeployMetadata>
+  <MasterId>3EWW69IMQAJW</MasterId>
+  <Id>3EWW69IMQAJW</Id>
+  <DesignMetas>
+    <DesignFormMetaL>
+      <Number>tdkw_cultivatenotice_pc</Number>
+      <PkId>3EWW69PI11H2</PkId>
+      <DataXml>
+        <FormMetadata/>
+      </DataXml>
+      <Name>培训看板PC端</Name>
+      <Id>3EWW69IMQAJW</Id>
+      <LocaleId>zh_CN</LocaleId>
+    </DesignFormMetaL>
+    <DesignEntityMetaL>
+      <Number>tdkw_cultivatenotice_pc</Number>
+      <PkId>3EWW69R6AI=1</PkId>
+      <DataXml>
+        <EntityMetadata/>
+      </DataXml>
+      <Name>培训看板PC端</Name>
+      <Id>3EWW69IMQAJW</Id>
+      <LocaleId>zh_CN</LocaleId>
+    </DesignEntityMetaL>
+  </DesignMetas>
+  <Version>1689820698223</Version>
+  <BOSVersion>1.0</BOSVersion>
+</DeployMetadata>

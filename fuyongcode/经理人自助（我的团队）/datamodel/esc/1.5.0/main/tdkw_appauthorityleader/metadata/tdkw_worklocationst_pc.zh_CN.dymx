@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DeployMetadata>
+  <MasterId>3EXFFH/IUAW5</MasterId>
+  <Id>3EXFFH/IUAW5</Id>
+  <DesignMetas>
+    <DesignFormMetaL>
+      <Number>tdkw_worklocationst_pc</Number>
+      <PkId>3EXFGT3N0WEH</PkId>
+      <DataXml>
+        <FormMetadata/>
+      </DataXml>
+      <Name>工作地点统计PC端</Name>
+      <Id>3EXFFH/IUAW5</Id>
+      <LocaleId>zh_CN</LocaleId>
+    </DesignFormMetaL>
+    <DesignEntityMetaL>
+      <Number>tdkw_worklocationst_pc</Number>
+      <PkId>3EXFGT4RJWDX</PkId>
+      <DataXml>
+        <EntityMetadata/>
+      </DataXml>
+      <Name>工作地点统计PC端</Name>
+      <Id>3EXFFH/IUAW5</Id>
+      <LocaleId>zh_CN</LocaleId>
+    </DesignEntityMetaL>
+  </DesignMetas>
+  <Version>1689834922943</Version>
+  <BOSVersion>1.0</BOSVersion>
+</DeployMetadata>

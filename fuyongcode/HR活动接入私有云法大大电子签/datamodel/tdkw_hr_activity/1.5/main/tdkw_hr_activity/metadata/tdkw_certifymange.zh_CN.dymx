@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DeployMetadata>
+  <MasterId>4COU2XQC6X1B</MasterId>
+  <Id>4COU2XQC6X1B</Id>
+  <DesignMetas>
+    <DesignFormMetaL>
+      <Number>tdkw_certifymange</Number>
+      <PkId>4D0B=NT9AAPY</PkId>
+      <DataXml>
+        <FormMetadata/>
+      </DataXml>
+      <Name>离职证明</Name>
+      <Id>4COU2XQC6X1B</Id>
+      <LocaleId>zh_CN</LocaleId>
+    </DesignFormMetaL>
+    <DesignEntityMetaL>
+      <Number>tdkw_certifymange</Number>
+      <PkId>4D0B=NVVUZSJ</PkId>
+      <DataXml>
+        <EntityMetadata/>
+      </DataXml>
+      <Name>离职证明</Name>
+      <Id>4COU2XQC6X1B</Id>
+      <LocaleId>zh_CN</LocaleId>
+    </DesignEntityMetaL>
+  </DesignMetas>
+  <Version>1725861910913</Version>
+  <BOSVersion>1.0</BOSVersion>
+</DeployMetadata>

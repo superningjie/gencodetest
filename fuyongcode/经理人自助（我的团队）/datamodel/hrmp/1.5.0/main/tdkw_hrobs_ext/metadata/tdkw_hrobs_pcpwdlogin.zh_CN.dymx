@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DeployMetadata>
+  <MasterId>3UD175IB88YC</MasterId>
+  <Id>3UD175IB88YC</Id>
+  <DesignMetas>
+    <DesignFormMetaL>
+      <Number>tdkw_hrobs_pcpwdlogin</Number>
+      <PkId>3V01R26OSTG1</PkId>
+      <DataXml>
+        <FormMetadata/>
+      </DataXml>
+      <Name>简历薪资密码弹窗</Name>
+      <Id>3UD175IB88YC</Id>
+      <LocaleId>zh_CN</LocaleId>
+    </DesignFormMetaL>
+    <DesignEntityMetaL>
+      <Number>tdkw_hrobs_pcpwdlogin</Number>
+      <PkId>3V01R27T=TFG</PkId>
+      <DataXml>
+        <EntityMetadata/>
+      </DataXml>
+      <Name>简历薪资密码弹窗</Name>
+      <Id>3UD175IB88YC</Id>
+      <LocaleId>zh_CN</LocaleId>
+    </DesignEntityMetaL>
+  </DesignMetas>
+  <Version>1705476525254</Version>
+  <BOSVersion>1.0</BOSVersion>
+</DeployMetadata>

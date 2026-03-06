@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DeployMetadata>
+  <MasterId>3V00U7UQ33J3</MasterId>
+  <Id>3V00U7UQ33J3</Id>
+  <DesignMetas>
+    <DesignFormMetaL>
+      <Number>tdkw_annual_bill</Number>
+      <PkId>3V00UP2+8C76</PkId>
+      <DataXml>
+        <FormMetadata/>
+      </DataXml>
+      <Name>年度账单</Name>
+      <Id>3V00U7UQ33J3</Id>
+      <LocaleId>zh_CN</LocaleId>
+    </DesignFormMetaL>
+    <DesignEntityMetaL>
+      <Number>tdkw_annual_bill</Number>
+      <PkId>3V00UP4S0=5H</PkId>
+      <DataXml>
+        <EntityMetadata/>
+      </DataXml>
+      <Name>年度账单</Name>
+      <Id>3V00U7UQ33J3</Id>
+      <LocaleId>zh_CN</LocaleId>
+    </DesignEntityMetaL>
+  </DesignMetas>
+  <Version>1705475946316</Version>
+  <BOSVersion>1.0</BOSVersion>
+</DeployMetadata>

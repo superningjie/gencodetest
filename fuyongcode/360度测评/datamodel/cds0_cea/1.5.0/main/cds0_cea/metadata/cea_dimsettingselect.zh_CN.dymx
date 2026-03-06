@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DeployMetadata>
+  <MasterId>47TK4B9TWZCA</MasterId>
+  <Id>47TK4B9TWZCA</Id>
+  <DesignMetas>
+    <DesignFormMetaL>
+      <Number>cea_dimsettingselect</Number>
+      <PkId>4=0CSHNRVOUP</PkId>
+      <DataXml>
+        <FormMetadata/>
+      </DataXml>
+      <Name>选择分组</Name>
+      <Id>47TK4B9TWZCA</Id>
+      <LocaleId>zh_CN</LocaleId>
+    </DesignFormMetaL>
+    <DesignEntityMetaL>
+      <Number>cea_dimsettingselect</Number>
+      <PkId>4=0CSHPBHRSO</PkId>
+      <DataXml>
+        <EntityMetadata/>
+      </DataXml>
+      <Name>选择分组</Name>
+      <Id>47TK4B9TWZCA</Id>
+      <LocaleId>zh_CN</LocaleId>
+    </DesignEntityMetaL>
+  </DesignMetas>
+  <Version>1721981209066</Version>
+  <BOSVersion>1.0</BOSVersion>
+</DeployMetadata>

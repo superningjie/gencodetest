@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DeployMetadata>
+  <MasterId>3EWWEGKTFSXT</MasterId>
+  <Id>3EWWEGKTFSXT</Id>
+  <DesignMetas>
+    <DesignFormMetaL>
+      <Number>tdkw_organizationrev_pc</Number>
+      <PkId>3EWWEGOTCNW3</PkId>
+      <DataXml>
+        <FormMetadata/>
+      </DataXml>
+      <Name>组织撤销PC端</Name>
+      <Id>3EWWEGKTFSXT</Id>
+      <LocaleId>zh_CN</LocaleId>
+    </DesignFormMetaL>
+    <DesignEntityMetaL>
+      <Number>tdkw_organizationrev_pc</Number>
+      <PkId>3EWWEGPXWMI/</PkId>
+      <DataXml>
+        <EntityMetadata/>
+      </DataXml>
+      <Name>组织撤销PC端</Name>
+      <Id>3EWWEGKTFSXT</Id>
+      <LocaleId>zh_CN</LocaleId>
+    </DesignEntityMetaL>
+  </DesignMetas>
+  <Version>1689820848807</Version>
+  <BOSVersion>1.0</BOSVersion>
+</DeployMetadata>

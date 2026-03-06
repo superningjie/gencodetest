@@ -1,0 +1,9 @@
+<root>
+    <region name="hr">  <!-- mq vhost = ierp隔离区,region = hr领域，queue = hr.kd.hr.service.message.hractivity_transfer_queue -->
+        <!-- 调动活动节点消费类 -->
+        <queue name="kd.hr.service.message.hractivity_transfer_queue" appid="hdm">
+            <consumer class="hr.TransferActivityConsumer"></consumer>
+        </queue>
+    </region>
+</root>
+

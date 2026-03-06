@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DeployMetadata>
+  <MasterId>49ZAV34NQ75L</MasterId>
+  <Id>49ZAV34NQ75L</Id>
+  <DesignMetas>
+    <DesignFormMetaL>
+      <Number>cea_uploadreportwork</Number>
+      <PkId>4==+U77F/9KV</PkId>
+      <DataXml>
+        <FormMetadata/>
+      </DataXml>
+      <Name>上传述职报告附件</Name>
+      <Id>49ZAV34NQ75L</Id>
+      <LocaleId>zh_CN</LocaleId>
+    </DesignFormMetaL>
+    <DesignEntityMetaL>
+      <Number>cea_uploadreportwork</Number>
+      <PkId>4==+U7B5Z3+R</PkId>
+      <DataXml>
+        <EntityMetadata/>
+      </DataXml>
+      <Name>上传述职报告附件</Name>
+      <Id>49ZAV34NQ75L</Id>
+      <LocaleId>zh_CN</LocaleId>
+    </DesignEntityMetaL>
+  </DesignMetas>
+  <Version>1722220490390</Version>
+  <BOSVersion>1.0</BOSVersion>
+</DeployMetadata>

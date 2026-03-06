@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DeployMetadata>
+  <MasterId>3GI+S++8CZP/</MasterId>
+  <Id>3GI+S++8CZP/</Id>
+  <DesignMetas>
+    <DesignFormMetaL>
+      <Number>tdkw_onborad_report</Number>
+      <PkId>3T/BOME+45CU</PkId>
+      <DataXml>
+        <FormMetadata/>
+      </DataXml>
+      <Name>入职分析详情报表</Name>
+      <Id>3GI+S++8CZP/</Id>
+      <LocaleId>zh_CN</LocaleId>
+    </DesignFormMetaL>
+    <DesignEntityMetaL>
+      <Number>tdkw_onborad_report</Number>
+      <PkId>3T/BOMM1L=TP</PkId>
+      <DataXml>
+        <EntityMetadata/>
+      </DataXml>
+      <Name>入职分析详情报表</Name>
+      <Id>3GI+S++8CZP/</Id>
+      <LocaleId>zh_CN</LocaleId>
+    </DesignEntityMetaL>
+  </DesignMetas>
+  <Version>1703517796744</Version>
+  <BOSVersion>1.0</BOSVersion>
+</DeployMetadata>

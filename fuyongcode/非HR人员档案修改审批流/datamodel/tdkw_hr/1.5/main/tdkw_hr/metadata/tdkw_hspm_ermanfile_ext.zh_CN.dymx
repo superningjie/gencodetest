@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DeployMetadata>
+  <MasterId>2+QR=HBNB0FI</MasterId>
+  <Id>4GZ6UVA/0U/Z</Id>
+  <DesignMetas>
+    <DesignFormMetaL>
+      <Number>tdkw_hspm_ermanfile_ext</Number>
+      <PkId>4I=SF+EWG32+</PkId>
+      <DataXml>
+        <FormMetadata/>
+      </DataXml>
+      <Name>人事业务档案</Name>
+      <Id>4GZ6UVA/0U/Z</Id>
+      <LocaleId>zh_CN</LocaleId>
+    </DesignFormMetaL>
+    <DesignEntityMetaL>
+      <Number>tdkw_hspm_ermanfile_ext</Number>
+      <PkId>4I=SF+T38N7P</PkId>
+      <DataXml>
+        <EntityMetadata/>
+      </DataXml>
+      <Name>人事业务档案</Name>
+      <Id>4GZ6UVA/0U/Z</Id>
+      <LocaleId>zh_CN</LocaleId>
+    </DesignEntityMetaL>
+  </DesignMetas>
+  <Version>1730973727824</Version>
+  <BOSVersion>1.0</BOSVersion>
+</DeployMetadata>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DeployMetadata>
+  <MasterId>3CVK62NTR/NR</MasterId>
+  <Id>3CVK62NTR/NR</Id>
+  <DesignMetas>
+    <DesignFormMetaL>
+      <Number>tdkw_personinforpt</Number>
+      <PkId>4L40UYN07YDN</PkId>
+      <DataXml>
+        <FormMetadata/>
+      </DataXml>
+      <Name>人员详情报表</Name>
+      <Id>3CVK62NTR/NR</Id>
+      <LocaleId>zh_CN</LocaleId>
+    </DesignFormMetaL>
+    <DesignEntityMetaL>
+      <Number>tdkw_personinforpt</Number>
+      <PkId>4L40UYW4KLLN</PkId>
+      <DataXml>
+        <EntityMetadata/>
+      </DataXml>
+      <Name>人员详情报表</Name>
+      <Id>3CVK62NTR/NR</Id>
+      <LocaleId>zh_CN</LocaleId>
+    </DesignEntityMetaL>
+  </DesignMetas>
+  <Version>1733717428519</Version>
+  <BOSVersion>1.0</BOSVersion>
+</DeployMetadata>

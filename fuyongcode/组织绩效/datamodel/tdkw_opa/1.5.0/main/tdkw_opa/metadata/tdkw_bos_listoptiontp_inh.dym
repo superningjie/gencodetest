@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DeployMetadata>
+  <Multilanguage>false</Multilanguage>
+  <MasterId>4B5YTLL49+XG</MasterId>
+  <BizappId>4A6IGSR0AFR3</BizappId>
+  <Id>4B5YTLL49+XG</Id>
+  <DesignMetas>
+    <DesignFormMeta>
+      <DevType>0</DevType>
+      <ModifyDate>1724315139202</ModifyDate>
+      <DataXml>
+        <FormMetadata>
+          <Isv>tdkw</Isv>
+          <Id>4B5YTLL49+XG</Id>
+          <Key>tdkw_bos_listoptiontp_inh</Key>
+          <EntityId>4B5YTLL49+XG</EntityId>
+          <ParentId>30d89176000007ac</ParentId>
+          <BizappId>4A6IGSR0AFR3</BizappId>
+          <IsvSign/>
+          <Name>列表选项_不合并分录行</Name>
+          <InheritPath>30d89176000007ac</InheritPath>
+          <Items>
+            <ParameterFormAp action="edit" oid="30d89176000006ac">
+              <Id>4B5YTLL49+XG</Id>
+              <Name>列表选项_不合并分录行</Name>
+              <Key>tdkw_bos_listoptiontp_inh</Key>
+            </ParameterFormAp>
+            <FieldsetPanelAp action="edit" oid="Vg2RGevzZW">
+              <JustifyContent>flex-start</JustifyContent>
+              <ContainerType>FlexPanelAp</ContainerType>
+            </FieldsetPanelAp>
+            <FlexPanelAp action="edit" oid="F4KxuA2cDz">
+              <Invisible>true</Invisible>
+              <Hidden action="reset"/>
+            </FlexPanelAp>
+            <TabAp action="edit" oid="VrXUs6IjiJ">
+              <Invisible>true</Invisible>
+              <Hidden action="reset"/>
+            </TabAp>
+            <FlexPanelAp action="edit" oid="d4wcAwVg9u">
+              <Invisible>true</Invisible>
+              <Hidden action="reset"/>
+            </FlexPanelAp>
+            <FieldAp action="edit" oid="Br1MV6fu32">
+              <Lock>new,edit</Lock>
+            </FieldAp>
+            <FieldAp action="edit" oid="2OWPqT8G1c">
+              <Invisible>true</Invisible>
+              <Hidden action="reset"/>
+            </FieldAp>
+            <FieldAp action="edit" oid="PNxchPc66k">
+              <Invisible>true</Invisible>
+              <Lock>new,edit</Lock>
+            </FieldAp>
+          </Items>
+        </FormMetadata>
+      </DataXml>
+      <ModifierId>2005735093842332672</ModifierId>
+      <EntityId>4B5YTLL49+XG</EntityId>
+      <ModelType>ParameterFormModel_listoption</ModelType>
+      <Isv>tdkw</Isv>
+      <Version>1724315139202</Version>
+      <ParentId>30d89176000007ac</ParentId>
+      <MasterId></MasterId>
+      <Number>tdkw_bos_listoptiontp_inh</Number>
+      <BizappId>4A6IGSR0AFR3</BizappId>
+      <IsvSign></IsvSign>
+      <Id>4B5YTLL49+XG</Id>
+      <InheritPath>30d89176000007ac</InheritPath>
+    </DesignFormMeta>
+    <DesignEntityMeta>
+      <DevType>0</DevType>
+      <ModifyDate>1724315139271</ModifyDate>
+      <DataXml>
+        <EntityMetadata>
+          <Isv>tdkw</Isv>
+          <Id>4B5YTLL49+XG</Id>
+          <ParentId>30d89176000007ac</ParentId>
+          <BizappId>4A6IGSR0AFR3</BizappId>
+          <IsvSign/>
+          <Name>列表选项_不合并分录行</Name>
+          <InheritPath>30d89176000007ac</InheritPath>
+          <Items>
+            <ParameterEntity action="edit" oid="30d89176000008ac">
+              <Template action="reset"/>
+              <dbRoute>opmc</dbRoute>
+              <Id>4B5YTLL49+XG</Id>
+              <Key>tdkw_bos_listoptiontp_inh</Key>
+              <Name>列表选项_不合并分录行</Name>
+            </ParameterEntity>
+            <CheckBoxField action="edit" oid="Br1MV6fu32">
+              <DefValue>true</DefValue>
+            </CheckBoxField>
+            <CheckBoxField action="edit" oid="PNxchPc66k">
+              <DefValue action="reset"/>
+            </CheckBoxField>
+          </Items>
+        </EntityMetadata>
+      </DataXml>
+      <ModelType>ParameterFormModel_listoption</ModelType>
+      <Isv>tdkw</Isv>
+      <Version>1724315139271</Version>
+      <ParentId>30d89176000007ac</ParentId>
+      <MasterId></MasterId>
+      <Number>tdkw_bos_listoptiontp_inh</Number>
+      <BizappId>4A6IGSR0AFR3</BizappId>
+      <Id>4B5YTLL49+XG</Id>
+      <InheritPath>30d89176000007ac</InheritPath>
+    </DesignEntityMeta>
+  </DesignMetas>
+  <Version>1724315139202</Version>
+  <BOSVersion>1.0</BOSVersion>
+  <BizunitId>4A6IUEPW=Y26</BizunitId>
+</DeployMetadata>

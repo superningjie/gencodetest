@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DeployMetadata>
+  <MasterId>2YL8CZYLYBYS</MasterId>
+  <Id>3CP/E+UGQDMB</Id>
+  <DesignMetas>
+    <DesignFormMetaL>
+      <Number>tdkw_hrobs_pc_portalh_ext</Number>
+      <PkId>3IY43ZWD/+XB</PkId>
+      <DataXml>
+        <FormMetadata/>
+      </DataXml>
+      <Name>My HR Services</Name>
+      <Id>3CP/E+UGQDMB</Id>
+      <LocaleId>en_US</LocaleId>
+    </DesignFormMetaL>
+    <DesignEntityMetaL>
+      <Number>tdkw_hrobs_pc_portalh_ext</Number>
+      <PkId>3IY43ZX7KNV7</PkId>
+      <DataXml>
+        <EntityMetadata/>
+      </DataXml>
+      <Name>My HR Services</Name>
+      <Id>3CP/E+UGQDMB</Id>
+      <LocaleId>en_US</LocaleId>
+    </DesignEntityMetaL>
+  </DesignMetas>
+  <Version>1735202892820</Version>
+  <BOSVersion>1.0</BOSVersion>
+</DeployMetadata>

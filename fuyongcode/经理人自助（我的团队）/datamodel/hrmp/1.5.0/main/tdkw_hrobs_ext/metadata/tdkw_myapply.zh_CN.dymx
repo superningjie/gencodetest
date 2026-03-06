@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DeployMetadata>
+  <MasterId>3E/=FBYO040A</MasterId>
+  <Id>3E/=FBYO040A</Id>
+  <DesignMetas>
+    <DesignFormMetaL>
+      <Number>tdkw_myapply</Number>
+      <PkId>3WSPL+6RYEBE</PkId>
+      <DataXml>
+        <FormMetadata/>
+      </DataXml>
+      <Name>我的申请</Name>
+      <Id>3E/=FBYO040A</Id>
+      <LocaleId>zh_CN</LocaleId>
+    </DesignFormMetaL>
+    <DesignEntityMetaL>
+      <Number>tdkw_myapply</Number>
+      <PkId>3WSPL+85CQ/W</PkId>
+      <DataXml>
+        <EntityMetadata/>
+      </DataXml>
+      <Name>我的申请</Name>
+      <Id>3E/=FBYO040A</Id>
+      <LocaleId>zh_CN</LocaleId>
+    </DesignEntityMetaL>
+  </DesignMetas>
+  <Version>1707184376112</Version>
+  <BOSVersion>1.0</BOSVersion>
+</DeployMetadata>

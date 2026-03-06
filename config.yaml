@@ -7,8 +7,10 @@ app:
 # LLM配置
 llm:
   primary:
-    provider: "openai"
-    model: "gpt-4"
+    provider: "deepseek"
+    model: "deepseek-chat"
+    base_url: "https://api.deepseek.com/v1"
+    api_key: "sk-54f2fc8d32244c40b9e86c8e1c10a8d1"  # 替换为你的API密钥
     temperature: 0.3
     max_tokens: 4000
   backup:

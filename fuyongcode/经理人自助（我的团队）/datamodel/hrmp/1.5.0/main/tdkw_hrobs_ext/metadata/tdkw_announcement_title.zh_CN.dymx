@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DeployMetadata>
+  <MasterId>3DV/XY0W/6EJ</MasterId>
+  <Id>3DV/XY0W/6EJ</Id>
+  <DesignMetas>
+    <DesignFormMetaL>
+      <Number>tdkw_announcement_title</Number>
+      <PkId>4CL7I9BT6EH/</PkId>
+      <DataXml>
+        <FormMetadata/>
+      </DataXml>
+      <Name>公告标题</Name>
+      <Id>3DV/XY0W/6EJ</Id>
+      <LocaleId>zh_CN</LocaleId>
+    </DesignFormMetaL>
+    <DesignEntityMetaL>
+      <Number>tdkw_announcement_title</Number>
+      <PkId>4CL7I9DK08C+</PkId>
+      <DataXml>
+        <EntityMetadata/>
+      </DataXml>
+      <Name>公告标题</Name>
+      <Id>3DV/XY0W/6EJ</Id>
+      <LocaleId>zh_CN</LocaleId>
+    </DesignEntityMetaL>
+  </DesignMetas>
+  <Version>1725435861515</Version>
+  <BOSVersion>1.0</BOSVersion>
+</DeployMetadata>

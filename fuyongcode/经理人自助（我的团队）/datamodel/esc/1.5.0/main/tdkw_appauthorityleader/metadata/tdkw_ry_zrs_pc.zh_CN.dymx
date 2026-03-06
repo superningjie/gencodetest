@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DeployMetadata>
+  <MasterId>3EXGBIDEJMU9</MasterId>
+  <Id>3EXGBIDEJMU9</Id>
+  <DesignMetas>
+    <DesignFormMetaL>
+      <Number>tdkw_ry_zrs_pc</Number>
+      <PkId>3EXGCOV9PL/Q</PkId>
+      <DataXml>
+        <FormMetadata/>
+      </DataXml>
+      <Name>人员分析-总人数PC端</Name>
+      <Id>3EXGBIDEJMU9</Id>
+      <LocaleId>zh_CN</LocaleId>
+    </DesignFormMetaL>
+    <DesignEntityMetaL>
+      <Number>tdkw_ry_zrs_pc</Number>
+      <PkId>3EXGCOW=L5TM</PkId>
+      <DataXml>
+        <EntityMetadata/>
+      </DataXml>
+      <Name>人员分析-总人数PC端</Name>
+      <Id>3EXGBIDEJMU9</Id>
+      <LocaleId>zh_CN</LocaleId>
+    </DesignEntityMetaL>
+  </DesignMetas>
+  <Version>1689835493727</Version>
+  <BOSVersion>1.0</BOSVersion>
+</DeployMetadata>

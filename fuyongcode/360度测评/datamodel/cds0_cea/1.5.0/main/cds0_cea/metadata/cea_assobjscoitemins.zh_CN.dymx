@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DeployMetadata>
+  <MasterId>47C9VP=/OIGG</MasterId>
+  <Id>47C9VP=/OIGG</Id>
+  <DesignMetas>
+    <DesignFormMetaL>
+      <Number>cea_assobjscoitemins</Number>
+      <PkId>4=K/3UY2DRVU</PkId>
+      <DataXml>
+        <FormMetadata/>
+      </DataXml>
+      <Name>测评对象打分实例表</Name>
+      <Id>47C9VP=/OIGG</Id>
+      <LocaleId>zh_CN</LocaleId>
+    </DesignFormMetaL>
+    <DesignEntityMetaL>
+      <Number>cea_assobjscoitemins</Number>
+      <PkId>4=K/3V1D2316</PkId>
+      <DataXml>
+        <EntityMetadata/>
+      </DataXml>
+      <Name>测评对象打分实例表</Name>
+      <Id>47C9VP=/OIGG</Id>
+      <LocaleId>zh_CN</LocaleId>
+    </DesignEntityMetaL>
+  </DesignMetas>
+  <Version>1722494386707</Version>
+  <BOSVersion>1.0</BOSVersion>
+</DeployMetadata>

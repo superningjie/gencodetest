@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DeployMetadata>
+  <MasterId>497=35ZQZBY2</MasterId>
+  <Id>497=35ZQZBY2</Id>
+  <DesignMetas>
+    <DesignFormMetaL>
+      <Number>cea_diaetplseleenti</Number>
+      <PkId>4=0CQGWKYD7U</PkId>
+      <DataXml>
+        <FormMetadata/>
+      </DataXml>
+      <Name>导入导出模板选择页实体</Name>
+      <Id>497=35ZQZBY2</Id>
+      <LocaleId>zh_CN</LocaleId>
+    </DesignFormMetaL>
+    <DesignEntityMetaL>
+      <Number>cea_diaetplseleenti</Number>
+      <PkId>4=0CQH1JWI/0</PkId>
+      <DataXml>
+        <EntityMetadata/>
+      </DataXml>
+      <Name>导入导出模板选择页实体</Name>
+      <Id>497=35ZQZBY2</Id>
+      <LocaleId>zh_CN</LocaleId>
+    </DesignEntityMetaL>
+  </DesignMetas>
+  <Version>1721981176014</Version>
+  <BOSVersion>1.0</BOSVersion>
+</DeployMetadata>

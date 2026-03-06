@@ -1,0 +1,9 @@
+.gradle
+.idea
+base/tdkw-base-common/build
+base/tdkw-base-helper/build
+opmc/tdkw-opmc-opa/build
+esc/tdkw-esc-appauthority/build
+tdkw-cosmic-debug/build
+logs
+.git

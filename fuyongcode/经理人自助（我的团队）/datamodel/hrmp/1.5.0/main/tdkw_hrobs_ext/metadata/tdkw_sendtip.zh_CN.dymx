@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DeployMetadata>
+  <MasterId>3BS=I+A/IRKM</MasterId>
+  <Id>3BS=I+A/IRKM</Id>
+  <DesignMetas>
+    <DesignFormMetaL>
+      <Number>tdkw_sendtip</Number>
+      <PkId>3BWUPHTMFN19</PkId>
+      <DataXml>
+        <FormMetadata/>
+      </DataXml>
+      <Name>发送提醒</Name>
+      <Id>3BS=I+A/IRKM</Id>
+      <LocaleId>zh_CN</LocaleId>
+    </DesignFormMetaL>
+    <DesignEntityMetaL>
+      <Number>tdkw_sendtip</Number>
+      <PkId>3BWUPI8QN15W</PkId>
+      <DataXml>
+        <EntityMetadata/>
+      </DataXml>
+      <Name>发送提醒</Name>
+      <Id>3BS=I+A/IRKM</Id>
+      <LocaleId>zh_CN</LocaleId>
+    </DesignEntityMetaL>
+  </DesignMetas>
+  <Version>1686908517098</Version>
+  <BOSVersion>1.0</BOSVersion>
+</DeployMetadata>

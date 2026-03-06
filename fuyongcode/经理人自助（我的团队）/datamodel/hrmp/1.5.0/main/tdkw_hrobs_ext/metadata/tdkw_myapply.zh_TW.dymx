@@ -1,0 +1,425 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DeployMetadata>
+  <MasterId>3E/=FBYO040A</MasterId>
+  <Id>3E/=FBYO040A</Id>
+  <DesignMetas>
+    <DesignFormMetaL>
+      <Number>tdkw_myapply</Number>
+      <PkId>3WSPL+6VLXAP</PkId>
+      <DataXml>
+        <FormMetadata>
+          <Items>
+            <FlexPanelAp action="edit" oid="U77BRvgjph">
+              <Name>Flex容器</Name>
+            </FlexPanelAp>
+            <LabelAp action="edit" oid="oU8m6XUXEv">
+              <Name>0</Name>
+            </LabelAp>
+            <LabelAp action="edit" oid="yWwRssDHYr">
+              <Name>待學任務</Name>
+            </LabelAp>
+            <FieldAp action="edit" oid="9YAejYER35">
+              <Name>待學課堂1</Name>
+            </FieldAp>
+            <FieldAp action="edit" oid="QTNuUBgEde">
+              <Name>日期</Name>
+            </FieldAp>
+            <FieldAp action="edit" oid="EI6R1VDxPW">
+              <Name>待學課堂2</Name>
+            </FieldAp>
+            <FieldAp action="edit" oid="PY5ozQJLGs">
+              <Name>日期</Name>
+            </FieldAp>
+            <FlexPanelAp action="edit" oid="I7sAkJUtTR">
+              <Name>Flex容器</Name>
+            </FlexPanelAp>
+            <FlexPanelAp action="edit" oid="WJgidNj3AF">
+              <Name>Flex容器</Name>
+            </FlexPanelAp>
+            <FlexPanelAp action="edit" oid="y2fs3nY4C3">
+              <Name>Flex容器</Name>
+            </FlexPanelAp>
+            <FieldAp action="edit" oid="Qq8AFKuhRK">
+              <Name>已辦申請2</Name>
+            </FieldAp>
+            <FieldAp action="edit" oid="MelHhXwwn1">
+              <Name>日期</Name>
+            </FieldAp>
+            <FieldAp action="edit" oid="1hoIVWUHUp">
+              <Name>單據編號</Name>
+            </FieldAp>
+            <LabelAp action="edit" oid="ie1aFO1tEm">
+              <Name>0</Name>
+            </LabelAp>
+            <LabelAp action="edit" oid="6wNIraVB7R">
+              <Name>在辦申請</Name>
+            </LabelAp>
+            <FlexPanelAp action="edit" oid="uF5EgMEK2P">
+              <Name>系統隱藏字段</Name>
+            </FlexPanelAp>
+            <FlexPanelAp action="edit" oid="K8xCDkGJUu">
+              <Name>Flex容器</Name>
+            </FlexPanelAp>
+            <FlexPanelAp action="edit" oid="YL3I5xvWTp">
+              <Name>Flex容器</Name>
+            </FlexPanelAp>
+            <FlexPanelAp action="edit" oid="Gh35ZLF0mn">
+              <Name>Flex容器</Name>
+            </FlexPanelAp>
+            <FlexPanelAp action="edit" oid="QOZBP5S6Zw">
+              <Name>Flex容器</Name>
+            </FlexPanelAp>
+            <LabelAp action="edit" oid="R2ryxEKxEp">
+              <Name>0</Name>
+            </LabelAp>
+            <LabelAp action="edit" oid="1LRurgc96S">
+              <Name>已辦申請</Name>
+            </LabelAp>
+            <FieldAp action="edit" oid="paC1cxDQeC">
+              <Name>已辦申請1</Name>
+            </FieldAp>
+            <FieldAp action="edit" oid="TU1MNWGS2w">
+              <Name>日期</Name>
+            </FieldAp>
+            <FieldAp action="edit" oid="I8bw4eIGnO">
+              <Name>單據編號</Name>
+            </FieldAp>
+            <FieldAp action="edit" oid="w2lvqde9y3">
+              <Name>在辦申請2</Name>
+            </FieldAp>
+            <FieldAp action="edit" oid="2OYxwBhFNy">
+              <Name>日期</Name>
+            </FieldAp>
+            <FieldAp action="edit" oid="yz8qg593Wk">
+              <Name>單據編號</Name>
+            </FieldAp>
+            <FlexPanelAp action="edit" oid="pQT00A0Xm6">
+              <Name>Flex容器</Name>
+            </FlexPanelAp>
+            <FlexPanelAp action="edit" oid="NTyMQ1LvLv">
+              <Name>Flex容器</Name>
+            </FlexPanelAp>
+            <FlexPanelAp action="edit" oid="28iUPQ6ixE">
+              <Name>Flex容器</Name>
+            </FlexPanelAp>
+            <FlexPanelAp action="edit" oid="v1uIfmZ7Ar">
+              <Name>Flex容器</Name>
+            </FlexPanelAp>
+            <FlexPanelAp action="edit" oid="L3UXa8iq3p">
+              <Name>Flex容器</Name>
+            </FlexPanelAp>
+            <FlexPanelAp action="edit" oid="UEOelSTC60">
+              <Name>Flex容器</Name>
+            </FlexPanelAp>
+            <FlexPanelAp action="edit" oid="1WllqXOvdR">
+              <Name>Flex容器</Name>
+            </FlexPanelAp>
+            <FlexPanelAp action="edit" oid="WSU35spaql">
+              <Name>Flex容器</Name>
+            </FlexPanelAp>
+            <FlexPanelAp action="edit" oid="MnleaDElVu">
+              <Name>Flex容器</Name>
+            </FlexPanelAp>
+            <FlexPanelAp action="edit" oid="CcpxXWm6pi">
+              <Name>Flex容器</Name>
+            </FlexPanelAp>
+            <FlexPanelAp action="edit" oid="Dj5YXRCBpZ">
+              <Name>Flex容器</Name>
+            </FlexPanelAp>
+            <FlexPanelAp action="edit" oid="6UGFLVw3bf">
+              <Name>Flex容器</Name>
+            </FlexPanelAp>
+            <FlexPanelAp action="edit" oid="7QNgGJ3E5E">
+              <Name>Flex容器</Name>
+            </FlexPanelAp>
+            <FieldAp action="edit" oid="Bf9YVbD6Jo">
+              <Name>在辦申請1</Name>
+            </FieldAp>
+            <FieldAp action="edit" oid="jBMFHk4RVK">
+              <Name>日期</Name>
+            </FieldAp>
+            <FieldAp action="edit" oid="XdEqPbLtO5">
+              <Name>單據編號</Name>
+            </FieldAp>
+            <FieldAp action="edit" oid="h0ERaLHuul">
+              <Name>在辦申請1id</Name>
+            </FieldAp>
+            <FieldAp action="edit" oid="nFa3uazoZB">
+              <Name>在辦申請2id</Name>
+            </FieldAp>
+            <FieldAp action="edit" oid="oSjFnyIAnB">
+              <Name>已辦申請1id</Name>
+            </FieldAp>
+            <FieldAp action="edit" oid="PTOCeF6CdK">
+              <Name>已辦申請2id</Name>
+            </FieldAp>
+            <FlexPanelAp action="edit" oid="RZTGYdbYxk">
+              <Name>Flex容器</Name>
+            </FlexPanelAp>
+            <FlexPanelAp action="edit" oid="U6jW0Gwakd">
+              <Name>Flex容器</Name>
+            </FlexPanelAp>
+            <FlexPanelAp action="edit" oid="fDHcDKRBSp">
+              <Name>Flex容器</Name>
+            </FlexPanelAp>
+          </Items>
+        </FormMetadata>
+      </DataXml>
+      <Name>PC_自定義卡片模板</Name>
+      <Id>3E/=FBYO040A</Id>
+      <LocaleId>zh_TW</LocaleId>
+    </DesignFormMetaL>
+    <DesignEntityMetaL>
+      <Number>tdkw_myapply</Number>
+      <PkId>3WSPL+88Z1EM</PkId>
+      <DataXml>
+        <EntityMetadata>
+          <Items>
+            <DateField action="edit" oid="jBMFHk4RVK">
+              <Name>日期</Name>
+            </DateField>
+            <DateField action="edit" oid="2OYxwBhFNy">
+              <Name>日期</Name>
+            </DateField>
+            <DateField action="edit" oid="TU1MNWGS2w">
+              <Name>日期</Name>
+            </DateField>
+            <DateField action="edit" oid="MelHhXwwn1">
+              <Name>日期</Name>
+            </DateField>
+            <TextField action="edit" oid="9YAejYER35">
+              <Name>待學課堂1</Name>
+            </TextField>
+            <DateField action="edit" oid="QTNuUBgEde">
+              <Name>日期</Name>
+            </DateField>
+            <TextField action="edit" oid="EI6R1VDxPW">
+              <Name>待學課堂2</Name>
+            </TextField>
+            <DateField action="edit" oid="PY5ozQJLGs">
+              <Name>日期</Name>
+            </DateField>
+            <ComboField action="edit" oid="Bf9YVbD6Jo">
+              <Name>在辦申請1</Name>
+              <Items>
+                <ComboItem action="edit" oid="1">
+                  <Caption>離職</Caption>
+                </ComboItem>
+                <ComboItem action="edit" oid="2">
+                  <Caption>請假</Caption>
+                </ComboItem>
+                <ComboItem action="edit" oid="3">
+                  <Caption>銷假</Caption>
+                </ComboItem>
+                <ComboItem action="edit" oid="4">
+                  <Caption>出差</Caption>
+                </ComboItem>
+                <ComboItem action="edit" oid="5">
+                  <Caption>銷差</Caption>
+                </ComboItem>
+                <ComboItem action="edit" oid="6">
+                  <Caption>補卡</Caption>
+                </ComboItem>
+                <ComboItem action="edit" oid="7">
+                  <Caption>加班</Caption>
+                </ComboItem>
+                <ComboItem action="edit" oid="8">
+                  <Caption>證明</Caption>
+                </ComboItem>
+                <ComboItem action="edit" oid="9">
+                  <Caption>個人信息修改</Caption>
+                </ComboItem>
+                <ComboItem action="edit" oid="10">
+                  <Caption>問詢</Caption>
+                </ComboItem>
+                <ComboItem action="edit" oid="11">
+                  <Caption>招聘需求</Caption>
+                </ComboItem>
+                <ComboItem action="edit" oid="12">
+                  <Caption>個人信息刪除申請單</Caption>
+                </ComboItem>
+                <ComboItem action="edit" oid="13">
+                  <Caption>因私出國申請單</Caption>
+                </ComboItem>
+                <ComboItem action="edit" oid="14">
+                  <Caption>銀行卡信息維護申請單</Caption>
+                </ComboItem>
+              </Items>
+            </ComboField>
+            <ComboField action="edit" oid="w2lvqde9y3">
+              <Name>在辦申請2</Name>
+              <Items>
+                <ComboItem action="edit" oid="1">
+                  <Caption>離職</Caption>
+                </ComboItem>
+                <ComboItem action="edit" oid="2">
+                  <Caption>請假</Caption>
+                </ComboItem>
+                <ComboItem action="edit" oid="3">
+                  <Caption>銷假</Caption>
+                </ComboItem>
+                <ComboItem action="edit" oid="4">
+                  <Caption>出差</Caption>
+                </ComboItem>
+                <ComboItem action="edit" oid="5">
+                  <Caption>銷差</Caption>
+                </ComboItem>
+                <ComboItem action="edit" oid="6">
+                  <Caption>補卡</Caption>
+                </ComboItem>
+                <ComboItem action="edit" oid="7">
+                  <Caption>加班</Caption>
+                </ComboItem>
+                <ComboItem action="edit" oid="8">
+                  <Caption>證明</Caption>
+                </ComboItem>
+                <ComboItem action="edit" oid="9">
+                  <Caption>個人信息修改</Caption>
+                </ComboItem>
+                <ComboItem action="edit" oid="10">
+                  <Caption>問詢</Caption>
+                </ComboItem>
+                <ComboItem action="edit" oid="11">
+                  <Caption>招聘需求</Caption>
+                </ComboItem>
+                <ComboItem action="edit" oid="12">
+                  <Caption>個人信息刪除申請單</Caption>
+                </ComboItem>
+                <ComboItem action="edit" oid="13">
+                  <Caption>因私出國申請單</Caption>
+                </ComboItem>
+                <ComboItem action="edit" oid="14">
+                  <Caption>銀行卡信息維護申請單</Caption>
+                </ComboItem>
+              </Items>
+            </ComboField>
+            <ComboField action="edit" oid="paC1cxDQeC">
+              <Name>已辦申請1</Name>
+              <Items>
+                <ComboItem action="edit" oid="1">
+                  <Caption>離職</Caption>
+                </ComboItem>
+                <ComboItem action="edit" oid="2">
+                  <Caption>請假</Caption>
+                </ComboItem>
+                <ComboItem action="edit" oid="3">
+                  <Caption>銷假</Caption>
+                </ComboItem>
+                <ComboItem action="edit" oid="4">
+                  <Caption>出差</Caption>
+                </ComboItem>
+                <ComboItem action="edit" oid="5">
+                  <Caption>銷差</Caption>
+                </ComboItem>
+                <ComboItem action="edit" oid="6">
+                  <Caption>補卡</Caption>
+                </ComboItem>
+                <ComboItem action="edit" oid="7">
+                  <Caption>加班</Caption>
+                </ComboItem>
+                <ComboItem action="edit" oid="8">
+                  <Caption>證明</Caption>
+                </ComboItem>
+                <ComboItem action="edit" oid="9">
+                  <Caption>個人信息修改</Caption>
+                </ComboItem>
+                <ComboItem action="edit" oid="10">
+                  <Caption>問詢</Caption>
+                </ComboItem>
+                <ComboItem action="edit" oid="11">
+                  <Caption>招聘需求</Caption>
+                </ComboItem>
+                <ComboItem action="edit" oid="12">
+                  <Caption>個人信息刪除申請單</Caption>
+                </ComboItem>
+                <ComboItem action="edit" oid="13">
+                  <Caption>因私出國申請單</Caption>
+                </ComboItem>
+                <ComboItem action="edit" oid="14">
+                  <Caption>銀行卡信息維護申請單</Caption>
+                </ComboItem>
+              </Items>
+            </ComboField>
+            <ComboField action="edit" oid="Qq8AFKuhRK">
+              <Name>已辦申請2</Name>
+              <Items>
+                <ComboItem action="edit" oid="1">
+                  <Caption>離職</Caption>
+                </ComboItem>
+                <ComboItem action="edit" oid="2">
+                  <Caption>請假</Caption>
+                </ComboItem>
+                <ComboItem action="edit" oid="3">
+                  <Caption>銷假</Caption>
+                </ComboItem>
+                <ComboItem action="edit" oid="4">
+                  <Caption>出差</Caption>
+                </ComboItem>
+                <ComboItem action="edit" oid="5">
+                  <Caption>銷差</Caption>
+                </ComboItem>
+                <ComboItem action="edit" oid="6">
+                  <Caption>補卡</Caption>
+                </ComboItem>
+                <ComboItem action="edit" oid="7">
+                  <Caption>加班</Caption>
+                </ComboItem>
+                <ComboItem action="edit" oid="8">
+                  <Caption>證明</Caption>
+                </ComboItem>
+                <ComboItem action="edit" oid="9">
+                  <Caption>個人信息修改</Caption>
+                </ComboItem>
+                <ComboItem action="edit" oid="10">
+                  <Caption>問詢</Caption>
+                </ComboItem>
+                <ComboItem action="edit" oid="11">
+                  <Caption>招聘需求</Caption>
+                </ComboItem>
+                <ComboItem action="edit" oid="12">
+                  <Caption>個人信息刪除申請單</Caption>
+                </ComboItem>
+                <ComboItem action="edit" oid="13">
+                  <Caption>因私出國申請單</Caption>
+                </ComboItem>
+                <ComboItem action="edit" oid="14">
+                  <Caption>銀行卡信息維護申請單</Caption>
+                </ComboItem>
+              </Items>
+            </ComboField>
+            <TextField action="edit" oid="h0ERaLHuul">
+              <Name>在辦申請1id</Name>
+            </TextField>
+            <TextField action="edit" oid="nFa3uazoZB">
+              <Name>在辦申請2id</Name>
+            </TextField>
+            <TextField action="edit" oid="oSjFnyIAnB">
+              <Name>已辦申請1id</Name>
+            </TextField>
+            <TextField action="edit" oid="PTOCeF6CdK">
+              <Name>已辦申請2id</Name>
+            </TextField>
+            <TextField action="edit" oid="XdEqPbLtO5">
+              <Name>單據編號</Name>
+            </TextField>
+            <TextField action="edit" oid="yz8qg593Wk">
+              <Name>單據編號</Name>
+            </TextField>
+            <TextField action="edit" oid="I8bw4eIGnO">
+              <Name>單據編號</Name>
+            </TextField>
+            <TextField action="edit" oid="1hoIVWUHUp">
+              <Name>單據編號</Name>
+            </TextField>
+          </Items>
+        </EntityMetadata>
+      </DataXml>
+      <Name>PC_自定義卡片模板</Name>
+      <Id>3E/=FBYO040A</Id>
+      <LocaleId>zh_TW</LocaleId>
+    </DesignEntityMetaL>
+  </DesignMetas>
+  <Version>1707184376112</Version>
+  <BOSVersion>1.0</BOSVersion>
+</DeployMetadata>

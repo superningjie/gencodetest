@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataModel dympath="metadata">
+      <SqlScript Type="KSQL" Separator=";" dbkey="hmp">preinsdata/t_hrobs_card_20230807_01.sql</SqlScript>
+    <SqlScript Type="KSQL" Separator=";" dbkey="hmp">preinsdata/t_hrobs_portalscheme_20230807_01.sql</SqlScript>
+    <SqlScript Type="KSQL" Separator=";" dbkey="hmp">preinsdata/t_hrobs_schemelayout_20230807_01.sql</SqlScript>
+<!--    <SqlScript Type="KSQL" Separator=";" dbkey="hmp">preinsdata/t_hrobs_schemelayout_20230810.sql</SqlScript>-->
+<!--	<SqlScript Type="KSQL" Separator=";" dbkey="hmp">preinsdata/t_hrobs_portalscheme_20230926_1.sql</SqlScript>-->
+	<SqlScript Type="KSQL" Separator=";" dbkey="hmp">preinsdata/t_hrobs_cardlayoutapp_202308301488.sql</SqlScript>
+<!--    <SqlScript Type="KSQL" Separator=";" dbkey="hmp">preinsdata/t_hrobs_schemelayout_202308301424.sql</SqlScript>-->
+<!--    <SqlScript Type="KSQL" Separator=";" dbkey="hmp">preinsdata/t_hrobs_schemelayout_202308301425.sql</SqlScript>-->
+<!--    <SqlScript Type="KSQL" Separator=";" dbkey="hmp">preinsdata/t_hrobs_schemelayout_202308301499.sql</SqlScript>-->
+
+
+
+    <SqlScript Type="KSQL" Separator=";" dbkey="hmp">preinsdata/tdkw_announcement_titl.sql</SqlScript>
+    <SqlScript Type="KSQL" Separator=";" dbkey="hmp">preinsdata/tdkw_hrobs_appconfig.sql</SqlScript>
+    <SqlScript Type="KSQL" Separator=";" dbkey="hmp">preinsdata/tdkw_hrobs_cardlayoutapp.sql</SqlScript>
+<!--    <SqlScript Type="KSQL" Separator=";" dbkey="sys.meta">preinsdata/tdkw_meta_bizextplugin.sql</SqlScript>-->
+    <SqlScript Type="KSQL" Separator=";" dbkey="hmp">preinsdata/tdkw_announcement_type.sql</SqlScript>
+    <SqlScript Type="KSQL" Separator=";" dbkey="hmp">preinsdata/tdkw_hspm_data.sql</SqlScript>
+
+
+</DataModel>

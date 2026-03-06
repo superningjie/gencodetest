@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DeployMetadata>
+  <MasterId>3W6+IZU3IX28</MasterId>
+  <Id>3W6+IZU3IX28</Id>
+  <DesignMetas>
+    <DesignFormMetaL>
+      <Number>dgdl_plan_persons</Number>
+      <PkId>4HL/61WPM2SU</PkId>
+      <DataXml>
+        <FormMetadata/>
+      </DataXml>
+      <Name>在岗人员名单</Name>
+      <Id>3W6+IZU3IX28</Id>
+      <LocaleId>zh_CN</LocaleId>
+    </DesignFormMetaL>
+    <DesignEntityMetaL>
+      <Number>dgdl_plan_persons</Number>
+      <PkId>4HL/621OK7K0</PkId>
+      <DataXml>
+        <EntityMetadata/>
+      </DataXml>
+      <Name>在岗人员名单</Name>
+      <Id>3W6+IZU3IX28</Id>
+      <LocaleId>zh_CN</LocaleId>
+    </DesignEntityMetaL>
+  </DesignMetas>
+  <Version>1730282601751</Version>
+  <BOSVersion>1.0</BOSVersion>
+</DeployMetadata>

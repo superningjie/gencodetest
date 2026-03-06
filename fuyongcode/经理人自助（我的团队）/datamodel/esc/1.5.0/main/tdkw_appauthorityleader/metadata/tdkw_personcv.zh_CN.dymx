@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DeployMetadata>
+  <MasterId>3DJT03DMIV=R</MasterId>
+  <Id>3DJT03DMIV=R</Id>
+  <DesignMetas>
+    <DesignFormMetaL>
+      <Number>tdkw_personcv</Number>
+      <PkId>3FBBNPLXXS24</PkId>
+      <DataXml>
+        <FormMetadata/>
+      </DataXml>
+      <Name>领导自助-员工简历移动端</Name>
+      <Id>3DJT03DMIV=R</Id>
+      <LocaleId>zh_CN</LocaleId>
+    </DesignFormMetaL>
+    <DesignEntityMetaL>
+      <Number>tdkw_personcv</Number>
+      <PkId>3FBBNPMYTAII</PkId>
+      <DataXml>
+        <EntityMetadata/>
+      </DataXml>
+      <Name>领导自助-员工简历移动端</Name>
+      <Id>3DJT03DMIV=R</Id>
+      <LocaleId>zh_CN</LocaleId>
+    </DesignEntityMetaL>
+  </DesignMetas>
+  <Version>1690255484065</Version>
+  <BOSVersion>1.0</BOSVersion>
+</DeployMetadata>

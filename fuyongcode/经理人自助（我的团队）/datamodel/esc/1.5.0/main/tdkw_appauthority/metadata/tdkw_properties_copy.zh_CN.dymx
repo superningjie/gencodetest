@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DeployMetadata>
+  <MasterId>3E71Q7JA939D</MasterId>
+  <Id>3E71Q7JA939D</Id>
+  <DesignMetas>
+    <DesignFormMetaL>
+      <Number>tdkw_properties_copy</Number>
+      <PkId>3E7JEHK1XD9S</PkId>
+      <DataXml>
+        <FormMetadata/>
+      </DataXml>
+      <Name>参数配置_复制</Name>
+      <Id>3E71Q7JA939D</Id>
+      <LocaleId>zh_CN</LocaleId>
+    </DesignFormMetaL>
+    <DesignEntityMetaL>
+      <Number>tdkw_properties_copy</Number>
+      <PkId>3E7JEHSXCN5O</PkId>
+      <DataXml>
+        <EntityMetadata/>
+      </DataXml>
+      <Name>参数配置_复制</Name>
+      <Id>3E71Q7JA939D</Id>
+      <LocaleId>zh_CN</LocaleId>
+    </DesignEntityMetaL>
+  </DesignMetas>
+  <Version>1689165613689</Version>
+  <BOSVersion>1.0</BOSVersion>
+</DeployMetadata>

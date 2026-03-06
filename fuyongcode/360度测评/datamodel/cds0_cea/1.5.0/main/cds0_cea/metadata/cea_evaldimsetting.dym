@@ -1,0 +1,286 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DeployMetadata>
+  <Multilanguage>false</Multilanguage>
+  <MasterId>45NZ0NNDVNC2</MasterId>
+  <BizappId>4513U+LB/HOD</BizappId>
+  <Id>45NZ0NNDVNC2</Id>
+  <DesignMetas>
+    <DesignFormMeta>
+      <DevType>0</DevType>
+      <ModifyDate>1721980996522</ModifyDate>
+      <DataXml>
+        <FormMetadata>
+          <Isv>tdkw</Isv>
+          <Id>45NZ0NNDVNC2</Id>
+          <Key>cea_evaldimsetting</Key>
+          <EntityId>45NZ0NNDVNC2</EntityId>
+          <ParentId>1942c188000065ac</ParentId>
+          <BizappId>4513U+LB/HOD</BizappId>
+          <IsvSign/>
+          <Name>测评维度</Name>
+          <InheritPath>1942c188000065ac</InheritPath>
+          <Items>
+            <BasedataFormAp action="edit" oid="1942c188000064ac">
+              <MobListMeta>
+                <FormMetadata>
+                  <Items>
+                    <BillListAp action="edit" oid="_BillList_">
+                      <EntityId>45NZ0NNDVNC2</EntityId>
+                    </BillListAp>
+                  </Items>
+                </FormMetadata>
+              </MobListMeta>
+              <Id>45NZ0NNDVNC2</Id>
+              <BackColor>#E2E7EF</BackColor>
+              <Name>测评维度</Name>
+              <Key>cea_evaldimsetting</Key>
+              <ListMeta>
+                <FormMetadata>
+                  <Items>
+                    <FilterGridViewAp action="edit" oid="filtergridview">
+                      <NewFilter>true</NewFilter>
+                    </FilterGridViewAp>
+                  </Items>
+                </FormMetadata>
+              </ListMeta>
+            </BasedataFormAp>
+            <FlexPanelAp action="edit" oid="LL4BVAnADa">
+              <Index action="reset"/>
+            </FlexPanelAp>
+            <FlexPanelAp action="edit" oid="PxNfkkak4s">
+              <Grow>0</Grow>
+              <Index>1</Index>
+              <BackColor>#ffffff</BackColor>
+              <Style>
+                <Style>
+                  <Border>
+                    <Border>
+                      <Top>10px_solid_#E2E7EF</Top>
+                      <Left>10px_solid_#E2E7EF</Left>
+                      <Bottom>10px_solid_#E2E7EF</Bottom>
+                      <Right>10px_solid_#E2E7EF</Right>
+                    </Border>
+                  </Border>
+                  <Padding>
+                    <Padding>
+                      <Left>2px</Left>
+                      <Right action="reset"/>
+                    </Padding>
+                  </Padding>
+                </Style>
+              </Style>
+            </FlexPanelAp>
+            <FieldAp action="edit" oid="8oq6R4m9CF">
+              <Invisible>true</Invisible>
+            </FieldAp>
+            <FieldAp action="edit" oid="AkId5S4yTs">
+              <Invisible>true</Invisible>
+            </FieldAp>
+            <FieldAp action="edit" oid="jiRpZNc99A">
+              <Invisible>true</Invisible>
+            </FieldAp>
+            <FieldAp action="edit" oid="ac5Y5Dax1q">
+              <Invisible>true</Invisible>
+            </FieldAp>
+            <FieldAp action="edit" oid="O75mQrM58q">
+              <Invisible>true</Invisible>
+            </FieldAp>
+            <FieldAp>
+              <Id>C51umd53aw2PxSlBhJ</Id>
+              <FieldId>C51umd53aw2PxSlBhJ</FieldId>
+              <Index>6</Index>
+              <Name>维度顺序</Name>
+              <Key>dimindex</Key>
+              <ParentId>I8M9X0FOPr</ParentId>
+            </FieldAp>
+            <FieldAp>
+              <Id>qbvbI01iaC6NryOc8c</Id>
+              <FieldId>qbvbI01iaC6NryOc8c</FieldId>
+              <Index>7</Index>
+              <Name>维度名称</Name>
+              <Key>dimname</Key>
+              <ParentId>I8M9X0FOPr</ParentId>
+            </FieldAp>
+            <FieldAp>
+              <Id>c2pMoBiPouhXsc4SUl</Id>
+              <FieldId>c2pMoBiPouhXsc4SUl</FieldId>
+              <Index>8</Index>
+              <Name>维度权重</Name>
+              <Key>dimweight</Key>
+              <ParentId>I8M9X0FOPr</ParentId>
+            </FieldAp>
+            <FieldAp>
+              <Id>DzSE5VJKG8VrbhuAfQ</Id>
+              <FieldId>DzSE5VJKG8VrbhuAfQ</FieldId>
+              <Index>9</Index>
+              <Name>测评人角色</Name>
+              <Key>evalrole</Key>
+              <ParentId>I8M9X0FOPr</ParentId>
+            </FieldAp>
+            <FieldAp>
+              <Id>iHd15kAz7qoJ2yfWHA</Id>
+              <FieldId>iHd15kAz7qoJ2yfWHA</FieldId>
+              <Index>10</Index>
+              <Name>维度分组</Name>
+              <Key>entryid</Key>
+              <ParentId>I8M9X0FOPr</ParentId>
+            </FieldAp>
+            <FieldsetPanelAp action="edit" oid="STdfsCCFTj">
+              <Invisible>true</Invisible>
+              <Hidden action="reset"/>
+            </FieldsetPanelAp>
+          </Items>
+        </FormMetadata>
+      </DataXml>
+      <ModifierId>1992915822795867136</ModifierId>
+      <EntityId>45NZ0NNDVNC2</EntityId>
+      <ModelType>BaseFormModel</ModelType>
+      <Isv>tdkw</Isv>
+      <Version>1721980996522</Version>
+      <ParentId>1942c188000065ac</ParentId>
+      <MasterId></MasterId>
+      <Number>cea_evaldimsetting</Number>
+      <BizappId>4513U+LB/HOD</BizappId>
+      <IsvSign></IsvSign>
+      <Id>45NZ0NNDVNC2</Id>
+      <InheritPath>1942c188000065ac</InheritPath>
+    </DesignFormMeta>
+    <DesignEntityMeta>
+      <DevType>0</DevType>
+      <ModifyDate>1721980996577</ModifyDate>
+      <DataXml>
+        <EntityMetadata>
+          <Isv>tdkw</Isv>
+          <Id>45NZ0NNDVNC2</Id>
+          <ParentId>1942c188000065ac</ParentId>
+          <BizappId>4513U+LB/HOD</BizappId>
+          <IsvSign/>
+          <Name>测评维度</Name>
+          <InheritPath>1942c188000065ac</InheritPath>
+          <Items>
+            <BaseEntity action="edit" oid="1942c188000066ac">
+              <dbRoute>opmc</dbRoute>
+              <TableName>t_cea_evaldimsetting</TableName>
+              <Id>45NZ0NNDVNC2</Id>
+              <Name>测评维度</Name>
+              <Template action="reset"/>
+              <Operations>
+                <Operation action="edit" oid="b599405400001aac">
+                  <Validations>
+                    <MustInputValidation action="edit" oid="6096194600001fac">
+                      <Enabled action="reset"/>
+                    </MustInputValidation>
+                  </Validations>
+                </Operation>
+              </Operations>
+              <BusinessControl>
+                <BusinessControl>
+                  <CodeNumber>true</CodeNumber>
+                  <WorkFlow>false</WorkFlow>
+                </BusinessControl>
+              </BusinessControl>
+              <Key>cea_evaldimsetting</Key>
+              <NetworkControl>
+                <NetCtrlOperation>
+                  <OperationKey>submit</OperationKey>
+                  <GroupId>default_netctrl</GroupId>
+                  <Id>c91d5125000034ac</Id>
+                  <Key>default_netctrl_submit</Key>
+                </NetCtrlOperation>
+              </NetworkControl>
+              <DefaultPageSetting>{"mblist":"","pclist":"","pcbill":"","mbbill":""}</DefaultPageSetting>
+            </BaseEntity>
+            <TextField action="edit" oid="h736cFwZ6e">
+              <Features>
+                <Features>
+                  <SeriesNewTote>true</SeriesNewTote>
+                </Features>
+              </Features>
+              <MustInput action="reset"/>
+            </TextField>
+            <MuliLangTextField action="edit" oid="8oq6R4m9CF">
+              <MustInput action="reset"/>
+              <GL>true</GL>
+            </MuliLangTextField>
+            <IntegerField>
+              <FieldName>fdimindex</FieldName>
+              <Features>
+                <Features>
+                  <Ver>1</Ver>
+                </Features>
+              </Features>
+              <Id>C51umd53aw2PxSlBhJ</Id>
+              <Key>dimindex</Key>
+              <DefValue>0</DefValue>
+              <Name>维度顺序</Name>
+            </IntegerField>
+            <TextField>
+              <FieldName>fdimname</FieldName>
+              <Features>
+                <Features>
+                  <Ver>1</Ver>
+                </Features>
+              </Features>
+              <Id>qbvbI01iaC6NryOc8c</Id>
+              <Key>dimname</Key>
+              <Name>维度名称</Name>
+            </TextField>
+            <DecimalField>
+              <FieldName>fdimweight</FieldName>
+              <Scale>1</Scale>
+              <Features>
+                <Features>
+                  <Ver>1</Ver>
+                </Features>
+              </Features>
+              <Id>c2pMoBiPouhXsc4SUl</Id>
+              <Key>dimweight</Key>
+              <DefValue>0</DefValue>
+              <Name>维度权重</Name>
+            </DecimalField>
+            <BigIntField>
+              <FieldName>fentryid</FieldName>
+              <Features>
+                <Features>
+                  <Ver>1</Ver>
+                </Features>
+              </Features>
+              <Id>iHd15kAz7qoJ2yfWHA</Id>
+              <Key>entryid</Key>
+              <DefValue>0</DefValue>
+              <Name>维度分组</Name>
+            </BigIntField>
+            <BasedataField>
+              <Features>
+                <Features>
+                  <Ver>1</Ver>
+                </Features>
+              </Features>
+              <Id>DzSE5VJKG8VrbhuAfQ</Id>
+              <LableHyperlink>false</LableHyperlink>
+              <DefValue/>
+              <Name>测评人角色</Name>
+              <FieldName>fevalroleid</FieldName>
+              <Key>evalrole</Key>
+              <RefLayout/>
+              <BaseEntityId>32XSCLLV=/P8</BaseEntityId>
+            </BasedataField>
+          </Items>
+        </EntityMetadata>
+      </DataXml>
+      <ModelType>BaseFormModel</ModelType>
+      <Isv>tdkw</Isv>
+      <Version>1721980996577</Version>
+      <ParentId>1942c188000065ac</ParentId>
+      <MasterId></MasterId>
+      <Number>cea_evaldimsetting</Number>
+      <BizappId>4513U+LB/HOD</BizappId>
+      <Id>45NZ0NNDVNC2</Id>
+      <InheritPath>1942c188000065ac</InheritPath>
+    </DesignEntityMeta>
+  </DesignMetas>
+  <Version>1721980996522</Version>
+  <BOSVersion>1.0</BOSVersion>
+  <BizunitId>45H2DV8V8L98</BizunitId>
+</DeployMetadata>

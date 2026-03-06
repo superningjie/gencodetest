@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DeployMetadata>
+  <Multilanguage>false</Multilanguage>
+  <MasterId>497=35ZQZBY2</MasterId>
+  <BizappId>4513U+LB/HOD</BizappId>
+  <Id>497=35ZQZBY2</Id>
+  <DesignMetas>
+    <DesignFormMeta>
+      <DevType>0</DevType>
+      <ModifyDate>1721981176014</ModifyDate>
+      <DataXml>
+        <FormMetadata>
+          <Isv>tdkw</Isv>
+          <Id>497=35ZQZBY2</Id>
+          <Key>cea_diaetplseleenti</Key>
+          <EntityId>497=35ZQZBY2</EntityId>
+          <ParentId>31DSF85J6G5D</ParentId>
+          <BizappId>4513U+LB/HOD</BizappId>
+          <IsvSign/>
+          <Name>导入导出模板选择页实体</Name>
+          <InheritPath>1942c188000065ac,2+QE4JA9QV27,2U7/COE5DFAH,31DSF85J6G5D</InheritPath>
+          <Items>
+            <BasedataFormAp action="edit" oid="1942c188000064ac">
+              <MobListMeta>
+                <FormMetadata>
+                  <Items>
+                    <BillListAp action="edit" oid="_BillList_">
+                      <EntityId>497=35ZQZBY2</EntityId>
+                    </BillListAp>
+                  </Items>
+                </FormMetadata>
+              </MobListMeta>
+              <Id>497=35ZQZBY2</Id>
+              <Name>导入导出模板选择页实体</Name>
+              <Key>cea_diaetplseleenti</Key>
+              <ListMeta>
+                <FormMetadata>
+                  <Items>
+                    <BillListAp action="edit" oid="_BillList_">
+                      <EntityId>497=35ZQZBY2</EntityId>
+                    </BillListAp>
+                    <ListColumnAp action="edit" oid="b5994054000028ac">
+                      <Visible/>
+                    </ListColumnAp>
+                    <ComboListColumnAp action="edit" oid="2W2MRKUK8V4G">
+                      <Visible/>
+                    </ComboListColumnAp>
+                    <ListOperationColumnAp action="edit" oid="31DW=7IYNZ5I">
+                      <Visible/>
+                    </ListOperationColumnAp>
+                  </Items>
+                </FormMetadata>
+              </ListMeta>
+            </BasedataFormAp>
+          </Items>
+        </FormMetadata>
+      </DataXml>
+      <ModifierId>1992915822795867136</ModifierId>
+      <EntityId>497=35ZQZBY2</EntityId>
+      <ModelType>BaseFormModel</ModelType>
+      <Isv>tdkw</Isv>
+      <Version>1721981176014</Version>
+      <ParentId>31DSF85J6G5D</ParentId>
+      <MasterId></MasterId>
+      <Number>cea_diaetplseleenti</Number>
+      <BizappId>4513U+LB/HOD</BizappId>
+      <IsvSign></IsvSign>
+      <Id>497=35ZQZBY2</Id>
+      <InheritPath>1942c188000065ac,2+QE4JA9QV27,2U7/COE5DFAH,31DSF85J6G5D</InheritPath>
+    </DesignFormMeta>
+    <DesignEntityMeta>
+      <DevType>0</DevType>
+      <ModifyDate>1721981176095</ModifyDate>
+      <DataXml>
+        <EntityMetadata>
+          <Isv>tdkw</Isv>
+          <Id>497=35ZQZBY2</Id>
+          <ParentId>31DSF85J6G5D</ParentId>
+          <BizappId>4513U+LB/HOD</BizappId>
+          <IsvSign/>
+          <Name>导入导出模板选择页实体</Name>
+          <InheritPath>1942c188000065ac,2+QE4JA9QV27,2U7/COE5DFAH,31DSF85J6G5D</InheritPath>
+          <Items>
+            <BaseEntity action="edit" oid="1942c188000066ac">
+              <dbRoute>opmc</dbRoute>
+              <Id>497=35ZQZBY2</Id>
+              <Name>导入导出模板选择页实体</Name>
+              <Key>cea_diaetplseleenti</Key>
+            </BaseEntity>
+          </Items>
+        </EntityMetadata>
+      </DataXml>
+      <ModelType>BaseFormModel</ModelType>
+      <Isv>tdkw</Isv>
+      <Version>1721981176095</Version>
+      <ParentId>31DSF85J6G5D</ParentId>
+      <MasterId></MasterId>
+      <Number>cea_diaetplseleenti</Number>
+      <BizappId>4513U+LB/HOD</BizappId>
+      <Id>497=35ZQZBY2</Id>
+      <InheritPath>1942c188000065ac,2+QE4JA9QV27,2U7/COE5DFAH,31DSF85J6G5D</InheritPath>
+    </DesignEntityMeta>
+  </DesignMetas>
+  <Version>1721981176014</Version>
+  <BOSVersion>1.0</BOSVersion>
+  <BizunitId>45KUGRD4HA1J</BizunitId>
+</DeployMetadata>

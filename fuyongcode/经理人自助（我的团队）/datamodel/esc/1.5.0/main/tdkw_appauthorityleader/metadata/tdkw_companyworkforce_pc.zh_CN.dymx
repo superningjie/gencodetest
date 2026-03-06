@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DeployMetadata>
+  <MasterId>3EX1S5G94PIX</MasterId>
+  <Id>3EX1S5G94PIX</Id>
+  <DesignMetas>
+    <DesignFormMetaL>
+      <Number>tdkw_companyworkforce_pc</Number>
+      <PkId>3EX1T7A3=U3=</PkId>
+      <DataXml>
+        <FormMetadata/>
+      </DataXml>
+      <Name>公司人数PC端</Name>
+      <Id>3EX1S5G94PIX</Id>
+      <LocaleId>zh_CN</LocaleId>
+    </DesignFormMetaL>
+    <DesignEntityMetaL>
+      <Number>tdkw_companyworkforce_pc</Number>
+      <PkId>3EX1T7B0K+PO</PkId>
+      <DataXml>
+        <EntityMetadata/>
+      </DataXml>
+      <Name>公司人数PC端</Name>
+      <Id>3EX1S5G94PIX</Id>
+      <LocaleId>zh_CN</LocaleId>
+    </DesignEntityMetaL>
+  </DesignMetas>
+  <Version>1689825555908</Version>
+  <BOSVersion>1.0</BOSVersion>
+</DeployMetadata>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DeployMetadata>
+  <MasterId>3=MXMCU9D72M</MasterId>
+  <Id>3=MXMCU9D72M</Id>
+  <DesignMetas>
+    <DesignFormMetaL>
+      <Number>tdkw_hrobs_pc_banner</Number>
+      <PkId>3PKCP0Q/IV5M</PkId>
+      <DataXml>
+        <FormMetadata/>
+      </DataXml>
+      <Name>图片Banner</Name>
+      <Id>3=MXMCU9D72M</Id>
+      <LocaleId>zh_CN</LocaleId>
+    </DesignFormMetaL>
+    <DesignEntityMetaL>
+      <Number>tdkw_hrobs_pc_banner</Number>
+      <PkId>3PKCP0QNZUA+</PkId>
+      <DataXml>
+        <EntityMetadata/>
+      </DataXml>
+      <Name>图片Banner</Name>
+      <Id>3=MXMCU9D72M</Id>
+      <LocaleId>zh_CN</LocaleId>
+    </DesignEntityMetaL>
+  </DesignMetas>
+  <Version>1700184205430</Version>
+  <BOSVersion>1.0</BOSVersion>
+</DeployMetadata>

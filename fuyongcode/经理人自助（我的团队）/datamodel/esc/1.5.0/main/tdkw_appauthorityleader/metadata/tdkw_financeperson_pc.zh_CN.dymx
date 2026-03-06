@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DeployMetadata>
+  <MasterId>3EX/FZ4S6V0N</MasterId>
+  <Id>3EX/FZ4S6V0N</Id>
+  <DesignMetas>
+    <DesignFormMetaL>
+      <Number>tdkw_financeperson_pc</Number>
+      <PkId>3EX/H1YBWAAV</PkId>
+      <DataXml>
+        <FormMetadata/>
+      </DataXml>
+      <Name>财务负责人PC端</Name>
+      <Id>3EX/FZ4S6V0N</Id>
+      <LocaleId>zh_CN</LocaleId>
+    </DesignFormMetaL>
+    <DesignEntityMetaL>
+      <Number>tdkw_financeperson_pc</Number>
+      <PkId>3EX/H1ZCRX3R</PkId>
+      <DataXml>
+        <EntityMetadata/>
+      </DataXml>
+      <Name>财务负责人PC端</Name>
+      <Id>3EX/FZ4S6V0N</Id>
+      <LocaleId>zh_CN</LocaleId>
+    </DesignEntityMetaL>
+  </DesignMetas>
+  <Version>1689824081322</Version>
+  <BOSVersion>1.0</BOSVersion>
+</DeployMetadata>

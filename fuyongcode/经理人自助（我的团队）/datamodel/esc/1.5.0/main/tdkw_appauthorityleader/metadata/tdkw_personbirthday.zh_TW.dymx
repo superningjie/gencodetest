@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DeployMetadata>
+  <MasterId>3Y+/NEAU7ZC4</MasterId>
+  <Id>3Y+/NEAU7ZC4</Id>
+  <DesignMetas>
+    <DesignFormMetaL>
+      <Number>tdkw_personbirthday</Number>
+      <PkId>3Y+/Q=N5E2PX</PkId>
+      <DataXml>
+        <FormMetadata>
+          <Name>生日列表-移動端</Name>
+          <Items>
+            <BillFormAp action="edit" oid="00305e8b000005ac">
+              <MobListMeta>
+                <FormMetadata>
+                  <Items>
+                    <CardListColumnAp action="edit" oid="3Y+/NECHHEUC">
+                      <Name>單據狀態</Name>
+                    </CardListColumnAp>
+                    <CardListColumnAp action="edit" oid="3Y+/NECHHFHM">
+                      <Name>創建人.姓名</Name>
+                    </CardListColumnAp>
+                    <CardFlexPanelAp action="edit" oid="3Y+/NECDW0A9">
+                      <Name>卡片佈局容器</Name>
+                    </CardFlexPanelAp>
+                    <MobSortPanelAp action="edit" oid="mobsortpanel">
+                      <Name>排序項1</Name>
+                    </MobSortPanelAp>
+                    <MobFilterPanelAp action="edit" oid="mobfilterpanel">
+                      <Name>過濾項1</Name>
+                    </MobFilterPanelAp>
+                    <MobFilterPanelAp action="edit" oid="3Y+/NECDW/N/">
+                      <Name>過濾項2</Name>
+                    </MobFilterPanelAp>
+                  </Items>
+                </FormMetadata>
+              </MobListMeta>
+              <Name>生日列表-移動端</Name>
+              <MobMeta>
+                <FormMetadata>
+                  <Items>
+                    <LayoutFlexAp action="edit" oid="3Y+/NECDW/MY">
+                      <Name>字段佈局容器</Name>
+                    </LayoutFlexAp>
+                    <LayoutFlexAp action="edit" oid="3Y+/NECDW0A6">
+                      <Name>字段佈局容器</Name>
+                    </LayoutFlexAp>
+                    <FieldAp action="edit" oid="3Y+/NECDW/MZ">
+                      <Name>單據狀態</Name>
+                    </FieldAp>
+                    <FieldAp action="edit" oid="3Y+/NECDW0A7">
+                      <Name>審核人</Name>
+                    </FieldAp>
+                    <FieldAp action="edit" oid="3Y+/NECDW/N+">
+                      <Name>創建人</Name>
+                    </FieldAp>
+                    <MBarItemAp action="edit" oid="3Y+/NECDW0A8">
+                      <Name>提交</Name>
+                    </MBarItemAp>
+                  </Items>
+                </FormMetadata>
+              </MobMeta>
+            </BillFormAp>
+            <EntryAp action="edit" oid="3Y+/NECDW0A3">
+              <Name>單據體</Name>
+            </EntryAp>
+            <AdvConSummaryPanelAp action="edit" oid="3Y+/NEC4+S1A">
+              <Name>高級面板摘要容器</Name>
+            </AdvConSummaryPanelAp>
+            <AdvConToolbarAp action="edit" oid="3Y+/NEC4+SQL">
+              <Name>高級面板工具欄</Name>
+            </AdvConToolbarAp>
+            <AdvConChildPanelAp action="edit" oid="3Y+/NEC4+S1B">
+              <Name>高級面板子容器</Name>
+            </AdvConChildPanelAp>
+            <AdvConBarItemAp action="edit" oid="3Y+/NEC4+SQM">
+              <Name>增行</Name>
+            </AdvConBarItemAp>
+            <AdvConBarItemAp action="edit" oid="3Y+/NECDW/MV">
+              <Name>刪行</Name>
+            </AdvConBarItemAp>
+            <EntryFieldAp action="edit" oid="3Y+/NECDW/MW">
+              <Name>修改人</Name>
+            </EntryFieldAp>
+            <EntryFieldAp action="edit" oid="3Y+/NECDW0A4">
+              <Name>修改時間</Name>
+            </EntryFieldAp>
+            <FieldAp action="edit" oid="RKDh6C9VLw">
+              <Name>HR行政組織</Name>
+            </FieldAp>
+            <AdvConAp action="edit" oid="3Y+/NEC4+SQK">
+              <Name>分錄</Name>
+            </AdvConAp>
+          </Items>
+        </FormMetadata>
+      </DataXml>
+      <Name>生日列表-移動端</Name>
+      <Id>3Y+/NEAU7ZC4</Id>
+      <LocaleId>zh_TW</LocaleId>
+    </DesignFormMetaL>
+    <DesignEntityMetaL>
+      <Number>tdkw_personbirthday</Number>
+      <PkId>3Y+/Q=OY=ZPD</PkId>
+      <DataXml>
+        <EntityMetadata>
+          <Name>生日列表-移動端</Name>
+          <Items>
+            <BillEntity action="edit" oid="00305e8b000007ac">
+              <Operations>
+                <Operation action="edit" oid="3Y+/NECDW/MX">
+                  <Name>新增分錄</Name>
+                </Operation>
+                <Operation action="edit" oid="3Y+/NECDW0A5">
+                  <Name>刪除分錄</Name>
+                </Operation>
+              </Operations>
+              <Name>生日列表-移動端</Name>
+            </BillEntity>
+            <EntryEntity action="edit" oid="3Y+/NECDW0A3">
+              <Name>單據體</Name>
+            </EntryEntity>
+            <ModifierField action="edit" oid="3Y+/NECDW/MW">
+              <Name>修改人</Name>
+            </ModifierField>
+            <ModifyDateField action="edit" oid="3Y+/NECDW0A4">
+              <Name>修改時間</Name>
+            </ModifyDateField>
+            <BasedataField action="edit" oid="RKDh6C9VLw">
+              <Name>HR行政組織</Name>
+            </BasedataField>
+          </Items>
+        </EntityMetadata>
+      </DataXml>
+      <Name>生日列表-移動端</Name>
+      <Id>3Y+/NEAU7ZC4</Id>
+      <LocaleId>zh_TW</LocaleId>
+    </DesignEntityMetaL>
+  </DesignMetas>
+  <Version>1708336707782</Version>
+  <BOSVersion>1.0</BOSVersion>
+</DeployMetadata>
