@@ -13,7 +13,7 @@ from pathlib import Path
 import asyncio
 import logging
 
-from core.data_models import SkillContext, Requirement, ImplementationItem, GeneratedCode, CodeAsset
+from core.data_models import SkillContext, Requirement, ImplementationItem, ImplementationType, CodeLanguage, GeneratedCode, CodeAsset
 
 logger = logging.getLogger(__name__)
 
@@ -220,7 +220,8 @@ class ImplementSplitterSkill(BaseSkill):  # [V2.0新增]
                     impl_type=ImplementationType.JAVA_API,
                     language=CodeLanguage.JAVA,
                     tech_stack="SpringBoot 2.7",
-                    extension_point=""
+                    extension_point="",
+                    related_module=req.related_module
                 ),
                 ImplementationItem(
                     id="",
@@ -230,7 +231,8 @@ class ImplementSplitterSkill(BaseSkill):  # [V2.0新增]
                     impl_type=ImplementationType.JAVA_API,
                     language=CodeLanguage.JAVA,
                     tech_stack="SpringBoot 2.7",
-                    extension_point=""
+                    extension_point="",
+                    related_module=req.related_module
                 ),
                 ImplementationItem(
                     id="",
@@ -240,7 +242,8 @@ class ImplementSplitterSkill(BaseSkill):  # [V2.0新增]
                     impl_type=ImplementationType.JAVA_API,
                     language=CodeLanguage.JAVA,
                     tech_stack="SpringBoot 2.7 + MyBatis",
-                    extension_point=""
+                    extension_point="",
+                    related_module=req.related_module
                 )
             ])
 
@@ -254,7 +257,8 @@ class ImplementSplitterSkill(BaseSkill):  # [V2.0新增]
                 impl_type=ImplementationType.KOTLIN_PLUGIN,
                 language=CodeLanguage.KOTLIN,
                 tech_stack="金蝶插件框架 5.0",
-                extension_point=self._detect_extension_point(req)
+                extension_point=self._detect_extension_point(req),
+                related_module=req.related_module
             ))
 
         elif split_strategy == 'report_development':
@@ -266,7 +270,8 @@ class ImplementSplitterSkill(BaseSkill):  # [V2.0新增]
                 description=req.description,
                 impl_type=ImplementationType.SQL_REPORT,
                 language=CodeLanguage.SQL,
-                tech_stack="Oracle 19c / SQL Server 2019"
+                tech_stack="Oracle 19c / SQL Server 2019",
+                related_module=req.related_module
             ))
 
         else:
@@ -278,7 +283,8 @@ class ImplementSplitterSkill(BaseSkill):  # [V2.0新增]
                 description=req.description,
                 impl_type=ImplementationType.CONFIGURATION,
                 language=CodeLanguage.YAML,
-                tech_stack="金蝶配置平台"
+                tech_stack="金蝶配置平台",
+                related_module=req.related_module
             ))
 
         return items

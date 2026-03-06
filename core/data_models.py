@@ -75,6 +75,9 @@ class ImplementationItem:
     # 扩展点信息（如果是插件）
     extension_point: str = ""      # 扩展点ID
 
+    # 模块信息
+    related_module: str = "HR_CORE"  # 所属HR模块
+
     # 元数据
     estimated_loc: int = 0         # 预估代码行数
     complexity: str = "中"          # 复杂度：低/中/高
