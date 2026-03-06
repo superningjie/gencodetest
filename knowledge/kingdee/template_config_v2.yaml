@@ -1,0 +1,203 @@
+# 金蝶云苍穹实际项目模板配置 V2.0
+# 基于真实项目代码结构优化
+
+# ========== 项目结构信息 ==========
+project_structure:
+  # 模块命名规范
+  module_prefix: "cds0"              # 模块前缀（如 cds0, tdkw）
+  org_name: "opmc"                   # 组织名
+  app_name: "cea"                    # 应用名（如 cea, hlcm）
+  
+  # 包结构
+  package_base: "{{module_prefix}}.{{org_name}}.{{app_name}}"
+  
+  # 目录结构
+  paths:
+    java_code: "code/{{project_name}}/src/main/java/{{module_prefix}}/{{org_name}}/{{app_name}}"
+    metadata: "datamodel/{{app_name}}/{{version}}/main/{{app_name}}/metadata"
+    
+  # 元数据版本
+  metadata_version: "1.5.0"
+
+# ========== 实体命名规范 ==========
+naming_conventions:
+  # 实体标识（小写+下划线）
+  entity_key: "{{org_name}}_{{entity_name_snake}}"
+  
+  # 表单ID（ISV标识）
+  form_id_pattern: "{{isv_code}}_{{org_name}}_{{entity_name_snake}}"
+  
+  # Java类名（大驼峰）
+  class_name: "{{EntityNameCamel}}"
+  
+  # 服务名
+  domain_service: "{{EntityNameCamel}}DomainService"
+  entity_service: "{{EntityNameCamel}}EntityService"
+  
+  # 插件名
+  form_plugin: "{{EntityNameCamel}}Edit"
+  list_plugin: "{{EntityNameCamel}}ListPlugin"
+
+# ========== 模板定义 ==========
+templates:
+  # ---------- 元数据模板 ----------
+  form_metadata_dym:
+    name: "表单元数据(.dym)"
+    description: "金蝶苍穹表单元数据定义文件"
+    file_pattern: "{{entity_key}}.dym"
+    template_file: "metadata/form_metadata_real.dym.template"
+    target_dir: "datamodel/{{app_name}}/{{version}}/main/{{app_name}}/metadata"
+    editable_fields:
+      - name: "form_key"
+        description: "表单标识（如 cea_assessform）"
+      - name: "form_name_cn"
+        description: "表单中文名称"
+      - name: "parent_id"
+        description: "父表单ID（继承时使用）"
+      - name: "parent_form_id"
+        description: "父表单定义ID"
+      - name: "entry_entities"
+        description: "分录实体列表"
+        type: "array"
+      - name: "fields"
+        description: "字段配置列表"
+        type: "array"
+  
+  # ---------- Java 插件模板 ----------
+  form_plugin:
+    name: "表单编辑插件"
+    description: "继承HRDataBaseEdit的表单插件"
+    file_pattern: "{{class_name}}.java"
+    template_file: "java_plugin/FormPlugin_Real.java.template"
+    target_dir: "code/{{project_name}}/src/main/java/{{package_path}}/plugin/form"
+    extends: "kd.hr.hbp.formplugin.web.HRDataBaseEdit"
+    editable_fields:
+      - name: "class_name"
+        description: "类名（如 AssessActivityEdit）"
+      - name: "plugin_description"
+        description: "插件描述"
+      - name: "control_constants"
+        description: "控件常量定义"
+        type: "array"
+      - name: "services"
+        description: "引用的服务"
+        type: "array"
+      - name: "toolbar_buttons"
+        description: "工具栏按钮"
+        type: "array"
+      - name: "has_entry_grid"
+        description: "是否有分录表格"
+        type: "boolean"
+      - name: "implement_hyperlink"
+        description: "是否实现超链接监听"
+        type: "boolean"
+      - name: "before_bind_data_logic"
+        description: "数据绑定前逻辑"
+      - name: "after_bind_data_logic"
+        description: "数据绑定后逻辑"
+      - name: "field_change_rules"
+        description: "字段变更规则"
+        type: "array"
+  
+  list_plugin:
+    name: "列表插件"
+    description: "列表页面插件"
+    file_pattern: "{{class_name}}ListPlugin.java"
+    target_dir: "code/{{project_name}}/src/main/java/{{package_path}}/plugin/form"
+  
+  operate_plugin:
+    name: "操作插件"
+    description: "操作处理插件"
+    file_pattern: "{{class_name}}OperatePlugin.java"
+    target_dir: "code/{{project_name}}/src/main/java/{{package_path}}/plugin/operate"
+  
+  # ---------- 业务服务模板 ----------
+  domain_service:
+    name: "领域服务"
+    description: "业务领域服务类"
+    file_pattern: "{{class_name}}DomainService.java"
+    template_file: "java_plugin/DomainService_Real.java.template"
+    target_dir: "code/{{project_name}}/src/main/java/{{package_path}}/business/service"
+    editable_fields:
+      - name: "class_name"
+        description: "类名"
+      - name: "service_description"
+        description: "服务描述"
+      - name: "entity_services"
+        description: "引用的实体服务"
+        type: "array"
+      - name: "methods"
+        description: "服务方法列表"
+        type: "array"
+  
+  entity_service:
+    name: "实体服务"
+    description: "数据访问实体服务"
+    file_pattern: "{{class_name}}EntityService.java"
+    template_file: "java_plugin/EntityService_Real.java.template"
+    target_dir: "code/{{project_name}}/src/main/java/{{package_path}}/business/entityservice"
+    editable_fields:
+      - name: "class_name"
+        description: "类名"
+      - name: "entity_name"
+        description: "实体标识（如 cea_assessform）"
+      - name: "entity_description"
+        description: "实体描述"
+  
+  # ---------- 常量类模板 ----------
+  app_constant:
+    name: "应用常量"
+    description: "应用标识常量定义"
+    file_pattern: "AppflgConstant.java"
+    template_file: "java_plugin/AppConstant_Real.java.template"
+    target_dir: "code/{{project_name}}/src/main/java/{{package_path}}/common"
+    editable_fields:
+      - name: "app_key"
+        description: "应用标识"
+      - name: "entities"
+        description: "实体列表"
+        type: "array"
+      - name: "status_constants"
+        description: "状态常量"
+        type: "array"
+
+# ========== 生成流程配置 ==========
+generation_flow:
+  # 标准单据生成流程
+  standard_bill:
+    steps:
+      - name: "生成表单元数据"
+        template: "form_metadata_dym"
+        required: true
+      - name: "生成实体服务"
+        template: "entity_service"
+        required: true
+      - name: "生成领域服务"
+        template: "domain_service"
+        required: false
+      - name: "生成表单插件"
+        template: "form_plugin"
+        required: false
+      - name: "生成列表插件"
+        template: "list_plugin"
+        required: false
+
+# ========== 代码风格配置 ==========
+code_style:
+  # 缩进
+  indent: 4
+  
+  # 命名规范
+  naming:
+    class: "UpperCamelCase"
+    method: "lowerCamelCase"
+    field: "UPPER_SNAKE_CASE"
+    constant: "UPPER_SNAKE_CASE"
+  
+  # 导入顺序
+  import_order:
+    - "java.*"
+    - "javax.*"
+    - "kd.bos.*"
+    - "kd.hr.*"
+    - "{{module_prefix}}.*"
