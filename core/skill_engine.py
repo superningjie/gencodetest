@@ -515,20 +515,54 @@ class CodeGeneratorSkill(BaseSkill):  # [V2.0新增]
         return code
 
     def _load_template(self, item: ImplementationItem) -> str:
-        """加载代码模板"""
-        template_map = {
+        """加载代码模板 - 支持金蝶苍穹特定类型"""
+        
+        # 金蝶苍穹模板映射
+        kingdee_template_map = {
+            # 元数据模板
+            ImplementationType.ENTITY_METADATA: 'kingdee/metadata/entity_metadata.yaml.template',
+            ImplementationType.FORM_METADATA: 'kingdee/metadata/form_metadata.yaml.template',
+            ImplementationType.SERVICE_METADATA: 'kingdee/metadata/service_metadata.yaml.template',
+            
+            # KingScript 模板
+            ImplementationType.KINGSCRIPT_SERVICE: 'kingdee/kingscript/service_v2.ks.template',
+            ImplementationType.KINGSCRIPT_OPERATION: 'kingdee/kingscript/service_v2.ks.template',
+            ImplementationType.KINGSCRIPT_PLUGIN: 'kingdee/kingscript/form_plugin_v2.ks.template',
+            
+            # Java 插件模板
+            ImplementationType.JAVA_FORM_PLUGIN: 'kingdee/java_plugin/FormPlugin_v2.java.template',
+            ImplementationType.JAVA_LIST_PLUGIN: 'kingdee/java_plugin/ListPlugin.java.template',
+            ImplementationType.JAVA_OPERATION_PLUGIN: 'kingdee/java_plugin/OperationPlugin.java.template',
+            ImplementationType.JAVA_TRANSFORM_PLUGIN: 'kingdee/java_plugin/TransformPlugin.java.template',
+            
+            # 传统模板（向后兼容）
             (ImplementationType.JAVA_API, CodeLanguage.JAVA): 'java_api/controller.java',
             (ImplementationType.KOTLIN_PLUGIN, CodeLanguage.KOTLIN): 'kotlin_plugin/plugin.kt',
-            (ImplementationType.SQL_REPORT, CodeLanguage.SQL): 'sql_report/query.sql'
+            (ImplementationType.SQL_REPORT, CodeLanguage.SQL): 'sql_report/query.sql',
         }
-
-        template_file = template_map.get((item.impl_type, item.language), 'default.txt')
-        template_path = Path(self.templates_dir) / template_file
-
-        if template_path.exists():
-            with open(template_path, 'r', encoding='utf-8') as f:
-                return f.read()
-
+        
+        # 根据实现类型获取模板
+        if item.impl_type in kingdee_template_map:
+            template_file = kingdee_template_map[item.impl_type]
+        else:
+            # 回退到传统映射
+            template_file = kingdee_template_map.get(
+                (item.impl_type, item.language), 
+                'default.txt'
+            )
+        
+        # 尝试多个路径查找模板
+        possible_paths = [
+            Path(self.templates_dir) / template_file,
+            Path('knowledge') / template_file,
+            Path(template_file),
+        ]
+        
+        for template_path in possible_paths:
+            if template_path.exists():
+                with open(template_path, 'r', encoding='utf-8') as f:
+                    return f.read()
+        
         # 返回默认模板
         return self._get_default_template(item)
 
@@ -554,16 +588,73 @@ class {class_name} : AbstractPlugin() {{
             return "-- TODO: Implement {description}"
 
     def _prepare_context(self, item: ImplementationItem, assets: List[CodeAsset]) -> Dict:
-        """准备模板上下文"""
+        """准备模板上下文 - 支持金蝶苍穹特定字段"""
+        
+        # 基础上下文
         context = {
             'class_name': item.name,
             'description': item.description,
             'package': self._determine_package(item),
             'methods': self._generate_methods(item),
             'imports': self._generate_imports(item, assets),
-            'assets': [a.content for a in assets if a.id in item.required_assets]
+            'assets': [a.content for a in assets if a.id in item.required_assets],
+            # 金蝶特定字段
+            'module_prefix': self._determine_module_prefix(item),
+            'entity_name': item.name,
+            'entity_name_cn': item.description[:20],
+            'table_name': f"t_{item.related_module.lower()}_{item.name.lower()}",
+            'extend_type': item.extend_type or 'new',
+            'extend_target': item.extend_target or '',
+            'parent_template': item.parent_template or '',
+            'author': 'AI-Generated',
+            'date': datetime.now().strftime('%Y-%m-%d'),
         }
+        
+        # 根据实现类型添加特定上下文
+        if item.impl_type == ImplementationType.ENTITY_METADATA:
+            context['fields'] = item.entity_definition.get('fields', [])
+            context['indexes'] = item.entity_definition.get('indexes', [])
+            
+        elif item.impl_type == ImplementationType.FORM_METADATA:
+            context['entity_id'] = item.entity_definition.get('id', '')
+            context['layout_type'] = item.form_definition.get('layout_type', 'card')
+            context['sections'] = item.form_definition.get('sections', [])
+            context['plugins'] = item.form_definition.get('plugins', [])
+            context['business_rules'] = item.form_definition.get('business_rules', [])
+            
+        elif item.impl_type in [ImplementationType.KINGSCRIPT_SERVICE, 
+                                ImplementationType.KINGSCRIPT_OPERATION]:
+            context['service_name'] = item.name
+            context['service_id'] = f"{context['module_prefix']}.{item.name}"
+            context['service_description'] = item.description
+            context['operations'] = item.service_definition.get('operations', [])
+            
+        elif item.impl_type == ImplementationType.KINGSCRIPT_PLUGIN:
+            context['plugin_name'] = item.name
+            context['plugin_id'] = f"{context['module_prefix']}.{item.name}"
+            context['default_fields'] = item.form_definition.get('default_fields', [])
+            context['field_rules'] = item.form_definition.get('field_rules', [])
+            context['validations'] = item.form_definition.get('validations', [])
+            
+        elif item.impl_type in [ImplementationType.JAVA_FORM_PLUGIN,
+                                ImplementationType.JAVA_LIST_PLUGIN,
+                                ImplementationType.JAVA_OPERATION_PLUGIN]:
+            context['class_name'] = item.name
+            context['plugin_description'] = item.description
+            context['default_fields'] = item.form_definition.get('default_fields', [])
+            context['validations'] = item.form_definition.get('validations', [])
+            
         return context
+    
+    def _determine_module_prefix(self, item: ImplementationItem) -> str:
+        """确定模块前缀"""
+        module_map = {
+            'HR_CORE': 'kingdee.hr.core',
+            'HR_PAYROLL': 'kingdee.hr.payroll',
+            'HR_ATTENDANCE': 'kingdee.hr.attendance',
+            'HR_RECRUITMENT': 'kingdee.hr.recruitment',
+        }
+        return module_map.get(item.related_module, 'kingdee.hr')
 
     def _render_template(self, template: str, context: Dict) -> str:
         """渲染模板（简化版，实际应使用Jinja2）"""
@@ -579,15 +670,48 @@ class {class_name} : AbstractPlugin() {{
         return code
 
     def _determine_file_path(self, item: ImplementationItem) -> str:
-        """确定文件路径"""
+        """确定文件路径 - 支持金蝶苍穹特定类型"""
+        
+        # 金蝶苍穹路径映射
+        kingdee_path_map = {
+            ImplementationType.ENTITY_METADATA: 'metadata/entities',
+            ImplementationType.FORM_METADATA: 'metadata/forms',
+            ImplementationType.SERVICE_METADATA: 'metadata/services',
+            ImplementationType.KINGSCRIPT_SERVICE: 'scripts/services',
+            ImplementationType.KINGSCRIPT_OPERATION: 'scripts/operations',
+            ImplementationType.KINGSCRIPT_PLUGIN: 'scripts/plugins',
+            ImplementationType.JAVA_FORM_PLUGIN: 'src/com/kingdee/hr/plugin/form',
+            ImplementationType.JAVA_LIST_PLUGIN: 'src/com/kingdee/hr/plugin/list',
+            ImplementationType.JAVA_OPERATION_PLUGIN: 'src/com/kingdee/hr/plugin/operation',
+            ImplementationType.JAVA_TRANSFORM_PLUGIN: 'src/com/kingdee/hr/plugin/transform',
+            ImplementationType.JAVA_EXTENSION_POINT: 'src/com/kingdee/hr/extension',
+            ImplementationType.JAVA_EXTENSION_IMPL: 'src/com/kingdee/hr/extension/impl',
+        }
+        
+        # 获取目录
+        base_dir = kingdee_path_map.get(item.impl_type, 'src')
+        
+        # 获取扩展名
         ext_map = {
             CodeLanguage.JAVA: 'java',
             CodeLanguage.KOTLIN: 'kt',
             CodeLanguage.SQL: 'sql',
-            CodeLanguage.PYTHON: 'py'
+            CodeLanguage.YAML: 'yaml',
+            CodeLanguage.XML: 'xml',
         }
         ext = ext_map.get(item.language, 'txt')
-        return f"src/{item.name}.{ext}"
+        
+        # 特殊处理元数据类型
+        if item.impl_type in [ImplementationType.ENTITY_METADATA,
+                              ImplementationType.FORM_METADATA,
+                              ImplementationType.SERVICE_METADATA]:
+            ext = 'yaml'
+        elif item.impl_type in [ImplementationType.KINGSCRIPT_SERVICE,
+                                ImplementationType.KINGSCRIPT_OPERATION,
+                                ImplementationType.KINGSCRIPT_PLUGIN]:
+            ext = 'ks'
+        
+        return f"{base_dir}/{item.name}.{ext}"
 
     def _determine_package(self, item: ImplementationItem) -> str:
         """确定包名"""

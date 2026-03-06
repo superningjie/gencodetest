@@ -1,0 +1,168 @@
+# 金蝶云苍穹开发模板配置
+# 用户可以自定义填充以下模板
+
+templates:
+  # ========== 元数据模板 ==========
+  entity_metadata:
+    name: "实体元数据"
+    description: "定义数据库实体结构和字段"
+    template_file: "metadata/entity_metadata.yaml.template"
+    editable_fields:
+      - name: "entity_name"
+        description: "实体英文名称（驼峰命名）"
+        example: "AttendanceCheckIn"
+      - name: "entity_name_cn"
+        description: "实体中文名称"
+        example: "考勤打卡记录"
+      - name: "table_name"
+        description: "数据库表名"
+        example: "t_hr_attendance_checkin"
+      - name: "fields"
+        description: "字段列表"
+        type: "array"
+        fields:
+          - id: "字段ID（英文）"
+            name: "字段名称（中文）"
+            data_type: "数据类型（string/integer/decimal/date等）"
+            length: "长度（可选）"
+            required: "是否必填（true/false）"
+            is_pk: "是否主键（true/false）"
+            ref_entity: "关联实体ID（可选）"
+            relation: "关联类型（many-to-one/one-to-many）"
+    
+  form_metadata:
+    name: "表单元数据"
+    description: "定义页面布局和控件"
+    template_file: "metadata/form_metadata.yaml.template"
+    editable_fields:
+      - name: "form_name"
+        description: "表单英文名称"
+      - name: "form_name_cn"
+        description: "表单中文名称"
+      - name: "layout_type"
+        description: "布局类型（card/list等）"
+        default: "card"
+      - name: "sections"
+        description: "页面分区"
+        type: "array"
+        fields:
+          - title: "区域标题"
+            fields: "字段ID列表"
+      - name: "plugins"
+        description: "注册的插件列表"
+        type: "array"
+        optional: true
+    
+  service_metadata:
+    name: "服务元数据"
+    description: "定义业务服务接口"
+    template_file: "metadata/service_metadata.yaml.template"
+    editable_fields:
+      - name: "service_name"
+        description: "服务英文名称"
+      - name: "service_name_cn"
+        description: "服务中文名称"
+      - name: "operations"
+        description: "操作列表"
+        type: "array"
+        fields:
+          - id: "操作ID"
+            name: "操作名称"
+            description: "操作描述"
+            input_params: "输入参数列表"
+            output_params: "输出参数列表"
+
+  # ========== KingScript 模板 ==========
+  kingscript_service:
+    name: "KingScript 服务"
+    description: "业务服务脚本"
+    template_file: "kingscript/service_v2.ks.template"
+    editable_fields:
+      - name: "service_name"
+        description: "服务类名（大驼峰）"
+        example: "AttendanceService"
+      - name: "service_description"
+        description: "服务描述"
+      - name: "operations"
+        description: "服务操作列表"
+        type: "array"
+    
+  kingscript_plugin:
+    name: "KingScript 表单插件"
+    description: "表单事件处理脚本"
+    template_file: "kingscript/form_plugin_v2.ks.template"
+    editable_fields:
+      - name: "plugin_name"
+        description: "插件类名"
+      - name: "extend_type"
+        description: "扩展类型（extend/inherit/new）"
+        example: "extend"
+      - name: "extend_target"
+        description: "扩展目标（extend时使用）"
+        example: "kingdee.hr.attendance.CheckInBillPlugin"
+      - name: "parent_template"
+        description: "父模板（inherit时使用）"
+      - name: "default_fields"
+        description: "默认字段值"
+        type: "array"
+      - name: "field_rules"
+        description: "字段联动规则"
+        type: "array"
+      - name: "validations"
+        description: "校验规则"
+        type: "array"
+
+  # ========== Java 插件模板 ==========
+  java_form_plugin:
+    name: "Java 表单插件"
+    description: "Java实现的表单插件"
+    template_file: "java_plugin/FormPlugin_v2.java.template"
+    editable_fields:
+      - name: "class_name"
+        description: "类名（大驼峰）"
+        example: "CheckInFormPlugin"
+      - name: "package_name"
+        description: "包名"
+        example: "com.kingdee.hr.attendance.plugin.form"
+      - name: "plugin_description"
+        description: "插件描述"
+      - name: "extend_type"
+        description: "扩展类型（extend/inherit/new）"
+      - name: "extend_target"
+        description: "扩展目标"
+      - name: "parent_template"
+        description: "父模板"
+      - name: "default_fields"
+        description: "默认字段"
+        type: "array"
+      - name: "validations"
+        description: "校验规则"
+        type: "array"
+
+# ========== 扩展与继承模式说明 ==========
+extend_modes:
+  extend:
+    name: "扩展标品"
+    description: "直接扩展金蝶标准产品元数据，进行功能增强"
+    use_case: "在标品单据上添加自定义字段、修改业务规则"
+    example: |
+      扩展考勤打卡单据，添加GPS坐标字段
+      扩展目标: kingdee.hr.attendance.CheckInBill
+      添加字段: gpsLatitude, gpsLongitude
+      
+  inherit:
+    name: "继承模板"
+    description: "继承标品提供的模板，快速实现功能"
+    use_case: "基于标准模板快速开发新的业务功能"
+    example: |
+      继承标准单据模板，开发请假申请单
+      父模板: kingdee.bos.standard.BillTemplate
+      重写方法: createNewData, afterDoOperation
+      
+  new:
+    name: "新建"
+    description: "完全自定义开发"
+    use_case: "开发全新的业务功能"
+    example: |
+      开发全新的绩效管理模块
+      完全自定义实体、表单、插件
