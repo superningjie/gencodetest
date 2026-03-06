@@ -1,0 +1,47 @@
+# 金蝶云苍穹实体元数据模板
+# 用于生成实体定义元数据
+
+metadata:
+  # 实体基本信息
+  entity:
+    id: "{{module_prefix}}.{{entity_name}}"
+    name: "{{entity_name_cn}}"
+    tableName: "{{table_name}}"
+    
+  # 字段定义
+  fields:
+{% for field in fields %}
+    - id: "{{field.id}}"
+      name: "{{field.name}}"
+      dataType: "{{field.data_type}}"
+{% if field.length %}
+      length: {{field.length}}
+{% endif %}
+      required: {{field.required | default('false')}}
+{% if field.is_pk %}
+      primaryKey: true
+{% endif %}
+{% if field.ref_entity %}
+      refEntity: "{{field.ref_entity}}"
+      relation: "{{field.relation | default('many-to-one')}}"
+{% endif %}
+{% endfor %}
+
+  # 索引定义
+{% if indexes %}
+  indexes:
+{% for idx in indexes %}
+    - name: "{{idx.name}}"
+      fields: [{{idx.fields | join(', ')}}]
+{% endfor %}
+{% endif %}
+
+  # 扩展信息（如果是扩展标品实体）
+{% if extend_type == 'extend' and extend_target %}
+  extend:
+    targetEntity: "{{extend_target}}"
+    addFields:
+{% for field in add_fields %}
+      - {{field}}
+{% endfor %}
+{% endif %}

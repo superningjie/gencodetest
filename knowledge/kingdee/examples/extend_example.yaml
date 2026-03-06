@@ -1,0 +1,73 @@
+# 扩展示例：在考勤打卡单据上添加GPS字段
+# 使用场景：扩展标品考勤打卡功能，增加GPS校验
+
+# 1. 实体元数据（扩展标品实体）
+entity_extend_example:
+  extend_type: "extend"
+  extend_target: "kingdee.hr.attendance.AttendanceCheckIn"
+  
+  entity_definition:
+    fields:
+      - id: "gpsLatitude"
+        name: "GPS纬度"
+        data_type: "decimal"
+        length: 10
+        decimalPlaces: 6
+        required: false
+        
+      - id: "gpsLongitude"
+        name: "GPS经度"
+        data_type: "decimal"
+        length: 10
+        decimalPlaces: 6
+        required: false
+        
+      - id: "gpsAddress"
+        name: "GPS地址"
+        data_type: "string"
+        length: 200
+        required: false
+        
+      - id: "isInRange"
+        name: "是否在打卡范围内"
+        data_type: "boolean"
+        required: false
+
+# 2. 表单元数据（扩展标品表单）
+form_extend_example:
+  extend_type: "extend"
+  extend_target: "kingdee.hr.attendance.AttendanceCheckInBill"
+  
+  form_definition:
+    sections:
+      - title: "打卡位置"
+        fields: ["gpsLatitude", "gpsLongitude", "gpsAddress", "isInRange"]
+    
+    plugins:
+      - id: "gpsCheckPlugin"
+        type: "form"
+        className: "com.kingdee.hr.attendance.plugin.form.GPSCheckPlugin"
+
+# 3. Java 插件（扩展标品插件）
+plugin_extend_example:
+  extend_type: "extend"
+  extend_target: "kingdee.hr.attendance.plugin.form.CheckInBillPlugin"
+  
+  class_name: "GPSCheckPlugin"
+  package_name: "com.kingdee.hr.attendance.plugin.form"
+  
+  extend_logic_description: "校验GPS坐标是否在有效打卡范围内"
+  extend_logic_code: |
+    // 获取GPS坐标
+    BigDecimal latitude = (BigDecimal) model.getValue("gpsLatitude");
+    BigDecimal longitude = (BigDecimal) model.getValue("gpsLongitude");
+    
+    if (latitude != null && longitude != null) {
+        // 调用服务校验是否在打卡范围内
+        boolean inRange = AttendanceServiceHelper.isInCheckInRange(latitude, longitude);
+        model.setValue("isInRange", inRange);
+        
+        if (!inRange) {
+            this.getView().showMessage("当前位置不在有效打卡范围内！");
+        }
+    }

@@ -1,0 +1,51 @@
+# 金蝶云苍穹表单元数据模板
+# 用于生成表单定义元数据
+
+metadata:
+  form:
+    id: "{{module_prefix}}.{{form_name}}"
+    name: "{{form_name_cn}}"
+    entityId: "{{entity_id}}"
+    
+{% if extend_type == 'inherit' and parent_template %}
+  # 继承配置
+  inherit:
+    from: "{{parent_template}}"
+    override:
+{% for item in override_items %}
+      - {{item}}
+{% endfor %}
+{% endif %}
+
+  # 页面布局
+  layout:
+    type: "{{layout_type | default('card')}}"
+    sections:
+{% for section in sections %}
+      - title: "{{section.title}}"
+        fields:
+{% for field in section.fields %}
+          - {{field}}
+{% endfor %}
+{% endfor %}
+
+  # 插件注册
+{% if plugins %}
+  plugins:
+{% for plugin in plugins %}
+    - pluginId: "{{plugin.id}}"
+      type: "{{plugin.type}}"
+      className: "{{plugin.class_name}}"
+{% endfor %}
+{% endif %}
+
+  # 业务规则
+{% if business_rules %}
+  businessRules:
+{% for rule in business_rules %}
+    - name: "{{rule.name}}"
+      trigger: "{{rule.trigger}}"
+      condition: "{{rule.condition}}"
+      action: "{{rule.action}}"
+{% endfor %}
+{% endif %}

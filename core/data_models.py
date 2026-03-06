@@ -11,11 +11,27 @@ from datetime import datetime
 
 class ImplementationType(Enum):
     """实现类型"""
+    # 通用类型
     JAVA_API = "java_api"
     KOTLIN_PLUGIN = "kotlin_plugin"
     SQL_REPORT = "sql_report"
     PYTHON_SCRIPT = "python_script"
     CONFIGURATION = "configuration"
+    
+    # 金蝶云苍穹特定类型
+    ENTITY_METADATA = "entity_metadata"          # 实体元数据
+    FORM_METADATA = "form_metadata"              # 表单元数据
+    SERVICE_METADATA = "service_metadata"        # 服务元数据
+    KINGSCRIPT_SERVICE = "kingscript_service"    # KingScript服务
+    KINGSCRIPT_OPERATION = "kingscript_operation" # KingScript操作
+    KINGSCRIPT_PLUGIN = "kingscript_plugin"      # KingScript插件
+    JAVA_FORM_PLUGIN = "java_form_plugin"        # Java表单插件
+    JAVA_LIST_PLUGIN = "java_list_plugin"        # Java列表插件
+    JAVA_OPERATION_PLUGIN = "java_operation_plugin" # Java操作插件
+    JAVA_TRANSFORM_PLUGIN = "java_transform_plugin" # Java转换插件
+    JAVA_EXTENSION_POINT = "java_extension_point"   # 扩展点定义
+    JAVA_EXTENSION_IMPL = "java_extension_impl"     # 扩展实现
+    CUSTOM_CONTROL = "custom_control"            # 自定义控件
 
 
 class CodeLanguage(Enum):
@@ -77,12 +93,18 @@ class ImplementationItem:
 
     # 模块信息
     related_module: str = "HR_CORE"  # 所属HR模块
-
-    # 元数据
-    estimated_loc: int = 0         # 预估代码行数
-    complexity: str = "中"          # 复杂度：低/中/高
-    confidence: float = 0.8
-    metadata: Dict = field(default_factory=dict)
+    
+    # 金蝶苍穹特定字段
+    extend_type: str = ""          # 扩展类型: extend(扩展标品) / inherit(继承模板) / new(新建)
+    parent_template: str = ""      # 父模板ID（继承时使用）
+    extend_target: str = ""        # 扩展目标（扩展标品时使用）
+    extension_point: str = ""      # 扩展点ID
+    plugin_register: str = ""      # 插件注册位置
+    
+    # 元数据定义（元数据类型时使用）
+    entity_definition: Dict = field(default_factory=dict)
+    form_definition: Dict = field(default_factory=dict)
+    service_definition: Dict = field(default_factory=dict)
 
     def __post_init__(self):
         if not self.id:

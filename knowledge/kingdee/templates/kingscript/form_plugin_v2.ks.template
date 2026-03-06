@@ -1,0 +1,106 @@
+/**
+ * {{plugin_description}}
+ * 
+{% if extend_type == 'extend' %}
+ * 扩展类型: 扩展标品
+ * 扩展目标: {{extend_target}}
+{% elif extend_type == 'inherit' %}
+ * 扩展类型: 继承模板
+ * 父模板: {{parent_template}}
+{% else %}
+ * 扩展类型: 新建
+{% endif %}
+ * @plugin {{plugin_id}}
+ */
+plugin {{plugin_name}} extends FormPlugin {
+    
+    /**
+     * 插件初始化
+     */
+    onSetPluginName() {
+        this.pluginName = "{{plugin_name}}";
+    }
+    
+{% if extend_type == 'extend' %}
+    /**
+     * 扩展：加载后处理
+     * 在标品加载完成后执行
+     */
+    onAfterBindData() {
+        // 调用父类（标品）逻辑
+        super.onAfterBindData();
+        
+        // 扩展逻辑：添加自定义字段或修改现有字段
+        var model = this.getModel();
+        
+        // TODO: 扩展业务逻辑
+        {{extend_logic | default('// 添加扩展字段或修改默认值')}}
+    }
+    
+{% elif extend_type == 'inherit' %}
+    /**
+     * 继承：重写父模板方法
+     */
+    onCreateNewData() {
+        // 调用父模板逻辑
+        super.onCreateNewData();
+        
+        // 继承增强逻辑
+        var model = this.getModel();
+        
+        // TODO: 增强业务逻辑
+        {{inherit_logic | default('// 修改默认值或添加计算逻辑')}}
+    }
+    
+{% else %}
+    /**
+     * 新建：表单加载后
+     */
+    onAfterLoad() {
+        var model = this.getModel();
+        
+        // 设置默认值
+{% for field in default_fields %}
+        model.setValue("{{field.id}}", {{field.value}});
+{% endfor %}
+    }
+    
+    /**
+     * 字段值变更事件
+     */
+    onFieldChange(fieldName, newValue, oldValue) {
+{% for rule in field_rules %}
+        if (fieldName == "{{rule.field}}") {
+            // {{rule.description}}
+            {{rule.logic}}
+        }
+{% endfor %}
+    }
+    
+{% endif %}
+    
+    /**
+     * 保存前校验
+     */
+    onBeforeSave() {
+        var model = this.getModel();
+        
+        // 校验逻辑
+{% for validation in validations %}
+        var {{validation.field}} = model.getValue("{{validation.field}}");
+        if ({{validation.condition}}) {
+            this.getView().showMessage("{{validation.message}}");
+            return false;
+        }
+{% endfor %}
+        
+        return true;
+    }
+    
+    /**
+     * 自定义方法
+     */
+    function {{custom_method_name}}({{custom_method_params}}) {
+        {{custom_method_logic}}
+    }
+}

@@ -1,0 +1,51 @@
+/**
+ * {{service_description}}
+ * @service {{service_id}}
+ * @version 1.0.0
+ * @author {{author}}
+ */
+service {{service_name}} {
+    
+{% for op in operations %}
+    /**
+     * {{op.description}}
+     * 
+{% for param in op.input_params %}
+     * @param {{param.name}} {{param.description}}
+{% endfor %}
+{% if op.output_params %}
+     * @return {{op.output_params[0].description}}
+{% endif %}
+     */
+    operation {{op.name}}({{op.input_params | map(attribute='name') | join(', ')}}) {
+        // 1. 参数校验
+{% for param in op.input_params %}
+{% if param.required %}
+        if ({{param.name}} == null{% if param.type == 'string' %} || {{param.name}} == ""{% endif %}) {
+            throw BusinessException("{{param.description}}不能为空");
+        }
+{% endif %}
+{% endfor %}
+        
+        // 2. 业务逻辑
+{% if op.business_logic %}
+        {{op.business_logic}}
+{% else %}
+        // TODO: 实现业务逻辑
+{% endif %}
+        
+        // 3. 数据操作
+{% if op.data_operation %}
+        {{op.data_operation}}
+{% endif %}
+        
+        // 4. 返回结果
+{% if op.output_params %}
+        return {{op.output_params[0].name | default('result')}};
+{% else %}
+        return true;
+{% endif %}
+    }
+    
+{% endfor %}
+}
