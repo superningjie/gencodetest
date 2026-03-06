@@ -42,11 +42,8 @@ pipeline:
   - id: assemble_output
     skill: output_assembler
     output_key: assemble_output
-    config: {}
-  - id: new_step_id
-    skill: skill_name
-    output_key: new_step_id
-    config: {}
-    input: '{{previous_step}}'
+    input: '{{generate_code}}'
     depends_on:
-    - dependency_step
+    - quality_check
+    - estimate_effort
+    - assess_risks

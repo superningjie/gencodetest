@@ -798,6 +798,7 @@ class OutputAssemblerSkill(BaseSkill):
     """输出组装器"""
 
     async def execute(self, context: SkillContext) -> Dict:
+        from datetime import datetime
         return {
             'status': 'success',
             'data': {
