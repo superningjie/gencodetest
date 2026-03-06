@@ -1,0 +1,99 @@
+# 金蝶云苍穹知识库配置
+knowledge_base:
+  name: "金蝶云苍穹开发技术库"
+  version: "2.0"
+  
+  # 技术文档
+  documents:
+    - id: "kingdee_complete_guide"
+      name: "金蝶云苍穹开发技术知识库（完整版）"
+      path: "docs/kingdee/KINGDEE_COMPLETE_TECH_GUIDE.md"
+      type: "master_guide"
+      
+    - id: "tech_stack_rules"
+      name: "技术栈推断规则"
+      path: "knowledge/kingdee/tech_stack_rules.yaml"
+      type: "rules"
+  
+  # 代码模板
+  templates:
+    kingscript:
+      service: "knowledge/kingdee/templates/kingscript/service.ks.template"
+      form_plugin: "knowledge/kingdee/templates/kingscript/form_plugin.ks.template"
+    
+    java_plugin:
+      form_plugin: "knowledge/kingdee/templates/java_plugin/FormPlugin.java.template"
+      operation_plugin: "knowledge/kingdee/templates/java_plugin/OperationPlugin.java.template"
+  
+  # 插件基类映射
+  plugin_base_classes:
+    form_plugin: "kd.bos.form.plugin.AbstractFormPlugin"
+    bill_plugin: "kd.bos.bill.plugin.AbstractBillPlugin"
+    list_plugin: "kd.bos.list.plugin.AbstractListPlugin"
+    operation_plugin: "kd.bos.entity.operate.AbstractOperationService"
+    transform_plugin: "kd.bos.transform.plugin.AbstractTransformPlugin"
+    writeback_plugin: "kd.bos.writeback.plugin.AbstractWriteBackPlugin"
+    report_plugin: "kd.bos.report.plugin.AbstractReportDataPlugin"
+    workflow_plugin: "kd.bos.workflow.plugin.AbstractWorkflowPlugin"
+    print_plugin: "kd.bos.print.plugin.AbstractPrintPlugin"
+    openapi_plugin: "kd.bos.openapi.plugin.AbstractOpenAPIPlugin"
+    background_task: "kd.bos.background.task.AbstractBackgroundTask"
+  
+  # Prompt 工程配置
+  prompt_engineering:
+    system_prompt: |
+      你是金蝶云苍穹平台的资深开发工程师。
+      
+      ## 核心能力
+      - 精通 KingScript 脚本开发
+      - 熟悉金蝶苍穹插件开发体系
+      - 掌握元数据驱动开发模式
+      - 了解苍穹ORM和查询服务
+      
+      ## 编码原则
+      1. 代码必须完整、可运行
+      2. 遵循金蝶开发规范和命名约定
+      3. 支持多语言和国际化
+      4. 合理使用缓存和性能优化
+      
+      ## 技术栈
+      - 后端: KingScript / Java 插件
+      - 数据访问: 苍穹ORM (QueryService, EntityService)
+      - 前端: 苍穹Design/移动Design
+      - 集成: OpenAPI / BOTP
+      
+      ## 输出要求
+      - 只输出代码本身
+      - 代码前后用 ``` 包裹
+      - 标注代码用途和关键逻辑
+    
+    few_shot_examples:
+      kingscript_service: |
+        ## KingScript 服务示例
+        ```kingscript
+        service PersonService {
+            operation entry(personInfo, entryDate) {
+                if (personInfo == null) {
+                    throw BusinessException("人员信息不能为空");
+                }
+                
+                personInfo.entryStatus = "已入职";
+                personInfo.entryDate = entryDate;
+                
+                return entityService.save("kingdee.hr.person", personInfo);
+            }
+        }
+        ```
+      
+      java_form_plugin: |
+        ## Java 表单插件示例
+        ```java
+        public class EntryFormPlugin extends AbstractFormPlugin {
+            @Override
+            public void afterDoOperation(AfterDoOperationArgs e) {
+                if ("save".equals(e.getOperationKey())) {
+                    // 保存后逻辑
+                }
+            }
+        }
+        ```

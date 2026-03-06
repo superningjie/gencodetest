@@ -1,0 +1,110 @@
+/**
+ * ${pluginDescription}
+ * @plugin ${pluginId}
+ */
+plugin ${pluginName} extends FormPlugin {
+    
+    /**
+     * 插件初始化
+     * 设置插件名称
+     */
+    onSetPluginName() {
+        this.pluginName = "${pluginName}";
+    }
+    
+    /**
+     * 表单加载前事件
+     * 可用于权限校验、初始化设置等
+     */
+    onPreOpenForm() {
+        ${preOpenFormLogic}
+    }
+    
+    /**
+     * 创建新数据事件
+     * 设置默认值
+     */
+    onCreateNewData() {
+        var model = this.getModel();
+        ${defaultValueLogic}
+    }
+    
+    /**
+     * 创建新数据后事件
+     */
+    onAfterCreateNewData() {
+        ${afterCreateDataLogic}
+    }
+    
+    /**
+     * 绑定数据前事件
+     */
+    onBeforeBindData() {
+        ${beforeBindDataLogic}
+    }
+    
+    /**
+     * 绑定数据后事件
+     */
+    onAfterBindData() {
+        ${afterBindDataLogic}
+    }
+    
+    /**
+     * 字段值变更事件
+     * @param fieldName 字段名
+     * @param newValue 新值
+     * @param oldValue 旧值
+     */
+    onPropertyChanged(fieldName, newValue, oldValue) {
+        ${propertyChangedLogic}
+    }
+    
+    /**
+     * 按钮点击前事件
+     */
+    onBeforeItemClick(itemKey) {
+        ${beforeItemClickLogic}
+        return true;
+    }
+    
+    /**
+     * 按钮点击事件
+     */
+    onItemClick(itemKey) {
+        ${itemClickLogic}
+    }
+    
+    /**
+     * 操作执行前事件
+     * @param operationKey 操作标识
+     */
+    onBeforeDoOperation(operationKey) {
+        ${beforeDoOperationLogic}
+        return true;
+    }
+    
+    /**
+     * 操作执行后事件
+     * @param operationKey 操作标识
+     * @param operationResult 操作结果
+     */
+    onAfterDoOperation(operationKey, operationResult) {
+        ${afterDoOperationLogic}
+    }
+    
+    /**
+     * 表单关闭前事件
+     */
+    onBeforeClosed() {
+        ${beforeClosedLogic}
+    }
+    
+    /**
+     * 自定义方法
+     * ${customMethodDescription}
+     */
+    function ${customMethodName}(${customMethodParams}) {
+        ${customMethodLogic}
+    }
+}
