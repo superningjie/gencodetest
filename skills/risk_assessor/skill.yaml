@@ -1,0 +1,16 @@
+skill_id: risk_assessor
+name: 风险评估器
+version: "1.0"
+type: default
+description: 评估项目风险
+
+custom_class: core.skill_engine.RiskAssessorSkill
+
+config:
+  risk_levels: ["高", "中", "低"]
+
+inputs:
+  - implementation_items: List[ImplementationItem]
+
+outputs:
+  - risks: List[Risk]

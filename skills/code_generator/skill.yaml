@@ -1,0 +1,9 @@
+skill_id: code_generator
+name: 代码生成器
+version: '2.0'
+type: code_generator
+custom_class: core.skill_engine.CodeGeneratorSkill
+description: 基于实现项和匹配的资产生成高质量代码，支持多种语言和框架。
+config: {}
+inputs: []
+outputs: []

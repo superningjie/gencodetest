@@ -1,0 +1,31 @@
+module: HR_CORE
+version: "5.0"
+description: 金蝶星瀚HR核心模块
+
+functions:
+  - id: CORE001
+    name: 员工档案
+    description: 员工基本信息管理
+    extension_points:
+      - point_id: "employee_validator"
+        type: "plugin"
+        description: "员工信息校验扩展"
+        interface: "IEmployeeValidator"
+
+  - id: CORE002
+    name: 组织架构
+    description: 组织架构管理与调整
+    extension_points:
+      - point_id: "org_structure_validator"
+        type: "plugin"
+        description: "组织架构校验扩展"
+        interface: "IOrgStructureValidator"
+
+  - id: CORE003
+    name: 合同管理
+    description: 员工合同签订与续签
+    extension_points:
+      - point_id: "contract_reminder"
+        type: "plugin"
+        description: "合同到期提醒扩展"
+        interface: "IContractReminder"

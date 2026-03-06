@@ -1,0 +1,9 @@
+skill_id: code_implement_splitter
+name: 开发实现拆分器
+version: '2.0'
+type: implement_splitter
+custom_class: core.skill_engine.ImplementSplitterSkill
+description: 将需求拆分为具体的、可实现的开发项，确定技术栈、实现类型和依赖关系。
+config: {}
+inputs: []
+outputs: []

@@ -1,0 +1,99 @@
+# 需求拆分规则 V2.0
+splitting_rules:
+  # 规则1：原子性检查
+  atomicity_check:
+    enabled: true
+    max_description_length: 200
+    required_fields: ["function", "input", "output", "tech_stack"]
+
+  # 规则2：技术栈推断
+  tech_stack_inference:
+    enabled: true
+    rules:
+      - pattern: "报表|统计|查询|数据"
+        stack: "sql_report"
+        language: "sql"
+        impl_type: "sql_report"
+
+      - pattern: "接口|API|服务|controller|rest"
+        stack: "java_api"
+        language: "java"
+        impl_type: "java_api"
+
+      - pattern: "插件|扩展|自定义|plugin|extension"
+        stack: "kotlin_plugin"
+        language: "kotlin"
+        impl_type: "kotlin_plugin"
+
+      - pattern: "脚本|自动化|定时任务"
+        stack: "python_script"
+        language: "python"
+        impl_type: "python_script"
+
+      - pattern: "配置|参数|规则"
+        stack: "configuration"
+        language: "yaml"
+        impl_type: "configuration"
+
+  # 规则3：模块识别
+  module_detection:
+    mapping:
+      - keywords: ["考勤", "打卡", "排班", "假期"]
+        module: "HR_ATTENDANCE"
+
+      - keywords: ["薪酬", "工资", "社保", "公积金", "个税"]
+        module: "HR_PAYROLL"
+
+      - keywords: ["组织", "员工", "合同", "档案"]
+        module: "HR_CORE"
+
+      - keywords: ["招聘", "面试", "入职", "简历"]
+        module: "HR_RECRUITMENT"
+
+  # 规则4：复杂度评估
+  complexity_assessment:
+    factors:
+      - name: "description_length"
+        weight: 0.2
+        thresholds:
+          low: 50
+          medium: 150
+          high: 300
+
+      - name: "dependency_count"
+        weight: 0.3
+        thresholds:
+          low: 1
+          medium: 3
+          high: 5
+
+      - name: "business_rules"
+        weight: 0.5
+        thresholds:
+          low: 2
+          medium: 5
+          high: 10
+
+  # 规则5：扩展点映射
+  extension_point_mapping:
+    HR_ATTENDANCE:
+      - keyword: "打卡"
+        point_id: "attendance_check_in"
+        interface: "ICheckInValidator"
+
+      - keyword: "请假"
+        point_id: "attendance_leave"
+        interface: "ILeaveApprover"
+
+      - keyword: "加班"
+        point_id: "attendance_overtime"
+        interface: "IOvertimeCalculator"
+
+    HR_PAYROLL:
+      - keyword: "计算"
+        point_id: "payroll_calculation"
+        interface: "ISalaryCalculator"
+
+      - keyword: "发放"
+        point_id: "payroll_distribution"
+        interface: "IPaymentProcessor"

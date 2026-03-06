@@ -1,0 +1,38 @@
+2026-03-06 15:36:17,233 - core.skill_engine - ERROR - Failed to load skill from skills\asset_matcher\skill.yaml: name 'CodeLanguage' is not defined
+2026-03-06 15:36:17,236 - core.skill_engine - INFO - Registered skill: code_generator
+2026-03-06 15:36:17,238 - core.skill_engine - INFO - Registered skill: code_implement_splitter
+2026-03-06 15:36:17,240 - core.skill_engine - INFO - Registered skill: code_quality_checker
+2026-03-06 15:36:17,242 - core.skill_engine - INFO - Registered skill: effort_estimator
+2026-03-06 15:36:17,244 - core.skill_engine - INFO - Registered skill: output_assembler
+2026-03-06 15:36:17,246 - core.skill_engine - INFO - Registered skill: requirement_analyzer
+2026-03-06 15:36:17,247 - core.skill_engine - INFO - Registered skill: risk_assessor
+2026-03-06 15:36:17,263 - core.skill_engine - ERROR - Failed to load skill from skills\asset_matcher\skill.yaml: name 'CodeLanguage' is not defined
+2026-03-06 15:36:17,264 - core.skill_engine - INFO - Registered skill: code_generator
+2026-03-06 15:36:17,266 - core.skill_engine - INFO - Registered skill: code_implement_splitter
+2026-03-06 15:36:17,268 - core.skill_engine - INFO - Registered skill: code_quality_checker
+2026-03-06 15:36:17,270 - core.skill_engine - INFO - Registered skill: effort_estimator
+2026-03-06 15:36:17,272 - core.skill_engine - INFO - Registered skill: output_assembler
+2026-03-06 15:36:17,273 - core.skill_engine - INFO - Registered skill: requirement_analyzer
+2026-03-06 15:36:17,275 - core.skill_engine - INFO - Registered skill: risk_assessor
+2026-03-06 15:36:17,275 - core.knowledge_base - INFO - Loading knowledge base...
+2026-03-06 15:36:17,311 - core.knowledge_base - INFO - Knowledge base loaded: 43 items
+2026-03-06 15:36:26,858 - core.pipeline_executor - INFO - Starting pipeline: customization_code_generation v2.0.0
+2026-03-06 15:37:35,776 - core.skill_engine - ERROR - Failed to load skill from skills\asset_matcher\skill.yaml: name 'CodeLanguage' is not defined
+2026-03-06 15:37:35,778 - core.skill_engine - INFO - Registered skill: code_generator
+2026-03-06 15:37:35,780 - core.skill_engine - INFO - Registered skill: code_implement_splitter
+2026-03-06 15:37:35,782 - core.skill_engine - INFO - Registered skill: code_quality_checker
+2026-03-06 15:37:35,783 - core.skill_engine - INFO - Registered skill: effort_estimator
+2026-03-06 15:37:35,785 - core.skill_engine - INFO - Registered skill: output_assembler
+2026-03-06 15:37:35,787 - core.skill_engine - INFO - Registered skill: requirement_analyzer
+2026-03-06 15:37:35,790 - core.skill_engine - INFO - Registered skill: risk_assessor
+2026-03-06 15:37:35,803 - core.skill_engine - ERROR - Failed to load skill from skills\asset_matcher\skill.yaml: name 'CodeLanguage' is not defined
+2026-03-06 15:37:35,804 - core.skill_engine - INFO - Registered skill: code_generator
+2026-03-06 15:37:35,807 - core.skill_engine - INFO - Registered skill: code_implement_splitter
+2026-03-06 15:37:35,809 - core.skill_engine - INFO - Registered skill: code_quality_checker
+2026-03-06 15:37:35,810 - core.skill_engine - INFO - Registered skill: effort_estimator
+2026-03-06 15:37:35,812 - core.skill_engine - INFO - Registered skill: output_assembler
+2026-03-06 15:37:35,814 - core.skill_engine - INFO - Registered skill: requirement_analyzer
+2026-03-06 15:37:35,815 - core.skill_engine - INFO - Registered skill: risk_assessor
+2026-03-06 15:37:35,816 - core.knowledge_base - INFO - Loading knowledge base...
+2026-03-06 15:37:35,851 - core.knowledge_base - INFO - Knowledge base loaded: 43 items
+2026-03-06 15:37:41,356 - core.pipeline_executor - INFO - Starting pipeline: customization_code_generation v2.0.0

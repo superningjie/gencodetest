@@ -1,0 +1,94 @@
+# 主配置文件 V2.0
+app:
+  name: "金蝶星瀚HR AI顾问系统"
+  version: "2.0.0"
+  debug: false
+
+# LLM配置
+llm:
+  primary:
+    provider: "openai"
+    model: "gpt-4"
+    temperature: 0.3
+    max_tokens: 4000
+  backup:
+    provider: "azure"
+    model: "gpt-4"
+    temperature: 0.3
+
+# 知识库配置
+knowledge:
+  base_dir: "knowledge"
+  auto_reload: false
+  cache_enabled: true
+
+  # 三层知识配置
+  layers:
+    business:
+      dir: "hr_products"
+      file_pattern: "*.yaml"
+    technical:
+      dir: "dev_guidelines"
+      file_pattern: "*.md"
+    asset:
+      dir: "reusable_assets"
+      index_file: "asset_index.yaml"
+
+# 代码生成配置
+code_generation:
+  default_language: "java"
+  template_engine: "jinja2"
+
+  # 生成策略
+  strategies:
+    api_development:
+      layers: ["controller", "service", "repository"]
+      generate_tests: true
+    plugin_development:
+      template: "kotlin_plugin"
+      generate_config: true
+    report_development:
+      template: "sql_report"
+      optimize_performance: true
+
+# 质量检查配置
+quality:
+  min_score: 0.7
+
+  checks:
+    syntax:
+      enabled: true
+      languages: ["java", "kotlin", "sql"]
+    style:
+      enabled: true
+      convention: "kingdee"
+    security:
+      enabled: true
+      scan_rules: ["sql_injection", "xss", "hardcoded_password"]
+
+# 批处理配置
+batch:
+  max_concurrent: 3
+  timeout: 300
+  retry_count: 2
+
+# 输出配置
+output:
+  base_dir: "outputs"
+  formats: ["code", "markdown", "json", "excel"]
+
+  code:
+    dir: "generated_code"
+    structure: "by_job"
+    include_tests: true
+
+  documentation:
+    dir: "proposals"
+    template: "default"
+
+# 日志配置
+logging:
+  level: "INFO"
+  file: "logs/app.log"
+  max_size: "10MB"
+  backup_count: 5

@@ -1,0 +1,57 @@
+module: HR_ATTENDANCE
+version: "5.0"
+description: 金蝶星瀚HR考勤管理模块
+
+functions:
+  - id: ATT001
+    name: 考勤打卡
+    description: 员工上下班打卡功能，支持GPS定位、WiFi识别
+    extension_points:
+      - point_id: "check_in_validator"
+        type: "plugin"
+        description: "打卡校验扩展，可自定义打卡规则"
+        interface: "ICheckInValidator"
+
+      - point_id: "check_in_data_processor"
+        type: "api"
+        description: "打卡数据处理接口"
+
+  - id: ATT002
+    name: 请假申请
+    description: 员工请假申请与审批流程
+    extension_points:
+      - point_id: "leave_approval_flow"
+        type: "plugin"
+        description: "请假审批流程扩展"
+        interface: "ILeaveApprover"
+
+      - point_id: "leave_balance_calculator"
+        type: "plugin"
+        description: "假期余额计算扩展"
+        interface: "ILeaveBalanceCalculator"
+
+  - id: ATT003
+    name: 加班管理
+    description: 加班申请、审批与补偿计算
+    extension_points:
+      - point_id: "overtime_calculator"
+        type: "plugin"
+        description: "加班费计算扩展"
+        interface: "IOvertimeCalculator"
+
+  - id: ATT004
+    name: 考勤报表
+    description: 考勤数据统计与报表生成
+    extension_points:
+      - point_id: "attendance_report_query"
+        type: "sql_report"
+        description: "考勤报表SQL查询扩展"
+
+  - id: ATT005
+    name: 排班管理
+    description: 员工排班计划与调整
+    extension_points:
+      - point_id: "schedule_optimizer"
+        type: "plugin"
+        description: "排班优化算法扩展"
+        interface: "IScheduleOptimizer"

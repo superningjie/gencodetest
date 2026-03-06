@@ -1,0 +1,29 @@
+# 金蝶星瀚HR AI顾问系统 V2.0 依赖
+# Python版本: 3.10+
+
+# 核心依赖
+pyyaml>=6.0.1
+jinja2>=3.1.2
+pandas>=2.0.0
+openpyxl>=3.1.2
+python-docx>=0.8.11
+aiohttp>=3.8.0
+python-dotenv>=1.0.0
+
+# 代码生成增强
+tree-sitter>=0.20.0       # 语法树解析（代码分析）
+black>=23.0.0             # Python代码格式化（参考实现）
+
+# 可选：LLM客户端
+# openai>=1.0.0
+# anthropic>=0.8.0
+
+# 开发依赖
+pytest>=7.0.0
+pytest-asyncio>=0.21.0
+black>=23.0.0
+flake8>=6.0.0
+
+# Web界面依赖
+flask>=2.3.0
+flask-cors>=4.0.0

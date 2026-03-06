@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>金蝶星瀚HR AI顾问 - 代码生成助手</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/styles/atom-one-dark.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/highlight.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/languages/java.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/languages/kotlin.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/languages/sql.min.js"></script>
+    <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+<body>
+    <div class="app-container">
+        <!-- 侧边栏 -->
+        <aside class="sidebar">
+            <div class="sidebar-header">
+                <div class="logo">
+                    <i data-lucide="cpu" class="logo-icon"></i>
+                    <span class="logo-text">AI代码助手</span>
+                </div>
+                <button class="new-chat-btn" onclick="startNewChat()">
+                    <i data-lucide="plus"></i>
+                    <span>新对话</span>
+                </button>
+            </div>
+
+            <div class="sidebar-content">
+                <div class="section-title">历史对话</div>
+                <div class="chat-list" id="chatList">
+                    <!-- 动态加载历史对话 -->
+                </div>
+            </div>
+
+            <div class="sidebar-footer">
+                <div class="user-info">
+                    <i data-lucide="user" class="user-avatar"></i>
+                    <span>开发者</span>
+                </div>
+            </div>
+        </aside>
+
+        <!-- 主内容区 -->
+        <main class="main-content">
+            <!-- 顶部导航 -->
+            <header class="header">
+                <div class="header-left">
+                    <button class="menu-toggle" onclick="toggleSidebar()">
+                        <i data-lucide="menu"></i>
+                    </button>
+                    <h1 class="page-title">代码生成助手</h1>
+                </div>
+                <div class="header-right">
+                    <div class="mode-selector">
+                        <button class="mode-btn active" data-mode="single" onclick="switchMode('single')">
+                            <i data-lucide="message-square"></i>
+                            <span>单条生成</span>
+                        </button>
+                        <button class="mode-btn" data-mode="batch" onclick="switchMode('batch')">
+                            <i data-lucide="layers"></i>
+                            <span>批量处理</span>
+                        </button>
+                    </div>
+                </div>
+            </header>
+
+            <!-- 单条生成模式 -->
+            <div class="chat-container" id="singleMode">
+                <div class="messages-area" id="messagesArea">
+                    <!-- 欢迎消息 -->
+                    <div class="welcome-message">
+                        <div class="welcome-icon">
+                            <i data-lucide="sparkles" class="sparkle-icon"></i>
+                        </div>
+                        <h2>金蝶星瀚HR 定制化开发代码助手</h2>
+                        <p>输入您的开发需求，我将为您生成高质量的定制化代码</p>
+                        <div class="quick-actions">
+                            <button class="quick-btn" onclick="fillInput('开发一个考勤打卡插件，支持GPS位置校验')">
+                                <i data-lucide="map-pin"></i>
+                                考勤打卡插件
+                            </button>
+                            <button class="quick-btn" onclick="fillInput('生成月度考勤汇总报表SQL')">
+                                <i data-lucide="bar-chart-2"></i>
+                                考勤报表
+                            </button>
+                            <button class="quick-btn" onclick="fillInput('开发薪酬计算规则扩展插件')">
+                                <i data-lucide="calculator"></i>
+                                薪酬计算
+                            </button>
+                            <button class="quick-btn" onclick="fillInput('创建员工信息查询REST API')">
+                                <i data-lucide="search"></i>
+                                查询API
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="input-area">
+                    <div class="input-wrapper">
+                        <textarea 
+                            id="userInput" 
+                            class="chat-input" 
+                            placeholder="描述您的开发需求，例如：开发一个考勤打卡插件，支持GPS位置校验..."
+                            rows="1"
+                            oninput="autoResize(this)"
+                            onkeydown="handleKeyDown(event)"
+                        ></textarea>
+                        <div class="input-actions">
+                            <button class="action-btn" onclick="clearInput()" title="清空">
+                                <i data-lucide="x"></i>
+                            </button>
+                            <button class="send-btn" onclick="sendMessage()" id="sendBtn">
+                                <i data-lucide="send"></i>
+                                <span>生成代码</span>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="input-hint">
+                        <i data-lucide="info" class="hint-icon"></i>
+                        <span>按 Enter 发送，Shift + Enter 换行</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 批量处理模式 -->
+            <div class="batch-container hidden" id="batchMode">
+                <div class="batch-upload-area" id="uploadArea">
+                    <div class="upload-box" onclick="document.getElementById('fileInput').click()">
+                        <i data-lucide="upload-cloud" class="upload-icon"></i>
+                        <h3>上传需求文件</h3>
+                        <p>支持 JSON、Excel、CSV 格式</p>
+                        <span class="upload-hint">点击或拖拽文件到此处</span>
+                    </div>
+                    <input type="file" id="fileInput" accept=".json,.xlsx,.csv" hidden onchange="handleFileUpload(event)">
+                </div>
+
+                <div class="batch-preview hidden" id="batchPreview">
+                    <div class="preview-header">
+                        <h3>需求列表 <span class="count-badge" id="itemCount">0</span></h3>
+                        <div class="preview-actions">
+                            <button class="btn-secondary" onclick="clearBatch()">
+                                <i data-lucide="trash-2"></i>
+                                清空
+                            </button>
+                            <button class="btn-primary" onclick="startBatchProcess()">
+                                <i data-lucide="play"></i>
+                                开始生成
+                            </button>
+                        </div>
+                    </div>
+                    <div class="preview-list" id="previewList">
+                        <!-- 动态加载预览列表 -->
+                    </div>
+                </div>
+
+                <div class="batch-progress hidden" id="batchProgress">
+                    <div class="progress-header">
+                        <h3>生成进度</h3>
+                        <span class="progress-text" id="progressText">0/0</span>
+                    </div>
+                    <div class="progress-bar">
+                        <div class="progress-fill" id="progressFill"></div>
+                    </div>
+                    <div class="progress-list" id="progressList">
+                        <!-- 动态更新进度 -->
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <!-- 代码预览模态框 -->
+        <div class="modal hidden" id="codeModal">
+            <div class="modal-overlay" onclick="closeModal()"></div>
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h3 id="modalTitle">生成的代码</h3>
+                    <div class="modal-actions">
+                        <button class="btn-icon" onclick="copyCode()" title="复制">
+                            <i data-lucide="copy"></i>
+                        </button>
+                        <button class="btn-icon" onclick="downloadCode()" title="下载">
+                            <i data-lucide="download"></i>
+                        </button>
+                        <button class="btn-icon" onclick="closeModal()" title="关闭">
+                            <i data-lucide="x"></i>
+                        </button>
+                    </div>
+                </div>
+                <div class="modal-body">
+                    <pre><code id="codeBlock" class="hljs"></code></pre>
+                </div>
+            </div>
+        </div>
+
+        <!-- 加载动画 -->
+        <div class="loading-overlay hidden" id="loadingOverlay">
+            <div class="loading-spinner">
+                <div class="spinner"></div>
+                <p>正在生成代码...</p>
+            </div>
+        </div>
+    </div>
+
+    <script src="{{ url_for('static', filename='js/app.js') }}"></script>
+</body>
+</html>

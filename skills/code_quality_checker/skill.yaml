@@ -1,0 +1,18 @@
+skill_id: code_quality_checker
+name: 代码质量检查器
+version: "1.0"
+type: default
+description: 检查生成代码的质量
+
+custom_class: core.skill_engine.CodeQualityCheckerSkill
+
+config:
+  min_quality_score: 0.7
+  check_syntax: true
+  check_security: true
+
+inputs:
+  - generated_code: List[GeneratedCode]
+
+outputs:
+  - quality_report: Dict

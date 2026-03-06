@@ -1,0 +1,131 @@
+# 可复用资产索引 V2.0
+version: "2.0.0"
+last_updated: "2024-03-10"
+
+assets:
+  # ========== 代码片段：通用工具 ==========
+  - id: "snippet_validation_notnull"
+    name: "非空校验器"
+    type: "code_snippet"
+    language: "java"
+    path: "code_snippets/common_utils/NotNullValidator.java"
+    description: "通用非空参数校验工具"
+    tags: ["validation", "utils", "common"]
+    usage_context: ["java_api", "input_validation"]
+    variables: ["paramName", "errorCode"]
+
+  - id: "snippet_validation_email"
+    name: "邮箱格式校验"
+    type: "code_snippet"
+    language: "java"
+    path: "code_snippets/validators/EmailValidator.java"
+    description: "邮箱地址格式校验"
+    tags: ["validation", "email", "regex"]
+    usage_context: ["java_api", "input_validation"]
+
+  - id: "snippet_result_wrapper"
+    name: "统一返回结果包装"
+    type: "code_snippet"
+    language: "java"
+    path: "code_snippets/common_utils/Result.java"
+    description: "Controller统一返回结果包装类"
+    tags: ["result", "wrapper", "common"]
+    usage_context: ["java_api", "controller"]
+
+  - id: "snippet_page_query"
+    name: "分页查询工具"
+    type: "code_snippet"
+    language: "java"
+    path: "code_snippets/common_utils/PageQuery.java"
+    description: "分页查询参数封装"
+    tags: ["pagination", "query", "common"]
+    usage_context: ["java_api", "repository"]
+
+  # ========== 代码片段：Kotlin插件 ==========
+  - id: "snippet_plugin_base"
+    name: "插件基类"
+    type: "code_snippet"
+    language: "kotlin"
+    path: "code_snippets/common_utils/AbstractPlugin.kt"
+    description: "Kotlin插件基础结构"
+    tags: ["plugin", "base", "kotlin"]
+    usage_context: ["kotlin_plugin"]
+
+  - id: "snippet_validation_result"
+    name: "校验结果类"
+    type: "code_snippet"
+    language: "kotlin"
+    path: "code_snippets/common_utils/ValidationResult.kt"
+    description: "插件校验结果封装"
+    tags: ["validation", "result", "kotlin"]
+    usage_context: ["kotlin_plugin", "validation"]
+
+  # ========== 文件模板 ==========
+  - id: "template_rest_controller"
+    name: "REST Controller模板"
+    type: "file_template"
+    language: "java"
+    path: "templates/RestControllerTemplate.java"
+    description: "标准REST Controller文件模板"
+    tags: ["controller", "rest", "template"]
+    usage_context: ["java_api"]
+    variables: ["packageName", "className", "serviceName", "basePath", "moduleName"]
+
+  - id: "template_service_impl"
+    name: "Service实现类模板"
+    type: "file_template"
+    language: "java"
+    path: "templates/ServiceImplTemplate.java"
+    description: "Service实现类文件模板"
+    tags: ["service", "impl", "template"]
+    usage_context: ["java_api"]
+    variables: ["packageName", "className", "interfaceName", "repositoryName"]
+
+  - id: "template_repository"
+    name: "Repository接口模板"
+    type: "file_template"
+    language: "java"
+    path: "templates/RepositoryTemplate.java"
+    description: "JPA Repository接口模板"
+    tags: ["repository", "jpa", "template"]
+    usage_context: ["java_api"]
+    variables: ["packageName", "interfaceName", "entityName"]
+
+  - id: "template_kotlin_plugin"
+    name: "Kotlin插件模板"
+    type: "file_template"
+    language: "kotlin"
+    path: "templates/KotlinPluginTemplate.kt"
+    description: "Kotlin插件完整模板"
+    tags: ["plugin", "kotlin", "template"]
+    usage_context: ["kotlin_plugin"]
+    variables: ["packageName", "className", "pluginId", "extensionPoints"]
+
+  - id: "template_sql_report"
+    name: "SQL报表模板"
+    type: "file_template"
+    language: "sql"
+    path: "templates/SqlReportTemplate.sql"
+    description: "标准SQL报表查询模板"
+    tags: ["sql", "report", "template"]
+    usage_context: ["sql_report"]
+    variables: ["reportName", "selectFields", "fromTables", "whereConditions", "groupByFields"]
+
+  # ========== 设计模式 ==========
+  - id: "pattern_strategy_calc"
+    name: "策略模式-计算"
+    type: "design_pattern"
+    language: "java"
+    path: "patterns/strategy_pattern/CalculationStrategy.java"
+    description: "使用策略模式实现不同计算规则"
+    tags: ["strategy", "pattern", "calculation"]
+    usage_context: ["java_api", "payroll_calculation"]
+
+  - id: "pattern_factory_validator"
+    name: "工厂模式-校验器"
+    type: "design_pattern"
+    language: "java"
+    path: "patterns/factory_pattern/ValidatorFactory.java"
+    description: "校验器工厂，动态创建校验器实例"
+    tags: ["factory", "pattern", "validation"]
+    usage_context: ["java_api", "validation"]
