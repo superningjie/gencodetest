@@ -209,6 +209,7 @@ class ImplementSplitterSkill(BaseSkill):  # [V2.0新增]
 
         # 根据需求类型和定制化类型决定拆分策略
         split_strategy = self._determine_strategy(req)
+        desc_lower = req.description.lower()
 
         if split_strategy == 'api_development':
             # API开发：拆分为Controller, Service, DAO
@@ -248,8 +249,42 @@ class ImplementSplitterSkill(BaseSkill):  # [V2.0新增]
                 )
             ])
 
+        elif split_strategy == 'kingdee_plugin':
+            # 金蝶KingScript插件开发 - 使用TypeScript
+            plugin_type = self._detect_kingdee_plugin_type(req)
+            
+            if '单据' in req.description or '表单' in req.description or 'bill' in desc_lower:
+                impl_type = ImplementationType.KINGSCRIPT_PLUGIN
+                language = CodeLanguage.TYPESCRIPT
+                template_name = "KingdeeBillFormPlugin"
+            elif '列表' in req.description or 'list' in desc_lower:
+                impl_type = ImplementationType.KINGSCRIPT_PLUGIN
+                language = CodeLanguage.TYPESCRIPT
+                template_name = "KingdeeListPlugin"
+            elif '操作' in req.description or 'operation' in desc_lower or '保存' in req.description:
+                impl_type = ImplementationType.KINGSCRIPT_PLUGIN
+                language = CodeLanguage.TYPESCRIPT
+                template_name = "KingdeeOperationPlugin"
+            else:
+                impl_type = ImplementationType.KINGSCRIPT_PLUGIN
+                language = CodeLanguage.TYPESCRIPT
+                template_name = "KingdeeBillFormPlugin"
+            
+            items.append(ImplementationItem(
+                id="",
+                requirement_id=req.id,
+                name=f"{req.name}_Plugin",
+                description=req.description,
+                impl_type=impl_type,
+                language=language,
+                tech_stack="金蝶云苍穹 KingScript 5.0",
+                extension_point=self._detect_extension_point(req),
+                related_module=req.related_module,
+                plugin_register="表单设计器 > 插件 > 注册"
+            ))
+
         elif split_strategy == 'plugin_development':
-            # 插件开发
+            # 传统Kotlin插件开发
             items.append(ImplementationItem(
                 id="",
                 requirement_id=req.id,
@@ -290,10 +325,38 @@ class ImplementSplitterSkill(BaseSkill):  # [V2.0新增]
 
         return items
 
+    def _detect_kingdee_plugin_type(self, req: Requirement) -> str:
+        """检测金蝶插件类型"""
+        desc = req.description.lower()
+        
+        if '单据' in req.description or '表单' in req.description:
+            return 'bill_form'
+        elif '列表' in req.description or '清单' in req.description:
+            return 'list'
+        elif '操作' in req.description or '保存' in req.description or '提交' in req.description:
+            return 'operation'
+        elif '转换' in req.description or '下推' in req.description or '选单' in req.description:
+            return 'convert'
+        else:
+            return 'generic'
+
     def _determine_strategy(self, req: Requirement) -> str:
         """确定拆分策略"""
         desc = req.description.lower()
 
+        # 金蝶云苍穹插件识别（优先）
+        if any(kw in desc for kw in ['单据', '表单', 'bill', 'form']):
+            return 'kingdee_plugin'
+        if any(kw in desc for kw in ['列表', 'list', '清单']):
+            return 'kingdee_plugin'
+        if any(kw in desc for kw in ['操作', '保存', '提交', '校验', 'operation']):
+            return 'kingdee_plugin'
+        if any(kw in desc for kw in ['转换', '下推', '选单', 'convert']):
+            return 'kingdee_plugin'
+        if any(kw in desc for kw in ['分录', 'entry', '明细']):
+            return 'kingdee_plugin'
+        
+        # 传统插件
         if '插件' in desc or '扩展' in desc or '自定义' in desc:
             return 'plugin_development'
         elif '报表' in desc or '统计' in desc or '查询' in desc:
@@ -568,22 +631,55 @@ class CodeGeneratorSkill(BaseSkill):  # [V2.0新增]
         return self._get_default_template(item)
 
     def _get_default_template(self, item: ImplementationItem) -> str:
-        """获取默认模板"""
+        """获取默认模板 - 使用金蝶插件完整模板"""
+        
+        # 根据实现类型返回对应的完整模板
+        if item.impl_type == ImplementationType.KINGSCRIPT_PLUGIN or \
+           (item.language == CodeLanguage.TYPESCRIPT and 'plugin' in item.name.lower()):
+            # 优先使用简化版模板（更容易填充变量）
+            template_path = Path('knowledge/reusable_assets/templates/KingdeeBillFormPluginSimple.ts')
+            if template_path.exists():
+                with open(template_path, 'r', encoding='utf-8') as f:
+                    return f.read()
+            # 回退到完整模板
+            template_path = Path('knowledge/reusable_assets/templates/KingdeeBillFormPlugin.ts')
+            if template_path.exists():
+                with open(template_path, 'r', encoding='utf-8') as f:
+                    return f.read()
+        
         if item.language == CodeLanguage.JAVA:
             return """
-public class {class_name} {{
+public class {class_name} {
     // TODO: Implement {description}
 
     {methods}
-}}
+}
 """
         elif item.language == CodeLanguage.KOTLIN:
             return """
-class {class_name} : AbstractPlugin() {{
-    override fun onEnable() {{
+class {class_name} : AbstractPlugin() {
+    override fun onEnable() {
         // TODO: Implement {description}
-    }}
-}}
+    }
+}
+"""
+        elif item.language == CodeLanguage.TYPESCRIPT:
+            return """
+import { AbstractBillPlugIn } from "@cosmic/bos-core/kd/bos/bill";
+import { EventObject } from "@cosmic/bos-script/java/util";
+
+class {class_name} extends AbstractBillPlugIn {
+    registerListener(e: EventObject): void {
+        super.registerListener(e);
+    }
+    
+    afterCreateNewData(e: EventObject): void {
+        super.afterCreateNewData(e);
+    }
+}
+
+let plugin = new {class_name}();
+export { plugin };
 """
         else:
             return "-- TODO: Implement {description}"
@@ -609,7 +705,107 @@ class {class_name} : AbstractPlugin() {{
             'parent_template': item.parent_template or '',
             'author': 'AI-Generated',
             'date': datetime.now().strftime('%Y-%m-%d'),
+            # 插件特有字段
+            'entry_key': 'personnel_entry',
+            'has_button_listener': '按钮' in item.description or 'button' in item.description.lower(),
+            'has_f7_listener': 'F7' in item.description or '基础资料' in item.description,
+            'has_entry_grid_listener': '分录' in item.description or 'entry' in item.description.lower(),
+            'use_after_create_new_data': True,
+            'use_after_add_row': '分录' in item.description or 'entry' in item.description.lower(),
+            'use_property_changed': '字段' in item.description or '联动' in item.description,
+            'use_after_bind_data': True,
+            'use_before_do_operation': '校验' in item.description or '保存' in item.description,
+            'init_fields': [{'fieldName': '状态', 'fieldKey': 'status', 'fieldValue': '"A"'}],
+            'create_entry_rows': '分录' in item.description,
+            'entry_row_count': 1,
         }
+        
+        # 根据需求描述智能填充更多变量
+        desc = item.description
+        
+        # 如果描述中提到人员/员工相关
+        if '人员' in desc or '员工' in desc or 'person' in desc.lower() or 'employee' in desc.lower():
+            context['entry_key'] = 'personnel_entry'
+            context['field_mapping'] = {
+                'number': 'entry_person_number',
+                'name': 'entry_person_name',
+                'org': 'entry_org_id',
+                'department': 'entry_dept_id'
+            }
+        
+        # 如果描述中提到自动填充/复制
+        if '自动' in desc or '填充' in desc or '复制' in desc:
+            context['auto_fill'] = True
+            context['copy_from_head'] = True
+        
+        # === 填充新模板代码块 ===
+        # 初始化字段代码
+        if '人员' in desc or '员工' in desc:
+            context['init_fields_code'] = '''// 初始化人员档案默认值
+        this.getModel().setValue("status", "A");  // 在职状态
+        this.getModel().setValue("entry_date", new Date());  // 入职日期'''
+            context['entry_key'] = 'personnel_entry'
+        else:
+            context['init_fields_code'] = '// 初始化默认值'
+            context['entry_key'] = 'entryentity'
+        
+        # 创建分录代码
+        if '分录' in desc or 'entry' in desc.lower():
+            context['create_entry_code'] = '''// 初始化时创建一行默认分录数据
+        this.getModel().batchCreateNewEntryRow(this.ENTRY_KEY, 1);
+        this.getModel().setValue("seq", 1, 0);'''
+        else:
+            context['create_entry_code'] = ''
+        
+        # 字段变更同步代码
+        if '自动' in desc or '填充' in desc or '复制' in desc:
+            context['property_changed_code'] = '''// 人员编码变更时同步到分录
+            if ("number" == changedField) {
+                let value = this.getModel().getValue("number") as string;
+                this.syncEntryField("entry_person_number", value);
+            }
+            // 人员姓名变更时同步到分录
+            if ("name" == changedField) {
+                let value = this.getModel().getValue("name") as string;
+                this.syncEntryField("entry_person_name", value);
+            }
+            // 组织变更时同步到分录
+            if ("org" == changedField) {
+                let value = this.getModel().getValue("org") as number;
+                this.syncEntryField("entry_org_id", value);
+            }
+            // 部门变更时同步到分录
+            if ("department" == changedField) {
+                let value = this.getModel().getValue("department") as number;
+                this.syncEntryField("entry_dept_id", value);
+            }'''
+            context['head_fields_code'] = '''let personNumber = this.getModel().getValue("number") as string;
+            let personName = this.getModel().getValue("name") as string;
+            let orgId = this.getModel().getValue("org") as number;
+            let deptId = this.getModel().getValue("department") as number;'''
+            context['fill_entry_code'] = '''// 填充人员编码
+                if (personNumber) {
+                    this.getModel().setValue("entry_person_number", personNumber, rowIndex);
+                }
+                // 填充人员姓名
+                if (personName) {
+                    this.getModel().setValue("entry_person_name", personName, rowIndex);
+                }
+                // 填充组织
+                if (orgId) {
+                    this.getModel().setValue("entry_org_id", orgId, rowIndex);
+                }
+                // 填充部门
+                if (deptId) {
+                    this.getModel().setValue("entry_dept_id", deptId, rowIndex);
+                }
+                // 设置行号和默认值
+                this.getModel().setValue("seq", rowIndex + 1, rowIndex);
+                this.getModel().setValue("is_valid", true, rowIndex);'''
+        else:
+            context['property_changed_code'] = '// 处理字段变更'
+            context['head_fields_code'] = '// 获取单据头字段值'
+            context['fill_entry_code'] = '// 填充分录字段值'
         
         # 根据实现类型添加特定上下文
         if item.impl_type == ImplementationType.ENTITY_METADATA:
@@ -658,10 +854,69 @@ class {class_name} : AbstractPlugin() {{
         return module_map.get(item.related_module, 'kingdee.hr')
 
     def _render_template(self, template: str, context: Dict) -> str:
-        """渲染模板（简化版，实际应使用Jinja2）"""
+        """渲染模板 - 支持 Handlebars 风格变量 {{variable}} 和条件 {{#if}}"""
         result = template
+        
+        # 1. 替换简单变量 {{variable}}
         for key, value in context.items():
-            result = result.replace(f'{{{key}}}', str(value))
+            placeholder = f'{{{{{key}}}}}'
+            if isinstance(value, (str, int, float, bool)):
+                result = result.replace(placeholder, str(value))
+            elif isinstance(value, list) and value:
+                # 对于列表类型，简单展开（实际应使用循环）
+                list_content = '\n'.join(str(item) for item in value[:3])  # 最多显示3个
+                result = result.replace(placeholder, list_content)
+            elif value is None or value == '':
+                result = result.replace(placeholder, '')
+        
+        # 2. 处理 {{#if variable}} ... {{/if}} 条件
+        import re
+        
+        # 找到所有条件块
+        if_pattern = r'{{#if (\w+)}}(.*?){{/if}}'
+        
+        def replace_condition(match):
+            var_name = match.group(1)
+            content = match.group(2)
+            
+            # 检查变量值
+            var_value = context.get(var_name, False)
+            
+            # 如果是真值（True, 非空字符串, 非零数字）则保留内容
+            if var_value and var_value not in [False, '', 0, None, []]:
+                # 清理内容中的额外缩进
+                lines = content.split('\n')
+                # 移除条件块标记行
+                lines = [l for l in lines if '{{#if' not in l and '{{/if}}' not in l]
+                return '\n'.join(lines)
+            else:
+                return ''
+        
+        result = re.sub(if_pattern, replace_condition, result, flags=re.DOTALL)
+        
+        # 3. 处理 {{#each}} 循环（简化处理）
+        each_pattern = r'{{#each (\w+)}}(.*?){{/each}}'
+        
+        def replace_each(match):
+            var_name = match.group(1)
+            content = match.group(2)
+            items = context.get(var_name, [])
+            
+            if not items or not isinstance(items, list):
+                return ''
+            
+            results = []
+            for item in items:
+                item_content = content
+                if isinstance(item, dict):
+                    for k, v in item.items():
+                        item_content = item_content.replace(f'{{{{{k}}}}}', str(v))
+                results.append(item_content)
+            
+            return '\n'.join(results)
+        
+        result = re.sub(each_pattern, replace_each, result, flags=re.DOTALL)
+        
         return result
 
     def _post_process(self, code: str, item: ImplementationItem) -> str:
