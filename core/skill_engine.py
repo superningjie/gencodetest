@@ -12,6 +12,7 @@ from typing import Dict, List, Type, Optional, Any, Callable
 from pathlib import Path
 import asyncio
 import logging
+from datetime import datetime
 
 from core.data_models import SkillContext, Requirement, ImplementationItem, ImplementationType, CodeLanguage, GeneratedCode, CodeAsset
 
@@ -908,11 +909,19 @@ class RiskAssessorSkill(BaseSkill):
 
         risks = []
         for item in impl_items:
-            if item.complexity == '高':
+            # 根据实现类型和描述评估风险
+            risk_level = '低'
+            if item.impl_type.value.startswith('java_') or item.impl_type.value.startswith('kingscript_'):
+                risk_level = '中'
+            
+            # 检查描述中的风险关键词
+            high_risk_keywords = ['复杂', '高难度', '核心', '关键', '大量数据', '性能']
+            if any(kw in item.description for kw in high_risk_keywords):
+                risk_level = '高'
                 risks.append({
                     'category': '技术',
-                    'description': f'{item.name} 复杂度较高',
-                    'level': '高'
+                    'description': f'{item.name} 涉及复杂技术实现',
+                    'level': risk_level
                 })
 
         return {

@@ -42,6 +42,7 @@ class CodeLanguage(Enum):
     PYTHON = "python"
     XML = "xml"
     YAML = "yaml"
+    TYPESCRIPT = "typescript"  # 金蝶KingScript使用TypeScript
 
 
 @dataclass
