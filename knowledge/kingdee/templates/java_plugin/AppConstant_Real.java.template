@@ -1,0 +1,52 @@
+/**
+ * {{app_name}} 应用常量定义
+ * 
+ * @author {{author}}
+ * @since {{date}}
+ */
+package {{package_name}};
+
+/**
+ * 应用标识常量
+ */
+public interface AppflgConstant {
+    
+    /**
+     * 应用标识
+     */
+    String KEY_APP_NAME = "{{app_key}}";
+    
+    // ========== 实体标识 ==========
+{% for entity in entities %}
+    /**
+     * {{entity.description}}
+     */
+    String {{entity.const_name}} = "{{entity.form_id}}";
+    
+{% endfor %}
+    
+    // ========== 操作标识 ==========
+    String OP_KEY_SAVE = "save";
+    String OP_KEY_SUBMIT = "submit";
+    String OP_KEY_DELETE = "delete";
+    
+    // ========== 控件标识 ==========
+    String TOOLBAR = "toolbar";
+    String ENTRYENTITY = "entryentity";
+    String ID = "id";
+    
+    // ========== 基础常量 ==========
+    String STR_TRUE = "true";
+    String STR_FALSE = "false";
+    String STR_ONE = "1";
+    String STR_ZERO = "0";
+    
+    // ========== 状态常量 ==========
+{% for status in status_constants %}
+    /**
+     * {{status.description}}
+     */
+    String {{status.const_name}} = "{{status.value}}";
+    
+{% endfor %}
+}

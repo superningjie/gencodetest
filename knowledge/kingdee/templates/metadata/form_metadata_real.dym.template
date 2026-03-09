@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DeployMetadata>
+  <Multilanguage>false</Multilanguage>
+  <MasterId>{{master_id}}</MasterId>
+  <BizappId>{{bizapp_id}}</BizappId>
+  <Id>{{entity_id}}</Id>
+  <DesignMetas>
+    <DesignFormMeta>
+      <DevType>0</DevType>
+      <ModifyDate>{{modify_date}}</ModifyDate>
+      <DataXml>
+        <FormMetadata>
+          <Isv>{{isv_code}}</Isv>
+          <Id>{{entity_id}}</Id>
+          <Key>{{form_key}}</Key>
+          <EntityId>{{entity_id}}</EntityId>
+          <ParentId>{{parent_id}}</ParentId>
+          <BizappId>{{bizapp_id}}</BizappId>
+          <Name>{{form_name_cn}}</Name>
+          <InheritPath>{{parent_id}}</InheritPath>
+          <Items>
+            <BasedataFormAp action="edit" oid="{{parent_form_id}}">
+              <MobListMeta>
+                <FormMetadata>
+                  <Items>
+                    <BillListAp action="edit" oid="_BillList_">
+                      <EntityId>{{entity_id}}</EntityId>
+                    </BillListAp>
+                  </Items>
+                </FormMetadata>
+              </MobListMeta>
+              <Id>{{entity_id}}</Id>
+              <Name>{{form_name_cn}}</Name>
+              <Key>{{form_key}}</Key>
+              <ListMeta>
+                <FormMetadata>
+                  <Items>
+                    <FilterGridViewAp action="edit" oid="filtergridview">
+                      <NewFilter>true</NewFilter>
+                    </FilterGridViewAp>
+                  </Items>
+                </FormMetadata>
+              </ListMeta>
+            </BasedataFormAp>
+            
+{% for entry in entry_entities %}
+            <EntryAp>
+              <EntryId>{{entry.entry_id}}</EntryId>
+              <ShowSeq>true</ShowSeq>
+              <Id>{{entry.entry_id}}</Id>
+              <Index>{{entry.index}}</Index>
+              <Name>{{entry.name}}</Name>
+              <Key>{{entry.key}}</Key>
+            </EntryAp>
+{% endfor %}
+
+{% for field in fields %}
+            <FieldAp action="edit" oid="{{field.oid}}">
+{% if field.invisible %}
+              <Invisible>true</Invisible>
+{% endif %}
+{% if field.must_input is defined %}
+              <MustInput>{{field.must_input}}</MustInput>
+{% endif %}
+            </FieldAp>
+{% endfor %}
+
+          </Items>
+        </FormMetadata>
+      </DataXml>
+      <ModifierId>User</ModifierId>
+      <ModifyTime>{{modify_time}}</ModifyTime>
+      <CreatorId>User</CreatorId>
+      <CreateTime>{{create_time}}</CreateTime>
+      <Caption>{{{form_name_cn}}}</Caption>
+    </DesignFormMeta>
+  </DesignMetas>
+</DeployMetadata>

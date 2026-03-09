@@ -1,0 +1,202 @@
+/**
+ * {{plugin_description}}
+ * 
+ * @author {{author}}
+ * @since {{date}}
+ */
+package {{package_name}};
+
+import static {{module_prefix}}.{{app_name}}.common.AppflgConstant.*;
+
+import kd.bos.bill.OperationStatus;
+import kd.bos.dataentity.entity.DynamicObject;
+import kd.bos.dataentity.entity.DynamicObjectCollection;
+import kd.bos.dataentity.resource.ResManager;
+import kd.bos.entity.datamodel.events.PropertyChangedArgs;
+import kd.bos.form.*;
+import kd.bos.form.control.EntryGrid;
+import kd.bos.form.control.Toolbar;
+import kd.bos.form.control.events.ItemClickEvent;
+import kd.bos.form.events.*;
+import kd.bos.form.operate.AbstractOperate;
+import kd.bos.form.field.BasedataEdit;
+import kd.bos.form.field.events.BeforeF7SelectEvent;
+import kd.bos.form.field.events.BeforeF7SelectListener;
+import kd.hr.hbp.common.constants.HRBaseConstants;
+import kd.hr.hbp.common.util.HRStringUtils;
+import kd.hr.hbp.formplugin.web.HRDataBaseEdit;
+
+import java.util.*;
+import java.util.stream.Collectors;
+
+{% for import in custom_imports %}
+import {{import}};
+{% endfor %}
+
+public class {{class_name}} extends HRDataBaseEdit implements BeforeF7SelectListener{% if implement_hyperlink %}, HyperLinkClickListener{% endif %} {
+    
+    // ========== 控件常量定义 ==========
+{% for const in control_constants %}
+    private static final String {{const.name}} = "{{const.value}}";
+{% endfor %}
+    
+    // ========== 服务实例 ==========
+{% for service in services %}
+    private {{service.class_name}} {{service.var_name}} = {{service.class_name}}.getInstance();
+{% endfor %}
+    
+    @Override
+    public void registerListener(EventObject e) {
+        super.registerListener(e);
+        // 注册工具栏监听
+        Toolbar toolbar = this.getView().getControl(TOOLBAR);
+        toolbar.addItemClickListener(this);
+{% if has_entry_grid %}
+        // 注册分录表格超链接监听
+        EntryGrid entryGrid = this.getView().getControl(ENTRYENTITY);
+        entryGrid.addHyperClickListener(this);
+{% endif %}
+    }
+    
+    @Override
+    public void beforeBindData(EventObject e) {
+        super.beforeBindData(e);
+        {% if before_bind_data_logic %}
+        {{before_bind_data_logic}}
+        {% else %}
+        // TODO: 数据绑定前处理
+        {% endif %}
+    }
+    
+    @Override
+    public void afterBindData(EventObject e) {
+        super.afterBindData(e);
+        {% if after_bind_data_logic %}
+        {{after_bind_data_logic}}
+        {% else %}
+        // TODO: 数据绑定后处理（设置默认值、按钮控制等）
+        {% endif %}
+    }
+    
+    @Override
+    public void itemClick(ItemClickEvent evt) {
+        super.itemClick(evt);
+        String itemKey = evt.getItemKey();
+        switch(itemKey) {
+{% for btn in toolbar_buttons %}
+            case {{btn.const_name}}:
+                {{btn.method_name}}();
+                break;
+{% endfor %}
+            default:
+                break;
+        }
+    }
+    
+{% if implement_hyperlink %}
+    @Override
+    public void hyperLinkClick(HyperLinkClickEvent event) {
+        String fieldName = event.getFieldName();
+        {% for link in hyperlinks %}
+        if (HRStringUtils.equals(fieldName, {{link.const_name}})) {
+            {{link.method_name}}(event);
+        }
+        {% endfor %}
+    }
+{% endif %}
+    
+    @Override
+    public void beforeDoOperation(BeforeDoOperationEventArgs args) {
+        super.beforeDoOperation(args);
+        AbstractOperate source = (AbstractOperate) args.getSource();
+        String operateKey = source.getOperateKey();
+        switch(operateKey) {
+            case OP_KEY_SAVE:
+                {% if before_save_logic %}
+                {{before_save_logic}}
+                {% else %}
+                // TODO: 保存前处理
+                {% endif %}
+                break;
+            default:
+                break;
+        }
+    }
+    
+    @Override
+    public void afterDoOperation(AfterDoOperationEventArgs args) {
+        super.afterDoOperation(args);
+        if (args.getOperationResult() != null && args.getOperationResult().isSuccess()) {
+            String operateKey = args.getOperateKey();
+            switch(operateKey) {
+                case OP_KEY_SAVE:
+                    {% if after_save_logic %}
+                    {{after_save_logic}}
+                    {% else %}
+                    // TODO: 保存后处理
+                    {% endif %}
+                    break;
+                default:
+                    break;
+            }
+        }
+    }
+    
+    @Override
+    public void propertyChanged(PropertyChangedArgs e) {
+        super.propertyChanged(e);
+        String fieldName = e.getProperty().getName();
+        {% for rule in field_change_rules %}
+        if (HRStringUtils.equals(fieldName, "{{rule.field_name}}")) {
+            {{rule.logic}}
+        }
+        {% endfor %}
+    }
+    
+    @Override
+    public void beforeF7Select(BeforeF7SelectEvent event) {
+        {% if f7_logic %}
+        {{f7_logic}}
+        {% endif %}
+    }
+    
+    @Override
+    public void closedCallBack(ClosedCallBackEvent event) {
+        super.closedCallBack(event);
+        String actionId = event.getActionId();
+        {% for callback in close_callbacks %}
+        if (HRStringUtils.equals(actionId, {{callback.const_name}})) {
+            {{callback.method_name}}(event);
+        }
+        {% endfor %}
+    }
+    
+    // ========== 自定义业务方法 ==========
+{% for method in custom_methods %}
+    /**
+     * {{method.description}}
+     */
+    private void {{method.name}}({{method.params}}) {
+        {{method.body}}
+    }
+    
+{% endfor %}
+    
+    /**
+     * 获取当前操作状态
+     */
+    protected OperationStatus getPermOpStatus() {
+        boolean isAudit = isAudit();
+        boolean isStash = HRBaseConstants.INT_ZERO != (Long) getModel().getValue(ID);
+        return (isAudit || isStash) ? OperationStatus.EDIT : OperationStatus.ADDNEW;
+    }
+    
+    /**
+     * 判断是否审核状态
+     */
+    private boolean isAudit() {
+        String ruleStatus = this.getModel().getDataEntity().getString(HRBaseConstants.STATUS);
+        // 根据实际情况判断状态
+        return HRBaseConstants.STATUS_AUDIT.equals(ruleStatus);
+    }
+}

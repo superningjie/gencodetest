@@ -1,8 +1,104 @@
-# 可复用资产索引 V2.0
-version: "2.0.0"
-last_updated: "2024-03-10"
+# 可复用资产索引 V3.0
+# 支持金蝶云苍穹插件开发
+version: "3.0.0"
+last_updated: "2024-03-15"
 
 assets:
+  # ========== 金蝶云苍穹插件模板 ==========
+  - id: "template_kingdee_bill_form"
+    name: "金蝶单据表单插件模板"
+    type: "file_template"
+    language: "typescript"
+    path: "templates/KingdeeBillFormPlugin.ts"
+    description: "金蝶云苍穹单据表单插件完整模板，基于AbstractBillPlugIn"
+    tags: ["kingdee", "bill", "form", "plugin", "苍穹"]
+    usage_context: ["kingdee_plugin", "bill_form"]
+    variables: [
+      "className", "description", 
+      "hasButtonListener", "buttons",
+      "hasF7Listener", "f7Fields",
+      "hasEntryGridListener", "entryGrids",
+      "useAfterCreateNewData", "initFields", "createEntryRows",
+      "useAfterLoadData", "loadDataLogic",
+      "useAfterBindData", "lockByStatus", "bindDataLogic",
+      "usePropertyChanged", "hasCalculation", "calculations",
+      "useBeforeDoOperation", "operationHandlers",
+      "useAfterDoOperation", "afterOperationHandlers",
+      "useAfterAddRow", "entryEntityKey",
+      "usePreOpenForm", "formCaption",
+      "useBeforeClosed",
+      "useConfirmCallback",
+      "useClosedCallback",
+      "customMethods"
+    ]
+
+  - id: "template_kingdee_operation"
+    name: "金蝶操作服务插件模板"
+    type: "file_template"
+    language: "typescript"
+    path: "templates/KingdeeOperationPlugin.ts"
+    description: "金蝶云苍穹操作服务插件模板，基于AbstractOperationServicePlugIn"
+    tags: ["kingdee", "operation", "service", "plugin", "校验"]
+    usage_context: ["kingdee_plugin", "operation"]
+    variables: [
+      "className", "description",
+      "constants", "headFields", "entryFields",
+      "useBeforeExecute", "needValidation", "validationLogic", "needInteraction",
+      "useAfterExecute", "afterLogic",
+      "useOnAddValidators", "validators", "validatorMethods",
+      "customMethods"
+    ]
+
+  - id: "template_kingdee_list"
+    name: "金蝶列表插件模板"
+    type: "file_template"
+    language: "typescript"
+    path: "templates/KingdeeListPlugin.ts"
+    description: "金蝶云苍穹单据列表插件模板，基于AbstractListPlugin"
+    tags: ["kingdee", "list", "billlist", "plugin", "列表"]
+    usage_context: ["kingdee_plugin", "list"]
+    variables: [
+      "className", "description",
+      "useSetFilter", "customFilters", "setOrderBy",
+      "useFilterContainerSearchClick", "fastFilters",
+      "useFilterContainerInit", "schemeFilterColumns", "commonFilterColumns",
+      "useFilterContainerBeforeF7Select", "f7Filters",
+      "useFilterColumnSetFilter", "columnFilters",
+      "useBeforeShowBill", "customParams",
+      "useBeforePackageData", "packageDataModifiers",
+      "usePackageData", "cellFormatters",
+      "useBeforeCreateListColumns", "dynamicColumns",
+      "useItemClick", "itemClickHandlers",
+      "useBillListHyperLinkClick", "hyperLinkHandlers",
+      "customMethods"
+    ]
+
+  - id: "template_kingdee_convert"
+    name: "金蝶单据转换插件模板"
+    type: "file_template"
+    language: "java"
+    path: "templates/KingdeeConvertPlugin.java"
+    description: "金蝶云苍穹单据转换插件模板，基于AbstractConvertPlugIn"
+    tags: ["kingdee", "convert", "botp", "plugin", "转换"]
+    usage_context: ["kingdee_plugin", "convert"]
+    variables: [
+      "packageName", "className", "description",
+      "sourceMainEntity", "targetMainEntity", "convertOpType",
+      "constants", "initVariableLogic",
+      "useAfterBuildQueryParameter", "extraFields", "extraFilters",
+      "useBeforeBuildRowCondition", "rowConditions",
+      "useBeforeGetSourceData", "beforeGetSourceDataLogic",
+      "useAfterGetSourceData", "sourceDataModifiers",
+      "useBeforeBuildGroupMode", "groupByFields",
+      "useBeforeCreateTarget", "beforeCreateTargetLogic",
+      "useAfterCreateTarget", "targetDataInit",
+      "useAfterFieldMapping", "fieldMappings",
+      "useBeforeCreateLink",
+      "useAfterCreateLink",
+      "useAfterConvert", "finalModifiers",
+      "customMethods"
+    ]
+
   # ========== 代码片段：通用工具 ==========
   - id: "snippet_validation_notnull"
     name: "非空校验器"
@@ -41,26 +137,88 @@ assets:
     tags: ["pagination", "query", "common"]
     usage_context: ["java_api", "repository"]
 
-  # ========== 代码片段：Kotlin插件 ==========
-  - id: "snippet_plugin_base"
-    name: "插件基类"
+  # ========== 代码片段：金蝶插件通用 ==========
+  - id: "snippet_kingdee_field_calc"
+    name: "金蝶字段联动计算"
     type: "code_snippet"
-    language: "kotlin"
-    path: "code_snippets/common_utils/AbstractPlugin.kt"
-    description: "Kotlin插件基础结构"
-    tags: ["plugin", "base", "kotlin"]
-    usage_context: ["kotlin_plugin"]
+    language: "typescript"
+    path: "code_snippets/kingdee/FieldCalculation.ts"
+    description: "字段值改变时联动计算其他字段（如数量*单价=金额）"
+    tags: ["kingdee", "field", "calculation", "propertyChanged"]
+    usage_context: ["kingdee_plugin", "bill_form"]
+    variables: ["triggerField", "calcFields", "formula"]
 
-  - id: "snippet_validation_result"
-    name: "校验结果类"
+  - id: "snippet_kingdee_f7_filter"
+    name: "金蝶F7过滤条件"
     type: "code_snippet"
-    language: "kotlin"
-    path: "code_snippets/common_utils/ValidationResult.kt"
-    description: "插件校验结果封装"
-    tags: ["validation", "result", "kotlin"]
-    usage_context: ["kotlin_plugin", "validation"]
+    language: "typescript"
+    path: "code_snippets/kingdee/F7Filter.ts"
+    description: "为基础资料F7选择添加过滤条件"
+    tags: ["kingdee", "f7", "filter", "basedata"]
+    usage_context: ["kingdee_plugin", "bill_form"]
+    variables: ["controlKey", "filterField", "filterValue"]
 
-  # ========== 文件模板 ==========
+  - id: "snippet_kingdee_ui_control"
+    name: "金蝶界面控件控制"
+    type: "code_snippet"
+    language: "typescript"
+    path: "code_snippets/kingdee/UIControl.ts"
+    description: "根据条件锁定/隐藏界面控件"
+    tags: ["kingdee", "ui", "control", "enable", "visible"]
+    usage_context: ["kingdee_plugin", "bill_form"]
+    variables: ["controlKey", "condition", "action"]
+
+  - id: "snippet_kingdee_validation"
+    name: "金蝶操作校验"
+    type: "code_snippet"
+    language: "typescript"
+    path: "code_snippets/kingdee/Validation.ts"
+    description: "操作插件中添加校验规则"
+    tags: ["kingdee", "validation", "operation", "validator"]
+    usage_context: ["kingdee_plugin", "operation"]
+    variables: ["validateField", "condition", "errorMessage"]
+
+  - id: "snippet_kingdee_interaction"
+    name: "金蝶用户交互"
+    type: "code_snippet"
+    language: "typescript"
+    path: "code_snippets/kingdee/Interaction.ts"
+    description: "显示确认弹窗、消息提示"
+    tags: ["kingdee", "interaction", "confirm", "message"]
+    usage_context: ["kingdee_plugin", "bill_form", "operation"]
+    variables: ["message", "messageType"]
+
+  - id: "snippet_kingdee_entry_operation"
+    name: "金蝶分录行操作"
+    type: "code_snippet"
+    language: "typescript"
+    path: "code_snippets/kingdee/EntryOperation.ts"
+    description: "分录行添加、删除、批量创建"
+    tags: ["kingdee", "entry", "row", "batch"]
+    usage_context: ["kingdee_plugin", "bill_form"]
+    variables: ["entryKey", "rowCount", "fieldValues"]
+
+  - id: "snippet_kingdee_bill_link"
+    name: "金蝶单据联查"
+    type: "code_snippet"
+    language: "typescript"
+    path: "code_snippets/kingdee/BillLink.ts"
+    description: "打开关联单据界面"
+    tags: ["kingdee", "link", "bill", "showForm"]
+    usage_context: ["kingdee_plugin", "bill_form", "list"]
+    variables: ["targetFormId", "pkId", "status"]
+
+  - id: "snippet_kingdee_list_filter"
+    name: "金蝶列表过滤"
+    type: "code_snippet"
+    language: "typescript"
+    path: "code_snippets/kingdee/ListFilter.ts"
+    description: "列表插件中设置过滤条件"
+    tags: ["kingdee", "list", "filter", "query"]
+    usage_context: ["kingdee_plugin", "list"]
+    variables: ["fieldKey", "operator", "value"]
+
+  # ========== 文件模板（旧版保留） ==========
   - id: "template_rest_controller"
     name: "REST Controller模板"
     type: "file_template"
