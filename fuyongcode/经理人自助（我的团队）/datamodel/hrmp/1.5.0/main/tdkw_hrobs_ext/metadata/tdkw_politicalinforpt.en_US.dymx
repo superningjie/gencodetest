@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DeployMetadata>
+  <MasterId>3NZW+Y6T=P+7</MasterId>
+  <Id>3NZW+Y6T=P+7</Id>
+  <DesignMetas>
+    <DesignFormMetaL>
+      <Number>tdkw_politicalinforpt</Number>
+      <PkId>3TOAO4KT5PGA</PkId>
+      <DataXml>
+        <FormMetadata>
+          <Name>Statement Template</Name>
+          <Items>
+            <SearchAp action="edit" oid="ZdA4aaaiCn">
+              <Name>搜索控件</Name>
+              <SearchEmptyText>请输入姓名后回车搜索</SearchEmptyText>
+            </SearchAp>
+            <EntryFieldAp action="edit" oid="aHU7mSDyIz">
+              <Name>公司简称</Name>
+            </EntryFieldAp>
+            <EntryFieldAp action="edit" oid="nyfxESRDpP">
+              <Name>姓名</Name>
+            </EntryFieldAp>
+            <EntryFieldAp action="edit" oid="6Xv9SFoDZB">
+              <Name>岗位</Name>
+            </EntryFieldAp>
+            <EntryFieldAp action="edit" oid="6HXcnL01Iz">
+              <Name>岗位层级</Name>
+            </EntryFieldAp>
+            <EntryFieldAp action="edit" oid="sGAU8nccXR">
+              <Name>人员类型</Name>
+            </EntryFieldAp>
+            <EntryFieldAp action="edit" oid="4OXf5MdXAn">
+              <Name>性别</Name>
+            </EntryFieldAp>
+            <EntryFieldAp action="edit" oid="SmzBx7CZBU">
+              <Name>籍贯</Name>
+            </EntryFieldAp>
+            <EntryFieldAp action="edit" oid="tpjdkDrSaO">
+              <Name>学校</Name>
+            </EntryFieldAp>
+            <EntryFieldAp action="edit" oid="6x5qOyg1QxFYENN1an">
+              <Name>学校</Name>
+            </EntryFieldAp>
+            <EntryFieldAp action="edit" oid="SUXO4mX6a3">
+              <Name>学历</Name>
+            </EntryFieldAp>
+            <EntryFieldAp action="edit" oid="Tylan220p2">
+              <Name>专业</Name>
+            </EntryFieldAp>
+            <EntryFieldAp action="edit" oid="fpUxgewwPl">
+              <Name>婚姻状况</Name>
+            </EntryFieldAp>
+            <EntryFieldAp action="edit" oid="avpyhIWcbN">
+              <Name>政治面貌</Name>
+            </EntryFieldAp>
+            <EntryFieldAp action="edit" oid="TkgV9702kB">
+              <Name>年龄</Name>
+            </EntryFieldAp>
+            <EntryFieldAp action="edit" oid="ATIn01wh4O">
+              <Name>入职日期</Name>
+            </EntryFieldAp>
+            <EntryFieldAp action="edit" oid="PKlazEBisC">
+              <Name>集团司龄</Name>
+            </EntryFieldAp>
+            <EntryFieldAp action="edit" oid="Q9JxuHGsda">
+              <Name>工龄</Name>
+            </EntryFieldAp>
+            <EntryFieldAp action="edit" oid="jNSEsCXKjAa5CQuKrR">
+              <Name>工号</Name>
+            </EntryFieldAp>
+          </Items>
+        </FormMetadata>
+      </DataXml>
+      <Name>Statement Template</Name>
+      <Id>3NZW+Y6T=P+7</Id>
+      <LocaleId>en_US</LocaleId>
+    </DesignFormMetaL>
+    <DesignEntityMetaL>
+      <Number>tdkw_politicalinforpt</Number>
+      <PkId>3TOAO4UUSILF</PkId>
+      <DataXml>
+        <EntityMetadata>
+          <Items>
+            <BasedataField action="edit" oid="aHU7mSDyIz">
+              <Name>公司简称</Name>
+            </BasedataField>
+            <BasedataField action="edit" oid="nyfxESRDpP">
+              <Name>姓名</Name>
+            </BasedataField>
+            <BasedataField action="edit" oid="6Xv9SFoDZB">
+              <Name>岗位</Name>
+            </BasedataField>
+            <ComboField action="edit" oid="6HXcnL01Iz">
+              <Name>岗位层级</Name>
+              <Items>
+                <ComboItem action="edit" oid="1">
+                  <Caption>集团高管-集团直管</Caption>
+                </ComboItem>
+                <ComboItem action="edit" oid="2">
+                  <Caption>集团高管-授权行业</Caption>
+                </ComboItem>
+                <ComboItem action="edit" oid="3">
+                  <Caption>其他高管</Caption>
+                </ComboItem>
+                <ComboItem action="edit" oid="4">
+                  <Caption>中层</Caption>
+                </ComboItem>
+                <ComboItem action="edit" oid="5">
+                  <Caption>基层</Caption>
+                </ComboItem>
+              </Items>
+            </ComboField>
+            <BasedataField action="edit" oid="sGAU8nccXR">
+              <Name>人员类型</Name>
+            </BasedataField>
+            <BasedataField action="edit" oid="4OXf5MdXAn">
+              <Name>性别</Name>
+            </BasedataField>
+            <TextField action="edit" oid="SmzBx7CZBU">
+              <Name>籍贯</Name>
+            </TextField>
+            <BasedataField action="edit" oid="SUXO4mX6a3">
+              <Name>学历</Name>
+            </BasedataField>
+            <BasedataField action="edit" oid="fpUxgewwPl">
+              <Name>婚姻状况</Name>
+            </BasedataField>
+            <BasedataField action="edit" oid="avpyhIWcbN">
+              <Name>政治面貌</Name>
+            </BasedataField>
+            <IntegerField action="edit" oid="TkgV9702kB">
+              <Name>年龄</Name>
+            </IntegerField>
+            <DateField action="edit" oid="ATIn01wh4O">
+              <Name>入职日期</Name>
+            </DateField>
+            <DecimalField action="edit" oid="PKlazEBisC">
+              <Name>集团司龄</Name>
+            </DecimalField>
+            <DecimalField action="edit" oid="Q9JxuHGsda">
+              <Name>工龄</Name>
+            </DecimalField>
+            <MuliLangTextField action="edit" oid="Tylan220p2">
+              <Name>专业</Name>
+            </MuliLangTextField>
+            <HisModelBasedataField action="edit" oid="tpjdkDrSaO">
+              <Name>学校</Name>
+            </HisModelBasedataField>
+            <BasedataPropField action="edit" oid="jNSEsCXKjAa5CQuKrR">
+              <Name>工号</Name>
+            </BasedataPropField>
+            <TextField action="edit" oid="6x5qOyg1QxFYENN1an">
+              <Name>学校</Name>
+            </TextField>
+          </Items>
+        </EntityMetadata>
+      </DataXml>
+      <Name>Statement Template</Name>
+      <Id>3NZW+Y6T=P+7</Id>
+      <LocaleId>en_US</LocaleId>
+    </DesignEntityMetaL>
+  </DesignMetas>
+  <Version>1704164092191</Version>
+  <BOSVersion>1.0</BOSVersion>
+</DeployMetadata>

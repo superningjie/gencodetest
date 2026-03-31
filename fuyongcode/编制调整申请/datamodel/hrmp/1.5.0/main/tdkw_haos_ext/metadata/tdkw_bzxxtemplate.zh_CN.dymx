@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DeployMetadata>
+  <MasterId>49OXO00N9AF9</MasterId>
+  <Id>49OXO00N9AF9</Id>
+  <DesignMetas>
+    <DesignFormMetaL>
+      <Number>tdkw_bzxxtemplate</Number>
+      <PkId>4JCQHKU5558O</PkId>
+      <DataXml>
+        <FormMetadata/>
+      </DataXml>
+      <Name>编制二开模版</Name>
+      <Id>49OXO00N9AF9</Id>
+      <LocaleId>zh_CN</LocaleId>
+    </DesignFormMetaL>
+    <DesignEntityMetaL>
+      <Number>tdkw_bzxxtemplate</Number>
+      <PkId>4JCQHL0IHJ92</PkId>
+      <DataXml>
+        <EntityMetadata/>
+      </DataXml>
+      <Name>编制二开模版</Name>
+      <Id>49OXO00N9AF9</Id>
+      <LocaleId>zh_CN</LocaleId>
+    </DesignEntityMetaL>
+  </DesignMetas>
+  <Version>1732017553493</Version>
+  <BOSVersion>1.0</BOSVersion>
+</DeployMetadata>

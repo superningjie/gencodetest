@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DeployMetadata>
+  <Multilanguage>false</Multilanguage>
+  <Id>0MUWQ6HSY5JA</Id>
+  <DesignMetas>
+    <DesignCloudMeta>
+      <DevType>1</DevType>
+      <Image>/images/pc/cardbackground/cloud_xitong.png</Image>
+      <Visible>1</Visible>
+      <ModifyDate>1670845400878</ModifyDate>
+      <Modifier>358764522766337032</Modifier>
+      <Isv>kingdee</Isv>
+      <Version>1.0</Version>
+      <BackImage></BackImage>
+      <Number>ODC</Number>
+      <IndustryId>0</IndustryId>
+      <BaseAppId>217WYC/L9U7E</BaseAppId>
+      <Creater>358764522766337032</Creater>
+      <SimpleNumber></SimpleNumber>
+      <Id>0MUWQ6HSY5JA</Id>
+      <Seq>40</Seq>
+      <CreateDate>1583996172000</CreateDate>
+    </DesignCloudMeta>
+  </DesignMetas>
+  <BOSVersion>1.0</BOSVersion>
+</DeployMetadata>

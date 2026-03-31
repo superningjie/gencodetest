@@ -1,0 +1,49 @@
+pipeline:
+  name: customization_code_generation
+  version: 2.0.0
+  steps:
+  - id: parse_requirement
+    skill: requirement_analyzer
+    output_key: parse_requirement
+    config: {}
+  - id: split_implementation
+    skill: code_implement_splitter
+    output_key: split_implementation
+    config: {}
+    input: '{{parse_requirement}}'
+  - id: match_assets
+    skill: asset_matcher
+    output_key: match_assets
+    config: {}
+    input: '{{split_implementation}}'
+    parallel: true
+  - id: generate_code
+    skill: code_generator
+    output_key: generate_code
+    config: {}
+    input: '{{split_implementation}}'
+    depends_on:
+    - match_assets
+  - id: quality_check
+    skill: code_quality_checker
+    output_key: quality_check
+    config: {}
+    input: '{{generate_code}}'
+  - id: estimate_effort
+    skill: effort_estimator
+    output_key: estimate_effort
+    config: {}
+    input: '{{split_implementation}}'
+  - id: assess_risks
+    skill: risk_assessor
+    output_key: assess_risks
+    config: {}
+    input: '{{split_implementation}}'
+  - id: assemble_output
+    skill: output_assembler
+    output_key: assemble_output
+    input: '{{generate_code}}'
+    depends_on:
+    - quality_check
+    - estimate_effort
+    - assess_risks

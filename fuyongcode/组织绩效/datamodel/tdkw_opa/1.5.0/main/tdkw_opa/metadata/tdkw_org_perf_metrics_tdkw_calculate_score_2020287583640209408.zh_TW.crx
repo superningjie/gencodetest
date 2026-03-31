@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DeployMetadata>
+  <Id>2020287583640209408</Id>
+  <DesignMetas>
+    <DesignConvertRuleMetaL>
+      <PkId>4C1NS1K6UR0+</PkId>
+      <DataXml>
+        <ConvertRuleMetadata/>
+      </DataXml>
+      <Name></Name>
+      <Id>2020287583640209408</Id>
+      <LocaleId>zh_TW</LocaleId>
+    </DesignConvertRuleMetaL>
+  </DesignMetas>
+  <BOSVersion>1.0</BOSVersion>
+</DeployMetadata>

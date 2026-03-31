@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DeployMetadata>
+  <MasterId>4APHA0RWK8CO</MasterId>
+  <Id>4APHA0RWK8CO</Id>
+  <DesignMetas>
+    <DesignFormMetaL>
+      <Number>tdkw_opa_eventtpl</Number>
+      <PkId>4API+P4/5GM4</PkId>
+      <DataXml>
+        <FormMetadata>
+          <Name>mbo事务表_复制</Name>
+          <Items>
+            <BasedataFormAp action="edit" oid="0NKB12K4W9D7">
+              <Name>mbo事务表_复制</Name>
+            </BasedataFormAp>
+          </Items>
+        </FormMetadata>
+      </DataXml>
+      <Name>mbo事务表_复制</Name>
+      <Id>4APHA0RWK8CO</Id>
+      <LocaleId>en_US</LocaleId>
+    </DesignFormMetaL>
+    <DesignEntityMetaL>
+      <Number>tdkw_opa_eventtpl</Number>
+      <PkId>4API+P5S/=H3</PkId>
+      <DataXml>
+        <EntityMetadata>
+          <Name>mbo事务表_复制</Name>
+          <Items>
+            <BaseEntity action="edit" oid="1A3I8S4L91=9">
+              <Name>mbo事务表_复制</Name>
+            </BaseEntity>
+          </Items>
+        </EntityMetadata>
+      </DataXml>
+      <Name>mbo事务表_复制</Name>
+      <Id>4APHA0RWK8CO</Id>
+      <LocaleId>en_US</LocaleId>
+    </DesignEntityMetaL>
+  </DesignMetas>
+  <Version>1723601886505</Version>
+  <BOSVersion>1.0</BOSVersion>
+</DeployMetadata>

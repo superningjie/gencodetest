@@ -1,0 +1,1099 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DeployMetadata>
+  <MasterId>3ZRHAQY7EWMH</MasterId>
+  <Id>3ZRHAQY7EWMH</Id>
+  <DesignMetas>
+    <DesignFormMetaL>
+      <Number>dgdl_adminorgdetail_month</Number>
+      <PkId>3ZVJ8VQ1CG/8</PkId>
+      <DataXml>
+        <FormMetadata>
+          <Name>月度编制组织树</Name>
+          <Items>
+            <BasedataFormAp action="edit" oid="1942c188000064ac">
+              <Rules>
+                <FormRule action="edit" oid="2VUO4HATJ+HU">
+                  <Description>待停用组织</Description>
+                </FormRule>
+                <FormRule action="edit" oid="2VUO4HATJ/62">
+                  <Description>组织为启用且待停用为否</Description>
+                </FormRule>
+                <FormRule action="edit" oid="2VUO4HATJ+HV">
+                  <Description>组织已停用</Description>
+                </FormRule>
+              </Rules>
+              <Name>月度编制组织树</Name>
+              <ListMeta>
+                <FormMetadata>
+                  <Items>
+                    <BarItemAp action="edit" oid="BTjy6Ie3Bc">
+                      <DropdownItems>
+                        <DropdownItem action="edit" oid="2K9LG83VJ65/">
+                          <Title>反审核</Title>
+                        </DropdownItem>
+                      </DropdownItems>
+                    </BarItemAp>
+                    <BarItemAp action="edit" oid="v71lQcKgcH">
+                      <DropdownItems>
+                        <DropdownItem action="edit" oid="36NNHXRKM77Y">
+                          <Title>导入数据</Title>
+                        </DropdownItem>
+                        <DropdownItem action="edit" oid="36NNHXRKLA7L">
+                          <Title>查看导入记录</Title>
+                        </DropdownItem>
+                        <DropdownItem action="edit" oid="36NNHXRKM77Z">
+                          <Title>按列表导出</Title>
+                        </DropdownItem>
+                        <DropdownItem action="edit" oid="36NNHXRKLA7M">
+                          <Title>按导入模板导出</Title>
+                        </DropdownItem>
+                        <DropdownItem action="edit" oid="36NNHXRKM78+">
+                          <Title>按导出模板导出</Title>
+                        </DropdownItem>
+                        <DropdownItem action="edit" oid="36NNHXRKLA7N">
+                          <Title>查看导出记录</Title>
+                        </DropdownItem>
+                      </DropdownItems>
+                    </BarItemAp>
+                    <BarItemAp action="edit" oid="DsKItL28LZ">
+                      <Name>查看全部日志</Name>
+                    </BarItemAp>
+                    <BarItemAp action="edit" oid="jTJrxvDMoo">
+                      <DropdownItems>
+                        <DropdownItem action="edit" oid="28J11GMJ2/4M">
+                          <Title>查看引出结果</Title>
+                        </DropdownItem>
+                      </DropdownItems>
+                      <Name>引出</Name>
+                    </BarItemAp>
+                    <CommonBaseDataFilterColumnAp action="edit" oid="2MG5JRWYNKX2">
+                      <Name>组织体系管理组织</Name>
+                    </CommonBaseDataFilterColumnAp>
+                    <CommonBaseDataFilterColumnAp action="edit" oid="21DPH+FVDGX8">
+                      <Name>上级行政组织</Name>
+                    </CommonBaseDataFilterColumnAp>
+                    <CommonBaseDataFilterColumnAp action="edit" oid="21DPFO/5SA80">
+                      <Name>行政组织类型</Name>
+                    </CommonBaseDataFilterColumnAp>
+                    <CommonFilterColumnAp action="edit" oid="2RK1DWIAXYNL">
+                      <Name>业务状态</Name>
+                      <ComboItems>
+                        <ComboItem action="edit" oid="1">
+                          <Caption>已启用</Caption>
+                        </ComboItem>
+                        <ComboItem action="edit" oid="0">
+                          <Caption>已停用</Caption>
+                        </ComboItem>
+                      </ComboItems>
+                    </CommonFilterColumnAp>
+                    <ListColumnAp action="edit" oid="21DZ03ZHBOL3">
+                      <Name>行政组织编码</Name>
+                    </ListColumnAp>
+                    <ListColumnAp action="edit" oid="21DZ05WPVDT5">
+                      <Name>行政组织名称</Name>
+                    </ListColumnAp>
+                    <ListColumnAp action="edit" oid="2NCB55KNFZ59">
+                      <Name>简称</Name>
+                    </ListColumnAp>
+                    <ListColumnAp action="edit" oid="21DZ1D8RIVBO">
+                      <Name>行政组织类型</Name>
+                    </ListColumnAp>
+                    <ListColumnAp action="edit" oid="3EN7Q6M07CNI">
+                      <Name>上级组织</Name>
+                    </ListColumnAp>
+                    <ListColumnAp action="edit" oid="21DZ20I=HRNR">
+                      <Name>上级行政组织</Name>
+                    </ListColumnAp>
+                    <CheckBoxListColumnAp action="edit" oid="3IJ77CMWNXU2">
+                      <Name>是否虚拟组织</Name>
+                    </CheckBoxListColumnAp>
+                    <ListColumnAp action="edit" oid="2CS3OKZALHHH">
+                      <Name>所属公司</Name>
+                    </ListColumnAp>
+                    <ListColumnAp action="edit" oid="21RGSO2J7D8U">
+                      <Name>法律实体</Name>
+                    </ListColumnAp>
+                    <ListColumnAp action="edit" oid="2MG04G6RE9U6">
+                      <Name>组织体系管理组织</Name>
+                    </ListColumnAp>
+                    <ComboListColumnAp action="edit" oid="22J3/JJ=7JUV">
+                      <Name>业务状态</Name>
+                    </ComboListColumnAp>
+                    <ListColumnAp action="edit" oid="2CS3V2EQ2T1D">
+                      <Name>行政组织层级</Name>
+                    </ListColumnAp>
+                    <ListColumnAp action="edit" oid="21DZ5P8X5IU5">
+                      <Name>行政组织职能</Name>
+                    </ListColumnAp>
+                    <ListColumnAp action="edit" oid="21RH5A0Q13X=">
+                      <Name>国家/地区</Name>
+                    </ListColumnAp>
+                    <ListColumnAp action="edit" oid="21DZ7+0AA89C">
+                      <Name>所在城市</Name>
+                    </ListColumnAp>
+                    <ListColumnAp action="edit" oid="2CS493LWUZY7">
+                      <Name>工作地</Name>
+                    </ListColumnAp>
+                    <DecimalListColumnAp action="edit" oid="3FWL5+E89RNO">
+                      <Name>物理层级</Name>
+                    </DecimalListColumnAp>
+                    <ComboListColumnAp action="edit" oid="2OIKCWLB+KZP">
+                      <Name>数据来源</Name>
+                    </ComboListColumnAp>
+                    <ListColumnAp action="edit" oid="21RHIHYCTHZ2">
+                      <Name>详细地址</Name>
+                    </ListColumnAp>
+                    <ListColumnAp action="edit" oid="21DZ8OI717HX">
+                      <Name>描述</Name>
+                    </ListColumnAp>
+                    <DateListColumnAp action="edit" oid="22J3+JPF=S7G">
+                      <Name>成立日期</Name>
+                    </DateListColumnAp>
+                    <ListColumnAp action="edit" oid="22J302/V6T39">
+                      <Name>集团愿景</Name>
+                    </ListColumnAp>
+                    <ListColumnAp action="edit" oid="2CS4KQPU43TX">
+                      <Name>集团使命</Name>
+                    </ListColumnAp>
+                    <ListColumnAp action="edit" oid="22J31NDA364T">
+                      <Name>公司类型</Name>
+                    </ListColumnAp>
+                    <ListColumnAp action="edit" oid="22J32X4JTDNO">
+                      <Name>行业类别</Name>
+                    </ListColumnAp>
+                    <ListColumnAp action="edit" oid="22J34E2+XKIX">
+                      <Name>部门类型</Name>
+                    </ListColumnAp>
+                    <ListColumnAp action="edit" oid="2364KFAMQ7+Z">
+                      <Name>定位</Name>
+                    </ListColumnAp>
+                    <ListColumnAp action="edit" oid="22J35MP+M5BO">
+                      <Name>主要职责</Name>
+                    </ListColumnAp>
+                    <ListColumnAp action="edit" oid="2CS4Q5957BT1">
+                      <Name>保密等级</Name>
+                    </ListColumnAp>
+                    <ListColumnAp action="edit" oid="2CS4RNUNE41K">
+                      <Name>保密类型</Name>
+                    </ListColumnAp>
+                    <ListColumnAp action="edit" oid="2CS4TFDKAP3W">
+                      <Name>保密描述</Name>
+                    </ListColumnAp>
+                    <CheckBoxListColumnAp action="edit" oid="2DHWCBYHA5G+">
+                      <Name>待停用标识</Name>
+                    </CheckBoxListColumnAp>
+                    <DateListColumnAp action="edit" oid="2DHWCDM4AAVE">
+                      <Name>待停用日期</Name>
+                    </DateListColumnAp>
+                    <SchemeFilterColumnAp action="edit" oid="21DRK3W+SX3L">
+                      <Name>行政组织编码</Name>
+                    </SchemeFilterColumnAp>
+                    <SchemeFilterColumnAp action="edit" oid="21DRL3FB/K+P">
+                      <Name>行政组织名称</Name>
+                    </SchemeFilterColumnAp>
+                    <SchemeFilterColumnAp action="edit" oid="21DRLO0ZOOUQ">
+                      <Name>简称</Name>
+                    </SchemeFilterColumnAp>
+                    <SchemeComboFilterColumnAp action="edit" oid="2RK1DWILT2VV">
+                      <Name>业务状态</Name>
+                    </SchemeComboFilterColumnAp>
+                    <SchemeBaseDataFilterColumnAp action="edit" oid="21DRMAB1E0ZC">
+                      <Name>行政组织类型</Name>
+                    </SchemeBaseDataFilterColumnAp>
+                    <SchemeBaseDataFilterColumnAp action="edit" oid="21DRN+IDA610">
+                      <Name>上级行政组织</Name>
+                    </SchemeBaseDataFilterColumnAp>
+                    <SchemeFilterColumnAp action="edit" oid="21DRNHEC76TP">
+                      <Name>成立日期</Name>
+                    </SchemeFilterColumnAp>
+                    <SchemeBaseDataFilterColumnAp action="edit" oid="2E0MV+G/LS2I">
+                      <Name>法律实体</Name>
+                    </SchemeBaseDataFilterColumnAp>
+                    <SchemeBaseDataFilterColumnAp action="edit" oid="2CS4WZMHILVC">
+                      <Name>所属公司</Name>
+                    </SchemeBaseDataFilterColumnAp>
+                    <SchemeBaseDataFilterColumnAp action="edit" oid="2CS4Y6RGW/OG">
+                      <Name>行政组织层级</Name>
+                    </SchemeBaseDataFilterColumnAp>
+                    <SchemeBaseDataFilterColumnAp action="edit" oid="21DS198NGDQF">
+                      <Name>行政组织职能</Name>
+                    </SchemeBaseDataFilterColumnAp>
+                    <SchemeBaseDataFilterColumnAp action="edit" oid="21RH4J8MB7EN">
+                      <Name>国家/地区</Name>
+                    </SchemeBaseDataFilterColumnAp>
+                    <SchemeBaseDataFilterColumnAp action="edit" oid="21DS2H0B9/3Y">
+                      <Name>所在城市</Name>
+                    </SchemeBaseDataFilterColumnAp>
+                    <SchemeFilterColumnAp action="edit" oid="21RHJ7AGLNO9">
+                      <Name>详细地址</Name>
+                    </SchemeFilterColumnAp>
+                    <SchemeFilterColumnAp action="edit" oid="21DVANA664=3">
+                      <Name>描述</Name>
+                    </SchemeFilterColumnAp>
+                    <SchemeFilterColumnAp action="edit" oid="21RHLNOKFXAL">
+                      <Name>定位</Name>
+                    </SchemeFilterColumnAp>
+                    <SchemeFilterColumnAp action="edit" oid="21RHU72T7YW4">
+                      <Name>主要职责</Name>
+                    </SchemeFilterColumnAp>
+                    <SchemeBaseDataFilterColumnAp action="edit" oid="2CS50REFTGXE">
+                      <Name>保密等级</Name>
+                    </SchemeBaseDataFilterColumnAp>
+                    <SchemeBaseDataFilterColumnAp action="edit" oid="2CS53BD0T/CL">
+                      <Name>保密类型</Name>
+                    </SchemeBaseDataFilterColumnAp>
+                    <SchemeFilterColumnAp action="edit" oid="2CS52BP1BTRT">
+                      <Name>保密描述</Name>
+                    </SchemeFilterColumnAp>
+                    <SchemeFilterColumnAp action="edit" oid="2CS583FK9N4H">
+                      <Name>集团愿景</Name>
+                    </SchemeFilterColumnAp>
+                    <SchemeFilterColumnAp action="edit" oid="2F63WLJNAX1T">
+                      <Name>集团使命</Name>
+                    </SchemeFilterColumnAp>
+                    <SchemeBaseDataFilterColumnAp action="edit" oid="2CS5=LPS1TAJ">
+                      <Name>公司类型</Name>
+                    </SchemeBaseDataFilterColumnAp>
+                    <SchemeBaseDataFilterColumnAp action="edit" oid="2CS5A4CDL0MV">
+                      <Name>行业类别</Name>
+                    </SchemeBaseDataFilterColumnAp>
+                    <SchemeBaseDataFilterColumnAp action="edit" oid="2CS5B7T5Q41A">
+                      <Name>部门类型</Name>
+                    </SchemeBaseDataFilterColumnAp>
+                    <SchemeBaseDataFilterColumnAp action="edit" oid="2MG5JRX7H/SP">
+                      <Name>组织体系管理组织</Name>
+                    </SchemeBaseDataFilterColumnAp>
+                    <SchemeFilterColumnAp action="edit" oid="2E0875JGYP/0">
+                      <Name>待停用标识</Name>
+                    </SchemeFilterColumnAp>
+                    <SchemeFilterColumnAp action="edit" oid="2E08773V5KV6">
+                      <Name>待停用日期</Name>
+                    </SchemeFilterColumnAp>
+                    <SchemeFilterColumnAp action="edit" oid="3IJ78F5T+WT7">
+                      <Name>是否虚拟组织</Name>
+                    </SchemeFilterColumnAp>
+                  </Items>
+                </FormMetadata>
+              </ListMeta>
+            </BasedataFormAp>
+            <FieldsetPanelAp action="edit" oid="66qBENUSAv">
+              <Name>组织职责</Name>
+            </FieldsetPanelAp>
+            <FlexPanelAp action="edit" oid="h7NpOQCCvy">
+              <Name>内容区</Name>
+            </FlexPanelAp>
+            <AttachmentPanelAp action="edit" oid="6VfsijziPI">
+              <Name>附件</Name>
+            </AttachmentPanelAp>
+            <FlexPanelAp action="edit" oid="oLyySK4WRR">
+              <Name>Flex容器</Name>
+            </FlexPanelAp>
+            <FlexPanelAp action="edit" oid="JmR9Is9QRt">
+              <Name>Flex容器</Name>
+            </FlexPanelAp>
+            <FieldAp action="edit" oid="asl1HzfVnT">
+              <Name>定位</Name>
+            </FieldAp>
+            <FieldAp action="edit" oid="mMqcDck7m7">
+              <Name>主要职责</Name>
+            </FieldAp>
+            <FieldsetPanelAp action="edit" oid="yeZZGeHIcI">
+              <Name>保密信息</Name>
+            </FieldsetPanelAp>
+            <AdvConBarItemAp action="edit" oid="xSNTl0duQu">
+              <Name>增行</Name>
+            </AdvConBarItemAp>
+            <AdvConBarItemAp action="edit" oid="5xhnsEKkD5">
+              <Name>删行</Name>
+            </AdvConBarItemAp>
+            <LabelAp action="edit" oid="zCu56Zlsjg">
+              <Name>团队关系</Name>
+            </LabelAp>
+            <LabelAp action="edit" oid="T9a6dCLyn4">
+              <Name>岗位清单</Name>
+            </LabelAp>
+            <LabelAp action="edit" oid="FTEtFXkOFZ">
+              <Name>人员清单</Name>
+            </LabelAp>
+            <LabelAp action="edit" oid="AWCJPMmCl8">
+              <Name>历任管理团队</Name>
+            </LabelAp>
+            <TabAp action="edit" oid="vNputdBGSv">
+              <Name>页签控件</Name>
+            </TabAp>
+            <EntryFieldAp action="edit" oid="0oYE3vEL0x">
+              <Name>协作类型</Name>
+            </EntryFieldAp>
+            <EntryFieldAp action="edit" oid="A3A3NqmmNY">
+              <Name>协作组织</Name>
+            </EntryFieldAp>
+            <EntryFieldAp action="edit" oid="VScCWUAJOO">
+              <Name>协作团队分类</Name>
+            </EntryFieldAp>
+            <EntryFieldAp action="edit" oid="5VP0c2tGu0">
+              <Name>生效日期</Name>
+            </EntryFieldAp>
+            <EntryFieldAp action="edit" oid="sbqCFY61I0">
+              <Name>协作关系ID</Name>
+            </EntryFieldAp>
+            <EntryFieldAp action="edit" oid="4BflXhTjI9">
+              <Name>分录版本id</Name>
+            </EntryFieldAp>
+            <FieldAp action="edit" oid="2JW21XwmZR">
+              <Name>业务id</Name>
+            </FieldAp>
+            <FieldAp action="edit" oid="JxOJk2szdg">
+              <Name>是否当前版本</Name>
+            </FieldAp>
+            <FieldAp action="edit" oid="m38AdgR276">
+              <Name>数据版本状态</Name>
+            </FieldAp>
+            <FieldAp action="edit" oid="G3gVa321OK">
+              <Name>关联历史版本</Name>
+            </FieldAp>
+            <FieldAp action="edit" oid="LFrXNtyk6S">
+              <Name>最早生效日期</Name>
+            </FieldAp>
+            <FieldAp action="edit" oid="DFvtxn01PE">
+              <Name>待变更生效日期</Name>
+            </FieldAp>
+            <FieldAp action="edit" oid="7F2mFMxd4f">
+              <Name>变更中</Name>
+            </FieldAp>
+            <FieldAp action="edit" oid="eCzJFq1hic">
+              <Name>业务预计失效日期</Name>
+              <CtlTips>
+                <Tips>
+                  <Content>若不填失效日期，默认取值2999-12-31。</Content>
+                </Tips>
+              </CtlTips>
+            </FieldAp>
+            <FieldAp action="edit" oid="55UAMidtMF">
+              <Name>业务实际归档日期</Name>
+            </FieldAp>
+            <FieldAp action="edit" oid="i71yKEEem3">
+              <Name>版本实际生效日期</Name>
+            </FieldAp>
+            <FieldAp action="edit" oid="DOWZ9bniAO">
+              <Name>版本实际失效日期</Name>
+            </FieldAp>
+            <FieldAp action="edit" oid="gqZ5asQ06s">
+              <Name>简称</Name>
+            </FieldAp>
+            <FieldAp action="edit" oid="8LGr7KiHXh">
+              <Name>成立日期</Name>
+            </FieldAp>
+            <FieldAp action="edit" oid="yKOOludSB7">
+              <Name>变更说明</Name>
+            </FieldAp>
+            <FieldAp action="edit" oid="lu8nDbJrzI">
+              <Name>行政组织类型</Name>
+            </FieldAp>
+            <FieldAp action="edit" oid="YbChN3xR2T">
+              <Name>上级组织</Name>
+            </FieldAp>
+            <FieldAp action="edit" oid="JnA9PwFAvr">
+              <Name>管理架构长名称</Name>
+            </FieldAp>
+            <FieldAp action="edit" oid="h6hE54JJ94">
+              <Name>上级行政组织</Name>
+            </FieldAp>
+            <FieldAp action="edit" oid="haABK96W4f">
+              <Name>法律实体</Name>
+            </FieldAp>
+            <FieldAp action="edit" oid="A80x9HtCUt">
+              <Name>所属公司</Name>
+            </FieldAp>
+            <FieldAp action="edit" oid="B53l11N3yF">
+              <Name>组织长名称</Name>
+            </FieldAp>
+            <FieldAp action="edit" oid="Fjco74f7Z7">
+              <Name>部门长名称</Name>
+            </FieldAp>
+            <FieldAp action="edit" oid="h2vvLMIwU6">
+              <Name>行政组织层级</Name>
+            </FieldAp>
+            <FieldAp action="edit" oid="TRdfujdZKn">
+              <Name>行政组织职能</Name>
+            </FieldAp>
+            <FieldAp action="edit" oid="NJPjbRaOl4">
+              <Name>国家/地区</Name>
+            </FieldAp>
+            <FieldAp action="edit" oid="mG1E4qwph2">
+              <Name>所在城市</Name>
+            </FieldAp>
+            <FieldAp action="edit" oid="mC9grgBzKf">
+              <Name>工作地</Name>
+            </FieldAp>
+            <FieldAp action="edit" oid="TJLOdUhRYt">
+              <Name>排序号</Name>
+            </FieldAp>
+            <FieldAp action="edit" oid="7z3Gi9eGzs">
+              <Name>详细地址</Name>
+            </FieldAp>
+            <FieldAp action="edit" oid="W0DO5wfPAe">
+              <Name>组织结构编码</Name>
+            </FieldAp>
+            <FieldAp action="edit" oid="N4a5ol3XFU">
+              <Name>所属部门</Name>
+            </FieldAp>
+            <FieldAp action="edit" oid="zaveTaE81T">
+              <Name>描述</Name>
+            </FieldAp>
+            <FieldAp action="edit" oid="5kJipMAy0E">
+              <Name>是否虚拟组织</Name>
+            </FieldAp>
+            <FieldAp action="edit" oid="tkfw85ODTh">
+              <Name>排序码</Name>
+            </FieldAp>
+            <FieldAp action="edit" oid="gyNvYMS2TC">
+              <Name>组织上下级结构长编码</Name>
+            </FieldAp>
+            <FieldAp action="edit" oid="qH9jAJHKus">
+              <Name>是否叶子</Name>
+            </FieldAp>
+            <BarItemAp action="edit" oid="8XYTQ7uc8H">
+              <DropdownItems>
+                <DropdownItem action="edit" oid="2K9LEK63UNTP">
+                  <Title>反审核</Title>
+                </DropdownItem>
+              </DropdownItems>
+            </BarItemAp>
+            <BarItemAp action="edit" oid="zWtTGU56vP">
+              <Name>变更</Name>
+            </BarItemAp>
+            <BarItemAp action="edit" oid="VdQCXx8gp6">
+              <Name>修订</Name>
+            </BarItemAp>
+            <BarItemAp action="edit" oid="qx7D9KVgmN">
+              <Name>历史版本信息</Name>
+            </BarItemAp>
+            <BarItemAp action="edit" oid="DQzeFO4RPs">
+              <Name>版本修订历史</Name>
+            </BarItemAp>
+            <FieldsetPanelAp action="edit" oid="TwPFYT6aKL">
+              <Name>集团信息</Name>
+            </FieldsetPanelAp>
+            <FlexPanelAp action="edit" oid="1uMj7mjSl8">
+              <Name>左面板</Name>
+            </FlexPanelAp>
+            <FlexPanelAp action="edit" oid="WdpJCxsHd8">
+              <Name>右面板</Name>
+            </FlexPanelAp>
+            <AdvConSummaryPanelAp action="edit" oid="1L9q5Dn9Q2">
+              <Name>高级面板摘要容器</Name>
+            </AdvConSummaryPanelAp>
+            <AdvConToolbarAp action="edit" oid="Cag8pjSWWK">
+              <Name>高级面板工具栏</Name>
+            </AdvConToolbarAp>
+            <AdvConChildPanelAp action="edit" oid="2wsOB2nOZd">
+              <Name>矩阵组织信息高级面板子容器</Name>
+            </AdvConChildPanelAp>
+            <FieldAp action="edit" oid="EZGNTqSY57">
+              <Name>物理层级</Name>
+            </FieldAp>
+            <FieldAp action="edit" oid="bwFJZ504Tx">
+              <Name>是否系统预置</Name>
+            </FieldAp>
+            <FieldAp action="edit" oid="Ts8h2qRoVF">
+              <Name>禁用人</Name>
+            </FieldAp>
+            <FieldAp action="edit" oid="RMkqRu1en6">
+              <Name>数据来源</Name>
+            </FieldAp>
+            <FieldAp action="edit" oid="79uWTNIbEr">
+              <Name>初始化状态</Name>
+            </FieldAp>
+            <FieldAp action="edit" oid="dLTeaMA8CZ">
+              <Name>初始化批次</Name>
+            </FieldAp>
+            <FieldAp action="edit" oid="4PEF5u2Rb0">
+              <Name>所属公司变化类型</Name>
+            </FieldAp>
+            <FieldAp action="edit" oid="eXen3RReMX">
+              <Name>组织体系管理组织</Name>
+            </FieldAp>
+            <FieldAp action="edit" oid="h8iout7wGk">
+              <Name>版本号</Name>
+            </FieldAp>
+            <FieldAp action="edit" oid="GWZgDaCR43">
+              <Name>出厂编码</Name>
+            </FieldAp>
+            <FieldAp action="edit" oid="P6qNEDrcgQ">
+              <Name>出厂名称</Name>
+            </FieldAp>
+            <FieldAp action="edit" oid="KseEVBIdjS">
+              <Name>出厂数据编辑状态</Name>
+            </FieldAp>
+            <FieldAp action="edit" oid="jfI3gIr4C5">
+              <Name>业务状态(集成)</Name>
+            </FieldAp>
+            <FieldsetPanelAp action="edit" oid="aFdsH6TcUm">
+              <Name>公司信息</Name>
+            </FieldsetPanelAp>
+            <FieldAp action="edit" oid="XlkIHQojyo">
+              <Name>集团愿景</Name>
+            </FieldAp>
+            <FieldAp action="edit" oid="YcMZAkTDgc">
+              <Name>集团负责人</Name>
+            </FieldAp>
+            <FieldAp action="edit" oid="1NTnbQtd0N">
+              <Name>集团使命</Name>
+            </FieldAp>
+            <FlexPanelAp action="edit" oid="B0jHpFJ7oY">
+              <Name>Flex容器</Name>
+            </FlexPanelAp>
+            <FieldsetPanelAp action="edit" oid="uPBbTeCZyw">
+              <Name>部门信息</Name>
+            </FieldsetPanelAp>
+            <FlexPanelAp action="edit" oid="DO00HexzDH">
+              <Name>关联信息</Name>
+            </FlexPanelAp>
+            <FieldAp action="edit" oid="PeR4kf4EcY">
+              <Name>公司类型</Name>
+            </FieldAp>
+            <FieldAp action="edit" oid="DGM5y4Cdhh">
+              <Name>行业类别</Name>
+            </FieldAp>
+            <FieldsetPanelAp action="edit" oid="HDaudoMaEM">
+              <Name>历史痕迹</Name>
+            </FieldsetPanelAp>
+            <FlexPanelAp action="edit" oid="Ql4kPS6HiO">
+              <Name>头部信息</Name>
+            </FlexPanelAp>
+            <FlexPanelAp action="edit" oid="jH4suWq0IJ">
+              <Name>Flex容器</Name>
+            </FlexPanelAp>
+            <FieldAp action="edit" oid="5EaeBNEYAT">
+              <Name>待停用</Name>
+            </FieldAp>
+            <FieldAp action="edit" oid="P42y0cisHG">
+              <Name>待停用日期</Name>
+            </FieldAp>
+            <FieldAp action="edit" oid="pphb9d5Rkb">
+              <Name>生效日期</Name>
+            </FieldAp>
+            <FieldAp action="edit" oid="zc6fWQT855">
+              <Name>停用日期</Name>
+            </FieldAp>
+            <FlexPanelAp action="edit" oid="Ww5pIRgWnU">
+              <Name>基本信息Flex</Name>
+            </FlexPanelAp>
+            <FlexPanelAp action="edit" oid="IdjIfTm7zX">
+              <Name>集团信息Flex</Name>
+            </FlexPanelAp>
+            <FlexPanelAp action="edit" oid="TjejVwiWsJ">
+              <Name>公司信息Flex</Name>
+            </FlexPanelAp>
+            <FlexPanelAp action="edit" oid="WQ7sv04Z6u">
+              <Name>部门信息Flex</Name>
+            </FlexPanelAp>
+            <FlexPanelAp action="edit" oid="zKP3tT8638">
+              <Name>组织状态</Name>
+            </FlexPanelAp>
+            <FlexPanelAp action="edit" oid="wAakEeZ6Hk">
+              <Name>协作关系Flex</Name>
+            </FlexPanelAp>
+            <FlexPanelAp action="edit" oid="1uDCouRUJE">
+              <Name>组织职责Flex</Name>
+            </FlexPanelAp>
+            <FlexPanelAp action="edit" oid="3GahIxpE6P">
+              <Name>附件Flex</Name>
+            </FlexPanelAp>
+            <FlexPanelAp action="edit" oid="lIsurtp9Ls">
+              <Name>矩阵组织信息</Name>
+            </FlexPanelAp>
+            <FlexPanelAp action="edit" oid="COH2ZE6ajR">
+              <Name>安全信息Flex</Name>
+            </FlexPanelAp>
+            <AnchorControlAp action="edit" oid="XLnCO1tNFX">
+              <Name>锚点</Name>
+            </AnchorControlAp>
+            <AdvConAp action="edit" oid="ROu8AOlpps">
+              <Name>矩阵组织信息</Name>
+            </AdvConAp>
+            <FlexPanelAp action="edit" oid="LL4BVAnADa">
+              <ParentId>oLyySK4WRR</ParentId>
+            </FlexPanelAp>
+            <FieldAp action="edit" oid="Roaj1ZJFmF">
+              <Name>部门类型</Name>
+            </FieldAp>
+            <EntryAp action="edit" oid="HAJ0q1QuSS">
+              <Name>单据体</Name>
+            </EntryAp>
+            <TabPageAp action="edit" oid="Up41rGvZLi">
+              <Name>关联信息</Name>
+            </TabPageAp>
+            <FlexPanelAp action="edit" oid="uciMP59r4F">
+              <Name>协作关系</Name>
+            </FlexPanelAp>
+            <FieldAp action="edit" oid="iahvwnQskI">
+              <Name>保密等级</Name>
+            </FieldAp>
+            <FieldAp action="edit" oid="oyQYRpIuzq">
+              <Name>保密类型</Name>
+            </FieldAp>
+            <FieldAp action="edit" oid="2LduhVQ4Ot">
+              <Name>保密描述</Name>
+            </FieldAp>
+            <FieldsetPanelAp action="edit" oid="hol9ka60Q0">
+              <Name>组织状态</Name>
+            </FieldsetPanelAp>
+          </Items>
+        </FormMetadata>
+      </DataXml>
+      <Name>月度编制组织树</Name>
+      <Id>3ZRHAQY7EWMH</Id>
+      <LocaleId>en_US</LocaleId>
+    </DesignFormMetaL>
+    <DesignEntityMetaL>
+      <Number>dgdl_adminorgdetail_month</Number>
+      <PkId>3ZVJ8VZ5Q4WH</PkId>
+      <DataXml>
+        <EntityMetadata>
+          <Name>月度编制组织树</Name>
+          <Items>
+            <BaseEntity action="edit" oid="1942c188000066ac">
+              <Name>月度编制组织树</Name>
+              <PermissionDimension>
+                <PermissionDimension>
+                  <Name>维度控制</Name>
+                </PermissionDimension>
+              </PermissionDimension>
+              <Operations>
+                <Operation action="edit" oid="b599405400001aac">
+                  <Validations>
+                    <GrpfieldsuniqueValidation action="edit" oid="2+R3Y9FBSJ51">
+                      <Description>编码唯一性校验</Description>
+                    </GrpfieldsuniqueValidation>
+                    <GrpfieldsuniqueValidation action="edit" oid="2+R3ZR7WI4N2">
+                      <Description>名称唯一性校验</Description>
+                    </GrpfieldsuniqueValidation>
+                  </Validations>
+                </Operation>
+                <Operation action="edit" oid="b599405400001bac">
+                  <Validations>
+                    <CustValidation action="edit" oid="2+RE4J37K857">
+                      <Description>HR基础资料删除校验</Description>
+                    </CustValidation>
+                  </Validations>
+                </Operation>
+                <Operation action="edit" oid="f381c03f00002cac">
+                  <Validations>
+                    <GrpfieldsuniqueValidation action="edit" oid="2DDGGGIVWM1U">
+                      <Description>名称唯一性校验</Description>
+                    </GrpfieldsuniqueValidation>
+                    <GrpfieldsuniqueValidation action="edit" oid="28IW773QJDZ6">
+                      <Description>名称唯一性校验</Description>
+                    </GrpfieldsuniqueValidation>
+                  </Validations>
+                </Operation>
+                <Operation action="edit" oid="21A5O/3PV7IL">
+                  <Name>查看全部日志</Name>
+                </Operation>
+                <Operation action="edit" oid="2COQ5049N75G">
+                  <Name>查看日志</Name>
+                </Operation>
+                <Operation action="edit" oid="36NMYUPXH7+Y">
+                  <Name>导入数据</Name>
+                </Operation>
+                <Operation action="edit" oid="36NN+52WYF1Y">
+                  <Name>查看导入记录</Name>
+                </Operation>
+                <Operation action="edit" oid="36NN1BHX+R/A">
+                  <Name>按列表导出</Name>
+                </Operation>
+                <Operation action="edit" oid="36NN2SRUE7N/">
+                  <Name>按导入模板导出</Name>
+                </Operation>
+                <Operation action="edit" oid="36NN3ZT9PZNE">
+                  <Name>按导出模板导出</Name>
+                </Operation>
+                <Operation action="edit" oid="36NN590J0H1R">
+                  <Name>查看导出记录</Name>
+                </Operation>
+                <Operation action="edit" oid="20L86E0+8SH6">
+                  <Name>变更</Name>
+                </Operation>
+                <Operation action="edit" oid="20L88J=0T27O">
+                  <Name>历史版本信息</Name>
+                </Operation>
+                <Operation action="edit" oid="20L8CM6COJUQ">
+                  <Name>确认变更</Name>
+                  <SuccessMsg>变更成功。</SuccessMsg>
+                  <Validations>
+                    <MustInputValidation action="edit" oid="22GPJMYIWRS6">
+                      <Description>字段值合规性校验</Description>
+                    </MustInputValidation>
+                    <GrpfieldsuniqueValidation action="edit" oid="254FQ5Z7=/BY">
+                      <Description>编码唯一性校验</Description>
+                    </GrpfieldsuniqueValidation>
+                    <GrpfieldsuniqueValidation action="edit" oid="254FQWXF2Z=S">
+                      <Description>名称唯一性校验</Description>
+                    </GrpfieldsuniqueValidation>
+                  </Validations>
+                </Operation>
+                <Operation action="edit" oid="20L8K8O/0IDH">
+                  <Name>修改</Name>
+                </Operation>
+                <Operation action="edit" oid="20L8N=DTT64=">
+                  <Name>复制</Name>
+                </Operation>
+                <Operation action="edit" oid="20L8P5A+RVVL">
+                  <Name>变更生效日期</Name>
+                </Operation>
+                <Operation action="edit" oid="20L8QSD/ZIY1">
+                  <Name>取消变更</Name>
+                </Operation>
+                <Operation action="edit" oid="21CWKJEV422O">
+                  <ConfirmMsg>删除选中的记录后无法恢复，确定要删除记录吗？</ConfirmMsg>
+                  <Name>删除历史版本</Name>
+                  <SuccessMsg>删除成功</SuccessMsg>
+                </Operation>
+                <Operation action="edit" oid="21RCLIHUDPU1">
+                  <Name>确认变更</Name>
+                  <SuccessMsg>变更成功。</SuccessMsg>
+                  <Validations>
+                    <MustInputValidation action="edit" oid="22GPKHG4BABB">
+                      <Description>字段值合规性校验</Description>
+                    </MustInputValidation>
+                    <GrpfieldsuniqueValidation action="edit" oid="254G378OLWPX">
+                      <Description>编码唯一性校验</Description>
+                    </GrpfieldsuniqueValidation>
+                    <GrpfieldsuniqueValidation action="edit" oid="254G3W+MHTPU">
+                      <Description>名称唯一性校验</Description>
+                    </GrpfieldsuniqueValidation>
+                  </Validations>
+                </Operation>
+                <Operation action="edit" oid="2=XUTVODXP5W">
+                  <Name>禁用</Name>
+                  <Validations>
+                    <ConditionValidation action="edit" oid="2=XUQJIV73VW">
+                      <Description>合法性校验</Description>
+                      <Message>暂存的数据不能禁用</Message>
+                    </ConditionValidation>
+                    <ConditionValidation action="edit" oid="2=XUSFX78WF2">
+                      <Description>合法性校验</Description>
+                      <Message>数据已为禁用状态。</Message>
+                    </ConditionValidation>
+                  </Validations>
+                </Operation>
+                <Operation action="edit" oid="2BL9MSK5=KD0">
+                  <Name>新增数据版本</Name>
+                </Operation>
+                <Operation action="edit" oid="2BT797RY6YM2">
+                  <Name>保存</Name>
+                  <Validations>
+                    <MustInputValidation action="edit" oid="2BT7AC3TC7TB">
+                      <Description>字段值合规性校验</Description>
+                    </MustInputValidation>
+                    <GrpfieldsuniqueValidation action="edit" oid="2BT7CT883ARV">
+                      <Description>名称唯一性校验</Description>
+                    </GrpfieldsuniqueValidation>
+                    <GrpfieldsuniqueValidation action="edit" oid="2BT7E+0R=9Y6">
+                      <Description>编码唯一性校验</Description>
+                    </GrpfieldsuniqueValidation>
+                  </Validations>
+                </Operation>
+                <Operation action="edit" oid="2NXYUXE2FUK1">
+                  <Name>修订</Name>
+                </Operation>
+                <Operation action="edit" oid="2NXZ7QU+WWL3">
+                  <Name>版本修订历史</Name>
+                </Operation>
+                <Operation action="edit" oid="2P7PDHRSE6+7">
+                  <Name>版本对比</Name>
+                </Operation>
+                <Operation action="edit" oid="2XZ49B86ARJH">
+                  <Name>查看所有版本</Name>
+                </Operation>
+                <Operation action="edit" oid="2HKUESDNMBVG">
+                  <Name>空操作</Name>
+                </Operation>
+              </Operations>
+            </BaseEntity>
+            <MuliLangTextField action="edit" oid="gqZ5asQ06s">
+              <Name>简称</Name>
+            </MuliLangTextField>
+            <MuliLangTextField action="edit" oid="zaveTaE81T">
+              <Name>描述</Name>
+            </MuliLangTextField>
+            <IntegerField action="edit" oid="TJLOdUhRYt">
+              <Name>排序号</Name>
+            </IntegerField>
+            <CheckBoxField action="edit" oid="bwFJZ504Tx">
+              <Name>是否系统预置</Name>
+            </CheckBoxField>
+            <UserField action="edit" oid="Ts8h2qRoVF">
+              <Name>禁用人</Name>
+            </UserField>
+            <DateTimeField action="edit" oid="zc6fWQT855">
+              <Name>停用日期</Name>
+            </DateTimeField>
+            <ComboField action="edit" oid="RMkqRu1en6">
+              <Name>数据来源</Name>
+              <Items>
+                <ComboItem action="edit" oid="0">
+                  <Caption>手工录入</Caption>
+                </ComboItem>
+                <ComboItem action="edit" oid="1">
+                  <Caption>初始化</Caption>
+                </ComboItem>
+                <ComboItem action="edit" oid="2">
+                  <Caption>外部集成</Caption>
+                </ComboItem>
+              </Items>
+            </ComboField>
+            <ComboField action="edit" oid="79uWTNIbEr">
+              <Name>初始化状态</Name>
+              <Items>
+                <ComboItem action="edit" oid="0">
+                  <Caption>进行中</Caption>
+                </ComboItem>
+                <ComboItem action="edit" oid="1">
+                  <Caption>已验证</Caption>
+                </ComboItem>
+                <ComboItem action="edit" oid="2">
+                  <Caption>已完成</Caption>
+                </ComboItem>
+              </Items>
+            </ComboField>
+            <BigIntField action="edit" oid="dLTeaMA8CZ">
+              <Name>初始化批次</Name>
+            </BigIntField>
+            <TextField action="edit" oid="GWZgDaCR43">
+              <EmptyText>编码不能为空</EmptyText>
+              <Name>出厂编码</Name>
+            </TextField>
+            <MuliLangTextField action="edit" oid="P6qNEDrcgQ">
+              <Name>出厂名称</Name>
+              <EmptyText>名称不能为空</EmptyText>
+            </MuliLangTextField>
+            <ComboField action="edit" oid="KseEVBIdjS">
+              <Name>出厂数据编辑状态</Name>
+              <Items>
+                <ComboItem action="edit" oid="1">
+                  <Caption>已修改</Caption>
+                </ComboItem>
+                <ComboItem action="edit" oid="0">
+                  <Caption>未修改</Caption>
+                </ComboItem>
+              </Items>
+            </ComboField>
+            <BigIntField action="edit" oid="2JW21XwmZR">
+              <Name>业务id</Name>
+            </BigIntField>
+            <CheckBoxField action="edit" oid="JxOJk2szdg">
+              <Name>是否当前版本</Name>
+            </CheckBoxField>
+            <ComboField action="edit" oid="m38AdgR276">
+              <Name>数据版本状态</Name>
+              <Items>
+                <ComboItem action="edit" oid="-3">
+                  <Caption>暂存</Caption>
+                </ComboItem>
+                <ComboItem action="edit" oid="-2">
+                  <Caption>已删除</Caption>
+                </ComboItem>
+                <ComboItem action="edit" oid="-1">
+                  <Caption>已废弃</Caption>
+                </ComboItem>
+                <ComboItem action="edit" oid="0">
+                  <Caption>待生效</Caption>
+                </ComboItem>
+                <ComboItem action="edit" oid="1">
+                  <Caption>生效中</Caption>
+                </ComboItem>
+                <ComboItem action="edit" oid="2">
+                  <Caption>已失效</Caption>
+                </ComboItem>
+              </Items>
+            </ComboField>
+            <BigIntField action="edit" oid="G3gVa321OK">
+              <Name>关联历史版本</Name>
+            </BigIntField>
+            <DateField action="edit" oid="LFrXNtyk6S">
+              <Name>最早生效日期</Name>
+            </DateField>
+            <DateField action="edit" oid="DFvtxn01PE">
+              <Name>待变更生效日期</Name>
+            </DateField>
+            <DateTimeField action="edit" oid="i71yKEEem3">
+              <Name>版本实际生效日期</Name>
+            </DateTimeField>
+            <DateTimeField action="edit" oid="DOWZ9bniAO">
+              <Name>版本实际失效日期</Name>
+            </DateTimeField>
+            <DateTimeField action="edit" oid="55UAMidtMF">
+              <Name>业务实际归档日期</Name>
+            </DateTimeField>
+            <CheckBoxField action="edit" oid="7F2mFMxd4f">
+              <Name>变更中</Name>
+            </CheckBoxField>
+            <DateField action="edit" oid="pphb9d5Rkb">
+              <Name>生效日期</Name>
+            </DateField>
+            <DateField action="edit" oid="eCzJFq1hic">
+              <Name>业务预计失效日期</Name>
+            </DateField>
+            <TextField action="edit" oid="yKOOludSB7">
+              <Name>变更说明</Name>
+            </TextField>
+            <TextField action="edit" oid="h8iout7wGk">
+              <Name>版本号</Name>
+            </TextField>
+            <MuliLangTextField action="edit" oid="2LduhVQ4Ot">
+              <Name>保密描述</Name>
+            </MuliLangTextField>
+            <BasedataField action="edit" oid="PeR4kf4EcY">
+              <Name>公司类型</Name>
+            </BasedataField>
+            <BasedataField action="edit" oid="DGM5y4Cdhh">
+              <Name>行业类别</Name>
+            </BasedataField>
+            <EntryEntity action="edit" oid="HAJ0q1QuSS">
+              <Name>单据体</Name>
+            </EntryEntity>
+            <BasedataField action="edit" oid="iahvwnQskI">
+              <Name>保密等级</Name>
+            </BasedataField>
+            <BasedataField action="edit" oid="oyQYRpIuzq">
+              <Name>保密类型</Name>
+            </BasedataField>
+            <MuliLangTextField action="edit" oid="YcMZAkTDgc">
+              <Name>集团负责人</Name>
+            </MuliLangTextField>
+            <MuliLangTextField action="edit" oid="XlkIHQojyo">
+              <Name>集团愿景</Name>
+            </MuliLangTextField>
+            <BasedataField action="edit" oid="Roaj1ZJFmF">
+              <Name>部门类型</Name>
+            </BasedataField>
+            <MuliLangTextField action="edit" oid="asl1HzfVnT">
+              <Name>定位</Name>
+            </MuliLangTextField>
+            <MuliLangTextField action="edit" oid="mMqcDck7m7">
+              <Name>主要职责</Name>
+            </MuliLangTextField>
+            <MuliLangTextField action="edit" oid="1NTnbQtd0N">
+              <Name>集团使命</Name>
+            </MuliLangTextField>
+            <BasedataField action="edit" oid="lu8nDbJrzI">
+              <Name>行政组织类型</Name>
+            </BasedataField>
+            <DateField action="edit" oid="8LGr7KiHXh">
+              <Name>成立日期</Name>
+            </DateField>
+            <BasedataField action="edit" oid="h6hE54JJ94">
+              <Name>上级行政组织</Name>
+            </BasedataField>
+            <BasedataField action="edit" oid="haABK96W4f">
+              <Name>法律实体</Name>
+            </BasedataField>
+            <BasedataField action="edit" oid="TRdfujdZKn">
+              <Name>行政组织职能</Name>
+            </BasedataField>
+            <BasedataField action="edit" oid="NJPjbRaOl4">
+              <Name>国家/地区</Name>
+            </BasedataField>
+            <BasedataField action="edit" oid="mG1E4qwph2">
+              <Name>所在城市</Name>
+            </BasedataField>
+            <MuliLangTextField action="edit" oid="7z3Gi9eGzs">
+              <Name>详细地址</Name>
+            </MuliLangTextField>
+            <BasedataField action="edit" oid="N4a5ol3XFU">
+              <Name>所属部门</Name>
+            </BasedataField>
+            <BasedataField action="edit" oid="A80x9HtCUt">
+              <Name>所属公司</Name>
+            </BasedataField>
+            <TextField action="edit" oid="W0DO5wfPAe">
+              <Name>组织结构编码</Name>
+            </TextField>
+            <BasedataField action="edit" oid="mC9grgBzKf">
+              <Name>工作地</Name>
+            </BasedataField>
+            <BasedataField action="edit" oid="h2vvLMIwU6">
+              <Name>行政组织层级</Name>
+            </BasedataField>
+            <CheckBoxField action="edit" oid="5EaeBNEYAT">
+              <Name>待停用</Name>
+            </CheckBoxField>
+            <DateField action="edit" oid="P42y0cisHG">
+              <Name>待停用日期</Name>
+            </DateField>
+            <TextField action="edit" oid="Fjco74f7Z7">
+              <Name>部门长名称</Name>
+            </TextField>
+            <TextField action="edit" oid="4PEF5u2Rb0">
+              <Name>所属公司变化类型</Name>
+            </TextField>
+            <OrgField action="edit" oid="eXen3RReMX">
+              <Name>组织体系管理组织</Name>
+            </OrgField>
+            <BasedataField action="edit" oid="0oYE3vEL0x">
+              <Name>协作类型</Name>
+            </BasedataField>
+            <BasedataField action="edit" oid="A3A3NqmmNY">
+              <Name>协作组织</Name>
+            </BasedataField>
+            <BasedataField action="edit" oid="VScCWUAJOO">
+              <Name>协作团队分类</Name>
+            </BasedataField>
+            <DateField action="edit" oid="5VP0c2tGu0">
+              <Name>生效日期</Name>
+            </DateField>
+            <BigIntField action="edit" oid="sbqCFY61I0">
+              <Name>协作关系ID</Name>
+            </BigIntField>
+            <BigIntField action="edit" oid="4BflXhTjI9">
+              <Name>分录版本id</Name>
+            </BigIntField>
+            <CheckBoxField action="edit" oid="5kJipMAy0E">
+              <Name>是否虚拟组织</Name>
+            </CheckBoxField>
+            <BillStatusField action="edit" oid="jfI3gIr4C5">
+              <StatusItems>
+                <StatusItem action="edit" oid="1">
+                  <statusname>禁用</statusname>
+                </StatusItem>
+                <StatusItem action="edit" oid="2">
+                  <statusname>启用</statusname>
+                </StatusItem>
+              </StatusItems>
+              <Name>业务状态(集成)</Name>
+            </BillStatusField>
+            <TextField action="edit" oid="tkfw85ODTh">
+              <Name>排序码</Name>
+            </TextField>
+            <TextField action="edit" oid="gyNvYMS2TC">
+              <Name>组织上下级结构长编码</Name>
+            </TextField>
+            <IntegerField action="edit" oid="EZGNTqSY57">
+              <Name>物理层级</Name>
+            </IntegerField>
+            <CheckBoxField action="edit" oid="qH9jAJHKus">
+              <Name>是否叶子</Name>
+            </CheckBoxField>
+            <BasedataField action="edit" oid="YbChN3xR2T">
+              <Name>上级组织</Name>
+            </BasedataField>
+            <MuliLangTextField action="edit" oid="JnA9PwFAvr">
+              <Name>管理架构长名称</Name>
+            </MuliLangTextField>
+            <TextField action="edit" oid="B53l11N3yF">
+              <Name>组织长名称</Name>
+            </TextField>
+          </Items>
+        </EntityMetadata>
+      </DataXml>
+      <Name>月度编制组织树</Name>
+      <Id>3ZRHAQY7EWMH</Id>
+      <LocaleId>en_US</LocaleId>
+    </DesignEntityMetaL>
+  </DesignMetas>
+  <Version>1730282553222</Version>
+  <BOSVersion>1.0</BOSVersion>
+</DeployMetadata>

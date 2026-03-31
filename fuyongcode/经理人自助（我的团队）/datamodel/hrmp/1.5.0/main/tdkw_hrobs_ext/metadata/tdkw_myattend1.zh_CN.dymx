@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DeployMetadata>
+  <MasterId>3=QADFUQKP3G</MasterId>
+  <Id>3=QADFUQKP3G</Id>
+  <DesignMetas>
+    <DesignFormMetaL>
+      <Number>tdkw_myattend1</Number>
+      <PkId>3DHPEJTXB000</PkId>
+      <DataXml>
+        <FormMetadata/>
+      </DataXml>
+      <Name>我的考勤</Name>
+      <Id>3=QADFUQKP3G</Id>
+      <LocaleId>zh_CN</LocaleId>
+    </DesignFormMetaL>
+    <DesignEntityMetaL>
+      <Number>tdkw_myattend1</Number>
+      <PkId>3DHPEJUQZSEX</PkId>
+      <DataXml>
+        <EntityMetadata/>
+      </DataXml>
+      <Name>我的考勤</Name>
+      <Id>3=QADFUQKP3G</Id>
+      <LocaleId>zh_CN</LocaleId>
+    </DesignEntityMetaL>
+  </DesignMetas>
+  <Version>1688472736634</Version>
+  <BOSVersion>1.0</BOSVersion>
+</DeployMetadata>

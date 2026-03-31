@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DeployMetadata>
+  <MasterId>3E3WRVA1SVY4</MasterId>
+  <Id>3E3WRVA1SVY4</Id>
+  <DesignMetas>
+    <DesignFormMetaL>
+      <Number>tdkw_queryattendance</Number>
+      <PkId>3FBC0L21M3OH</PkId>
+      <DataXml>
+        <FormMetadata/>
+      </DataXml>
+      <Name>领导自助-考勤查询移动端</Name>
+      <Id>3E3WRVA1SVY4</Id>
+      <LocaleId>zh_CN</LocaleId>
+    </DesignFormMetaL>
+    <DesignEntityMetaL>
+      <Number>tdkw_queryattendance</Number>
+      <PkId>3FBC0L3+W=9W</PkId>
+      <DataXml>
+        <EntityMetadata/>
+      </DataXml>
+      <Name>领导自助-考勤查询移动端</Name>
+      <Id>3E3WRVA1SVY4</Id>
+      <LocaleId>zh_CN</LocaleId>
+    </DesignEntityMetaL>
+  </DesignMetas>
+  <Version>1690255727551</Version>
+  <BOSVersion>1.0</BOSVersion>
+</DeployMetadata>

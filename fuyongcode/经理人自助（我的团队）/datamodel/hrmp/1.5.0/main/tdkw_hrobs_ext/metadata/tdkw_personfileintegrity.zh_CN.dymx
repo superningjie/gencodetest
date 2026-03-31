@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DeployMetadata>
+  <MasterId>3BMFUD1Z2/AH</MasterId>
+  <Id>3BMFUD1Z2/AH</Id>
+  <DesignMetas>
+    <DesignFormMetaL>
+      <Number>tdkw_personfileintegrity</Number>
+      <PkId>3T+K3FKFA38L</PkId>
+      <DataXml>
+        <FormMetadata>
+          <Items>
+            <ToolbarAp action="edit" oid="FohRnuDXx2">
+              <ParentId>7N72Yuclcb</ParentId>
+            </ToolbarAp>
+          </Items>
+        </FormMetadata>
+      </DataXml>
+      <Name>人员档案完整度</Name>
+      <Id>3BMFUD1Z2/AH</Id>
+      <LocaleId>zh_CN</LocaleId>
+    </DesignFormMetaL>
+    <DesignEntityMetaL>
+      <Number>tdkw_personfileintegrity</Number>
+      <PkId>3T+K3FZSLO1+</PkId>
+      <DataXml>
+        <EntityMetadata/>
+      </DataXml>
+      <Name>人员档案完整度</Name>
+      <Id>3BMFUD1Z2/AH</Id>
+      <LocaleId>zh_CN</LocaleId>
+    </DesignEntityMetaL>
+  </DesignMetas>
+  <Version>1703498293684</Version>
+  <BOSVersion>1.0</BOSVersion>
+</DeployMetadata>

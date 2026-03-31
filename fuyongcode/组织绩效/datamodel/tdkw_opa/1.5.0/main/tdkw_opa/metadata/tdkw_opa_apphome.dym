@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DeployMetadata>
+  <Multilanguage>false</Multilanguage>
+  <MasterId>4A6IGVWYYBE1</MasterId>
+  <BizappId>4A6IGSR0AFR3</BizappId>
+  <Id>4A6IGVWYYBE1</Id>
+  <DesignMetas>
+    <DesignFormMeta>
+      <DevType>0</DevType>
+      <ModifyDate>1723889314691</ModifyDate>
+      <DataXml>
+        <FormMetadata>
+          <Isv>tdkw</Isv>
+          <Id>4A6IGVWYYBE1</Id>
+          <Key>tdkw_opa_apphome</Key>
+          <EntityId>4A6IGVWYYBE1</EntityId>
+          <ParentId>/8T+06O/GOEH</ParentId>
+          <BizappId>4A6IGSR0AFR3</BizappId>
+          <Name>组织绩效考核_应用首页</Name>
+          <InheritPath>/8T+06O/GOEH</InheritPath>
+          <Items>
+            <FormAp action="edit" oid="/8T+06O/H6M6">
+              <Plugins>
+                <Plugin action="edit" oid="kd.bos.portal.plugin.BizAppHomePlugin">
+                  <FPK/>
+                  <Description/>
+                  <BizAppId/>
+                </Plugin>
+                <Plugin action="edit" oid="kd.bos.portal.pluginnew.GridContainerPlugin">
+                  <FPK/>
+                  <Description/>
+                  <BizAppId/>
+                  <RowKey>1</RowKey>
+                </Plugin>
+                <Plugin>
+                  <FPK/>
+                  <Description>tdkw.opa.tdkw_opa.formplugin.basedata.AppHomeFormPlugin</Description>
+                  <ClassName>tdkw.opa.tdkw_opa.formplugin.basedata.AppHomeFormPlugin</ClassName>
+                  <Enabled>true</Enabled>
+                  <BizAppId/>
+                  <RowKey>2</RowKey>
+                </Plugin>
+              </Plugins>
+              <Id>4A6IGVWYYBE1</Id>
+              <Name>组织绩效考核_应用首页</Name>
+              <Key>tdkw_opa_apphome</Key>
+            </FormAp>
+          </Items>
+        </FormMetadata>
+      </DataXml>
+      <ModifierId>2005735093842332672</ModifierId>
+      <EntityId>4A6IGVWYYBE1</EntityId>
+      <ModelType>DynamicFormModel</ModelType>
+      <Isv>tdkw</Isv>
+      <Version>1723889314690</Version>
+      <ParentId>/8T+06O/GOEH</ParentId>
+      <MasterId></MasterId>
+      <Number>tdkw_opa_apphome</Number>
+      <BizappId>4A6IGSR0AFR3</BizappId>
+      <IsvSign></IsvSign>
+      <Id>4A6IGVWYYBE1</Id>
+      <InheritPath>/8T+06O/GOEH</InheritPath>
+    </DesignFormMeta>
+    <DesignEntityMeta>
+      <DevType>0</DevType>
+      <ModifyDate>1723889314792</ModifyDate>
+      <DataXml>
+        <EntityMetadata>
+          <Isv>tdkw</Isv>
+          <Id>4A6IGVWYYBE1</Id>
+          <ParentId>/8T+06O/GOEH</ParentId>
+          <BizappId>4A6IGSR0AFR3</BizappId>
+          <Name>组织绩效考核_应用首页</Name>
+          <InheritPath>/8T+06O/GOEH</InheritPath>
+          <Items>
+            <MainEntity action="edit" oid="/8T+06O6R0/7">
+              <Template action="reset"/>
+              <dbRoute>opmc</dbRoute>
+              <Id>4A6IGVWYYBE1</Id>
+              <Key>tdkw_opa_apphome</Key>
+              <Name>组织绩效考核_应用首页</Name>
+            </MainEntity>
+          </Items>
+        </EntityMetadata>
+      </DataXml>
+      <ModelType>DynamicFormModel</ModelType>
+      <Isv>tdkw</Isv>
+      <Version>1723889314792</Version>
+      <ParentId>/8T+06O/GOEH</ParentId>
+      <MasterId></MasterId>
+      <Number>tdkw_opa_apphome</Number>
+      <BizappId>4A6IGSR0AFR3</BizappId>
+      <Id>4A6IGVWYYBE1</Id>
+      <InheritPath>/8T+06O/GOEH</InheritPath>
+    </DesignEntityMeta>
+  </DesignMetas>
+  <Version>1723889314690</Version>
+  <BOSVersion>1.0</BOSVersion>
+  <BizunitId>4A6IGSWLWC=W</BizunitId>
+</DeployMetadata>

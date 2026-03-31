@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DeployMetadata>
+  <MasterId>47CQNR0SV/98</MasterId>
+  <Id>47CQNR0SV/98</Id>
+  <DesignMetas>
+    <DesignFormMetaL>
+      <Number>cea_assessermonit</Number>
+      <PkId>4=0CX34H74B5</PkId>
+      <DataXml>
+        <FormMetadata/>
+      </DataXml>
+      <Name>测评人进度监控</Name>
+      <Id>47CQNR0SV/98</Id>
+      <LocaleId>zh_CN</LocaleId>
+    </DesignFormMetaL>
+    <DesignEntityMetaL>
+      <Number>cea_assessermonit</Number>
+      <PkId>4=0CX39WI6UN</PkId>
+      <DataXml>
+        <EntityMetadata/>
+      </DataXml>
+      <Name>测评人进度监控</Name>
+      <Id>47CQNR0SV/98</Id>
+      <LocaleId>zh_CN</LocaleId>
+    </DesignEntityMetaL>
+  </DesignMetas>
+  <Version>1721981284352</Version>
+  <BOSVersion>1.0</BOSVersion>
+</DeployMetadata>

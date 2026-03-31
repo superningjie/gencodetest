@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DeployMetadata>
+  <MasterId>4/OVEF2H+L30</MasterId>
+  <Id>4/OVEF2H+L30</Id>
+  <DesignMetas>
+    <DesignFormMetaL>
+      <Number>tdkw_monthrotationrpt</Number>
+      <PkId>4/S1B1BPOCRL</PkId>
+      <DataXml>
+        <FormMetadata>
+          <Name>本月轮动报表-测试</Name>
+          <Items>
+            <ReportFormAp action="edit" oid="1b760aa100003aac">
+              <Name>本月轮动报表-测试</Name>
+            </ReportFormAp>
+            <FieldAp action="edit" oid="OSJph1rlZ8">
+              <Name>日期范围</Name>
+            </FieldAp>
+            <EntryFieldAp action="edit" oid="UezIfBUWdnIk59P2wq">
+              <Name>姓名</Name>
+            </EntryFieldAp>
+            <EntryFieldAp action="edit" oid="wQXPC6E4ec6UiG0l46">
+              <Name>工号</Name>
+            </EntryFieldAp>
+          </Items>
+        </FormMetadata>
+      </DataXml>
+      <Name>本月轮动报表-测试</Name>
+      <Id>4/OVEF2H+L30</Id>
+      <LocaleId>en_US</LocaleId>
+    </DesignFormMetaL>
+    <DesignEntityMetaL>
+      <Number>tdkw_monthrotationrpt</Number>
+      <PkId>4/S1B1CMYJC/</PkId>
+      <DataXml>
+        <EntityMetadata>
+          <Name>本月轮动报表-测试</Name>
+          <Items>
+            <ReportEntity action="edit" oid="1b760aa100003cac">
+              <Name>本月轮动报表-测试</Name>
+            </ReportEntity>
+            <BasedataField action="edit" oid="UezIfBUWdnIk59P2wq">
+              <Name>姓名</Name>
+            </BasedataField>
+            <DateRangeField action="edit" oid="OSJph1rlZ8">
+              <Name>日期范围</Name>
+            </DateRangeField>
+            <BasedataPropField action="edit" oid="wQXPC6E4ec6UiG0l46">
+              <Name>工号</Name>
+            </BasedataPropField>
+          </Items>
+        </EntityMetadata>
+      </DataXml>
+      <Name>本月轮动报表-测试</Name>
+      <Id>4/OVEF2H+L30</Id>
+      <LocaleId>en_US</LocaleId>
+    </DesignEntityMetaL>
+  </DesignMetas>
+  <Version>1712020323732</Version>
+  <BOSVersion>1.0</BOSVersion>
+</DeployMetadata>

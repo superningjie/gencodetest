@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DeployMetadata>
+  <MasterId>4BBK7AH/75MU</MasterId>
+  <Id>4BBK7AH/75MU</Id>
+  <DesignMetas>
+    <DesignFormMetaL>
+      <Number>tdkw_audti_innner</Number>
+      <PkId>4DURCN+UCBQO</PkId>
+      <DataXml>
+        <FormMetadata>
+          <Name>審核內嵌頁麵</Name>
+          <Items>
+            <FormAp action="edit" oid="4BBK7AH/5RET">
+              <Name>審核內嵌頁麵</Name>
+            </FormAp>
+            <FlexPanelAp action="edit" oid="kgRRP7lxYO">
+              <Name>Flex容器</Name>
+            </FlexPanelAp>
+            <LabelAp action="edit" oid="IN9toemrSFj8keoCNp">
+              <Name>考核年份</Name>
+            </LabelAp>
+            <FieldAp action="edit" oid="yLEcTbbrKLeJk8UQUt">
+              <Name>考核年份</Name>
+            </FieldAp>
+            <EntryFieldAp action="edit" oid="4zZKdHU9yS">
+              <Name>上級組織</Name>
+            </EntryFieldAp>
+            <EntryFieldAp action="edit" oid="BRoUoFAXhs">
+              <Name>指標名稱</Name>
+            </EntryFieldAp>
+            <EntryFieldAp action="edit" oid="dJSCxDCrAyCN3sB7rj">
+              <Name>指標名稱</Name>
+            </EntryFieldAp>
+            <EntryFieldAp action="edit" oid="6xjnL3tjP8GpGhkwIn">
+              <Name>指標類型</Name>
+            </EntryFieldAp>
+            <EntryFieldAp action="edit" oid="HMkOTZUhnS">
+              <Name>權重</Name>
+            </EntryFieldAp>
+            <EntryFieldAp action="edit" oid="Jp1rifq1CJ">
+              <Name>指標描述</Name>
+            </EntryFieldAp>
+            <EntryFieldAp action="edit" oid="4ZTPaMjugX">
+              <Name>目標值</Name>
+            </EntryFieldAp>
+            <EntryFieldAp action="edit" oid="uoe74DQROH">
+              <Name>單位</Name>
+            </EntryFieldAp>
+            <EntryFieldAp action="edit" oid="030u5e8Wq5">
+              <Name>評分標準</Name>
+            </EntryFieldAp>
+            <FlexPanelAp action="edit" oid="K8FUUtRdOY">
+              <Name>Flex容器</Name>
+            </FlexPanelAp>
+            <EntryAp action="edit" oid="YcHDtPdSo5">
+              <Name>單據體</Name>
+            </EntryAp>
+          </Items>
+        </FormMetadata>
+      </DataXml>
+      <Name>審核內嵌頁麵</Name>
+      <Id>4BBK7AH/75MU</Id>
+      <LocaleId>zh_TW</LocaleId>
+    </DesignFormMetaL>
+    <DesignEntityMetaL>
+      <Number>tdkw_audti_innner</Number>
+      <PkId>4DURCN0ADG+T</PkId>
+      <DataXml>
+        <EntityMetadata>
+          <Name>審核內嵌頁麵</Name>
+          <Items>
+            <MainEntity action="edit" oid="4BBK7AHYEXBY">
+              <Name>審核內嵌頁麵</Name>
+            </MainEntity>
+            <EntryEntity action="edit" oid="YcHDtPdSo5">
+              <Name>單據體</Name>
+            </EntryEntity>
+            <BasedataField action="edit" oid="4zZKdHU9yS">
+              <Name>上級組織</Name>
+            </BasedataField>
+            <BasedataField action="edit" oid="BRoUoFAXhs">
+              <Name>指標名稱</Name>
+            </BasedataField>
+            <TextField action="edit" oid="HMkOTZUhnS">
+              <Name>權重</Name>
+            </TextField>
+            <DecimalField action="edit" oid="4ZTPaMjugX">
+              <Name>目標值</Name>
+            </DecimalField>
+            <ComboField action="edit" oid="uoe74DQROH">
+              <Name>單位</Name>
+              <Items>
+                <ComboItem action="edit" oid="yuan">
+                  <Caption>元</Caption>
+                </ComboItem>
+                <ComboItem action="edit" oid="wan_yuan">
+                  <Caption>萬元</Caption>
+                </ComboItem>
+                <ComboItem action="edit" oid="bai_wan_yuan">
+                  <Caption>百萬元</Caption>
+                </ComboItem>
+                <ComboItem action="edit" oid="qian_wan_yuan">
+                  <Caption>千萬元</Caption>
+                </ComboItem>
+                <ComboItem action="edit" oid="percent">
+                  <Caption>百分比</Caption>
+                </ComboItem>
+              </Items>
+            </ComboField>
+            <DateField action="edit" oid="yLEcTbbrKLeJk8UQUt">
+              <Name>考核年份</Name>
+            </DateField>
+            <TextField action="edit" oid="dJSCxDCrAyCN3sB7rj">
+              <Name>指標名稱</Name>
+            </TextField>
+            <TextField action="edit" oid="Jp1rifq1CJ">
+              <Name>指標描述</Name>
+            </TextField>
+            <TextField action="edit" oid="030u5e8Wq5">
+              <Name>評分標準</Name>
+            </TextField>
+            <BasedataField action="edit" oid="6xjnL3tjP8GpGhkwIn">
+              <Name>指標類型</Name>
+            </BasedataField>
+          </Items>
+        </EntityMetadata>
+      </DataXml>
+      <Name>審核內嵌頁麵</Name>
+      <Id>4BBK7AH/75MU</Id>
+      <LocaleId>zh_TW</LocaleId>
+    </DesignEntityMetaL>
+  </DesignMetas>
+  <Version>1726643520954</Version>
+  <BOSVersion>1.0</BOSVersion>
+</DeployMetadata>

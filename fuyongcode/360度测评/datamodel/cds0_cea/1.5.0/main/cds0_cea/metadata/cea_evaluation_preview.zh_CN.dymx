@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DeployMetadata>
+  <MasterId>497Y7AMT50GH</MasterId>
+  <Id>497Y7AMT50GH</Id>
+  <DesignMetas>
+    <DesignFormMetaL>
+      <Number>cea_evaluation_preview</Number>
+      <PkId>4A/TAY/FCDEM</PkId>
+      <DataXml>
+        <FormMetadata/>
+      </DataXml>
+      <Name>预览测评表</Name>
+      <Id>497Y7AMT50GH</Id>
+      <LocaleId>zh_CN</LocaleId>
+    </DesignFormMetaL>
+    <DesignEntityMetaL>
+      <Number>cea_evaluation_preview</Number>
+      <PkId>4A/TAY3TSWTG</PkId>
+      <DataXml>
+        <EntityMetadata/>
+      </DataXml>
+      <Name>预览测评表</Name>
+      <Id>497Y7AMT50GH</Id>
+      <LocaleId>zh_CN</LocaleId>
+    </DesignEntityMetaL>
+  </DesignMetas>
+  <Version>1722937297267</Version>
+  <BOSVersion>1.0</BOSVersion>
+</DeployMetadata>

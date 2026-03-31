@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DeployMetadata>
+  <MasterId>2WMURFC+A2G+</MasterId>
+  <Id>4MMPD1G2S157</Id>
+  <DesignMetas>
+    <DesignFormMetaL>
+      <Number>tdkw_hrobs_cardlayout_ext</Number>
+      <PkId>4MMPEGTPANLC</PkId>
+      <DataXml>
+        <FormMetadata/>
+      </DataXml>
+      <Name>卡片布局应用</Name>
+      <Id>4MMPD1G2S157</Id>
+      <LocaleId>zh_CN</LocaleId>
+    </DesignFormMetaL>
+    <DesignEntityMetaL>
+      <Number>tdkw_hrobs_cardlayout_ext</Number>
+      <PkId>4MMPEGUQ78D9</PkId>
+      <DataXml>
+        <EntityMetadata/>
+      </DataXml>
+      <Name>卡片布局应用</Name>
+      <Id>4MMPD1G2S157</Id>
+      <LocaleId>zh_CN</LocaleId>
+    </DesignEntityMetaL>
+  </DesignMetas>
+  <Version>1735176924424</Version>
+  <BOSVersion>1.0</BOSVersion>
+</DeployMetadata>

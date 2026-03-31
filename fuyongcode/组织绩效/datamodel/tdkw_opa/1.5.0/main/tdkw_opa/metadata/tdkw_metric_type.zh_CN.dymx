@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DeployMetadata>
+  <MasterId>4=XG6A4++B=N</MasterId>
+  <Id>4=XG6A4++B=N</Id>
+  <DesignMetas>
+    <DesignFormMetaL>
+      <Number>tdkw_metric_type</Number>
+      <PkId>4CSG7NYJW1M0</PkId>
+      <DataXml>
+        <FormMetadata/>
+      </DataXml>
+      <Name>指标类型</Name>
+      <Id>4=XG6A4++B=N</Id>
+      <LocaleId>zh_CN</LocaleId>
+    </DesignFormMetaL>
+    <DesignEntityMetaL>
+      <Number>tdkw_metric_type</Number>
+      <PkId>4CSG7O3MFO9S</PkId>
+      <DataXml>
+        <EntityMetadata/>
+      </DataXml>
+      <Name>指标类型</Name>
+      <Id>4=XG6A4++B=N</Id>
+      <LocaleId>zh_CN</LocaleId>
+    </DesignEntityMetaL>
+  </DesignMetas>
+  <Version>1725616228341</Version>
+  <BOSVersion>1.0</BOSVersion>
+</DeployMetadata>

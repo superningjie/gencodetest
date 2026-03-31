@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DeployMetadata>
+  <MasterId>3DJUF4JRML0U</MasterId>
+  <Id>3DJUF4JRML0U</Id>
+  <DesignMetas>
+    <DesignFormMetaL>
+      <Number>tdkw_statisticdepart</Number>
+      <PkId>3EDGNO2KAK7X</PkId>
+      <DataXml>
+        <FormMetadata/>
+      </DataXml>
+      <Name>统计分析-离职分析移动端</Name>
+      <Id>3DJUF4JRML0U</Id>
+      <LocaleId>zh_CN</LocaleId>
+    </DesignFormMetaL>
+    <DesignEntityMetaL>
+      <Number>tdkw_statisticdepart</Number>
+      <PkId>3EDGNO3L8DH9</PkId>
+      <DataXml>
+        <EntityMetadata/>
+      </DataXml>
+      <Name>统计分析-离职分析移动端</Name>
+      <Id>3DJUF4JRML0U</Id>
+      <LocaleId>zh_CN</LocaleId>
+    </DesignEntityMetaL>
+  </DesignMetas>
+  <Version>1689338026165</Version>
+  <BOSVersion>1.0</BOSVersion>
+</DeployMetadata>

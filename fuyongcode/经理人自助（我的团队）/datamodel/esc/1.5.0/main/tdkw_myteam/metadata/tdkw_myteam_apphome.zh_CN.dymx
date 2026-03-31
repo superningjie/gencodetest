@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DeployMetadata>
+  <MasterId>3FFIHN2GFLPM</MasterId>
+  <Id>3FFIHN2GFLPM</Id>
+  <DesignMetas>
+    <DesignFormMetaL>
+      <Number>tdkw_myteam_apphome</Number>
+      <PkId>3T8G36S5RWFJ</PkId>
+      <DataXml>
+        <FormMetadata/>
+      </DataXml>
+      <Name>我的团队_应用首页</Name>
+      <Id>3FFIHN2GFLPM</Id>
+      <LocaleId>zh_CN</LocaleId>
+    </DesignFormMetaL>
+    <DesignEntityMetaL>
+      <Number>tdkw_myteam_apphome</Number>
+      <PkId>3T8G36SXU9SE</PkId>
+      <DataXml>
+        <EntityMetadata/>
+      </DataXml>
+      <Name>我的团队_应用首页</Name>
+      <Id>3FFIHN2GFLPM</Id>
+      <LocaleId>zh_CN</LocaleId>
+    </DesignEntityMetaL>
+  </DesignMetas>
+  <Version>1703744561174</Version>
+  <BOSVersion>1.0</BOSVersion>
+</DeployMetadata>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DeployMetadata>
+  <MasterId>3C438R6MLYXE</MasterId>
+  <Id>3C438R6MLYXE</Id>
+  <DesignMetas>
+    <DesignFormMetaL>
+      <Number>tdkw_appauthority_apphome</Number>
+      <PkId>3C438RA9W6ZR</PkId>
+      <DataXml>
+        <FormMetadata/>
+      </DataXml>
+      <Name>移动端权限_应用首页</Name>
+      <Id>3C438R6MLYXE</Id>
+      <LocaleId>zh_CN</LocaleId>
+    </DesignFormMetaL>
+    <DesignEntityMetaL>
+      <Number>tdkw_appauthority_apphome</Number>
+      <PkId>3C438RB3JF9O</PkId>
+      <DataXml>
+        <EntityMetadata/>
+      </DataXml>
+      <Name>移动端权限_应用首页</Name>
+      <Id>3C438R6MLYXE</Id>
+      <LocaleId>zh_CN</LocaleId>
+    </DesignEntityMetaL>
+  </DesignMetas>
+  <Version>1687139185993</Version>
+  <BOSVersion>1.0</BOSVersion>
+</DeployMetadata>

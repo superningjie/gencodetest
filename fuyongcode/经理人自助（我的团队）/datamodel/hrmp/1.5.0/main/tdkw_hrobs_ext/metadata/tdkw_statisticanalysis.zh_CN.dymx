@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DeployMetadata>
+  <MasterId>3EU7YZ/H1218</MasterId>
+  <Id>3EU7YZ/H1218</Id>
+  <DesignMetas>
+    <DesignFormMetaL>
+      <Number>tdkw_statisticanalysis</Number>
+      <PkId>3EU7Z+ZBWW8P</PkId>
+      <DataXml>
+        <FormMetadata/>
+      </DataXml>
+      <Name>统计分析</Name>
+      <Id>3EU7YZ/H1218</Id>
+      <LocaleId>zh_CN</LocaleId>
+    </DesignFormMetaL>
+    <DesignEntityMetaL>
+      <Number>tdkw_statisticanalysis</Number>
+      <PkId>3EU7Z+ZU/YJ/</PkId>
+      <DataXml>
+        <EntityMetadata/>
+      </DataXml>
+      <Name>统计分析</Name>
+      <Id>3EU7YZ/H1218</Id>
+      <LocaleId>zh_CN</LocaleId>
+    </DesignEntityMetaL>
+  </DesignMetas>
+  <Version>1689754831535</Version>
+  <BOSVersion>1.0</BOSVersion>
+</DeployMetadata>

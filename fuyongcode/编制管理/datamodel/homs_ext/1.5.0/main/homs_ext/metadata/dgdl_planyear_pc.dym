@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DeployMetadata>
+  <Multilanguage>false</Multilanguage>
+  <MasterId>460L8TCTJ79M</MasterId>
+  <BizappId>4E/7AN1DAFA1</BizappId>
+  <Id>460L8TCTJ79M</Id>
+  <DesignMetas>
+    <DesignFormMeta>
+      <DevType>0</DevType>
+      <ModifyDate>1730282947412</ModifyDate>
+      <DataXml>
+        <FormMetadata>
+          <Id>460L8TCTJ79M</Id>
+          <Key>dgdl_planyear_pc</Key>
+          <ParentId>3J2TPW/MLRX0</ParentId>
+          <InheritPath>1942c188000065ac,2+QE4JA9QV27,201N1LT5T/GM,3J2TPW/MLRX0</InheritPath>
+          <Items>
+            <BasedataFormAp action="edit" oid="1942c188000064ac">
+              <Id>460L8TCTJ79M</Id>
+              <Key>dgdl_planyear_pc</Key>
+              <ListMeta>
+                <FormMetadata>
+                  <Items>
+                    <ListOperationColumnAp action="edit" oid="3J5OCC5ZZTC7">
+                      <Visible/>
+                    </ListOperationColumnAp>
+                  </Items>
+                </FormMetadata>
+              </ListMeta>
+            </BasedataFormAp>
+            <FlexPanelAp action="edit" oid="LL4BVAnADa">
+              <Invisible>true</Invisible>
+            </FlexPanelAp>
+            <FlexPanelAp action="edit" oid="ojEchAUgVf">
+              <Invisible>true</Invisible>
+            </FlexPanelAp>
+          </Items>
+        </FormMetadata>
+      </DataXml>
+      <ModifierId>2027699484829418496</ModifierId>
+      <EntityId>3J2TPW/MLRX0</EntityId>
+      <ModelType>BaseFormModel</ModelType>
+      <Isv>tdkw</Isv>
+      <Version>1730282947412</Version>
+      <ParentId>3J2TPW/MLRX0</ParentId>
+      <MasterId></MasterId>
+      <Number>dgdl_planyear_pc</Number>
+      <BizappId>4E/7AN1DAFA1</BizappId>
+      <IsvSign></IsvSign>
+      <Id>460L8TCTJ79M</Id>
+      <InheritPath>1942c188000065ac,2+QE4JA9QV27,201N1LT5T/GM,3J2TPW/MLRX0</InheritPath>
+    </DesignFormMeta>
+  </DesignMetas>
+  <Version>1730282947412</Version>
+  <BOSVersion>1.0</BOSVersion>
+  <BizunitId>4HKZ/X71T/VS</BizunitId>
+</DeployMetadata>

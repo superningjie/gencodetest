@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DeployMetadata>
+  <MasterId>4APH=UERB=QB</MasterId>
+  <Id>4APH=UERB=QB</Id>
+  <DesignMetas>
+    <DesignFormMetaL>
+      <Number>tdkw_opa_eventrelhistpl</Number>
+      <PkId>4APHZDRQ/MSS</PkId>
+      <DataXml>
+        <FormMetadata>
+          <Name>mbo历史版本事务关系表_复制</Name>
+          <Items>
+            <BasedataFormAp action="edit" oid="0NKB12K4W9D7">
+              <Name>mbo历史版本事务关系表_复制</Name>
+            </BasedataFormAp>
+          </Items>
+        </FormMetadata>
+      </DataXml>
+      <Name>mbo历史版本事务关系表_复制</Name>
+      <Id>4APH=UERB=QB</Id>
+      <LocaleId>en_US</LocaleId>
+    </DesignFormMetaL>
+    <DesignEntityMetaL>
+      <Number>tdkw_opa_eventrelhistpl</Number>
+      <PkId>4APHZDT=LM9R</PkId>
+      <DataXml>
+        <EntityMetadata>
+          <Name>mbo历史版本事务关系表_复制</Name>
+          <Items>
+            <BaseEntity action="edit" oid="1A3I8S4L91=9">
+              <Name>mbo历史版本事务关系表_复制</Name>
+            </BaseEntity>
+          </Items>
+        </EntityMetadata>
+      </DataXml>
+      <Name>mbo历史版本事务关系表_复制</Name>
+      <Id>4APH=UERB=QB</Id>
+      <LocaleId>en_US</LocaleId>
+    </DesignEntityMetaL>
+  </DesignMetas>
+  <Version>1723601865378</Version>
+  <BOSVersion>1.0</BOSVersion>
+</DeployMetadata>

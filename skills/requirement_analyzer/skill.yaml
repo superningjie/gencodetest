@@ -1,0 +1,9 @@
+skill_id: requirement_analyzer
+name: 需求分析器
+version: '1.1'
+type: default
+custom_class: core.skill_engine.RequirementAnalyzerSkill
+description: 解析自然语言需求，提取结构化信息，将用户输入转换为标准化的Requirement对象。
+config: {}
+inputs: []
+outputs: []

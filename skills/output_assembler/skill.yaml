@@ -1,0 +1,19 @@
+skill_id: output_assembler
+name: 输出组装器
+version: "1.0"
+type: default
+description: 组装最终输出
+
+custom_class: core.skill_engine.OutputAssemblerSkill
+
+config:
+  output_formats: ["code", "markdown", "json"]
+
+inputs:
+  - code: "{{generate_code}}"
+  - quality: "{{quality_check}}"
+  - estimation: "{{estimate_effort}}"
+  - risks: "{{assess_risks}}"
+
+outputs:
+  - final_deliverable: Dict

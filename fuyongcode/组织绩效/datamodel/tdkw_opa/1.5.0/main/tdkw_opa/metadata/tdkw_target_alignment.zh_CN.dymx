@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DeployMetadata>
+  <MasterId>4ATVIUON732=</MasterId>
+  <Id>4ATVIUON732=</Id>
+  <DesignMetas>
+    <DesignFormMetaL>
+      <Number>tdkw_target_alignment</Number>
+      <PkId>4FME6+BQFRRS</PkId>
+      <DataXml>
+        <FormMetadata/>
+      </DataXml>
+      <Name>指标对齐</Name>
+      <Id>4ATVIUON732=</Id>
+      <LocaleId>zh_CN</LocaleId>
+    </DesignFormMetaL>
+    <DesignEntityMetaL>
+      <Number>tdkw_target_alignment</Number>
+      <PkId>4FME6+N5FV43</PkId>
+      <DataXml>
+        <EntityMetadata/>
+      </DataXml>
+      <Name>指标对齐</Name>
+      <Id>4ATVIUON732=</Id>
+      <LocaleId>zh_CN</LocaleId>
+    </DesignEntityMetaL>
+  </DesignMetas>
+  <Version>1728376866706</Version>
+  <BOSVersion>1.0</BOSVersion>
+</DeployMetadata>

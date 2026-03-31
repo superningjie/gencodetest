@@ -1,0 +1,124 @@
+package ${packageName};
+
+import kd.bos.form.plugin.AbstractFormPlugin;
+import kd.bos.entity.datamodel.IDataModel;
+import kd.bos.form.IFormView;
+import kd.bos.form.control.events.BeforeDoOperationArgs;
+import kd.bos.form.control.events.AfterDoOperationArgs;
+import kd.bos.form.events.PropertyChangedArgs;
+
+/**
+ * ${pluginDescription}
+ * 
+ * @author AI-Generated
+ * @since ${generationDate}
+ */
+public class ${className} extends AbstractFormPlugin {
+    
+    /**
+     * 设置插件名称
+     */
+    @Override
+    public void setPluginName(String name) {
+        super.setPluginName("${pluginName}");
+    }
+    
+    /**
+     * 表单加载前事件
+     */
+    @Override
+    public void preOpenForm(PreOpenFormEvent e) {
+        super.preOpenForm(e);
+        ${preOpenFormLogic}
+    }
+    
+    /**
+     * 创建新数据事件
+     */
+    @Override
+    public void createNewData(CreateNewDataEvent e) {
+        super.createNewData(e);
+        ${createNewDataLogic}
+    }
+    
+    /**
+     * 创建新数据后事件
+     */
+    @Override
+    public void afterCreateNewData(AfterCreateNewDataEvent e) {
+        super.afterCreateNewData(e);
+        ${afterCreateNewDataLogic}
+    }
+    
+    /**
+     * 绑定数据前事件
+     */
+    @Override
+    public void beforeBindData(BeforeBindDataEvent e) {
+        super.beforeBindData(e);
+        ${beforeBindDataLogic}
+    }
+    
+    /**
+     * 绑定数据后事件
+     */
+    @Override
+    public void afterBindData(AfterBindDataEvent e) {
+        super.afterBindData(e);
+        ${afterBindDataLogic}
+    }
+    
+    /**
+     * 字段值变更事件
+     */
+    @Override
+    public void propertyChanged(PropertyChangedArgs e) {
+        super.propertyChanged(e);
+        
+        String fieldName = e.getProperty().getName();
+        Object newValue = e.getNewValue();
+        Object oldValue = e.getOldValue();
+        
+        ${propertyChangedLogic}
+    }
+    
+    /**
+     * 操作执行前事件
+     */
+    @Override
+    public void beforeDoOperation(BeforeDoOperationArgs e) {
+        super.beforeDoOperation(e);
+        
+        String operationKey = e.getOperationKey();
+        
+        ${beforeDoOperationLogic}
+    }
+    
+    /**
+     * 操作执行后事件
+     */
+    @Override
+    public void afterDoOperation(AfterDoOperationArgs e) {
+        super.afterDoOperation(e);
+        
+        String operationKey = e.getOperationKey();
+        
+        ${afterDoOperationLogic}
+    }
+    
+    /**
+     * 表单关闭前事件
+     */
+    @Override
+    public void beforeClosed(BeforeClosedEvent e) {
+        super.beforeClosed(e);
+        ${beforeClosedLogic}
+    }
+    
+    /**
+     * 自定义业务方法
+     */
+    private void ${customMethodName}(${customMethodParams}) {
+        ${customMethodLogic}
+    }
+}

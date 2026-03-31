@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DeployMetadata>
+  <MasterId>47IDJUQ4P9CJ</MasterId>
+  <Id>47IDJUQ4P9CJ</Id>
+  <DesignMetas>
+    <DesignFormMetaL>
+      <Number>cea_actfinishconfirm</Number>
+      <PkId>4=0CBIBOX85F</PkId>
+      <DataXml>
+        <FormMetadata/>
+      </DataXml>
+      <Name>操作确认</Name>
+      <Id>47IDJUQ4P9CJ</Id>
+      <LocaleId>zh_CN</LocaleId>
+    </DesignFormMetaL>
+    <DesignEntityMetaL>
+      <Number>cea_actfinishconfirm</Number>
+      <PkId>4=0CBID9JA3E</PkId>
+      <DataXml>
+        <EntityMetadata/>
+      </DataXml>
+      <Name>操作确认</Name>
+      <Id>47IDJUQ4P9CJ</Id>
+      <LocaleId>zh_CN</LocaleId>
+    </DesignEntityMetaL>
+  </DesignMetas>
+  <Version>1721980931253</Version>
+  <BOSVersion>1.0</BOSVersion>
+</DeployMetadata>

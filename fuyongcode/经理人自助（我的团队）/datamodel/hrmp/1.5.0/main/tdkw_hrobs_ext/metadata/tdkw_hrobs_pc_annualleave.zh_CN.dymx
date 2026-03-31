@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DeployMetadata>
+  <MasterId>3=QFY6OT/3TT</MasterId>
+  <Id>3=QFY6OT/3TT</Id>
+  <DesignMetas>
+    <DesignFormMetaL>
+      <Number>tdkw_hrobs_pc_annualleave</Number>
+      <PkId>3J9KI70CZT5S</PkId>
+      <DataXml>
+        <FormMetadata/>
+      </DataXml>
+      <Name>我的年假</Name>
+      <Id>3=QFY6OT/3TT</Id>
+      <LocaleId>zh_CN</LocaleId>
+    </DesignFormMetaL>
+    <DesignEntityMetaL>
+      <Number>tdkw_hrobs_pc_annualleave</Number>
+      <PkId>3J9KI72IA9TT</PkId>
+      <DataXml>
+        <EntityMetadata/>
+      </DataXml>
+      <Name>我的年假</Name>
+      <Id>3=QFY6OT/3TT</Id>
+      <LocaleId>zh_CN</LocaleId>
+    </DesignEntityMetaL>
+  </DesignMetas>
+  <Version>1694068136669</Version>
+  <BOSVersion>1.0</BOSVersion>
+</DeployMetadata>

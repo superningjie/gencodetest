@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DeployAppMetadata>
+  <MasterId>14SL2L0H+OZM</MasterId>
+  <Id>4HRDSB6XQ5R7</Id>
+  <DesignMetas>
+    <DesignAppMetaL>
+      <PkId>4HRDSBWZX/GP</PkId>
+      <DataXml>
+        <AppMetadata/>
+      </DataXml>
+      <Name>HR基础职位</Name>
+      <Description>HR职位基础模板以及微服务接口</Description>
+      <Id>4HRDSB6XQ5R7</Id>
+      <LocaleId>zh_CN</LocaleId>
+    </DesignAppMetaL>
+  </DesignMetas>
+  <BOSVersion>1.0</BOSVersion>
+</DeployAppMetadata>

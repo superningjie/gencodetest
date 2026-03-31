@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DeployMetadata>
+  <MasterId>47MXQBW7U2U/</MasterId>
+  <Id>47MXQBW7U2U/</Id>
+  <DesignMetas>
+    <DesignFormMetaL>
+      <Number>cea_assobj_finished</Number>
+      <PkId>4=K407W6X44G</PkId>
+      <DataXml>
+        <FormMetadata/>
+      </DataXml>
+      <Name>已完成</Name>
+      <Id>47MXQBW7U2U/</Id>
+      <LocaleId>zh_CN</LocaleId>
+    </DesignFormMetaL>
+    <DesignEntityMetaL>
+      <Number>cea_assobj_finished</Number>
+      <PkId>4=K4087VY4SL</PkId>
+      <DataXml>
+        <EntityMetadata/>
+      </DataXml>
+      <Name>已完成</Name>
+      <Id>47MXQBW7U2U/</Id>
+      <LocaleId>zh_CN</LocaleId>
+    </DesignEntityMetaL>
+  </DesignMetas>
+  <Version>1722497517512</Version>
+  <BOSVersion>1.0</BOSVersion>
+</DeployMetadata>

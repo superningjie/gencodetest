@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DeployAppMetadata>
+  <MasterId>3FFIHFYFQM9X</MasterId>
+  <Id>3FFIHFYFQM9X</Id>
+  <DesignMetas>
+    <DesignAppMetaL>
+      <PkId>4LW0BCW=I4+P</PkId>
+      <DataXml>
+        <AppMetadata/>
+      </DataXml>
+      <Name>经理人自助</Name>
+      <Description></Description>
+      <Id>3FFIHFYFQM9X</Id>
+      <LocaleId>zh_CN</LocaleId>
+    </DesignAppMetaL>
+  </DesignMetas>
+  <BOSVersion>1.0</BOSVersion>
+</DeployAppMetadata>

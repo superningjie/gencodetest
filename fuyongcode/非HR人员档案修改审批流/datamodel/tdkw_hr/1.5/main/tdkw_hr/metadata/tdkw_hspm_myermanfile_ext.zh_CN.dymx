@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DeployMetadata>
+  <MasterId>2MG7JWEQR9CJ</MasterId>
+  <Id>4I=BAGIAFHG8</Id>
+  <DesignMetas>
+    <DesignFormMetaL>
+      <Number>tdkw_hspm_myermanfile_ext</Number>
+      <PkId>4I=BEAF1CVNM</PkId>
+      <DataXml>
+        <FormMetadata/>
+      </DataXml>
+      <Name>我的档案</Name>
+      <Id>4I=BAGIAFHG8</Id>
+      <LocaleId>zh_CN</LocaleId>
+    </DesignFormMetaL>
+    <DesignEntityMetaL>
+      <Number>tdkw_hspm_myermanfile_ext</Number>
+      <PkId>4I=BEAJ1=YP/</PkId>
+      <DataXml>
+        <EntityMetadata/>
+      </DataXml>
+      <Name>我的档案</Name>
+      <Id>4I=BAGIAFHG8</Id>
+      <LocaleId>zh_CN</LocaleId>
+    </DesignEntityMetaL>
+  </DesignMetas>
+  <Version>1730962870826</Version>
+  <BOSVersion>1.0</BOSVersion>
+</DeployMetadata>

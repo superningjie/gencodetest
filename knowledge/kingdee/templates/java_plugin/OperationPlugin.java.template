@@ -1,0 +1,59 @@
+package ${packageName};
+
+import kd.bos.entity.operate.AbstractOperationService;
+import kd.bos.entity.operate.OperationContext;
+import kd.bos.entity.operate.OperationResult;
+
+/**
+ * ${operationDescription}
+ * 
+ * @author AI-Generated
+ * @since ${generationDate}
+ */
+public class ${className} extends AbstractOperationService {
+    
+    /**
+     * 准备需要的字段
+     */
+    @Override
+    public void onPreparePropertys(OperationContext context) {
+        super.onPreparePropertys(context);
+        ${preparePropertysLogic}
+    }
+    
+    /**
+     * 添加校验器
+     */
+    @Override
+    public void onAddValidators(OperationContext context) {
+        super.onAddValidators(context);
+        ${addValidatorsLogic}
+    }
+    
+    /**
+     * 事务执行前
+     */
+    @Override
+    public void beforeExecuteOperationTransaction(OperationContext context) {
+        super.beforeExecuteOperationTransaction(context);
+        ${beforeExecuteLogic}
+    }
+    
+    /**
+     * 事务执行后
+     */
+    @Override
+    public void afterExecuteOperationTransaction(OperationContext context) {
+        super.afterExecuteOperationTransaction(context);
+        ${afterExecuteLogic}
+    }
+    
+    /**
+     * 回滚操作
+     */
+    @Override
+    public void rollbackOperation(OperationContext context) {
+        super.rollbackOperation(context);
+        ${rollbackLogic}
+    }
+}

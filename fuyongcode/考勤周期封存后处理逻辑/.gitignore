@@ -1,0 +1,6 @@
+.gradle
+.idea
+base/tdkw-base-common/build
+filestorage
+tdkw-cosmic-debug/build
+wtc/tdkw-wtc-schetype/build

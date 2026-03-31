@@ -1,0 +1,53 @@
+module: HR_PAYROLL
+version: "5.0"
+description: 金蝶星瀚HR薪酬管理模块
+
+functions:
+  - id: PAY001
+    name: 薪资计算
+    description: 月度薪资计算，支持多种计薪规则
+    extension_points:
+      - point_id: "salary_calculator"
+        type: "plugin"
+        description: "薪资计算规则扩展"
+        interface: "ISalaryCalculator"
+
+      - point_id: "salary_item_formula"
+        type: "plugin"
+        description: "薪资项目公式扩展"
+        interface: "ISalaryItemFormula"
+
+  - id: PAY002
+    name: 社保公积金
+    description: 社保公积金计算与缴纳
+    extension_points:
+      - point_id: "insurance_calculator"
+        type: "plugin"
+        description: "社保计算规则扩展"
+        interface: "IInsuranceCalculator"
+
+  - id: PAY003
+    name: 个税计算
+    description: 个人所得税计算
+    extension_points:
+      - point_id: "tax_calculator"
+        type: "plugin"
+        description: "个税计算规则扩展"
+        interface: "ITaxCalculator"
+
+  - id: PAY004
+    name: 薪酬报表
+    description: 薪酬数据统计与分析报表
+    extension_points:
+      - point_id: "payroll_report_query"
+        type: "sql_report"
+        description: "薪酬报表SQL查询扩展"
+
+  - id: PAY005
+    name: 银行报盘
+    description: 银行工资发放文件生成
+    extension_points:
+      - point_id: "bank_file_generator"
+        type: "plugin"
+        description: "银行报盘格式扩展"
+        interface: "IBankFileGenerator"

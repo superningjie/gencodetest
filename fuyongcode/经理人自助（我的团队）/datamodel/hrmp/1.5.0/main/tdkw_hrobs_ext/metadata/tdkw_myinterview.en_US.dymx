@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DeployMetadata>
+  <MasterId>3KL7FQ/22TBU</MasterId>
+  <Id>3KL7FQ/22TBU</Id>
+  <DesignMetas>
+    <DesignFormMetaL>
+      <Number>tdkw_myinterview</Number>
+      <PkId>3KL7FXM49BUA</PkId>
+      <DataXml>
+        <FormMetadata>
+          <Name>我的面试</Name>
+          <Items>
+            <FormAp action="edit" oid="3KL7FQ/20QK1">
+              <Name>我的面试</Name>
+            </FormAp>
+          </Items>
+        </FormMetadata>
+      </DataXml>
+      <Name>我的面试</Name>
+      <Id>3KL7FQ/22TBU</Id>
+      <LocaleId>en_US</LocaleId>
+    </DesignFormMetaL>
+    <DesignEntityMetaL>
+      <Number>tdkw_myinterview</Number>
+      <PkId>3KL7FXMHPYTL</PkId>
+      <DataXml>
+        <EntityMetadata>
+          <Name>我的面试</Name>
+          <Items>
+            <MainEntity action="edit" oid="3KL7FQ/9=JZ2">
+              <Name>我的面试</Name>
+            </MainEntity>
+          </Items>
+        </EntityMetadata>
+      </DataXml>
+      <Name>我的面试</Name>
+      <Id>3KL7FQ/22TBU</Id>
+      <LocaleId>en_US</LocaleId>
+    </DesignEntityMetaL>
+  </DesignMetas>
+  <Version>1695353050232</Version>
+  <BOSVersion>1.0</BOSVersion>
+</DeployMetadata>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DeployMetadata>
+  <MasterId>3EX/S5LHTMSE</MasterId>
+  <Id>3EX/S5LHTMSE</Id>
+  <DesignMetas>
+    <DesignFormMetaL>
+      <Number>tdkw_tradeunion_pc</Number>
+      <PkId>3EXFHUR7H26R</PkId>
+      <DataXml>
+        <FormMetadata/>
+      </DataXml>
+      <Name>工会PC端</Name>
+      <Id>3EX/S5LHTMSE</Id>
+      <LocaleId>zh_CN</LocaleId>
+    </DesignFormMetaL>
+    <DesignEntityMetaL>
+      <Number>tdkw_tradeunion_pc</Number>
+      <PkId>3EXFHUS8CMN4</PkId>
+      <DataXml>
+        <EntityMetadata/>
+      </DataXml>
+      <Name>工会PC端</Name>
+      <Id>3EX/S5LHTMSE</Id>
+      <LocaleId>zh_CN</LocaleId>
+    </DesignEntityMetaL>
+  </DesignMetas>
+  <Version>1689834939986</Version>
+  <BOSVersion>1.0</BOSVersion>
+</DeployMetadata>

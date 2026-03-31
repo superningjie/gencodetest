@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DeployMetadata>
+  <MasterId>29HI6IECWNCQ</MasterId>
+  <Id>4826V0EO5JP9</Id>
+  <DesignMetas>
+    <DesignFormMetaL>
+      <Number>tdkw_hlcm_contractap_ext2</Number>
+      <PkId>4TKMX1=LU1JQ</PkId>
+      <DataXml>
+        <FormMetadata/>
+      </DataXml>
+      <Name>劳动合同续签申请</Name>
+      <Id>4826V0EO5JP9</Id>
+      <LocaleId>zh_CN</LocaleId>
+    </DesignFormMetaL>
+    <DesignEntityMetaL>
+      <Number>tdkw_hlcm_contractap_ext2</Number>
+      <PkId>4TKMX1RJN61F</PkId>
+      <DataXml>
+        <EntityMetadata/>
+      </DataXml>
+      <Name>劳动合同续签申请</Name>
+      <Id>4826V0EO5JP9</Id>
+      <LocaleId>zh_CN</LocaleId>
+    </DesignEntityMetaL>
+  </DesignMetas>
+  <Version>1741918433623</Version>
+  <BOSVersion>1.0</BOSVersion>
+</DeployMetadata>

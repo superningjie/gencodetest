@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DeployMetadata>
+  <MasterId>3=QO7UQKR6AX</MasterId>
+  <Id>3=QO7UQKR6AX</Id>
+  <DesignMetas>
+    <DesignFormMetaL>
+      <Number>tdkw_leaderquery2</Number>
+      <PkId>3E/QXGL6LSWA</PkId>
+      <DataXml>
+        <FormMetadata/>
+      </DataXml>
+      <Name>领导查询2</Name>
+      <Id>3=QO7UQKR6AX</Id>
+      <LocaleId>zh_CN</LocaleId>
+    </DesignFormMetaL>
+    <DesignEntityMetaL>
+      <Number>tdkw_leaderquery2</Number>
+      <PkId>3E/QXGQVSWW9</PkId>
+      <DataXml>
+        <EntityMetadata/>
+      </DataXml>
+      <Name>领导查询2</Name>
+      <Id>3=QO7UQKR6AX</Id>
+      <LocaleId>zh_CN</LocaleId>
+    </DesignEntityMetaL>
+  </DesignMetas>
+  <Version>1688971331293</Version>
+  <BOSVersion>1.0</BOSVersion>
+</DeployMetadata>

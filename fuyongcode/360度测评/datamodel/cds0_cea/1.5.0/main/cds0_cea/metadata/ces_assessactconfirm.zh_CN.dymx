@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DeployMetadata>
+  <MasterId>476ZUHFGJP/Z</MasterId>
+  <Id>476ZUHFGJP/Z</Id>
+  <DesignMetas>
+    <DesignFormMetaL>
+      <Number>ces_assessactconfirm</Number>
+      <PkId>4=0CGVRKHO3G</PkId>
+      <DataXml>
+        <FormMetadata/>
+      </DataXml>
+      <Name>操作确认</Name>
+      <Id>476ZUHFGJP/Z</Id>
+      <LocaleId>zh_CN</LocaleId>
+    </DesignFormMetaL>
+    <DesignEntityMetaL>
+      <Number>ces_assessactconfirm</Number>
+      <PkId>4=0CGVT54PPY</PkId>
+      <DataXml>
+        <EntityMetadata/>
+      </DataXml>
+      <Name>操作确认</Name>
+      <Id>476ZUHFGJP/Z</Id>
+      <LocaleId>zh_CN</LocaleId>
+    </DesignEntityMetaL>
+  </DesignMetas>
+  <Version>1721981018672</Version>
+  <BOSVersion>1.0</BOSVersion>
+</DeployMetadata>

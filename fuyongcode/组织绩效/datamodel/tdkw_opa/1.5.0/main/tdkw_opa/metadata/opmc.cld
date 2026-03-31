@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DeployMetadata>
+  <Multilanguage>false</Multilanguage>
+  <Id>24BBHV84L8E9</Id>
+  <DesignMetas>
+    <DesignCloudMeta>
+      <DevType>1</DevType>
+      <Image></Image>
+      <Visible>1</Visible>
+      <ModifyDate>1640852561220</ModifyDate>
+      <Modifier>1296936981141542912</Modifier>
+      <Isv>kingdee</Isv>
+      <Version>1.0</Version>
+      <BackImage></BackImage>
+      <Number>OPMC</Number>
+      <IndustryId>0</IndustryId>
+      <BaseAppId>24BC1SMQXGOE</BaseAppId>
+      <Creater>1296936981141542912</Creater>
+      <SimpleNumber></SimpleNumber>
+      <Id>24BBHV84L8E9</Id>
+      <Seq>48</Seq>
+      <CreateDate>1640764247411</CreateDate>
+    </DesignCloudMeta>
+  </DesignMetas>
+  <BOSVersion>1.0</BOSVersion>
+</DeployMetadata>

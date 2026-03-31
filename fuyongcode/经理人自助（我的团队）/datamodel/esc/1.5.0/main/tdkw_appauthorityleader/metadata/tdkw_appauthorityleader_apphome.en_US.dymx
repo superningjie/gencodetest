@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DeployMetadata>
+  <MasterId>3DHP9EA8SNM+</MasterId>
+  <Id>3DHP9EA8SNM+</Id>
+  <DesignMetas>
+    <DesignFormMetaL>
+      <Number>tdkw_appauthorityleader_apphome</Number>
+      <PkId>3NG5WZ5UG2KE</PkId>
+      <DataXml>
+        <FormMetadata/>
+      </DataXml>
+      <Name>Application Home - Grid</Name>
+      <Id>3DHP9EA8SNM+</Id>
+      <LocaleId>en_US</LocaleId>
+    </DesignFormMetaL>
+    <DesignEntityMetaL>
+      <Number>tdkw_appauthorityleader_apphome</Number>
+      <PkId>3NG5WZ6D7K18</PkId>
+      <DataXml>
+        <EntityMetadata>
+          <Items>
+            <MainEntity action="edit" oid="/8T+06O6R0/7">
+              <PermissionDimension>
+                <PermissionDimension>
+                  <Name>维度控制</Name>
+                </PermissionDimension>
+              </PermissionDimension>
+              <PermissionControl>
+                <PermissionControl>
+                  <Name>控制功能权限</Name>
+                </PermissionControl>
+              </PermissionControl>
+            </MainEntity>
+          </Items>
+        </EntityMetadata>
+      </DataXml>
+      <Name>Application Home - Grid</Name>
+      <Id>3DHP9EA8SNM+</Id>
+      <LocaleId>en_US</LocaleId>
+    </DesignEntityMetaL>
+  </DesignMetas>
+  <Version>1698123421995</Version>
+  <BOSVersion>1.0</BOSVersion>
+</DeployMetadata>

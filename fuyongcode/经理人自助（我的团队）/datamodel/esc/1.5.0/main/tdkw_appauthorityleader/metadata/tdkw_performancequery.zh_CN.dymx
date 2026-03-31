@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DeployMetadata>
+  <MasterId>3DJT4DCAUY+5</MasterId>
+  <Id>3DJT4DCAUY+5</Id>
+  <DesignMetas>
+    <DesignFormMetaL>
+      <Number>tdkw_performancequery</Number>
+      <PkId>3FBC411SLKPZ</PkId>
+      <DataXml>
+        <FormMetadata/>
+      </DataXml>
+      <Name>领导自助-绩效查询移动端</Name>
+      <Id>3DJT4DCAUY+5</Id>
+      <LocaleId>zh_CN</LocaleId>
+    </DesignFormMetaL>
+    <DesignEntityMetaL>
+      <Number>tdkw_performancequery</Number>
+      <PkId>3FBC413+R+WW</PkId>
+      <DataXml>
+        <EntityMetadata/>
+      </DataXml>
+      <Name>领导自助-绩效查询移动端</Name>
+      <Id>3DJT4DCAUY+5</Id>
+      <LocaleId>zh_CN</LocaleId>
+    </DesignEntityMetaL>
+  </DesignMetas>
+  <Version>1690255784175</Version>
+  <BOSVersion>1.0</BOSVersion>
+</DeployMetadata>

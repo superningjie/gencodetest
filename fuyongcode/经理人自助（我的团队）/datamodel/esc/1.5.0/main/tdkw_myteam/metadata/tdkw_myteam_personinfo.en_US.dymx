@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DeployMetadata>
+  <MasterId>3H3NIX2HAG3H</MasterId>
+  <Id>3H3NIX2HAG3H</Id>
+  <DesignMetas>
+    <DesignFormMetaL>
+      <Number>tdkw_myteam_personinfo</Number>
+      <PkId>3VJ7P=VDB4XJ</PkId>
+      <DataXml>
+        <FormMetadata>
+          <Name>Statement Template</Name>
+          <Items>
+            <SearchAp action="edit" oid="mJg1Y4X5AU">
+              <Name>搜索控件</Name>
+              <SearchEmptyText>输入姓名</SearchEmptyText>
+            </SearchAp>
+            <FieldAp action="edit" oid="AwMdK7PRiO">
+              <Name>司龄</Name>
+            </FieldAp>
+            <LabelAp action="edit" oid="G3qbVylKae">
+              <Name>——</Name>
+            </LabelAp>
+            <FieldAp action="edit" oid="A2MMBcFV1X">
+              <Name>司龄</Name>
+            </FieldAp>
+            <FieldAp action="edit" oid="SW8eY831W5">
+              <Name>主兼岗</Name>
+            </FieldAp>
+            <FieldAp action="edit" oid="Lfm3LHEurt">
+              <Name>所属组织</Name>
+            </FieldAp>
+            <FieldAp action="edit" oid="kNaJeOpYK9">
+              <Name>姓名</Name>
+            </FieldAp>
+            <FieldAp action="edit" oid="q6wD4V1C7A">
+              <Name>学历</Name>
+            </FieldAp>
+            <FieldAp action="edit" oid="4b3EMEI0Y9">
+              <Name>领导姓名</Name>
+            </FieldAp>
+            <FieldAp action="edit" oid="WJ92SLxwU8LrR6PI9b">
+              <Name>任职类型</Name>
+            </FieldAp>
+            <FlexPanelAp action="edit" oid="b7GRG1h1qX">
+              <Name>Flex容器</Name>
+            </FlexPanelAp>
+            <FlexPanelAp action="edit" oid="SyCbcWiPJN">
+              <Name>Flex容器</Name>
+            </FlexPanelAp>
+            <FlexPanelAp action="edit" oid="7XhdA4pEIq">
+              <Name>Flex容器</Name>
+            </FlexPanelAp>
+            <FieldAp action="edit" oid="zO2VRsRu32">
+              <Name>工龄</Name>
+            </FieldAp>
+            <LabelAp action="edit" oid="G8AzwBEKMU">
+              <Name>——</Name>
+            </LabelAp>
+            <FieldAp action="edit" oid="UUtdATkPeh">
+              <Name>工龄2</Name>
+            </FieldAp>
+            <EntryFieldAp action="edit" oid="ndVLhNlmiC">
+              <Name>姓名</Name>
+            </EntryFieldAp>
+            <EntryFieldAp action="edit" oid="E9ptxa0ipq">
+              <Name>岗位</Name>
+            </EntryFieldAp>
+            <EntryFieldAp action="edit" oid="4hrgUsoE2a">
+              <Name>年龄</Name>
+            </EntryFieldAp>
+            <EntryFieldAp action="edit" oid="NP8fHyrm5G">
+              <Name>司龄</Name>
+            </EntryFieldAp>
+            <EntryFieldAp action="edit" oid="Gi48tJRqis">
+              <Name>工龄</Name>
+            </EntryFieldAp>
+            <EntryFieldAp action="edit" oid="PzngyHGdz4">
+              <Name>学历</Name>
+            </EntryFieldAp>
+            <EntryFieldAp action="edit" oid="p4Pvm6WKqbhKuLIMj5">
+              <Name>工号</Name>
+            </EntryFieldAp>
+            <FieldAp action="edit" oid="Gh2jqY54yt">
+              <Name>年龄</Name>
+            </FieldAp>
+            <LabelAp action="edit" oid="teebZU6Qbp">
+              <Name>——</Name>
+            </LabelAp>
+            <FieldAp action="edit" oid="WRA0xYFJq2">
+              <Name>年龄</Name>
+            </FieldAp>
+          </Items>
+        </FormMetadata>
+      </DataXml>
+      <Name>Statement Template</Name>
+      <Id>3H3NIX2HAG3H</Id>
+      <LocaleId>en_US</LocaleId>
+    </DesignFormMetaL>
+    <DesignEntityMetaL>
+      <Number>tdkw_myteam_personinfo</Number>
+      <PkId>3VJ7P=WLILIR</PkId>
+      <DataXml>
+        <EntityMetadata>
+          <Items>
+            <ReportEntity action="edit" oid="1b760aa100003cac">
+              <PermissionDimension>
+                <PermissionDimension>
+                  <Name>维度控制</Name>
+                </PermissionDimension>
+              </PermissionDimension>
+              <PermissionControl>
+                <PermissionControl>
+                  <Name>控制功能权限</Name>
+                </PermissionControl>
+              </PermissionControl>
+            </ReportEntity>
+            <BasedataField action="edit" oid="ndVLhNlmiC">
+              <Name>姓名</Name>
+            </BasedataField>
+            <BasedataField action="edit" oid="E9ptxa0ipq">
+              <Name>岗位</Name>
+            </BasedataField>
+            <IntegerField action="edit" oid="4hrgUsoE2a">
+              <Name>年龄</Name>
+            </IntegerField>
+            <DecimalField action="edit" oid="NP8fHyrm5G">
+              <Name>司龄</Name>
+            </DecimalField>
+            <DecimalField action="edit" oid="Gi48tJRqis">
+              <Name>工龄</Name>
+            </DecimalField>
+            <BasedataField action="edit" oid="SW8eY831W5">
+              <Name>主兼岗</Name>
+            </BasedataField>
+            <IntegerField action="edit" oid="WRA0xYFJq2">
+              <Name>年龄</Name>
+            </IntegerField>
+            <BasedataField action="edit" oid="q6wD4V1C7A">
+              <Name>学历</Name>
+            </BasedataField>
+            <BasedataField action="edit" oid="4b3EMEI0Y9">
+              <Name>领导姓名</Name>
+            </BasedataField>
+            <TextField action="edit" oid="kNaJeOpYK9">
+              <Name>姓名</Name>
+            </TextField>
+            <BasedataField action="edit" oid="PzngyHGdz4">
+              <Name>学历</Name>
+            </BasedataField>
+            <IntegerField action="edit" oid="Gh2jqY54yt">
+              <Name>年龄</Name>
+            </IntegerField>
+            <DecimalField action="edit" oid="zO2VRsRu32">
+              <Name>工龄</Name>
+            </DecimalField>
+            <DecimalField action="edit" oid="UUtdATkPeh">
+              <Name>工龄2</Name>
+            </DecimalField>
+            <DecimalField action="edit" oid="AwMdK7PRiO">
+              <Name>司龄</Name>
+            </DecimalField>
+            <DecimalField action="edit" oid="A2MMBcFV1X">
+              <Name>司龄</Name>
+            </DecimalField>
+            <BasedataField action="edit" oid="Lfm3LHEurt">
+              <Name>所属组织</Name>
+            </BasedataField>
+            <BasedataPropField action="edit" oid="p4Pvm6WKqbhKuLIMj5">
+              <Name>工号</Name>
+            </BasedataPropField>
+            <MulBasedataField action="edit" oid="WJ92SLxwU8LrR6PI9b">
+              <Name>任职类型</Name>
+              <RefLayout/>
+              <DefValue/>
+            </MulBasedataField>
+          </Items>
+        </EntityMetadata>
+      </DataXml>
+      <Name>Statement Template</Name>
+      <Id>3H3NIX2HAG3H</Id>
+      <LocaleId>en_US</LocaleId>
+    </DesignEntityMetaL>
+  </DesignMetas>
+  <Version>1733984010392</Version>
+  <BOSVersion>1.0</BOSVersion>
+</DeployMetadata>

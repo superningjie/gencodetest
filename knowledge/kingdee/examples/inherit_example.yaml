@@ -1,0 +1,120 @@
+# 继承示例：基于标准模板开发请假申请单
+# 使用场景：继承标准单据模板，快速开发新单据
+
+# 1. 实体元数据（新建，但继承标准实体特性）
+entity_inherit_example:
+  extend_type: "new"
+  
+  entity_definition:
+    fields:
+      # 基础字段（继承标准实体的常见字段）
+      - id: "billNo"
+        name: "单据编号"
+        data_type: "string"
+        length: 50
+        required: true
+        is_pk: true
+        
+      - id: "applyDate"
+        name: "申请日期"
+        data_type: "date"
+        required: true
+        
+      - id: "employee"
+        name: "申请人"
+        data_type: "ref"
+        ref_entity: "kingdee.hr.core.Employee"
+        relation: "many-to-one"
+        required: true
+        
+      # 业务字段
+      - id: "leaveType"
+        name: "请假类型"
+        data_type: "ref"
+        ref_entity: "kingdee.hr.attendance.LeaveType"
+        required: true
+        
+      - id: "startDate"
+        name: "开始日期"
+        data_type: "date"
+        required: true
+        
+      - id: "endDate"
+        name: "结束日期"
+        data_type: "date"
+        required: true
+        
+      - id: "leaveDays"
+        name: "请假天数"
+        data_type: "decimal"
+        length: 10
+        decimalPlaces: 1
+        required: true
+        
+      - id: "reason"
+        name: "请假原因"
+        data_type: "string"
+        length: 500
+
+# 2. 表单元数据（继承标准表单模板）
+form_inherit_example:
+  extend_type: "inherit"
+  parent_template: "kingdee.bos.standard.BillFormTemplate"
+  
+  form_definition:
+    layout_type: "card"
+    
+    sections:
+      - title: "基本信息"
+        fields: ["billNo", "applyDate", "employee"]
+        
+      - title: "请假信息"
+        fields: ["leaveType", "startDate", "endDate", "leaveDays"]
+        
+      - title: "请假原因"
+        fields: ["reason"]
+    
+    default_fields:
+      - id: "applyDate"
+        value: "new Date()"
+        
+      - id: "employee"
+        value: "CurrentUser.getEmployeeId()"
+    
+    field_rules:
+      - field: "endDate"
+        description: "结束日期变更时重新计算天数"
+        logic: |
+          var startDate = model.getValue("startDate");
+          var endDate = newValue;
+          if (startDate != null && endDate != null) {
+              var days = DateUtils.calculateDays(startDate, endDate);
+              model.setValue("leaveDays", days);
+          }
+
+# 3. Java 插件（继承标准模板）
+plugin_inherit_example:
+  extend_type: "inherit"
+  parent_template: "kd.bos.bill.plugin.AbstractBillPlugin"
+  
+  class_name: "LeaveApplyPlugin"
+  package_name: "com.kingdee.hr.attendance.plugin.form"
+  
+  inherit_logic_description: "设置默认值和计算请假天数"
+  inherit_logic_code: |
+    // 设置默认申请人
+    Long currentUserId = UserServiceHelper.getCurrentUserId();
+    Long employeeId = EmployeeServiceHelper.getEmployeeByUserId(currentUserId);
+    model.setValue("employee", employeeId);
+    
+    // 设置默认申请日期
+    model.setValue("applyDate", new Date());
+  
+  validations:
+    - field: "leaveDays"
+      condition_java: "leaveDays == null || leaveDays.compareTo(BigDecimal.ZERO) <= 0"
+      message: "请假天数必须大于0"
+      
+    - field: "endDate"
+      condition_java: "endDate != null && endDate.before(model.getValue(\"startDate\"))"
+      message: "结束日期不能早于开始日期"

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DeployMetadata>
+  <MasterId>3EXGRA+9YO/R</MasterId>
+  <Id>3EXGRA+9YO/R</Id>
+  <DesignMetas>
+    <DesignFormMetaL>
+      <Number>tdkw_lz_ryjgfb_pc</Number>
+      <PkId>3EXGS94/R9BS</PkId>
+      <DataXml>
+        <FormMetadata/>
+      </DataXml>
+      <Name>离职分析-人员结构分布PC端</Name>
+      <Id>3EXGRA+9YO/R</Id>
+      <LocaleId>zh_CN</LocaleId>
+    </DesignFormMetaL>
+    <DesignEntityMetaL>
+      <Number>tdkw_lz_ryjgfb_pc</Number>
+      <PkId>3EXGS950MTT5</PkId>
+      <DataXml>
+        <EntityMetadata/>
+      </DataXml>
+      <Name>离职分析-人员结构分布PC端</Name>
+      <Id>3EXGRA+9YO/R</Id>
+      <LocaleId>zh_CN</LocaleId>
+    </DesignEntityMetaL>
+  </DesignMetas>
+  <Version>1689835748457</Version>
+  <BOSVersion>1.0</BOSVersion>
+</DeployMetadata>

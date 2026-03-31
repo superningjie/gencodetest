@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DeployMetadata>
+  <MasterId>4CHFX8CX7KG9</MasterId>
+  <Id>4CHFX8CX7KG9</Id>
+  <DesignMetas>
+    <DesignFormMetaL>
+      <Number>tdkw_activitybill</Number>
+      <PkId>4CL6T059TKK/</PkId>
+      <DataXml>
+        <FormMetadata/>
+      </DataXml>
+      <Name>活动通用模板</Name>
+      <Id>4CHFX8CX7KG9</Id>
+      <LocaleId>zh_CN</LocaleId>
+    </DesignFormMetaL>
+    <DesignEntityMetaL>
+      <Number>tdkw_activitybill</Number>
+      <PkId>4CL6T0EHO825</PkId>
+      <DataXml>
+        <EntityMetadata/>
+      </DataXml>
+      <Name>活动通用模板</Name>
+      <Id>4CHFX8CX7KG9</Id>
+      <LocaleId>zh_CN</LocaleId>
+    </DesignEntityMetaL>
+  </DesignMetas>
+  <Version>1725435399531</Version>
+  <BOSVersion>1.0</BOSVersion>
+</DeployMetadata>

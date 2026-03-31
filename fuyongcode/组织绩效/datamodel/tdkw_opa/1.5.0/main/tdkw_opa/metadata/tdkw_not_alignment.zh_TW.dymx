@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DeployMetadata>
+  <MasterId>4BYZMADPJUXD</MasterId>
+  <Id>4BYZMADPJUXD</Id>
+  <DesignMetas>
+    <DesignFormMetaL>
+      <Number>tdkw_not_alignment</Number>
+      <PkId>4DXDSC8DKWUE</PkId>
+      <DataXml>
+        <FormMetadata>
+          <Name>上級分解待對齊指標</Name>
+          <Items>
+            <FormAp action="edit" oid="db6d1d5500007bac">
+              <Name>上級分解待對齊指標</Name>
+            </FormAp>
+            <EntryFieldAp action="edit" oid="fBBPTyX1bNfGA1x9gR">
+              <Name>指標來源</Name>
+            </EntryFieldAp>
+            <EntryFieldAp action="edit" oid="O0mM5YGdCIr13pQCjU">
+              <Name>指標名稱</Name>
+            </EntryFieldAp>
+            <EntryFieldAp action="edit" oid="xk5po3hoEyXnW2MJjO">
+              <Name>基礎資料屬性2</Name>
+            </EntryFieldAp>
+            <EntryFieldAp action="edit" oid="bVBKu592DfUGO6AKKH">
+              <Name>指標描述</Name>
+            </EntryFieldAp>
+            <EntryFieldAp action="edit" oid="1Zru2PjHkqHAC8dZy3">
+              <Name>評分標準</Name>
+            </EntryFieldAp>
+            <EntryFieldAp action="edit" oid="Hmc1MJypfDYKM47LQK">
+              <Name>分解說明</Name>
+            </EntryFieldAp>
+            <EntryFieldAp action="edit" oid="kMijWd8KYzyQmUZMF3">
+              <Name>權重</Name>
+            </EntryFieldAp>
+            <EntryFieldAp action="edit" oid="rBAXZwx9dTnayRjq0v">
+              <Name>目標值</Name>
+            </EntryFieldAp>
+            <EntryFieldAp action="edit" oid="zfDF6GEaZM72vCzd31">
+              <Name>單位</Name>
+            </EntryFieldAp>
+            <EntryFieldAp action="edit" oid="VeBSt6YtAWA1INl03M">
+              <Name>是否添加並對齊</Name>
+            </EntryFieldAp>
+            <EntryAp action="edit" oid="p9vcP2rWKs">
+              <Name>單據體</Name>
+            </EntryAp>
+          </Items>
+        </FormMetadata>
+      </DataXml>
+      <Name>上級分解待對齊指標</Name>
+      <Id>4BYZMADPJUXD</Id>
+      <LocaleId>zh_TW</LocaleId>
+    </DesignFormMetaL>
+    <DesignEntityMetaL>
+      <Number>tdkw_not_alignment</Number>
+      <PkId>4DXDSCDMISET</PkId>
+      <DataXml>
+        <EntityMetadata>
+          <Name>上級分解待對齊指標</Name>
+          <Items>
+            <MainEntity action="edit" oid="db6d1d5500007cac">
+              <Operations>
+                <Operation action="edit" oid="4C1NCQRK2GQC">
+                  <Name>確定</Name>
+                </Operation>
+              </Operations>
+              <Name>上級分解待對齊指標</Name>
+            </MainEntity>
+            <EntryEntity action="edit" oid="p9vcP2rWKs">
+              <Name>單據體</Name>
+            </EntryEntity>
+            <BasedataField action="edit" oid="fBBPTyX1bNfGA1x9gR">
+              <Name>指標來源</Name>
+            </BasedataField>
+            <BasedataField action="edit" oid="O0mM5YGdCIr13pQCjU">
+              <Name>指標名稱</Name>
+            </BasedataField>
+            <TextField action="edit" oid="kMijWd8KYzyQmUZMF3">
+              <Name>權重</Name>
+            </TextField>
+            <DecimalField action="edit" oid="rBAXZwx9dTnayRjq0v">
+              <Name>目標值</Name>
+            </DecimalField>
+            <ComboField action="edit" oid="zfDF6GEaZM72vCzd31">
+              <Name>單位</Name>
+              <Items>
+                <ComboItem action="edit" oid="yuan">
+                  <Caption>元</Caption>
+                </ComboItem>
+                <ComboItem action="edit" oid="wan_yuan">
+                  <Caption>萬元</Caption>
+                </ComboItem>
+                <ComboItem action="edit" oid="bai_wan_yuan">
+                  <Caption>百萬元</Caption>
+                </ComboItem>
+                <ComboItem action="edit" oid="qian_wan_yuan">
+                  <Caption>千萬元</Caption>
+                </ComboItem>
+                <ComboItem action="edit" oid="percent">
+                  <Caption>百分比</Caption>
+                </ComboItem>
+              </Items>
+            </ComboField>
+            <CheckBoxField action="edit" oid="VeBSt6YtAWA1INl03M">
+              <Name>是否添加並對齊</Name>
+            </CheckBoxField>
+            <TextField action="edit" oid="Hmc1MJypfDYKM47LQK">
+              <Name>分解說明</Name>
+            </TextField>
+            <BasedataPropField action="edit" oid="bVBKu592DfUGO6AKKH">
+              <Name>指標描述</Name>
+            </BasedataPropField>
+            <BasedataPropField action="edit" oid="1Zru2PjHkqHAC8dZy3">
+              <Name>評分標準</Name>
+            </BasedataPropField>
+            <BasedataPropField action="edit" oid="xk5po3hoEyXnW2MJjO">
+              <Name>基礎資料屬性2</Name>
+            </BasedataPropField>
+          </Items>
+        </EntityMetadata>
+      </DataXml>
+      <Name>上級分解待對齊指標</Name>
+      <Id>4BYZMADPJUXD</Id>
+      <LocaleId>zh_TW</LocaleId>
+    </DesignEntityMetaL>
+  </DesignMetas>
+  <Version>1726709493103</Version>
+  <BOSVersion>1.0</BOSVersion>
+</DeployMetadata>

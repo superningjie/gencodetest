@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DeployMetadata>
+  <MasterId>3W92QVQM48EQ</MasterId>
+  <Id>3W92QVQM48EQ</Id>
+  <DesignMetas>
+    <DesignFormMetaL>
+      <Number>tdkw_resume_salary_pc</Number>
+      <PkId>3W9HAQEXS8TG</PkId>
+      <DataXml>
+        <FormMetadata>
+          <Name>員工簡曆薪酬信息PC端</Name>
+          <Items>
+            <BillFormAp action="edit" oid="00305e8b000005ac">
+              <MobListMeta>
+                <FormMetadata>
+                  <Items>
+                    <CardListColumnAp action="edit" oid="3EX1XT=VYJMX">
+                      <Name>單據狀態</Name>
+                    </CardListColumnAp>
+                    <CardListColumnAp action="edit" oid="3EX1XT=VYKA6">
+                      <Name>創建人.姓名</Name>
+                    </CardListColumnAp>
+                    <CardFlexPanelAp action="edit" oid="3EX1XT=VYKA5">
+                      <Name>卡片佈局容器</Name>
+                    </CardFlexPanelAp>
+                    <MobFilterPanelAp action="edit" oid="3EX1XT=VYJMW">
+                      <Name>過濾項2</Name>
+                    </MobFilterPanelAp>
+                  </Items>
+                </FormMetadata>
+              </MobListMeta>
+              <Name>員工簡曆薪酬信息PC端</Name>
+              <MobMeta>
+                <FormMetadata>
+                  <Items>
+                    <LayoutFlexAp action="edit" oid="3EX1XT=SA4FH">
+                      <Name>字段佈局容器</Name>
+                    </LayoutFlexAp>
+                    <LayoutFlexAp action="edit" oid="3EX1XT=SA53S">
+                      <Name>字段佈局容器</Name>
+                    </LayoutFlexAp>
+                    <FieldAp action="edit" oid="3EX1XT=SA4FI">
+                      <Name>單據狀態</Name>
+                    </FieldAp>
+                    <FieldAp action="edit" oid="3EX1XT=SA53T">
+                      <Name>審核人</Name>
+                    </FieldAp>
+                    <FieldAp action="edit" oid="3EX1XT=SA4FJ">
+                      <Name>創建人</Name>
+                    </FieldAp>
+                    <MBarItemAp action="edit" oid="3EX1XT=VYKA4">
+                      <Name>提交</Name>
+                    </MBarItemAp>
+                  </Items>
+                </FormMetadata>
+              </MobMeta>
+            </BillFormAp>
+            <EntryAp action="edit" oid="3EX1XT=SA53P">
+              <Name>單據體</Name>
+            </EntryAp>
+            <AdvConSummaryPanelAp action="edit" oid="3EX1XT=SA4FC">
+              <Name>高級面板摘要容器</Name>
+            </AdvConSummaryPanelAp>
+            <AdvConToolbarAp action="edit" oid="3EX1XT=SA53N">
+              <Name>高級面板工具欄</Name>
+            </AdvConToolbarAp>
+            <AdvConChildPanelAp action="edit" oid="3EX1XT=SA4FD">
+              <Name>高級面板子容器</Name>
+            </AdvConChildPanelAp>
+            <AdvConBarItemAp action="edit" oid="3EX1XT=SA53O">
+              <Name>增行</Name>
+            </AdvConBarItemAp>
+            <AdvConBarItemAp action="edit" oid="3EX1XT=SA4FE">
+              <Name>刪行</Name>
+            </AdvConBarItemAp>
+            <EntryFieldAp action="edit" oid="3EX1XT=SA4FF">
+              <Name>修改人</Name>
+            </EntryFieldAp>
+            <EntryFieldAp action="edit" oid="3EX1XT=SA53Q">
+              <Name>修改時間</Name>
+            </EntryFieldAp>
+            <FieldAp action="edit" oid="0RPC7CxUmI">
+              <Name>HR行政組織</Name>
+            </FieldAp>
+            <FieldAp action="edit" oid="uEHDO4vohoZ6E6Xthv">
+              <Name>任職類型</Name>
+            </FieldAp>
+            <AdvConAp action="edit" oid="3EX1XT=SA53M">
+              <Name>分錄</Name>
+            </AdvConAp>
+          </Items>
+        </FormMetadata>
+      </DataXml>
+      <Name>員工簡曆薪酬信息PC端</Name>
+      <Id>3W92QVQM48EQ</Id>
+      <LocaleId>zh_TW</LocaleId>
+    </DesignFormMetaL>
+    <DesignEntityMetaL>
+      <Number>tdkw_resume_salary_pc</Number>
+      <PkId>3W9HAQGA5HCE</PkId>
+      <DataXml>
+        <EntityMetadata>
+          <Name>員工簡曆薪酬信息PC端</Name>
+          <Items>
+            <BillEntity action="edit" oid="00305e8b000007ac">
+              <Operations>
+                <Operation action="edit" oid="3EX1XT=SA4FG">
+                  <Name>新增分錄</Name>
+                </Operation>
+                <Operation action="edit" oid="3EX1XT=SA53R">
+                  <Name>刪除分錄</Name>
+                </Operation>
+              </Operations>
+              <Name>員工簡曆薪酬信息PC端</Name>
+            </BillEntity>
+            <EntryEntity action="edit" oid="3EX1XT=SA53P">
+              <Name>單據體</Name>
+            </EntryEntity>
+            <ModifierField action="edit" oid="3EX1XT=SA4FF">
+              <Name>修改人</Name>
+            </ModifierField>
+            <ModifyDateField action="edit" oid="3EX1XT=SA53Q">
+              <Name>修改日期</Name>
+            </ModifyDateField>
+            <BasedataField action="edit" oid="0RPC7CxUmI">
+              <Name>HR行政組織</Name>
+            </BasedataField>
+            <MulBasedataField action="edit" oid="uEHDO4vohoZ6E6Xthv">
+              <Name>任職類型</Name>
+            </MulBasedataField>
+          </Items>
+        </EntityMetadata>
+      </DataXml>
+      <Name>員工簡曆薪酬信息PC端</Name>
+      <Id>3W92QVQM48EQ</Id>
+      <LocaleId>zh_TW</LocaleId>
+    </DesignEntityMetaL>
+  </DesignMetas>
+  <Version>1706681457157</Version>
+  <BOSVersion>1.0</BOSVersion>
+</DeployMetadata>

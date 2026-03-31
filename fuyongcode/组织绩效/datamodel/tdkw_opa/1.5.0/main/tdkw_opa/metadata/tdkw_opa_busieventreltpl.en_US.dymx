@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DeployMetadata>
+  <MasterId>4APH=HWEJ3WC</MasterId>
+  <Id>4APH=HWEJ3WC</Id>
+  <DesignMetas>
+    <DesignFormMetaL>
+      <Number>tdkw_opa_busieventreltpl</Number>
+      <PkId>4APHWEZ+DBQ6</PkId>
+      <DataXml>
+        <FormMetadata>
+          <Name>mbo业务事务关系表_复制</Name>
+          <Items>
+            <BasedataFormAp action="edit" oid="0NKB12K4W9D7">
+              <Name>mbo业务事务关系表_复制</Name>
+            </BasedataFormAp>
+          </Items>
+        </FormMetadata>
+      </DataXml>
+      <Name>mbo业务事务关系表_复制</Name>
+      <Id>4APH=HWEJ3WC</Id>
+      <LocaleId>en_US</LocaleId>
+    </DesignFormMetaL>
+    <DesignEntityMetaL>
+      <Number>tdkw_opa_busieventreltpl</Number>
+      <PkId>4APHWF+R=8CZ</PkId>
+      <DataXml>
+        <EntityMetadata>
+          <Name>mbo业务事务关系表_复制</Name>
+          <Items>
+            <BaseEntity action="edit" oid="1A3I8S4L91=9">
+              <Name>mbo业务事务关系表_复制</Name>
+            </BaseEntity>
+          </Items>
+        </EntityMetadata>
+      </DataXml>
+      <Name>mbo业务事务关系表_复制</Name>
+      <Id>4APH=HWEJ3WC</Id>
+      <LocaleId>en_US</LocaleId>
+    </DesignEntityMetaL>
+  </DesignMetas>
+  <Version>1723601816785</Version>
+  <BOSVersion>1.0</BOSVersion>
+</DeployMetadata>

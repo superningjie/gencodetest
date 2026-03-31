@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DeployMetadata>
+  <MasterId>47MQZK=VKWF6</MasterId>
+  <Id>47MQZK=VKWF6</Id>
+  <DesignMetas>
+    <DesignFormMetaL>
+      <Number>cea_assobj_tostartup</Number>
+      <PkId>4A32A=TPTWHT</PkId>
+      <DataXml>
+        <FormMetadata/>
+      </DataXml>
+      <Name>待启动</Name>
+      <Id>47MQZK=VKWF6</Id>
+      <LocaleId>zh_CN</LocaleId>
+    </DesignFormMetaL>
+    <DesignEntityMetaL>
+      <Number>cea_assobj_tostartup</Number>
+      <PkId>4A32A=XB7R7Y</PkId>
+      <DataXml>
+        <EntityMetadata/>
+      </DataXml>
+      <Name>待启动</Name>
+      <Id>47MQZK=VKWF6</Id>
+      <LocaleId>zh_CN</LocaleId>
+    </DesignEntityMetaL>
+  </DesignMetas>
+  <Version>1723018952316</Version>
+  <BOSVersion>1.0</BOSVersion>
+</DeployMetadata>

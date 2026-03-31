@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DeployMetadata>
+  <MasterId>3E05R6J/X2B+</MasterId>
+  <Id>3E05R6J/X2B+</Id>
+  <DesignMetas>
+    <DesignFormMetaL>
+      <Number>tdkw_appelurl</Number>
+      <PkId>3E06O9ER4E86</PkId>
+      <DataXml>
+        <FormMetadata/>
+      </DataXml>
+      <Name>应用列表URL</Name>
+      <Id>3E05R6J/X2B+</Id>
+      <LocaleId>zh_CN</LocaleId>
+    </DesignFormMetaL>
+    <DesignEntityMetaL>
+      <Number>tdkw_appelurl</Number>
+      <PkId>3E06O9G850N4</PkId>
+      <DataXml>
+        <EntityMetadata/>
+      </DataXml>
+      <Name>应用列表URL</Name>
+      <Id>3E05R6J/X2B+</Id>
+      <LocaleId>zh_CN</LocaleId>
+    </DesignEntityMetaL>
+  </DesignMetas>
+  <Version>1688982664806</Version>
+  <BOSVersion>1.0</BOSVersion>
+</DeployMetadata>

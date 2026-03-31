@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DeployAppMetadata>
+  <MasterId>XYRL3+A8Z+Z</MasterId>
+  <Id>4HRF=77Y8588</Id>
+  <DesignMetas>
+    <DesignAppMetaL>
+      <PkId>4HRF=7HTGRFH</PkId>
+      <DataXml>
+        <AppMetadata/>
+      </DataXml>
+      <Name>HR基础服务</Name>
+      <Description>HR组织、公共数据</Description>
+      <Id>4HRF=77Y8588</Id>
+      <LocaleId>zh_CN</LocaleId>
+    </DesignAppMetaL>
+  </DesignMetas>
+  <BOSVersion>1.0</BOSVersion>
+</DeployAppMetadata>

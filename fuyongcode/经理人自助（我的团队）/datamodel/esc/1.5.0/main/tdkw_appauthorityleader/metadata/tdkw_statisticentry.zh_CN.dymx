@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DeployMetadata>
+  <MasterId>3DJUILI27U6L</MasterId>
+  <Id>3DJUILI27U6L</Id>
+  <DesignMetas>
+    <DesignFormMetaL>
+      <Number>tdkw_statisticentry</Number>
+      <PkId>3EDGO+4NIT6Q</PkId>
+      <DataXml>
+        <FormMetadata/>
+      </DataXml>
+      <Name>统计分析-入职分析移动端</Name>
+      <Id>3DJUILI27U6L</Id>
+      <LocaleId>zh_CN</LocaleId>
+    </DesignFormMetaL>
+    <DesignEntityMetaL>
+      <Number>tdkw_statisticentry</Number>
+      <PkId>3EDGO+5OFMG2</PkId>
+      <DataXml>
+        <EntityMetadata/>
+      </DataXml>
+      <Name>统计分析-入职分析移动端</Name>
+      <Id>3DJUILI27U6L</Id>
+      <LocaleId>zh_CN</LocaleId>
+    </DesignEntityMetaL>
+  </DesignMetas>
+  <Version>1689338031221</Version>
+  <BOSVersion>1.0</BOSVersion>
+</DeployMetadata>

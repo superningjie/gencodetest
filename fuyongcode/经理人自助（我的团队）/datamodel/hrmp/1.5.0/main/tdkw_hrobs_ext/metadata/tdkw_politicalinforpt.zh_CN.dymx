@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DeployMetadata>
+  <MasterId>3NZW+Y6T=P+7</MasterId>
+  <Id>3NZW+Y6T=P+7</Id>
+  <DesignMetas>
+    <DesignFormMetaL>
+      <Number>tdkw_politicalinforpt</Number>
+      <PkId>3TOAO4KI=FWS</PkId>
+      <DataXml>
+        <FormMetadata/>
+      </DataXml>
+      <Name>政治面貌详细报表</Name>
+      <Id>3NZW+Y6T=P+7</Id>
+      <LocaleId>zh_CN</LocaleId>
+    </DesignFormMetaL>
+    <DesignEntityMetaL>
+      <Number>tdkw_politicalinforpt</Number>
+      <PkId>3TOAO4UG9VUD</PkId>
+      <DataXml>
+        <EntityMetadata/>
+      </DataXml>
+      <Name>政治面貌详细报表</Name>
+      <Id>3NZW+Y6T=P+7</Id>
+      <LocaleId>zh_CN</LocaleId>
+    </DesignEntityMetaL>
+  </DesignMetas>
+  <Version>1704164092191</Version>
+  <BOSVersion>1.0</BOSVersion>
+</DeployMetadata>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DeployMetadata>
+  <MasterId>3=QAXYO7F4U5</MasterId>
+  <Id>3=QAXYO7F4U5</Id>
+  <DesignMetas>
+    <DesignFormMetaL>
+      <Number>tdkw_hrobs_pc_attendance</Number>
+      <PkId>3AD7G1JF6V3Z</PkId>
+      <DataXml>
+        <FormMetadata/>
+      </DataXml>
+      <Name>当月出勤</Name>
+      <Id>3=QAXYO7F4U5</Id>
+      <LocaleId>zh_CN</LocaleId>
+    </DesignFormMetaL>
+    <DesignEntityMetaL>
+      <Number>tdkw_hrobs_pc_attendance</Number>
+      <PkId>3AD7G1K9ULIU</PkId>
+      <DataXml>
+        <EntityMetadata/>
+      </DataXml>
+      <Name>当月出勤</Name>
+      <Id>3=QAXYO7F4U5</Id>
+      <LocaleId>zh_CN</LocaleId>
+    </DesignEntityMetaL>
+  </DesignMetas>
+  <Version>1685449873581</Version>
+  <BOSVersion>1.0</BOSVersion>
+</DeployMetadata>

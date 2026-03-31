@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DeployMetadata>
+  <MasterId>3ZRAV/O2XJOM</MasterId>
+  <Id>3ZRAV/O2XJOM</Id>
+  <DesignMetas>
+    <DesignFormMetaL>
+      <Number>dgdl_haos_adminorglis_inh</Number>
+      <PkId>4HL/3XGQR93D</PkId>
+      <DataXml>
+        <FormMetadata/>
+      </DataXml>
+      <Name>月度行政组织树列表</Name>
+      <Id>3ZRAV/O2XJOM</Id>
+      <LocaleId>zh_CN</LocaleId>
+    </DesignFormMetaL>
+    <DesignEntityMetaL>
+      <Number>dgdl_haos_adminorglis_inh</Number>
+      <PkId>4HL/3XLYTH7V</PkId>
+      <DataXml>
+        <EntityMetadata/>
+      </DataXml>
+      <Name>月度行政组织树列表</Name>
+      <Id>3ZRAV/O2XJOM</Id>
+      <LocaleId>zh_CN</LocaleId>
+    </DesignEntityMetaL>
+  </DesignMetas>
+  <Version>1730282566349</Version>
+  <BOSVersion>1.0</BOSVersion>
+</DeployMetadata>

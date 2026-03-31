@@ -1,0 +1,66 @@
+/**
+ * {{service_description}}
+ * 
+ * @author {{author}}
+ * @since {{date}}
+ */
+package {{package_name}};
+
+import {{module_prefix}}.{{app_name}}.business.ServiceFactory;
+import {{module_prefix}}.{{app_name}}.business.entityservice.*;
+import kd.bos.dataentity.entity.DynamicObject;
+import kd.bos.db.tx.TX;
+import kd.bos.db.tx.TXHandle;
+import kd.bos.logging.Log;
+import kd.bos.logging.LogFactory;
+import kd.hr.hbp.common.constants.HRBaseConstants;
+
+import java.util.*;
+import java.util.stream.Collectors;
+
+import static {{module_prefix}}.{{app_name}}.common.AppflgConstant.*;
+
+public class {{class_name}} {
+    private static final Log LOG = LogFactory.getLog({{class_name}}.class);
+    
+{% for service in entity_services %}
+    private static final {{service.class_name}} {{service.var_name}} = {{service.class_name}}.getInstance();
+{% endfor %}
+    
+    /**
+     * 获取服务实例（单例）
+     */
+    public static {{class_name}} getInstance() {
+        return ServiceFactory.getService({{class_name}}.class);
+    }
+    
+{% for method in methods %}
+    /**
+     * {{method.description}}
+{% for param in method.params %}
+     * @param {{param.name}} {{param.description}}
+{% endfor %}
+{% if method.return_type %}
+     * @return {{method.return_description}}
+{% endif %}
+     */
+    public {{method.return_type | default('void')}} {{method.name}}({{method.param_list}}) {
+        {% if method.use_tx %}
+        TXHandle txHandle = TX.required();
+        try {
+            {{method.body}}
+            txHandle.commit();
+        } catch (Exception e) {
+            txHandle.rollback();
+            LOG.error("{{method.name}}执行失败", e);
+            throw new RuntimeException(e);
+        } finally {
+            txHandle.close();
+        }
+        {% else %}
+        {{method.body}}
+        {% endif %}
+    }
+    
+{% endfor %}
+}

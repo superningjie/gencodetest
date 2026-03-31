@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DeployAppMetadata>
+  <MasterId>3C438QESNO1T</MasterId>
+  <Id>3C438QESNO1T</Id>
+  <DesignMetas>
+    <DesignAppMetaL>
+      <PkId>3NPU69J7LN97</PkId>
+      <DataXml>
+        <AppMetadata/>
+      </DataXml>
+      <Name>应用权限</Name>
+      <Description>这是一个新的应用</Description>
+      <Id>3C438QESNO1T</Id>
+      <LocaleId>zh_CN</LocaleId>
+    </DesignAppMetaL>
+  </DesignMetas>
+  <BOSVersion>1.0</BOSVersion>
+</DeployAppMetadata>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DeployMetadata>
+  <MasterId>4/OVEF2H+L30</MasterId>
+  <Id>4/OVEF2H+L30</Id>
+  <DesignMetas>
+    <DesignFormMetaL>
+      <Number>tdkw_monthrotationrpt</Number>
+      <PkId>4/S1B1BM0ZK2</PkId>
+      <DataXml>
+        <FormMetadata/>
+      </DataXml>
+      <Name>本月轮动报表-测试</Name>
+      <Id>4/OVEF2H+L30</Id>
+      <LocaleId>zh_CN</LocaleId>
+    </DesignFormMetaL>
+    <DesignEntityMetaL>
+      <Number>tdkw_monthrotationrpt</Number>
+      <PkId>4/S1B1CMYJC+</PkId>
+      <DataXml>
+        <EntityMetadata/>
+      </DataXml>
+      <Name>本月轮动报表-测试</Name>
+      <Id>4/OVEF2H+L30</Id>
+      <LocaleId>zh_CN</LocaleId>
+    </DesignEntityMetaL>
+  </DesignMetas>
+  <Version>1712020323732</Version>
+  <BOSVersion>1.0</BOSVersion>
+</DeployMetadata>

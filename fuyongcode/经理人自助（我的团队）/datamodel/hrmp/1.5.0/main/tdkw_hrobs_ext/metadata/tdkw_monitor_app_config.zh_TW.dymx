@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DeployMetadata>
+  <MasterId>3W9YUAZLIC88</MasterId>
+  <Id>3W9YUAZLIC88</Id>
+  <DesignMetas>
+    <DesignFormMetaL>
+      <Number>tdkw_monitor_app_config</Number>
+      <PkId>3Y=RMHW60IFY</PkId>
+      <DataXml>
+        <FormMetadata>
+          <Name>運營監控移動端接口配置表</Name>
+          <Items>
+            <BillFormAp action="edit" oid="00305e8b000005ac">
+              <MobListMeta>
+                <FormMetadata>
+                  <Items>
+                    <CardListColumnAp action="edit" oid="3W9YUB/2J/AG">
+                      <Name>單據狀態</Name>
+                    </CardListColumnAp>
+                    <CardListColumnAp action="edit" oid="3W9YUB/2J0+Q">
+                      <Name>創建人.姓名</Name>
+                    </CardListColumnAp>
+                    <CardFlexPanelAp action="edit" oid="3W9YUB/2J0+P">
+                      <Name>卡片佈局容器</Name>
+                    </CardFlexPanelAp>
+                    <MobSortPanelAp action="edit" oid="mobsortpanel">
+                      <Name>排序項1</Name>
+                    </MobSortPanelAp>
+                    <MobFilterPanelAp action="edit" oid="mobfilterpanel">
+                      <Name>過濾項1</Name>
+                    </MobFilterPanelAp>
+                    <MobFilterPanelAp action="edit" oid="3W9YUB/2J/AF">
+                      <Name>過濾項2</Name>
+                    </MobFilterPanelAp>
+                  </Items>
+                </FormMetadata>
+              </MobListMeta>
+              <Name>運營監控移動端接口配置表</Name>
+              <MobMeta>
+                <FormMetadata>
+                  <Items>
+                    <LayoutFlexAp action="edit" oid="3W9YUB/+XL4+">
+                      <Name>字段佈局容器</Name>
+                    </LayoutFlexAp>
+                    <LayoutFlexAp action="edit" oid="3W9YUB/+XLT9">
+                      <Name>字段佈局容器</Name>
+                    </LayoutFlexAp>
+                    <FieldAp action="edit" oid="3W9YUB/+XL4/">
+                      <Name>單據狀態</Name>
+                    </FieldAp>
+                    <FieldAp action="edit" oid="3W9YUB/+XLT=">
+                      <Name>審核人</Name>
+                    </FieldAp>
+                    <FieldAp action="edit" oid="3W9YUB/+XL40">
+                      <Name>創建人</Name>
+                    </FieldAp>
+                    <MBarItemAp action="edit" oid="3W9YUB/+XLTA">
+                      <Name>提交</Name>
+                    </MBarItemAp>
+                  </Items>
+                </FormMetadata>
+              </MobMeta>
+              <ListMeta>
+                <FormMetadata>
+                  <Items>
+                    <ListColumnAp action="edit" oid="3Y=RK9M6OY2Y">
+                      <Name>創建人</Name>
+                    </ListColumnAp>
+                    <DateListColumnAp action="edit" oid="3Y=RK42ZG+M7">
+                      <Name>創建時間</Name>
+                    </DateListColumnAp>
+                    <ListColumnAp action="edit" oid="3Y=RKIGUKLPQ">
+                      <Name>修改人</Name>
+                    </ListColumnAp>
+                    <DateListColumnAp action="edit" oid="3Y=RK2GJHUXQ">
+                      <Name>修改時間</Name>
+                    </DateListColumnAp>
+                  </Items>
+                </FormMetadata>
+              </ListMeta>
+            </BillFormAp>
+            <EntryAp action="edit" oid="3W9YUB/+XLT6">
+              <Name>單據體</Name>
+            </EntryAp>
+            <AdvConSummaryPanelAp action="edit" oid="3W9YUB+X=5YE">
+              <Name>高級面板摘要容器</Name>
+            </AdvConSummaryPanelAp>
+            <AdvConToolbarAp action="edit" oid="3W9YUB+X=6LP">
+              <Name>高級面板工具欄</Name>
+            </AdvConToolbarAp>
+            <AdvConChildPanelAp action="edit" oid="3W9YUB+X=5YF">
+              <Name>高級面板子容器</Name>
+            </AdvConChildPanelAp>
+            <AdvConBarItemAp action="edit" oid="3W9YUB+X=6LQ">
+              <Name>增行</Name>
+            </AdvConBarItemAp>
+            <AdvConBarItemAp action="edit" oid="3W9YUB+X=5YG">
+              <Name>刪行</Name>
+            </AdvConBarItemAp>
+            <EntryFieldAp action="edit" oid="3W9YUB/+XL3Y">
+              <Name>修改人</Name>
+            </EntryFieldAp>
+            <EntryFieldAp action="edit" oid="3W9YUB/+XLT7">
+              <Name>修改時間</Name>
+            </EntryFieldAp>
+            <EntryFieldAp action="edit" oid="rzdsDpZcbowT4hKOmI">
+              <Name>介面</Name>
+            </EntryFieldAp>
+            <EntryFieldAp action="edit" oid="GmBPKa0p2hbnYWrm8z">
+              <Name>介面名稱</Name>
+            </EntryFieldAp>
+            <EntryFieldAp action="edit" oid="kAA39nAOX2L3d3BHhX">
+              <Name>介面編碼</Name>
+            </EntryFieldAp>
+            <EntryFieldAp action="edit" oid="K8rXO75Q5a9L6KwnxW">
+              <Name>狀態</Name>
+            </EntryFieldAp>
+            <EntryFieldAp action="edit" oid="5xhi9coeHWJqkgvsHa">
+              <Name>備註</Name>
+            </EntryFieldAp>
+            <AdvConAp action="edit" oid="3W9YUB+X=6LO">
+              <Name>分錄</Name>
+            </AdvConAp>
+          </Items>
+        </FormMetadata>
+      </DataXml>
+      <Name>運營監控移動端接口配置表</Name>
+      <Id>3W9YUAZLIC88</Id>
+      <LocaleId>zh_TW</LocaleId>
+    </DesignFormMetaL>
+    <DesignEntityMetaL>
+      <Number>tdkw_monitor_app_config</Number>
+      <PkId>3Y=RMHXD5X=B</PkId>
+      <DataXml>
+        <EntityMetadata>
+          <Name>運營監控移動端接口配置表</Name>
+          <Items>
+            <BillEntity action="edit" oid="00305e8b000007ac">
+              <Operations>
+                <Operation action="edit" oid="3W9YUB/+XL3Z">
+                  <Name>新增分錄</Name>
+                </Operation>
+                <Operation action="edit" oid="3W9YUB/+XLT8">
+                  <Name>刪除分錄</Name>
+                </Operation>
+              </Operations>
+              <Name>運營監控移動端接口配置表</Name>
+            </BillEntity>
+            <EntryEntity action="edit" oid="3W9YUB/+XLT6">
+              <Name>單據體</Name>
+            </EntryEntity>
+            <ModifierField action="edit" oid="3W9YUB/+XL3Y">
+              <Name>修改人</Name>
+            </ModifierField>
+            <ModifyDateField action="edit" oid="3W9YUB/+XLT7">
+              <Name>修改時間</Name>
+            </ModifyDateField>
+            <BasedataField action="edit" oid="rzdsDpZcbowT4hKOmI">
+              <Name>介面</Name>
+            </BasedataField>
+            <BasedataPropField action="edit" oid="GmBPKa0p2hbnYWrm8z">
+              <Name>介面名稱</Name>
+            </BasedataPropField>
+            <BasedataPropField action="edit" oid="kAA39nAOX2L3d3BHhX">
+              <Name>介面編碼</Name>
+            </BasedataPropField>
+            <BasedataPropField action="edit" oid="K8rXO75Q5a9L6KwnxW">
+              <Name>狀態</Name>
+            </BasedataPropField>
+            <TextField action="edit" oid="5xhi9coeHWJqkgvsHa">
+              <Name>備註</Name>
+            </TextField>
+          </Items>
+        </EntityMetadata>
+      </DataXml>
+      <Name>運營監控移動端接口配置表</Name>
+      <Id>3W9YUAZLIC88</Id>
+      <LocaleId>zh_TW</LocaleId>
+    </DesignEntityMetaL>
+  </DesignMetas>
+  <Version>1708653736383</Version>
+  <BOSVersion>1.0</BOSVersion>
+</DeployMetadata>

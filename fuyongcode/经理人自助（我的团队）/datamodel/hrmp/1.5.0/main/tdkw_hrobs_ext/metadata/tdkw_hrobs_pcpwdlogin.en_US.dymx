@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DeployMetadata>
+  <MasterId>3UD175IB88YC</MasterId>
+  <Id>3UD175IB88YC</Id>
+  <DesignMetas>
+    <DesignFormMetaL>
+      <Number>xyjt_hrobs_pcpwdlogin</Number>
+      <PkId>3V01R26OSTG2</PkId>
+      <DataXml>
+        <FormMetadata>
+          <Name>简历薪资密码弹窗</Name>
+          <Items>
+            <FormAp action="edit" oid="3UD175IB8893">
+              <Name>简历薪资密码弹窗</Name>
+            </FormAp>
+            <FlexPanelAp action="edit" oid="4L8ioZBac2">
+              <Name>Flex容器</Name>
+            </FlexPanelAp>
+            <LabelAp action="edit" oid="SNflzHVZU3">
+              <Name>Hi～</Name>
+            </LabelAp>
+            <LabelAp action="edit" oid="mmpO41Ah2C">
+              <Name>xxx</Name>
+            </LabelAp>
+            <LabelAp action="edit" oid="HFOSXX6qXA">
+              <Name>， 请输入工资条查询密码</Name>
+            </LabelAp>
+            <FlexPanelAp action="edit" oid="rdu1TYyc88">
+              <Name>Flex容器</Name>
+            </FlexPanelAp>
+            <LabelAp action="edit" oid="J4eUPqxuxT">
+              <Name>如需查询2023年9月前的工资发放情况，请通过【OA主界面-快捷通道-薪酬查询（旧）】查阅，谢谢</Name>
+            </LabelAp>
+            <ButtonAp action="edit" oid="alYfhiJ3ZD">
+              <Name>确定</Name>
+            </ButtonAp>
+            <LabelAp action="edit" oid="IXFVYZCDBp">
+              <Name>忘记密码</Name>
+            </LabelAp>
+            <ButtonAp action="edit" oid="aJy30mw4or">
+              <Name>返回</Name>
+            </ButtonAp>
+            <FlexPanelAp action="edit" oid="3YA65N8IBH">
+              <Name>Flex容器</Name>
+            </FlexPanelAp>
+            <FlexPanelAp action="edit" oid="FkHFRbFs11">
+              <Name>Flex容器</Name>
+            </FlexPanelAp>
+            <FlexPanelAp action="edit" oid="6M6aL9vUXx">
+              <Name>Flex容器</Name>
+            </FlexPanelAp>
+            <FlexPanelAp action="edit" oid="x4d4zXUGml">
+              <Name>Flex容器</Name>
+            </FlexPanelAp>
+            <FlexPanelAp action="edit" oid="7Xk8Hx1oVT">
+              <Name>Flex容器</Name>
+            </FlexPanelAp>
+            <ImageAp action="edit" oid="mopEtAnsMm">
+              <Name>图片展示</Name>
+            </ImageAp>
+          </Items>
+        </FormMetadata>
+      </DataXml>
+      <Name>简历薪资密码弹窗</Name>
+      <Id>3UD175IB88YC</Id>
+      <LocaleId>en_US</LocaleId>
+    </DesignFormMetaL>
+    <DesignEntityMetaL>
+      <Number>xyjt_hrobs_pcpwdlogin</Number>
+      <PkId>3V01R27T=TFH</PkId>
+      <DataXml>
+        <EntityMetadata>
+          <Name>简历薪资密码弹窗</Name>
+          <Items>
+            <MainEntity action="edit" oid="3UD175IIH1N4">
+              <Operations>
+                <Operation action="edit" oid="3UDOGDS8+5XJ">
+                  <Name>登录</Name>
+                </Operation>
+                <Operation action="edit" oid="3UDOIK=34FOI">
+                  <Name>忘记密码</Name>
+                </Operation>
+              </Operations>
+              <Name>简历薪资密码弹窗</Name>
+            </MainEntity>
+            <TextField action="edit" oid="H3Ka6UElt6">
+              <EmptyText>请输入密码</EmptyText>
+            </TextField>
+          </Items>
+        </EntityMetadata>
+      </DataXml>
+      <Name>简历薪资密码弹窗</Name>
+      <Id>3UD175IB88YC</Id>
+      <LocaleId>en_US</LocaleId>
+    </DesignEntityMetaL>
+  </DesignMetas>
+  <Version>1705476525254</Version>
+  <BOSVersion>1.0</BOSVersion>
+</DeployMetadata>

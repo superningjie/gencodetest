@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DeployMetadata>
+  <Multilanguage>false</Multilanguage>
+  <MasterId>3C438R6MLYXE</MasterId>
+  <BizappId>3C438QESNO1T</BizappId>
+  <Id>3C438R6MLYXE</Id>
+  <DesignMetas>
+    <DesignFormMeta>
+      <DevType>0</DevType>
+      <ModifyDate>1687139185993</ModifyDate>
+      <DataXml>
+        <FormMetadata>
+          <Isv>tdkw</Isv>
+          <Id>3C438R6MLYXE</Id>
+          <Key>tdkw_appauthority_apphome</Key>
+          <EntityId>3C438R6MLYXE</EntityId>
+          <ParentId>/8T+06O/GOEH</ParentId>
+          <BizappId>3C438QESNO1T</BizappId>
+          <Name>移动端权限_应用首页</Name>
+          <InheritPath>/8T+06O/GOEH</InheritPath>
+          <Items>
+            <FormAp action="edit" oid="/8T+06O/H6M6">
+              <Id>3C438R6MLYXE</Id>
+              <Name>移动端权限_应用首页</Name>
+              <Key>tdkw_appauthority_apphome</Key>
+            </FormAp>
+          </Items>
+        </FormMetadata>
+      </DataXml>
+      <ModifierId>1631049357887288320</ModifierId>
+      <EntityId>3C438R6MLYXE</EntityId>
+      <ModelType>DynamicFormModel</ModelType>
+      <Isv>tdkw</Isv>
+      <Version>1687139185993</Version>
+      <ParentId>/8T+06O/GOEH</ParentId>
+      <MasterId></MasterId>
+      <Number>tdkw_appauthority_apphome</Number>
+      <BizappId>3C438QESNO1T</BizappId>
+      <IsvSign></IsvSign>
+      <Id>3C438R6MLYXE</Id>
+      <InheritPath>/8T+06O/GOEH</InheritPath>
+    </DesignFormMeta>
+    <DesignEntityMeta>
+      <DevType>0</DevType>
+      <ModifyDate>1687139186003</ModifyDate>
+      <DataXml>
+        <EntityMetadata>
+          <Isv>tdkw</Isv>
+          <Id>3C438R6MLYXE</Id>
+          <ParentId>/8T+06O/GOEH</ParentId>
+          <BizappId>3C438QESNO1T</BizappId>
+          <Name>移动端权限_应用首页</Name>
+          <InheritPath>/8T+06O/GOEH</InheritPath>
+          <Items>
+            <MainEntity action="edit" oid="/8T+06O6R0/7">
+              <Template action="reset"/>
+              <dbRoute>secd</dbRoute>
+              <Id>3C438R6MLYXE</Id>
+              <Key>tdkw_appauthority_apphome</Key>
+              <Name>移动端权限_应用首页</Name>
+            </MainEntity>
+          </Items>
+        </EntityMetadata>
+      </DataXml>
+      <ModelType>DynamicFormModel</ModelType>
+      <Isv>tdkw</Isv>
+      <Version>1687139186003</Version>
+      <ParentId>/8T+06O/GOEH</ParentId>
+      <MasterId></MasterId>
+      <Number>tdkw_appauthority_apphome</Number>
+      <BizappId>3C438QESNO1T</BizappId>
+      <Id>3C438R6MLYXE</Id>
+      <InheritPath>/8T+06O/GOEH</InheritPath>
+    </DesignEntityMeta>
+  </DesignMetas>
+  <Version>1687139185993</Version>
+  <BOSVersion>1.0</BOSVersion>
+  <BizunitId>3C438QGQTD3K</BizunitId>
+</DeployMetadata>

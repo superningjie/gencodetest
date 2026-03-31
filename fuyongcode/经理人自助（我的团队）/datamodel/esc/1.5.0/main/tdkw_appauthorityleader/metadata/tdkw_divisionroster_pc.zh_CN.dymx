@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DeployMetadata>
+  <MasterId>3EX1KWYBTTI3</MasterId>
+  <Id>3EX1KWYBTTI3</Id>
+  <DesignMetas>
+    <DesignFormMetaL>
+      <Number>tdkw_divisionroster_pc</Number>
+      <PkId>3EX1LURBVH3C</PkId>
+      <DataXml>
+        <FormMetadata/>
+      </DataXml>
+      <Name>事业部花名册PC端</Name>
+      <Id>3EX1KWYBTTI3</Id>
+      <LocaleId>zh_CN</LocaleId>
+    </DesignFormMetaL>
+    <DesignEntityMetaL>
+      <Number>tdkw_divisionroster_pc</Number>
+      <PkId>3EX1LUSR8QOA</PkId>
+      <DataXml>
+        <EntityMetadata/>
+      </DataXml>
+      <Name>事业部花名册PC端</Name>
+      <Id>3EX1KWYBTTI3</Id>
+      <LocaleId>zh_CN</LocaleId>
+    </DesignEntityMetaL>
+  </DesignMetas>
+  <Version>1689825435286</Version>
+  <BOSVersion>1.0</BOSVersion>
+</DeployMetadata>

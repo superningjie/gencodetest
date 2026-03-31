@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DeployMetadata>
+  <MasterId>47C5QE7LOM4N</MasterId>
+  <Id>47C5QE7LOM4N</Id>
+  <DesignMetas>
+    <DesignFormMetaL>
+      <Number>cea_gradeexample</Number>
+      <PkId>4ALXX3ARIVUK</PkId>
+      <DataXml>
+        <FormMetadata/>
+      </DataXml>
+      <Name>指标测评实例</Name>
+      <Id>47C5QE7LOM4N</Id>
+      <LocaleId>zh_CN</LocaleId>
+    </DesignFormMetaL>
+    <DesignEntityMetaL>
+      <Number>cea_gradeexample</Number>
+      <PkId>4ALXX3BZO8O+</PkId>
+      <DataXml>
+        <EntityMetadata/>
+      </DataXml>
+      <Name>指标测评实例</Name>
+      <Id>47C5QE7LOM4N</Id>
+      <LocaleId>zh_CN</LocaleId>
+    </DesignEntityMetaL>
+  </DesignMetas>
+  <Version>1723512506566</Version>
+  <BOSVersion>1.0</BOSVersion>
+</DeployMetadata>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DeployMetadata>
+  <MasterId>4B5YTLL49+XG</MasterId>
+  <Id>4B5YTLL49+XG</Id>
+  <DesignMetas>
+    <DesignFormMetaL>
+      <Number>tdkw_bos_listoptiontp_inh</Number>
+      <PkId>4BF5Y4ZQ9M2/</PkId>
+      <DataXml>
+        <FormMetadata>
+          <Name>列表选项模板_继承</Name>
+          <Items>
+            <ParameterFormAp action="edit" oid="30d89176000006ac">
+              <Name>列表选项模板_继承</Name>
+            </ParameterFormAp>
+          </Items>
+        </FormMetadata>
+      </DataXml>
+      <Name>列表选项模板_继承</Name>
+      <Id>4B5YTLL49+XG</Id>
+      <LocaleId>en_US</LocaleId>
+    </DesignFormMetaL>
+    <DesignEntityMetaL>
+      <Number>tdkw_bos_listoptiontp_inh</Number>
+      <PkId>4BF5Y53S+1S9</PkId>
+      <DataXml>
+        <EntityMetadata>
+          <Name>列表选项模板_继承</Name>
+          <Items>
+            <ParameterEntity action="edit" oid="30d89176000008ac">
+              <Name>列表选项模板_继承</Name>
+            </ParameterEntity>
+          </Items>
+        </EntityMetadata>
+      </DataXml>
+      <Name>列表选项模板_继承</Name>
+      <Id>4B5YTLL49+XG</Id>
+      <LocaleId>en_US</LocaleId>
+    </DesignEntityMetaL>
+  </DesignMetas>
+  <Version>1724315139202</Version>
+  <BOSVersion>1.0</BOSVersion>
+</DeployMetadata>

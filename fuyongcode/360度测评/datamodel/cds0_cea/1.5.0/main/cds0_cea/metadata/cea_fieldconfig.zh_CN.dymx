@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DeployMetadata>
+  <MasterId>46/8FAZ=N17X</MasterId>
+  <Id>46/8FAZ=N17X</Id>
+  <DesignMetas>
+    <DesignFormMetaL>
+      <Number>cea_fieldconfig</Number>
+      <PkId>4=0CGHQWF=QU</PkId>
+      <DataXml>
+        <FormMetadata/>
+      </DataXml>
+      <Name>测评表字段配置</Name>
+      <Id>46/8FAZ=N17X</Id>
+      <LocaleId>zh_CN</LocaleId>
+    </DesignFormMetaL>
+    <DesignEntityMetaL>
+      <Number>cea_fieldconfig</Number>
+      <PkId>4=0CGHUWC5P4</PkId>
+      <DataXml>
+        <EntityMetadata/>
+      </DataXml>
+      <Name>测评表字段配置</Name>
+      <Id>46/8FAZ=N17X</Id>
+      <LocaleId>zh_CN</LocaleId>
+    </DesignEntityMetaL>
+  </DesignMetas>
+  <Version>1721981012789</Version>
+  <BOSVersion>1.0</BOSVersion>
+</DeployMetadata>

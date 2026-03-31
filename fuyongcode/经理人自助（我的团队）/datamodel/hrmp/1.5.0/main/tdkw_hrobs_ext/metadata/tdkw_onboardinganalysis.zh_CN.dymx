@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DeployMetadata>
+  <MasterId>3D41U0FBVWXB</MasterId>
+  <Id>3D41U0FBVWXB</Id>
+  <DesignMetas>
+    <DesignFormMetaL>
+      <Number>tdkw_onboardinganalysis</Number>
+      <PkId>4LUM3PMTPYK4</PkId>
+      <DataXml>
+        <FormMetadata/>
+      </DataXml>
+      <Name>入职分析</Name>
+      <Id>3D41U0FBVWXB</Id>
+      <LocaleId>zh_CN</LocaleId>
+    </DesignFormMetaL>
+    <DesignEntityMetaL>
+      <Number>tdkw_onboardinganalysis</Number>
+      <PkId>4LUM3PNCG8AD</PkId>
+      <DataXml>
+        <EntityMetadata/>
+      </DataXml>
+      <Name>入职分析</Name>
+      <Id>3D41U0FBVWXB</Id>
+      <LocaleId>zh_CN</LocaleId>
+    </DesignEntityMetaL>
+  </DesignMetas>
+  <Version>1734403464639</Version>
+  <BOSVersion>1.0</BOSVersion>
+</DeployMetadata>

@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DeployMetadata>
+  <Multilanguage>false</Multilanguage>
+  <MasterId>3B2MAJSOYHQW</MasterId>
+  <BizappId>3==6P77F4X8W</BizappId>
+  <Id>3B2MAJSOYHQW</Id>
+  <DesignMetas>
+    <DesignFormMeta>
+      <DevType>0</DevType>
+      <ModifyDate>1686192873705</ModifyDate>
+      <DataXml>
+        <FormMetadata>
+          <Isv>tdkw</Isv>
+          <Id>3B2MAJSOYHQW</Id>
+          <Key>tdkw_hrobs_pc_morecard</Key>
+          <EntityId>3B2MAJSOYHQW</EntityId>
+          <ParentId>39K9BPBZKJ4C</ParentId>
+          <BizappId>3==6P77F4X8W</BizappId>
+          <IsvSign/>
+          <Name>PC_更多应用卡片</Name>
+          <InheritPath>/910EZ6ZX680,2Y+1RPAGZM/J,39K9BPBZKJ4C</InheritPath>
+          <Items>
+            <FormAp action="edit" oid="/910EZ6ZX6X=">
+              <Plugins>
+                <Plugin>
+                  <FPK/>
+                  <Description>加载更多应用图标</Description>
+                  <ClassName>tdkw.hrmp.hrobs.formplugin.MoreCardFormPlugin</ClassName>
+                  <Enabled>true</Enabled>
+                  <BizAppId/>
+                  <RowKey>2</RowKey>
+                </Plugin>
+              </Plugins>
+              <Id>3B2MAJSOYHQW</Id>
+              <Height>500px</Height>
+              <ShowTitle>false</ShowTitle>
+              <Name>PC_更多应用卡片</Name>
+              <Key>tdkw_hrobs_pc_morecard</Key>
+              <Width>50%</Width>
+            </FormAp>
+            <FlexPanelAp action="edit" oid="7cXDisHpP6">
+              <AlignContent>flex-start</AlignContent>
+              <AlignItems>flex-start</AlignItems>
+              <Direction action="reset"/>
+              <Wrap action="reset"/>
+            </FlexPanelAp>
+            <LabelAp action="edit" oid="u4veP2KElt">
+              <Name>全部应用</Name>
+            </LabelAp>
+          </Items>
+        </FormMetadata>
+      </DataXml>
+      <ModifierId>1687593626118461440</ModifierId>
+      <EntityId>3B2MAJSOYHQW</EntityId>
+      <ModelType>DynamicFormModel</ModelType>
+      <Isv>tdkw</Isv>
+      <Version>1686192873705</Version>
+      <ParentId>39K9BPBZKJ4C</ParentId>
+      <MasterId></MasterId>
+      <Number>tdkw_hrobs_pc_morecard</Number>
+      <BizappId>3==6P77F4X8W</BizappId>
+      <IsvSign></IsvSign>
+      <Id>3B2MAJSOYHQW</Id>
+      <InheritPath>/910EZ6ZX680,2Y+1RPAGZM/J,39K9BPBZKJ4C</InheritPath>
+    </DesignFormMeta>
+    <DesignEntityMeta>
+      <DevType>0</DevType>
+      <ModifyDate>1686192873714</ModifyDate>
+      <DataXml>
+        <EntityMetadata>
+          <Isv>tdkw</Isv>
+          <Id>3B2MAJSOYHQW</Id>
+          <ParentId>39K9BPBZKJ4C</ParentId>
+          <BizappId>3==6P77F4X8W</BizappId>
+          <IsvSign/>
+          <Name>PC_更多应用卡片</Name>
+          <InheritPath>/910EZ6ZX680,2Y+1RPAGZM/J,39K9BPBZKJ4C</InheritPath>
+          <Items>
+            <MainEntity action="edit" oid="/910EZ7550=A">
+              <Id>3B2MAJSOYHQW</Id>
+              <Key>tdkw_hrobs_pc_morecard</Key>
+              <Name>PC_更多应用卡片</Name>
+            </MainEntity>
+          </Items>
+        </EntityMetadata>
+      </DataXml>
+      <ModelType>DynamicFormModel</ModelType>
+      <Isv>tdkw</Isv>
+      <Version>1686192873714</Version>
+      <ParentId>39K9BPBZKJ4C</ParentId>
+      <MasterId></MasterId>
+      <Number>tdkw_hrobs_pc_morecard</Number>
+      <BizappId>3==6P77F4X8W</BizappId>
+      <Id>3B2MAJSOYHQW</Id>
+      <InheritPath>/910EZ6ZX680,2Y+1RPAGZM/J,39K9BPBZKJ4C</InheritPath>
+    </DesignEntityMeta>
+  </DesignMetas>
+  <Version>1686192873705</Version>
+  <BOSVersion>1.0</BOSVersion>
+  <BizunitId>3=D3DC=KSU/E</BizunitId>
+</DeployMetadata>

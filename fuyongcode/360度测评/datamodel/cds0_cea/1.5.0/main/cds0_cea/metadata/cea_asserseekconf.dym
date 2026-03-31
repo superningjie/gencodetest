@@ -1,0 +1,310 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DeployMetadata>
+  <Multilanguage>false</Multilanguage>
+  <MasterId>4A2SPARRS3DS</MasterId>
+  <BizappId>4513U+LB/HOD</BizappId>
+  <Id>4A2SPARRS3DS</Id>
+  <DesignMetas>
+    <DesignFormMeta>
+      <DevType>0</DevType>
+      <ModifyDate>1723602422035</ModifyDate>
+      <DataXml>
+        <FormMetadata>
+          <Isv>tdkw</Isv>
+          <Id>4A2SPARRS3DS</Id>
+          <Key>cea_asserseekconf</Key>
+          <EntityId>4A2SPARRS3DS</EntityId>
+          <ParentId>1942c188000065ac</ParentId>
+          <BizappId>4513U+LB/HOD</BizappId>
+          <IsvSign/>
+          <Name>测评人查找BU配置表</Name>
+          <InheritPath>1942c188000065ac</InheritPath>
+          <Items>
+            <BasedataFormAp action="edit" oid="1942c188000064ac">
+              <MobListMeta>
+                <FormMetadata>
+                  <Items>
+                    <BillListAp action="edit" oid="_BillList_">
+                      <EntityId>4A2SPARRS3DS</EntityId>
+                    </BillListAp>
+                  </Items>
+                </FormMetadata>
+              </MobListMeta>
+              <Id>4A2SPARRS3DS</Id>
+              <BackColor>#E2E7EF</BackColor>
+              <Name>测评人查找BU配置表</Name>
+              <Key>cea_asserseekconf</Key>
+              <ListMeta>
+                <FormMetadata>
+                  <Items>
+                    <FilterGridViewAp action="edit" oid="filtergridview">
+                      <NewFilter>true</NewFilter>
+                    </FilterGridViewAp>
+                    <BarItemAp action="edit" oid="ms32Hsufcq">
+                      <Invisible>true</Invisible>
+                    </BarItemAp>
+                    <BarItemAp action="edit" oid="BTjy6Ie3Bc">
+                      <Invisible>true</Invisible>
+                    </BarItemAp>
+                    <BarItemAp action="edit" oid="A3zkgmttgA">
+                      <Invisible>true</Invisible>
+                    </BarItemAp>
+                    <BarItemAp action="edit" oid="NVARV5u7I4">
+                      <Invisible>true</Invisible>
+                    </BarItemAp>
+                    <BarItemAp action="edit" oid="v71lQcKgcH">
+                      <Invisible>true</Invisible>
+                    </BarItemAp>
+                    <BillListAp action="edit" oid="_BillList_">
+                      <EntityId>4A2SPARRS3DS</EntityId>
+                    </BillListAp>
+                  </Items>
+                </FormMetadata>
+              </ListMeta>
+            </BasedataFormAp>
+            <FlexPanelAp action="edit" oid="LL4BVAnADa">
+              <Index action="reset"/>
+            </FlexPanelAp>
+            <FlexPanelAp action="edit" oid="PxNfkkak4s">
+              <Grow>0</Grow>
+              <Index>1</Index>
+              <BackColor>#ffffff</BackColor>
+              <Style>
+                <Style>
+                  <Border>
+                    <Border>
+                      <Top>10px_solid_#E2E7EF</Top>
+                      <Left>10px_solid_#E2E7EF</Left>
+                      <Bottom>10px_solid_#E2E7EF</Bottom>
+                      <Right>10px_solid_#E2E7EF</Right>
+                    </Border>
+                  </Border>
+                  <Padding>
+                    <Padding>
+                      <Left>2px</Left>
+                      <Right action="reset"/>
+                    </Padding>
+                  </Padding>
+                </Style>
+              </Style>
+            </FlexPanelAp>
+            <EntryAp>
+              <EntryId>fCTgNUODn7QmPWGDw7</EntryId>
+              <ShowSeq>true</ShowSeq>
+              <Id>fCTgNUODn7QmPWGDw7</Id>
+              <Index>2</Index>
+              <Name>BU配置分录</Name>
+              <Style>
+                <Style>
+                  <Margin>
+                    <Margin>
+                      <Left>10px</Left>
+                      <Right>10px</Right>
+                    </Margin>
+                  </Margin>
+                </Style>
+              </Style>
+              <HasOperateIcon>true</HasOperateIcon>
+              <PageType/>
+              <Key>entryentity</Key>
+            </EntryAp>
+            <FieldAp action="edit" oid="AkId5S4yTs">
+              <Invisible>true</Invisible>
+            </FieldAp>
+            <FieldAp action="edit" oid="jiRpZNc99A">
+              <Invisible>true</Invisible>
+            </FieldAp>
+            <FieldAp action="edit" oid="ac5Y5Dax1q">
+              <Invisible>true</Invisible>
+            </FieldAp>
+            <FieldAp action="edit" oid="O75mQrM58q">
+              <Invisible>true</Invisible>
+            </FieldAp>
+            <FieldAp>
+              <Id>JLSv4LlDBpfMjNpAu9</Id>
+              <FieldId>JLSv4LlDBpfMjNpAu9</FieldId>
+              <Index>6</Index>
+              <Name>查找类型</Name>
+              <Key>seektype</Key>
+              <ParentId>I8M9X0FOPr</ParentId>
+            </FieldAp>
+            <BarItemAp action="edit" oid="z20rAqlGP8">
+              <Invisible>true</Invisible>
+            </BarItemAp>
+            <BarItemAp action="edit" oid="8XYTQ7uc8H">
+              <Invisible>true</Invisible>
+            </BarItemAp>
+            <BarItemAp action="edit" oid="HVX5nv5C2i">
+              <Invisible>true</Invisible>
+            </BarItemAp>
+            <BarItemAp action="edit" oid="TK7j147AL2">
+              <Invisible>true</Invisible>
+            </BarItemAp>
+            <FieldsetPanelAp action="edit" oid="STdfsCCFTj">
+              <Invisible>true</Invisible>
+              <Hidden action="reset"/>
+            </FieldsetPanelAp>
+            <FieldsetPanelAp action="edit" oid="I8M9X0FOPr">
+              <Collapsible action="reset"/>
+            </FieldsetPanelAp>
+            <EntryFieldAp>
+              <Id>GubtuqIKLIkuFzYWus</Id>
+              <FieldId>GubtuqIKLIkuFzYWus</FieldId>
+              <Name>绩效管理组织</Name>
+              <Key>perforg</Key>
+              <ParentId>fCTgNUODn7QmPWGDw7</ParentId>
+            </EntryFieldAp>
+            <EntryFieldAp>
+              <Id>NDOC7voO00U15zJr7D</Id>
+              <FieldId>NDOC7voO00U15zJr7D</FieldId>
+              <Index>1</Index>
+              <Name>组织编码</Name>
+              <Key>orgnumber</Key>
+              <ParentId>fCTgNUODn7QmPWGDw7</ParentId>
+            </EntryFieldAp>
+            <EntryFieldAp>
+              <Id>r5t46mJQ2YNxAaLppu</Id>
+              <FieldId>r5t46mJQ2YNxAaLppu</FieldId>
+              <Index>2</Index>
+              <Name>组织名称</Name>
+              <Key>orgname</Key>
+              <ParentId>fCTgNUODn7QmPWGDw7</ParentId>
+            </EntryFieldAp>
+          </Items>
+        </FormMetadata>
+      </DataXml>
+      <ModifierId>1992915822795867136</ModifierId>
+      <EntityId>4A2SPARRS3DS</EntityId>
+      <ModelType>BaseFormModel</ModelType>
+      <Isv>tdkw</Isv>
+      <Version>1723602422035</Version>
+      <ParentId>1942c188000065ac</ParentId>
+      <MasterId></MasterId>
+      <Number>cea_asserseekconf</Number>
+      <BizappId>4513U+LB/HOD</BizappId>
+      <IsvSign></IsvSign>
+      <Id>4A2SPARRS3DS</Id>
+      <InheritPath>1942c188000065ac</InheritPath>
+    </DesignFormMeta>
+    <DesignEntityMeta>
+      <DevType>0</DevType>
+      <ModifyDate>1723602422074</ModifyDate>
+      <DataXml>
+        <EntityMetadata>
+          <Isv>tdkw</Isv>
+          <Id>4A2SPARRS3DS</Id>
+          <ParentId>1942c188000065ac</ParentId>
+          <BizappId>4513U+LB/HOD</BizappId>
+          <IsvSign/>
+          <Name>测评人查找BU配置表</Name>
+          <InheritPath>1942c188000065ac</InheritPath>
+          <Items>
+            <BaseEntity action="edit" oid="1942c188000066ac">
+              <dbRoute>opmc</dbRoute>
+              <TableName>t_cea_asserseekconf</TableName>
+              <Id>4A2SPARRS3DS</Id>
+              <Name>测评人查找BU配置表</Name>
+              <Template action="reset"/>
+              <Key>cea_asserseekconf</Key>
+              <NetworkControl>
+                <NetCtrlOperation>
+                  <OperationKey>submit</OperationKey>
+                  <GroupId>default_netctrl</GroupId>
+                  <Id>c91d5125000034ac</Id>
+                  <Key>default_netctrl_submit</Key>
+                </NetCtrlOperation>
+              </NetworkControl>
+              <DefaultPageSetting>{"mblist":"","pclist":"","pcbill":"","mbbill":""}</DefaultPageSetting>
+            </BaseEntity>
+            <MuliLangTextField action="edit" oid="8oq6R4m9CF">
+              <GL>true</GL>
+            </MuliLangTextField>
+            <ComboField>
+              <FieldName>fseektype</FieldName>
+              <Features>
+                <Features>
+                  <Ver>1</Ver>
+                </Features>
+              </Features>
+              <Id>JLSv4LlDBpfMjNpAu9</Id>
+              <Key>seektype</Key>
+              <Name>查找类型</Name>
+              <Items>
+                <ComboItem>
+                  <Caption>找人</Caption>
+                  <Value>10</Value>
+                </ComboItem>
+                <ComboItem>
+                  <Caption>不找人</Caption>
+                  <Value>20</Value>
+                  <Seq>1</Seq>
+                </ComboItem>
+              </Items>
+            </ComboField>
+            <EntryEntity>
+              <TableName>t_cea_asserseekconfentry</TableName>
+              <Id>fCTgNUODn7QmPWGDw7</Id>
+              <Key>entryentity</Key>
+              <Name>BU配置分录</Name>
+            </EntryEntity>
+            <BasedataField>
+              <Features>
+                <Features>
+                  <Ver>1</Ver>
+                </Features>
+              </Features>
+              <Id>GubtuqIKLIkuFzYWus</Id>
+              <LableHyperlink>false</LableHyperlink>
+              <DefValue/>
+              <Name>绩效管理组织</Name>
+              <FieldName>fperforgid</FieldName>
+              <Key>perforg</Key>
+              <RefLayout/>
+              <ParentId>fCTgNUODn7QmPWGDw7</ParentId>
+              <BaseEntityId>73f9bf0200001dac</BaseEntityId>
+            </BasedataField>
+            <BasedataPropField>
+              <Features>
+                <Features>
+                  <Ver>1</Ver>
+                </Features>
+              </Features>
+              <Id>r5t46mJQ2YNxAaLppu</Id>
+              <Key>orgname</Key>
+              <RefDisplayProp>name</RefDisplayProp>
+              <ParentId>fCTgNUODn7QmPWGDw7</ParentId>
+              <RefBaseFieldId>GubtuqIKLIkuFzYWus</RefBaseFieldId>
+              <Name>组织名称</Name>
+            </BasedataPropField>
+            <BasedataPropField>
+              <Features>
+                <Features>
+                  <Ver>1</Ver>
+                </Features>
+              </Features>
+              <Id>NDOC7voO00U15zJr7D</Id>
+              <Key>orgnumber</Key>
+              <RefDisplayProp>number</RefDisplayProp>
+              <ParentId>fCTgNUODn7QmPWGDw7</ParentId>
+              <RefBaseFieldId>GubtuqIKLIkuFzYWus</RefBaseFieldId>
+              <Name>组织编码</Name>
+            </BasedataPropField>
+          </Items>
+        </EntityMetadata>
+      </DataXml>
+      <ModelType>BaseFormModel</ModelType>
+      <Isv>tdkw</Isv>
+      <Version>1723602422074</Version>
+      <ParentId>1942c188000065ac</ParentId>
+      <MasterId></MasterId>
+      <Number>cea_asserseekconf</Number>
+      <BizappId>4513U+LB/HOD</BizappId>
+      <Id>4A2SPARRS3DS</Id>
+      <InheritPath>1942c188000065ac</InheritPath>
+    </DesignEntityMeta>
+  </DesignMetas>
+  <Version>1723602422035</Version>
+  <BOSVersion>1.0</BOSVersion>
+  <BizunitId>45KUGRD4HA1J</BizunitId>
+</DeployMetadata>

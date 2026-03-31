@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DeployMetadata>
+  <MasterId>3FFIHN2GFLPM</MasterId>
+  <Id>3FFIHN2GFLPM</Id>
+  <DesignMetas>
+    <DesignFormMetaL>
+      <Number>tdkw_myteam_apphome</Number>
+      <PkId>3T8G36S9FCEU</PkId>
+      <DataXml>
+        <FormMetadata/>
+      </DataXml>
+      <Name>應用首頁-柵格</Name>
+      <Id>3FFIHN2GFLPM</Id>
+      <LocaleId>zh_TW</LocaleId>
+    </DesignFormMetaL>
+    <DesignEntityMetaL>
+      <Number>tdkw_myteam_apphome</Number>
+      <PkId>3T8G36SXS7+N</PkId>
+      <DataXml>
+        <EntityMetadata>
+          <Items>
+            <MainEntity action="edit" oid="/8T+06O6R0/7">
+              <PermissionDimension>
+                <PermissionDimension>
+                  <Name>維度控制</Name>
+                </PermissionDimension>
+              </PermissionDimension>
+              <PermissionControl>
+                <PermissionControl>
+                  <Name>控制功能許可權</Name>
+                </PermissionControl>
+              </PermissionControl>
+            </MainEntity>
+          </Items>
+        </EntityMetadata>
+      </DataXml>
+      <Name>應用首頁-柵格</Name>
+      <Id>3FFIHN2GFLPM</Id>
+      <LocaleId>zh_TW</LocaleId>
+    </DesignEntityMetaL>
+  </DesignMetas>
+  <Version>1703744561174</Version>
+  <BOSVersion>1.0</BOSVersion>
+</DeployMetadata>

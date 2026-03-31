@@ -1,0 +1,16 @@
+skill_id: effort_estimator
+name: 工作量评估器
+version: "1.0"
+type: default
+description: 评估开发工作量
+
+custom_class: core.skill_engine.EffortEstimatorSkill
+
+config:
+  unit_price: 3000
+
+inputs:
+  - implementation_items: List[ImplementationItem]
+
+outputs:
+  - estimation: Dict

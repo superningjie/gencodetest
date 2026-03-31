@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DeployMetadata>
+  <MasterId>3EMH4397JFK5</MasterId>
+  <Id>3EMH4397JFK5</Id>
+  <DesignMetas>
+    <DesignFormMetaL>
+      <Number>tdkw_performanceval</Number>
+      <PkId>3EMH43=EOV1U</PkId>
+      <DataXml>
+        <FormMetadata/>
+      </DataXml>
+      <Name>绩效评估</Name>
+      <Id>3EMH4397JFK5</Id>
+      <LocaleId>zh_CN</LocaleId>
+    </DesignFormMetaL>
+    <DesignEntityMetaL>
+      <Number>tdkw_performanceval</Number>
+      <PkId>3EMH43=PIUHN</PkId>
+      <DataXml>
+        <EntityMetadata/>
+      </DataXml>
+      <Name>绩效评估</Name>
+      <Id>3EMH4397JFK5</Id>
+      <LocaleId>zh_CN</LocaleId>
+    </DesignEntityMetaL>
+  </DesignMetas>
+  <Version>1689562269086</Version>
+  <BOSVersion>1.0</BOSVersion>
+</DeployMetadata>

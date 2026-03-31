@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DeployMetadata>
+  <Multilanguage>false</Multilanguage>
+  <MasterId>46/949J4L0DQ</MasterId>
+  <BizappId>4513U+LB/HOD</BizappId>
+  <Id>46/949J4L0DQ</Id>
+  <DesignMetas>
+    <DesignFormMeta>
+      <DevType>0</DevType>
+      <ModifyDate>1721980954278</ModifyDate>
+      <DataXml>
+        <FormMetadata>
+          <Isv>tdkw</Isv>
+          <Id>46/949J4L0DQ</Id>
+          <Key>cea_assessform</Key>
+          <EntityId>46/949J4L0DQ</EntityId>
+          <ParentId>1942c188000065ac</ParentId>
+          <BizappId>4513U+LB/HOD</BizappId>
+          <IsvSign/>
+          <Name>测评表自定义</Name>
+          <InheritPath>1942c188000065ac</InheritPath>
+          <Items>
+            <BasedataFormAp action="edit" oid="1942c188000064ac">
+              <MobListMeta>
+                <FormMetadata>
+                  <Items>
+                    <BillListAp action="edit" oid="_BillList_">
+                      <EntityId>46/949J4L0DQ</EntityId>
+                    </BillListAp>
+                  </Items>
+                </FormMetadata>
+              </MobListMeta>
+              <Id>46/949J4L0DQ</Id>
+              <BackColor>#E2E7EF</BackColor>
+              <Name>测评表自定义</Name>
+              <Key>cea_assessform</Key>
+              <ListMeta>
+                <FormMetadata>
+                  <Items>
+                    <FilterGridViewAp action="edit" oid="filtergridview">
+                      <NewFilter>true</NewFilter>
+                    </FilterGridViewAp>
+                  </Items>
+                </FormMetadata>
+              </ListMeta>
+            </BasedataFormAp>
+            <FlexPanelAp action="edit" oid="LL4BVAnADa">
+              <Index action="reset"/>
+            </FlexPanelAp>
+            <FlexPanelAp action="edit" oid="PxNfkkak4s">
+              <Grow>0</Grow>
+              <Index>1</Index>
+              <BackColor>#ffffff</BackColor>
+              <Style>
+                <Style>
+                  <Border>
+                    <Border>
+                      <Top>10px_solid_#E2E7EF</Top>
+                      <Left>10px_solid_#E2E7EF</Left>
+                      <Bottom>10px_solid_#E2E7EF</Bottom>
+                      <Right>10px_solid_#E2E7EF</Right>
+                    </Border>
+                  </Border>
+                  <Padding>
+                    <Padding>
+                      <Left>2px</Left>
+                      <Right action="reset"/>
+                    </Padding>
+                  </Padding>
+                </Style>
+              </Style>
+            </FlexPanelAp>
+            <EntryAp>
+              <EntryId>Zv2gC7kFGsI1ufZ6pj</EntryId>
+              <ShowSeq>true</ShowSeq>
+              <Id>Zv2gC7kFGsI1ufZ6pj</Id>
+              <Index>2</Index>
+              <Name>测评表行</Name>
+              <PageType/>
+              <Key>entryentity</Key>
+            </EntryAp>
+            <FieldAp action="edit" oid="AkId5S4yTs">
+              <Invisible>true</Invisible>
+            </FieldAp>
+            <FieldAp action="edit" oid="jiRpZNc99A">
+              <Invisible>true</Invisible>
+            </FieldAp>
+            <FieldAp action="edit" oid="ac5Y5Dax1q">
+              <Invisible>true</Invisible>
+            </FieldAp>
+            <FieldAp action="edit" oid="O75mQrM58q">
+              <Invisible>true</Invisible>
+            </FieldAp>
+            <FieldAp>
+              <Id>4WAhLerzZuW5kJsq9P</Id>
+              <FieldId>4WAhLerzZuW5kJsq9P</FieldId>
+              <Index>6</Index>
+              <Name>表头列</Name>
+              <Key>tablecolums</Key>
+              <ParentId>I8M9X0FOPr</ParentId>
+            </FieldAp>
+            <FieldsetPanelAp action="edit" oid="STdfsCCFTj">
+              <Invisible>true</Invisible>
+              <Hidden action="reset"/>
+            </FieldsetPanelAp>
+            <EntryFieldAp>
+              <Id>9XDoV6AGCqshX3Rg3z</Id>
+              <FieldId>9XDoV6AGCqshX3Rg3z</FieldId>
+              <Name>行号</Name>
+              <Key>rownum</Key>
+              <ParentId>Zv2gC7kFGsI1ufZ6pj</ParentId>
+            </EntryFieldAp>
+          </Items>
+        </FormMetadata>
+      </DataXml>
+      <ModifierId>1992915822795867136</ModifierId>
+      <EntityId>46/949J4L0DQ</EntityId>
+      <ModelType>BaseFormModel</ModelType>
+      <Isv>tdkw</Isv>
+      <Version>1721980954278</Version>
+      <ParentId>1942c188000065ac</ParentId>
+      <MasterId></MasterId>
+      <Number>cea_assessform</Number>
+      <BizappId>4513U+LB/HOD</BizappId>
+      <IsvSign></IsvSign>
+      <Id>46/949J4L0DQ</Id>
+      <InheritPath>1942c188000065ac</InheritPath>
+    </DesignFormMeta>
+    <DesignEntityMeta>
+      <DevType>0</DevType>
+      <ModifyDate>1721980954322</ModifyDate>
+      <DataXml>
+        <EntityMetadata>
+          <Isv>tdkw</Isv>
+          <Id>46/949J4L0DQ</Id>
+          <ParentId>1942c188000065ac</ParentId>
+          <BizappId>4513U+LB/HOD</BizappId>
+          <IsvSign/>
+          <Name>测评表自定义</Name>
+          <InheritPath>1942c188000065ac</InheritPath>
+          <Items>
+            <BaseEntity action="edit" oid="1942c188000066ac">
+              <dbRoute>opmc</dbRoute>
+              <TableName>t_cea_assessform</TableName>
+              <Id>46/949J4L0DQ</Id>
+              <Name>测评表自定义</Name>
+              <Template action="reset"/>
+              <Key>cea_assessform</Key>
+              <NetworkControl>
+                <NetCtrlOperation>
+                  <OperationKey>submit</OperationKey>
+                  <GroupId>default_netctrl</GroupId>
+                  <Id>c91d5125000034ac</Id>
+                  <Key>default_netctrl_submit</Key>
+                </NetCtrlOperation>
+              </NetworkControl>
+              <DefaultPageSetting>{"mblist":"","pclist":"","pcbill":"","mbbill":""}</DefaultPageSetting>
+            </BaseEntity>
+            <MuliLangTextField action="edit" oid="8oq6R4m9CF">
+              <GL>true</GL>
+            </MuliLangTextField>
+            <EntryEntity>
+              <TableName>t_cea_assessformrow</TableName>
+              <Id>Zv2gC7kFGsI1ufZ6pj</Id>
+              <Key>entryentity</Key>
+              <Name>测评表行</Name>
+            </EntryEntity>
+            <MulBasedataField>
+              <TableName>t_cea_assformheadcols</TableName>
+              <Features>
+                <Features>
+                  <Ver>1</Ver>
+                </Features>
+              </Features>
+              <Id>4WAhLerzZuW5kJsq9P</Id>
+              <LableHyperlink>false</LableHyperlink>
+              <Name>表头列</Name>
+              <Key>tablecolums</Key>
+              <EditSearchProp>name</EditSearchProp>
+              <BaseEntityId>46/8FAZ=N17X</BaseEntityId>
+              <BizBasedata>false</BizBasedata>
+            </MulBasedataField>
+            <IntegerField>
+              <FieldName>frownum</FieldName>
+              <Features>
+                <Features>
+                  <Ver>1</Ver>
+                </Features>
+              </Features>
+              <Id>9XDoV6AGCqshX3Rg3z</Id>
+              <Key>rownum</Key>
+              <DefValue>0</DefValue>
+              <ParentId>Zv2gC7kFGsI1ufZ6pj</ParentId>
+              <Name>行号</Name>
+            </IntegerField>
+          </Items>
+        </EntityMetadata>
+      </DataXml>
+      <ModelType>BaseFormModel</ModelType>
+      <Isv>tdkw</Isv>
+      <Version>1721980954322</Version>
+      <ParentId>1942c188000065ac</ParentId>
+      <MasterId></MasterId>
+      <Number>cea_assessform</Number>
+      <BizappId>4513U+LB/HOD</BizappId>
+      <Id>46/949J4L0DQ</Id>
+      <InheritPath>1942c188000065ac</InheritPath>
+    </DesignEntityMeta>
+  </DesignMetas>
+  <Version>1721980954278</Version>
+  <BOSVersion>1.0</BOSVersion>
+  <BizunitId>45H2DV8V8L98</BizunitId>
+</DeployMetadata>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DeployMetadata>
+  <MasterId>3ECQTN9LJQ/M</MasterId>
+  <Id>3ECQTN9LJQ/M</Id>
+  <DesignMetas>
+    <DesignFormMetaL>
+      <Number>tdkw_monthleave</Number>
+      <PkId>3T1Z3LBEFLHF</PkId>
+      <DataXml>
+        <FormMetadata/>
+      </DataXml>
+      <Name>本月离职报表</Name>
+      <Id>3ECQTN9LJQ/M</Id>
+      <LocaleId>zh_CN</LocaleId>
+    </DesignFormMetaL>
+    <DesignEntityMetaL>
+      <Number>tdkw_monthleave</Number>
+      <PkId>3T1Z3LD9ZWOF</PkId>
+      <DataXml>
+        <EntityMetadata/>
+      </DataXml>
+      <Name>本月离职报表</Name>
+      <Id>3ECQTN9LJQ/M</Id>
+      <LocaleId>zh_CN</LocaleId>
+    </DesignEntityMetaL>
+  </DesignMetas>
+  <Version>1703582513357</Version>
+  <BOSVersion>1.0</BOSVersion>
+</DeployMetadata>

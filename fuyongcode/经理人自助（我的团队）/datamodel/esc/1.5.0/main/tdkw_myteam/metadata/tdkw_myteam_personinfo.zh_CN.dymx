@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DeployMetadata>
+  <MasterId>3H3NIX2HAG3H</MasterId>
+  <Id>3H3NIX2HAG3H</Id>
+  <DesignMetas>
+    <DesignFormMetaL>
+      <Number>tdkw_myteam_personinfo</Number>
+      <PkId>4LDROG=JKWVX</PkId>
+      <DataXml>
+        <FormMetadata/>
+      </DataXml>
+      <Name>下属人员列表</Name>
+      <Id>3H3NIX2HAG3H</Id>
+      <LocaleId>zh_CN</LocaleId>
+    </DesignFormMetaL>
+    <DesignEntityMetaL>
+      <Number>tdkw_myteam_personinfo</Number>
+      <PkId>4LDROHH0LHVK</PkId>
+      <DataXml>
+        <EntityMetadata/>
+      </DataXml>
+      <Name>下属人员列表</Name>
+      <Id>3H3NIX2HAG3H</Id>
+      <LocaleId>zh_CN</LocaleId>
+    </DesignEntityMetaL>
+  </DesignMetas>
+  <Version>1733984010392</Version>
+  <BOSVersion>1.0</BOSVersion>
+</DeployMetadata>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DeployMetadata>
+  <MasterId>3EC/KD/2036O</MasterId>
+  <Id>3EC/KD/2036O</Id>
+  <DesignMetas>
+    <DesignFormMetaL>
+      <Number>tdkw_online</Number>
+      <PkId>3ECKEZGONN2G</PkId>
+      <DataXml>
+        <FormMetadata/>
+      </DataXml>
+      <Name>在线学习</Name>
+      <Id>3EC/KD/2036O</Id>
+      <LocaleId>zh_CN</LocaleId>
+    </DesignFormMetaL>
+    <DesignEntityMetaL>
+      <Number>tdkw_online</Number>
+      <PkId>3ECKEZH15B70</PkId>
+      <DataXml>
+        <EntityMetadata/>
+      </DataXml>
+      <Name>在线学习</Name>
+      <Id>3EC/KD/2036O</Id>
+      <LocaleId>zh_CN</LocaleId>
+    </DesignEntityMetaL>
+  </DesignMetas>
+  <Version>1689315553388</Version>
+  <BOSVersion>1.0</BOSVersion>
+</DeployMetadata>

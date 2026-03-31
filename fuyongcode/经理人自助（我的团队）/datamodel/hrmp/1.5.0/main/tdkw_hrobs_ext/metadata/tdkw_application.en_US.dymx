@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DeployMetadata>
+  <MasterId>3BOPQ1//JGTG</MasterId>
+  <Id>3BOPQ1//JGTG</Id>
+  <DesignMetas>
+    <DesignFormMetaL>
+      <Number>tdkw_application</Number>
+      <PkId>47SUT76VW5EQ</PkId>
+      <DataXml>
+        <FormMetadata>
+          <Name>Statement Template</Name>
+          <Items>
+            <FieldAp action="edit" oid="maZVy7W0VJ">
+              <Name>单据类型</Name>
+            </FieldAp>
+            <FieldAp action="edit" oid="vZUYcMPKI0">
+              <Name>提交日期</Name>
+            </FieldAp>
+            <EntryFieldAp action="edit" oid="lmr1tnIf5k">
+              <Name>流程标题</Name>
+            </EntryFieldAp>
+            <EntryFieldAp action="edit" oid="57FSEJlWjJ">
+              <Name>单据类别</Name>
+            </EntryFieldAp>
+            <EntryFieldAp action="edit" oid="6tDq5n1d5u">
+              <Name>提交日期</Name>
+            </EntryFieldAp>
+            <EntryFieldAp action="edit" oid="RQTRwNTYMn">
+              <Name>类型</Name>
+            </EntryFieldAp>
+            <EntryFieldAp action="edit" oid="nWGASZwnEz">
+              <Name>单据状态</Name>
+            </EntryFieldAp>
+            <EntryFieldAp action="edit" oid="M60AhLnbCz">
+              <Name>源单id</Name>
+            </EntryFieldAp>
+            <EntryFieldAp action="edit" oid="EihR40WxDC">
+              <Name>单据编号隐藏</Name>
+            </EntryFieldAp>
+          </Items>
+        </FormMetadata>
+      </DataXml>
+      <Name>Statement Template</Name>
+      <Id>3BOPQ1//JGTG</Id>
+      <LocaleId>en_US</LocaleId>
+    </DesignFormMetaL>
+    <DesignEntityMetaL>
+      <Number>tdkw_application</Number>
+      <PkId>47SUT77PHXUL</PkId>
+      <DataXml>
+        <EntityMetadata>
+          <Items>
+            <ComboField action="edit" oid="57FSEJlWjJ">
+              <Name>单据类别</Name>
+              <Items>
+                <ComboItem action="edit" oid="1">
+                  <Caption>离职申请单</Caption>
+                </ComboItem>
+                <ComboItem action="edit" oid="2">
+                  <Caption>请假申请单</Caption>
+                </ComboItem>
+                <ComboItem action="edit" oid="3">
+                  <Caption>销假申请单</Caption>
+                </ComboItem>
+                <ComboItem action="edit" oid="4">
+                  <Caption>出差申请单</Caption>
+                </ComboItem>
+                <ComboItem action="edit" oid="5">
+                  <Caption>销差申请单</Caption>
+                </ComboItem>
+                <ComboItem action="edit" oid="6">
+                  <Caption>补卡申请单</Caption>
+                </ComboItem>
+                <ComboItem action="edit" oid="7">
+                  <Caption>加班申请单</Caption>
+                </ComboItem>
+                <ComboItem action="edit" oid="8">
+                  <Caption>证明办理单</Caption>
+                </ComboItem>
+                <ComboItem action="edit" oid="9">
+                  <Caption>个人信息修改申请单</Caption>
+                </ComboItem>
+                <ComboItem action="edit" oid="10">
+                  <Caption>问询单</Caption>
+                </ComboItem>
+                <ComboItem action="edit" oid="11">
+                  <Caption>招聘需求单</Caption>
+                </ComboItem>
+                <ComboItem action="edit" oid="12">
+                  <Caption>个人信息删除申请单</Caption>
+                </ComboItem>
+                <ComboItem action="edit" oid="13">
+                  <Caption>因私出国申请单</Caption>
+                </ComboItem>
+                <ComboItem action="edit" oid="14">
+                  <Caption>银行卡信息维护申请单</Caption>
+                </ComboItem>
+              </Items>
+            </ComboField>
+            <DateField action="edit" oid="6tDq5n1d5u">
+              <Name>提交日期</Name>
+            </DateField>
+            <TextField action="edit" oid="RQTRwNTYMn">
+              <Name>类型</Name>
+            </TextField>
+            <ComboField action="edit" oid="maZVy7W0VJ">
+              <Name>单据类型</Name>
+              <Items>
+                <ComboItem action="edit" oid="0">
+                  <Caption>全部</Caption>
+                </ComboItem>
+                <ComboItem action="edit" oid="1">
+                  <Caption>离职申请单</Caption>
+                </ComboItem>
+                <ComboItem action="edit" oid="2">
+                  <Caption>请假申请单</Caption>
+                </ComboItem>
+                <ComboItem action="edit" oid="3">
+                  <Caption>销假申请单</Caption>
+                </ComboItem>
+                <ComboItem action="edit" oid="4">
+                  <Caption>出差申请单</Caption>
+                </ComboItem>
+                <ComboItem action="edit" oid="5">
+                  <Caption>销差申请单</Caption>
+                </ComboItem>
+                <ComboItem action="edit" oid="6">
+                  <Caption>补卡申请单</Caption>
+                </ComboItem>
+                <ComboItem action="edit" oid="7">
+                  <Caption>加班申请单</Caption>
+                </ComboItem>
+                <ComboItem action="edit" oid="8">
+                  <Caption>证明办理单</Caption>
+                </ComboItem>
+                <ComboItem action="edit" oid="9">
+                  <Caption>个人信息修改申请单</Caption>
+                </ComboItem>
+                <ComboItem action="edit" oid="10">
+                  <Caption>问询单</Caption>
+                </ComboItem>
+                <ComboItem action="edit" oid="11">
+                  <Caption>招聘需求单</Caption>
+                </ComboItem>
+                <ComboItem action="edit" oid="12">
+                  <Caption>个人信息删除申请单</Caption>
+                </ComboItem>
+                <ComboItem action="edit" oid="13">
+                  <Caption>因私出国申请单</Caption>
+                </ComboItem>
+                <ComboItem action="edit" oid="14">
+                  <Caption>银行卡信息维护申请单</Caption>
+                </ComboItem>
+              </Items>
+            </ComboField>
+            <DateRangeField action="edit" oid="vZUYcMPKI0">
+              <Name>提交日期</Name>
+            </DateRangeField>
+            <ComboField action="edit" oid="nWGASZwnEz">
+              <Name>单据状态</Name>
+              <Items>
+                <ComboItem action="edit" oid="A">
+                  <Caption>暂存</Caption>
+                </ComboItem>
+                <ComboItem action="edit" oid="B">
+                  <Caption>已提交</Caption>
+                </ComboItem>
+                <ComboItem action="edit" oid="G">
+                  <Caption>待重新提交</Caption>
+                </ComboItem>
+                <ComboItem action="edit" oid="D">
+                  <Caption>审批中</Caption>
+                </ComboItem>
+                <ComboItem action="edit" oid="C">
+                  <Caption>审批通过</Caption>
+                </ComboItem>
+                <ComboItem action="edit" oid="E">
+                  <Caption>审批不通过</Caption>
+                </ComboItem>
+                <ComboItem action="edit" oid="F">
+                  <Caption>已废弃</Caption>
+                </ComboItem>
+                <ComboItem action="edit" oid="I">
+                  <Caption>已审核</Caption>
+                </ComboItem>
+                <ComboItem action="edit" oid="H">
+                  <Caption>处理完成</Caption>
+                </ComboItem>
+              </Items>
+            </ComboField>
+            <TextField action="edit" oid="M60AhLnbCz">
+              <Name>源单id</Name>
+            </TextField>
+            <TextField action="edit" oid="lmr1tnIf5k">
+              <Name>流程标题</Name>
+            </TextField>
+            <TextField action="edit" oid="EihR40WxDC">
+              <Name>单据编号隐藏</Name>
+            </TextField>
+          </Items>
+        </EntityMetadata>
+      </DataXml>
+      <Name>Statement Template</Name>
+      <Id>3BOPQ1//JGTG</Id>
+      <LocaleId>en_US</LocaleId>
+    </DesignEntityMetaL>
+  </DesignMetas>
+  <Version>1719803057149</Version>
+  <BOSVersion>1.0</BOSVersion>
+</DeployMetadata>

@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DeployMetadata>
+  <MasterId>4BATEZLA1M5=</MasterId>
+  <Id>4BATEZLA1M5=</Id>
+  <DesignMetas>
+    <DesignFormMetaL>
+      <Number>tdkw_alignment_window</Number>
+      <PkId>4BIHLRPUXPJX</PkId>
+      <DataXml>
+        <FormMetadata>
+          <Name>關聯對齊彈窗</Name>
+          <Items>
+            <FormAp action="edit" oid="db6d1d5500007bac">
+              <Name>關聯對齊彈窗</Name>
+            </FormAp>
+            <EntryFieldAp action="edit" oid="3oCp5eTN7q2h5bRJW3">
+              <Name>指標名稱</Name>
+            </EntryFieldAp>
+            <EntryFieldAp action="edit" oid="XVULV2TyrjLugNG7uk">
+              <Name>指標描述</Name>
+            </EntryFieldAp>
+            <EntryFieldAp action="edit" oid="VLpJ32Fzx3Pv2A2WG6">
+              <Name>權重</Name>
+            </EntryFieldAp>
+            <EntryFieldAp action="edit" oid="SSrIHpRyqdRf3vOYPa">
+              <Name>目標值</Name>
+            </EntryFieldAp>
+            <EntryFieldAp action="edit" oid="1oDeoAVOeWmKofpLnj">
+              <Name>單位</Name>
+            </EntryFieldAp>
+            <EntryFieldAp action="edit" oid="0iUhEZxgucvpWvXc7L">
+              <Name>與此指標對齊</Name>
+            </EntryFieldAp>
+            <EntryAp action="edit" oid="RwdbPnTHIVZ75H97DZ">
+              <Name>單據體</Name>
+            </EntryAp>
+          </Items>
+        </FormMetadata>
+      </DataXml>
+      <Name>關聯對齊彈窗</Name>
+      <Id>4BATEZLA1M5=</Id>
+      <LocaleId>zh_TW</LocaleId>
+    </DesignFormMetaL>
+    <DesignEntityMetaL>
+      <Number>tdkw_alignment_window</Number>
+      <PkId>4BIHLRUKUVPT</PkId>
+      <DataXml>
+        <EntityMetadata>
+          <Name>關聯對齊彈窗</Name>
+          <Items>
+            <MainEntity action="edit" oid="db6d1d5500007cac">
+              <Operations>
+                <Operation action="edit" oid="4BIFU+S0=D9T">
+                  <Name>關閉</Name>
+                </Operation>
+              </Operations>
+              <Name>關聯對齊彈窗</Name>
+            </MainEntity>
+            <EntryEntity action="edit" oid="RwdbPnTHIVZ75H97DZ">
+              <Name>單據體</Name>
+            </EntryEntity>
+            <BasedataField action="edit" oid="3oCp5eTN7q2h5bRJW3">
+              <Name>指標名稱</Name>
+            </BasedataField>
+            <BasedataPropField action="edit" oid="XVULV2TyrjLugNG7uk">
+              <Name>指標描述</Name>
+            </BasedataPropField>
+            <TextField action="edit" oid="VLpJ32Fzx3Pv2A2WG6">
+              <Name>權重</Name>
+            </TextField>
+            <TextField action="edit" oid="SSrIHpRyqdRf3vOYPa">
+              <Name>目標值</Name>
+            </TextField>
+            <ComboField action="edit" oid="1oDeoAVOeWmKofpLnj">
+              <Name>單位</Name>
+              <Items>
+                <ComboItem action="edit" oid="yuan">
+                  <Caption>元</Caption>
+                </ComboItem>
+                <ComboItem action="edit" oid="wan_yuan">
+                  <Caption>萬元</Caption>
+                </ComboItem>
+                <ComboItem action="edit" oid="bai_wan_yuan">
+                  <Caption>百萬元</Caption>
+                </ComboItem>
+                <ComboItem action="edit" oid="qian_wan_yuan">
+                  <Caption>千萬元</Caption>
+                </ComboItem>
+                <ComboItem action="edit" oid="percent">
+                  <Caption>百分比</Caption>
+                </ComboItem>
+              </Items>
+            </ComboField>
+            <CheckBoxField action="edit" oid="0iUhEZxgucvpWvXc7L">
+              <Name>與此指標對齊</Name>
+            </CheckBoxField>
+          </Items>
+        </EntityMetadata>
+      </DataXml>
+      <Name>關聯對齊彈窗</Name>
+      <Id>4BATEZLA1M5=</Id>
+      <LocaleId>zh_TW</LocaleId>
+    </DesignEntityMetaL>
+  </DesignMetas>
+  <Version>1724397877700</Version>
+  <BOSVersion>1.0</BOSVersion>
+</DeployMetadata>

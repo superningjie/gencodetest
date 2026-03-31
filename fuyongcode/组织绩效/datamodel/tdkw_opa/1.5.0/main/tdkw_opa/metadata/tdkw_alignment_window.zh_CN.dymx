@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DeployMetadata>
+  <MasterId>4BATEZLA1M5=</MasterId>
+  <Id>4BATEZLA1M5=</Id>
+  <DesignMetas>
+    <DesignFormMetaL>
+      <Number>tdkw_alignment_window</Number>
+      <PkId>4BIHLRPR=9P4</PkId>
+      <DataXml>
+        <FormMetadata/>
+      </DataXml>
+      <Name>关联对齐弹窗</Name>
+      <Id>4BATEZLA1M5=</Id>
+      <LocaleId>zh_CN</LocaleId>
+    </DesignFormMetaL>
+    <DesignEntityMetaL>
+      <Number>tdkw_alignment_window</Number>
+      <PkId>4BIHLRUKUWD1</PkId>
+      <DataXml>
+        <EntityMetadata/>
+      </DataXml>
+      <Name>关联对齐弹窗</Name>
+      <Id>4BATEZLA1M5=</Id>
+      <LocaleId>zh_CN</LocaleId>
+    </DesignEntityMetaL>
+  </DesignMetas>
+  <Version>1724397877700</Version>
+  <BOSVersion>1.0</BOSVersion>
+</DeployMetadata>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DeployAppMetadata>
+  <MasterId>4CHFD+7332QW</MasterId>
+  <Id>4CHFD+7332QW</Id>
+  <DesignMetas>
+    <DesignAppMetaL>
+      <PkId>4CZXRS87O5W+</PkId>
+      <DataXml>
+        <AppMetadata>
+          <ParentId/>
+          <InheritPath/>
+        </AppMetadata>
+      </DataXml>
+      <Name>活动案例</Name>
+      <Description>活动案例</Description>
+      <Id>4CHFD+7332QW</Id>
+      <LocaleId>zh_CN</LocaleId>
+    </DesignAppMetaL>
+  </DesignMetas>
+  <BOSVersion>1.0</BOSVersion>
+</DeployAppMetadata>

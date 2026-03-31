@@ -1,0 +1,9 @@
+skill_id: asset_matcher
+name: 可复用资产匹配器
+version: '2.0'
+type: asset_matcher
+custom_class: core.skill_engine.AssetMatcherSkill
+description: 为实现项匹配可复用的代码资产，提高代码复用率和开发效率。
+config: {}
+inputs: []
+outputs: []

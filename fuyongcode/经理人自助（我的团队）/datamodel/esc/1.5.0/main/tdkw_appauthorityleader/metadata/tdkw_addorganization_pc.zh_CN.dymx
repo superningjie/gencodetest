@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DeployMetadata>
+  <MasterId>3EWTRMIDMB8Z</MasterId>
+  <Id>3EWTRMIDMB8Z</Id>
+  <DesignMetas>
+    <DesignFormMetaL>
+      <Number>tdkw_addorganization_pc</Number>
+      <PkId>3EWTRMOFABFJ</PkId>
+      <DataXml>
+        <FormMetadata/>
+      </DataXml>
+      <Name>组织新增PC端</Name>
+      <Id>3EWTRMIDMB8Z</Id>
+      <LocaleId>zh_CN</LocaleId>
+    </DesignFormMetaL>
+    <DesignEntityMetaL>
+      <Number>tdkw_addorganization_pc</Number>
+      <PkId>3EWTRMQ777F0</PkId>
+      <DataXml>
+        <EntityMetadata/>
+      </DataXml>
+      <Name>组织新增PC端</Name>
+      <Id>3EWTRMIDMB8Z</Id>
+      <LocaleId>zh_CN</LocaleId>
+    </DesignEntityMetaL>
+  </DesignMetas>
+  <Version>1689819149960</Version>
+  <BOSVersion>1.0</BOSVersion>
+</DeployMetadata>

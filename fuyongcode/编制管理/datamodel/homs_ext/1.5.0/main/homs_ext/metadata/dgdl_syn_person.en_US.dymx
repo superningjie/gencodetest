@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DeployMetadata>
+  <MasterId>3W5YKW0/ASQ=</MasterId>
+  <Id>3W5YKW0/ASQ=</Id>
+  <DesignMetas>
+    <DesignFormMetaL>
+      <Number>dgdl_syn_person</Number>
+      <PkId>3W9JTUBQBOPJ</PkId>
+      <DataXml>
+        <FormMetadata>
+          <Name>同步在岗人员</Name>
+          <Items>
+            <FormAp action="edit" oid="62b02ccc00005eac">
+              <Name>同步在岗人员</Name>
+            </FormAp>
+            <FieldAp action="edit" oid="C13nFb4tSCruWOyEP4">
+              <Name>同步日期</Name>
+            </FieldAp>
+          </Items>
+        </FormMetadata>
+      </DataXml>
+      <Name>同步在岗人员</Name>
+      <Id>3W5YKW0/ASQ=</Id>
+      <LocaleId>en_US</LocaleId>
+    </DesignFormMetaL>
+    <DesignEntityMetaL>
+      <Number>dgdl_syn_person</Number>
+      <PkId>3W9JTUDVR84B</PkId>
+      <DataXml>
+        <EntityMetadata>
+          <Name>同步在岗人员</Name>
+          <Items>
+            <MainEntity action="edit" oid="62b02ccc000060ac">
+              <Operations>
+                <Operation action="edit" oid="3W8UBGD5O46=">
+                  <Name>空操作</Name>
+                </Operation>
+              </Operations>
+              <Name>同步在岗人员</Name>
+            </MainEntity>
+            <DateField action="edit" oid="C13nFb4tSCruWOyEP4">
+              <Name>同步日期</Name>
+            </DateField>
+          </Items>
+        </EntityMetadata>
+      </DataXml>
+      <Name>同步在岗人员</Name>
+      <Id>3W5YKW0/ASQ=</Id>
+      <LocaleId>en_US</LocaleId>
+    </DesignEntityMetaL>
+  </DesignMetas>
+  <Version>1730282954433</Version>
+  <BOSVersion>1.0</BOSVersion>
+</DeployMetadata>

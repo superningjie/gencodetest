@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DeployMetadata>
+  <MasterId>3BSAF+DOFIP7</MasterId>
+  <Id>3BSAF+DOFIP7</Id>
+  <DesignMetas>
+    <DesignFormMetaL>
+      <Number>tdkw_hrobs_pc_application</Number>
+      <PkId>3CO8LD2FAWA7</PkId>
+      <DataXml>
+        <FormMetadata>
+          <Items>
+            <FlexPanelAp action="edit" oid="Fy43gzPozu">
+              <Name>Flex容器</Name>
+            </FlexPanelAp>
+            <FlexPanelAp action="edit" oid="sL4vE59Bs6">
+              <Name>Flex容器</Name>
+            </FlexPanelAp>
+            <FlexPanelAp action="edit" oid="ojVqBX1dJC">
+              <Name>Flex容器</Name>
+            </FlexPanelAp>
+            <FlexPanelAp action="edit" oid="5eQ8UCiUms">
+              <Name>Flex容器</Name>
+            </FlexPanelAp>
+            <FlexPanelAp action="edit" oid="rvkB4X6EWZ">
+              <Name>真實標題區</Name>
+            </FlexPanelAp>
+            <FlexPanelAp action="edit" oid="7cXDisHpP6">
+              <Name>真實內容區</Name>
+            </FlexPanelAp>
+            <LabelAp action="edit" oid="ox0oW143Qp">
+              <Name>已完成申請</Name>
+            </LabelAp>
+            <LabelAp action="edit" oid="Nk9r8Rl8SS">
+              <Name>已完成申請</Name>
+            </LabelAp>
+            <LabelAp action="edit" oid="mjOquPSkXQ">
+              <Name>在辦申請</Name>
+            </LabelAp>
+            <LabelAp action="edit" oid="3QCZrLerO2">
+              <Name>在辦申請</Name>
+            </LabelAp>
+            <FlexPanelAp action="edit" oid="O4wgrty7Ah">
+              <Name>Flex容器</Name>
+            </FlexPanelAp>
+            <FlexPanelAp action="edit" oid="GdaLzzuDb2">
+              <Name>Flex容器</Name>
+            </FlexPanelAp>
+            <LabelAp action="edit" oid="u4veP2KElt">
+              <Name>我的申請</Name>
+            </LabelAp>
+            <FlexPanelAp action="edit" oid="WHAQapJeF2">
+              <Name>Flex容器</Name>
+            </FlexPanelAp>
+            <FlexPanelAp action="edit" oid="cWMgSO5y2F">
+              <Name>Flex容器</Name>
+            </FlexPanelAp>
+          </Items>
+        </FormMetadata>
+      </DataXml>
+      <Name>卡片模板</Name>
+      <Id>3BSAF+DOFIP7</Id>
+      <LocaleId>zh_TW</LocaleId>
+    </DesignFormMetaL>
+    <DesignEntityMetaL>
+      <Number>tdkw_hrobs_pc_application</Number>
+      <PkId>3CO8LD32QJ=2</PkId>
+      <DataXml>
+        <EntityMetadata/>
+      </DataXml>
+      <Name>卡片模板</Name>
+      <Id>3BSAF+DOFIP7</Id>
+      <LocaleId>zh_TW</LocaleId>
+    </DesignEntityMetaL>
+  </DesignMetas>
+  <Version>1686820674746</Version>
+  <BOSVersion>1.0</BOSVersion>
+</DeployMetadata>

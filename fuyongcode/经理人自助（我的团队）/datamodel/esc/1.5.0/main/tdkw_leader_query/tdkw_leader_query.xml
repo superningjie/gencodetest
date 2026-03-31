@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataModel dympath="metadata">
+    <SqlScript Type="KSQL" Separator=";" dbkey="sys">preinsdata/wb_portal_scheme_2113251143164378112_20250207141811.sql</SqlScript>
+</DataModel>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DeployMetadata>
+  <MasterId>3EU/KD/75M/V</MasterId>
+  <Id>3EU/KD/75M/V</Id>
+  <DesignMetas>
+    <DesignFormMetaL>
+      <Number>tdkw_birthdaygreetings</Number>
+      <PkId>3FBC27XGL/6I</PkId>
+      <DataXml>
+        <FormMetadata/>
+      </DataXml>
+      <Name>领导自助-生日祝福移动端</Name>
+      <Id>3EU/KD/75M/V</Id>
+      <LocaleId>zh_CN</LocaleId>
+    </DesignFormMetaL>
+    <DesignEntityMetaL>
+      <Number>tdkw_birthdaygreetings</Number>
+      <PkId>3FBC27YHGJMX</PkId>
+      <DataXml>
+        <EntityMetadata/>
+      </DataXml>
+      <Name>领导自助-生日祝福移动端</Name>
+      <Id>3EU/KD/75M/V</Id>
+      <LocaleId>zh_CN</LocaleId>
+    </DesignEntityMetaL>
+  </DesignMetas>
+  <Version>1690255754326</Version>
+  <BOSVersion>1.0</BOSVersion>
+</DeployMetadata>

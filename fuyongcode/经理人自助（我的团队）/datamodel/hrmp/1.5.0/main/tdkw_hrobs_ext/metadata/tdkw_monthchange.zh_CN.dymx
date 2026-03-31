@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DeployMetadata>
+  <MasterId>3GKU272LE+FN</MasterId>
+  <Id>3GKU272LE+FN</Id>
+  <DesignMetas>
+    <DesignFormMetaL>
+      <Number>tdkw_monthchange</Number>
+      <PkId>43ERLR0F36HS</PkId>
+      <DataXml>
+        <FormMetadata/>
+      </DataXml>
+      <Name>本月轮动报表</Name>
+      <Id>3GKU272LE+FN</Id>
+      <LocaleId>zh_CN</LocaleId>
+    </DesignFormMetaL>
+    <DesignEntityMetaL>
+      <Number>tdkw_monthchange</Number>
+      <PkId>43ERLR1Y3TXQ</PkId>
+      <DataXml>
+        <EntityMetadata/>
+      </DataXml>
+      <Name>本月轮动报表</Name>
+      <Id>3GKU272LE+FN</Id>
+      <LocaleId>zh_CN</LocaleId>
+    </DesignEntityMetaL>
+  </DesignMetas>
+  <Version>1715571019848</Version>
+  <BOSVersion>1.0</BOSVersion>
+</DeployMetadata>

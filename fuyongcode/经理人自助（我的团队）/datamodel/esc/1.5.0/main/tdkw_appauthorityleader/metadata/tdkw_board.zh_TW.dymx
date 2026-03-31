@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DeployMetadata>
+  <MasterId>44A8MV44M2N/</MasterId>
+  <Id>44A8MV44M2N/</Id>
+  <DesignMetas>
+    <DesignFormMetaL>
+      <Number>tdkw_board</Number>
+      <PkId>44BN9+C7NFGL</PkId>
+      <DataXml>
+        <FormMetadata>
+          <Name>績效看板</Name>
+          <Items>
+            <BillFormAp action="edit" oid="00305e8b000005ac">
+              <MobListMeta>
+                <FormMetadata>
+                  <Items>
+                    <CardListColumnAp action="edit" oid="44A8MV5TWK3B">
+                      <Name>單據狀態</Name>
+                    </CardListColumnAp>
+                    <CardListColumnAp action="edit" oid="44A8MV5TWKSM">
+                      <Name>創建人.姓名</Name>
+                    </CardListColumnAp>
+                    <CardFlexPanelAp action="edit" oid="44A8MV5TWKSL">
+                      <Name>卡片佈局容器</Name>
+                    </CardFlexPanelAp>
+                    <MobSortPanelAp action="edit" oid="mobsortpanel">
+                      <Name>排序項1</Name>
+                    </MobSortPanelAp>
+                    <MobFilterPanelAp action="edit" oid="mobfilterpanel">
+                      <Name>過濾項1</Name>
+                    </MobFilterPanelAp>
+                    <MobFilterPanelAp action="edit" oid="44A8MV5TWK3A">
+                      <Name>過濾項2</Name>
+                    </MobFilterPanelAp>
+                  </Items>
+                </FormMetadata>
+              </MobListMeta>
+              <Name>績效看板</Name>
+              <MobMeta>
+                <FormMetadata>
+                  <Items>
+                    <LayoutFlexAp action="edit" oid="44A8MV5TWK38">
+                      <Name>字段佈局容器</Name>
+                    </LayoutFlexAp>
+                    <LayoutFlexAp action="edit" oid="44A8MV5TWKSI">
+                      <Name>字段佈局容器</Name>
+                    </LayoutFlexAp>
+                    <FieldAp action="edit" oid="44A8MV5TWK39">
+                      <Name>單據狀態</Name>
+                    </FieldAp>
+                    <FieldAp action="edit" oid="44A8MV5TWKSJ">
+                      <Name>審核人</Name>
+                    </FieldAp>
+                    <FieldAp action="edit" oid="44A8MV5TWK3=">
+                      <Name>創建人</Name>
+                    </FieldAp>
+                    <MBarItemAp action="edit" oid="44A8MV5TWKSK">
+                      <Name>提交</Name>
+                    </MBarItemAp>
+                  </Items>
+                </FormMetadata>
+              </MobMeta>
+            </BillFormAp>
+            <EntryAp action="edit" oid="44A8MV5Q95L1">
+              <Name>單據體</Name>
+            </EntryAp>
+            <AdvConSummaryPanelAp action="edit" oid="44A8MV5Q94XQ">
+              <Name>高級面板摘要容器</Name>
+            </AdvConSummaryPanelAp>
+            <AdvConToolbarAp action="edit" oid="44A8MV5Q95L/">
+              <Name>高級面板工具欄</Name>
+            </AdvConToolbarAp>
+            <AdvConChildPanelAp action="edit" oid="44A8MV5Q94XR">
+              <Name>高級面板子容器</Name>
+            </AdvConChildPanelAp>
+            <AdvConBarItemAp action="edit" oid="44A8MV5Q95L0">
+              <Name>增行</Name>
+            </AdvConBarItemAp>
+            <AdvConBarItemAp action="edit" oid="44A8MV5Q94XS">
+              <Name>刪行</Name>
+            </AdvConBarItemAp>
+            <EntryFieldAp action="edit" oid="44A8MV5Q94XT">
+              <Name>修改人</Name>
+            </EntryFieldAp>
+            <EntryFieldAp action="edit" oid="44A8MV5Q95L2">
+              <Name>修改時間</Name>
+            </EntryFieldAp>
+            <FieldAp action="edit" oid="tym6WKKGb1">
+              <Name>HR行政組織</Name>
+            </FieldAp>
+            <AdvConAp action="edit" oid="44A8MV5Q95L+">
+              <Name>分錄</Name>
+            </AdvConAp>
+          </Items>
+        </FormMetadata>
+      </DataXml>
+      <Name>績效看板</Name>
+      <Id>44A8MV44M2N/</Id>
+      <LocaleId>zh_TW</LocaleId>
+    </DesignFormMetaL>
+    <DesignEntityMetaL>
+      <Number>tdkw_board</Number>
+      <PkId>44BN9+EJ=CSR</PkId>
+      <DataXml>
+        <EntityMetadata>
+          <Name>績效看板</Name>
+          <Items>
+            <BillEntity action="edit" oid="00305e8b000007ac">
+              <Operations>
+                <Operation action="edit" oid="44A8MV5Q94XU">
+                  <Name>新增分錄</Name>
+                </Operation>
+                <Operation action="edit" oid="44A8MV5TWKSH">
+                  <Name>刪除分錄</Name>
+                </Operation>
+              </Operations>
+              <Name>績效看板</Name>
+            </BillEntity>
+            <EntryEntity action="edit" oid="44A8MV5Q95L1">
+              <Name>單據體</Name>
+            </EntryEntity>
+            <ModifierField action="edit" oid="44A8MV5Q94XT">
+              <Name>修改人</Name>
+            </ModifierField>
+            <ModifyDateField action="edit" oid="44A8MV5Q95L2">
+              <Name>修改時間</Name>
+            </ModifyDateField>
+            <BasedataField action="edit" oid="tym6WKKGb1">
+              <Name>HR行政組織</Name>
+            </BasedataField>
+          </Items>
+        </EntityMetadata>
+      </DataXml>
+      <Name>績效看板</Name>
+      <Id>44A8MV44M2N/</Id>
+      <LocaleId>zh_TW</LocaleId>
+    </DesignEntityMetaL>
+  </DesignMetas>
+  <Version>1716464007629</Version>
+  <BOSVersion>1.0</BOSVersion>
+</DeployMetadata>

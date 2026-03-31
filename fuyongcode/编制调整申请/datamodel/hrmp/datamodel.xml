@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Package name="hrmp">
+    <ver>1.5.0</ver>
+    <app>
+        <item id="tdkw_haos_ext" name="tdkw_haos_ext" pkname="hrmp-tdkw_haos_ext" path="main/tdkw_haos_ext"/>
+    </app>
+</Package>

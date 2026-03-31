@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DeployMetadata>
+  <MasterId>3EC57JAWQCW8</MasterId>
+  <Id>3EC57JAWQCW8</Id>
+  <DesignMetas>
+    <DesignFormMetaL>
+      <Number>tdkw_monthonboardingrpt</Number>
+      <PkId>3T1U=78=KOCG</PkId>
+      <DataXml>
+        <FormMetadata/>
+      </DataXml>
+      <Name>本月入职报表</Name>
+      <Id>3EC57JAWQCW8</Id>
+      <LocaleId>zh_CN</LocaleId>
+    </DesignFormMetaL>
+    <DesignEntityMetaL>
+      <Number>tdkw_monthonboardingrpt</Number>
+      <PkId>3T1U=797UUZV</PkId>
+      <DataXml>
+        <EntityMetadata/>
+      </DataXml>
+      <Name>本月入职报表</Name>
+      <Id>3EC57JAWQCW8</Id>
+      <LocaleId>zh_CN</LocaleId>
+    </DesignEntityMetaL>
+  </DesignMetas>
+  <Version>1703579431494</Version>
+  <BOSVersion>1.0</BOSVersion>
+</DeployMetadata>

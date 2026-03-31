@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DeployMetadata>
+  <MasterId>3GKU272LE+FN</MasterId>
+  <Id>3GKU272LE+FN</Id>
+  <DesignMetas>
+    <DesignFormMetaL>
+      <Number>tdkw_monthchange</Number>
+      <PkId>43ERLR0MC/WT</PkId>
+      <DataXml>
+        <FormMetadata>
+          <Name>Statement Template</Name>
+          <Items>
+            <FieldAp action="edit" oid="znTV74dxhV">
+              <Name>姓名</Name>
+            </FieldAp>
+            <FieldAp action="edit" oid="feDo3FFCyk">
+              <Name>所属组织</Name>
+            </FieldAp>
+            <FieldAp action="edit" oid="pjhdHjtNBC">
+              <Name>岗位层级</Name>
+            </FieldAp>
+            <FieldAp action="edit" oid="2E63wgkfDm">
+              <Name>日期范围</Name>
+            </FieldAp>
+            <FieldAp action="edit" oid="5xTQ98Zv4d">
+              <Name>任职类型</Name>
+            </FieldAp>
+            <FieldAp action="edit" oid="k4Q8utLM6j">
+              <Name>人员类型</Name>
+            </FieldAp>
+            <FlexPanelAp action="edit" oid="EhhcQ9vcgyjemxaMta">
+              <Name>Flex容器</Name>
+            </FlexPanelAp>
+            <EntryFieldAp action="edit" oid="6fIbI72xpb">
+              <Name>姓名</Name>
+            </EntryFieldAp>
+            <EntryFieldAp action="edit" oid="JVlKDNEROF">
+              <Name>岗位</Name>
+            </EntryFieldAp>
+            <EntryFieldAp action="edit" oid="bOwVFjuRGb">
+              <Name>岗位层级</Name>
+            </EntryFieldAp>
+            <EntryFieldAp action="edit" oid="7uO5kl7sVA">
+              <Name>所属公司</Name>
+            </EntryFieldAp>
+            <EntryFieldAp action="edit" oid="7YRI2z3hFH">
+              <Name>所属部门</Name>
+            </EntryFieldAp>
+            <EntryFieldAp action="edit" oid="rTSsUnS8ks">
+              <Name>原岗位</Name>
+            </EntryFieldAp>
+            <EntryFieldAp action="edit" oid="RmXqk8Sh95vp4vf35j">
+              <Name>原岗位</Name>
+            </EntryFieldAp>
+            <EntryFieldAp action="edit" oid="GzlU105xwt">
+              <Name>原岗位层级</Name>
+            </EntryFieldAp>
+            <EntryFieldAp action="edit" oid="WOHPEUJMzO">
+              <Name>原所属公司</Name>
+            </EntryFieldAp>
+            <EntryFieldAp action="edit" oid="WOPEEC4ep52VIG23qt">
+              <Name>原所属公司</Name>
+            </EntryFieldAp>
+            <EntryFieldAp action="edit" oid="N280HUlw6Aji91oJzT">
+              <Name>原所属部门</Name>
+            </EntryFieldAp>
+            <EntryFieldAp action="edit" oid="9QQAiqFV3tgURgxq9F">
+              <Name>原职层</Name>
+            </EntryFieldAp>
+            <EntryFieldAp action="edit" oid="TuD2kL1Kqw">
+              <Name>原职层</Name>
+            </EntryFieldAp>
+            <EntryFieldAp action="edit" oid="Ekk0pSpN4H">
+              <Name>异动时间</Name>
+            </EntryFieldAp>
+            <EntryFieldAp action="edit" oid="U33mvz3YuL">
+              <Name>异动类型</Name>
+            </EntryFieldAp>
+            <EntryFieldAp action="edit" oid="DtJ8R5bmv2">
+              <Name>异动原因</Name>
+            </EntryFieldAp>
+            <EntryFieldAp action="edit" oid="Rj93dc8tBUTi7ouJLv">
+              <Name>工号</Name>
+            </EntryFieldAp>
+          </Items>
+        </FormMetadata>
+      </DataXml>
+      <Name>Statement Template</Name>
+      <Id>3GKU272LE+FN</Id>
+      <LocaleId>en_US</LocaleId>
+    </DesignFormMetaL>
+    <DesignEntityMetaL>
+      <Number>tdkw_monthchange</Number>
+      <PkId>43ERLR23CN=R</PkId>
+      <DataXml>
+        <EntityMetadata>
+          <Items>
+            <ReportEntity action="edit" oid="1b760aa100003cac">
+              <PermissionDimension>
+                <PermissionDimension>
+                  <Name>维度控制</Name>
+                </PermissionDimension>
+              </PermissionDimension>
+              <PermissionControl>
+                <PermissionControl>
+                  <Name>控制功能权限</Name>
+                </PermissionControl>
+              </PermissionControl>
+            </ReportEntity>
+            <BasedataField action="edit" oid="6fIbI72xpb">
+              <Name>姓名</Name>
+            </BasedataField>
+            <ComboField action="edit" oid="bOwVFjuRGb">
+              <Name>岗位层级</Name>
+              <Items>
+                <ComboItem action="edit" oid="1">
+                  <Caption>集团高管-集团直管</Caption>
+                </ComboItem>
+                <ComboItem action="edit" oid="2">
+                  <Caption>集团高管-授权行业</Caption>
+                </ComboItem>
+                <ComboItem action="edit" oid="3">
+                  <Caption>其他高管</Caption>
+                </ComboItem>
+                <ComboItem action="edit" oid="4">
+                  <Caption>中层</Caption>
+                </ComboItem>
+                <ComboItem action="edit" oid="5">
+                  <Caption>基层</Caption>
+                </ComboItem>
+              </Items>
+            </ComboField>
+            <BasedataField action="edit" oid="rTSsUnS8ks">
+              <Name>原岗位</Name>
+            </BasedataField>
+            <ComboField action="edit" oid="GzlU105xwt">
+              <Name>原岗位层级</Name>
+              <Items>
+                <ComboItem action="edit" oid="1">
+                  <Caption>集团高管-集团直管</Caption>
+                </ComboItem>
+                <ComboItem action="edit" oid="2">
+                  <Caption>集团高管-授权行业</Caption>
+                </ComboItem>
+                <ComboItem action="edit" oid="3">
+                  <Caption>其他高管</Caption>
+                </ComboItem>
+                <ComboItem action="edit" oid="4">
+                  <Caption>中层</Caption>
+                </ComboItem>
+                <ComboItem action="edit" oid="5">
+                  <Caption>基层</Caption>
+                </ComboItem>
+              </Items>
+            </ComboField>
+            <BasedataField action="edit" oid="WOHPEUJMzO">
+              <Name>原所属公司</Name>
+            </BasedataField>
+            <DateField action="edit" oid="Ekk0pSpN4H">
+              <Name>异动时间</Name>
+            </DateField>
+            <BasedataField action="edit" oid="TuD2kL1Kqw">
+              <Name>原职层</Name>
+            </BasedataField>
+            <ComboField action="edit" oid="pjhdHjtNBC">
+              <Name>岗位层级</Name>
+              <Items>
+                <ComboItem action="edit" oid="1">
+                  <Caption>集团高管-集团直管</Caption>
+                </ComboItem>
+                <ComboItem action="edit" oid="2">
+                  <Caption>集团高管-授权行业</Caption>
+                </ComboItem>
+                <ComboItem action="edit" oid="3">
+                  <Caption>其他高管</Caption>
+                </ComboItem>
+                <ComboItem action="edit" oid="4">
+                  <Caption>中层</Caption>
+                </ComboItem>
+                <ComboItem action="edit" oid="5">
+                  <Caption>基层</Caption>
+                </ComboItem>
+              </Items>
+            </ComboField>
+            <DateRangeField action="edit" oid="2E63wgkfDm">
+              <Name>日期范围</Name>
+            </DateRangeField>
+            <MulBasedataField action="edit" oid="k4Q8utLM6j">
+              <Name>人员类型</Name>
+            </MulBasedataField>
+            <MulBasedataField action="edit" oid="feDo3FFCyk">
+              <Name>所属组织</Name>
+            </MulBasedataField>
+            <TextField action="edit" oid="JVlKDNEROF">
+              <Name>岗位</Name>
+            </TextField>
+            <TextField action="edit" oid="7uO5kl7sVA">
+              <Name>所属公司</Name>
+            </TextField>
+            <TextField action="edit" oid="7YRI2z3hFH">
+              <Name>所属部门</Name>
+            </TextField>
+            <ComboField action="edit" oid="5xTQ98Zv4d">
+              <Name>任职类型</Name>
+              <Items>
+                <ComboItem action="edit" oid="A">
+                  <Caption>党委会</Caption>
+                </ComboItem>
+                <ComboItem action="edit" oid="B">
+                  <Caption>工会</Caption>
+                </ComboItem>
+                <ComboItem action="edit" oid="C">
+                  <Caption>团委</Caption>
+                </ComboItem>
+                <ComboItem action="edit" oid="D">
+                  <Caption>纪检委</Caption>
+                </ComboItem>
+                <ComboItem action="edit" oid="E">
+                  <Caption>经营班子</Caption>
+                </ComboItem>
+                <ComboItem action="edit" oid="F">
+                  <Caption>财务负责人</Caption>
+                </ComboItem>
+                <ComboItem action="edit" oid="G">
+                  <Caption>董监事</Caption>
+                </ComboItem>
+              </Items>
+            </ComboField>
+            <TextField action="edit" oid="U33mvz3YuL">
+              <Name>异动类型</Name>
+            </TextField>
+            <TextField action="edit" oid="DtJ8R5bmv2">
+              <Name>异动原因</Name>
+            </TextField>
+            <TextField action="edit" oid="znTV74dxhV">
+              <Name>姓名</Name>
+            </TextField>
+            <TextField action="edit" oid="RmXqk8Sh95vp4vf35j">
+              <Name>原岗位</Name>
+            </TextField>
+            <TextField action="edit" oid="WOPEEC4ep52VIG23qt">
+              <Name>原所属公司</Name>
+            </TextField>
+            <TextField action="edit" oid="9QQAiqFV3tgURgxq9F">
+              <Name>原职层</Name>
+            </TextField>
+            <BasedataPropField action="edit" oid="Rj93dc8tBUTi7ouJLv">
+              <Name>工号</Name>
+            </BasedataPropField>
+            <TextField action="edit" oid="N280HUlw6Aji91oJzT">
+              <Name>原所属部门</Name>
+            </TextField>
+          </Items>
+        </EntityMetadata>
+      </DataXml>
+      <Name>Statement Template</Name>
+      <Id>3GKU272LE+FN</Id>
+      <LocaleId>en_US</LocaleId>
+    </DesignEntityMetaL>
+  </DesignMetas>
+  <Version>1715571019848</Version>
+  <BOSVersion>1.0</BOSVersion>
+</DeployMetadata>

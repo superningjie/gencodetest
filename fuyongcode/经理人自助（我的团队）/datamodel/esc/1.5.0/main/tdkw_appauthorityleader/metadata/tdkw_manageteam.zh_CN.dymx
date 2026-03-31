@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DeployMetadata>
+  <MasterId>3N/CXBEO1IWV</MasterId>
+  <Id>3N/CXBEO1IWV</Id>
+  <DesignMetas>
+    <DesignFormMetaL>
+      <Number>tdkw_manageteam</Number>
+      <PkId>3OT3AEZ2LNW=</PkId>
+      <DataXml>
+        <FormMetadata/>
+      </DataXml>
+      <Name>经理人团队</Name>
+      <Id>3N/CXBEO1IWV</Id>
+      <LocaleId>zh_CN</LocaleId>
+    </DesignFormMetaL>
+    <DesignEntityMetaL>
+      <Number>tdkw_manageteam</Number>
+      <PkId>3OT3AF+=R0PP</PkId>
+      <DataXml>
+        <EntityMetadata>
+          <Items>
+            <MulBasedataField action="edit" oid="SpWAHScT0H">
+              <RefLayout/>
+              <DefValue/>
+            </MulBasedataField>
+          </Items>
+        </EntityMetadata>
+      </DataXml>
+      <Name>经理人团队</Name>
+      <Id>3N/CXBEO1IWV</Id>
+      <LocaleId>zh_CN</LocaleId>
+    </DesignEntityMetaL>
+  </DesignMetas>
+  <Version>1699431115549</Version>
+  <BOSVersion>1.0</BOSVersion>
+</DeployMetadata>

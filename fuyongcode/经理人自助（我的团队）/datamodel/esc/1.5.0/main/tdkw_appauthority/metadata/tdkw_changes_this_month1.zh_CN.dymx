@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DeployMetadata>
+  <MasterId>3EC0I5FZMYCZ</MasterId>
+  <Id>3EC0I5FZMYCZ</Id>
+  <DesignMetas>
+    <DesignFormMetaL>
+      <Number>tdkw_changes_this_month1</Number>
+      <PkId>3EMF0UB038XC</PkId>
+      <DataXml>
+        <FormMetadata/>
+      </DataXml>
+      <Name>本月异动报表(需要手动查询)</Name>
+      <Id>3EC0I5FZMYCZ</Id>
+      <LocaleId>zh_CN</LocaleId>
+    </DesignFormMetaL>
+    <DesignEntityMetaL>
+      <Number>tdkw_changes_this_month1</Number>
+      <PkId>3EMF0V8J8GOM</PkId>
+      <DataXml>
+        <EntityMetadata/>
+      </DataXml>
+      <Name>本月异动报表(需要手动查询)</Name>
+      <Id>3EC0I5FZMYCZ</Id>
+      <LocaleId>zh_CN</LocaleId>
+    </DesignEntityMetaL>
+  </DesignMetas>
+  <Version>1689560939319</Version>
+  <BOSVersion>1.0</BOSVersion>
+</DeployMetadata>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DeployMetadata>
+  <MasterId>31G8XEKLABFR</MasterId>
+  <Id>3=CJIZG2X8L0</Id>
+  <DesignMetas>
+    <DesignFormMetaL>
+      <Number>tdkw_hrobs_mob_empinf_ext</Number>
+      <PkId>3=CR1CJAZ/SO</PkId>
+      <DataXml>
+        <FormMetadata/>
+      </DataXml>
+      <Name>Mob_人员信息卡片_无标语</Name>
+      <Id>3=CJIZG2X8L0</Id>
+      <LocaleId>zh_CN</LocaleId>
+    </DesignFormMetaL>
+    <DesignEntityMetaL>
+      <Number>tdkw_hrobs_mob_empinf_ext</Number>
+      <PkId>3=CR1CO+7WE+</PkId>
+      <DataXml>
+        <EntityMetadata/>
+      </DataXml>
+      <Name>Mob_人员信息卡片_无标语</Name>
+      <Id>3=CJIZG2X8L0</Id>
+      <LocaleId>zh_CN</LocaleId>
+    </DesignEntityMetaL>
+  </DesignMetas>
+  <Version>1684467720664</Version>
+  <BOSVersion>1.0</BOSVersion>
+</DeployMetadata>

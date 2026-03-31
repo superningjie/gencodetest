@@ -1,0 +1,1096 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DeployMetadata>
+  <MasterId>3JMYOCVIVXN=</MasterId>
+  <Id>3JMYOCVIVXN=</Id>
+  <DesignMetas>
+    <DesignFormMetaL>
+      <Number>tdkw_hrobs_erfilelistdv</Number>
+      <PkId>4B5RE34EU+1J</PkId>
+      <DataXml>
+        <FormMetadata>
+          <Name>pc端人员档案详细</Name>
+          <Items>
+            <FormAp action="edit" oid="3JMYOCVIVX+0">
+              <Name>pc端人员档案详细</Name>
+            </FormAp>
+            <EntryAp action="edit" oid="R91IO4RzS0">
+              <Name>语言能力单据体</Name>
+            </EntryAp>
+            <AdvConSummaryPanelAp action="edit" oid="vjiLMBrCl3">
+              <Name>高级面板摘要容器</Name>
+            </AdvConSummaryPanelAp>
+            <AdvConToolbarAp action="edit" oid="h1SSe0X5kO">
+              <Name>高级面板工具栏</Name>
+            </AdvConToolbarAp>
+            <AdvConChildPanelAp action="edit" oid="iX4UHsC3zt">
+              <Name>高级面板子容器</Name>
+            </AdvConChildPanelAp>
+            <EntryFieldAp action="edit" oid="7n1khTvWbk">
+              <Name>移动电话</Name>
+            </EntryFieldAp>
+            <EntryFieldAp action="edit" oid="j6Lphoox1R">
+              <Name>公司邮箱</Name>
+            </EntryFieldAp>
+            <EntryFieldAp action="edit" oid="4Boj9rhU94">
+              <Name>个人邮箱</Name>
+            </EntryFieldAp>
+            <EntryFieldAp action="edit" oid="TcmrADSjqw">
+              <Name>办公电话</Name>
+            </EntryFieldAp>
+            <ButtonAp action="edit" oid="soReZFOEZM">
+              <Name>返回</Name>
+            </ButtonAp>
+            <AnchorControlAp action="edit" oid="xUQ81H6XSH">
+              <Name>锚点</Name>
+            </AnchorControlAp>
+            <FlexPanelAp action="edit" oid="EIumaGV38e">
+              <Name>Flex容器</Name>
+            </FlexPanelAp>
+            <FlexPanelAp action="edit" oid="WAnxrJ2pKG">
+              <Name>Flex容器</Name>
+            </FlexPanelAp>
+            <FlexPanelAp action="edit" oid="oh5Y3DZiaZ">
+              <Name>Flex容器</Name>
+            </FlexPanelAp>
+            <FlexPanelAp action="edit" oid="CGv0DkDbs9">
+              <Name>Flex容器</Name>
+            </FlexPanelAp>
+            <TabAp action="edit" oid="KiYjVGJi6mTgyKnb18">
+              <Name>页签控件</Name>
+            </TabAp>
+            <EntryFieldAp action="edit" oid="0mqcnyMKZp">
+              <Name>惩罚机构</Name>
+            </EntryFieldAp>
+            <EntryFieldAp action="edit" oid="91fASjAVWs">
+              <Name>惩罚单位</Name>
+            </EntryFieldAp>
+            <EntryFieldAp action="edit" oid="rLwzxWwVEJ">
+              <Name>惩罚事由</Name>
+            </EntryFieldAp>
+            <EntryFieldAp action="edit" oid="45zWhV7zsZ">
+              <Name>处分名称</Name>
+            </EntryFieldAp>
+            <EntryFieldAp action="edit" oid="21Dj7vAogj">
+              <Name>惩罚日期</Name>
+            </EntryFieldAp>
+            <EntryFieldAp action="edit" oid="OkXPBIFQOc">
+              <Name>惩罚类型</Name>
+            </EntryFieldAp>
+            <FlexPanelAp action="edit" oid="v5efRe21r3">
+              <Name>Flex容器</Name>
+            </FlexPanelAp>
+            <LabelAp action="edit" oid="w77IpaWULIYdM4YBBp">
+              <Name>展开</Name>
+            </LabelAp>
+            <AdvConSummaryPanelAp action="edit" oid="A9JrNVmHRZ">
+              <Name>高级面板摘要容器</Name>
+            </AdvConSummaryPanelAp>
+            <AdvConToolbarAp action="edit" oid="iaw1tLqxmI">
+              <Name>高级面板工具栏</Name>
+            </AdvConToolbarAp>
+            <AdvConChildPanelAp action="edit" oid="yXDV7JcncV">
+              <Name>高级面板子容器</Name>
+            </AdvConChildPanelAp>
+            <EntryFieldAp action="edit" oid="Ek13UbOppi">
+              <Name>联系人</Name>
+            </EntryFieldAp>
+            <EntryFieldAp action="edit" oid="fPw8qcLXjd">
+              <Name>与联系人关系</Name>
+            </EntryFieldAp>
+            <EntryFieldAp action="edit" oid="nGULAKcTav">
+              <Name>手机</Name>
+            </EntryFieldAp>
+            <AdvConAp action="edit" oid="HCcQ9LZvga">
+              <Name>工作记录</Name>
+            </AdvConAp>
+            <AdvConAp action="edit" oid="G8Qhtdeire">
+              <Name>履历记录</Name>
+            </AdvConAp>
+            <FlexPanelAp action="edit" oid="ysENxrxwlv2lKStvaZ">
+              <Name>Flex容器</Name>
+            </FlexPanelAp>
+            <AdvConAp action="edit" oid="NC3vOdYYKZ">
+              <Name>惩罚情况</Name>
+            </AdvConAp>
+            <AdvConAp action="edit" oid="s38KUSOpWW">
+              <Name>其他任职</Name>
+            </AdvConAp>
+            <AdvConAp action="edit" oid="HdC69J21Eo">
+              <Name>学历信息</Name>
+            </AdvConAp>
+            <AdvConAp action="edit" oid="iXwtdqxpk7">
+              <Name>家庭信息</Name>
+            </AdvConAp>
+            <AdvConAp action="edit" oid="BawmlspBCx">
+              <Name>身份证件</Name>
+            </AdvConAp>
+            <AdvConAp action="edit" oid="lgN8nwuPgl">
+              <Name>紧急联系人</Name>
+            </AdvConAp>
+            <AdvConAp action="edit" oid="2q7mzOR8Jx">
+              <Name>其他社会团体经历</Name>
+            </AdvConAp>
+            <AdvConAp action="edit" oid="5jQnCRFV7R">
+              <Name>职称信息</Name>
+            </AdvConAp>
+            <AdvConAp action="edit" oid="GYJwoFIVVv">
+              <Name>执(职)业资格</Name>
+            </AdvConAp>
+            <AdvConAp action="edit" oid="d5LpnyOvkI">
+              <Name>语言能力</Name>
+            </AdvConAp>
+            <AdvConAp action="edit" oid="j9ESW9e7lq">
+              <Name>奖励情况</Name>
+            </AdvConAp>
+            <AdvConAp action="edit" oid="mcWedAYXDg">
+              <Name>职业技能鉴定</Name>
+            </AdvConAp>
+            <AdvConAp action="edit" oid="uo8CdDohnD">
+              <Name>联系方式</Name>
+            </AdvConAp>
+            <FlexPanelAp action="edit" oid="pkmbxvW05A">
+              <Name>Flex容器</Name>
+            </FlexPanelAp>
+            <FlexPanelAp action="edit" oid="3B3HoFWxHF">
+              <Name>Flex容器</Name>
+            </FlexPanelAp>
+            <LabelAp action="edit" oid="gTtx6fxOab">
+              <Name>家庭住址：</Name>
+            </LabelAp>
+            <FieldAp action="edit" oid="nnzTVZQFIF">
+              <Name>多行文本</Name>
+            </FieldAp>
+            <AdvConSummaryPanelAp action="edit" oid="2n3hCw5KdG">
+              <Name>高级面板摘要容器</Name>
+            </AdvConSummaryPanelAp>
+            <AdvConToolbarAp action="edit" oid="yLE6FaxD7X">
+              <Name>高级面板工具栏</Name>
+            </AdvConToolbarAp>
+            <AdvConChildPanelAp action="edit" oid="gPEON0GbfO">
+              <Name>高级面板子容器</Name>
+            </AdvConChildPanelAp>
+            <VectorAp action="edit" oid="ql5KIkm3cc">
+              <Name>图标</Name>
+            </VectorAp>
+            <LabelAp action="edit" oid="heLcGpQuKY">
+              <Name>岗位</Name>
+            </LabelAp>
+            <EntryFieldAp action="edit" oid="FVDuYK53lF">
+              <Name>证件类型</Name>
+            </EntryFieldAp>
+            <EntryFieldAp action="edit" oid="44vvJ4izrY">
+              <Name>证件号码</Name>
+            </EntryFieldAp>
+            <EntryFieldAp action="edit" oid="p8XIQew9FI">
+              <Name>有效期限</Name>
+            </EntryFieldAp>
+            <VectorAp action="edit" oid="MWq1diokBl">
+              <Name>图标</Name>
+            </VectorAp>
+            <LabelAp action="edit" oid="aYtlQ75V5M">
+              <Name>公司/部门</Name>
+            </LabelAp>
+            <AdvConSummaryPanelAp action="edit" oid="qjEP56gZjf">
+              <Name>高级面板摘要容器</Name>
+            </AdvConSummaryPanelAp>
+            <AdvConToolbarAp action="edit" oid="f5zQT0WCU6">
+              <Name>高级面板工具栏</Name>
+            </AdvConToolbarAp>
+            <AdvConChildPanelAp action="edit" oid="IT9D8shKPH">
+              <Name>高级面板子容器</Name>
+            </AdvConChildPanelAp>
+            <AdvConSummaryPanelAp action="edit" oid="vPIcTkmccO">
+              <Name>高级面板摘要容器</Name>
+            </AdvConSummaryPanelAp>
+            <AdvConToolbarAp action="edit" oid="6vFwp6YpJB">
+              <Name>高级面板工具栏</Name>
+            </AdvConToolbarAp>
+            <AdvConChildPanelAp action="edit" oid="PVYHdSEWGh">
+              <Name>高级面板子容器</Name>
+            </AdvConChildPanelAp>
+            <AdvConSummaryPanelAp action="edit" oid="Q7aDuJ6ajF">
+              <Name>高级面板摘要容器</Name>
+            </AdvConSummaryPanelAp>
+            <AdvConToolbarAp action="edit" oid="YZmjSHgl0f">
+              <Name>高级面板工具栏</Name>
+            </AdvConToolbarAp>
+            <AdvConChildPanelAp action="edit" oid="rF7SzON68T">
+              <Name>高级面板子容器</Name>
+            </AdvConChildPanelAp>
+            <LabelAp action="edit" oid="A2yxn4fBkbt4Owpawq">
+              <Name>薪酬信息</Name>
+            </LabelAp>
+            <FlexPanelAp action="edit" oid="5Sscm6KC4Zx4joH9gC">
+              <Name>Flex容器</Name>
+            </FlexPanelAp>
+            <AdvConSummaryPanelAp action="edit" oid="gOnHUoHozI">
+              <Name>高级面板摘要容器</Name>
+            </AdvConSummaryPanelAp>
+            <AdvConToolbarAp action="edit" oid="rSlaK6a7LI">
+              <Name>高级面板工具栏</Name>
+            </AdvConToolbarAp>
+            <AdvConChildPanelAp action="edit" oid="PHniKp3pDq">
+              <Name>高级面板子容器</Name>
+            </AdvConChildPanelAp>
+            <EntryFieldAp action="edit" oid="wR0T4vN3vrKMt7ipfA">
+              <Name>发薪期间</Name>
+            </EntryFieldAp>
+            <EntryFieldAp action="edit" oid="F3fj1gPZ1X">
+              <Name>应发工资</Name>
+            </EntryFieldAp>
+            <EntryFieldAp action="edit" oid="G3ZwrI1B4C">
+              <Name>实发工资</Name>
+            </EntryFieldAp>
+            <EntryFieldAp action="edit" oid="JjxAkF5ZVwiSlwDexV">
+              <Name>基础工资</Name>
+            </EntryFieldAp>
+            <EntryFieldAp action="edit" oid="4dlowPAonY">
+              <Name>职位工资</Name>
+            </EntryFieldAp>
+            <EntryFieldAp action="edit" oid="JIEz3lBTMr">
+              <Name>司龄工资</Name>
+            </EntryFieldAp>
+            <EntryFieldAp action="edit" oid="qgu2fEIzvT">
+              <Name>浮动薪酬</Name>
+            </EntryFieldAp>
+            <EntryFieldAp action="edit" oid="TqBXUsUem9">
+              <Name>福利补贴</Name>
+            </EntryFieldAp>
+            <EntryFieldAp action="edit" oid="vB7ZKPiTaF">
+              <Name>考勤扣款</Name>
+            </EntryFieldAp>
+            <EntryFieldAp action="edit" oid="WByz0furnW">
+              <Name>年终浮动奖金</Name>
+            </EntryFieldAp>
+            <EntryFieldAp action="edit" oid="P3lqdMfvc1">
+              <Name>专项奖</Name>
+            </EntryFieldAp>
+            <EntryFieldAp action="edit" oid="ZSd1pedk8T">
+              <Name>五险二金个人部分</Name>
+            </EntryFieldAp>
+            <EntryFieldAp action="edit" oid="oR2vC8kKmx">
+              <Name>个人所得税</Name>
+            </EntryFieldAp>
+            <EntryFieldAp action="edit" oid="0ZbWJd7GTk">
+              <Name>税后扣款</Name>
+            </EntryFieldAp>
+            <EntryAp action="edit" oid="2qASS4HfLL">
+              <Name>联系方式单据体</Name>
+            </EntryAp>
+            <AdvConSummaryPanelAp action="edit" oid="htYB7hzO0g">
+              <Name>高级面板摘要容器</Name>
+            </AdvConSummaryPanelAp>
+            <AdvConToolbarAp action="edit" oid="Ls8EqTzbdG">
+              <Name>高级面板工具栏</Name>
+            </AdvConToolbarAp>
+            <AdvConChildPanelAp action="edit" oid="OvkSQG5bpN">
+              <Name>高级面板子容器</Name>
+            </AdvConChildPanelAp>
+            <EntryAp action="edit" oid="HS90dunlpS">
+              <Name>履历记录单据体</Name>
+            </EntryAp>
+            <EntryAp action="edit" oid="bg8gP2zAHQ">
+              <Name>其他任职单据体</Name>
+            </EntryAp>
+            <EntryAp action="edit" oid="4iE71cb77a">
+              <Name>惩罚情况单据体</Name>
+            </EntryAp>
+            <TabPageAp action="edit" oid="nJM7WhLU9p">
+              <Name>基本信息</Name>
+            </TabPageAp>
+            <TabPageAp action="edit" oid="S3cHq1zMKa">
+              <Name>人才画像</Name>
+            </TabPageAp>
+            <AdvConSummaryPanelAp action="edit" oid="S3XeRUN3f5">
+              <Name>高级面板摘要容器</Name>
+            </AdvConSummaryPanelAp>
+            <AdvConToolbarAp action="edit" oid="yJz75WbR5I">
+              <Name>高级面板工具栏</Name>
+            </AdvConToolbarAp>
+            <AdvConChildPanelAp action="edit" oid="Ikuw0AGNQ0">
+              <Name>高级面板子容器</Name>
+            </AdvConChildPanelAp>
+            <EntryFieldAp action="edit" oid="yVDSHJuEGg">
+              <Name>评定日期</Name>
+            </EntryFieldAp>
+            <EntryFieldAp action="edit" oid="9oaStT3RlL">
+              <Name>获得职称</Name>
+            </EntryFieldAp>
+            <EntryFieldAp action="edit" oid="SkIZ6s2e1H">
+              <Name>职称等级</Name>
+            </EntryFieldAp>
+            <EntryFieldAp action="edit" oid="o5clM6aHfe">
+              <Name>评定机构</Name>
+            </EntryFieldAp>
+            <EntryFieldAp action="edit" oid="jtUIMdloNX">
+              <Name>证书编号</Name>
+            </EntryFieldAp>
+            <FieldsetPanelAp action="edit" oid="e3mfMi3Qpy">
+              <Name>字段布局面板</Name>
+            </FieldsetPanelAp>
+            <EntryAp action="edit" oid="xM1wiSBncb">
+              <Name>学历信息单据体</Name>
+            </EntryAp>
+            <EntryAp action="edit" oid="XbWLcJBGZP">
+              <Name>工作记录单据体</Name>
+            </EntryAp>
+            <EntryAp action="edit" oid="Pqw9DBr7Bu">
+              <Name>履历记录单据体</Name>
+            </EntryAp>
+            <EntryFieldAp action="edit" oid="Z3pwsMpTDE">
+              <Name>开始时间</Name>
+            </EntryFieldAp>
+            <EntryFieldAp action="edit" oid="RQQkwvF01y">
+              <Name>结束时间</Name>
+            </EntryFieldAp>
+            <EntryFieldAp action="edit" oid="0nttXyjfk1">
+              <Name>工作单位</Name>
+            </EntryFieldAp>
+            <EntryFieldAp action="edit" oid="ebiQHSO7tt">
+              <Name>部门</Name>
+            </EntryFieldAp>
+            <EntryFieldAp action="edit" oid="3CWWMzlHZ7">
+              <Name>岗位</Name>
+            </EntryFieldAp>
+            <LabelAp action="edit" oid="Hflnt45vZp">
+              <Name>基本信息</Name>
+            </LabelAp>
+            <CustomControlAp action="edit" oid="LrHx4N8OvO">
+              <Name>自定义控件</Name>
+            </CustomControlAp>
+            <EntryFieldAp action="edit" oid="xlG84XFcUx">
+              <Name>语种</Name>
+            </EntryFieldAp>
+            <EntryFieldAp action="edit" oid="uG7LkHlw5x">
+              <Name>证书名称</Name>
+            </EntryFieldAp>
+            <LabelAp action="edit" oid="q5ViHXekRM">
+              <Name>姓名：</Name>
+            </LabelAp>
+            <LabelAp action="edit" oid="6H38SYkiJd">
+              <Name>籍贯：</Name>
+            </LabelAp>
+            <LabelAp action="edit" oid="RCJasbZ6G5">
+              <Name>民族：</Name>
+            </LabelAp>
+            <LabelAp action="edit" oid="9dozaI9uNx">
+              <Name>参加工作时间：</Name>
+            </LabelAp>
+            <LabelAp action="edit" oid="AvCeTHy775">
+              <Name>国籍/地区：</Name>
+            </LabelAp>
+            <LabelAp action="edit" oid="QNGvYpd49c">
+              <Name>工龄：</Name>
+            </LabelAp>
+            <LabelAp action="edit" oid="xqVisg1LML">
+              <Name>工作地点：</Name>
+            </LabelAp>
+            <LabelAp action="edit" oid="YJqFb8YP6g">
+              <Name>特长描述：</Name>
+            </LabelAp>
+            <EntryFieldAp action="edit" oid="37HrTpSjYl">
+              <Name>与本人关系</Name>
+            </EntryFieldAp>
+            <EntryFieldAp action="edit" oid="e8ZW1vOYHA">
+              <Name>家庭成员姓名</Name>
+            </EntryFieldAp>
+            <EntryFieldAp action="edit" oid="zxqcZN4nmU">
+              <Name>出生日期</Name>
+            </EntryFieldAp>
+            <EntryFieldAp action="edit" oid="mTm3bAhj0y">
+              <Name>工作单位</Name>
+            </EntryFieldAp>
+            <EntryFieldAp action="edit" oid="Od5PE4j6Q5">
+              <Name>职务</Name>
+            </EntryFieldAp>
+            <LabelAp action="edit" oid="godTCXATcE">
+              <Name>常住地址：</Name>
+            </LabelAp>
+            <FieldAp action="edit" oid="96ylsa8N2C">
+              <Name>多行文本</Name>
+            </FieldAp>
+            <FlexPanelAp action="edit" oid="dB9vj9yCcyf5CPsxyU">
+              <Name>Flex容器</Name>
+            </FlexPanelAp>
+            <EntryAp action="edit" oid="YTvoQRXHzi">
+              <Name>职业技能鉴定单据体</Name>
+            </EntryAp>
+            <FlexPanelAp action="edit" oid="ZQbTOn1j93">
+              <Name>Flex容器</Name>
+            </FlexPanelAp>
+            <FlexPanelAp action="edit" oid="RZM7UgSJl7">
+              <Name>Flex容器</Name>
+            </FlexPanelAp>
+            <FlexPanelAp action="edit" oid="uEYNbBkNhi">
+              <Name>Flex容器</Name>
+            </FlexPanelAp>
+            <FlexPanelAp action="edit" oid="S1SYVFVeKW">
+              <Name>Flex容器</Name>
+            </FlexPanelAp>
+            <FlexPanelAp action="edit" oid="BarDBuFKfm">
+              <Name>Flex容器</Name>
+            </FlexPanelAp>
+            <FieldsetPanelAp action="edit" oid="2n14ZcZwbv">
+              <Name>字段布局面板</Name>
+            </FieldsetPanelAp>
+            <VectorAp action="edit" oid="g7G3ZlIJ6B">
+              <Name>图标</Name>
+            </VectorAp>
+            <LabelAp action="edit" oid="m07wQesoXl">
+              <Name>岗位</Name>
+            </LabelAp>
+            <EntryFieldAp action="edit" oid="4K0zLFsUpk">
+              <Name>时间</Name>
+            </EntryFieldAp>
+            <EntryFieldAp action="edit" oid="hAtUt82aFe">
+              <Name>结束时间</Name>
+            </EntryFieldAp>
+            <EntryFieldAp action="edit" oid="FiHu4vocDW">
+              <Name>公司</Name>
+            </EntryFieldAp>
+            <EntryFieldAp action="edit" oid="VDa2NM3YGt">
+              <Name>部门</Name>
+            </EntryFieldAp>
+            <EntryFieldAp action="edit" oid="M0G2jHq5RM">
+              <Name>岗位</Name>
+            </EntryFieldAp>
+            <EntryFieldAp action="edit" oid="ZK9kDsWFbi">
+              <Name>异动类型</Name>
+            </EntryFieldAp>
+            <GridFlatPanelAp action="edit" oid="OCstDvhcxB">
+              <Name>分录平铺容器</Name>
+            </GridFlatPanelAp>
+            <EntryAp action="edit" oid="62F9D4yWx2">
+              <Name>紧急联系人单据体</Name>
+            </EntryAp>
+            <EntryFieldAp action="edit" oid="EKIFw335ko">
+              <Name>开始时间</Name>
+            </EntryFieldAp>
+            <EntryFieldAp action="edit" oid="ctKK7W53qd">
+              <Name>结束时间</Name>
+            </EntryFieldAp>
+            <EntryFieldAp action="edit" oid="cYtw0nxoM0">
+              <Name>职业工种名称</Name>
+            </EntryFieldAp>
+            <EntryFieldAp action="edit" oid="CdjSuqZoMp">
+              <Name>技能等级</Name>
+            </EntryFieldAp>
+            <EntryFieldAp action="edit" oid="EBTcpArDq3">
+              <Name>证书编号</Name>
+            </EntryFieldAp>
+            <EntryFieldAp action="edit" oid="uJiYBecV5H">
+              <Name>授予单位</Name>
+            </EntryFieldAp>
+            <EntryAp action="edit" oid="RvVIBgoi1f">
+              <Name>家庭成员单据体</Name>
+            </EntryAp>
+            <LabelAp action="edit" oid="KVyFqSVEN4">
+              <Name>人员编码：</Name>
+            </LabelAp>
+            <LabelAp action="edit" oid="fFnU2lzwSc">
+              <Name>出生日期：</Name>
+            </LabelAp>
+            <LabelAp action="edit" oid="2IIMHT0eVy">
+              <Name>户口性质：</Name>
+            </LabelAp>
+            <LabelAp action="edit" oid="OoyUQBQt1f">
+              <Name>婚姻状态：</Name>
+            </LabelAp>
+            <LabelAp action="edit" oid="yNexBLuY0E">
+              <Name>血型：</Name>
+            </LabelAp>
+            <LabelAp action="edit" oid="VErNiOzoeW">
+              <Name>年龄：</Name>
+            </LabelAp>
+            <LabelAp action="edit" oid="4PlAOf4T2f">
+              <Name>身高(cm)：</Name>
+            </LabelAp>
+            <LabelAp action="edit" oid="CvM8zTlGUU">
+              <Name>主要特长类型：</Name>
+            </LabelAp>
+            <FieldAp action="edit" oid="QpFA61ahGH">
+              <Name>长整数</Name>
+            </FieldAp>
+            <EntryFieldAp action="edit" oid="1VZb4wSNsILqmBgYTQ">
+              <Name>开始时间</Name>
+            </EntryFieldAp>
+            <EntryFieldAp action="edit" oid="HVKpaFxWAxJlHO4KDG">
+              <Name>结束时间</Name>
+            </EntryFieldAp>
+            <EntryFieldAp action="edit" oid="gCV6efUR3q">
+              <Name>任职企业／协会／高校</Name>
+            </EntryFieldAp>
+            <EntryFieldAp action="edit" oid="5BthRBIpZX">
+              <Name>职务</Name>
+            </EntryFieldAp>
+            <EntryFieldAp action="edit" oid="K5l1qVbjvN">
+              <Name>其他信息</Name>
+            </EntryFieldAp>
+            <EntryFieldAp action="edit" oid="sf5uNRhIIX">
+              <Name>开始日期</Name>
+            </EntryFieldAp>
+            <EntryFieldAp action="edit" oid="siHJYYGJdb">
+              <Name>结束日期</Name>
+            </EntryFieldAp>
+            <EntryFieldAp action="edit" oid="CWOXhv3knd">
+              <Name>公司</Name>
+            </EntryFieldAp>
+            <EntryFieldAp action="edit" oid="lzcmLjj2dZ">
+              <Name>届次</Name>
+            </EntryFieldAp>
+            <EntryFieldAp action="edit" oid="yqK5O7n6Oy">
+              <Name>其他任职组织</Name>
+            </EntryFieldAp>
+            <EntryFieldAp action="edit" oid="wBTR90jAEl">
+              <Name>其他任职职务</Name>
+            </EntryFieldAp>
+            <EntryFieldAp action="edit" oid="jZddFzpafz">
+              <Name>是否任职</Name>
+            </EntryFieldAp>
+            <AdvConSummaryPanelAp action="edit" oid="f4ID7NVppv">
+              <Name>高级面板摘要容器</Name>
+            </AdvConSummaryPanelAp>
+            <AdvConToolbarAp action="edit" oid="Fp8zlK1Aac">
+              <Name>高级面板工具栏</Name>
+            </AdvConToolbarAp>
+            <AdvConChildPanelAp action="edit" oid="15zyyr4Bzp">
+              <Name>高级面板子容器</Name>
+            </AdvConChildPanelAp>
+            <EntryAp action="edit" oid="EIQsxiroDA">
+              <Name>身份证件单据体</Name>
+            </EntryAp>
+            <EntryAp action="edit" oid="aesqPypc3I">
+              <Name>其他社会团体经历单据体</Name>
+            </EntryAp>
+            <AdvConSummaryPanelAp action="edit" oid="iWmWdmrVaf">
+              <Name>高级面板摘要容器</Name>
+            </AdvConSummaryPanelAp>
+            <AdvConToolbarAp action="edit" oid="P6lW2EFP6H">
+              <Name>高级面板工具栏</Name>
+            </AdvConToolbarAp>
+            <AdvConChildPanelAp action="edit" oid="YroCJInwWG">
+              <Name>高级面板子容器</Name>
+            </AdvConChildPanelAp>
+            <EntryFieldAp action="edit" oid="XeTBwUzC4G">
+              <Name>职业资格</Name>
+            </EntryFieldAp>
+            <EntryFieldAp action="edit" oid="1sjnuX8OKD">
+              <Name>证书编号</Name>
+            </EntryFieldAp>
+            <EntryFieldAp action="edit" oid="2jtJewmoAL">
+              <Name>资格等级</Name>
+            </EntryFieldAp>
+            <EntryFieldAp action="edit" oid="Cc3bE2qMvD">
+              <Name>评定机构</Name>
+            </EntryFieldAp>
+            <EntryFieldAp action="edit" oid="YDxjmzz6lJ">
+              <Name>获得日期</Name>
+            </EntryFieldAp>
+            <AdvConSummaryPanelAp action="edit" oid="3SXB94BKfp">
+              <Name>高级面板摘要容器</Name>
+            </AdvConSummaryPanelAp>
+            <AdvConToolbarAp action="edit" oid="Z9HF4GCTiZ">
+              <Name>高级面板工具栏</Name>
+            </AdvConToolbarAp>
+            <AdvConChildPanelAp action="edit" oid="uerGkqa9cj">
+              <Name>高级面板子容器</Name>
+            </AdvConChildPanelAp>
+            <FlexPanelAp action="edit" oid="xoaS4Ptuc7">
+              <Name>基本信息</Name>
+            </FlexPanelAp>
+            <FlexPanelAp action="edit" oid="74E0XU1YZt">
+              <Name>扩展信息</Name>
+            </FlexPanelAp>
+            <AdvConSummaryPanelAp action="edit" oid="6JHyhYRtYO">
+              <Name>高级面板摘要容器</Name>
+            </AdvConSummaryPanelAp>
+            <AdvConToolbarAp action="edit" oid="IA3Y3gdNRC">
+              <Name>高级面板工具栏</Name>
+            </AdvConToolbarAp>
+            <AdvConChildPanelAp action="edit" oid="XhwXSaVuN7">
+              <Name>高级面板子容器</Name>
+            </AdvConChildPanelAp>
+            <AdvConSummaryPanelAp action="edit" oid="zpJZZFKoFo">
+              <Name>高级面板摘要容器</Name>
+            </AdvConSummaryPanelAp>
+            <AdvConToolbarAp action="edit" oid="RGCCG31hta">
+              <Name>高级面板工具栏</Name>
+            </AdvConToolbarAp>
+            <AdvConChildPanelAp action="edit" oid="SoSnlTyXm1">
+              <Name>高级面板子容器</Name>
+            </AdvConChildPanelAp>
+            <FlexPanelAp action="edit" oid="kXhasw5L7q">
+              <Name>Flex容器</Name>
+            </FlexPanelAp>
+            <FlexPanelAp action="edit" oid="2uKuV0kgJq">
+              <Name>Flex容器</Name>
+            </FlexPanelAp>
+            <VectorAp action="edit" oid="yOTl2f5sss">
+              <Name>图标</Name>
+            </VectorAp>
+            <LabelAp action="edit" oid="FEUotxKJRw">
+              <Name>岗位层级</Name>
+            </LabelAp>
+            <VectorAp action="edit" oid="uQT7Vy1XdX">
+              <Name>图标</Name>
+            </VectorAp>
+            <LabelAp action="edit" oid="hZL6dbjkV6">
+              <Name>姓名</Name>
+            </LabelAp>
+            <ButtonAp action="edit" oid="brBUwTaV4l">
+              <Name>简历下载</Name>
+            </ButtonAp>
+            <EntryAp action="edit" oid="j7XcrmPax9">
+              <Name>执(职)业资格单据体</Name>
+            </EntryAp>
+            <AdvConSummaryPanelAp action="edit" oid="XOzQW74EyE">
+              <Name>高级面板摘要容器</Name>
+            </AdvConSummaryPanelAp>
+            <AdvConToolbarAp action="edit" oid="bXm0N4UxUU">
+              <Name>高级面板工具栏</Name>
+            </AdvConToolbarAp>
+            <AdvConChildPanelAp action="edit" oid="IeSkUJe6iJ">
+              <Name>高级面板子容器</Name>
+            </AdvConChildPanelAp>
+            <LabelAp action="edit" oid="9OEB8D88WK">
+              <Name>性别：</Name>
+            </LabelAp>
+            <LabelAp action="edit" oid="NlEVP6XJaM">
+              <Name>户籍地址：</Name>
+            </LabelAp>
+            <LabelAp action="edit" oid="8aZLi6ZhSW">
+              <Name>政治面貌：</Name>
+            </LabelAp>
+            <LabelAp action="edit" oid="iAPBQEn2bv">
+              <Name>入党(团)时间：</Name>
+            </LabelAp>
+            <LabelAp action="edit" oid="9eZPF9IgMB">
+              <Name>户口所在地：</Name>
+            </LabelAp>
+            <LabelAp action="edit" oid="37f5IfjoFm">
+              <Name>出生地：</Name>
+            </LabelAp>
+            <LabelAp action="edit" oid="Hlv6FXfZSC">
+              <Name>本市住房情况：</Name>
+            </LabelAp>
+            <LabelAp action="edit" oid="5TuCqdoSRX">
+              <Name>兴趣爱好：</Name>
+            </LabelAp>
+            <EntryAp action="edit" oid="xkfHHjdSSx">
+              <Name>奖励情况单据体</Name>
+            </EntryAp>
+            <AdvConSummaryPanelAp action="edit" oid="R2KOHbRf4E">
+              <Name>高级面板摘要容器</Name>
+            </AdvConSummaryPanelAp>
+            <AdvConToolbarAp action="edit" oid="Hzn90EjnQ4">
+              <Name>高级面板工具栏</Name>
+            </AdvConToolbarAp>
+            <AdvConChildPanelAp action="edit" oid="HUsoZBJ77M">
+              <Name>高级面板子容器</Name>
+            </AdvConChildPanelAp>
+            <FlexPanelAp action="edit" oid="xcJrpkXdke">
+              <Name>Flex容器</Name>
+            </FlexPanelAp>
+            <FlexPanelAp action="edit" oid="8geumeib0V">
+              <Name>Flex容器</Name>
+            </FlexPanelAp>
+            <FlexPanelAp action="edit" oid="sok3VbR1F9">
+              <Name>Flex容器</Name>
+            </FlexPanelAp>
+            <EntryFieldAp action="edit" oid="oMgVZZYQYj">
+              <Name>入学时间</Name>
+            </EntryFieldAp>
+            <EntryFieldAp action="edit" oid="a5nT7nv8Dd">
+              <Name>毕业时间</Name>
+            </EntryFieldAp>
+            <EntryFieldAp action="edit" oid="PakYyypHqb">
+              <Name>学校</Name>
+            </EntryFieldAp>
+            <EntryFieldAp action="edit" oid="qkME2SOWdc">
+              <Name>专业</Name>
+            </EntryFieldAp>
+            <EntryFieldAp action="edit" oid="fNw1Ef7vau">
+              <Name>学历</Name>
+            </EntryFieldAp>
+            <GridFlatPanelAp action="edit" oid="Uw3XSD0AbK">
+              <Name>分录平铺容器</Name>
+            </GridFlatPanelAp>
+            <FieldAp action="edit" oid="5P98ujZK2j">
+              <Name>头像</Name>
+            </FieldAp>
+            <EntryFieldAp action="edit" oid="GtF54mujtM">
+              <Name>奖励日期</Name>
+            </EntryFieldAp>
+            <EntryFieldAp action="edit" oid="iJTnG65AIa">
+              <Name>奖励机构</Name>
+            </EntryFieldAp>
+            <EntryFieldAp action="edit" oid="uXFKaA8mzh">
+              <Name>奖励名称</Name>
+            </EntryFieldAp>
+            <FlexPanelAp action="edit" oid="QNlsdyivap">
+              <Name>Flex容器</Name>
+            </FlexPanelAp>
+            <FlexPanelAp action="edit" oid="4t9V53bfwL">
+              <Name>Flex容器</Name>
+            </FlexPanelAp>
+            <FlexPanelAp action="edit" oid="TacUL1AmcW">
+              <Name>Flex容器</Name>
+            </FlexPanelAp>
+            <EntryAp action="edit" oid="OApZ4k43Cu">
+              <Name>职称信息单据体</Name>
+            </EntryAp>
+            <FlexPanelAp action="edit" oid="GZ26P2lT1ZzuxD2V7N">
+              <Name>Flex容器</Name>
+            </FlexPanelAp>
+            <AdvConAp action="edit" oid="ElAOgtwd61">
+              <Name>薪酬信息</Name>
+            </AdvConAp>
+          </Items>
+        </FormMetadata>
+      </DataXml>
+      <Name>pc端人员档案详细</Name>
+      <Id>3JMYOCVIVXN=</Id>
+      <LocaleId>en_US</LocaleId>
+    </DesignFormMetaL>
+    <DesignEntityMetaL>
+      <Number>tdkw_hrobs_erfilelistdv</Number>
+      <PkId>4B5RE35XWOYI</PkId>
+      <DataXml>
+        <EntityMetadata>
+          <Name>pc端人员档案详细</Name>
+          <Items>
+            <MainEntity action="edit" oid="3JMYOCWR/=GP">
+              <Operations>
+                <Operation action="edit" oid="3JP4U7GI7DT2">
+                  <Name>简历下载</Name>
+                </Operation>
+                <Operation action="edit" oid="3N/RGCLBELVK">
+                  <Name>关闭</Name>
+                </Operation>
+              </Operations>
+              <Name>pc端人员档案详细</Name>
+            </MainEntity>
+            <EntryEntity action="edit" oid="xM1wiSBncb">
+              <Name>学历信息单据体</Name>
+            </EntryEntity>
+            <TextField action="edit" oid="oMgVZZYQYj">
+              <Name>入学时间</Name>
+            </TextField>
+            <TextField action="edit" oid="a5nT7nv8Dd">
+              <Name>毕业时间</Name>
+            </TextField>
+            <TextField action="edit" oid="PakYyypHqb">
+              <Name>学校</Name>
+            </TextField>
+            <TextField action="edit" oid="qkME2SOWdc">
+              <Name>专业</Name>
+            </TextField>
+            <TextField action="edit" oid="fNw1Ef7vau">
+              <Name>学历</Name>
+            </TextField>
+            <EntryEntity action="edit" oid="Pqw9DBr7Bu">
+              <Name>履历记录单据体</Name>
+            </EntryEntity>
+            <TextField action="edit" oid="Z3pwsMpTDE">
+              <Name>开始时间</Name>
+            </TextField>
+            <TextField action="edit" oid="RQQkwvF01y">
+              <Name>结束时间</Name>
+            </TextField>
+            <TextField action="edit" oid="0nttXyjfk1">
+              <Name>工作单位</Name>
+            </TextField>
+            <TextField action="edit" oid="ebiQHSO7tt">
+              <Name>部门</Name>
+            </TextField>
+            <TextField action="edit" oid="3CWWMzlHZ7">
+              <Name>岗位</Name>
+            </TextField>
+            <EntryEntity action="edit" oid="bg8gP2zAHQ">
+              <Name>其他任职单据体</Name>
+            </EntryEntity>
+            <TextField action="edit" oid="sf5uNRhIIX">
+              <Name>开始日期</Name>
+            </TextField>
+            <TextField action="edit" oid="siHJYYGJdb">
+              <Name>结束日期</Name>
+            </TextField>
+            <TextField action="edit" oid="CWOXhv3knd">
+              <Name>公司</Name>
+            </TextField>
+            <TextField action="edit" oid="lzcmLjj2dZ">
+              <Name>届次</Name>
+            </TextField>
+            <TextField action="edit" oid="yqK5O7n6Oy">
+              <Name>其他任职组织</Name>
+            </TextField>
+            <TextField action="edit" oid="wBTR90jAEl">
+              <Name>其他任职职务</Name>
+            </TextField>
+            <TextField action="edit" oid="jZddFzpafz">
+              <Name>是否任职</Name>
+            </TextField>
+            <EntryEntity action="edit" oid="4iE71cb77a">
+              <Name>惩罚情况单据体</Name>
+            </EntryEntity>
+            <TextField action="edit" oid="0mqcnyMKZp">
+              <Name>惩罚机构</Name>
+            </TextField>
+            <TextField action="edit" oid="91fASjAVWs">
+              <Name>惩罚单位</Name>
+            </TextField>
+            <TextField action="edit" oid="rLwzxWwVEJ">
+              <Name>惩罚事由</Name>
+            </TextField>
+            <TextField action="edit" oid="45zWhV7zsZ">
+              <Name>处分名称</Name>
+            </TextField>
+            <TextField action="edit" oid="21Dj7vAogj">
+              <Name>惩罚日期</Name>
+            </TextField>
+            <TextField action="edit" oid="OkXPBIFQOc">
+              <Name>惩罚类型</Name>
+            </TextField>
+            <EntryEntity action="edit" oid="xkfHHjdSSx">
+              <Name>奖励情况单据体</Name>
+            </EntryEntity>
+            <TextField action="edit" oid="iJTnG65AIa">
+              <Name>奖励机构</Name>
+            </TextField>
+            <TextField action="edit" oid="uXFKaA8mzh">
+              <Name>奖励名称</Name>
+            </TextField>
+            <TextField action="edit" oid="GtF54mujtM">
+              <Name>奖励日期</Name>
+            </TextField>
+            <EntryEntity action="edit" oid="RvVIBgoi1f">
+              <Name>家庭成员单据体</Name>
+            </EntryEntity>
+            <TextField action="edit" oid="37HrTpSjYl">
+              <Name>与本人关系</Name>
+            </TextField>
+            <TextField action="edit" oid="e8ZW1vOYHA">
+              <Name>家庭成员姓名</Name>
+            </TextField>
+            <TextField action="edit" oid="zxqcZN4nmU">
+              <Name>出生日期</Name>
+            </TextField>
+            <TextField action="edit" oid="mTm3bAhj0y">
+              <Name>工作单位</Name>
+            </TextField>
+            <TextField action="edit" oid="Od5PE4j6Q5">
+              <Name>职务</Name>
+            </TextField>
+            <EntryEntity action="edit" oid="OApZ4k43Cu">
+              <Name>职称信息单据体</Name>
+            </EntryEntity>
+            <TextField action="edit" oid="9oaStT3RlL">
+              <Name>获得职称</Name>
+            </TextField>
+            <TextField action="edit" oid="SkIZ6s2e1H">
+              <Name>职称等级</Name>
+            </TextField>
+            <EntryEntity action="edit" oid="j7XcrmPax9">
+              <Name>执(职)业资格单据体</Name>
+            </EntryEntity>
+            <TextField action="edit" oid="XeTBwUzC4G">
+              <Name>职业资格</Name>
+            </TextField>
+            <TextField action="edit" oid="2jtJewmoAL">
+              <Name>资格等级</Name>
+            </TextField>
+            <TextField action="edit" oid="YDxjmzz6lJ">
+              <Name>获得日期</Name>
+            </TextField>
+            <EntryEntity action="edit" oid="YTvoQRXHzi">
+              <Name>职业技能鉴定单据体</Name>
+            </EntryEntity>
+            <TextField action="edit" oid="cYtw0nxoM0">
+              <Name>职业工种名称</Name>
+            </TextField>
+            <TextField action="edit" oid="CdjSuqZoMp">
+              <Name>技能等级</Name>
+            </TextField>
+            <EntryEntity action="edit" oid="R91IO4RzS0">
+              <Name>语言能力单据体</Name>
+            </EntryEntity>
+            <TextField action="edit" oid="xlG84XFcUx">
+              <Name>语种</Name>
+            </TextField>
+            <PictureField action="edit" oid="5P98ujZK2j">
+              <Name>头像</Name>
+            </PictureField>
+            <TextField action="edit" oid="o5clM6aHfe">
+              <Name>评定机构</Name>
+            </TextField>
+            <TextField action="edit" oid="jtUIMdloNX">
+              <Name>证书编号</Name>
+            </TextField>
+            <TextField action="edit" oid="yVDSHJuEGg">
+              <Name>评定日期</Name>
+            </TextField>
+            <TextField action="edit" oid="1sjnuX8OKD">
+              <Name>证书编号</Name>
+            </TextField>
+            <TextField action="edit" oid="Cc3bE2qMvD">
+              <Name>评定机构</Name>
+            </TextField>
+            <TextField action="edit" oid="uG7LkHlw5x">
+              <Name>证书名称</Name>
+            </TextField>
+            <TextField action="edit" oid="EKIFw335ko">
+              <Name>开始时间</Name>
+            </TextField>
+            <TextField action="edit" oid="ctKK7W53qd">
+              <Name>结束时间</Name>
+            </TextField>
+            <TextField action="edit" oid="EBTcpArDq3">
+              <Name>证书编号</Name>
+            </TextField>
+            <TextField action="edit" oid="uJiYBecV5H">
+              <Name>授予单位</Name>
+            </TextField>
+            <EntryEntity action="edit" oid="2qASS4HfLL">
+              <Name>联系方式单据体</Name>
+            </EntryEntity>
+            <TextField action="edit" oid="7n1khTvWbk">
+              <Name>移动电话</Name>
+            </TextField>
+            <TextField action="edit" oid="j6Lphoox1R">
+              <Name>公司邮箱</Name>
+            </TextField>
+            <TextField action="edit" oid="4Boj9rhU94">
+              <Name>个人邮箱</Name>
+            </TextField>
+            <TextField action="edit" oid="TcmrADSjqw">
+              <Name>办公电话</Name>
+            </TextField>
+            <EntryEntity action="edit" oid="XbWLcJBGZP">
+              <Name>工作记录单据体</Name>
+            </EntryEntity>
+            <TextField action="edit" oid="FiHu4vocDW">
+              <Name>公司</Name>
+            </TextField>
+            <TextField action="edit" oid="VDa2NM3YGt">
+              <Name>部门</Name>
+            </TextField>
+            <TextField action="edit" oid="M0G2jHq5RM">
+              <Name>岗位</Name>
+            </TextField>
+            <TextField action="edit" oid="ZK9kDsWFbi">
+              <Name>异动类型</Name>
+            </TextField>
+            <TextField action="edit" oid="4K0zLFsUpk">
+              <Name>时间</Name>
+            </TextField>
+            <EntryEntity action="edit" oid="EIQsxiroDA">
+              <Name>身份证件单据体</Name>
+            </EntryEntity>
+            <TextField action="edit" oid="FVDuYK53lF">
+              <Name>证件类型</Name>
+            </TextField>
+            <TextField action="edit" oid="p8XIQew9FI">
+              <Name>有效期限</Name>
+            </TextField>
+            <EntryEntity action="edit" oid="62F9D4yWx2">
+              <Name>紧急联系人单据体</Name>
+            </EntryEntity>
+            <TextField action="edit" oid="Ek13UbOppi">
+              <Name>联系人</Name>
+            </TextField>
+            <TextField action="edit" oid="fPw8qcLXjd">
+              <Name>与联系人关系</Name>
+            </TextField>
+            <TextField action="edit" oid="nGULAKcTav">
+              <Name>手机</Name>
+            </TextField>
+            <TextField action="edit" oid="44vvJ4izrY">
+              <Name>证件号码</Name>
+            </TextField>
+            <BigIntField action="edit" oid="QpFA61ahGH">
+              <Name>长整数</Name>
+            </BigIntField>
+            <TextAreaField action="edit" oid="96ylsa8N2C">
+              <Name>多行文本</Name>
+            </TextAreaField>
+            <TextAreaField action="edit" oid="nnzTVZQFIF">
+              <Name>多行文本</Name>
+            </TextAreaField>
+            <TextField action="edit" oid="hAtUt82aFe">
+              <Name>结束时间</Name>
+            </TextField>
+            <EntryEntity action="edit" oid="HS90dunlpS">
+              <Name>履历记录单据体</Name>
+            </EntryEntity>
+            <TextField action="edit" oid="wR0T4vN3vrKMt7ipfA">
+              <Name>发薪期间</Name>
+            </TextField>
+            <DecimalField action="edit" oid="JjxAkF5ZVwiSlwDexV">
+              <Name>基础工资</Name>
+            </DecimalField>
+            <DecimalField action="edit" oid="F3fj1gPZ1X">
+              <Name>应发工资</Name>
+            </DecimalField>
+            <DecimalField action="edit" oid="G3ZwrI1B4C">
+              <Name>实发工资</Name>
+            </DecimalField>
+            <DecimalField action="edit" oid="4dlowPAonY">
+              <Name>职位工资</Name>
+            </DecimalField>
+            <DecimalField action="edit" oid="JIEz3lBTMr">
+              <Name>司龄工资</Name>
+            </DecimalField>
+            <DecimalField action="edit" oid="oR2vC8kKmx">
+              <Name>个人所得税</Name>
+            </DecimalField>
+            <DecimalField action="edit" oid="ZSd1pedk8T">
+              <Name>五险二金个人部分</Name>
+            </DecimalField>
+            <DecimalField action="edit" oid="P3lqdMfvc1">
+              <Name>专项奖</Name>
+            </DecimalField>
+            <DecimalField action="edit" oid="WByz0furnW">
+              <Name>年终浮动奖金</Name>
+            </DecimalField>
+            <DecimalField action="edit" oid="vB7ZKPiTaF">
+              <Name>考勤扣款</Name>
+            </DecimalField>
+            <DecimalField action="edit" oid="TqBXUsUem9">
+              <Name>福利补贴</Name>
+            </DecimalField>
+            <DecimalField action="edit" oid="qgu2fEIzvT">
+              <Name>浮动薪酬</Name>
+            </DecimalField>
+            <DecimalField action="edit" oid="0ZbWJd7GTk">
+              <Name>税后扣款</Name>
+            </DecimalField>
+            <EntryEntity action="edit" oid="aesqPypc3I">
+              <Name>其他社会团体经历单据体</Name>
+            </EntryEntity>
+            <TextField action="edit" oid="gCV6efUR3q">
+              <Name>任职企业／协会／高校</Name>
+            </TextField>
+            <TextField action="edit" oid="5BthRBIpZX">
+              <Name>职务</Name>
+            </TextField>
+            <TextField action="edit" oid="K5l1qVbjvN">
+              <Name>其他信息</Name>
+            </TextField>
+            <DateField action="edit" oid="HVKpaFxWAxJlHO4KDG">
+              <Name>结束时间</Name>
+            </DateField>
+            <DateField action="edit" oid="1VZb4wSNsILqmBgYTQ">
+              <Name>开始时间</Name>
+            </DateField>
+          </Items>
+        </EntityMetadata>
+      </DataXml>
+      <Name>pc端人员档案详细</Name>
+      <Id>3JMYOCVIVXN=</Id>
+      <LocaleId>en_US</LocaleId>
+    </DesignEntityMetaL>
+  </DesignMetas>
+  <Version>1736153834108</Version>
+  <BOSVersion>1.0</BOSVersion>
+</DeployMetadata>

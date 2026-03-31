@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DeployMetadata>
+  <MasterId>46Q0T3V1W1RE</MasterId>
+  <Id>46Q0T3V1W1RE</Id>
+  <DesignMetas>
+    <DesignFormMetaL>
+      <Number>cds0_cea_import</Number>
+      <PkId>46QO/XGTBMDA</PkId>
+      <DataXml>
+        <FormMetadata/>
+      </DataXml>
+      <Name>引入</Name>
+      <Id>46Q0T3V1W1RE</Id>
+      <LocaleId>zh_CN</LocaleId>
+    </DesignFormMetaL>
+    <DesignEntityMetaL>
+      <Number>cds0_cea_import</Number>
+      <PkId>46QO/XHU85UP</PkId>
+      <DataXml>
+        <EntityMetadata/>
+      </DataXml>
+      <Name>引入</Name>
+      <Id>46Q0T3V1W1RE</Id>
+      <LocaleId>zh_CN</LocaleId>
+    </DesignEntityMetaL>
+  </DesignMetas>
+  <Version>1718778556651</Version>
+  <BOSVersion>1.0</BOSVersion>
+</DeployMetadata>

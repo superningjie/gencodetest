@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DeployMetadata>
+  <MasterId>3DV/XY0W/6EJ</MasterId>
+  <Id>3DV/XY0W/6EJ</Id>
+  <DesignMetas>
+    <DesignFormMetaL>
+      <Number>tdkw_announcement_title</Number>
+      <PkId>4CL7I9BWRRWR</PkId>
+      <DataXml>
+        <FormMetadata>
+          <Items>
+            <BasedataFormAp action="edit" oid="1942c188000064ac">
+              <ListMeta>
+                <FormMetadata>
+                  <Items>
+                    <ListColumnAp action="edit" oid="3I/94/N2R5IY">
+                      <Name>公告類型</Name>
+                    </ListColumnAp>
+                    <DateListColumnAp action="edit" oid="3I/966GWWNHW">
+                      <Name>創建時間</Name>
+                    </DateListColumnAp>
+                  </Items>
+                </FormMetadata>
+              </ListMeta>
+            </BasedataFormAp>
+            <FieldAp action="edit" oid="PjAJedd7ce">
+              <Name>標題</Name>
+            </FieldAp>
+            <FieldAp action="edit" oid="X09MqxfQkD">
+              <Name>公告類型</Name>
+            </FieldAp>
+            <FieldAp action="edit" oid="b24OfpBo53">
+              <Name>URL</Name>
+            </FieldAp>
+          </Items>
+        </FormMetadata>
+      </DataXml>
+      <Name>基礎資料模板</Name>
+      <Id>3DV/XY0W/6EJ</Id>
+      <LocaleId>zh_TW</LocaleId>
+    </DesignFormMetaL>
+    <DesignEntityMetaL>
+      <Number>tdkw_announcement_title</Number>
+      <PkId>4CL7I9DNPQB9</PkId>
+      <DataXml>
+        <EntityMetadata>
+          <Items>
+            <BasedataField action="edit" oid="X09MqxfQkD">
+              <Name>公告類型</Name>
+            </BasedataField>
+            <TextField action="edit" oid="PjAJedd7ce">
+              <Name>標題</Name>
+            </TextField>
+            <TextField action="edit" oid="b24OfpBo53">
+              <Name>URL</Name>
+            </TextField>
+          </Items>
+        </EntityMetadata>
+      </DataXml>
+      <Name>基礎資料模板</Name>
+      <Id>3DV/XY0W/6EJ</Id>
+      <LocaleId>zh_TW</LocaleId>
+    </DesignEntityMetaL>
+  </DesignMetas>
+  <Version>1725435861515</Version>
+  <BOSVersion>1.0</BOSVersion>
+</DeployMetadata>

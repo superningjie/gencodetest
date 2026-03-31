@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Package name="tdkw_opa">
+    <ver>1.5.0</ver>
+    <app>
+        <item id="tdkw_opa" name="tdkw_opa" pkname="tdkw_opa-tdkw_opa" path="main/tdkw_opa"/>
+    </app>
+</Package>

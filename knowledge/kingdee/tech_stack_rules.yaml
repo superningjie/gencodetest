@@ -1,0 +1,181 @@
+# 技术栈推断规则 - 金蝶云苍穹版
+tech_stack_inference:
+  version: "2.0"
+  description: "金蝶云苍穹平台技术栈推断规则"
+  
+  rules:
+    # ========== 元数据相关 ==========
+    - pattern: "实体|元数据|字段|属性|entity|metadata"
+      stack: "entity_metadata"
+      impl_type: "entity_metadata"
+      language: "json"
+      priority: 10
+      
+    - pattern: "表单|界面|页面|布局|form|ui|layout"
+      stack: "form_metadata"
+      impl_type: "form_metadata"
+      language: "json"
+      priority: 10
+      
+    - pattern: "服务定义|接口定义|service|interface"
+      stack: "service_metadata"
+      impl_type: "service_metadata"
+      language: "json"
+      priority: 10
+      
+    # ========== KingScript 服务 ==========
+    - pattern: "服务|业务逻辑|service|business"
+      stack: "kingscript_service"
+      impl_type: "kingscript_service"
+      language: "kingscript"
+      priority: 9
+      
+    - pattern: "操作|保存|提交|审核|operation|save|submit"
+      stack: "kingscript_operation"
+      impl_type: "kingscript_operation"
+      language: "kingscript"
+      priority: 9
+      
+    - pattern: "脚本|script|kingscript|ks"
+      stack: "kingscript_script"
+      impl_type: "kingscript_service"
+      language: "kingscript"
+      priority: 9
+      
+    # ========== Java 插件 ==========
+    - pattern: "表单插件|动态表单|form plugin|formplugin"
+      stack: "kingdee_form_plugin"
+      impl_type: "java_form_plugin"
+      language: "java"
+      base_class: "kd.bos.form.plugin.AbstractFormPlugin"
+      priority: 8
+      
+    - pattern: "单据插件|单据界面|bill plugin|billplugin"
+      stack: "kingdee_bill_plugin"
+      impl_type: "java_bill_plugin"
+      language: "java"
+      base_class: "kd.bos.bill.plugin.AbstractBillPlugin"
+      priority: 8
+      
+    - pattern: "列表插件|单据列表|list plugin|listplugin"
+      stack: "kingdee_list_plugin"
+      impl_type: "java_list_plugin"
+      language: "java"
+      base_class: "kd.bos.list.plugin.AbstractListPlugin"
+      priority: 8
+      
+    - pattern: "操作插件|操作服务|operation plugin"
+      stack: "kingdee_operation_plugin"
+      impl_type: "java_operation_plugin"
+      language: "java"
+      base_class: "kd.bos.entity.operate.AbstractOperationService"
+      priority: 8
+      
+    - pattern: "转换插件|单据转换|BOTP|transform|bill transform"
+      stack: "kingdee_transform_plugin"
+      impl_type: "java_transform_plugin"
+      language: "java"
+      base_class: "kd.bos.transform.plugin.AbstractTransformPlugin"
+      priority: 8
+      
+    - pattern: "反写插件|单据反写|writeback|write back"
+      stack: "kingdee_writeback_plugin"
+      impl_type: "java_writeback_plugin"
+      language: "java"
+      base_class: "kd.bos.writeback.plugin.AbstractWriteBackPlugin"
+      priority: 8
+      
+    - pattern: "报表插件|报表取数|report plugin|report data"
+      stack: "kingdee_report_plugin"
+      impl_type: "java_report_plugin"
+      language: "java"
+      base_class: "kd.bos.report.plugin.AbstractReportDataPlugin"
+      priority: 7
+      
+    - pattern: "工作流插件|流程插件|workflow plugin"
+      stack: "kingdee_workflow_plugin"
+      impl_type: "java_workflow_plugin"
+      language: "java"
+      base_class: "kd.bos.workflow.plugin.AbstractWorkflowPlugin"
+      priority: 7
+      
+    - pattern: "打印插件|套打|print plugin"
+      stack: "kingdee_print_plugin"
+      impl_type: "java_print_plugin"
+      language: "java"
+      base_class: "kd.bos.print.plugin.AbstractPrintPlugin"
+      priority: 7
+      
+    - pattern: "开放API|API插件|openapi plugin"
+      stack: "kingdee_openapi_plugin"
+      impl_type: "java_openapi_plugin"
+      language: "java"
+      base_class: "kd.bos.openapi.plugin.AbstractOpenAPIPlugin"
+      priority: 7
+      
+    - pattern: "后台任务|定时任务|background task|schedule"
+      stack: "kingdee_background_task"
+      impl_type: "java_background_task"
+      language: "java"
+      base_class: "kd.bos.background.task.AbstractBackgroundTask"
+      priority: 7
+      
+    # ========== 扩展点 ==========
+    - pattern: "扩展点|extension point|扩展|extension"
+      stack: "kingdee_extension"
+      impl_type: "java_extension_point"
+      language: "java"
+      priority: 6
+      
+    # ========== 控件相关 ==========
+    - pattern: "自定义控件|custom control"
+      stack: "kingdee_custom_control"
+      impl_type: "javascript_custom_control"
+      language: "javascript"
+      priority: 5
+      
+    # ========== 报表相关 ==========
+    - pattern: "报表|报表开发|report"
+      stack: "kingdee_report"
+      impl_type: "kdorm_report"
+      language: "kdorm"
+      priority: 5
+
+  # 模块识别规则
+  module_detection:
+    - keywords: ["考勤", "打卡", "排班", "假期", "attendance"]
+      module: "HR_ATTENDANCE"
+      
+    - keywords: ["薪酬", "工资", "社保", "公积金", "个税", "payroll", "salary"]
+      module: "HR_PAYROLL"
+      
+    - keywords: ["组织", "员工", "合同", "档案", "人员", "employee", "org"]
+      module: "HR_CORE"
+      
+    - keywords: ["招聘", "面试", "入职", "简历", "recruitment"]
+      module: "HR_RECRUITMENT"
+      
+    - keywords: ["绩效", "考核", "目标", "performance"]
+      module: "HR_PERFORMANCE"
+      
+    - keywords: ["培训", "学习", "课程", "training"]
+      module: "HR_TRAINING"
+
+  # 包名模板
+  package_templates:
+    base: "com.kingdee.{module}"
+    plugin:
+      form: "com.kingdee.{module}.plugin.form"
+      list: "com.kingdee.{module}.plugin.list"
+      bill: "com.kingdee.{module}.plugin.bill"
+      operation: "com.kingdee.{module}.plugin.operation"
+      transform: "com.kingdee.{module}.plugin.transform"
+      writeback: "com.kingdee.{module}.plugin.writeback"
+      report: "com.kingdee.{module}.plugin.report"
+      workflow: "com.kingdee.{module}.plugin.workflow"
+      print: "com.kingdee.{module}.plugin.print"
+      openapi: "com.kingdee.{module}.plugin.openapi"
+      background: "com.kingdee.{module}.plugin.background"
+    extension: "com.kingdee.{module}.extension"
+    service:
+      kingscript: "kingdee.{module}"

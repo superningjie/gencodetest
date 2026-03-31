@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DeployMetadata>
+  <MasterId>4BS1PBCMXBFD</MasterId>
+  <Id>4BS1PBCMXBFD</Id>
+  <DesignMetas>
+    <DesignFormMetaL>
+      <Number>tdkw_inner_decompose</Number>
+      <PkId>4DXHCNK5M=AI</PkId>
+      <DataXml>
+        <FormMetadata/>
+      </DataXml>
+      <Name>指标分解内嵌页面</Name>
+      <Id>4BS1PBCMXBFD</Id>
+      <LocaleId>zh_CN</LocaleId>
+    </DesignFormMetaL>
+    <DesignEntityMetaL>
+      <Number>tdkw_inner_decompose</Number>
+      <PkId>4DXHCNMS5+DX</PkId>
+      <DataXml>
+        <EntityMetadata/>
+      </DataXml>
+      <Name>指标分解内嵌页面</Name>
+      <Id>4BS1PBCMXBFD</Id>
+      <LocaleId>zh_CN</LocaleId>
+    </DesignEntityMetaL>
+  </DesignMetas>
+  <Version>1726711788165</Version>
+  <BOSVersion>1.0</BOSVersion>
+</DeployMetadata>

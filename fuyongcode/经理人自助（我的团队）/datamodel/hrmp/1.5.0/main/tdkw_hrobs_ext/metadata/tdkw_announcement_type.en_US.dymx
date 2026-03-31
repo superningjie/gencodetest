@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DeployMetadata>
+  <MasterId>3DV/NQB36AG8</MasterId>
+  <Id>3DV/NQB36AG8</Id>
+  <DesignMetas>
+    <DesignFormMetaL>
+      <Number>tdkw_announcement_type</Number>
+      <PkId>4CL7NB3Y/KMA</PkId>
+      <DataXml>
+        <FormMetadata/>
+      </DataXml>
+      <Name>Basic Data Template</Name>
+      <Id>3DV/NQB36AG8</Id>
+      <LocaleId>en_US</LocaleId>
+    </DesignFormMetaL>
+    <DesignEntityMetaL>
+      <Number>tdkw_announcement_type</Number>
+      <PkId>4CL7NB5HPPOU</PkId>
+      <DataXml>
+        <EntityMetadata/>
+      </DataXml>
+      <Name>Basic Data Template</Name>
+      <Id>3DV/NQB36AG8</Id>
+      <LocaleId>en_US</LocaleId>
+    </DesignEntityMetaL>
+  </DesignMetas>
+  <Version>1725435944472</Version>
+  <BOSVersion>1.0</BOSVersion>
+</DeployMetadata>

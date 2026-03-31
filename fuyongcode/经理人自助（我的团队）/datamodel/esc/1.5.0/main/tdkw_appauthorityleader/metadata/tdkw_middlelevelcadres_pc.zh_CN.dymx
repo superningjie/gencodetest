@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DeployMetadata>
+  <MasterId>3EX0+JH1WFPB</MasterId>
+  <Id>3EX0+JH1WFPB</Id>
+  <DesignMetas>
+    <DesignFormMetaL>
+      <Number>tdkw_middlelevelcadres_pc</Number>
+      <PkId>3EX0G83TN10I</PkId>
+      <DataXml>
+        <FormMetadata/>
+      </DataXml>
+      <Name>中层干部PC端</Name>
+      <Id>3EX0+JH1WFPB</Id>
+      <LocaleId>zh_CN</LocaleId>
+    </DesignFormMetaL>
+    <DesignEntityMetaL>
+      <Number>tdkw_middlelevelcadres_pc</Number>
+      <PkId>3EX0G8570=LG</PkId>
+      <DataXml>
+        <EntityMetadata/>
+      </DataXml>
+      <Name>中层干部PC端</Name>
+      <Id>3EX0+JH1WFPB</Id>
+      <LocaleId>zh_CN</LocaleId>
+    </DesignEntityMetaL>
+  </DesignMetas>
+  <Version>1689824705568</Version>
+  <BOSVersion>1.0</BOSVersion>
+</DeployMetadata>

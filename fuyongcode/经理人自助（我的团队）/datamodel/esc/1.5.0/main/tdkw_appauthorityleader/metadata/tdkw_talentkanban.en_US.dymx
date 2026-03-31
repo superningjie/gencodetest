@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DeployMetadata>
+  <MasterId>4767BPZ8V5O6</MasterId>
+  <Id>4767BPZ8V5O6</Id>
+  <DesignMetas>
+    <DesignFormMetaL>
+      <Number>tdkw_talentkanban</Number>
+      <PkId>4767BQ260573</PkId>
+      <DataXml>
+        <FormMetadata>
+          <Name>领导自助-人才看板</Name>
+          <Items>
+            <BillFormAp action="edit" oid="00305e8b000005ac">
+              <MobListMeta>
+                <FormMetadata>
+                  <Items>
+                    <CardListColumnAp action="edit" oid="3EWTB/JRH3OB">
+                      <Name>单据状态</Name>
+                    </CardListColumnAp>
+                    <CardListColumnAp action="edit" oid="3EWTB/JRH4BM">
+                      <Name>创建人.姓名</Name>
+                    </CardListColumnAp>
+                    <CardFlexPanelAp action="edit" oid="3EWTB/JRH4BL">
+                      <Name>卡片布局容器</Name>
+                    </CardFlexPanelAp>
+                    <MobFilterPanelAp action="edit" oid="3EWTB/JNVPGX">
+                      <Name>过滤项2</Name>
+                    </MobFilterPanelAp>
+                  </Items>
+                </FormMetadata>
+              </MobListMeta>
+              <Name>领导自助-人才看板</Name>
+              <MobMeta>
+                <FormMetadata>
+                  <Items>
+                    <LayoutFlexAp action="edit" oid="3EWTB/JNVPGU">
+                      <Name>字段布局容器</Name>
+                    </LayoutFlexAp>
+                    <LayoutFlexAp action="edit" oid="3EWTB/JNVQ53">
+                      <Name>字段布局容器</Name>
+                    </LayoutFlexAp>
+                    <FieldAp action="edit" oid="3EWTB/JNVPGV">
+                      <Name>单据状态</Name>
+                    </FieldAp>
+                    <FieldAp action="edit" oid="3EWTB/JNVQ54">
+                      <Name>审核人</Name>
+                    </FieldAp>
+                    <FieldAp action="edit" oid="3EWTB/JNVPGW">
+                      <Name>创建人</Name>
+                    </FieldAp>
+                    <MBarItemAp action="edit" oid="3EWTB/JNVQ55">
+                      <Name>提交</Name>
+                    </MBarItemAp>
+                  </Items>
+                </FormMetadata>
+              </MobMeta>
+            </BillFormAp>
+            <AdvConSummaryPanelAp action="edit" oid="3EWTB/J=C0PS">
+              <Name>高级面板摘要容器</Name>
+            </AdvConSummaryPanelAp>
+            <AdvConToolbarAp action="edit" oid="3EWTB/J=C1D0">
+              <Name>高级面板工具栏</Name>
+            </AdvConToolbarAp>
+            <AdvConChildPanelAp action="edit" oid="3EWTB/J=C0PT">
+              <Name>高级面板子容器</Name>
+            </AdvConChildPanelAp>
+            <EntryAp action="edit" oid="3EWTB/JGLWS1">
+              <Name>单据体</Name>
+            </EntryAp>
+            <AdvConBarItemAp action="edit" oid="3EWTB/J=C1D1">
+              <Name>增行</Name>
+            </AdvConBarItemAp>
+            <AdvConBarItemAp action="edit" oid="3EWTB/J=C0PU">
+              <Name>删行</Name>
+            </AdvConBarItemAp>
+            <EntryFieldAp action="edit" oid="3EWTB/JK8==A">
+              <Name>修改人</Name>
+            </EntryFieldAp>
+            <EntryFieldAp action="edit" oid="3EWTB/JK8=ZK">
+              <Name>修改时间</Name>
+            </EntryFieldAp>
+            <FieldAp action="edit" oid="JwvlHVhVMc">
+              <Name>HR行政组织</Name>
+            </FieldAp>
+            <AdvConAp action="edit" oid="3EWTB/I9GH9D">
+              <Name>分录</Name>
+            </AdvConAp>
+          </Items>
+        </FormMetadata>
+      </DataXml>
+      <Name>领导自助-人才看板</Name>
+      <Id>4767BPZ8V5O6</Id>
+      <LocaleId>en_US</LocaleId>
+    </DesignFormMetaL>
+    <DesignEntityMetaL>
+      <Number>tdkw_talentkanban</Number>
+      <PkId>4767BQ3GT+KJ</PkId>
+      <DataXml>
+        <EntityMetadata>
+          <Name>领导自助-人才看板</Name>
+          <Items>
+            <BillEntity action="edit" oid="00305e8b000007ac">
+              <Operations>
+                <Operation action="edit" oid="3EWTB/JK8==B">
+                  <Name>新增分录</Name>
+                </Operation>
+                <Operation action="edit" oid="3EWTB/JNVQ52">
+                  <Name>删除分录</Name>
+                </Operation>
+              </Operations>
+              <Name>领导自助-人才看板</Name>
+            </BillEntity>
+            <EntryEntity action="edit" oid="3EWTB/JGLWS1">
+              <Name>单据体</Name>
+            </EntryEntity>
+            <ModifierField action="edit" oid="3EWTB/JK8==A">
+              <Name>修改人</Name>
+            </ModifierField>
+            <ModifyDateField action="edit" oid="3EWTB/JK8=ZK">
+              <Name>修改日期</Name>
+            </ModifyDateField>
+            <BasedataField action="edit" oid="JwvlHVhVMc">
+              <Name>HR行政组织</Name>
+            </BasedataField>
+          </Items>
+        </EntityMetadata>
+      </DataXml>
+      <Name>领导自助-人才看板</Name>
+      <Id>4767BPZ8V5O6</Id>
+      <LocaleId>en_US</LocaleId>
+    </DesignEntityMetaL>
+  </DesignMetas>
+  <Version>1719215164526</Version>
+  <BOSVersion>1.0</BOSVersion>
+</DeployMetadata>

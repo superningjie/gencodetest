@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DeployMetadata>
+  <MasterId>4=/YH9S+2R5G</MasterId>
+  <Id>4=/YH9S+2R5G</Id>
+  <DesignMetas>
+    <DesignFormMetaL>
+      <Number>tdkw_bzchange_request</Number>
+      <PkId>4KP=AHSE0WM4</PkId>
+      <DataXml>
+        <FormMetadata/>
+      </DataXml>
+      <Name>编制变更申请</Name>
+      <Id>4=/YH9S+2R5G</Id>
+      <LocaleId>zh_CN</LocaleId>
+    </DesignFormMetaL>
+    <DesignEntityMetaL>
+      <Number>tdkw_bzchange_request</Number>
+      <PkId>4KP=AI+ZN3/K</PkId>
+      <DataXml>
+        <EntityMetadata/>
+      </DataXml>
+      <Name>编制变更申请</Name>
+      <Id>4=/YH9S+2R5G</Id>
+      <LocaleId>zh_CN</LocaleId>
+    </DesignEntityMetaL>
+  </DesignMetas>
+  <Version>1733300474227</Version>
+  <BOSVersion>1.0</BOSVersion>
+</DeployMetadata>

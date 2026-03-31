@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DeployMetadata>
+  <MasterId>484UX4L1YPF5</MasterId>
+  <Id>484UX4L1YPF5</Id>
+  <DesignMetas>
+    <DesignFormMetaL>
+      <Number>cds0_cea_assessrowimport</Number>
+      <PkId>4ATOK0LJ41MU</PkId>
+      <DataXml>
+        <FormMetadata/>
+      </DataXml>
+      <Name>引入测评表行</Name>
+      <Id>484UX4L1YPF5</Id>
+      <LocaleId>zh_CN</LocaleId>
+    </DesignFormMetaL>
+    <DesignEntityMetaL>
+      <Number>cds0_cea_assessrowimport</Number>
+      <PkId>4ATOK0RDK72W</PkId>
+      <DataXml>
+        <EntityMetadata/>
+      </DataXml>
+      <Name>引入测评表行</Name>
+      <Id>484UX4L1YPF5</Id>
+      <LocaleId>zh_CN</LocaleId>
+    </DesignEntityMetaL>
+  </DesignMetas>
+  <Version>1723705609483</Version>
+  <BOSVersion>1.0</BOSVersion>
+</DeployMetadata>

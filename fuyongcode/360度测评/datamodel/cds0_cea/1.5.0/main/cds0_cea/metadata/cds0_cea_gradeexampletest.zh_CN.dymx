@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DeployMetadata>
+  <MasterId>485W2J/DW0K5</MasterId>
+  <Id>485W2J/DW0K5</Id>
+  <DesignMetas>
+    <DesignFormMetaL>
+      <Number>cds0_cea_gradeexampletest</Number>
+      <PkId>4=0CVXOZMFB3</PkId>
+      <DataXml>
+        <FormMetadata/>
+      </DataXml>
+      <Name>指标测评实例保存暂存</Name>
+      <Id>485W2J/DW0K5</Id>
+      <LocaleId>zh_CN</LocaleId>
+    </DesignFormMetaL>
+    <DesignEntityMetaL>
+      <Number>cds0_cea_gradeexampletest</Number>
+      <PkId>4=0CVXQFN32K</PkId>
+      <DataXml>
+        <EntityMetadata/>
+      </DataXml>
+      <Name>指标测评实例保存暂存</Name>
+      <Id>485W2J/DW0K5</Id>
+      <LocaleId>zh_CN</LocaleId>
+    </DesignEntityMetaL>
+  </DesignMetas>
+  <Version>1721981264872</Version>
+  <BOSVersion>1.0</BOSVersion>
+</DeployMetadata>

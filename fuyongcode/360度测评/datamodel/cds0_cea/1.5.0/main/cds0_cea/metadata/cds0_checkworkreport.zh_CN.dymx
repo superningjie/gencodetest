@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DeployMetadata>
+  <MasterId>49R5/8HLZ8+7</MasterId>
+  <Id>49R5/8HLZ8+7</Id>
+  <DesignMetas>
+    <DesignFormMetaL>
+      <Number>cds0_checkworkreport</Number>
+      <PkId>4=A0GXPT5GAE</PkId>
+      <DataXml>
+        <FormMetadata/>
+      </DataXml>
+      <Name>查看述职报告</Name>
+      <Id>49R5/8HLZ8+7</Id>
+      <LocaleId>zh_CN</LocaleId>
+    </DesignFormMetaL>
+    <DesignEntityMetaL>
+      <Number>cds0_checkworkreport</Number>
+      <PkId>4=A0GXSVU5/2</PkId>
+      <DataXml>
+        <EntityMetadata/>
+      </DataXml>
+      <Name>查看述职报告</Name>
+      <Id>49R5/8HLZ8+7</Id>
+      <LocaleId>zh_CN</LocaleId>
+    </DesignEntityMetaL>
+  </DesignMetas>
+  <Version>1722246431287</Version>
+  <BOSVersion>1.0</BOSVersion>
+</DeployMetadata>

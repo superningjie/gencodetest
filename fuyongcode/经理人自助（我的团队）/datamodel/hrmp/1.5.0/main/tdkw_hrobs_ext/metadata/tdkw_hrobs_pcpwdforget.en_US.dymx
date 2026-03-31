@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DeployMetadata>
+  <MasterId>3UGMZURQ8YI4</MasterId>
+  <Id>3UGMZURQ8YI4</Id>
+  <DesignMetas>
+    <DesignFormMetaL>
+      <Number>tdkw_hrobs_pcpwdforget</Number>
+      <PkId>3UYJWVQMQQEM</PkId>
+      <DataXml>
+        <FormMetadata>
+          <Name>简历薪资忘记密码弹窗</Name>
+          <Items>
+            <FormAp action="edit" oid="3UGMZUR+8L=S">
+              <Name>简历薪资忘记密码弹窗</Name>
+            </FormAp>
+            <FlexPanelAp action="edit" oid="vOc23qLosa">
+              <Name>Flex容器</Name>
+            </FlexPanelAp>
+            <LabelAp action="edit" oid="yw0BwuBe4K">
+              <Name>获取验证码</Name>
+            </LabelAp>
+            <ButtonAp action="edit" oid="w6h8D76c31">
+              <Name>确定</Name>
+            </ButtonAp>
+            <CountDownAp action="edit" oid="EJbQDvcrOA">
+              <Name>倒计时</Name>
+            </CountDownAp>
+            <LabelAp action="edit" oid="obGiovKobn">
+              <Name>s后重新获取</Name>
+            </LabelAp>
+            <ButtonAp action="edit" oid="vxbE97iXGB">
+              <Name>×</Name>
+            </ButtonAp>
+            <FlexPanelAp action="edit" oid="LnHDDc2aHC">
+              <Name>Flex容器</Name>
+            </FlexPanelAp>
+            <FlexPanelAp action="edit" oid="Y81q4t6t90">
+              <Name>Flex容器</Name>
+            </FlexPanelAp>
+            <FlexPanelAp action="edit" oid="5JB5YrAxPj">
+              <Name>Flex容器</Name>
+            </FlexPanelAp>
+            <FlexPanelAp action="edit" oid="YwxBVlLoVY">
+              <Name>Flex容器</Name>
+            </FlexPanelAp>
+            <FlexPanelAp action="edit" oid="SJUC4NfpBk">
+              <Name>Flex容器</Name>
+            </FlexPanelAp>
+            <FlexPanelAp action="edit" oid="5ElZO2IGKa">
+              <Name>Flex容器</Name>
+            </FlexPanelAp>
+            <FlexPanelAp action="edit" oid="NZ98zY8eIH">
+              <Name>Flex容器</Name>
+            </FlexPanelAp>
+            <ImageAp action="edit" oid="77RxTZpCZV">
+              <Name>图片展示</Name>
+            </ImageAp>
+            <FlexPanelAp action="edit" oid="xwaLcM7jjC">
+              <Name>Flex容器</Name>
+            </FlexPanelAp>
+            <FlexPanelAp action="edit" oid="i07oFjVbht">
+              <Name>Flex容器</Name>
+            </FlexPanelAp>
+            <FlexPanelAp action="edit" oid="RGWnX9LBDl">
+              <Name>Flex容器</Name>
+            </FlexPanelAp>
+          </Items>
+        </FormMetadata>
+      </DataXml>
+      <Name>简历薪资忘记密码弹窗</Name>
+      <Id>3UGMZURQ8YI4</Id>
+      <LocaleId>en_US</LocaleId>
+    </DesignFormMetaL>
+    <DesignEntityMetaL>
+      <Number>tdkw_hrobs_pcpwdforget</Number>
+      <PkId>3UYJWVR/8DVY</PkId>
+      <DataXml>
+        <EntityMetadata>
+          <Name>简历薪资忘记密码弹窗</Name>
+          <Items>
+            <MainEntity action="edit" oid="3UGMZUSR4GZI">
+              <Operations>
+                <Operation action="edit" oid="3UH73HC=239A">
+                  <Name>确认操作</Name>
+                </Operation>
+                <Operation action="edit" oid="3UH74WYKJBX=">
+                  <Name>发送短信</Name>
+                </Operation>
+              </Operations>
+              <Name>简历薪资忘记密码弹窗</Name>
+            </MainEntity>
+            <TextField action="edit" oid="b4FnEO92UJ">
+              <EmptyText>请输入手机号</EmptyText>
+            </TextField>
+            <TextField action="edit" oid="X310bOJA3E">
+              <EmptyText>请输入验证码</EmptyText>
+            </TextField>
+          </Items>
+        </EntityMetadata>
+      </DataXml>
+      <Name>简历薪资忘记密码弹窗</Name>
+      <Id>3UGMZURQ8YI4</Id>
+      <LocaleId>en_US</LocaleId>
+    </DesignEntityMetaL>
+  </DesignMetas>
+  <Version>1705389212603</Version>
+  <BOSVersion>1.0</BOSVersion>
+</DeployMetadata>

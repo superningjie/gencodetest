@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DeployMetadata>
+  <MasterId>49UL=NPYJ2HO</MasterId>
+  <Id>49UL=NPYJ2HO</Id>
+  <DesignMetas>
+    <DesignFormMetaL>
+      <Number>cea_uploadjobreport</Number>
+      <PkId>4=NNRHSJ0LPO</PkId>
+      <DataXml>
+        <FormMetadata/>
+      </DataXml>
+      <Name>上传测评对象述职报告</Name>
+      <Id>49UL=NPYJ2HO</Id>
+      <LocaleId>zh_CN</LocaleId>
+    </DesignFormMetaL>
+    <DesignEntityMetaL>
+      <Number>cea_uploadjobreport</Number>
+      <PkId>4=NNRHU3ONA4</PkId>
+      <DataXml>
+        <EntityMetadata/>
+      </DataXml>
+      <Name>上传测评对象述职报告</Name>
+      <Id>49UL=NPYJ2HO</Id>
+      <LocaleId>zh_CN</LocaleId>
+    </DesignEntityMetaL>
+  </DesignMetas>
+  <Version>1722585387500</Version>
+  <BOSVersion>1.0</BOSVersion>
+</DeployMetadata>

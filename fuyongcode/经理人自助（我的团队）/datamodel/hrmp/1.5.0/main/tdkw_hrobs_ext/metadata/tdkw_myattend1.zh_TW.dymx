@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DeployMetadata>
+  <MasterId>3=QADFUQKP3G</MasterId>
+  <Id>3=QADFUQKP3G</Id>
+  <DesignMetas>
+    <DesignFormMetaL>
+      <Number>tdkw_myattend1</Number>
+      <PkId>3COT3/+QS8YN</PkId>
+      <DataXml>
+        <FormMetadata>
+          <Items>
+            <FlexPanelAp action="edit" oid="U8p2tDdvTV">
+              <Name>Flex容器</Name>
+            </FlexPanelAp>
+            <FlexPanelAp action="edit" oid="2WnRqakRAm">
+              <Name>Flex容器</Name>
+            </FlexPanelAp>
+            <FlexPanelAp action="edit" oid="8gfBLZwqEk">
+              <Name>Flex容器</Name>
+            </FlexPanelAp>
+            <FlexPanelAp action="edit" oid="e8bO8ntz5k">
+              <Name>Flex容器</Name>
+            </FlexPanelAp>
+            <LabelAp action="edit" oid="Ofde43ljvY">
+              <Name>行政班次：異常</Name>
+            </LabelAp>
+            <FlexPanelAp action="edit" oid="2Ah0RIYd0T">
+              <Name>Flex容器</Name>
+            </FlexPanelAp>
+            <FlexPanelAp action="edit" oid="Fy43gzPozu">
+              <Name>Flex容器</Name>
+            </FlexPanelAp>
+            <ProgressBarAp action="edit" oid="C3bQ3XE4TB">
+              <Name>進度條</Name>
+            </ProgressBarAp>
+            <ProgressBarAp action="edit" oid="bKw7YsB28B">
+              <Name>進度條2</Name>
+            </ProgressBarAp>
+            <FlexPanelAp action="edit" oid="PwBlJJOdHr">
+              <Name>Flex容器</Name>
+            </FlexPanelAp>
+            <FlexPanelAp action="edit" oid="hVyGZdsglt">
+              <Name>Flex容器</Name>
+            </FlexPanelAp>
+            <FlexPanelAp action="edit" oid="1zTp331Mg1">
+              <Name>Flex容器</Name>
+            </FlexPanelAp>
+            <FlexPanelAp action="edit" oid="1qRlfswxbc">
+              <Name>Flex容器</Name>
+            </FlexPanelAp>
+            <FlexPanelAp action="edit" oid="7Yb9qKXaqL">
+              <Name>Flex容器</Name>
+            </FlexPanelAp>
+            <LabelAp action="edit" oid="5OwL13wIqc">
+              <Name>昨日出勤</Name>
+            </LabelAp>
+            <LabelAp action="edit" oid="bxWnOkVUUM">
+              <Name>昨日</Name>
+            </LabelAp>
+            <LabelAp action="edit" oid="9NOPcfsf8S">
+              <Name>遲到</Name>
+            </LabelAp>
+            <LabelAp action="edit" oid="P3OBJJ5wSV">
+              <Name>早退</Name>
+            </LabelAp>
+            <LabelAp action="edit" oid="ESzIlaS1Pe">
+              <Name>曠工</Name>
+            </LabelAp>
+            <LabelAp action="edit" oid="xVBfrmVhTi">
+              <Name>缺卡</Name>
+            </LabelAp>
+            <LabelAp action="edit" oid="n0qsVe9GFz">
+              <Name>正常</Name>
+            </LabelAp>
+            <LabelAp action="edit" oid="5porYHsD8k">
+              <Name>無需打卡</Name>
+            </LabelAp>
+            <LabelAp action="edit" oid="hGO5xCNFkl">
+              <Name>遲到</Name>
+            </LabelAp>
+            <LabelAp action="edit" oid="TK4oj0vZqS">
+              <Name>曠工</Name>
+            </LabelAp>
+            <LabelAp action="edit" oid="JfF5DcM3Uq">
+              <Name>早退</Name>
+            </LabelAp>
+            <LabelAp action="edit" oid="phowdoOygz">
+              <Name>缺卡</Name>
+            </LabelAp>
+            <LabelAp action="edit" oid="13q2lVc2VF">
+              <Name>正常</Name>
+            </LabelAp>
+            <LabelAp action="edit" oid="d0AtXOh0d2">
+              <Name>無需打卡</Name>
+            </LabelAp>
+            <FlexPanelAp action="edit" oid="rvkB4X6EWZ">
+              <Name>真實標題區</Name>
+            </FlexPanelAp>
+            <FlexPanelAp action="edit" oid="7cXDisHpP6">
+              <Name>真實內容區</Name>
+            </FlexPanelAp>
+            <LabelAp action="edit" oid="UOaIxSJRnp">
+              <Name>明日出勤</Name>
+            </LabelAp>
+            <LabelAp action="edit" oid="nGqeSTAYTN">
+              <Name>明日</Name>
+            </LabelAp>
+            <LabelAp action="edit" oid="yiXd8vsFIh">
+              <Name>今日出勤</Name>
+            </LabelAp>
+            <LabelAp action="edit" oid="aDVuOp3RhN">
+              <Name>今日</Name>
+            </LabelAp>
+            <FlexPanelAp action="edit" oid="ETQtsXHmvj">
+              <Name>Flex容器</Name>
+            </FlexPanelAp>
+            <FieldAp action="edit" oid="bkaFbKoLR0">
+              <Name>開始日期</Name>
+            </FieldAp>
+            <FieldAp action="edit" oid="8Gaijfg1rc">
+              <Name>結束日期</Name>
+            </FieldAp>
+            <LabelAp action="edit" oid="XeCLqA8aZ1">
+              <Name>行政班次：異常</Name>
+            </LabelAp>
+            <FieldAp action="edit" oid="x8KkCDmskt">
+              <Name>實際打卡上班</Name>
+            </FieldAp>
+            <FieldAp action="edit" oid="fINrBw5s4i">
+              <Name>實際打卡下班</Name>
+            </FieldAp>
+            <FlexPanelAp action="edit" oid="e1wj5RZi12">
+              <Name>Flex容器</Name>
+            </FlexPanelAp>
+            <FlexPanelAp action="edit" oid="3DEc7n3ifc">
+              <Name>Flex容器</Name>
+            </FlexPanelAp>
+            <FlexPanelAp action="edit" oid="VGil6QZc0y">
+              <Name>Flex容器</Name>
+            </FlexPanelAp>
+            <FlexPanelAp action="edit" oid="dqxvcO7u3W">
+              <Name>Flex容器</Name>
+            </FlexPanelAp>
+            <LabelAp action="edit" oid="u4veP2KElt">
+              <Name>我的考勤</Name>
+            </LabelAp>
+          </Items>
+        </FormMetadata>
+      </DataXml>
+      <Name>卡片模板</Name>
+      <Id>3=QADFUQKP3G</Id>
+      <LocaleId>zh_TW</LocaleId>
+    </DesignFormMetaL>
+    <DesignEntityMetaL>
+      <Number>tdkw_myattend1</Number>
+      <PkId>3COT3//D5XXJ</PkId>
+      <DataXml>
+        <EntityMetadata>
+          <Items>
+            <DateTimeField action="edit" oid="bkaFbKoLR0">
+              <EmptyText>異常</EmptyText>
+              <Name>開始日期</Name>
+            </DateTimeField>
+            <DateTimeField action="edit" oid="8Gaijfg1rc">
+              <EmptyText>異常</EmptyText>
+              <Name>結束日期</Name>
+            </DateTimeField>
+            <DateTimeField action="edit" oid="fINrBw5s4i">
+              <EmptyText>異常</EmptyText>
+              <Name>實際打卡下班</Name>
+            </DateTimeField>
+            <DateTimeField action="edit" oid="x8KkCDmskt">
+              <EmptyText>異常</EmptyText>
+              <Name>實際打卡上班</Name>
+            </DateTimeField>
+          </Items>
+        </EntityMetadata>
+      </DataXml>
+      <Name>卡片模板</Name>
+      <Id>3=QADFUQKP3G</Id>
+      <LocaleId>zh_TW</LocaleId>
+    </DesignEntityMetaL>
+  </DesignMetas>
+  <Version>1688472736634</Version>
+  <BOSVersion>1.0</BOSVersion>
+</DeployMetadata>

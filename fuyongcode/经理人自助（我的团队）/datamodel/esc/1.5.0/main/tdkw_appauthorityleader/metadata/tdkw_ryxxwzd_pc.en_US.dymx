@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DeployMetadata>
+  <MasterId>3PZB9K6VZ+EN</MasterId>
+  <Id>3PZB9K6VZ+EN</Id>
+  <DesignMetas>
+    <DesignFormMetaL>
+      <Number>tdkw_ryxxwzd_pc</Number>
+      <PkId>3PZBDDS/Q3XG</PkId>
+      <DataXml>
+        <FormMetadata>
+          <Name>人员信息完整度PC端</Name>
+          <Items>
+            <BillFormAp action="edit" oid="00305e8b000005ac">
+              <MobListMeta>
+                <FormMetadata>
+                  <Items>
+                    <CardListColumnAp action="edit" oid="3PZB9KDZE36C">
+                      <Name>单据状态</Name>
+                    </CardListColumnAp>
+                    <CardListColumnAp action="edit" oid="3PZB9KDZE2I3">
+                      <Name>创建人.姓名</Name>
+                    </CardListColumnAp>
+                    <CardFlexPanelAp action="edit" oid="3PZB9KDZE2I2">
+                      <Name>卡片布局容器</Name>
+                    </CardFlexPanelAp>
+                    <MobSortPanelAp action="edit" oid="mobsortpanel">
+                      <Name>排序项1</Name>
+                    </MobSortPanelAp>
+                    <MobFilterPanelAp action="edit" oid="mobfilterpanel">
+                      <Name>过滤项1</Name>
+                    </MobFilterPanelAp>
+                    <MobFilterPanelAp action="edit" oid="3PZB9KDZE36B">
+                      <Name>过滤项2</Name>
+                    </MobFilterPanelAp>
+                  </Items>
+                </FormMetadata>
+              </MobListMeta>
+              <Name>人员信息完整度PC端</Name>
+              <MobMeta>
+                <FormMetadata>
+                  <Items>
+                    <LayoutFlexAp action="edit" oid="3PZB9KDZE369">
+                      <Name>字段布局容器</Name>
+                    </LayoutFlexAp>
+                    <LayoutFlexAp action="edit" oid="3PZB9KDZE2I/">
+                      <Name>字段布局容器</Name>
+                    </LayoutFlexAp>
+                    <FieldAp action="edit" oid="3PZB9KDZE2I0">
+                      <Name>Approved By</Name>
+                    </FieldAp>
+                    <FieldAp action="edit" oid="3PZB9KDZE36A">
+                      <Name>Created By</Name>
+                    </FieldAp>
+                    <FieldAp action="edit" oid="3PZB9KDZE36=">
+                      <Name>Document Status</Name>
+                    </FieldAp>
+                    <MBarItemAp action="edit" oid="3PZB9KDZE2I1">
+                      <Name>提交</Name>
+                    </MBarItemAp>
+                  </Items>
+                </FormMetadata>
+              </MobMeta>
+            </BillFormAp>
+            <AdvConSummaryPanelAp action="edit" oid="3PZB9KCYIJ1M">
+              <Name>高级面板摘要容器</Name>
+            </AdvConSummaryPanelAp>
+            <AdvConToolbarAp action="edit" oid="3PZB9KCYIIDD">
+              <Name>高级面板工具栏</Name>
+            </AdvConToolbarAp>
+            <AdvConChildPanelAp action="edit" oid="3PZB9KCYIJ1N">
+              <Name>高级面板子容器</Name>
+            </AdvConChildPanelAp>
+            <AdvConBarItemAp action="edit" oid="3PZB9KCYIIDE">
+              <Name>增行</Name>
+            </AdvConBarItemAp>
+            <AdvConBarItemAp action="edit" oid="3PZB9KCYIJ1O">
+              <Name>删行</Name>
+            </AdvConBarItemAp>
+            <EntryAp action="edit" oid="3PZB9KD04YKW">
+              <Name>单据体</Name>
+            </EntryAp>
+            <EntryFieldAp action="edit" oid="3PZB9KD04Z94">
+              <Name>修改人</Name>
+            </EntryFieldAp>
+            <EntryFieldAp action="edit" oid="3PZB9KD04YKX">
+              <Name>修改时间</Name>
+            </EntryFieldAp>
+            <FieldAp action="edit" oid="KDC7siRnas">
+              <Name>HR行政组织</Name>
+            </FieldAp>
+            <AdvConAp action="edit" oid="3PZB9KCYIIDC">
+              <Name>分录</Name>
+            </AdvConAp>
+          </Items>
+        </FormMetadata>
+      </DataXml>
+      <Name>人员信息完整度PC端</Name>
+      <Id>3PZB9K6VZ+EN</Id>
+      <LocaleId>en_US</LocaleId>
+    </DesignFormMetaL>
+    <DesignEntityMetaL>
+      <Number>tdkw_ryxxwzd_pc</Number>
+      <PkId>3PZBDE4ERHF7</PkId>
+      <DataXml>
+        <EntityMetadata>
+          <Name>人员信息完整度PC端</Name>
+          <Items>
+            <BillEntity action="edit" oid="00305e8b000007ac">
+              <Operations>
+                <Operation action="edit" oid="3PZB9KD04Z95">
+                  <Name>新增分录</Name>
+                </Operation>
+                <Operation action="edit" oid="3PZB9KD04YKY">
+                  <Name>删除分录</Name>
+                </Operation>
+              </Operations>
+              <Name>人员信息完整度PC端</Name>
+            </BillEntity>
+            <EntryEntity action="edit" oid="3PZB9KD04YKW">
+              <Name>单据体</Name>
+            </EntryEntity>
+            <ModifierField action="edit" oid="3PZB9KD04Z94">
+              <Name>修改人</Name>
+            </ModifierField>
+            <ModifyDateField action="edit" oid="3PZB9KD04YKX">
+              <Name>修改日期</Name>
+            </ModifyDateField>
+            <BasedataField action="edit" oid="KDC7siRnas">
+              <Name>HR行政组织</Name>
+            </BasedataField>
+          </Items>
+        </EntityMetadata>
+      </DataXml>
+      <Name>人员信息完整度PC端</Name>
+      <Id>3PZB9K6VZ+EN</Id>
+      <LocaleId>en_US</LocaleId>
+    </DesignEntityMetaL>
+  </DesignMetas>
+  <Version>1700556612356</Version>
+  <BOSVersion>1.0</BOSVersion>
+</DeployMetadata>

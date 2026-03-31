@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DeployMetadata>
+  <MasterId>3EXGJLWNU8TO</MasterId>
+  <Id>3EXGJLWNU8TO</Id>
+  <DesignMetas>
+    <DesignFormMetaL>
+      <Number>tdkw_rz_ryjgfb_pc</Number>
+      <PkId>3EXGKV7FQ29A</PkId>
+      <DataXml>
+        <FormMetadata/>
+      </DataXml>
+      <Name>入职分析-人员结构分布PC端</Name>
+      <Id>3EXGJLWNU8TO</Id>
+      <LocaleId>zh_CN</LocaleId>
+    </DesignFormMetaL>
+    <DesignEntityMetaL>
+      <Number>tdkw_rz_ryjgfb_pc</Number>
+      <PkId>3EXGKV8D+8VP</PkId>
+      <DataXml>
+        <EntityMetadata/>
+      </DataXml>
+      <Name>入职分析-人员结构分布PC端</Name>
+      <Id>3EXGJLWNU8TO</Id>
+      <LocaleId>zh_CN</LocaleId>
+    </DesignEntityMetaL>
+  </DesignMetas>
+  <Version>1689835627270</Version>
+  <BOSVersion>1.0</BOSVersion>
+</DeployMetadata>

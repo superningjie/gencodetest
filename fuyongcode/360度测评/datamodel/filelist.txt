@@ -1,0 +1,8 @@
+\1.5.0\main\tdkw_hom_ext\metadata\tdkw_check_rule_basedata.dym
+\1.5.0\main\tdkw_hom_ext\metadata\tdkw_check_rule_basedata.zh_CN.dymx
+\1.5.0\main\tdkw_hom_ext\metadata\tdkw_hom_collectinfod_ext.dym
+\1.5.0\main\tdkw_hom_ext\metadata\tdkw_hom_collectinfod_ext.zh_CN.dymx
+\1.5.0\main\tdkw_hom_ext\metadata\tdkw_hom_infogroupdyn_ext.dym
+\1.5.0\main\tdkw_hom_ext\metadata\tdkw_hom_infogroupdyn_ext.zh_CN.dymx
+\1.5.0\main\tdkw_hom_ext\tdkw_hom_ext.xml
+\datamodel.xml

@@ -1,0 +1,30 @@
+# 金蝶云苍穹服务元数据模板
+# 用于生成业务服务定义
+
+metadata:
+  service:
+    id: "{{module_prefix}}.{{service_name}}"
+    name: "{{service_name_cn}}"
+    
+  operations:
+{% for op in operations %}
+    - operationId: "{{op.id}}"
+      operationName: "{{op.name}}"
+      inputParams:
+{% for param in op.input_params %}
+        - name: "{{param.name}}"
+          type: "{{param.type}}"
+{% if param.entity_id %}
+          entityId: "{{param.entity_id}}"
+{% endif %}
+          required: {{param.required | default('true')}}
+{% endfor %}
+      outputParams:
+{% for param in op.output_params %}
+        - name: "{{param.name}}"
+          type: "{{param.type}}"
+{% if param.entity_id %}
+          entityId: "{{param.entity_id}}"
+{% endif %}
+{% endfor %}
+{% endfor %}

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DeployMetadata>
+  <MasterId>3PA97E38DFVR</MasterId>
+  <Id>3PA97E38DFVR</Id>
+  <DesignMetas>
+    <DesignFormMetaL>
+      <Number>tdkw_personinfointegrity</Number>
+      <PkId>3PZN3+RYMYHW</PkId>
+      <DataXml>
+        <FormMetadata/>
+      </DataXml>
+      <Name>人员信息完整度</Name>
+      <Id>3PA97E38DFVR</Id>
+      <LocaleId>zh_CN</LocaleId>
+    </DesignFormMetaL>
+    <DesignEntityMetaL>
+      <Number>tdkw_personinfointegrity</Number>
+      <PkId>3PZN3+T8=KZ9</PkId>
+      <DataXml>
+        <EntityMetadata/>
+      </DataXml>
+      <Name>人员信息完整度</Name>
+      <Id>3PA97E38DFVR</Id>
+      <LocaleId>zh_CN</LocaleId>
+    </DesignEntityMetaL>
+  </DesignMetas>
+  <Version>1700564081830</Version>
+  <BOSVersion>1.0</BOSVersion>
+</DeployMetadata>

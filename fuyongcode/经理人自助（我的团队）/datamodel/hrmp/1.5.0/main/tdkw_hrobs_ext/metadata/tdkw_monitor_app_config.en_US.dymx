@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DeployMetadata>
+  <MasterId>3W9YUAZLIC88</MasterId>
+  <Id>3W9YUAZLIC88</Id>
+  <DesignMetas>
+    <DesignFormMetaL>
+      <Number>tdkw_monitor_app_config</Number>
+      <PkId>3Y=RMHW9NY+6</PkId>
+      <DataXml>
+        <FormMetadata>
+          <Name>运营监控移动端接口配置表</Name>
+          <Items>
+            <BillFormAp action="edit" oid="00305e8b000005ac">
+              <MobListMeta>
+                <FormMetadata>
+                  <Items>
+                    <CardListColumnAp action="edit" oid="3W9YUB/2J/AG">
+                      <Name>Document Status</Name>
+                    </CardListColumnAp>
+                    <CardListColumnAp action="edit" oid="3W9YUB/2J0+Q">
+                      <Name>Created By.Name</Name>
+                    </CardListColumnAp>
+                    <CardFlexPanelAp action="edit" oid="3W9YUB/2J0+P">
+                      <Name>Card Layout Container</Name>
+                    </CardFlexPanelAp>
+                    <MobSortPanelAp action="edit" oid="mobsortpanel">
+                      <Name>Sorting Item 1</Name>
+                    </MobSortPanelAp>
+                    <MobFilterPanelAp action="edit" oid="mobfilterpanel">
+                      <Name>Filter Item 1</Name>
+                    </MobFilterPanelAp>
+                    <MobFilterPanelAp action="edit" oid="3W9YUB/2J/AF">
+                      <Name>Filter Item 2</Name>
+                    </MobFilterPanelAp>
+                  </Items>
+                </FormMetadata>
+              </MobListMeta>
+              <Name>运营监控移动端接口配置表</Name>
+              <MobMeta>
+                <FormMetadata>
+                  <Items>
+                    <LayoutFlexAp action="edit" oid="3W9YUB/+XL4+">
+                      <Name>Field Layout Container</Name>
+                    </LayoutFlexAp>
+                    <LayoutFlexAp action="edit" oid="3W9YUB/+XLT9">
+                      <Name>Field Layout Container</Name>
+                    </LayoutFlexAp>
+                    <FieldAp action="edit" oid="3W9YUB/+XL4/">
+                      <Name>Document Status</Name>
+                    </FieldAp>
+                    <FieldAp action="edit" oid="3W9YUB/+XLT=">
+                      <Name>Approved By</Name>
+                    </FieldAp>
+                    <FieldAp action="edit" oid="3W9YUB/+XL40">
+                      <Name>Created By</Name>
+                    </FieldAp>
+                    <MBarItemAp action="edit" oid="3W9YUB/+XLTA">
+                      <Name>Submit</Name>
+                    </MBarItemAp>
+                  </Items>
+                </FormMetadata>
+              </MobMeta>
+              <ListMeta>
+                <FormMetadata>
+                  <Items>
+                    <ListColumnAp action="edit" oid="3Y=RK9M6OY2Y">
+                      <Name>创建人</Name>
+                    </ListColumnAp>
+                    <DateListColumnAp action="edit" oid="3Y=RK42ZG+M7">
+                      <Name>创建时间</Name>
+                    </DateListColumnAp>
+                    <ListColumnAp action="edit" oid="3Y=RKIGUKLPQ">
+                      <Name>修改人</Name>
+                    </ListColumnAp>
+                    <DateListColumnAp action="edit" oid="3Y=RK2GJHUXQ">
+                      <Name>修改时间</Name>
+                    </DateListColumnAp>
+                  </Items>
+                </FormMetadata>
+              </ListMeta>
+            </BillFormAp>
+            <EntryAp action="edit" oid="3W9YUB/+XLT6">
+              <Name>Grid</Name>
+            </EntryAp>
+            <AdvConSummaryPanelAp action="edit" oid="3W9YUB+X=5YE">
+              <Name>Advanced Panel Summary Container</Name>
+            </AdvConSummaryPanelAp>
+            <AdvConToolbarAp action="edit" oid="3W9YUB+X=6LP">
+              <Name>Advanced Panel Toolbar</Name>
+            </AdvConToolbarAp>
+            <AdvConChildPanelAp action="edit" oid="3W9YUB+X=5YF">
+              <Name>Advanced Panel Subcontainer</Name>
+            </AdvConChildPanelAp>
+            <AdvConBarItemAp action="edit" oid="3W9YUB+X=6LQ">
+              <Name>Add Row</Name>
+            </AdvConBarItemAp>
+            <AdvConBarItemAp action="edit" oid="3W9YUB+X=5YG">
+              <Name>Delete Row</Name>
+            </AdvConBarItemAp>
+            <EntryFieldAp action="edit" oid="3W9YUB/+XL3Y">
+              <Name>Modified By</Name>
+            </EntryFieldAp>
+            <EntryFieldAp action="edit" oid="3W9YUB/+XLT7">
+              <Name>Modified At</Name>
+            </EntryFieldAp>
+            <EntryFieldAp action="edit" oid="rzdsDpZcbowT4hKOmI">
+              <Name>接口</Name>
+            </EntryFieldAp>
+            <EntryFieldAp action="edit" oid="GmBPKa0p2hbnYWrm8z">
+              <Name>接口名称</Name>
+            </EntryFieldAp>
+            <EntryFieldAp action="edit" oid="kAA39nAOX2L3d3BHhX">
+              <Name>接口编码</Name>
+            </EntryFieldAp>
+            <EntryFieldAp action="edit" oid="K8rXO75Q5a9L6KwnxW">
+              <Name>状态</Name>
+            </EntryFieldAp>
+            <EntryFieldAp action="edit" oid="5xhi9coeHWJqkgvsHa">
+              <Name>备注</Name>
+            </EntryFieldAp>
+            <AdvConAp action="edit" oid="3W9YUB+X=6LO">
+              <Name>Entry</Name>
+            </AdvConAp>
+          </Items>
+        </FormMetadata>
+      </DataXml>
+      <Name>运营监控移动端接口配置表</Name>
+      <Id>3W9YUAZLIC88</Id>
+      <LocaleId>en_US</LocaleId>
+    </DesignFormMetaL>
+    <DesignEntityMetaL>
+      <Number>tdkw_monitor_app_config</Number>
+      <PkId>3Y=RMHXGTB53</PkId>
+      <DataXml>
+        <EntityMetadata>
+          <Name>运营监控移动端接口配置表</Name>
+          <Items>
+            <BillEntity action="edit" oid="00305e8b000007ac">
+              <Operations>
+                <Operation action="edit" oid="3W9YUB/+XL3Z">
+                  <Name>New Entry</Name>
+                </Operation>
+                <Operation action="edit" oid="3W9YUB/+XLT8">
+                  <Name>Delete Entry</Name>
+                </Operation>
+              </Operations>
+              <Name>运营监控移动端接口配置表</Name>
+            </BillEntity>
+            <EntryEntity action="edit" oid="3W9YUB/+XLT6">
+              <Name>Grid</Name>
+            </EntryEntity>
+            <ModifierField action="edit" oid="3W9YUB/+XL3Y">
+              <Name>Modified By</Name>
+            </ModifierField>
+            <ModifyDateField action="edit" oid="3W9YUB/+XLT7">
+              <Name>Modified At</Name>
+            </ModifyDateField>
+            <BasedataField action="edit" oid="rzdsDpZcbowT4hKOmI">
+              <Name>接口</Name>
+            </BasedataField>
+            <BasedataPropField action="edit" oid="GmBPKa0p2hbnYWrm8z">
+              <Name>接口名称</Name>
+            </BasedataPropField>
+            <BasedataPropField action="edit" oid="kAA39nAOX2L3d3BHhX">
+              <Name>接口编码</Name>
+            </BasedataPropField>
+            <BasedataPropField action="edit" oid="K8rXO75Q5a9L6KwnxW">
+              <Name>状态</Name>
+            </BasedataPropField>
+            <TextField action="edit" oid="5xhi9coeHWJqkgvsHa">
+              <Name>备注</Name>
+            </TextField>
+          </Items>
+        </EntityMetadata>
+      </DataXml>
+      <Name>运营监控移动端接口配置表</Name>
+      <Id>3W9YUAZLIC88</Id>
+      <LocaleId>en_US</LocaleId>
+    </DesignEntityMetaL>
+  </DesignMetas>
+  <Version>1708653736383</Version>
+  <BOSVersion>1.0</BOSVersion>
+</DeployMetadata>

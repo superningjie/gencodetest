@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DeployMetadata>
+  <MasterId>3J2TPW/MLRX0</MasterId>
+  <Id>3J2TPW/MLRX0</Id>
+  <DesignMetas>
+    <DesignFormMetaL>
+      <Number>dgdl_planyear</Number>
+      <PkId>4I0/SS+O4SXN</PkId>
+      <DataXml>
+        <FormMetadata/>
+      </DataXml>
+      <Name>年度编制计划</Name>
+      <Id>3J2TPW/MLRX0</Id>
+      <LocaleId>zh_CN</LocaleId>
+    </DesignFormMetaL>
+    <DesignEntityMetaL>
+      <Number>dgdl_planyear</Number>
+      <PkId>4I0/SS88MB/4</PkId>
+      <DataXml>
+        <EntityMetadata/>
+      </DataXml>
+      <Name>年度编制计划</Name>
+      <Id>3J2TPW/MLRX0</Id>
+      <LocaleId>zh_CN</LocaleId>
+    </DesignEntityMetaL>
+  </DesignMetas>
+  <Version>1730705989425</Version>
+  <BOSVersion>1.0</BOSVersion>
+</DeployMetadata>

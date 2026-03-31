@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DeployMetadata>
+  <MasterId>3DJT9SFKJ9/Z</MasterId>
+  <Id>3DJT9SFKJ9/Z</Id>
+  <DesignMetas>
+    <DesignFormMetaL>
+      <Number>tdkw_salaryquery</Number>
+      <PkId>3FBC4GC+N6TJ</PkId>
+      <DataXml>
+        <FormMetadata/>
+      </DataXml>
+      <Name>领导自助-薪酬查询移动端</Name>
+      <Id>3DJT9SFKJ9/Z</Id>
+      <LocaleId>zh_CN</LocaleId>
+    </DesignFormMetaL>
+    <DesignEntityMetaL>
+      <Number>tdkw_salaryquery</Number>
+      <PkId>3FBC4GCXXCDY</PkId>
+      <DataXml>
+        <EntityMetadata/>
+      </DataXml>
+      <Name>领导自助-薪酬查询移动端</Name>
+      <Id>3DJT9SFKJ9/Z</Id>
+      <LocaleId>zh_CN</LocaleId>
+    </DesignEntityMetaL>
+  </DesignMetas>
+  <Version>1690255791008</Version>
+  <BOSVersion>1.0</BOSVersion>
+</DeployMetadata>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DeployMetadata>
+  <MasterId>47MT/18=S=EZ</MasterId>
+  <Id>47MT/18=S=EZ</Id>
+  <DesignMetas>
+    <DesignFormMetaL>
+      <Number>cea_assobj_assessing</Number>
+      <PkId>4APIJ9XPSW4A</PkId>
+      <DataXml>
+        <FormMetadata/>
+      </DataXml>
+      <Name>测评中</Name>
+      <Id>47MT/18=S=EZ</Id>
+      <LocaleId>zh_CN</LocaleId>
+    </DesignFormMetaL>
+    <DesignEntityMetaL>
+      <Number>cea_assobj_assessing</Number>
+      <PkId>4APIJ=0JBGU8</PkId>
+      <DataXml>
+        <EntityMetadata/>
+      </DataXml>
+      <Name>测评中</Name>
+      <Id>47MT/18=S=EZ</Id>
+      <LocaleId>zh_CN</LocaleId>
+    </DesignEntityMetaL>
+  </DesignMetas>
+  <Version>1723602239597</Version>
+  <BOSVersion>1.0</BOSVersion>
+</DeployMetadata>

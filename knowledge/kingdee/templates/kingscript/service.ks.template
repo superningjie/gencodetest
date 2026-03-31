@@ -1,0 +1,41 @@
+/**
+ * ${serviceName} 服务
+ * @description ${serviceDescription}
+ * @service ${serviceId}
+ */
+service ${serviceName} {
+    
+    /**
+     * ${operationDescription}
+     * ${inputParamsDescription}
+     * ${outputParamsDescription}
+     */
+    operation ${operationName}(${inputParams}) {
+        // 1. 参数校验
+        ${validationLogic}
+        
+        // 2. 业务逻辑处理
+        ${businessLogic}
+        
+        // 3. 数据操作
+        ${dataOperation}
+        
+        // 4. 返回结果
+        return ${returnValue};
+    }
+    
+    /**
+     * 批量${operationDescription}
+     */
+    operation batch${OperationName}(batchData) {
+        var results = [];
+        
+        for (var i = 0; i < batchData.size(); i++) {
+            var item = batchData[i];
+            var result = this.${operationName}(item);
+            results.add(result);
+        }
+        
+        return results;
+    }
+}

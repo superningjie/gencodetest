@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DeployMetadata>
+  <MasterId>3NBUFM8QBL/Y</MasterId>
+  <Id>3NBUFM8QBL/Y</Id>
+  <DesignMetas>
+    <DesignFormMetaL>
+      <Number>tdkw_opera_monitor_log</Number>
+      <PkId>3Y=PHWECNSKQ</PkId>
+      <DataXml>
+        <FormMetadata>
+          <Name>监控日志表</Name>
+          <Items>
+            <BillFormAp action="edit" oid="00305e8b000005ac">
+              <MobListMeta>
+                <FormMetadata>
+                  <Items>
+                    <CardListColumnAp action="edit" oid="3NBUFMA4MD0C">
+                      <Name>单据状态</Name>
+                    </CardListColumnAp>
+                    <CardListColumnAp action="edit" oid="3NBUFMA4KA8L">
+                      <Name>创建人.姓名</Name>
+                    </CardListColumnAp>
+                    <CardFlexPanelAp action="edit" oid="3NBUFMA4KA8K">
+                      <Name>卡片布局容器</Name>
+                    </CardFlexPanelAp>
+                    <MobSortPanelAp action="edit" oid="mobsortpanel">
+                      <Name>排序项1</Name>
+                    </MobSortPanelAp>
+                    <MobFilterPanelAp action="edit" oid="mobfilterpanel">
+                      <Name>过滤项1</Name>
+                    </MobFilterPanelAp>
+                    <MobFilterPanelAp action="edit" oid="3NBUFMA4MD0B">
+                      <Name>过滤项2</Name>
+                    </MobFilterPanelAp>
+                  </Items>
+                </FormMetadata>
+              </MobListMeta>
+              <Name>监控日志表</Name>
+              <MobMeta>
+                <FormMetadata>
+                  <Items>
+                    <LayoutFlexAp action="edit" oid="3NBUFMA4MD09">
+                      <Name>字段布局容器</Name>
+                    </LayoutFlexAp>
+                    <LayoutFlexAp action="edit" oid="3NBUFMA4KA8H">
+                      <Name>字段布局容器</Name>
+                    </LayoutFlexAp>
+                    <FieldAp action="edit" oid="3NBUFMA4KA8I">
+                      <Name>Approved By</Name>
+                    </FieldAp>
+                    <FieldAp action="edit" oid="3NBUFMA4MD0A">
+                      <Name>Created By</Name>
+                    </FieldAp>
+                    <FieldAp action="edit" oid="3NBUFMA4MD0=">
+                      <Name>Document Status</Name>
+                    </FieldAp>
+                    <MBarItemAp action="edit" oid="3NBUFMA4KA8J">
+                      <Name>提交</Name>
+                    </MBarItemAp>
+                  </Items>
+                </FormMetadata>
+              </MobMeta>
+              <ListMeta>
+                <FormMetadata>
+                  <Items>
+                    <FilterColumnAp action="edit" oid="3NF9DZK19PGF">
+                      <Name>应用标识</Name>
+                    </FilterColumnAp>
+                    <FilterColumnAp action="edit" oid="3NF9E0L7ZDN+">
+                      <Name>应用名称</Name>
+                    </FilterColumnAp>
+                    <FilterColumnAp action="edit" oid="3NF9E1LCI7E4">
+                      <Name>操作ID</Name>
+                    </FilterColumnAp>
+                    <FilterColumnAp action="edit" oid="3NF9E2O0+70M">
+                      <Name>操作名称</Name>
+                    </FilterColumnAp>
+                    <FilterColumnAp action="edit" oid="3NF9E6/R6+JX">
+                      <Name>查询参数</Name>
+                    </FilterColumnAp>
+                    <FilterColumnAp action="edit" oid="3NF9E70FH94M">
+                      <Name>操作类型</Name>
+                    </FilterColumnAp>
+                    <CommonBaseDataFilterColumnAp action="edit" oid="3NF9EFNWDUON">
+                      <Name>HR人员.工号</Name>
+                    </CommonBaseDataFilterColumnAp>
+                    <CommonFilterColumnAp action="edit" oid="3Y=PH2KN=K5E">
+                      <Name>客户端类型</Name>
+                    </CommonFilterColumnAp>
+                    <ListColumnAp action="edit" oid="3NF9AGRBYDHA">
+                      <Name>序号</Name>
+                    </ListColumnAp>
+                    <ListColumnAp action="edit" oid="3NF9BW4H6P+1">
+                      <Name>HR人员.工号</Name>
+                    </ListColumnAp>
+                    <ListColumnAp action="edit" oid="3NF9BXCYC+O+">
+                      <Name>HR人员.姓名</Name>
+                    </ListColumnAp>
+                    <ListColumnAp action="edit" oid="3NF9AJH9VWPA">
+                      <Name>应用标识</Name>
+                    </ListColumnAp>
+                    <ListColumnAp action="edit" oid="3NF9AKV2FPFB">
+                      <Name>应用名称</Name>
+                    </ListColumnAp>
+                    <ComboListColumnAp action="edit" oid="3Y=P6SH37SAK">
+                      <Name>客户端类型</Name>
+                    </ComboListColumnAp>
+                    <ListColumnAp action="edit" oid="3NF9ATU0UHIL">
+                      <Name>操作名称</Name>
+                    </ListColumnAp>
+                    <ListColumnAp action="edit" oid="3NF9BNFAF18=">
+                      <Name>操作类型</Name>
+                    </ListColumnAp>
+                    <ListColumnAp action="edit" oid="3NF9BOK3=L=K">
+                      <Name>查询参数</Name>
+                    </ListColumnAp>
+                    <DateListColumnAp action="edit" oid="3NF9C0IRKUEY">
+                      <Name>创建时间</Name>
+                    </DateListColumnAp>
+                    <SchemeComboFilterColumnAp action="edit" oid="3Y=PH2KN=JH5">
+                      <Name>客户端类型</Name>
+                    </SchemeComboFilterColumnAp>
+                    <SchemeBaseDataFilterColumnAp action="edit" oid="3Y=PG+ZX=/++">
+                      <Name>HR人员.姓名</Name>
+                    </SchemeBaseDataFilterColumnAp>
+                    <SchemeBaseDataFilterColumnAp action="edit" oid="3NF9EOX1N==1">
+                      <Name>系统用户.工号</Name>
+                    </SchemeBaseDataFilterColumnAp>
+                    <SchemeBaseDataFilterColumnAp action="edit" oid="3NF9EFNWDU/D">
+                      <Name>HR人员.工号</Name>
+                    </SchemeBaseDataFilterColumnAp>
+                  </Items>
+                </FormMetadata>
+              </ListMeta>
+            </BillFormAp>
+            <FieldAp action="edit" oid="2HvoAG0fiW">
+              <Name>应用标识</Name>
+            </FieldAp>
+            <FieldAp action="edit" oid="P9tvmdjEDr">
+              <Name>应用名称</Name>
+            </FieldAp>
+            <FieldAp action="edit" oid="UxdfH509ML">
+              <Name>菜单id</Name>
+            </FieldAp>
+            <FieldAp action="edit" oid="83if864h9S">
+              <Name>按钮名称</Name>
+            </FieldAp>
+            <FieldAp action="edit" oid="HOsRICqZLQ">
+              <Name>操作类型</Name>
+            </FieldAp>
+            <FieldAp action="edit" oid="sl005plFFt">
+              <Name>系统用户</Name>
+            </FieldAp>
+            <FieldAp action="edit" oid="EyJ9WDj1nr">
+              <Name>HR人员</Name>
+            </FieldAp>
+            <FieldAp action="edit" oid="2VZPHG9h0S">
+              <Name>查询参数</Name>
+            </FieldAp>
+            <FieldAp action="edit" oid="GzFBw0sY147VYLCaup">
+              <Name>客户端类型</Name>
+            </FieldAp>
+          </Items>
+        </FormMetadata>
+      </DataXml>
+      <Name>监控日志表</Name>
+      <Id>3NBUFM8QBL/Y</Id>
+      <LocaleId>en_US</LocaleId>
+    </DesignFormMetaL>
+    <DesignEntityMetaL>
+      <Number>tdkw_opera_monitor_log</Number>
+      <PkId>3Y=PHWFKT5E4</PkId>
+      <DataXml>
+        <EntityMetadata>
+          <Name>监控日志表</Name>
+          <Items>
+            <BillEntity action="edit" oid="00305e8b000007ac">
+              <Operations>
+                <Operation action="edit" oid="3NBUFMA1+ZUT">
+                  <Name>新增分录</Name>
+                </Operation>
+                <Operation action="edit" oid="3NBUFMA0YX11">
+                  <Name>删除分录</Name>
+                </Operation>
+              </Operations>
+              <Name>监控日志表</Name>
+            </BillEntity>
+            <TextField action="edit" oid="2HvoAG0fiW">
+              <Name>应用标识</Name>
+            </TextField>
+            <TextField action="edit" oid="P9tvmdjEDr">
+              <Name>应用名称</Name>
+            </TextField>
+            <TextField action="edit" oid="UxdfH509ML">
+              <Name>菜单id</Name>
+            </TextField>
+            <TextField action="edit" oid="83if864h9S">
+              <Name>按钮名称</Name>
+            </TextField>
+            <UserField action="edit" oid="sl005plFFt">
+              <Name>系统用户</Name>
+            </UserField>
+            <BasedataField action="edit" oid="EyJ9WDj1nr">
+              <Name>HR人员</Name>
+            </BasedataField>
+            <TextField action="edit" oid="HOsRICqZLQ">
+              <Name>操作类型</Name>
+            </TextField>
+            <TextAreaField action="edit" oid="2VZPHG9h0S">
+              <Name>查询参数</Name>
+            </TextAreaField>
+            <ComboField action="edit" oid="GzFBw0sY147VYLCaup">
+              <Name>客户端类型</Name>
+              <Items>
+                <ComboItem action="edit" oid="1">
+                  <Caption>PC</Caption>
+                </ComboItem>
+                <ComboItem action="edit" oid="2">
+                  <Caption>APP</Caption>
+                </ComboItem>
+              </Items>
+            </ComboField>
+          </Items>
+        </EntityMetadata>
+      </DataXml>
+      <Name>监控日志表</Name>
+      <Id>3NBUFM8QBL/Y</Id>
+      <LocaleId>en_US</LocaleId>
+    </DesignEntityMetaL>
+  </DesignMetas>
+  <Version>1708652384667</Version>
+  <BOSVersion>1.0</BOSVersion>
+</DeployMetadata>

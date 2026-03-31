@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DeployMetadata>
+  <MasterId>4APHA0RWK8CO</MasterId>
+  <Id>4APHA0RWK8CO</Id>
+  <DesignMetas>
+    <DesignFormMetaL>
+      <Number>tdkw_opa_eventtpl</Number>
+      <PkId>4API+P3XJ1EM</PkId>
+      <DataXml>
+        <FormMetadata/>
+      </DataXml>
+      <Name>事务表</Name>
+      <Id>4APHA0RWK8CO</Id>
+      <LocaleId>zh_CN</LocaleId>
+    </DesignFormMetaL>
+    <DesignEntityMetaL>
+      <Number>tdkw_opa_eventtpl</Number>
+      <PkId>4API+P5OCW=L</PkId>
+      <DataXml>
+        <EntityMetadata/>
+      </DataXml>
+      <Name>事务表</Name>
+      <Id>4APHA0RWK8CO</Id>
+      <LocaleId>zh_CN</LocaleId>
+    </DesignEntityMetaL>
+  </DesignMetas>
+  <Version>1723601886505</Version>
+  <BOSVersion>1.0</BOSVersion>
+</DeployMetadata>

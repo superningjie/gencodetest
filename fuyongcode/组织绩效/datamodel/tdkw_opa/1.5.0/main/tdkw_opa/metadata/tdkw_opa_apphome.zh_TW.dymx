@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DeployMetadata>
+  <MasterId>4A6IGVWYYBE1</MasterId>
+  <Id>4A6IGVWYYBE1</Id>
+  <DesignMetas>
+    <DesignFormMetaL>
+      <Number>tdkw_opa_apphome</Number>
+      <PkId>4B/1HHOJNJXW</PkId>
+      <DataXml>
+        <FormMetadata>
+          <Name>組織績效考核_應用首頁</Name>
+          <Items>
+            <FormAp action="edit" oid="/8T+06O/H6M6">
+              <Name>組織績效考核_應用首頁</Name>
+            </FormAp>
+          </Items>
+        </FormMetadata>
+      </DataXml>
+      <Name>組織績效考核_應用首頁</Name>
+      <Id>4A6IGVWYYBE1</Id>
+      <LocaleId>zh_TW</LocaleId>
+    </DesignFormMetaL>
+    <DesignEntityMetaL>
+      <Number>tdkw_opa_apphome</Number>
+      <PkId>4B/1HHXYWI0Y</PkId>
+      <DataXml>
+        <EntityMetadata>
+          <Name>組織績效考核_應用首頁</Name>
+          <Items>
+            <MainEntity action="edit" oid="/8T+06O6R0/7">
+              <Name>組織績效考核_應用首頁</Name>
+            </MainEntity>
+          </Items>
+        </EntityMetadata>
+      </DataXml>
+      <Name>組織績效考核_應用首頁</Name>
+      <Id>4A6IGVWYYBE1</Id>
+      <LocaleId>zh_TW</LocaleId>
+    </DesignEntityMetaL>
+  </DesignMetas>
+  <Version>1723889314690</Version>
+  <BOSVersion>1.0</BOSVersion>
+</DeployMetadata>

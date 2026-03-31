@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataModel dympath="metadata">
+    <SqlScript Type="KSQL" Separator=";" dbkey="sys">preinsdata/t_perm_custpermserv_20240814.sql</SqlScript>
+    <!-- 动态表单控权-->
+    <SqlScript Type="KSQL" Separator=";" dbkey="hmp">preinsdata/t_hrcs_dynaformctrl.sql</SqlScript>
+
+    <SqlScript Type="KSQL" Separator=";" dbkey="sys">preinsdata/tdkw_org_perf_metrics_MkM5_20240903103835226.sql</SqlScript>
+    <SqlScript Type="KSQL" Separator=";" dbkey="sys">preinsdata/tdkw_target_alignment_69I5_20240903103835306.sql</SqlScript>
+    <SqlScript Type="KSQL" Separator=";" dbkey="sys">preinsdata/tdkw_light_rule_DmrE_20240903103835374.sql</SqlScript>
+    <SqlScript Type="KSQL" Separator=";" dbkey="sys">preinsdata/tdkw_perf_metrics_uCyq_20240903103835442.sql</SqlScript>
+    <SqlScript Type="KSQL" Separator=";" dbkey="sys">preinsdata/tdkw_target_decompose_Iuwu_20240903103835515.sql</SqlScript>
+    <SqlScript Type="KSQL" Separator=";" dbkey="sys">preinsdata/tdkw_metric_type_lwKB_20240903103835597.sql</SqlScript>
+    <SqlScript Type="KSQL" Separator=";" dbkey="sys">preinsdata/tdkw_usage_category_yY6M_20240903103835659.sql</SqlScript>
+    <SqlScript Type="KSQL" Separator=";" dbkey="sys">preinsdata/tdkw_metrics_audit_zt81_20240903103835722.sql</SqlScript>
+    <SqlScript Type="KSQL" Separator=";" dbkey="sys">preinsdata/tdkw_calculation_rules_Tqw8_20240903103835785.sql</SqlScript>
+
+    <!-- 预制数据 -->
+    <SqlScript Type="KSQL" Separator=";" dbkey="opmc">preinsdata/calculation_rules.sql</SqlScript>
+    <SqlScript Type="KSQL" Separator=";" dbkey="opmc">preinsdata/light_rule.sql</SqlScript>
+    <SqlScript Type="KSQL" Separator=";" dbkey="opmc">preinsdata/metric_type_1.sql</SqlScript>
+    <SqlScript Type="KSQL" Separator=";" dbkey="opmc">preinsdata/notify_config.sql</SqlScript>
+
+    <!-- 首页方案 -->
+    <SqlScript Type="KSQL" Separator=";" dbkey="basedata">preinsdata/wb_portal_scheme_2031161308832956416_20240903142958.sql</SqlScript>
+    <!-- 自定义控件方案-->
+    <SqlScript Type="KSQL" Separator=";" dbkey="sys.meta">preinsdata/t_meta_ctlschema_20240903.sql</SqlScript>
+
+    <!-- 审计日志-->
+    <SqlScript Type="KSQL" Separator=";" dbkey="log">preinsdata/t_log_aduit_rule.sql</SqlScript>
+</DataModel>

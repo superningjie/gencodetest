@@ -1,0 +1,312 @@
+# 金蝶云苍穹插件开发规则 V3.0
+# 基于 sourcedoc/苍穹开发平台文档 分析生成
+
+splitting_rules:
+  # 规则1: 插件类型识别
+  plugin_type_inference:
+    enabled: true
+    description: 根据需求描述识别插件类型
+    rules:
+      # 表单插件 - 单据界面相关
+      - pattern: "单据插件|表单插件|界面插件|bill.*plugin|form.*plugin|字段值改变|界面加载|按钮点击|分录操作"
+        plugin_type: "bill_form"
+        base_class: "AbstractBillPlugIn"
+        import_path: "@cosmic/bos-core/kd/bos/bill"
+        file_ext: ".ts"
+        
+      # 动态表单插件
+      - pattern: "动态表单|dynamic.*form|通用表单|配置表单"
+        plugin_type: "dynamic_form"
+        base_class: "AbstractFormPlugin"
+        import_path: "@cosmic/bos-core/kd/bos/form/plugin"
+        file_ext: ".ts"
+        
+      # 操作插件 - 保存/提交/审核等操作
+      - pattern: "操作插件|保存前校验|提交前检查|操作校验|operation.*plugin|before.*save|after.*save|validator"
+        plugin_type: "operation"
+        base_class: "AbstractOperationServicePlugIn"
+        import_path: "@cosmic/bos-core/kd/bos/entity/plugin"
+        file_ext: ".ts"
+        
+      # 列表插件
+      - pattern: "列表插件|list.*plugin|列表过滤|列表查询|列表展示|单据列表|左树右表"
+        plugin_type: "list"
+        base_class: "AbstractListPlugin"
+        import_path: "@cosmic/bos-core/kd/bos/list/plugin"
+        file_ext: ".ts"
+        
+      # 单据转换插件
+      - pattern: "转换插件|单据转换|下推|选单|convert.*plugin|BOTP|转换规则"
+        plugin_type: "convert"
+        base_class: "AbstractConvertPlugIn"
+        import_path: "kd.bos.entity.botp.plugin"
+        file_ext: ".java"
+        
+      # 引入引出插件
+      - pattern: "引入引出|导入导出|excel.*import|excel.*export"
+        plugin_type: "io"
+        base_class: "AbstractImportPlugin"  # 或 AbstractExportPlugin
+        import_path: "kd.bos.data.plugin"
+        file_ext: ".java"
+        
+      # 报表插件
+      - pattern: "报表插件|report.*plugin|报表取数|数据填充"
+        plugin_type: "report"
+        base_class: "AbstractReportFormPlugin"
+        import_path: "@cosmic/bos-core/kd/bos/report/plugin"
+        file_ext: ".ts"
+        
+      # 工作流插件
+      - pattern: "工作流|workflow|审批流|流程插件"
+        plugin_type: "workflow"
+        base_class: "AbstractWorkflowPlugin"
+        import_path: "kd.bos.workflow.plugin"
+        file_ext: ".java"
+        
+      # 调度插件
+      - pattern: "调度|定时任务|schedule|job"
+        plugin_type: "schedule"
+        base_class: "AbstractSchedulePlugin"
+        import_path: "kd.bos.schedule.plugin"
+        file_ext: ".java"
+
+  # 规则2: 常用事件识别
+  event_inference:
+    enabled: true
+    description: 根据需求识别需要实现的事件
+    events:
+      # 表单插件事件
+      bill_form_events:
+        - keyword: "新建数据|初始化数据|afterCreateNewData"
+          event: "afterCreateNewData"
+          params: "e: EventObject"
+          description: "新建单据后初始化数据"
+          
+        - keyword: "加载数据|afterLoadData|数据加载后"
+          event: "afterLoadData"
+          params: "e: EventObject"
+          description: "单据数据加载完成后"
+          
+        - keyword: "绑定数据|afterBindData|界面显示前"
+          event: "afterBindData"
+          params: "e: EventObject"
+          description: "数据绑定到界面后"
+          
+        - keyword: "字段值改变|propertyChanged|值变更"
+          event: "propertyChanged"
+          params: "e: PropertyChangedArgs"
+          description: "字段值发生变化时"
+          
+        - keyword: "操作前|beforeDoOperation|保存前|提交前"
+          event: "beforeDoOperation"
+          params: "args: BeforeDoOperationEventArgs"
+          description: "执行操作前触发"
+          
+        - keyword: "操作后|afterDoOperation|保存后|提交后"
+          event: "afterDoOperation"
+          params: "args: AfterDoOperationEventArgs"
+          description: "执行操作后触发"
+          
+        - keyword: "分录行添加|afterAddRow|新增行"
+          event: "afterAddRow"
+          params: "event: AfterAddRowEventArgs"
+          description: "分录行添加后"
+          
+        - keyword: "界面打开前|preOpenForm|打开前"
+          event: "preOpenForm"
+          params: "e: PreOpenFormEventArgs"
+          description: "界面打开前处理"
+          
+        - keyword: "关闭前|beforeClosed|关闭确认"
+          event: "beforeClosed"
+          params: "e: BeforeClosedEvent"
+          description: "界面关闭前处理"
+          
+        - keyword: "按钮点击|click|toolbar"
+          event: "registerListener"
+          params: "e: EventObject"
+          description: "注册按钮点击监听"
+          has_listener: true
+          
+        - keyword: "F7选择|基础资料选择|beforeF7Select"
+          event: "registerListener"
+          params: "e: EventObject"
+          description: "注册F7选择监听"
+          has_listener: true
+
+      # 操作插件事件
+      operation_events:
+        - keyword: "准备字段|onPreparePropertys|加载字段"
+          event: "onPreparePropertys"
+          params: "e: PreparePropertysEventArgs"
+          description: "准备操作需要的字段"
+          
+        - keyword: "操作前事务|beforeExecuteOperationTransaction"
+          event: "beforeExecuteOperationTransaction"
+          params: "e: BeforeOperationArgs"
+          description: "操作事务执行前"
+          
+        - keyword: "操作后事务|afterExecuteOperationTransaction"
+          event: "afterExecuteOperationTransaction"
+          params: "e: AfterOperationArgs"
+          description: "操作事务执行后"
+          
+        - keyword: "添加校验器|onAddValidators|校验规则"
+          event: "onAddValidators"
+          params: "e: AddValidatorsEventArgs"
+          description: "添加自定义校验器"
+
+      # 列表插件事件
+      list_events:
+        - keyword: "列表过滤|setFilter|查询条件"
+          event: "setFilter"
+          params: "e: SetFilterEvent"
+          description: "设置列表过滤条件"
+          
+        - keyword: "搜索点击|filterContainerSearchClick"
+          event: "filterContainerSearchClick"
+          params: "e: FilterContainerSearchClickArgs"
+          description: "过滤面板搜索点击"
+          
+        - keyword: "工具栏点击|itemClick|toolbar"
+          event: "itemClick"
+          params: "e: ItemClickEvent"
+          description: "工具栏项点击"
+          
+        - keyword: "列表显示前|beforeShowBill"
+          event: "beforeShowBill"
+          params: "e: BeforeShowBillFormEvent"
+          description: "列表显示单据前"
+          
+        - keyword: "数据打包|packageData|beforePackageData"
+          event: "packageData"
+          params: "e: PackageDataEvent"
+          description: "列表数据打包到前端"
+          
+        - keyword: "创建列|beforeCreateListColumns|动态列"
+          event: "beforeCreateListColumns"
+          params: "event: BeforeCreateListColumnsArgs"
+          description: "创建列表列前"
+
+      # 单据转换插件事件
+      convert_events:
+        - keyword: "初始化变量|initVariable"
+          event: "initVariable"
+          params: "e: InitVariableEventArgs"
+          description: "初始化转换变量"
+          
+        - keyword: "取数前|beforeGetSourceData"
+          event: "beforeGetSourceData"
+          params: "e: BeforeGetSourceDataEventArgs"
+          description: "取源单数据前"
+          
+        - keyword: "取数后|afterGetSourceData"
+          event: "afterGetSourceData"
+          params: "e: AfterGetSourceDataEventArgs"
+          description: "取源单数据后"
+          
+        - keyword: "字段映射后|afterFieldMapping"
+          event: "afterFieldMapping"
+          params: "e: AfterFieldMappingEventArgs"
+          description: "目标字段赋值后"
+          
+        - keyword: "转换后|afterConvert"
+          event: "afterConvert"
+          params: "e: AfterConvertEventArgs"
+          description: "单据转换完成后"
+
+  # 规则3: 常用控件识别
+  control_inference:
+    enabled: true
+    description: 识别需求中提到的控件类型
+    controls:
+      - keyword: "文本框|textfield|文本字段|TextEdit"
+        type: "TextEdit"
+        import: "@cosmic/bos-core/kd/bos/form/control"
+        
+      - keyword: "基础资料|basedata|F7|BasedataEdit"
+        type: "BasedataEdit"
+        import: "@cosmic/bos-core/kd/bos/form/control"
+        
+      - keyword: "分录表格|entrygrid|分录|EntryGrid"
+        type: "EntryGrid"
+        import: "@cosmic/bos-core/kd/bos/form/control"
+        
+      - keyword: "按钮|button|btn|Button"
+        type: "Button"
+        import: "@cosmic/bos-core/kd/bos/form/control"
+        
+      - keyword: "工具栏|toolbar|菜单|Toolbar"
+        type: "Toolbar"
+        import: "@cosmic/bos-core/kd/bos/form/control"
+        
+      - keyword: "树控件|tree|TreeView"
+        type: "TreeView"
+        import: "@cosmic/bos-core/kd/bos/form/control"
+        
+      - keyword: "单据列表|billlist|列表|BillList"
+        type: "BillList"
+        import: "@cosmic/bos-core/kd/bos/form/control"
+        
+      - keyword: "进度条|progress|ProgressBar"
+        type: "ProgressBar"
+        import: "@cosmic/bos-core/kd/bos/form/control"
+
+  # 规则4: 业务场景识别
+  scenario_inference:
+    enabled: true
+    description: 识别常见业务场景模式
+    scenarios:
+      - pattern: "字段联动|字段计算|金额计算|数量.*单价"
+        category: "field_calculation"
+        description: "字段值联动计算"
+        
+      - pattern: "F7过滤|列表过滤|过滤条件|addBeforeF7SelectListener"
+        category: "filter_condition"
+        description: "F7选择列表过滤"
+        
+      - pattern: "界面锁定|setEnable|setVisible|控件显隐"
+        category: "ui_control"
+        description: "界面控件状态控制"
+        
+      - pattern: "校验|validate|check|必填|必录"
+        category: "validation"
+        description: "数据校验场景"
+        
+      - pattern: "弹窗|showForm|showMessage|showConfirm"
+        category: "interaction"
+        description: "用户交互弹窗"
+        
+      - pattern: "分录操作|entry|分录行|新增行|删除行"
+        category: "entry_operation"
+        description: "分录行操作"
+        
+      - pattern: "联查|link|关联单据|打开单据"
+        category: "bill_link"
+        description: "单据联查"
+
+  # 规则5: 代码片段匹配
+  snippet_matching:
+    enabled: true
+    description: 根据场景匹配代码片段
+    snippets:
+      - scenario: "field_calculation"
+        snippet_id: "kingdee_property_changed_calc"
+        
+      - scenario: "filter_condition"
+        snippet_id: "kingdee_f7_filter"
+        
+      - scenario: "ui_control"
+        snippet_id: "kingdee_ui_control"
+        
+      - scenario: "validation"
+        snippet_id: "kingdee_validation"
+        
+      - scenario: "interaction"
+        snippet_id: "kingdee_interaction"
+        
+      - scenario: "entry_operation"
+        snippet_id: "kingdee_entry_operation"
+        
+      - scenario: "bill_link"
+        snippet_id: "kingdee_bill_link"

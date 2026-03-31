@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DeployMetadata>
+  <MasterId>3E6MPGREUEQB</MasterId>
+  <Id>3E6MPGREUEQB</Id>
+  <DesignMetas>
+    <DesignFormMetaL>
+      <Number>tdkw_hrobs_servicehall</Number>
+      <PkId>3GOZS2WR/4SE</PkId>
+      <DataXml>
+        <FormMetadata>
+          <Items>
+            <LabelAp action="edit" oid="BaR13Q6tIO">
+              <Name>更多 &gt;</Name>
+            </LabelAp>
+          </Items>
+        </FormMetadata>
+      </DataXml>
+      <Name>PC_自定義卡片模板</Name>
+      <Id>3E6MPGREUEQB</Id>
+      <LocaleId>zh_TW</LocaleId>
+    </DesignFormMetaL>
+    <DesignEntityMetaL>
+      <Number>tdkw_hrobs_servicehall</Number>
+      <PkId>3GOZS2XH/FN=</PkId>
+      <DataXml>
+        <EntityMetadata/>
+      </DataXml>
+      <Name>PC_自定義卡片模板</Name>
+      <Id>3E6MPGREUEQB</Id>
+      <LocaleId>zh_TW</LocaleId>
+    </DesignEntityMetaL>
+  </DesignMetas>
+  <Version>1691564750834</Version>
+  <BOSVersion>1.0</BOSVersion>
+</DeployMetadata>

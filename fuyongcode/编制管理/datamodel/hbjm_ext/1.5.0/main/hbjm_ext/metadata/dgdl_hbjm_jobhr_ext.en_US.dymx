@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DeployMetadata>
+  <MasterId>/IJRHGRN5RVY</MasterId>
+  <Id>3=3AT6PW/WJR</Id>
+  <DesignMetas>
+    <DesignFormMetaL>
+      <Number>dgdl_hbjm_jobhr_ext</Number>
+      <PkId>4238//X4VWLF</PkId>
+      <DataXml>
+        <FormMetadata>
+          <Items>
+            <BasedataFormAp action="edit" oid="1942c188000064ac">
+              <ListMeta>
+                <FormMetadata>
+                  <Items>
+                    <FilterColumnAp action="edit" oid="3QHBC7WD5LV6">
+                      <Name>标准岗位编码(原)</Name>
+                    </FilterColumnAp>
+                    <ListColumnAp action="edit" oid="41Y5K5J5ZQBK">
+                      <Name>岗位属性.名称</Name>
+                    </ListColumnAp>
+                    <ListColumnAp action="edit" oid="4/OR0VZRN0/G">
+                      <Name>职衔类别名称</Name>
+                    </ListColumnAp>
+                    <ListColumnAp action="edit" oid="3Q0GH194DSZ2">
+                      <Name>标准岗位编码(原)</Name>
+                    </ListColumnAp>
+                  </Items>
+                </FormMetadata>
+              </ListMeta>
+            </BasedataFormAp>
+            <FieldAp action="edit" oid="ZgrDHcfUBH">
+              <Name>适用组织范围</Name>
+            </FieldAp>
+            <FieldAp action="edit" oid="ftL26TrD2g">
+              <Name>岗位标签</Name>
+            </FieldAp>
+            <FieldAp action="edit" oid="Ckq0RmMsD9">
+              <Name>是否核心岗位</Name>
+            </FieldAp>
+            <FieldAp action="edit" oid="fR19NY6A22">
+              <Name>变更说明</Name>
+            </FieldAp>
+            <FieldAp action="edit" oid="YnH6Wbzlgl">
+              <Name>岗位通道</Name>
+            </FieldAp>
+            <FieldAp action="edit" oid="LCP0IlA7p9">
+              <Name>职衔类别</Name>
+            </FieldAp>
+            <FieldAp action="edit" oid="Yi6Ad4GpHb">
+              <Name>属地员工类别(废弃)</Name>
+            </FieldAp>
+            <FieldAp action="edit" oid="IGKkj3xrRT">
+              <Name>岗位属性</Name>
+            </FieldAp>
+            <FieldAp action="edit" oid="ggqZngiaUk">
+              <Name>标准岗位编码(原)</Name>
+            </FieldAp>
+          </Items>
+        </FormMetadata>
+      </DataXml>
+      <Name>Job</Name>
+      <Id>3=3AT6PW/WJR</Id>
+      <LocaleId>en_US</LocaleId>
+    </DesignFormMetaL>
+    <DesignEntityMetaL>
+      <Number>dgdl_hbjm_jobhr_ext</Number>
+      <PkId>4238/01CTPHT</PkId>
+      <DataXml>
+        <EntityMetadata>
+          <Items>
+            <ComboField action="edit" oid="Ckq0RmMsD9">
+              <Name>是否核心岗位</Name>
+              <Items>
+                <ComboItem action="edit" oid="Y">
+                  <Caption>是</Caption>
+                </ComboItem>
+                <ComboItem action="edit" oid="N">
+                  <Caption>否</Caption>
+                </ComboItem>
+              </Items>
+            </ComboField>
+            <TextField action="edit" oid="fR19NY6A22">
+              <Name>变更说明</Name>
+            </TextField>
+            <BasedataField action="edit" oid="YnH6Wbzlgl">
+              <Name>岗位通道</Name>
+            </BasedataField>
+            <BasedataField action="edit" oid="LCP0IlA7p9">
+              <Name>职衔类别</Name>
+            </BasedataField>
+            <BasedataField action="edit" oid="Yi6Ad4GpHb">
+              <Name>属地员工类别(废弃)</Name>
+              <EmptyText>请输入属地员工类别</EmptyText>
+            </BasedataField>
+            <BasedataField action="edit" oid="IGKkj3xrRT">
+              <Name>岗位属性</Name>
+            </BasedataField>
+            <TextField action="edit" oid="ggqZngiaUk">
+              <Name>标准岗位编码(原)</Name>
+            </TextField>
+            <MulBasedataField action="edit" oid="ftL26TrD2g">
+              <Name>岗位标签</Name>
+            </MulBasedataField>
+            <MulBasedataField action="edit" oid="ZgrDHcfUBH">
+              <Name>适用组织范围</Name>
+            </MulBasedataField>
+          </Items>
+        </EntityMetadata>
+      </DataXml>
+      <Name>Job</Name>
+      <Id>3=3AT6PW/WJR</Id>
+      <LocaleId>en_US</LocaleId>
+    </DesignEntityMetaL>
+  </DesignMetas>
+  <Version>1730776253092</Version>
+  <BOSVersion>1.0</BOSVersion>
+</DeployMetadata>

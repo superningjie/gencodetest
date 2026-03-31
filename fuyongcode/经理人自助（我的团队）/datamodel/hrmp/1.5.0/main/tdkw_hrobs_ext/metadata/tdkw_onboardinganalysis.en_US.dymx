@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DeployMetadata>
+  <MasterId>3D41U0FBVWXB</MasterId>
+  <Id>3D41U0FBVWXB</Id>
+  <DesignMetas>
+    <DesignFormMetaL>
+      <Number>tdkw_onboardinganalysis</Number>
+      <PkId>3Z6QE0SIYL9W</PkId>
+      <DataXml>
+        <FormMetadata>
+          <Name>入职分析</Name>
+          <Items>
+            <FormAp action="edit" oid="3D41U0F989MR">
+              <Name>入职分析</Name>
+            </FormAp>
+            <FieldAp action="edit" oid="3ZkWbow8pB">
+              <Name>所属组织</Name>
+            </FieldAp>
+            <FieldAp action="edit" oid="AznU3K99i7">
+              <Name>开始日期</Name>
+            </FieldAp>
+            <FieldAp action="edit" oid="bn5WXncNpM">
+              <Name>结束日期</Name>
+            </FieldAp>
+            <FieldAp action="edit" oid="SdzFLTQbvO">
+              <Name>单选按钮组</Name>
+            </FieldAp>
+            <FieldAp action="edit" oid="TjfOoauDVp">
+              <Name>学历</Name>
+            </FieldAp>
+            <FieldAp action="edit" oid="xJ4k2kjacZ">
+              <Name>岗位序列</Name>
+            </FieldAp>
+            <FieldAp action="edit" oid="9GOnuHV70d">
+              <Name>政治面貌</Name>
+            </FieldAp>
+            <FieldAp action="edit" oid="O5bFG4uvZi">
+              <Name>性别</Name>
+            </FieldAp>
+            <FieldAp action="edit" oid="ound1j9FuC">
+              <Name>人员类别</Name>
+            </FieldAp>
+            <FieldAp action="edit" oid="uUtNG5F2ux">
+              <Name>职务</Name>
+            </FieldAp>
+            <FieldAp action="edit" oid="r66GB5TGQ2">
+              <Name>岗位层级</Name>
+            </FieldAp>
+            <FlexPanelAp action="edit" oid="6zkoEJDX77">
+              <Name>Flex容器</Name>
+            </FlexPanelAp>
+            <FlexPanelAp action="edit" oid="0wmKZnUTa4">
+              <Name>Flex容器</Name>
+            </FlexPanelAp>
+            <FlexPanelAp action="edit" oid="s8tSJjaOHU">
+              <Name>Flex容器</Name>
+            </FlexPanelAp>
+            <FlexPanelAp action="edit" oid="rX6bDvalP4">
+              <Name>Flex容器</Name>
+            </FlexPanelAp>
+            <ButtonAp action="edit" oid="KHd2DovGAU">
+              <Name>查询</Name>
+            </ButtonAp>
+            <ButtonAp action="edit" oid="sfu1XQUnjf">
+              <Name>重置</Name>
+            </ButtonAp>
+            <LabelAp action="edit" oid="goMoUb2xqK">
+              <Name>人员结构分布</Name>
+            </LabelAp>
+            <FieldAp action="edit" oid="4meVW23Wwm">
+              <Name>饼图日期</Name>
+            </FieldAp>
+            <FieldAp action="edit" oid="GBU9pdP1Qk">
+              <Name>饼图图日期范围</Name>
+            </FieldAp>
+            <FlexPanelAp action="edit" oid="KpTaB1WIz8">
+              <Name>Flex容器</Name>
+            </FlexPanelAp>
+            <FlexPanelAp action="edit" oid="w9T2X8YpM7">
+              <Name>Flex容器</Name>
+            </FlexPanelAp>
+            <PieChartAp action="edit" oid="b3qdDDatnT">
+              <Name>饼图</Name>
+            </PieChartAp>
+            <FlexPanelAp action="edit" oid="yuG6SOrWHI">
+              <Name>Flex容器</Name>
+            </FlexPanelAp>
+            <PointLineChartAp action="edit" oid="ehrBOLjL3O">
+              <Name>点线图</Name>
+            </PointLineChartAp>
+            <FieldAp action="edit" oid="QtaT7ZvlaU">
+              <Name>饼图类型</Name>
+            </FieldAp>
+            <FlexPanelAp action="edit" oid="1hZSO4zqRu">
+              <Name>Flex容器</Name>
+            </FlexPanelAp>
+            <LabelAp action="edit" oid="C6L96186Ll">
+              <Name>人员变化趋势</Name>
+            </LabelAp>
+            <FieldAp action="edit" oid="HCB0nvWFN0">
+              <Name>点线图日期范围</Name>
+            </FieldAp>
+          </Items>
+        </FormMetadata>
+      </DataXml>
+      <Name>入职分析</Name>
+      <Id>3D41U0FBVWXB</Id>
+      <LocaleId>en_US</LocaleId>
+    </DesignFormMetaL>
+    <DesignEntityMetaL>
+      <Number>tdkw_onboardinganalysis</Number>
+      <PkId>3Z6QE0T6AGZ8</PkId>
+      <DataXml>
+        <EntityMetadata>
+          <Name>入职分析</Name>
+          <Items>
+            <MainEntity action="edit" oid="3D41U0FXM6+B">
+              <PermissionDimension>
+                <PermissionDimension>
+                  <Name>维度控制</Name>
+                </PermissionDimension>
+              </PermissionDimension>
+              <Rules>
+                <BizRule action="edit" oid="3DE4U6X532+5">
+                  <Description>开始日期</Description>
+                </BizRule>
+                <BizRule action="edit" oid="3DE4U6X52WKB">
+                  <Description>人员变化趋势</Description>
+                </BizRule>
+                <BizRule action="edit" oid="3DE4U6X532+6">
+                  <Description>人员结构分布</Description>
+                </BizRule>
+              </Rules>
+              <PermissionControl>
+                <PermissionControl>
+                  <Name>控制功能权限</Name>
+                </PermissionControl>
+              </PermissionControl>
+              <Operations>
+                <Operation action="edit" oid="3GMANY1PRXCG">
+                  <Name>查询</Name>
+                  <Validations>
+                    <ConditionValidation action="edit" oid="3GMANRZSREE5">
+                      <Description>合法性校验</Description>
+                      <Message>"请选择所属组织"</Message>
+                    </ConditionValidation>
+                  </Validations>
+                </Operation>
+              </Operations>
+              <Name>入职分析</Name>
+            </MainEntity>
+            <DateField action="edit" oid="AznU3K99i7">
+              <Name>开始日期</Name>
+            </DateField>
+            <DateField action="edit" oid="bn5WXncNpM">
+              <Name>结束日期</Name>
+            </DateField>
+            <RadioGroupField action="edit" oid="SdzFLTQbvO">
+              <Name>单选按钮组</Name>
+            </RadioGroupField>
+            <MulBasedataField action="edit" oid="TjfOoauDVp">
+              <Name>学历</Name>
+            </MulBasedataField>
+            <MulBasedataField action="edit" oid="xJ4k2kjacZ">
+              <Name>岗位序列</Name>
+            </MulBasedataField>
+            <MulBasedataField action="edit" oid="9GOnuHV70d">
+              <Name>政治面貌</Name>
+            </MulBasedataField>
+            <MulBasedataField action="edit" oid="O5bFG4uvZi">
+              <Name>性别</Name>
+            </MulBasedataField>
+            <MulBasedataField action="edit" oid="ound1j9FuC">
+              <Name>人员类别</Name>
+            </MulBasedataField>
+            <MulBasedataField action="edit" oid="uUtNG5F2ux">
+              <Name>职务</Name>
+            </MulBasedataField>
+            <BasedataField action="edit" oid="3ZkWbow8pB">
+              <Name>所属组织</Name>
+            </BasedataField>
+            <DateRangeField action="edit" oid="HCB0nvWFN0">
+              <Name>点线图日期范围</Name>
+            </DateRangeField>
+            <DateField action="edit" oid="4meVW23Wwm">
+              <Name>饼图日期</Name>
+            </DateField>
+            <ComboField action="edit" oid="QtaT7ZvlaU">
+              <Name>饼图类型</Name>
+              <Items>
+                <ComboItem action="edit" oid="0">
+                  <Caption>岗位层级</Caption>
+                </ComboItem>
+                <ComboItem action="edit" oid="5">
+                  <Caption>集团司龄</Caption>
+                </ComboItem>
+                <ComboItem action="edit" oid="1">
+                  <Caption>性别</Caption>
+                </ComboItem>
+                <ComboItem action="edit" oid="2">
+                  <Caption>学历</Caption>
+                </ComboItem>
+                <ComboItem action="edit" oid="3">
+                  <Caption>年龄</Caption>
+                </ComboItem>
+                <ComboItem action="edit" oid="7">
+                  <Caption>政治面貌</Caption>
+                </ComboItem>
+                <ComboItem action="edit" oid="8">
+                  <Caption>社会工龄</Caption>
+                </ComboItem>
+                <ComboItem action="edit" oid="9">
+                  <Caption>婚姻状况</Caption>
+                </ComboItem>
+                <ComboItem action="edit" oid="10">
+                  <Caption>人员类型</Caption>
+                </ComboItem>
+              </Items>
+            </ComboField>
+            <MulComboField action="edit" oid="r66GB5TGQ2">
+              <Name>岗位层级</Name>
+              <Items>
+                <ComboItem action="edit" oid="1">
+                  <Caption>集团高管</Caption>
+                </ComboItem>
+                <ComboItem action="edit" oid="2">
+                  <Caption>行业高管</Caption>
+                </ComboItem>
+                <ComboItem action="edit" oid="3">
+                  <Caption>其他高管</Caption>
+                </ComboItem>
+                <ComboItem action="edit" oid="4">
+                  <Caption>中层</Caption>
+                </ComboItem>
+                <ComboItem action="edit" oid="5">
+                  <Caption>基层</Caption>
+                </ComboItem>
+              </Items>
+            </MulComboField>
+            <DateRangeField action="edit" oid="GBU9pdP1Qk">
+              <Name>饼图图日期范围</Name>
+            </DateRangeField>
+          </Items>
+        </EntityMetadata>
+      </DataXml>
+      <Name>入职分析</Name>
+      <Id>3D41U0FBVWXB</Id>
+      <LocaleId>en_US</LocaleId>
+    </DesignEntityMetaL>
+  </DesignMetas>
+  <Version>1734403464639</Version>
+  <BOSVersion>1.0</BOSVersion>
+</DeployMetadata>

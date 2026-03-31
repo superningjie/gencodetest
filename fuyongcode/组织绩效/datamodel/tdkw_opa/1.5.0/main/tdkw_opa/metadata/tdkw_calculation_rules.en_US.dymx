@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DeployMetadata>
+  <MasterId>4AWNOH=QS=VI</MasterId>
+  <Id>4AWNOH=QS=VI</Id>
+  <DesignMetas>
+    <DesignFormMetaL>
+      <Number>tdkw_calculation_rules</Number>
+      <PkId>4FP+KBZC+A9R</PkId>
+      <DataXml>
+        <FormMetadata>
+          <Name>计算规则</Name>
+          <Items>
+            <BasedataFormAp action="edit" oid="1942c188000064ac">
+              <Name>计算规则</Name>
+              <ListMeta>
+                <FormMetadata>
+                  <Items>
+                    <FilterContainerAp action="edit" oid="_FilterContainer_">
+                      <Name>计算规则</Name>
+                    </FilterContainerAp>
+                    <ListColumnAp action="edit" oid="4B/7K2OSRF8Q">
+                      <Name>创建组织</Name>
+                    </ListColumnAp>
+                    <ComboListColumnAp action="edit" oid="4AX0M5==90=F">
+                      <Name>数据状态</Name>
+                    </ComboListColumnAp>
+                  </Items>
+                </FormMetadata>
+              </ListMeta>
+            </BasedataFormAp>
+            <AdvConSummaryPanelAp action="edit" oid="3YdLutZzu1">
+              <Name>高级面板摘要容器</Name>
+            </AdvConSummaryPanelAp>
+            <AdvConToolbarAp action="edit" oid="7qtJDP41VM">
+              <Name>高级面板工具栏</Name>
+            </AdvConToolbarAp>
+            <AdvConChildPanelAp action="edit" oid="sogqlc1u3o">
+              <Name>高级面板子容器</Name>
+            </AdvConChildPanelAp>
+            <EntryFieldAp action="edit" oid="6HIjH30g89">
+              <Name>计算规则名称</Name>
+            </EntryFieldAp>
+            <EntryFieldAp action="edit" oid="3cypmxRRaC">
+              <Name>扣分系数</Name>
+            </EntryFieldAp>
+            <EntryFieldAp action="edit" oid="rsvhlRS0HX">
+              <Name>指标名称</Name>
+            </EntryFieldAp>
+            <AdvConSummaryPanelAp action="edit" oid="A7g3YMkbnD">
+              <Name>高级面板摘要容器</Name>
+            </AdvConSummaryPanelAp>
+            <AdvConToolbarAp action="edit" oid="D5AcOdZya7">
+              <Name>高级面板工具栏</Name>
+            </AdvConToolbarAp>
+            <AdvConChildPanelAp action="edit" oid="HaflARaZZI">
+              <Name>高级面板子容器</Name>
+            </AdvConChildPanelAp>
+            <AdvConBarItemAp action="edit" oid="LBV3V7cTjj">
+              <Name>添加</Name>
+            </AdvConBarItemAp>
+            <AdvConBarItemAp action="edit" oid="lg2rXUXxRk">
+              <Name>删除</Name>
+            </AdvConBarItemAp>
+            <EntryAp action="edit" oid="5uU519NINg">
+              <Rules>
+                <FormRule action="edit" oid="4AQ8VKT3X2G3">
+                  <Description>锁定扣分系数</Description>
+                </FormRule>
+              </Rules>
+              <Name>计算规则设置</Name>
+            </EntryAp>
+            <FieldAp action="edit" oid="gRpfvB7oQk">
+              <Name>创建组织</Name>
+            </FieldAp>
+            <FieldAp action="edit" oid="VsHKs5fG51">
+              <Name>描述</Name>
+            </FieldAp>
+            <AdvConAp action="edit" oid="6XAestSdCe">
+              <Name>计算规则设置</Name>
+            </AdvConAp>
+            <AdvConAp action="edit" oid="5UJkU6s7lU">
+              <Name>计算方式说明</Name>
+            </AdvConAp>
+            <EntryFieldAp action="edit" oid="ymgif08TGf">
+              <Name>计算规则名称</Name>
+            </EntryFieldAp>
+            <EntryFieldAp action="edit" oid="mTOtTylt9C">
+              <Name>指标得分说明</Name>
+            </EntryFieldAp>
+            <EntryFieldAp action="edit" oid="FAUTsHG5Rn">
+              <Name>指标示例</Name>
+            </EntryFieldAp>
+            <EntryFieldAp action="edit" oid="66MQwcUP0r">
+              <Name>指标得分结果</Name>
+            </EntryFieldAp>
+            <EntryAp action="edit" oid="QKWfyzvBjn">
+              <Name>计算方式说明</Name>
+            </EntryAp>
+          </Items>
+        </FormMetadata>
+      </DataXml>
+      <Name>计算规则</Name>
+      <Id>4AWNOH=QS=VI</Id>
+      <LocaleId>en_US</LocaleId>
+    </DesignFormMetaL>
+    <DesignEntityMetaL>
+      <Number>tdkw_calculation_rules</Number>
+      <PkId>4FP+KC702I+B</PkId>
+      <DataXml>
+        <EntityMetadata>
+          <Name>计算规则</Name>
+          <Items>
+            <BaseEntity action="edit" oid="1942c188000066ac">
+              <Name>计算规则</Name>
+              <Operations>
+                <Operation action="edit" oid="b599405400001aac">
+                  <Validations>
+                    <GrpfieldsuniqueValidation action="edit" oid="4CSG26=ZMZ9O">
+                      <Description>组合字段唯一性校验</Description>
+                    </GrpfieldsuniqueValidation>
+                  </Validations>
+                </Operation>
+                <Operation action="edit" oid="4AX2FLM7LL7=">
+                  <Name>添加</Name>
+                </Operation>
+                <Operation action="edit" oid="4AX2GIQEGDA1">
+                  <Name>删除</Name>
+                </Operation>
+              </Operations>
+            </BaseEntity>
+            <TextField action="edit" oid="VsHKs5fG51">
+              <Name>描述</Name>
+            </TextField>
+            <EntryEntity action="edit" oid="5uU519NINg">
+              <Name>计算规则设置</Name>
+            </EntryEntity>
+            <ComboField action="edit" oid="6HIjH30g89">
+              <Name>计算规则名称</Name>
+              <Items>
+                <ComboItem action="edit" oid="deviationrate">
+                  <Caption>按偏差率扣减计算</Caption>
+                </ComboItem>
+                <ComboItem action="edit" oid="completionrate">
+                  <Caption>按完成比例计算</Caption>
+                </ComboItem>
+              </Items>
+            </ComboField>
+            <DecimalField action="edit" oid="3cypmxRRaC">
+              <Name>扣分系数</Name>
+            </DecimalField>
+            <MulBasedataField action="edit" oid="rsvhlRS0HX">
+              <Name>指标名称</Name>
+            </MulBasedataField>
+            <EntryEntity action="edit" oid="QKWfyzvBjn">
+              <Name>计算方式说明</Name>
+            </EntryEntity>
+            <TextField action="edit" oid="ymgif08TGf">
+              <Name>计算规则名称</Name>
+            </TextField>
+            <TextField action="edit" oid="mTOtTylt9C">
+              <Name>指标得分说明</Name>
+            </TextField>
+            <TextField action="edit" oid="FAUTsHG5Rn">
+              <Name>指标示例</Name>
+            </TextField>
+            <TextField action="edit" oid="66MQwcUP0r">
+              <Name>指标得分结果</Name>
+            </TextField>
+            <OrgField action="edit" oid="gRpfvB7oQk">
+              <Name>创建组织</Name>
+            </OrgField>
+          </Items>
+        </EntityMetadata>
+      </DataXml>
+      <Name>计算规则</Name>
+      <Id>4AWNOH=QS=VI</Id>
+      <LocaleId>en_US</LocaleId>
+    </DesignEntityMetaL>
+  </DesignMetas>
+  <Version>1728440919128</Version>
+  <BOSVersion>1.0</BOSVersion>
+</DeployMetadata>

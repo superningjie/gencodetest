@@ -1,0 +1,324 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DeployMetadata>
+  <MasterId>4B/PB=6MLYC+</MasterId>
+  <Id>4B/PB=6MLYC+</Id>
+  <DesignMetas>
+    <DesignFormMetaL>
+      <Number>tdkw_inner_area</Number>
+      <PkId>4JBGKQEDAODT</PkId>
+      <DataXml>
+        <FormMetadata>
+          <Name>区域内嵌页面</Name>
+          <Items>
+            <FormAp action="edit" oid="4B/PB=6J+IUQ">
+              <Rules>
+                <FormRule action="edit" oid="4COWEL6D8IX7">
+                  <Description>已提交</Description>
+                </FormRule>
+                <FormRule action="edit" oid="4B08YCAK4LUW">
+                  <Description>已审核</Description>
+                </FormRule>
+                <FormRule action="edit" oid="4B02QT0LJNW=">
+                  <Description>本级公司组织绩效</Description>
+                </FormRule>
+                <FormRule action="edit" oid="4B04DQ1E2QHP">
+                  <Description>KPI类</Description>
+                </FormRule>
+                <FormRule action="edit" oid="4B085ZCD56DK">
+                  <Description>重点工作类</Description>
+                </FormRule>
+                <FormRule action="edit" oid="4EU7GXOPJE6+">
+                  <Description>部门绩效-KPI类</Description>
+                </FormRule>
+              </Rules>
+              <Name>区域内嵌页面</Name>
+            </FormAp>
+            <FieldAp action="edit" oid="RC4NTGX8H3">
+              <Name>指标类型</Name>
+            </FieldAp>
+            <FlexPanelAp action="edit" oid="9qzmQzL25nc7aHdgyc">
+              <Name>Flex容器</Name>
+            </FlexPanelAp>
+            <FieldAp action="edit" oid="XSxVBgnKTfnBu0oGkH">
+              <Name>权重和</Name>
+            </FieldAp>
+            <ToolbarAp action="edit" oid="ZxTMzhKw8qvbvdqtzz">
+              <Name>左侧工具栏</Name>
+            </ToolbarAp>
+            <ToolbarAp action="edit" oid="xqq2UHRk5bCfe6HleT">
+              <Name>右侧工具栏</Name>
+            </ToolbarAp>
+            <FlexPanelAp action="edit" oid="CyW3HeaxeR">
+              <Name>Flex容器</Name>
+            </FlexPanelAp>
+            <FlexPanelAp action="edit" oid="lSZLajKfRWHe1py3I9">
+              <Name>Flex容器</Name>
+            </FlexPanelAp>
+            <FlexPanelAp action="edit" oid="7xL6ZT0ijBsZKHx6aI">
+              <Name>Flex容器</Name>
+            </FlexPanelAp>
+            <EntryAp action="edit" oid="wu8EGhDQiCb1Hf6vJG">
+              <Name>单据体</Name>
+            </EntryAp>
+            <FlexPanelAp action="edit" oid="22k07grZxW6q1C9Ag3">
+              <Name>Flex容器</Name>
+            </FlexPanelAp>
+            <FlexPanelAp action="edit" oid="5MxQFuRWPx">
+              <Name>Flex容器</Name>
+            </FlexPanelAp>
+            <BarItemAp action="edit" oid="3SlpWh0f7h">
+              <Name>添加指标</Name>
+            </BarItemAp>
+            <BarItemAp action="edit" oid="aXcyWJdhMS">
+              <Name>删除指标</Name>
+            </BarItemAp>
+            <BarItemAp action="edit" oid="R30cAWYXDu">
+              <Name>工具栏项</Name>
+            </BarItemAp>
+            <BarItemAp action="edit" oid="E1vVuuBZ73">
+              <Name>工具栏项</Name>
+            </BarItemAp>
+            <BarItemAp action="edit" oid="7l2FbvcbCA">
+              <Name>查看已分解未对齐指标</Name>
+            </BarItemAp>
+            <BarItemAp action="edit" oid="UQ0e15bxFq">
+              <Name>指标分解与对齐</Name>
+            </BarItemAp>
+            <BarItemAp action="edit" oid="N25qV9uxmy">
+              <Name>引用个人年度目标</Name>
+            </BarItemAp>
+            <BarItemAp action="edit" oid="JLaVsNClbN">
+              <Name>查看经营业绩指标（公司级-KPI类）</Name>
+            </BarItemAp>
+            <FieldAp action="edit" oid="xlL1vTUif3sl8QQkZN">
+              <Name>指标类型</Name>
+            </FieldAp>
+            <FieldAp action="edit" oid="NR9iJeVf0LzSKQ5ihi">
+              <Name>权重和</Name>
+            </FieldAp>
+            <FieldAp action="edit" oid="42iMFizMAr3JaAZZHJ">
+              <Name>单据状态</Name>
+            </FieldAp>
+            <FieldAp action="edit" oid="oYYPOjoH6Qy0oXwIy4">
+              <Name>行号</Name>
+            </FieldAp>
+            <EntryFieldAp action="edit" oid="IkmkDNoCuhCO77e1qM">
+              <Name>上级组织</Name>
+            </EntryFieldAp>
+            <EntryFieldAp action="edit" oid="f5qty4wOVDj30nBC1y">
+              <Name>指标名称</Name>
+            </EntryFieldAp>
+            <EntryFieldAp action="edit" oid="0uxcNRzWM9pkzBjHV1">
+              <Name>指标名称</Name>
+            </EntryFieldAp>
+            <EntryFieldAp action="edit" oid="ZRBSnM3Xt8tZ3LK2Tv">
+              <Name>权重</Name>
+            </EntryFieldAp>
+            <EntryFieldAp action="edit" oid="243WCB1pQKaMW3tlad">
+              <Name>指标描述</Name>
+            </EntryFieldAp>
+            <EntryFieldAp action="edit" oid="OjYIKglghR0mNQZeTe">
+              <Name>目标值</Name>
+            </EntryFieldAp>
+            <EntryFieldAp action="edit" oid="fOtVw5tTHOBAhXE3QN">
+              <Name>单位</Name>
+            </EntryFieldAp>
+            <EntryFieldAp action="edit" oid="v4ce0ijqU4qEg2wCux">
+              <Name>评分标准</Name>
+            </EntryFieldAp>
+            <EntryFieldAp action="edit" oid="yxFKfuaI7G">
+              <Name>Q1季度完成情况</Name>
+            </EntryFieldAp>
+            <EntryFieldAp action="edit" oid="BHAQ1487iH">
+              <Name>Q2季度完成情况</Name>
+            </EntryFieldAp>
+            <EntryFieldAp action="edit" oid="T1HgvN9aUi">
+              <Name>Q3季度完成情况</Name>
+            </EntryFieldAp>
+            <EntryFieldAp action="edit" oid="1Xj4Salc5z">
+              <Name>Q4季度完成情况</Name>
+            </EntryFieldAp>
+            <EntryFieldAp action="edit" oid="GPFVGdyrnJ">
+              <Name>年度完成值</Name>
+            </EntryFieldAp>
+            <EntryFieldAp action="edit" oid="Pp0NCTwa5RR9TuvPIc">
+              <Name>年度完成情况</Name>
+            </EntryFieldAp>
+            <EntryFieldAp action="edit" oid="qjdTA4VglrzZdR4d03">
+              <Name>评估结果</Name>
+            </EntryFieldAp>
+            <BarItemAp action="edit" oid="MJPtD9WJO8">
+              <Name>上移</Name>
+            </BarItemAp>
+            <BarItemAp action="edit" oid="rUlKbySGDY">
+              <Name>下移</Name>
+            </BarItemAp>
+            <BarItemAp action="edit" oid="D5xVrSuAp1">
+              <Name>删除区域</Name>
+            </BarItemAp>
+          </Items>
+        </FormMetadata>
+      </DataXml>
+      <Name>区域内嵌页面</Name>
+      <Id>4B/PB=6MLYC+</Id>
+      <LocaleId>en_US</LocaleId>
+    </DesignFormMetaL>
+    <DesignEntityMetaL>
+      <Number>tdkw_inner_area</Number>
+      <PkId>4JBGKQSX0I8K</PkId>
+      <DataXml>
+        <EntityMetadata>
+          <Name>区域内嵌页面</Name>
+          <Items>
+            <MainEntity action="edit" oid="4B/PB=7G8ORV">
+              <Operations>
+                <Operation action="edit" oid="4B/PT9Y88GNR">
+                  <Name>添加指标</Name>
+                </Operation>
+                <Operation action="edit" oid="4B/PURU8/YPC">
+                  <Name>删除指标</Name>
+                </Operation>
+                <Operation action="edit" oid="4B/Q+BSVCVKS">
+                  <Name>删除区域</Name>
+                </Operation>
+                <Operation action="edit" oid="4B011=YCUE+P">
+                  <Name>上移</Name>
+                </Operation>
+                <Operation action="edit" oid="4B015K0LSFU5">
+                  <Name>下移</Name>
+                </Operation>
+                <Operation action="edit" oid="4B02C0WEDIE7">
+                  <Name>添加组织</Name>
+                </Operation>
+                <Operation action="edit" oid="4B02DC32=F1Y">
+                  <Name>删除组织</Name>
+                </Operation>
+                <Operation action="edit" oid="4B07R5BIZZYR">
+                  <Name>查看已分解未对齐指标</Name>
+                </Operation>
+                <Operation action="edit" oid="4B07SSS84OX3">
+                  <Name>指标分解与对齐</Name>
+                </Operation>
+                <Operation action="edit" oid="4B07US0G5RCV">
+                  <Name>引用个人年度目标</Name>
+                </Operation>
+                <Operation action="edit" oid="4C4=8B/=QL0M">
+                  <Name>提交</Name>
+                  <Validations>
+                    <MustInputValidation action="edit" oid="4C4=860KU2VY">
+                      <Description>字段值合规性校验</Description>
+                    </MustInputValidation>
+                  </Validations>
+                </Operation>
+                <Operation action="edit" oid="4JB978PAQJYI">
+                  <Name>查看经营业绩指标（公司级-KPI类）</Name>
+                </Operation>
+              </Operations>
+              <Name>区域内嵌页面</Name>
+            </MainEntity>
+            <EntryEntity action="edit" oid="wu8EGhDQiCb1Hf6vJG">
+              <Name>单据体</Name>
+            </EntryEntity>
+            <BasedataField action="edit" oid="f5qty4wOVDj30nBC1y">
+              <Name>指标名称</Name>
+            </BasedataField>
+            <TextField action="edit" oid="ZRBSnM3Xt8tZ3LK2Tv">
+              <Name>权重</Name>
+            </TextField>
+            <DecimalField action="edit" oid="OjYIKglghR0mNQZeTe">
+              <Name>目标值</Name>
+            </DecimalField>
+            <ComboField action="edit" oid="fOtVw5tTHOBAhXE3QN">
+              <Name>单位</Name>
+              <Items>
+                <ComboItem action="edit" oid="yuan">
+                  <Caption>元</Caption>
+                </ComboItem>
+                <ComboItem action="edit" oid="wan_yuan">
+                  <Caption>万元</Caption>
+                </ComboItem>
+                <ComboItem action="edit" oid="bai_wan_yuan">
+                  <Caption>百万元</Caption>
+                </ComboItem>
+                <ComboItem action="edit" oid="qian_wan_yuan">
+                  <Caption>千万元</Caption>
+                </ComboItem>
+                <ComboItem action="edit" oid="percent">
+                  <Caption>百分比</Caption>
+                </ComboItem>
+              </Items>
+            </ComboField>
+            <DecimalField action="edit" oid="qjdTA4VglrzZdR4d03">
+              <Name>评估结果</Name>
+            </DecimalField>
+            <DecimalField action="edit" oid="yxFKfuaI7G">
+              <Name>Q1季度完成情况</Name>
+            </DecimalField>
+            <DecimalField action="edit" oid="BHAQ1487iH">
+              <Name>Q2季度完成情况</Name>
+            </DecimalField>
+            <DecimalField action="edit" oid="T1HgvN9aUi">
+              <Name>Q3季度完成情况</Name>
+            </DecimalField>
+            <DecimalField action="edit" oid="1Xj4Salc5z">
+              <Name>Q4季度完成情况</Name>
+            </DecimalField>
+            <DecimalField action="edit" oid="GPFVGdyrnJ">
+              <Name>年度完成值</Name>
+            </DecimalField>
+            <BasedataField action="edit" oid="xlL1vTUif3sl8QQkZN">
+              <Name>指标类型</Name>
+            </BasedataField>
+            <BillStatusField action="edit" oid="42iMFizMAr3JaAZZHJ">
+              <StatusItems>
+                <StatusItem action="edit" oid="4B/R15JE04B4">
+                  <statusname>暂存</statusname>
+                </StatusItem>
+                <StatusItem action="edit" oid="4B/R15JE05/D">
+                  <statusname>已提交</statusname>
+                </StatusItem>
+                <StatusItem action="edit" oid="4B/R15JE04B5">
+                  <statusname>已审核</statusname>
+                </StatusItem>
+              </StatusItems>
+              <Name>单据状态</Name>
+            </BillStatusField>
+            <IntegerField action="edit" oid="oYYPOjoH6Qy0oXwIy4">
+              <Name>行号</Name>
+            </IntegerField>
+            <BasedataField action="edit" oid="IkmkDNoCuhCO77e1qM">
+              <Name>上级组织</Name>
+            </BasedataField>
+            <TextField action="edit" oid="Pp0NCTwa5RR9TuvPIc">
+              <Name>年度完成情况</Name>
+            </TextField>
+            <DecimalField action="edit" oid="NR9iJeVf0LzSKQ5ihi">
+              <Name>权重和</Name>
+            </DecimalField>
+            <TextField action="edit" oid="XSxVBgnKTfnBu0oGkH">
+              <Name>权重和</Name>
+            </TextField>
+            <TextField action="edit" oid="RC4NTGX8H3">
+              <Name>指标类型</Name>
+            </TextField>
+            <TextField action="edit" oid="0uxcNRzWM9pkzBjHV1">
+              <Name>指标名称</Name>
+            </TextField>
+            <TextField action="edit" oid="243WCB1pQKaMW3tlad">
+              <Name>指标描述</Name>
+            </TextField>
+            <TextField action="edit" oid="v4ce0ijqU4qEg2wCux">
+              <Name>评分标准</Name>
+            </TextField>
+          </Items>
+        </EntityMetadata>
+      </DataXml>
+      <Name>区域内嵌页面</Name>
+      <Id>4B/PB=6MLYC+</Id>
+      <LocaleId>en_US</LocaleId>
+    </DesignEntityMetaL>
+  </DesignMetas>
+  <Version>1754307730152</Version>
+  <BOSVersion>1.0</BOSVersion>
+</DeployMetadata>

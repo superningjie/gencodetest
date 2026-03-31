@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DeployMetadata>
+  <MasterId>4CHGKPH2TCI7</MasterId>
+  <Id>4CHGKPH2TCI7</Id>
+  <DesignMetas>
+    <DesignFormMetaL>
+      <Number>tdkw_transferactivity</Number>
+      <PkId>4CS3VUL42UI=</PkId>
+      <DataXml>
+        <FormMetadata/>
+      </DataXml>
+      <Name>调动通用活动</Name>
+      <Id>4CHGKPH2TCI7</Id>
+      <LocaleId>zh_CN</LocaleId>
+    </DesignFormMetaL>
+    <DesignEntityMetaL>
+      <Number>tdkw_transferactivity</Number>
+      <PkId>4CS3VUS30Z=H</PkId>
+      <DataXml>
+        <EntityMetadata/>
+      </DataXml>
+      <Name>调动通用活动</Name>
+      <Id>4CHGKPH2TCI7</Id>
+      <LocaleId>zh_CN</LocaleId>
+    </DesignEntityMetaL>
+  </DesignMetas>
+  <Version>1725607707966</Version>
+  <BOSVersion>1.0</BOSVersion>
+</DeployMetadata>

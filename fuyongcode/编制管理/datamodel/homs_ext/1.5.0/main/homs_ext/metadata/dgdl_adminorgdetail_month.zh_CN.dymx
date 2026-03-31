@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DeployMetadata>
+  <MasterId>3ZRHAQY7EWMH</MasterId>
+  <Id>3ZRHAQY7EWMH</Id>
+  <DesignMetas>
+    <DesignFormMetaL>
+      <Number>dgdl_adminorgdetail_month</Number>
+      <PkId>4HL/337G+CW9</PkId>
+      <DataXml>
+        <FormMetadata>
+          <Items>
+            <FlexPanelAp action="edit" oid="LL4BVAnADa">
+              <ParentId>oLyySK4WRR</ParentId>
+            </FlexPanelAp>
+          </Items>
+        </FormMetadata>
+      </DataXml>
+      <Name>月度编制组织树</Name>
+      <Id>3ZRHAQY7EWMH</Id>
+      <LocaleId>zh_CN</LocaleId>
+    </DesignFormMetaL>
+    <DesignEntityMetaL>
+      <Number>dgdl_adminorgdetail_month</Number>
+      <PkId>4HL/33G0G40U</PkId>
+      <DataXml>
+        <EntityMetadata/>
+      </DataXml>
+      <Name>月度编制组织树</Name>
+      <Id>3ZRHAQY7EWMH</Id>
+      <LocaleId>zh_CN</LocaleId>
+    </DesignEntityMetaL>
+  </DesignMetas>
+  <Version>1730282553222</Version>
+  <BOSVersion>1.0</BOSVersion>
+</DeployMetadata>

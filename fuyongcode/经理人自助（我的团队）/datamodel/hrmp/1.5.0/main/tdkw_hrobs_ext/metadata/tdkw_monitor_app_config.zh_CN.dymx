@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DeployMetadata>
+  <MasterId>3W9YUAZLIC88</MasterId>
+  <Id>3W9YUAZLIC88</Id>
+  <DesignMetas>
+    <DesignFormMetaL>
+      <Number>tdkw_monitor_app_config</Number>
+      <PkId>3Y=RMHW2E2L5</PkId>
+      <DataXml>
+        <FormMetadata/>
+      </DataXml>
+      <Name>运营监控移动端接口配置表</Name>
+      <Id>3W9YUAZLIC88</Id>
+      <LocaleId>zh_CN</LocaleId>
+    </DesignFormMetaL>
+    <DesignEntityMetaL>
+      <Number>tdkw_monitor_app_config</Number>
+      <PkId>3Y=RMHXD5XZL</PkId>
+      <DataXml>
+        <EntityMetadata/>
+      </DataXml>
+      <Name>运营监控移动端接口配置表</Name>
+      <Id>3W9YUAZLIC88</Id>
+      <LocaleId>zh_CN</LocaleId>
+    </DesignEntityMetaL>
+  </DesignMetas>
+  <Version>1708653736383</Version>
+  <BOSVersion>1.0</BOSVersion>
+</DeployMetadata>

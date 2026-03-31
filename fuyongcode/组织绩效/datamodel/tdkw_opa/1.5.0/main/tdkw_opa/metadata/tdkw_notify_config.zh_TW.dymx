@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DeployMetadata>
+  <MasterId>4AINJOMJECHD</MasterId>
+  <Id>4AINJOMJECHD</Id>
+  <DesignMetas>
+    <DesignFormMetaL>
+      <Number>tdkw_notify_config</Number>
+      <PkId>4DDQTK9LUGR/</PkId>
+      <DataXml>
+        <FormMetadata>
+          <Name>通知人員配置表</Name>
+          <Items>
+            <BasedataFormAp action="edit" oid="1942c188000064ac">
+              <Name>通知人員配置表</Name>
+            </BasedataFormAp>
+            <FlexPanelAp action="edit" oid="nvC3NH3xgI">
+              <Name>標題區</Name>
+            </FlexPanelAp>
+            <EntryFieldAp action="edit" oid="xb82yRBMTQBAqtvgz3">
+              <Name>頭像</Name>
+            </EntryFieldAp>
+            <EntryFieldAp action="edit" oid="haH8S6rQ82hPrgO7Pd">
+              <Name>hr人員</Name>
+            </EntryFieldAp>
+            <EntryFieldAp action="edit" oid="elytkV5BOlXPz8SXhZ">
+              <Name>基礎資料3</Name>
+            </EntryFieldAp>
+            <EntryFieldAp action="edit" oid="udRI2k82zAmC744sj0">
+              <Name>任職經歷</Name>
+            </EntryFieldAp>
+            <EntryFieldAp action="edit" oid="QGRNx3RF1W07kfAu3E">
+              <Name>工號</Name>
+            </EntryFieldAp>
+            <EntryFieldAp action="edit" oid="b7DTzPFl3C6tb13YJy">
+              <Name>所屬行政組織</Name>
+            </EntryFieldAp>
+            <EntryFieldAp action="edit" oid="XusIvsKPrVjpM23N0r">
+              <Name>部門</Name>
+            </EntryFieldAp>
+            <EntryFieldAp action="edit" oid="fQJJiUHeWOJgs9riIJ">
+              <Name>崗位</Name>
+            </EntryFieldAp>
+            <EntryFieldAp action="edit" oid="oYnw5qYmCwsaTxR5Cv">
+              <Name>填報組織</Name>
+            </EntryFieldAp>
+            <EntryFieldAp action="edit" oid="VL7yohCrdTAvBitESw">
+              <Name>任職狀態</Name>
+            </EntryFieldAp>
+            <BarItemAp action="edit" oid="jxHe8x1kKP">
+              <Name>添加人員</Name>
+            </BarItemAp>
+            <BarItemAp action="edit" oid="nEVnyVt7r8">
+              <Name>引入</Name>
+            </BarItemAp>
+            <BarItemAp action="edit" oid="Ff7KzyREN8">
+              <Name>刪除人員</Name>
+            </BarItemAp>
+            <BarItemAp action="edit" oid="zpPc2YwIBT">
+              <Name>刷新</Name>
+            </BarItemAp>
+            <EntryAp action="edit" oid="GZcDkG1sCCVp3XzmJy">
+              <Name>通知人員配置表實體</Name>
+            </EntryAp>
+            <LabelAp action="edit" oid="KgE5uHhR0X25JB0A6B">
+              <Name>通知人員配置表</Name>
+            </LabelAp>
+          </Items>
+        </FormMetadata>
+      </DataXml>
+      <Name>通知人員配置表</Name>
+      <Id>4AINJOMJECHD</Id>
+      <LocaleId>zh_TW</LocaleId>
+    </DesignFormMetaL>
+    <DesignEntityMetaL>
+      <Number>tdkw_notify_config</Number>
+      <PkId>4DDQTKFDITGP</PkId>
+      <DataXml>
+        <EntityMetadata>
+          <Name>通知人員配置表</Name>
+          <Items>
+            <BaseEntity action="edit" oid="1942c188000066ac">
+              <Name>通知人員配置表</Name>
+              <Operations>
+                <Operation action="edit" oid="b599405400001aac">
+                  <Validations>
+                    <GrpfieldsuniqueValidation action="edit" oid="4CSG9IECPQJL">
+                      <Description>組合字段唯一性校驗</Description>
+                    </GrpfieldsuniqueValidation>
+                  </Validations>
+                </Operation>
+                <Operation action="edit" oid="4AIPT+W7QFX1">
+                  <Name>引入</Name>
+                </Operation>
+                <Operation action="edit" oid="4AIPWZOYIVI3">
+                  <Name>添加人員</Name>
+                </Operation>
+                <Operation action="edit" oid="4AIPY404D2EF">
+                  <Name>刪除人員</Name>
+                </Operation>
+              </Operations>
+            </BaseEntity>
+            <EntryEntity action="edit" oid="GZcDkG1sCCVp3XzmJy">
+              <Rules>
+                <BizRule action="edit" oid="4DCR9IDPIH60">
+                  <Description>tdkw_hrperson.id &lt;&gt; 0</Description>
+                </BizRule>
+              </Rules>
+              <Name>通知人員配置表實體</Name>
+            </EntryEntity>
+            <BasedataField action="edit" oid="udRI2k82zAmC744sj0">
+              <Name>任職經歷</Name>
+            </BasedataField>
+            <BasedataPropField action="edit" oid="xb82yRBMTQBAqtvgz3">
+              <Name>頭像</Name>
+            </BasedataPropField>
+            <BasedataPropField action="edit" oid="QGRNx3RF1W07kfAu3E">
+              <Name>工號</Name>
+            </BasedataPropField>
+            <BasedataField action="edit" oid="oYnw5qYmCwsaTxR5Cv">
+              <Name>填報組織</Name>
+            </BasedataField>
+            <BasedataPropField action="edit" oid="b7DTzPFl3C6tb13YJy">
+              <Name>所屬行政組織</Name>
+            </BasedataPropField>
+            <BasedataPropField action="edit" oid="fQJJiUHeWOJgs9riIJ">
+              <Name>崗位</Name>
+            </BasedataPropField>
+            <BasedataPropField action="edit" oid="VL7yohCrdTAvBitESw">
+              <Name>任職狀態</Name>
+            </BasedataPropField>
+            <BasedataPropField action="edit" oid="XusIvsKPrVjpM23N0r">
+              <Name>部門</Name>
+            </BasedataPropField>
+
+            <BasedataField action="edit" oid="haH8S6rQ82hPrgO7Pd">
+              <Name>hr人員</Name>
+            </BasedataField>
+          </Items>
+        </EntityMetadata>
+      </DataXml>
+      <Name>通知人員配置表</Name>
+      <Id>4AINJOMJECHD</Id>
+      <LocaleId>zh_TW</LocaleId>
+    </DesignEntityMetaL>
+  </DesignMetas>
+  <Version>1754018271932</Version>
+  <BOSVersion>1.0</BOSVersion>
+</DeployMetadata>

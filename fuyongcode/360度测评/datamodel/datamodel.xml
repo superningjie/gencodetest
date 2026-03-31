@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Package name="cds0_cea">
+    <ver>1.5.0</ver>
+    <app>
+        <item id="cds0_cea" name="cds0_cea" pkname="cds0_cea-cds0_cea" path="main/cds0_cea"/>
+    </app>
+</Package>

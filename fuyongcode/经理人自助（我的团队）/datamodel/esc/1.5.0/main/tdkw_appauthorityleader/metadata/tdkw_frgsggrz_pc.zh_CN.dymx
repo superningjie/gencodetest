@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DeployMetadata>
+  <MasterId>3EWZFAMGFTCA</MasterId>
+  <Id>3EWZFAMGFTCA</Id>
+  <DesignMetas>
+    <DesignFormMetaL>
+      <Number>tdkw_frgsggrz_pc</Number>
+      <PkId>3EWZGBHRP7G0</PkId>
+      <DataXml>
+        <FormMetadata/>
+      </DataXml>
+      <Name>法人公司高管任职PC端</Name>
+      <Id>3EWZFAMGFTCA</Id>
+      <LocaleId>zh_CN</LocaleId>
+    </DesignFormMetaL>
+    <DesignEntityMetaL>
+      <Number>tdkw_frgsggrz_pc</Number>
+      <PkId>3EWZGBIZUL=F</PkId>
+      <DataXml>
+        <EntityMetadata/>
+      </DataXml>
+      <Name>法人公司高管任职PC端</Name>
+      <Id>3EWZFAMGFTCA</Id>
+      <LocaleId>zh_CN</LocaleId>
+    </DesignEntityMetaL>
+  </DesignMetas>
+  <Version>1689822793377</Version>
+  <BOSVersion>1.0</BOSVersion>
+</DeployMetadata>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DeployMetadata>
+  <MasterId>3AM=HRLN8==1</MasterId>
+  <Id>3AM=HRLN8==1</Id>
+  <DesignMetas>
+    <DesignFormMetaL>
+      <Number>tdkw_hhb</Number>
+      <PkId>3AN35=ZAG1ZS</PkId>
+      <DataXml>
+        <FormMetadata/>
+      </DataXml>
+      <Name>产品定制化知识管理</Name>
+      <Id>3AM=HRLN8==1</Id>
+      <LocaleId>zh_CN</LocaleId>
+    </DesignFormMetaL>
+    <DesignEntityMetaL>
+      <Number>tdkw_hhb</Number>
+      <PkId>3AN35A/FUR1H</PkId>
+      <DataXml>
+        <EntityMetadata/>
+      </DataXml>
+      <Name>产品定制化知识管理</Name>
+      <Id>3AM=HRLN8==1</Id>
+      <LocaleId>zh_CN</LocaleId>
+    </DesignEntityMetaL>
+  </DesignMetas>
+  <Version>1685695952706</Version>
+  <BOSVersion>1.0</BOSVersion>
+</DeployMetadata>

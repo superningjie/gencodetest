@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DeployMetadata>
+  <MasterId>3==Y53C=3819</MasterId>
+  <Id>3==Y53C=3819</Id>
+  <DesignMetas>
+    <DesignFormMetaL>
+      <Number>tdkw_portalbanner</Number>
+      <PkId>3PI+VEUSMUR5</PkId>
+      <DataXml>
+        <FormMetadata>
+          <Items>
+            <BasedataFormAp action="edit" oid="1942c188000064ac">
+              <ListMeta>
+                <FormMetadata>
+                  <Items>
+                    <PictureListColumnAp action="edit" oid="3AIQAV1=QV+I">
+                      <Name>图片</Name>
+                    </PictureListColumnAp>
+                    <DateListColumnAp action="edit" oid="3AIQBV=DAIT6">
+                      <Name>创建时间</Name>
+                    </DateListColumnAp>
+                    <ListColumnAp action="edit" oid="3AIQCF=P4SB8">
+                      <Name>创建人</Name>
+                    </ListColumnAp>
+                  </Items>
+                </FormMetadata>
+              </ListMeta>
+            </BasedataFormAp>
+            <FieldAp action="edit" oid="2iKCx49HZ9">
+              <Name>图片</Name>
+            </FieldAp>
+            <FieldAp action="edit" oid="sdtaOqI08h">
+              <Name>url</Name>
+            </FieldAp>
+            <FieldAp action="edit" oid="w2OAwucnhv">
+              <Name>MC参数</Name>
+            </FieldAp>
+            <FlexPanelAp action="edit" oid="1Z5qHT1X8I">
+              <Name>banner图片</Name>
+            </FlexPanelAp>
+          </Items>
+        </FormMetadata>
+      </DataXml>
+      <Name>Basic Data Template</Name>
+      <Id>3==Y53C=3819</Id>
+      <LocaleId>en_US</LocaleId>
+    </DesignFormMetaL>
+    <DesignEntityMetaL>
+      <Number>tdkw_portalbanner</Number>
+      <PkId>3PI+VEW2DO3L</PkId>
+      <DataXml>
+        <EntityMetadata>
+          <Items>
+            <PictureField action="edit" oid="2iKCx49HZ9">
+              <Name>图片</Name>
+            </PictureField>
+            <TextField action="edit" oid="sdtaOqI08h">
+              <Name>url</Name>
+            </TextField>
+            <ComboField action="edit" oid="w2OAwucnhv">
+              <Name>MC参数</Name>
+              <Items>
+                <ComboItem action="edit" oid="0">
+                  <Caption>云学堂</Caption>
+                </ComboItem>
+                <ComboItem action="edit" oid="1">
+                  <Caption>社招</Caption>
+                </ComboItem>
+              </Items>
+            </ComboField>
+          </Items>
+        </EntityMetadata>
+      </DataXml>
+      <Name>Basic Data Template</Name>
+      <Id>3==Y53C=3819</Id>
+      <LocaleId>en_US</LocaleId>
+    </DesignEntityMetaL>
+  </DesignMetas>
+  <Version>1700203947792</Version>
+  <BOSVersion>1.0</BOSVersion>
+</DeployMetadata>

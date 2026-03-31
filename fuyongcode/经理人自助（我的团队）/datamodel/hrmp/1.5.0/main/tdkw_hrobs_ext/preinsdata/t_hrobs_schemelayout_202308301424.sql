@@ -1,0 +1,34 @@
+--DELETE FROM t_hrobs_schemelayout where fid = '1687104524545827840';
+--INSERT INTO t_hrobs_schemelayout
+--(fid, fportalschemeid, fterminal, fiscustomlayout, fuserid, fcreatorid, fcreatetime, fmodifierid, fmodifytime, fconfig, fconfig_tag)
+--VALUES(1687104524545827840, 1687103547591653376, '1', '0', 0, 1, '2023-05-17 00:00:00.000', 1575384905804765184, '2023-05-18 00:00:00.000', ' ', ' ');
+--
+--DELETE FROM t_hrobs_schemelayout where fid = '1561678293801911296';
+--INSERT INTO t_hrobs_schemelayout
+--(fid, fportalschemeid, fterminal, fiscustomlayout, fuserid, fcreatorid, fcreatetime, fmodifierid, fmodifytime, fconfig, fconfig_tag)
+--VALUES(1561678293801911296, 1561671618558706688, '0', '0', 0, 1, '2022-11-25 00:00:00.000', 1747025574716662784, '2023-08-11 16:44:29.751', '  [{"w":3.5,"h":1.3,"x":0,"y":0,"i":"1561473505751483392","moved":false,"static":false},
+--  {"w":4,"h":1.3,"x":3.5,"y":0,"i":"1727574146595991552","moved":false,"static":false},
+--  {"w":4.5,"h":1.3,"x":7.5,"y":0,"i":"1561473851018199040","moved"', '  [{"w":3.5,"h":1.3,"x":0,"y":0,"i":"1561473505751483392","moved":false,"static":false},
+--  {"w":4,"h":1.3,"x":3.5,"y":0,"i":"1727574146595991552","moved":false,"static":false},
+--  {"w":4.5,"h":1.3,"x":7.5,"y":0,"i":"1561473851018199040","moved":false,"static":false},
+--  {"w":3.5,"h":1.4,"x":0,"y":1,"i":"1688315586565709824","moved":false,"static":false},
+--  {"w":8.5,"h":1.4,"x":3.5,"y":1.3,"i":"1688434848991091712","moved":false,"static":false},
+--  {"w":3.5,"h":2.2,"x":0,"y":2,"i":"1726318934451408896","moved":false,"static":false},
+--  {"w":5.5,"h":2.2,"x":3.5,"y":2,"i":"1724574901148347392","moved":false,"static":false},
+--  {"w":3,"h":2.2,"x":9,"y":2,"i":"1724696123748136960","moved":false,"static":false},
+--  {"w":6,"h":1.3,"x":0,"y":3,"i":"1691330639086776320","moved":false,"static":false},
+--  {"w":6,"h":1.3,"x":6,"y":3,"i":"1732657956366865408","moved":false,"static":false}     ]');
+--
+--DELETE FROM t_hrobs_schemelayout where fid = '1733446037147755520';
+--INSERT INTO t_hrobs_schemelayout
+--(fid, fportalschemeid, fterminal, fiscustomlayout, fuserid, fcreatorid, fcreatetime, fmodifierid, fmodifytime, fconfig, fconfig_tag)
+--VALUES(1733446037147755520, 1687103547591653376, '0', '0', 0, 1685547441731941376, '2023-07-20 00:00:00.000', 1747025574716662784, '2023-08-11 16:56:58.483', '  [{"w":3.5,"h":1.3,"x":0,"y":0,"i":"1561473505751483392","moved":false,"static":false},
+--  {"w":4,"h":1.3,"x":3.5,"y":0,"i":"1727574146595991552","moved":false,"static":false},
+--  {"w":4.5,"h":1.3,"x":7.5,"y":0,"i":"1561473851018199040","moved"', '  [{"w":3.5,"h":1.3,"x":0,"y":0,"i":"1561473505751483392","moved":false,"static":false},
+--  {"w":4,"h":1.3,"x":3.5,"y":0,"i":"1727574146595991552","moved":false,"static":false},
+--  {"w":4.5,"h":1.3,"x":7.5,"y":0,"i":"1561473851018199040","moved":false,"static":false},
+--  {"w":3.5,"h":1.4,"x":0,"y":1,"i":"1688315586565709824","moved":false,"static":false},
+--  {"w":8.5,"h":1.4,"x":3.5,"y":1.3,"i":"1688434848991091712","moved":false,"static":false},
+--  {"w":3.5,"h":2.2,"x":0,"y":2,"i":"1726318934451408896","moved":false,"static":false},
+--  {"w":5.5,"h":2.2,"x":3.5,"y":2,"i":"1724574901148347392","moved":false,"static":false},
+--  {"w":3,"h":2.2,"x":9,"y":2,"i":"1724696123748136960","moved":false,"static":false}  ]');

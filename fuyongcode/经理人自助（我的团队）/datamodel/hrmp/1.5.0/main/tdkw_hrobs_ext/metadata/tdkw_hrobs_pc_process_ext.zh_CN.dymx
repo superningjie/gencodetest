@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DeployMetadata>
+  <MasterId>2YL3564U+GOB</MasterId>
+  <Id>3B1IHYI6CSRS</Id>
+  <DesignMetas>
+    <DesignFormMetaL>
+      <Number>tdkw_hrobs_pc_process_ext</Number>
+      <PkId>3B1IJ42C97Q7</PkId>
+      <DataXml>
+        <FormMetadata/>
+      </DataXml>
+      <Name>PC_流程服务卡片</Name>
+      <Id>3B1IHYI6CSRS</Id>
+      <LocaleId>zh_CN</LocaleId>
+    </DesignFormMetaL>
+    <DesignEntityMetaL>
+      <Number>tdkw_hrobs_pc_process_ext</Number>
+      <PkId>3B1IJ4339JYK</PkId>
+      <DataXml>
+        <EntityMetadata/>
+      </DataXml>
+      <Name>PC_流程服务卡片</Name>
+      <Id>3B1IHYI6CSRS</Id>
+      <LocaleId>zh_CN</LocaleId>
+    </DesignEntityMetaL>
+  </DesignMetas>
+  <Version>1686104521185</Version>
+  <BOSVersion>1.0</BOSVersion>
+</DeployMetadata>

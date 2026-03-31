@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DeployMetadata>
+  <MasterId>3EQ0HMR/GANC</MasterId>
+  <Id>3EQ0HMR/GANC</Id>
+  <DesignMetas>
+    <DesignFormMetaL>
+      <Number>tdkw_bulletinbrd_content</Number>
+      <PkId>3MUM4QT7XY94</PkId>
+      <DataXml>
+        <FormMetadata>
+          <Name>公告欄內容</Name>
+          <Items>
+            <FormAp action="edit" oid="3EQ0HMMJES7D">
+              <Name>公告欄內容</Name>
+            </FormAp>
+            <FlexPanelAp action="edit" oid="KWGt4MJH0q">
+              <Name>Flex容器</Name>
+            </FlexPanelAp>
+            <FlexPanelAp action="edit" oid="X7XgDks5VH">
+              <Name>Flex容器</Name>
+            </FlexPanelAp>
+            <FlexPanelAp action="edit" oid="hFzKuLEMDi">
+              <Name>Flex容器</Name>
+            </FlexPanelAp>
+            <LabelAp action="edit" oid="dwSFy18R9M">
+              <Name>標籤</Name>
+            </LabelAp>
+            <LabelAp action="edit" oid="EgvuuCT5qe">
+              <Name>課程分享</Name>
+            </LabelAp>
+            <LabelAp action="edit" oid="6D0zYoqK18">
+              <Name>課程分享</Name>
+            </LabelAp>
+            <FlexPanelAp action="edit" oid="YHTlNSPlYQ">
+              <Name>列表容器</Name>
+            </FlexPanelAp>
+            <FlexPanelAp action="edit" oid="p5N3uEsz7N">
+              <Name>列表容器</Name>
+            </FlexPanelAp>
+            <FlexPanelAp action="edit" oid="6CxKlV2Drn">
+              <Name>列表容器</Name>
+            </FlexPanelAp>
+            <FlexPanelAp action="edit" oid="KZ8WjQ8Dhe">
+              <Name>列表容器</Name>
+            </FlexPanelAp>
+            <FlexPanelAp action="edit" oid="ypYlXATzyN">
+              <Name>列表容器</Name>
+            </FlexPanelAp>
+            <FlexPanelAp action="edit" oid="vnVRv5E7jk">
+              <Name>列表容器</Name>
+            </FlexPanelAp>
+            <FlexPanelAp action="edit" oid="tLebC2W9TR">
+              <Name>Flex容器</Name>
+            </FlexPanelAp>
+            <FlexPanelAp action="edit" oid="iwmG2UGeY8">
+              <Name>Flex容器</Name>
+            </FlexPanelAp>
+            <LabelAp action="edit" oid="CEV67GO9w8">
+              <Name>課程分享</Name>
+            </LabelAp>
+            <LabelAp action="edit" oid="93gmRZX1FT">
+              <Name>課程分享</Name>
+            </LabelAp>
+            <FlexPanelAp action="edit" oid="DbmxO1hvYt">
+              <Name>Flex容器</Name>
+            </FlexPanelAp>
+            <FlexPanelAp action="edit" oid="AlTymqzi8U">
+              <Name>Flex容器</Name>
+            </FlexPanelAp>
+            <LabelAp action="edit" oid="sVF1aH0xlO">
+              <Name>課程分享</Name>
+            </LabelAp>
+            <LabelAp action="edit" oid="gxPGGbAUUR">
+              <Name>標籤</Name>
+            </LabelAp>
+            <LabelAp action="edit" oid="6Ur7TUps6v">
+              <Name>標籤</Name>
+            </LabelAp>
+            <FlexPanelAp action="edit" oid="XupHcq12y0">
+              <Name>Flex容器</Name>
+            </FlexPanelAp>
+            <FlexPanelAp action="edit" oid="qwWpnNd7Hb">
+              <Name>Flex容器</Name>
+            </FlexPanelAp>
+            <LabelAp action="edit" oid="9aEWNMNg4S">
+              <Name>標籤</Name>
+            </LabelAp>
+            <LabelAp action="edit" oid="GrZVX6TfGa">
+              <Name>課程分享</Name>
+            </LabelAp>
+            <LabelAp action="edit" oid="HpA1ujGBMk">
+              <Name>標籤</Name>
+            </LabelAp>
+            <FlexPanelAp action="edit" oid="GILltOmwwy">
+              <Name>Flex容器</Name>
+            </FlexPanelAp>
+            <FlexPanelAp action="edit" oid="zEMI99iBcW">
+              <Name>Flex容器</Name>
+            </FlexPanelAp>
+            <FlexPanelAp action="edit" oid="ZSrdIMfUuv">
+              <Name>Flex容器</Name>
+            </FlexPanelAp>
+            <FlexPanelAp action="edit" oid="uTQuqEaNh0">
+              <Name>Flex容器</Name>
+            </FlexPanelAp>
+            <LabelAp action="edit" oid="tXxPrsIJQl">
+              <Name>標籤</Name>
+            </LabelAp>
+          </Items>
+        </FormMetadata>
+      </DataXml>
+      <Name>公告欄內容</Name>
+      <Id>3EQ0HMR/GANC</Id>
+      <LocaleId>zh_TW</LocaleId>
+    </DesignFormMetaL>
+    <DesignEntityMetaL>
+      <Number>tdkw_bulletinbrd_content</Number>
+      <PkId>3MUM4QTP1+JG</PkId>
+      <DataXml>
+        <EntityMetadata>
+          <Name>公告欄內容</Name>
+          <Items>
+            <MainEntity action="edit" oid="3EQ0HMTM/AVC">
+              <Name>公告欄內容</Name>
+            </MainEntity>
+          </Items>
+        </EntityMetadata>
+      </DataXml>
+      <Name>公告欄內容</Name>
+      <Id>3EQ0HMR/GANC</Id>
+      <LocaleId>zh_TW</LocaleId>
+    </DesignEntityMetaL>
+  </DesignMetas>
+  <Version>1697527824490</Version>
+  <BOSVersion>1.0</BOSVersion>
+</DeployMetadata>

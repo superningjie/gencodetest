@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DeployMetadata>
+  <MasterId>4BS=5DEMV6QU</MasterId>
+  <Id>4BS=5DEMV6QU</Id>
+  <DesignMetas>
+    <DesignFormMetaL>
+      <Number>tdkw_org_perf_change_log</Number>
+      <PkId>4BWL4RT63RNX</PkId>
+      <DataXml>
+        <FormMetadata>
+          <Name>组织绩效变更记录</Name>
+          <Items>
+            <FormAp action="edit" oid="db6d1d5500007bac">
+              <Name>组织绩效变更记录</Name>
+            </FormAp>
+            <EntryFieldAp action="edit" oid="Gaovbqco737lVFAbul">
+              <Name>操作类型</Name>
+            </EntryFieldAp>
+            <EntryFieldAp action="edit" oid="QeytQSw8STupYIZNPG">
+              <Name>所属组织</Name>
+            </EntryFieldAp>
+            <EntryFieldAp action="edit" oid="25rejot9GhiJP4f5GG">
+              <Name>指标名称</Name>
+            </EntryFieldAp>
+            <EntryFieldAp action="edit" oid="INiDM6tpGUtdrooIYz">
+              <Name>变更项</Name>
+            </EntryFieldAp>
+            <EntryFieldAp action="edit" oid="1R97mPAB03X0ynubqi">
+              <Name>变更前</Name>
+            </EntryFieldAp>
+            <EntryFieldAp action="edit" oid="5a3njX4pMgL8hM06Wg">
+              <Name>变更后</Name>
+            </EntryFieldAp>
+            <EntryFieldAp action="edit" oid="WS9Li6D344bQKDYynw">
+              <Name>操作人</Name>
+            </EntryFieldAp>
+            <EntryFieldAp action="edit" oid="SXqJtQuA04ij3JuqBL">
+              <Name>长日期</Name>
+            </EntryFieldAp>
+            <EntryAp action="edit" oid="mQ1pAdsgOkCZRBkV2C">
+              <Name>单据体</Name>
+            </EntryAp>
+          </Items>
+        </FormMetadata>
+      </DataXml>
+      <Name>组织绩效变更记录</Name>
+      <Id>4BS=5DEMV6QU</Id>
+      <LocaleId>en_US</LocaleId>
+    </DesignFormMetaL>
+    <DesignEntityMetaL>
+      <Number>tdkw_org_perf_change_log</Number>
+      <PkId>4BWL4S3+L+JQ</PkId>
+      <DataXml>
+        <EntityMetadata>
+          <Name>组织绩效变更记录</Name>
+          <Items>
+            <MainEntity action="edit" oid="db6d1d5500007cac">
+              <Name>组织绩效变更记录</Name>
+            </MainEntity>
+            <EntryEntity action="edit" oid="mQ1pAdsgOkCZRBkV2C">
+              <Name>单据体</Name>
+            </EntryEntity>
+            <TextField action="edit" oid="Gaovbqco737lVFAbul">
+              <Name>操作类型</Name>
+            </TextField>
+            <TextField action="edit" oid="25rejot9GhiJP4f5GG">
+              <Name>指标名称</Name>
+            </TextField>
+            <TextField action="edit" oid="INiDM6tpGUtdrooIYz">
+              <Name>变更项</Name>
+            </TextField>
+            <TextField action="edit" oid="1R97mPAB03X0ynubqi">
+              <Name>变更前</Name>
+            </TextField>
+            <TextField action="edit" oid="5a3njX4pMgL8hM06Wg">
+              <Name>变更后</Name>
+            </TextField>
+            <DateTimeField action="edit" oid="SXqJtQuA04ij3JuqBL">
+              <Name>长日期</Name>
+            </DateTimeField>
+            <BasedataField action="edit" oid="QeytQSw8STupYIZNPG">
+              <Name>所属组织</Name>
+            </BasedataField>
+            <TextField action="edit" oid="WS9Li6D344bQKDYynw">
+              <Name>操作人</Name>
+            </TextField>
+          </Items>
+        </EntityMetadata>
+      </DataXml>
+      <Name>组织绩效变更记录</Name>
+      <Id>4BS=5DEMV6QU</Id>
+      <LocaleId>en_US</LocaleId>
+    </DesignEntityMetaL>
+  </DesignMetas>
+  <Version>1724748488307</Version>
+  <BOSVersion>1.0</BOSVersion>
+</DeployMetadata>

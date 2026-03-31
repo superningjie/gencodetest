@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DeployMetadata>
+  <MasterId>3ED1PDRTTZNK</MasterId>
+  <Id>3ED1PDRTTZNK</Id>
+  <DesignMetas>
+    <DesignFormMetaL>
+      <Number>tdkw_rewardinfo</Number>
+      <PkId>3FBBT5+13+YO</PkId>
+      <DataXml>
+        <FormMetadata/>
+      </DataXml>
+      <Name>员工简历-奖励情况移动端</Name>
+      <Id>3ED1PDRTTZNK</Id>
+      <LocaleId>zh_CN</LocaleId>
+    </DesignFormMetaL>
+    <DesignEntityMetaL>
+      <Number>tdkw_rewardinfo</Number>
+      <PkId>3FBBT5/+C46J</PkId>
+      <DataXml>
+        <EntityMetadata/>
+      </DataXml>
+      <Name>员工简历-奖励情况移动端</Name>
+      <Id>3ED1PDRTTZNK</Id>
+      <LocaleId>zh_CN</LocaleId>
+    </DesignEntityMetaL>
+  </DesignMetas>
+  <Version>1690255573143</Version>
+  <BOSVersion>1.0</BOSVersion>
+</DeployMetadata>

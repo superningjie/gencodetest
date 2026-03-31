@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DeployMetadata>
+  <MasterId>3ED2/92DAGFB</MasterId>
+  <Id>3ED2/92DAGFB</Id>
+  <DesignMetas>
+    <DesignFormMetaL>
+      <Number>tdkw_thismonthentry</Number>
+      <PkId>3FBC/W294H7P</PkId>
+      <DataXml>
+        <FormMetadata/>
+      </DataXml>
+      <Name>领导自助-本月入职移动端</Name>
+      <Id>3ED2/92DAGFB</Id>
+      <LocaleId>zh_CN</LocaleId>
+    </DesignFormMetaL>
+    <DesignEntityMetaL>
+      <Number>tdkw_thismonthentry</Number>
+      <PkId>3FBC/W36DMGK</PkId>
+      <DataXml>
+        <EntityMetadata/>
+      </DataXml>
+      <Name>领导自助-本月入职移动端</Name>
+      <Id>3ED2/92DAGFB</Id>
+      <LocaleId>zh_CN</LocaleId>
+    </DesignEntityMetaL>
+  </DesignMetas>
+  <Version>1690255715807</Version>
+  <BOSVersion>1.0</BOSVersion>
+</DeployMetadata>

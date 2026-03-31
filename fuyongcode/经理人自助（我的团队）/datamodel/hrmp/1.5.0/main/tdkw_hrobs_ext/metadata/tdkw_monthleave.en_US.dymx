@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DeployMetadata>
+  <MasterId>3ECQTN9LJQ/M</MasterId>
+  <Id>3ECQTN9LJQ/M</Id>
+  <DesignMetas>
+    <DesignFormMetaL>
+      <Number>tdkw_monthleave</Number>
+      <PkId>3T1Z3LBWKOG/</PkId>
+      <DataXml>
+        <FormMetadata>
+          <Name>Statement Template</Name>
+          <Items>
+            <FlexPanelAp action="edit" oid="p1vEu0k87f">
+              <Name>Flex容器</Name>
+            </FlexPanelAp>
+            <FlexPanelAp action="edit" oid="J5s6zp8VEA">
+              <Name>Flex容器</Name>
+            </FlexPanelAp>
+            <ButtonAp action="edit" oid="aWknUWtHRl">
+              <Name>离职</Name>
+            </ButtonAp>
+            <ButtonAp action="edit" oid="5RFV65bEon">
+              <Name>退休</Name>
+            </ButtonAp>
+            <FieldAp action="edit" oid="OLr2dEcUu6">
+              <Name>本月离职</Name>
+            </FieldAp>
+            <FieldAp action="edit" oid="n832RrhWeR">
+              <Name>本月退休</Name>
+            </FieldAp>
+            <FieldAp action="edit" oid="WSwS8l87lQ">
+              <Name>退休或离职</Name>
+            </FieldAp>
+            <BarItemAp action="edit" oid="hw0AJBAiiu">
+              <Name>离职</Name>
+            </BarItemAp>
+            <BarItemAp action="edit" oid="9k70VuyyrL">
+              <Name>退休</Name>
+            </BarItemAp>
+            <FieldAp action="edit" oid="ymTDxgfuxK">
+              <Name>所属组织</Name>
+            </FieldAp>
+            <FieldAp action="edit" oid="jw4gn54Rdy">
+              <Name>岗位层级</Name>
+            </FieldAp>
+            <FieldAp action="edit" oid="KvbkxlNDd6">
+              <Name>人员类型</Name>
+            </FieldAp>
+            <FieldAp action="edit" oid="fAC8fPvBE3">
+              <Name>姓名</Name>
+            </FieldAp>
+            <FieldAp action="edit" oid="WliLYGbHHk">
+              <Name>离职日期</Name>
+            </FieldAp>
+            <FlexPanelAp action="edit" oid="AYaBQ71mV7">
+              <Name>离职或退休</Name>
+            </FlexPanelAp>
+            <FlexPanelAp action="edit" oid="64g6ERjj5d5v0JJqGZ">
+              <Name>Flex容器</Name>
+            </FlexPanelAp>
+            <EntryFieldAp action="edit" oid="ULpSqd6YAT">
+              <Name>姓名</Name>
+            </EntryFieldAp>
+            <EntryFieldAp action="edit" oid="STYt7xGyyk">
+              <Name>岗位</Name>
+            </EntryFieldAp>
+            <EntryFieldAp action="edit" oid="IGEIRk0REr">
+              <Name>岗位层级</Name>
+            </EntryFieldAp>
+            <EntryFieldAp action="edit" oid="KibEBJ8VbY">
+              <Name>离职日期</Name>
+            </EntryFieldAp>
+            <EntryFieldAp action="edit" oid="UCFj5xtt9o">
+              <Name>公司</Name>
+            </EntryFieldAp>
+            <EntryFieldAp action="edit" oid="cYkQAAuS8o">
+              <Name>部门</Name>
+            </EntryFieldAp>
+            <EntryFieldAp action="edit" oid="q4VB0Ja4xW">
+              <Name>离职原因</Name>
+            </EntryFieldAp>
+            <EntryFieldAp action="edit" oid="4f6jC4GkX1">
+              <Name>人事业务档案id</Name>
+            </EntryFieldAp>
+            <EntryFieldAp action="edit" oid="wDocgaEby7">
+              <Name>人员的pkid</Name>
+            </EntryFieldAp>
+            <EntryFieldAp action="edit" oid="cztoLWAEffGzcGkq3B">
+              <Name>工号</Name>
+            </EntryFieldAp>
+            <ToolbarAp action="edit" oid="G4vb4a1OS8">
+              <Name>工具栏</Name>
+            </ToolbarAp>
+          </Items>
+        </FormMetadata>
+      </DataXml>
+      <Name>Statement Template</Name>
+      <Id>3ECQTN9LJQ/M</Id>
+      <LocaleId>en_US</LocaleId>
+    </DesignFormMetaL>
+    <DesignEntityMetaL>
+      <Number>tdkw_monthleave</Number>
+      <PkId>3T1Z3LDNGJFH</PkId>
+      <DataXml>
+        <EntityMetadata>
+          <Items>
+            <ReportEntity action="edit" oid="1b760aa100003cac">
+              <PermissionDimension>
+                <PermissionDimension>
+                  <Name>维度控制</Name>
+                </PermissionDimension>
+              </PermissionDimension>
+              <PermissionControl>
+                <PermissionControl>
+                  <Name>控制功能权限</Name>
+                </PermissionControl>
+              </PermissionControl>
+            </ReportEntity>
+            <BasedataField action="edit" oid="ULpSqd6YAT">
+              <Name>姓名</Name>
+            </BasedataField>
+            <BasedataField action="edit" oid="STYt7xGyyk">
+              <Name>岗位</Name>
+            </BasedataField>
+            <ComboField action="edit" oid="IGEIRk0REr">
+              <Name>岗位层级</Name>
+              <Items>
+                <ComboItem action="edit" oid="1">
+                  <Caption>集团高管-集团直管</Caption>
+                </ComboItem>
+                <ComboItem action="edit" oid="2">
+                  <Caption>集团高管-授权行业</Caption>
+                </ComboItem>
+                <ComboItem action="edit" oid="3">
+                  <Caption>其他高管</Caption>
+                </ComboItem>
+                <ComboItem action="edit" oid="4">
+                  <Caption>中层</Caption>
+                </ComboItem>
+                <ComboItem action="edit" oid="5">
+                  <Caption>基层</Caption>
+                </ComboItem>
+              </Items>
+            </ComboField>
+            <BasedataField action="edit" oid="UCFj5xtt9o">
+              <Name>公司</Name>
+            </BasedataField>
+            <DateField action="edit" oid="KibEBJ8VbY">
+              <Name>离职日期</Name>
+            </DateField>
+            <BasedataField action="edit" oid="ymTDxgfuxK">
+              <Name>所属组织</Name>
+            </BasedataField>
+            <ComboField action="edit" oid="jw4gn54Rdy">
+              <Name>岗位层级</Name>
+              <Items>
+                <ComboItem action="edit" oid="1">
+                  <Caption>集团高管</Caption>
+                </ComboItem>
+                <ComboItem action="edit" oid="2">
+                  <Caption>行业高管</Caption>
+                </ComboItem>
+                <ComboItem action="edit" oid="3">
+                  <Caption>其他高管</Caption>
+                </ComboItem>
+                <ComboItem action="edit" oid="4">
+                  <Caption>中层</Caption>
+                </ComboItem>
+                <ComboItem action="edit" oid="5">
+                  <Caption>基层</Caption>
+                </ComboItem>
+              </Items>
+            </ComboField>
+            <DateRangeField action="edit" oid="WliLYGbHHk">
+              <Name>离职日期</Name>
+            </DateRangeField>
+            <MulBasedataField action="edit" oid="KvbkxlNDd6">
+              <Name>人员类型</Name>
+            </MulBasedataField>
+            <TextField action="edit" oid="4f6jC4GkX1">
+              <Name>人事业务档案id</Name>
+            </TextField>
+            <TextField action="edit" oid="fAC8fPvBE3">
+              <Name>姓名</Name>
+            </TextField>
+            <TextField action="edit" oid="wDocgaEby7">
+              <Name>人员的pkid</Name>
+            </TextField>
+            <BasedataField action="edit" oid="cYkQAAuS8o">
+              <Name>部门</Name>
+            </BasedataField>
+            <TextField action="edit" oid="q4VB0Ja4xW">
+              <Name>离职原因</Name>
+            </TextField>
+            <RadioField action="edit" oid="OLr2dEcUu6">
+              <Name>本月离职</Name>
+            </RadioField>
+            <RadioField action="edit" oid="n832RrhWeR">
+              <Name>本月退休</Name>
+            </RadioField>
+            <RadioGroupField action="edit" oid="WSwS8l87lQ">
+              <Name>退休或离职</Name>
+              <Items>
+                <ComboItem action="edit" oid="dimission">
+                  <Caption>本月离职</Caption>
+                </ComboItem>
+                <ComboItem action="edit" oid="retire">
+                  <Caption>本月退休</Caption>
+                </ComboItem>
+              </Items>
+            </RadioGroupField>
+            <BasedataPropField action="edit" oid="cztoLWAEffGzcGkq3B">
+              <Name>工号</Name>
+            </BasedataPropField>
+          </Items>
+        </EntityMetadata>
+      </DataXml>
+      <Name>Statement Template</Name>
+      <Id>3ECQTN9LJQ/M</Id>
+      <LocaleId>en_US</LocaleId>
+    </DesignEntityMetaL>
+  </DesignMetas>
+  <Version>1703582513357</Version>
+  <BOSVersion>1.0</BOSVersion>
+</DeployMetadata>

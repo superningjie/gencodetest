@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DeployMetadata>
+  <MasterId>3DH3=WBE/P2W</MasterId>
+  <Id>3DH3=WBE/P2W</Id>
+  <DesignMetas>
+    <DesignFormMetaL>
+      <Number>tdkw_offroadanalysis</Number>
+      <PkId>4LUM5/XICZSW</PkId>
+      <DataXml>
+        <FormMetadata/>
+      </DataXml>
+      <Name>离职分析</Name>
+      <Id>3DH3=WBE/P2W</Id>
+      <LocaleId>zh_CN</LocaleId>
+    </DesignFormMetaL>
+    <DesignEntityMetaL>
+      <Number>tdkw_offroadanalysis</Number>
+      <PkId>4LUM5/Y249J4</PkId>
+      <DataXml>
+        <EntityMetadata/>
+      </DataXml>
+      <Name>离职分析</Name>
+      <Id>3DH3=WBE/P2W</Id>
+      <LocaleId>zh_CN</LocaleId>
+    </DesignEntityMetaL>
+  </DesignMetas>
+  <Version>1734403486147</Version>
+  <BOSVersion>1.0</BOSVersion>
+</DeployMetadata>

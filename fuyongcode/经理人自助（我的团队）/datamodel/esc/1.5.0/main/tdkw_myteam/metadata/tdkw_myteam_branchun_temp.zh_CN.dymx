@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DeployMetadata>
+  <MasterId>3YR7U3UJ6Q0U</MasterId>
+  <Id>3YR7U3UJ6Q0U</Id>
+  <DesignMetas>
+    <DesignFormMetaL>
+      <Number>tdkw_myteam_branchun_temp</Number>
+      <PkId>3ZA4ETFWAU24</PkId>
+      <DataXml>
+        <FormMetadata/>
+      </DataXml>
+      <Name>下属岗位中间表</Name>
+      <Id>3YR7U3UJ6Q0U</Id>
+      <LocaleId>zh_CN</LocaleId>
+    </DesignFormMetaL>
+    <DesignEntityMetaL>
+      <Number>tdkw_myteam_branchun_temp</Number>
+      <PkId>3ZA4ETHCFME4</PkId>
+      <DataXml>
+        <EntityMetadata/>
+      </DataXml>
+      <Name>下属岗位中间表</Name>
+      <Id>3YR7U3UJ6Q0U</Id>
+      <LocaleId>zh_CN</LocaleId>
+    </DesignEntityMetaL>
+  </DesignMetas>
+  <Version>1709633592532</Version>
+  <BOSVersion>1.0</BOSVersion>
+</DeployMetadata>

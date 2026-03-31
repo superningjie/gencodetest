@@ -1,0 +1,44 @@
+<!-- @format -->
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>人力自助</title>
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, viewport-fit=cover"
+    />
+  </head>
+  <body>
+    <div id="app"></div>
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>
+<script
+  language="javascript"
+  src="https://elink.xiangyu.cn:9443/open/js/jem.js"
+></script>
+<script
+  type="text/javascript"
+  src="https://elink.xiangyu.cn:9443/open/js/jem.js"
+></script>
+<script>
+  // 配置导航栏
+  em.configNavigation({
+    right: {
+      name: "",
+    },
+  });
+  function closeWindow() {
+    em.closeWindow();
+  }
+  /*
+  该方法名不可修改，金蝶页面调用该回调方法
+  num：回退的参数 值为负整数
+  */
+  function closeExplorewindow(num) {
+    console.log("closeExplorewindow====");
+    window.history.go(num);
+  }
+</script>

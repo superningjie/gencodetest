@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DeployMetadata>
+  <MasterId>3EQ0HMR/GANC</MasterId>
+  <Id>3EQ0HMR/GANC</Id>
+  <DesignMetas>
+    <DesignFormMetaL>
+      <Number>tdkw_bulletinbrd_content</Number>
+      <PkId>3MUM4QSVE9H2</PkId>
+      <DataXml>
+        <FormMetadata/>
+      </DataXml>
+      <Name>公告栏内容</Name>
+      <Id>3EQ0HMR/GANC</Id>
+      <LocaleId>zh_CN</LocaleId>
+    </DesignFormMetaL>
+    <DesignEntityMetaL>
+      <Number>tdkw_bulletinbrd_content</Number>
+      <PkId>3MUM4QTP1+JF</PkId>
+      <DataXml>
+        <EntityMetadata/>
+      </DataXml>
+      <Name>公告栏内容</Name>
+      <Id>3EQ0HMR/GANC</Id>
+      <LocaleId>zh_CN</LocaleId>
+    </DesignEntityMetaL>
+  </DesignMetas>
+  <Version>1697527824490</Version>
+  <BOSVersion>1.0</BOSVersion>
+</DeployMetadata>

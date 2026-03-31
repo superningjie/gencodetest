@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DeployMetadata>
+  <MasterId>3PA97E38DFVR</MasterId>
+  <Id>3PA97E38DFVR</Id>
+  <DesignMetas>
+    <DesignFormMetaL>
+      <Number>xyjt_personinfointegrity</Number>
+      <PkId>3PZN3+S056FL</PkId>
+      <DataXml>
+        <FormMetadata>
+          <Name>人員信息完整度</Name>
+          <Items>
+            <FormAp action="edit" oid="3PA97E2OMZ0E">
+              <Name>人員信息完整度</Name>
+            </FormAp>
+            <FlexPanelAp action="edit" oid="IaTKyYgxKl">
+              <Name>查詢條件</Name>
+            </FlexPanelAp>
+            <FlexPanelAp action="edit" oid="yuLPapvZpF">
+              <Name>Flex容器</Name>
+            </FlexPanelAp>
+            <FieldAp action="edit" oid="2fkPeu53mZ">
+              <Name>所屬組織</Name>
+            </FieldAp>
+            <FlexPanelAp action="edit" oid="QrUay2vtIT">
+              <Name>Flex容器</Name>
+            </FlexPanelAp>
+            <ButtonAp action="edit" oid="UD4FIDrlna">
+              <Name>查詢</Name>
+            </ButtonAp>
+            <ButtonAp action="edit" oid="7F8jQ0Qdxl">
+              <Name>重置</Name>
+            </ButtonAp>
+            <LabelAp action="edit" oid="iuyR6UuB3H">
+              <Name>人員信息簡歷完整度(%)</Name>
+              <CtlTips>
+                <Tips>
+                  <Content>1、統計“人員類別”為正式員工、退休返聘的人員； 2、職務為“技工”、“普工”的人員不在統計範圍內。</Content>
+                </Tips>
+              </CtlTips>
+            </LabelAp>
+            <FlexPanelAp action="edit" oid="lwsumrSkNu">
+              <Name>Flex容器</Name>
+            </FlexPanelAp>
+            <HistogramChartAp action="edit" oid="iuLb4LUrwt">
+              <Name>簡歷完整度柱狀圖</Name>
+            </HistogramChartAp>
+          </Items>
+        </FormMetadata>
+      </DataXml>
+      <Name>人員信息完整度</Name>
+      <Id>3PA97E38DFVR</Id>
+      <LocaleId>zh_TW</LocaleId>
+    </DesignFormMetaL>
+    <DesignEntityMetaL>
+      <Number>xyjt_personinfointegrity</Number>
+      <PkId>3PZN3+TB05DK</PkId>
+      <DataXml>
+        <EntityMetadata>
+          <Name>人員信息完整度</Name>
+          <Items>
+            <MainEntity action="edit" oid="3PA97E7WP6U4">
+              <PermissionDimension>
+                <PermissionDimension>
+                  <Name>維度控制</Name>
+                </PermissionDimension>
+              </PermissionDimension>
+              <PermissionControl>
+                <PermissionControl>
+                  <Name>控制功能許可權</Name>
+                </PermissionControl>
+              </PermissionControl>
+              <Name>人員信息完整度</Name>
+            </MainEntity>
+            <BasedataField action="edit" oid="2fkPeu53mZ">
+              <Name>所屬組織</Name>
+            </BasedataField>
+          </Items>
+        </EntityMetadata>
+      </DataXml>
+      <Name>人員信息完整度</Name>
+      <Id>3PA97E38DFVR</Id>
+      <LocaleId>zh_TW</LocaleId>
+    </DesignEntityMetaL>
+  </DesignMetas>
+  <Version>1700564081830</Version>
+  <BOSVersion>1.0</BOSVersion>
+</DeployMetadata>

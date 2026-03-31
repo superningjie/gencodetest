@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DeployMetadata>
+  <MasterId>4BZC/2FTXOQX</MasterId>
+  <Id>4BZC/2FTXOQX</Id>
+  <DesignMetas>
+    <DesignFormMetaL>
+      <Number>tdkw_use_annual_goal</Number>
+      <PkId>4DUZYUQZGTNM</PkId>
+      <DataXml>
+        <FormMetadata>
+          <Name>引用個人年度目標彈窗</Name>
+          <Items>
+            <FormAp action="edit" oid="db6d1d5500007bac">
+              <Name>引用個人年度目標彈窗</Name>
+            </FormAp>
+            <EntryFieldAp action="edit" oid="pENqXJJmU3oGUsoBsr">
+              <Name>序號</Name>
+            </EntryFieldAp>
+            <EntryFieldAp action="edit" oid="u42q7c4JDDsk9IhFlP">
+              <Name>目標名稱</Name>
+            </EntryFieldAp>
+            <EntryFieldAp action="edit" oid="EhC14uE5tOFvUWbcvS">
+              <Name>目標類型</Name>
+            </EntryFieldAp>
+            <EntryFieldAp action="edit" oid="1i4E4g49IF1wOawu0r">
+              <Name>權重</Name>
+            </EntryFieldAp>
+            <EntryFieldAp action="edit" oid="ijH2dXKu1Ky8r4V0Qa">
+              <Name>指標說明</Name>
+            </EntryFieldAp>
+            <FieldAp action="edit" oid="GNlkeOlhpnCwYScMIw">
+              <Name>人員</Name>
+            </FieldAp>
+            <EntryAp action="edit" oid="8j2fkMqAXF74Q0o93F">
+              <Name>單據體</Name>
+            </EntryAp>
+          </Items>
+        </FormMetadata>
+      </DataXml>
+      <Name>引用個人年度目標彈窗</Name>
+      <Id>4BZC/2FTXOQX</Id>
+      <LocaleId>zh_TW</LocaleId>
+    </DesignFormMetaL>
+    <DesignEntityMetaL>
+      <Number>tdkw_use_annual_goal</Number>
+      <PkId>4DUZYUS5M6H0</PkId>
+      <DataXml>
+        <EntityMetadata>
+          <Name>引用個人年度目標彈窗</Name>
+          <Items>
+            <MainEntity action="edit" oid="db6d1d5500007cac">
+              <PermissionDimension>
+                <PermissionDimension>
+                  <Name>維度控制</Name>
+                </PermissionDimension>
+              </PermissionDimension>
+              <PermissionControl>
+                <PermissionControl>
+                  <Name>控制功能許可權</Name>
+                </PermissionControl>
+              </PermissionControl>
+              <Name>引用個人年度目標彈窗</Name>
+            </MainEntity>
+            <EntryEntity action="edit" oid="8j2fkMqAXF74Q0o93F">
+              <Name>單據體</Name>
+            </EntryEntity>
+            <TextField action="edit" oid="pENqXJJmU3oGUsoBsr">
+              <Name>序號</Name>
+            </TextField>
+            <TextField action="edit" oid="u42q7c4JDDsk9IhFlP">
+              <Name>目標名稱</Name>
+            </TextField>
+            <PersonField action="edit" oid="GNlkeOlhpnCwYScMIw">
+              <Name>人員</Name>
+            </PersonField>
+            <TextField action="edit" oid="1i4E4g49IF1wOawu0r">
+              <Name>權重</Name>
+            </TextField>
+            <ComboField action="edit" oid="EhC14uE5tOFvUWbcvS">
+              <Name>目標類型</Name>
+              <Items>
+                <ComboItem action="edit" oid="0">
+                  <Caption>定性</Caption>
+                </ComboItem>
+                <ComboItem action="edit" oid="1">
+                  <Caption>定量</Caption>
+                </ComboItem>
+                <ComboItem action="edit" oid="2">
+                  <Caption>定量定性相結合</Caption>
+                </ComboItem>
+              </Items>
+            </ComboField>
+            <TextField action="edit" oid="ijH2dXKu1Ky8r4V0Qa">
+              <Name>指標說明</Name>
+            </TextField>
+          </Items>
+        </EntityMetadata>
+      </DataXml>
+      <Name>引用個人年度目標彈窗</Name>
+      <Id>4BZC/2FTXOQX</Id>
+      <LocaleId>zh_TW</LocaleId>
+    </DesignEntityMetaL>
+  </DesignMetas>
+  <Version>1752824942475</Version>
+  <BOSVersion>1.0</BOSVersion>
+</DeployMetadata>

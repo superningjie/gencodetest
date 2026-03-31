@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DeployMetadata>
+  <Multilanguage>false</Multilanguage>
+  <MasterId>2YL8CZYLYBYS</MasterId>
+  <BizappId>3==6P77F4X8W</BizappId>
+  <Id>3CP/E+UGQDMB</Id>
+  <DesignMetas>
+    <DesignFormMeta>
+      <DevType>2</DevType>
+      <ModifyDate>1735202892820</ModifyDate>
+      <DataXml>
+        <FormMetadata>
+          <DevType>2</DevType>
+          <Isv>tdkw</Isv>
+          <Id>3CP/E+UGQDMB</Id>
+          <Key>tdkw_hrobs_pc_portalh_ext</Key>
+          <EntityId>3CP/E+UGQDMB</EntityId>
+          <ParentId>2YL8CZYLYBYS</ParentId>
+          <MasterId>2YL8CZYLYBYS</MasterId>
+          <BizappId>3==6P77F4X8W</BizappId>
+          <InheritPath>/8T+06O/GOEH,2YL8CZYLYBYS</InheritPath>
+          <Items>
+            <FormAp action="edit" oid="/8T+06O/H6M6">
+              <Id>3CP/E+UGQDMB</Id>
+              <Key>tdkw_hrobs_pc_portalh_ext</Key>
+            </FormAp>
+            <LabelAp action="edit" oid="Zfb581bWOi">
+              <Invisible>true</Invisible>
+            </LabelAp>
+            <LabelAp action="edit" oid="jUBezp9chN">
+              <Invisible>true</Invisible>
+            </LabelAp>
+            <FlexPanelAp action="edit" oid="Fv2PTu8djw">
+              <Invisible>true</Invisible>
+              <Height>30px</Height>
+            </FlexPanelAp>
+            <FloatMenuAp action="edit" oid="IarK2sgBrV">
+              <Visible action="reset"/>
+            </FloatMenuAp>
+          </Items>
+        </FormMetadata>
+      </DataXml>
+      <ModifierId>1425399182121766912</ModifierId>
+      <EntityId>3CP/E+UGQDMB</EntityId>
+      <ModelType>DynamicFormModel</ModelType>
+      <Isv>tdkw</Isv>
+      <Version>1735202892820</Version>
+      <ParentId>2YL8CZYLYBYS</ParentId>
+      <MasterId>2YL8CZYLYBYS</MasterId>
+      <Number>tdkw_hrobs_pc_portalh_ext</Number>
+      <BizappId>3==6P77F4X8W</BizappId>
+      <IsvSign>VLWo0czEDqA1pW7rl114cnLLqe5g1Wcb9xOsiW3NNxwgbunClbF3Husmy8tPgEyAvvAgqAeERWWZBUxMEVL0lM9FjUXXvuqTfhlzsKWq67FTsgUAZLMXZU0jMRukG+NfsEgnQeF5hTDnTcKosadaqs/mHptdkXzsLAHlhdfraUI=</IsvSign>
+      <Id>3CP/E+UGQDMB</Id>
+      <InheritPath>/8T+06O/GOEH,2YL8CZYLYBYS</InheritPath>
+    </DesignFormMeta>
+    <DesignEntityMeta>
+      <DevType>2</DevType>
+      <ModifyDate>1735202892832</ModifyDate>
+      <DataXml>
+        <EntityMetadata>
+          <DevType>2</DevType>
+          <Isv>tdkw</Isv>
+          <Id>3CP/E+UGQDMB</Id>
+          <ParentId>2YL8CZYLYBYS</ParentId>
+          <MasterId>2YL8CZYLYBYS</MasterId>
+          <BizappId>3==6P77F4X8W</BizappId>
+          <InheritPath>/8T+06O/GOEH,2YL8CZYLYBYS</InheritPath>
+          <Items>
+            <MainEntity action="edit" oid="/8T+06O6R0/7">
+              <Id>3CP/E+UGQDMB</Id>
+              <Key>tdkw_hrobs_pc_portalh_ext</Key>
+            </MainEntity>
+          </Items>
+        </EntityMetadata>
+      </DataXml>
+      <ModelType>DynamicFormModel</ModelType>
+      <Isv>tdkw</Isv>
+      <Version>1735202892832</Version>
+      <ParentId>2YL8CZYLYBYS</ParentId>
+      <MasterId>2YL8CZYLYBYS</MasterId>
+      <Number>tdkw_hrobs_pc_portalh_ext</Number>
+      <BizappId>3==6P77F4X8W</BizappId>
+      <Id>3CP/E+UGQDMB</Id>
+      <InheritPath>/8T+06O/GOEH,2YL8CZYLYBYS</InheritPath>
+    </DesignEntityMeta>
+  </DesignMetas>
+  <Version>1735202892820</Version>
+  <BOSVersion>1.0</BOSVersion>
+  <BizunitId>2YL7WRAALBZG</BizunitId>
+</DeployMetadata>

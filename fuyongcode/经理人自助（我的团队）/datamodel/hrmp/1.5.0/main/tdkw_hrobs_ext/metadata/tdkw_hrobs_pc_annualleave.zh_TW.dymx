@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DeployMetadata>
+  <MasterId>3=QFY6OT/3TT</MasterId>
+  <Id>3=QFY6OT/3TT</Id>
+  <DesignMetas>
+    <DesignFormMetaL>
+      <Number>tdkw_hrobs_pc_annualleave</Number>
+      <PkId>3J9KI70K5JS0</PkId>
+      <DataXml>
+        <FormMetadata>
+          <Items>
+            <FieldAp action="edit" oid="2S6SFE16Ui">
+              <Name>凍結天數</Name>
+            </FieldAp>
+            <LabelAp action="edit" oid="mbJx8uy9Aw">
+              <Name>天</Name>
+            </LabelAp>
+            <FlexPanelAp action="edit" oid="Ax0n11kpB6">
+              <Name>Flex容器</Name>
+            </FlexPanelAp>
+            <FlexPanelAp action="edit" oid="FrQadyE7xs">
+              <Name>Flex容器</Name>
+            </FlexPanelAp>
+            <FlexPanelAp action="edit" oid="NcRDnfr3YT">
+              <Name>Flex容器</Name>
+            </FlexPanelAp>
+            <FlexPanelAp action="edit" oid="AdW2Yjs5QQ">
+              <Name>Flex容器</Name>
+            </FlexPanelAp>
+            <LabelAp action="edit" oid="RHFzTj5c6P">
+              <Name>本期享有</Name>
+            </LabelAp>
+            <FlexPanelAp action="edit" oid="5K1y6t70ai">
+              <Name>Flex容器</Name>
+            </FlexPanelAp>
+            <FlexPanelAp action="edit" oid="zsuONVyA5L">
+              <Name>Flex容器</Name>
+            </FlexPanelAp>
+            <FlexPanelAp action="edit" oid="cQbsVNNJX7">
+              <Name>Flex容器</Name>
+            </FlexPanelAp>
+            <FlexPanelAp action="edit" oid="TPYQz259Ql">
+              <Name>Flex容器</Name>
+            </FlexPanelAp>
+            <FlexPanelAp action="edit" oid="f6qYNTz7Mv">
+              <Name>Flex容器</Name>
+            </FlexPanelAp>
+            <FlexPanelAp action="edit" oid="5hTy9AAvxl">
+              <Name>Flex容器</Name>
+            </FlexPanelAp>
+            <FieldAp action="edit" oid="75MIv4f00c">
+              <Name>可用天數</Name>
+            </FieldAp>
+            <LabelAp action="edit" oid="ygBA6Qk6tQ">
+              <Name>天</Name>
+            </LabelAp>
+            <LabelAp action="edit" oid="3K4xLyxS1A">
+              <Name>上期結餘</Name>
+            </LabelAp>
+            <FieldAp action="edit" oid="hYdGMiEdvT">
+              <Name>上期結餘</Name>
+            </FieldAp>
+            <LabelAp action="edit" oid="pGqjXiztS3">
+              <Name>天</Name>
+            </LabelAp>
+            <FieldAp action="edit" oid="fsM6Sobp1j">
+              <Name>本期享有</Name>
+            </FieldAp>
+            <LabelAp action="edit" oid="479uk0D2h9">
+              <Name>天</Name>
+            </LabelAp>
+            <LabelAp action="edit" oid="6zbbG2Z3EW">
+              <Name>凍結天數</Name>
+            </LabelAp>
+            <LabelAp action="edit" oid="k3Y864rCwR">
+              <Name>可用天數</Name>
+            </LabelAp>
+            <FieldAp action="edit" oid="9LMQah8xJ3">
+              <Name>已休天數</Name>
+            </FieldAp>
+            <LabelAp action="edit" oid="0GsRjR4m6C">
+              <Name>天</Name>
+            </LabelAp>
+            <LabelAp action="edit" oid="6bipbaGY7L">
+              <Name>調整時長</Name>
+            </LabelAp>
+            <FlexPanelAp action="edit" oid="rAnW3AL1ID">
+              <Name>Flex容器</Name>
+            </FlexPanelAp>
+            <FlexPanelAp action="edit" oid="QPdyT4dUjU">
+              <Name>Flex容器</Name>
+            </FlexPanelAp>
+            <FlexPanelAp action="edit" oid="5x3vx9xDlL">
+              <Name>Flex容器</Name>
+            </FlexPanelAp>
+            <FlexPanelAp action="edit" oid="Hx9sekbwaF">
+              <Name>Flex容器</Name>
+            </FlexPanelAp>
+            <FlexPanelAp action="edit" oid="JfvYm1v06y">
+              <Name>Flex容器</Name>
+            </FlexPanelAp>
+            <FlexPanelAp action="edit" oid="3BUGdhCed9">
+              <Name>Flex容器</Name>
+            </FlexPanelAp>
+            <FieldAp action="edit" oid="7IKwYqBLkS">
+              <Name>調整時長</Name>
+            </FieldAp>
+            <LabelAp action="edit" oid="Qgz6crkJuG">
+              <Name>天</Name>
+            </LabelAp>
+            <LabelAp action="edit" oid="1SvWJePesF">
+              <Name>已休天數</Name>
+            </LabelAp>
+            <LabelAp action="edit" oid="u4veP2KElt">
+              <Name>我的年假</Name>
+            </LabelAp>
+            <FlexPanelAp action="edit" oid="THOscdLq5D">
+              <Name>Flex容器</Name>
+            </FlexPanelAp>
+            <FlexPanelAp action="edit" oid="ldB2p1fdYT">
+              <Name>Flex容器</Name>
+            </FlexPanelAp>
+          </Items>
+        </FormMetadata>
+      </DataXml>
+      <Name>PC_自定義卡片模板</Name>
+      <Id>3=QFY6OT/3TT</Id>
+      <LocaleId>zh_TW</LocaleId>
+    </DesignFormMetaL>
+    <DesignEntityMetaL>
+      <Number>tdkw_hrobs_pc_annualleave</Number>
+      <PkId>3J9KI72ICBLK</PkId>
+      <DataXml>
+        <EntityMetadata>
+          <Items>
+            <DecimalField action="edit" oid="hYdGMiEdvT">
+              <Name>上期結餘</Name>
+            </DecimalField>
+            <DecimalField action="edit" oid="7IKwYqBLkS">
+              <Name>調整時長</Name>
+            </DecimalField>
+            <DecimalField action="edit" oid="fsM6Sobp1j">
+              <Name>本期享有</Name>
+            </DecimalField>
+            <DecimalField action="edit" oid="9LMQah8xJ3">
+              <Name>已休天數</Name>
+            </DecimalField>
+            <DecimalField action="edit" oid="2S6SFE16Ui">
+              <Name>凍結天數</Name>
+            </DecimalField>
+            <DecimalField action="edit" oid="75MIv4f00c">
+              <Name>可用天數</Name>
+            </DecimalField>
+          </Items>
+        </EntityMetadata>
+      </DataXml>
+      <Name>PC_自定義卡片模板</Name>
+      <Id>3=QFY6OT/3TT</Id>
+      <LocaleId>zh_TW</LocaleId>
+    </DesignEntityMetaL>
+  </DesignMetas>
+  <Version>1694068136669</Version>
+  <BOSVersion>1.0</BOSVersion>
+</DeployMetadata>

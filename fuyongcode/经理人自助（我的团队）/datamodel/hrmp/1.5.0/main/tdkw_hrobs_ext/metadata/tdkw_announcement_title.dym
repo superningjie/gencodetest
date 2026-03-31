@@ -1,0 +1,328 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DeployMetadata>
+  <Multilanguage>false</Multilanguage>
+  <MasterId>3DV/XY0W/6EJ</MasterId>
+  <BizappId>3==6P77F4X8W</BizappId>
+  <Id>3DV/XY0W/6EJ</Id>
+  <DesignMetas>
+    <DesignFormMeta>
+      <DevType>0</DevType>
+      <ModifyDate>1725435861515</ModifyDate>
+      <DataXml>
+        <FormMetadata>
+          <Isv>tdkw</Isv>
+          <Id>3DV/XY0W/6EJ</Id>
+          <Key>tdkw_announcement_title</Key>
+          <EntityId>3DV/XY0W/6EJ</EntityId>
+          <ParentId>1942c188000065ac</ParentId>
+          <BizappId>3==6P77F4X8W</BizappId>
+          <IsvSign/>
+          <Name>公告标题</Name>
+          <InheritPath>1942c188000065ac</InheritPath>
+          <Items>
+            <BasedataFormAp action="edit" oid="1942c188000064ac">
+              <MobListMeta>
+                <FormMetadata>
+                  <Items>
+                    <BillListAp action="edit" oid="_BillList_">
+                      <EntityId>3DV/XY0W/6EJ</EntityId>
+                    </BillListAp>
+                  </Items>
+                </FormMetadata>
+              </MobListMeta>
+              <Id>3DV/XY0W/6EJ</Id>
+              <BackColor>#E2E7EF</BackColor>
+              <Name>公告标题</Name>
+              <Key>tdkw_announcement_title</Key>
+              <ListMeta>
+                <FormMetadata>
+                  <Name>公告标题</Name>
+                  <Items>
+                    <FormAp action="edit" oid="b5994054000024ac">
+                      <Name>公告标题</Name>
+                    </FormAp>
+                    <FilterGridViewAp action="edit" oid="filtergridview">
+                      <NewFilter>true</NewFilter>
+                    </FilterGridViewAp>
+                    <BarItemAp action="edit" oid="C1IXIpJx1c">
+                      <DropdownItems>
+                        <DropdownItem action="remove" oid="PQLEDWKM3DH"/>
+                      </DropdownItems>
+                      <Index action="reset"/>
+                    </BarItemAp>
+                    <BarItemAp action="edit" oid="rQ81rnW9l8">
+                      <Index>1</Index>
+                    </BarItemAp>
+                    <BarItemAp action="edit" oid="0gAY5TLeX3">
+                      <Index>2</Index>
+                    </BarItemAp>
+                    <BarItemAp action="edit" oid="UlRxLeBKL1">
+                      <Index>3</Index>
+                    </BarItemAp>
+                    <BillListAp action="edit" oid="_BillList_">
+                      <EntityId>3DV/XY0W/6EJ</EntityId>
+                    </BillListAp>
+                    <ListColumnAp>
+                      <ColumnOrderAndFilter>1</ColumnOrderAndFilter>
+                      <SeqColumnType>NotSeq</SeqColumnType>
+                      <Id>3I/94/N2R5IY</Id>
+                      <Key>tdkw_listcolumnap</Key>
+                      <Order>NotOrder</Order>
+                      <Index>2</Index>
+                      <ParentId>gridview</ParentId>
+                      <ListFieldId>tdkw_type.name</ListFieldId>
+                      <Name>公告类型</Name>
+                    </ListColumnAp>
+                    <ListColumnAp action="edit" oid="b5994054000029ac">
+                      <Index>3</Index>
+                      <Name>内容</Name>
+                    </ListColumnAp>
+                    <ComboListColumnAp action="edit" oid="UGA0V8HS=6S">
+                      <Index>4</Index>
+                    </ComboListColumnAp>
+                    <DateListColumnAp>
+                      <ColumnOrderAndFilter>1</ColumnOrderAndFilter>
+                      <SeqColumnType>NotSeq</SeqColumnType>
+                      <Id>3I/966GWWNHW</Id>
+                      <Key>tdkw_datelistcolumnap</Key>
+                      <Order>NotOrder</Order>
+                      <Index>5</Index>
+                      <ParentId>gridview</ParentId>
+                      <ListFieldId>createtime</ListFieldId>
+                      <Name>创建时间</Name>
+                    </DateListColumnAp>
+                    <BarItemAp action="remove" oid="FUMD89PFCB"/>
+                    <BarItemAp action="remove" oid="ms32Hsufcq"/>
+                    <BarItemAp action="remove" oid="BTjy6Ie3Bc"/>
+                    <BarItemAp action="remove" oid="A3zkgmttgA"/>
+                    <BarItemAp action="remove" oid="NVARV5u7I4"/>
+                    <BarItemAp action="remove" oid="v71lQcKgcH"/>
+                  </Items>
+                </FormMetadata>
+              </ListMeta>
+            </BasedataFormAp>
+            <FlexPanelAp action="edit" oid="LL4BVAnADa">
+              <Index action="reset"/>
+            </FlexPanelAp>
+            <FlexPanelAp action="edit" oid="PxNfkkak4s">
+              <Grow>0</Grow>
+              <Index>1</Index>
+              <BackColor>#ffffff</BackColor>
+              <Style>
+                <Style>
+                  <Border>
+                    <Border>
+                      <Top>10px_solid_#E2E7EF</Top>
+                      <Left>10px_solid_#E2E7EF</Left>
+                      <Bottom>10px_solid_#E2E7EF</Bottom>
+                      <Right>10px_solid_#E2E7EF</Right>
+                    </Border>
+                  </Border>
+                  <Padding>
+                    <Padding>
+                      <Left>2px</Left>
+                      <Right action="reset"/>
+                    </Padding>
+                  </Padding>
+                </Style>
+              </Style>
+            </FlexPanelAp>
+            <FieldAp>
+              <Id>PjAJedd7ce</Id>
+              <FieldId>PjAJedd7ce</FieldId>
+              <Index>1</Index>
+              <Name>标题</Name>
+              <Key>tdkw_title</Key>
+              <ParentId>I8M9X0FOPr</ParentId>
+            </FieldAp>
+            <FieldAp action="edit" oid="8oq6R4m9CF">
+              <Index>2</Index>
+              <Name>内容</Name>
+            </FieldAp>
+            <FieldAp>
+              <Id>X09MqxfQkD</Id>
+              <FieldId>X09MqxfQkD</FieldId>
+              <Index>3</Index>
+              <Name>公告类型</Name>
+              <Key>tdkw_type</Key>
+              <ParentId>I8M9X0FOPr</ParentId>
+            </FieldAp>
+            <FieldAp action="edit" oid="AkId5S4yTs">
+              <Invisible>true</Invisible>
+              <Index>4</Index>
+            </FieldAp>
+            <FieldAp action="edit" oid="jiRpZNc99A">
+              <Invisible>true</Invisible>
+              <Index>5</Index>
+            </FieldAp>
+            <FieldAp action="edit" oid="O75mQrM58q">
+              <Invisible>true</Invisible>
+              <Index>6</Index>
+            </FieldAp>
+            <FieldAp>
+              <Id>b24OfpBo53</Id>
+              <FieldId>b24OfpBo53</FieldId>
+              <Index>7</Index>
+              <Name>URL</Name>
+              <Key>tdkw_url</Key>
+              <ParentId>I8M9X0FOPr</ParentId>
+            </FieldAp>
+            <FieldAp action="edit" oid="ac5Y5Dax1q">
+              <Invisible>true</Invisible>
+              <Index>8</Index>
+            </FieldAp>
+            <FieldAp action="edit" oid="CIs7Psqw3q">
+              <Index>9</Index>
+              <ParentId>I8M9X0FOPr</ParentId>
+            </FieldAp>
+            <BarItemAp action="edit" oid="4CNTAsZdaN">
+              <DropdownItems>
+                <DropdownItem action="remove" oid="T2KFDA1SF0H"/>
+              </DropdownItems>
+            </BarItemAp>
+            <BarItemAp action="edit" oid="PubXYtLD8J">
+              <Invisible>true</Invisible>
+            </BarItemAp>
+            <BarItemAp action="edit" oid="zlTJbHhEqT">
+              <Invisible>true</Invisible>
+            </BarItemAp>
+            <BarItemAp action="edit" oid="z20rAqlGP8">
+              <Invisible>true</Invisible>
+            </BarItemAp>
+            <BarItemAp action="edit" oid="8XYTQ7uc8H">
+              <Invisible>true</Invisible>
+            </BarItemAp>
+            <BarItemAp action="edit" oid="HVX5nv5C2i">
+              <Invisible>true</Invisible>
+            </BarItemAp>
+            <BarItemAp action="edit" oid="TK7j147AL2">
+              <Invisible>true</Invisible>
+            </BarItemAp>
+            <FieldsetPanelAp action="edit" oid="STdfsCCFTj">
+              <Invisible>true</Invisible>
+              <Hidden action="reset"/>
+            </FieldsetPanelAp>
+          </Items>
+        </FormMetadata>
+      </DataXml>
+      <ModifierId>1774865593649093632</ModifierId>
+      <EntityId>3DV/XY0W/6EJ</EntityId>
+      <ModelType>BaseFormModel</ModelType>
+      <Isv>tdkw</Isv>
+      <Version>1725435861515</Version>
+      <ParentId>1942c188000065ac</ParentId>
+      <MasterId></MasterId>
+      <Number>tdkw_announcement_title</Number>
+      <BizappId>3==6P77F4X8W</BizappId>
+      <IsvSign></IsvSign>
+      <Id>3DV/XY0W/6EJ</Id>
+      <InheritPath>1942c188000065ac</InheritPath>
+    </DesignFormMeta>
+    <DesignEntityMeta>
+      <DevType>0</DevType>
+      <ModifyDate>1725435861536</ModifyDate>
+      <DataXml>
+        <EntityMetadata>
+          <Isv>tdkw</Isv>
+          <Id>3DV/XY0W/6EJ</Id>
+          <ParentId>1942c188000065ac</ParentId>
+          <BizappId>3==6P77F4X8W</BizappId>
+          <IsvSign/>
+          <Name>公告标题</Name>
+          <InheritPath>1942c188000065ac</InheritPath>
+          <Items>
+            <BaseEntity action="edit" oid="1942c188000066ac">
+              <dbRoute>hmp</dbRoute>
+              <TableName>tk_tdkw_announcement_titl</TableName>
+              <Id>3DV/XY0W/6EJ</Id>
+              <Name>公告标题</Name>
+              <Template action="reset"/>
+              <Operations>
+                <Operation action="edit" oid="b5994054000016ac">
+                  <LogEnable>true</LogEnable>
+                </Operation>
+                <Operation action="edit" oid="b5994054000017ac">
+                  <LogEnable>true</LogEnable>
+                </Operation>
+              </Operations>
+              <BusinessControl>
+                <BusinessControl>
+                  <CodeNumber>true</CodeNumber>
+                  <WorkFlow>false</WorkFlow>
+                </BusinessControl>
+              </BusinessControl>
+              <Key>tdkw_announcement_title</Key>
+              <NetworkControl>
+                <NetCtrlOperation>
+                  <OperationKey>submit</OperationKey>
+                  <GroupId>default_netctrl</GroupId>
+                  <Id>c91d5125000034ac</Id>
+                  <Key>default_netctrl_submit</Key>
+                </NetCtrlOperation>
+              </NetworkControl>
+              <DefaultPageSetting>{"mblist":"","pclist":"","pcbill":"","mbbill":""}</DefaultPageSetting>
+            </BaseEntity>
+            <MuliLangTextField action="edit" oid="8oq6R4m9CF">
+              <Name>内容</Name>
+              <GL>true</GL>
+            </MuliLangTextField>
+            <BasedataField>
+              <Features>
+                <Features>
+                  <Ver>1</Ver>
+                </Features>
+              </Features>
+              <Id>X09MqxfQkD</Id>
+              <LableHyperlink>false</LableHyperlink>
+              <DefValue/>
+              <Name>公告类型</Name>
+              <FieldName>fk_tdkw_basedatafield</FieldName>
+              <Key>tdkw_type</Key>
+              <MustInput>true</MustInput>
+              <RefLayout/>
+              <BaseEntityId>3DV/NQB36AG8</BaseEntityId>
+            </BasedataField>
+            <TextField>
+              <FieldName>fk_tdkw_title</FieldName>
+              <Features>
+                <Features>
+                  <Ver>1</Ver>
+                </Features>
+              </Features>
+              <Id>PjAJedd7ce</Id>
+              <Key>tdkw_title</Key>
+              <MustInput>true</MustInput>
+              <Name>标题</Name>
+            </TextField>
+            <TextField>
+              <FieldName>fk_tdkw_newurl</FieldName>
+              <Features>
+                <Features>
+                  <Ver>1</Ver>
+                </Features>
+              </Features>
+              <Id>b24OfpBo53</Id>
+              <Key>tdkw_url</Key>
+              <MustInput>true</MustInput>
+              <Name>URL</Name>
+              <MaxLength>1024</MaxLength>
+            </TextField>
+          </Items>
+        </EntityMetadata>
+      </DataXml>
+      <ModelType>BaseFormModel</ModelType>
+      <Isv>tdkw</Isv>
+      <Version>1725435861536</Version>
+      <ParentId>1942c188000065ac</ParentId>
+      <MasterId></MasterId>
+      <Number>tdkw_announcement_title</Number>
+      <BizappId>3==6P77F4X8W</BizappId>
+      <Id>3DV/XY0W/6EJ</Id>
+      <InheritPath>1942c188000065ac</InheritPath>
+    </DesignEntityMeta>
+  </DesignMetas>
+  <Version>1725435861515</Version>
+  <BOSVersion>1.0</BOSVersion>
+  <BizunitId>2W6G4T/FX+WF</BizunitId>
+</DeployMetadata>

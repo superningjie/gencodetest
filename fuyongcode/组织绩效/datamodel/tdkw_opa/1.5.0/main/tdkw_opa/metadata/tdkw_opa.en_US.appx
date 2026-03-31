@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DeployAppMetadata>
+  <MasterId>4A6IGSR0AFR3</MasterId>
+  <Id>4A6IGSR0AFR3</Id>
+  <DesignMetas>
+    <DesignAppMetaL>
+      <PkId>4CE61JQM159D</PkId>
+      <DataXml>
+        <AppMetadata>
+          <AppFunctionPackets>
+            <AppFunctionPacketElement action="edit" oid="4A6IGSWLWC=W">
+              <Name>Home</Name>
+            </AppFunctionPacketElement>
+          </AppFunctionPackets>
+          <AppElement>
+            <AppElement>
+              <Description>This is a new app</Description>
+            </AppElement>
+          </AppElement>
+        </AppMetadata>
+      </DataXml>
+      <Name></Name>
+      <Description>This is a new app</Description>
+      <Id>4A6IGSR0AFR3</Id>
+      <LocaleId>en_US</LocaleId>
+    </DesignAppMetaL>
+  </DesignMetas>
+  <BOSVersion>1.0</BOSVersion>
+</DeployAppMetadata>

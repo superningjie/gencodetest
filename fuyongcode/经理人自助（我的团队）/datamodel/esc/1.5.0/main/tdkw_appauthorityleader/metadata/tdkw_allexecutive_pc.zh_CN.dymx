@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DeployMetadata>
+  <MasterId>3EWS63JMHEFA</MasterId>
+  <Id>3EWS63JMHEFA</Id>
+  <DesignMetas>
+    <DesignFormMetaL>
+      <Number>tdkw_allexecutive_pc</Number>
+      <PkId>3EWS9FK7AYKR</PkId>
+      <DataXml>
+        <FormMetadata/>
+      </DataXml>
+      <Name>全部高管PC端</Name>
+      <Id>3EWS63JMHEFA</Id>
+      <LocaleId>zh_CN</LocaleId>
+    </DesignFormMetaL>
+    <DesignEntityMetaL>
+      <Number>tdkw_allexecutive_pc</Number>
+      <PkId>3EWS9FLAUYK5</PkId>
+      <DataXml>
+        <EntityMetadata/>
+      </DataXml>
+      <Name>全部高管PC端</Name>
+      <Id>3EWS63JMHEFA</Id>
+      <LocaleId>zh_CN</LocaleId>
+    </DesignEntityMetaL>
+  </DesignMetas>
+  <Version>1689818198147</Version>
+  <BOSVersion>1.0</BOSVersion>
+</DeployMetadata>

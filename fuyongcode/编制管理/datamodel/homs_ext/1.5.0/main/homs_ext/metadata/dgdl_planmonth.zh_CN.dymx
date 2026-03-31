@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DeployMetadata>
+  <MasterId>3J9I/WMVJSQZ</MasterId>
+  <Id>3J9I/WMVJSQZ</Id>
+  <DesignMetas>
+    <DesignFormMetaL>
+      <Number>dgdl_planmonth</Number>
+      <PkId>4I00YBAQEJMP</PkId>
+      <DataXml>
+        <FormMetadata/>
+      </DataXml>
+      <Name>月度编制计划</Name>
+      <Id>3J9I/WMVJSQZ</Id>
+      <LocaleId>zh_CN</LocaleId>
+    </DesignFormMetaL>
+    <DesignEntityMetaL>
+      <Number>dgdl_planmonth</Number>
+      <PkId>4I00YBLSY6A1</PkId>
+      <DataXml>
+        <EntityMetadata/>
+      </DataXml>
+      <Name>月度编制计划</Name>
+      <Id>3J9I/WMVJSQZ</Id>
+      <LocaleId>zh_CN</LocaleId>
+    </DesignEntityMetaL>
+  </DesignMetas>
+  <Version>1730706718669</Version>
+  <BOSVersion>1.0</BOSVersion>
+</DeployMetadata>

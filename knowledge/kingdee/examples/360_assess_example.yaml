@@ -1,0 +1,153 @@
+# 示例：使用新模板生成360度测评相关代码
+# 用户填写此配置文件，然后运行代码生成
+
+# ========== 项目基本信息 ==========
+project:
+  name: "opmc-cea"                    # 项目名称
+  module_prefix: "cds0"               # 模块前缀
+  org_name: "opmc"                    # 组织名
+  app_name: "cea"                     # 应用名
+  isv_code: "tdkw"                    # ISV标识
+  version: "1.5.0"                    # 版本号
+
+# ========== 实体定义（元数据） ==========
+entities:
+  - name: "AssessActivity"            # 实体英文名称
+    key: "cea_assessactivity"         # 实体标识
+    name_cn: "测评活动"               # 实体中文名称
+    parent_form: "BasedataFormAp"     # 父表单类型
+    
+    # 分录实体
+    entry_entities:
+      - name: "分组维度设置"
+        key: "entryentity"
+        entry_id: "Zv2gC7kFGsI1ufZ6pj"
+        index: 2
+    
+    # 字段配置
+    fields:
+      - oid: "scoresystem"
+        name: "scoresystem"
+        must_input: "true"
+      - oid: "scoresystemmap"
+        name: "scoresystemmap"
+        invisible: false
+
+# ========== Java 代码生成配置 ==========
+java_code:
+  # ---------- 表单插件 ----------
+  form_plugins:
+    - name: "AssessActivityEdit"
+      description: "测评活动编辑插件"
+      
+      # 控件常量
+      control_constants:
+        - name: "TOOLBAR"
+          value: "toolbar"
+        - name: "ADD"
+          value: "add"
+        - name: "DEL"
+          value: "del"
+        - name: "ENTRYENTITY"
+          value: "entryentity"
+        - name: "CEA_DIMSETTING"
+          value: "cea_dimsetting"
+        - name: "CEA_ASSESSACTCONFIRM"
+          value: "cea_assessactconfirm"
+      
+      # 引用的服务
+      services:
+        - class_name: "AssessActivityEntityService"
+          var_name: "ASSESS_ACTIVITY_ENTITY_SERVICE"
+        - class_name: "DimSettingEntityService"
+          var_name: "DIM_SETTING_ENTITY_SERVICE"
+        - class_name: "AssessActDimSettingDomainService"
+          var_name: "ASSESS_ACT_DIM_SETTING_DOMAIN_SERVICE"
+      
+      # 工具栏按钮
+      toolbar_buttons:
+        - const_name: "ADD"
+          method_name: "showDimSetting"
+        - const_name: "DEL"
+          method_name: "deleteDimSetting"
+      
+      # 特性开关
+      has_entry_grid: true
+      implement_hyperlink: true
+      
+      # 业务方法
+      custom_methods:
+        - name: "showDimSetting"
+          description: "显示分组维度设置弹窗"
+          params: ""
+          body: |
+            BaseShowParameter showParameter = new BaseShowParameter();
+            showParameter.setFormId(CEA_DIMSETTING);
+            showParameter.setStatus(OperationStatus.ADDNEW);
+            showParameter.getOpenStyle().setShowType(ShowType.Modal);
+            showParameter.setHasRight(Boolean.TRUE);
+            showParameter.setCloseCallBack(new CloseCallBack(this, CEA_DIMSETTING));
+            this.getView().showForm(showParameter);
+        
+        - name: "deleteDimSetting"
+          description: "删除分组维度设置"
+          params: ""
+          body: |
+            EntryGrid entryGrid = this.getControl(ENTRYENTITY);
+            int selectRows[] = entryGrid.getSelectRows();
+            // 删除逻辑...
+
+  # ---------- 领域服务 ----------
+  domain_services:
+    - name: "AssessActDimSettingDomainService"
+      description: "测评活动维度设置领域服务"
+      
+      entity_services:
+        - class_name: "DimSettingEntityService"
+          var_name: "DIM_SETTING_ENTITY_SERVICE"
+        - class_name: "EvalDimSettingEntityService"
+          var_name: "EVAL_DIM_SETTING_ENTITY_SERVICE"
+        - class_name: "AssessObjEntityService"
+          var_name: "ASSESS_OBJ_ENTITY_SERVICE"
+      
+      methods:
+        - name: "deleteDimSetting"
+          description: "删除分组维度数据"
+          return_type: "void"
+          params:
+            - name: "dimsettingIds"
+              type: "List<Long>"
+              description: "维度设置ID列表"
+          use_tx: true
+          body: |
+            // 删除维度分组及下面的维度数据
+            // ...
+
+  # ---------- 实体服务 ----------
+  entity_services:
+    - name: "AssessActivityEntityService"
+      entity_name: "cea_assessactivity"
+      entity_description: "测评活动"
+
+# ========== 常量定义 ==========
+constants:
+  app_key: "opmc-cea"
+  
+  entities:
+    - const_name: "CEA_ASSESSACTIVITY"
+      form_id: "cea_assessactivity"
+      description: "测评活动"
+    - const_name: "CEA_DIMSETTING"
+      form_id: "cea_dimsetting"
+      description: "分组维度设置"
+  
+  status_constants:
+    - const_name: "ASSESS_STATUS_TODO"
+      value: "A"
+      description: "待测评"
+    - const_name: "ASSESS_STATUS_DOING"
+      value: "B"
+      description: "测评中"
+    - const_name: "ASSESS_STATUS_DONE"
+      value: "C"
+      description: "已完成"

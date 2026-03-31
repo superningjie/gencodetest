@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DeployMetadata>
+  <MasterId>4C0T4+CYX0R/</MasterId>
+  <Id>4C0T4+CYX0R/</Id>
+  <DesignMetas>
+    <DesignFormMetaL>
+      <Number>tdkw_performance_map_form</Number>
+      <PkId>4CEJVORJG85M</PkId>
+      <DataXml>
+        <FormMetadata>
+          <Name>組織績效地圖表單</Name>
+          <Items>
+            <FormAp action="edit" oid="4C0T4+CYX1E9">
+              <Name>組織績效地圖表單</Name>
+            </FormAp>
+            <TabAp action="edit" oid="lnrPw9HvKvmJ7cR1y3">
+              <Name>頁簽控件</Name>
+            </TabAp>
+          </Items>
+        </FormMetadata>
+      </DataXml>
+      <Name>組織績效地圖表單</Name>
+      <Id>4C0T4+CYX0R/</Id>
+      <LocaleId>zh_TW</LocaleId>
+    </DesignFormMetaL>
+    <DesignEntityMetaL>
+      <Number>tdkw_performance_map_form</Number>
+      <PkId>4CEJVOV5UBWV</PkId>
+      <DataXml>
+        <EntityMetadata>
+          <Name>組織績效地圖表單</Name>
+          <Items>
+            <MainEntity action="edit" oid="4C0T4+F+O6NJ">
+              <Name>組織績效地圖表單</Name>
+            </MainEntity>
+          </Items>
+        </EntityMetadata>
+      </DataXml>
+      <Name>組織績效地圖表單</Name>
+      <Id>4C0T4+CYX0R/</Id>
+      <LocaleId>zh_TW</LocaleId>
+    </DesignEntityMetaL>
+  </DesignMetas>
+  <Version>1725270198573</Version>
+  <BOSVersion>1.0</BOSVersion>
+</DeployMetadata>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DeployMetadata>
+  <MasterId>47CO651MDHAQ</MasterId>
+  <Id>47CO651MDHAQ</Id>
+  <DesignMetas>
+    <DesignFormMetaL>
+      <Number>cea_assesstask_list</Number>
+      <PkId>4A2/BZP8M75Q</PkId>
+      <DataXml>
+        <FormMetadata/>
+      </DataXml>
+      <Name>测评任务列表</Name>
+      <Id>47CO651MDHAQ</Id>
+      <LocaleId>zh_CN</LocaleId>
+    </DesignFormMetaL>
+    <DesignEntityMetaL>
+      <Number>cea_assesstask_list</Number>
+      <PkId>4A2/BZWZKOUJ</PkId>
+      <DataXml>
+        <EntityMetadata/>
+      </DataXml>
+      <Name>测评任务列表</Name>
+      <Id>47CO651MDHAQ</Id>
+      <LocaleId>zh_CN</LocaleId>
+    </DesignEntityMetaL>
+  </DesignMetas>
+  <Version>1722992183098</Version>
+  <BOSVersion>1.0</BOSVersion>
+</DeployMetadata>

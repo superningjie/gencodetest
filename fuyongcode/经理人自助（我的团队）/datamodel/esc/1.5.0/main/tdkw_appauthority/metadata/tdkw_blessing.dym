@@ -1,0 +1,308 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DeployMetadata>
+  <Multilanguage>false</Multilanguage>
+  <MasterId>3DCTVAJ74YY2</MasterId>
+  <BizappId>3C438QESNO1T</BizappId>
+  <Id>3DCTVAJ74YY2</Id>
+  <DesignMetas>
+    <DesignFormMeta>
+      <DevType>0</DevType>
+      <ModifyDate>1689595745609</ModifyDate>
+      <DataXml>
+        <FormMetadata>
+          <Isv>tdkw</Isv>
+          <Id>3DCTVAJ74YY2</Id>
+          <Key>tdkw_blessing</Key>
+          <EntityId>3DCTVAJ74YY2</EntityId>
+          <ParentId>1942c188000065ac</ParentId>
+          <BizappId>3C438QESNO1T</BizappId>
+          <IsvSign/>
+          <Name>祝福语</Name>
+          <InheritPath>1942c188000065ac</InheritPath>
+          <Items>
+            <BasedataFormAp action="edit" oid="1942c188000064ac">
+              <MobListMeta>
+                <FormMetadata>
+                  <Items>
+                    <BillListAp action="edit" oid="_BillList_">
+                      <EntityId>3DCTVAJ74YY2</EntityId>
+                    </BillListAp>
+                  </Items>
+                </FormMetadata>
+              </MobListMeta>
+              <Id>3DCTVAJ74YY2</Id>
+              <BackColor>#E2E7EF</BackColor>
+              <Name>祝福语</Name>
+              <Key>tdkw_blessing</Key>
+              <ListMeta>
+                <FormMetadata>
+                  <Name>祝福语查询</Name>
+                  <Items>
+                    <FormAp action="edit" oid="b5994054000024ac">
+                      <Name>祝福语查询</Name>
+                    </FormAp>
+                    <FilterGridViewAp action="edit" oid="filtergridview">
+                      <NewFilter>true</NewFilter>
+                    </FilterGridViewAp>
+                    <BarItemAp action="edit" oid="C1IXIpJx1c">
+                      <Index action="reset"/>
+                    </BarItemAp>
+                    <BarItemAp action="edit" oid="rQ81rnW9l8">
+                      <Index>1</Index>
+                    </BarItemAp>
+                    <BarItemAp action="edit" oid="A3zkgmttgA">
+                      <Index>2</Index>
+                    </BarItemAp>
+                    <BarItemAp action="edit" oid="0gAY5TLeX3">
+                      <Index>3</Index>
+                    </BarItemAp>
+                    <BarItemAp action="edit" oid="UlRxLeBKL1">
+                      <Index>4</Index>
+                    </BarItemAp>
+                    <BillListAp action="edit" oid="_BillList_">
+                      <Name>祝福语列表</Name>
+                      <EntityId>3DCTVAJ74YY2</EntityId>
+                    </BillListAp>
+                    <BarItemAp action="remove" oid="FUMD89PFCB"/>
+                    <BarItemAp action="remove" oid="ms32Hsufcq"/>
+                    <BarItemAp action="remove" oid="BTjy6Ie3Bc"/>
+                    <BarItemAp action="remove" oid="NVARV5u7I4"/>
+                    <BarItemAp action="remove" oid="v71lQcKgcH"/>
+                  </Items>
+                </FormMetadata>
+              </ListMeta>
+            </BasedataFormAp>
+            <FlexPanelAp action="edit" oid="LL4BVAnADa">
+              <Index action="reset"/>
+            </FlexPanelAp>
+            <FlexPanelAp action="edit" oid="PxNfkkak4s">
+              <Grow>0</Grow>
+              <Index>1</Index>
+              <BackColor>#ffffff</BackColor>
+              <Style>
+                <Style>
+                  <Border>
+                    <Border>
+                      <Top>10px_solid_#E2E7EF</Top>
+                      <Left>10px_solid_#E2E7EF</Left>
+                      <Bottom>10px_solid_#E2E7EF</Bottom>
+                      <Right>10px_solid_#E2E7EF</Right>
+                    </Border>
+                  </Border>
+                  <Padding>
+                    <Padding>
+                      <Left>2px</Left>
+                      <Right action="reset"/>
+                    </Padding>
+                  </Padding>
+                </Style>
+              </Style>
+            </FlexPanelAp>
+            <AdvConAp>
+              <Collapsible>true</Collapsible>
+              <Id>8tOq1YAX3o</Id>
+              <Key>tdkw_advconap</Key>
+              <Grow>0</Grow>
+              <Shrink>0</Shrink>
+              <Index>2</Index>
+              <BackColor>@container-bg-color</BackColor>
+              <Name>高级容器</Name>
+            </AdvConAp>
+            <AdvConSummaryPanelAp>
+              <Id>5Kz2B1bWTx</Id>
+              <Name>高级面板摘要容器</Name>
+              <Key>tdkw_advconsummarypanelap</Key>
+              <ParentId>8tOq1YAX3o</ParentId>
+            </AdvConSummaryPanelAp>
+            <AdvConToolbarAp>
+              <Id>RIxxLDJc9H</Id>
+              <Key>tdkw_advcontoolbarap</Key>
+              <Index>1</Index>
+              <ParentId>8tOq1YAX3o</ParentId>
+              <Name>高级面板工具栏</Name>
+            </AdvConToolbarAp>
+            <AdvConChildPanelAp>
+              <Id>JOou8yPj6l</Id>
+              <Index>2</Index>
+              <Name>高级面板子容器</Name>
+              <Key>tdkw_advconchildpanelap</Key>
+              <ParentId>8tOq1YAX3o</ParentId>
+            </AdvConChildPanelAp>
+            <BarItemAp action="edit" oid="z20rAqlGP8">
+              <Lock>submit,new,edit,view,audit</Lock>
+              <Visible/>
+            </BarItemAp>
+            <BarItemAp action="edit" oid="8XYTQ7uc8H">
+              <Lock>audit,new,edit,view,submit</Lock>
+              <Visible/>
+            </BarItemAp>
+            <EntryAp>
+              <EntryId>K4D5iPbXXg</EntryId>
+              <ShowSeq>true</ShowSeq>
+              <Id>K4D5iPbXXg</Id>
+              <Name>单据体</Name>
+              <PageType/>
+              <Key>tdkw_entryentity</Key>
+              <ParentId>JOou8yPj6l</ParentId>
+            </EntryAp>
+            <EntryFieldAp>
+              <Id>jqFyXkoqFE</Id>
+              <FieldId>jqFyXkoqFE</FieldId>
+              <Name>语句</Name>
+              <Key>tdkw_sentence</Key>
+              <ParentId>K4D5iPbXXg</ParentId>
+            </EntryFieldAp>
+            <FieldsetPanelAp action="edit" oid="STdfsCCFTj">
+              <Invisible>true</Invisible>
+              <Hidden action="reset"/>
+            </FieldsetPanelAp>
+            <AdvConBarItemAp>
+              <OperationKey>newentry</OperationKey>
+              <Id>AqPKLEnrsa</Id>
+              <Key>tdkw_advconbaritemap</Key>
+              <OperationStyle>0</OperationStyle>
+              <ParentId>RIxxLDJc9H</ParentId>
+              <Name>新增行</Name>
+            </AdvConBarItemAp>
+            <AdvConBarItemAp>
+              <OperationKey>deleteentry</OperationKey>
+              <Id>2VafzSuqfh</Id>
+              <Key>tdkw_advconbaritemap1</Key>
+              <OperationStyle>0</OperationStyle>
+              <Index>1</Index>
+              <ParentId>RIxxLDJc9H</ParentId>
+              <BackColor/>
+              <Name>删除行</Name>
+            </AdvConBarItemAp>
+          </Items>
+        </FormMetadata>
+      </DataXml>
+      <ModifierId>1711682111947163648</ModifierId>
+      <EntityId>3DCTVAJ74YY2</EntityId>
+      <ModelType>BaseFormModel</ModelType>
+      <Isv>tdkw</Isv>
+      <Version>1689595745609</Version>
+      <ParentId>1942c188000065ac</ParentId>
+      <MasterId></MasterId>
+      <Number>tdkw_blessing</Number>
+      <BizappId>3C438QESNO1T</BizappId>
+      <IsvSign></IsvSign>
+      <Id>3DCTVAJ74YY2</Id>
+      <InheritPath>1942c188000065ac</InheritPath>
+    </DesignFormMeta>
+    <DesignEntityMeta>
+      <DevType>0</DevType>
+      <ModifyDate>1689595745857</ModifyDate>
+      <DataXml>
+        <EntityMetadata>
+          <Isv>tdkw</Isv>
+          <Id>3DCTVAJ74YY2</Id>
+          <ParentId>1942c188000065ac</ParentId>
+          <BizappId>3C438QESNO1T</BizappId>
+          <IsvSign/>
+          <Name>祝福语</Name>
+          <InheritPath>1942c188000065ac</InheritPath>
+          <Items>
+            <BaseEntity action="edit" oid="1942c188000066ac">
+              <dbRoute>secd</dbRoute>
+              <TableName>tk_tdkw_blessing</TableName>
+              <Id>3DCTVAJ74YY2</Id>
+              <Name>祝福语</Name>
+              <Template action="reset"/>
+              <Operations>
+                <Operation action="edit" oid="b599405400001eac">
+                  <Plugins>
+                    <Plugin>
+                      <FPK/>
+                      <Description>当用户禁用最后一条已启用的数据时不允许操作</Description>
+                      <ClassName>tdkw.esc.tdkw_appauthority.mservice_api.hgl.opplugin.BirthdayBlessingDisableOpPlugin</ClassName>
+                      <Enabled>true</Enabled>
+                      <BizAppId/>
+                    </Plugin>
+                  </Plugins>
+                  <Validations>
+                    <ConditionValidation action="edit" oid="f2843bab0000baac">
+                      <Enabled action="reset"/>
+                    </ConditionValidation>
+                  </Validations>
+                </Operation>
+                <Operation>
+                  <ConfirmMsg/>
+                  <Parameter>
+                    <NewEntryParameter>
+                      <EntryId>K4D5iPbXXg</EntryId>
+                    </NewEntryParameter>
+                  </Parameter>
+                  <Name>新增行</Name>
+                  <OperationType>newentry</OperationType>
+                  <Id>3ENUBFV54/SL</Id>
+                  <SuccessMsg/>
+                  <Key>newentry</Key>
+                </Operation>
+                <Operation>
+                  <ConfirmMsg/>
+                  <Parameter>
+                    <EntryOpParameter>
+                      <EntryId>K4D5iPbXXg</EntryId>
+                    </EntryOpParameter>
+                  </Parameter>
+                  <Name>删除行</Name>
+                  <OperationType>deleteentry</OperationType>
+                  <Id>3ENUCU6RF9LH</Id>
+                  <SuccessMsg/>
+                  <Key>deleteentry</Key>
+                </Operation>
+              </Operations>
+              <Key>tdkw_blessing</Key>
+              <NetworkControl>
+                <NetCtrlOperation>
+                  <OperationKey>submit</OperationKey>
+                  <GroupId>default_netctrl</GroupId>
+                  <Id>c91d5125000034ac</Id>
+                  <Key>default_netctrl_submit</Key>
+                </NetCtrlOperation>
+              </NetworkControl>
+              <DefaultPageSetting>{"mblist":"","pclist":"","pcbill":"","mbbill":""}</DefaultPageSetting>
+            </BaseEntity>
+            <MuliLangTextField action="edit" oid="8oq6R4m9CF">
+              <GL>true</GL>
+            </MuliLangTextField>
+            <EntryEntity>
+              <TableName>tk_tdkw_blessingentity</TableName>
+              <Id>K4D5iPbXXg</Id>
+              <Key>tdkw_entryentity</Key>
+              <Name>单据体</Name>
+            </EntryEntity>
+            <TextField>
+              <FieldName>fk_tdkw_textfield</FieldName>
+              <Features>
+                <Features>
+                  <Ver>1</Ver>
+                </Features>
+              </Features>
+              <Id>jqFyXkoqFE</Id>
+              <Key>tdkw_sentence</Key>
+              <MustInput>true</MustInput>
+              <ParentId>K4D5iPbXXg</ParentId>
+              <Name>语句</Name>
+              <MaxLength>255</MaxLength>
+            </TextField>
+          </Items>
+        </EntityMetadata>
+      </DataXml>
+      <ModelType>BaseFormModel</ModelType>
+      <Isv>tdkw</Isv>
+      <Version>1689595745857</Version>
+      <ParentId>1942c188000065ac</ParentId>
+      <MasterId></MasterId>
+      <Number>tdkw_blessing</Number>
+      <BizappId>3C438QESNO1T</BizappId>
+      <Id>3DCTVAJ74YY2</Id>
+      <InheritPath>1942c188000065ac</InheritPath>
+    </DesignEntityMeta>
+  </DesignMetas>
+  <Version>1689595745609</Version>
+  <BOSVersion>1.0</BOSVersion>
+  <BizunitId>3DCTO/PFDD0F</BizunitId>
+</DeployMetadata>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DeployAppMetadata>
+  <MasterId>4A6IGSR0AFR3</MasterId>
+  <Id>4A6IGSR0AFR3</Id>
+  <DesignMetas>
+    <DesignAppMetaL>
+      <PkId>4CE61JOYSOT5</PkId>
+      <DataXml>
+        <AppMetadata/>
+      </DataXml>
+      <Name>组织绩效考核</Name>
+      <Description>面向组织进行的绩效考核与评价</Description>
+      <Id>4A6IGSR0AFR3</Id>
+      <LocaleId>zh_CN</LocaleId>
+    </DesignAppMetaL>
+  </DesignMetas>
+  <BOSVersion>1.0</BOSVersion>
+</DeployAppMetadata>

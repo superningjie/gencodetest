@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataModel dympath="metadata">
+    <SqlScript Type="KSQL" Separator=";" dbkey="opmc">dbschema/kd_1.5.263_cea_table.sql</SqlScript>
+    <SqlScript Type="KSQL" Separator=";" dbkey="opmc">dbschema/kd_1.5.263_cea_constraint.sql</SqlScript>
+    <SqlScript Type="KSQL" Separator=";" dbkey="opmc">dbschema/kd_1.5.262_cea_addfield.sql</SqlScript>
+    <SqlScript Type="KSQL" Separator=";" dbkey="opmc">dbschema/kd_1.5.263_cea_alterfield.sql</SqlScript>
+    <SqlScript Type="KSQL" Separator=";" dbkey="meta">preinsdata/kd_1.5.258_cea_bizapp_initdata.sql</SqlScript>
+    <SqlScript Type="KSQL" Separator=";" dbkey="hmp">preinsdata/kd_1.5.258_cea_hbss_cloudapp_initdata.sql</SqlScript>
+    <SqlScript Type="KSQL" Separator=";" dbkey="sys">preinsdata/kd_1.5.258_cea_custpermserv_initdata.sql</SqlScript>
+    <SqlScript Type="KSQL" Separator=";" dbkey="sys">preinsdata/kd_1.5.258_cea_permitem_initdata.sql</SqlScript>
+    <SqlScript Type="KSQL" Separator=";" dbkey="hr">preinsdata/kd_1.5.260_cea_haos_structproconfig_initdata.sql</SqlScript>
+    <SqlScript Type="KSQL" Separator=";" dbkey="hmp">preinsdata/kd_1.5.258_cea_hbss_appbusinesstype_initdata.sql</SqlScript>
+    <SqlScript Type="KSQL" Separator=";" dbkey="wfs">preinsdata/kd_1.5.258_cea_msg_initdata.sql</SqlScript>
+    <SqlScript Type="KSQL" Separator=";" dbkey="hmp">preinsdata/kd_1.5.260_cea_hrcs_dynaformctrl_initdata.sql</SqlScript>
+    <SqlScript Type="KSQL" Separator=";" dbkey="hmp">preinsdata/kd_1.5.260_cea_hrcs_entityctrl_initdata.sql</SqlScript>
+    <SqlScript Type="KSQL" Separator=";" dbkey="hmp">preinsdata/kd_1.5.261_cea_hrcs_entityforbid_initdata.sql</SqlScript>
+    <SqlScript Type="KSQL" Separator=";" dbkey="hmp">preinsdata/kd_1.5.261_cea_hrcs_permrelat_initdata.sql</SqlScript>
+    <SqlScript Type="KSQL" Separator=";" dbkey="sys">preinsdata/kd_1.5.261_cea_permitem_initdata.sql</SqlScript>
+    <SqlScript Type="KSQL" Separator=";" dbkey="hmp">preinsdata/kd_1.5.262_cea_hiesimport_initdata.sql</SqlScript>
+    <SqlScript Type="KSQL" Separator=";" dbkey="opmc">preinsdata/kd_1.5.262_cea_roletype_initdata.sql</SqlScript>
+    <SqlScript Type="KSQL" Separator=";" dbkey="sys">preinsdata/kd_1.5.263_cea_svc_customparam_initdata.sql</SqlScript>
+</DataModel>

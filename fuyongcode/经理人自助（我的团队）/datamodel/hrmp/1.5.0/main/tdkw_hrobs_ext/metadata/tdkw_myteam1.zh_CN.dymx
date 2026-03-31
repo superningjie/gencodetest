@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DeployMetadata>
+  <MasterId>3=QIGK4LQ6XX</MasterId>
+  <Id>3=QIGK4LQ6XX</Id>
+  <DesignMetas>
+    <DesignFormMetaL>
+      <Number>tdkw_myteam1</Number>
+      <PkId>3=QK/U762VRT</PkId>
+      <DataXml>
+        <FormMetadata/>
+      </DataXml>
+      <Name>我的团队1</Name>
+      <Id>3=QIGK4LQ6XX</Id>
+      <LocaleId>zh_CN</LocaleId>
+    </DesignFormMetaL>
+    <DesignEntityMetaL>
+      <Number>tdkw_myteam1</Number>
+      <PkId>3=QK/U7Y35MN</PkId>
+      <DataXml>
+        <EntityMetadata/>
+      </DataXml>
+      <Name>我的团队1</Name>
+      <Id>3=QIGK4LQ6XX</Id>
+      <LocaleId>zh_CN</LocaleId>
+    </DesignEntityMetaL>
+  </DesignMetas>
+  <Version>1684811582336</Version>
+  <BOSVersion>1.0</BOSVersion>
+</DeployMetadata>

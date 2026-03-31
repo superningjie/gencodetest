@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DeployMetadata>
+  <MasterId>3UGMZURQ8YI4</MasterId>
+  <Id>3UGMZURQ8YI4</Id>
+  <DesignMetas>
+    <DesignFormMetaL>
+      <Number>tdkw_hrobs_pcpwdforget</Number>
+      <PkId>3UYJWVQJ3A83</PkId>
+      <DataXml>
+        <FormMetadata/>
+      </DataXml>
+      <Name>简历薪资忘记密码弹窗</Name>
+      <Id>3UGMZURQ8YI4</Id>
+      <LocaleId>zh_CN</LocaleId>
+    </DesignFormMetaL>
+    <DesignEntityMetaL>
+      <Number>tdkw_hrobs_pcpwdforget</Number>
+      <PkId>3UYJWVQXM+OE</PkId>
+      <DataXml>
+        <EntityMetadata/>
+      </DataXml>
+      <Name>简历薪资忘记密码弹窗</Name>
+      <Id>3UGMZURQ8YI4</Id>
+      <LocaleId>zh_CN</LocaleId>
+    </DesignEntityMetaL>
+  </DesignMetas>
+  <Version>1705389212603</Version>
+  <BOSVersion>1.0</BOSVersion>
+</DeployMetadata>

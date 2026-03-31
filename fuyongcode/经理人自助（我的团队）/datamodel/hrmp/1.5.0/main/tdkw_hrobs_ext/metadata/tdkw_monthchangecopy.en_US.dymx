@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DeployMetadata>
+  <MasterId>41MZWM8C4N3X</MasterId>
+  <Id>41MZWM8C4N3X</Id>
+  <DesignMetas>
+    <DesignFormMetaL>
+      <Number>xyjt_monthchangecopy</Number>
+      <PkId>41N1E0E78NOX</PkId>
+      <DataXml>
+        <FormMetadata>
+          <Name>本月轮动报表-复制</Name>
+          <Items>
+            <ReportFormAp action="edit" oid="1b760aa100003aac">
+              <Name>本月轮动报表-复制</Name>
+            </ReportFormAp>
+            <FieldAp action="edit" oid="dIYkl4Y93I">
+              <Name>姓名</Name>
+            </FieldAp>
+            <FieldAp action="edit" oid="Wo50qRDy3r">
+              <Name>所属组织</Name>
+            </FieldAp>
+            <FieldAp action="edit" oid="q4NvaQKnpk">
+              <Name>岗位层级</Name>
+            </FieldAp>
+            <FieldAp action="edit" oid="iscCVCgru9">
+              <Name>日期范围</Name>
+            </FieldAp>
+            <FieldAp action="edit" oid="Bug2bGEf1P">
+              <Name>任职类型</Name>
+            </FieldAp>
+            <FieldAp action="edit" oid="kkVzh8oZjQ">
+              <Name>人员类型</Name>
+            </FieldAp>
+            <FlexPanelAp action="edit" oid="67ey6RPJGY">
+              <Name>Flex容器</Name>
+            </FlexPanelAp>
+            <ReportMoreFilterPanelAp action="edit" oid="bOlTS3Kum9">
+              <Name>更多过滤条件</Name>
+            </ReportMoreFilterPanelAp>
+            <EntryFieldAp action="edit" oid="30CxuXchar">
+              <Name>姓名</Name>
+            </EntryFieldAp>
+            <EntryFieldAp action="edit" oid="tyzdPyiwXl">
+              <Name>岗位</Name>
+            </EntryFieldAp>
+            <EntryFieldAp action="edit" oid="Y3Dr7Z7lD5">
+              <Name>岗位层级</Name>
+            </EntryFieldAp>
+            <EntryFieldAp action="edit" oid="7nUJ9oztND">
+              <Name>所属公司</Name>
+            </EntryFieldAp>
+            <EntryFieldAp action="edit" oid="yKA06td0Qy">
+              <Name>所属部门</Name>
+            </EntryFieldAp>
+            <EntryFieldAp action="edit" oid="9Pbdg7rW2B">
+              <Name>原岗位</Name>
+            </EntryFieldAp>
+            <EntryFieldAp action="edit" oid="Tv9e5yZWfA">
+              <Name>原岗位</Name>
+            </EntryFieldAp>
+            <EntryFieldAp action="edit" oid="JGAxkxXNqa">
+              <Name>原岗位层级</Name>
+            </EntryFieldAp>
+            <EntryFieldAp action="edit" oid="rBk14oTed3">
+              <Name>原所属公司</Name>
+            </EntryFieldAp>
+            <EntryFieldAp action="edit" oid="GnMt2C0uqz">
+              <Name>原所属公司</Name>
+            </EntryFieldAp>
+            <EntryFieldAp action="edit" oid="ZXNZyjvSs4">
+              <Name>原所属部门</Name>
+            </EntryFieldAp>
+            <EntryFieldAp action="edit" oid="Z5dakjvjQ2">
+              <Name>原职层</Name>
+            </EntryFieldAp>
+            <EntryFieldAp action="edit" oid="RDmemPlIbP">
+              <Name>原职层</Name>
+            </EntryFieldAp>
+            <EntryFieldAp action="edit" oid="pqwwvd58at">
+              <Name>异动时间</Name>
+            </EntryFieldAp>
+            <EntryFieldAp action="edit" oid="EtLOgrvIfm">
+              <Name>异动类型</Name>
+            </EntryFieldAp>
+            <EntryFieldAp action="edit" oid="6wxGrSej6P">
+              <Name>异动原因</Name>
+            </EntryFieldAp>
+            <EntryFieldAp action="edit" oid="HtUhu7qKQS">
+              <Name>工号</Name>
+            </EntryFieldAp>
+          </Items>
+        </FormMetadata>
+      </DataXml>
+      <Name>本月轮动报表-复制</Name>
+      <Id>41MZWM8C4N3X</Id>
+      <LocaleId>en_US</LocaleId>
+    </DesignFormMetaL>
+    <DesignEntityMetaL>
+      <Number>xyjt_monthchangecopy</Number>
+      <PkId>41N1E0F848GT</PkId>
+      <DataXml>
+        <EntityMetadata>
+          <Name>本月轮动报表-复制</Name>
+          <Items>
+            <ReportEntity action="edit" oid="1b760aa100003cac">
+              <Name>本月轮动报表-复制</Name>
+            </ReportEntity>
+            <TextField action="edit" oid="dIYkl4Y93I">
+              <Name>姓名</Name>
+            </TextField>
+            <MulBasedataField action="edit" oid="Wo50qRDy3r">
+              <Name>所属组织</Name>
+            </MulBasedataField>
+            <ComboField action="edit" oid="q4NvaQKnpk">
+              <Name>岗位层级</Name>
+              <Items>
+                <ComboItem action="edit" oid="1">
+                  <Caption>集团高管-集团直管</Caption>
+                </ComboItem>
+                <ComboItem action="edit" oid="2">
+                  <Caption>集团高管-授权行业</Caption>
+                </ComboItem>
+                <ComboItem action="edit" oid="3">
+                  <Caption>其他高管</Caption>
+                </ComboItem>
+                <ComboItem action="edit" oid="4">
+                  <Caption>中层</Caption>
+                </ComboItem>
+                <ComboItem action="edit" oid="5">
+                  <Caption>基层</Caption>
+                </ComboItem>
+              </Items>
+            </ComboField>
+            <DateRangeField action="edit" oid="iscCVCgru9">
+              <Name>日期范围</Name>
+            </DateRangeField>
+            <ComboField action="edit" oid="Bug2bGEf1P">
+              <Name>任职类型</Name>
+              <Items>
+                <ComboItem action="edit" oid="A">
+                  <Caption>党委会</Caption>
+                </ComboItem>
+                <ComboItem action="edit" oid="B">
+                  <Caption>工会</Caption>
+                </ComboItem>
+                <ComboItem action="edit" oid="C">
+                  <Caption>团委</Caption>
+                </ComboItem>
+                <ComboItem action="edit" oid="D">
+                  <Caption>纪检委</Caption>
+                </ComboItem>
+                <ComboItem action="edit" oid="E">
+                  <Caption>经营班子</Caption>
+                </ComboItem>
+                <ComboItem action="edit" oid="F">
+                  <Caption>财务负责人</Caption>
+                </ComboItem>
+                <ComboItem action="edit" oid="G">
+                  <Caption>董监事</Caption>
+                </ComboItem>
+              </Items>
+            </ComboField>
+            <MulBasedataField action="edit" oid="kkVzh8oZjQ">
+              <Name>人员类型</Name>
+            </MulBasedataField>
+            <BasedataField action="edit" oid="30CxuXchar">
+              <Name>姓名</Name>
+            </BasedataField>
+            <TextField action="edit" oid="tyzdPyiwXl">
+              <Name>岗位</Name>
+            </TextField>
+            <ComboField action="edit" oid="Y3Dr7Z7lD5">
+              <Name>岗位层级</Name>
+              <Items>
+                <ComboItem action="edit" oid="1">
+                  <Caption>集团高管-集团直管</Caption>
+                </ComboItem>
+                <ComboItem action="edit" oid="2">
+                  <Caption>集团高管-授权行业</Caption>
+                </ComboItem>
+                <ComboItem action="edit" oid="3">
+                  <Caption>其他高管</Caption>
+                </ComboItem>
+                <ComboItem action="edit" oid="4">
+                  <Caption>中层</Caption>
+                </ComboItem>
+                <ComboItem action="edit" oid="5">
+                  <Caption>基层</Caption>
+                </ComboItem>
+              </Items>
+            </ComboField>
+            <TextField action="edit" oid="7nUJ9oztND">
+              <Name>所属公司</Name>
+            </TextField>
+            <TextField action="edit" oid="yKA06td0Qy">
+              <Name>所属部门</Name>
+            </TextField>
+            <BasedataField action="edit" oid="9Pbdg7rW2B">
+              <Name>原岗位</Name>
+            </BasedataField>
+            <TextField action="edit" oid="Tv9e5yZWfA">
+              <Name>原岗位</Name>
+            </TextField>
+            <ComboField action="edit" oid="JGAxkxXNqa">
+              <Name>原岗位层级</Name>
+              <Items>
+                <ComboItem action="edit" oid="1">
+                  <Caption>集团高管-集团直管</Caption>
+                </ComboItem>
+                <ComboItem action="edit" oid="2">
+                  <Caption>集团高管-授权行业</Caption>
+                </ComboItem>
+                <ComboItem action="edit" oid="3">
+                  <Caption>其他高管</Caption>
+                </ComboItem>
+                <ComboItem action="edit" oid="4">
+                  <Caption>中层</Caption>
+                </ComboItem>
+                <ComboItem action="edit" oid="5">
+                  <Caption>基层</Caption>
+                </ComboItem>
+              </Items>
+            </ComboField>
+            <BasedataField action="edit" oid="rBk14oTed3">
+              <Name>原所属公司</Name>
+            </BasedataField>
+            <TextField action="edit" oid="GnMt2C0uqz">
+              <Name>原所属公司</Name>
+            </TextField>
+            <TextField action="edit" oid="ZXNZyjvSs4">
+              <Name>原所属部门</Name>
+            </TextField>
+            <TextField action="edit" oid="Z5dakjvjQ2">
+              <Name>原职层</Name>
+            </TextField>
+            <BasedataField action="edit" oid="RDmemPlIbP">
+              <Name>原职层</Name>
+            </BasedataField>
+            <DateField action="edit" oid="pqwwvd58at">
+              <Name>异动时间</Name>
+            </DateField>
+            <TextField action="edit" oid="EtLOgrvIfm">
+              <Name>异动类型</Name>
+            </TextField>
+            <TextField action="edit" oid="6wxGrSej6P">
+              <Name>异动原因</Name>
+            </TextField>
+            <BasedataPropField action="edit" oid="HtUhu7qKQS">
+              <Name>工号</Name>
+            </BasedataPropField>
+          </Items>
+        </EntityMetadata>
+      </DataXml>
+      <Name>本月轮动报表-复制</Name>
+      <Id>41MZWM8C4N3X</Id>
+      <LocaleId>en_US</LocaleId>
+    </DesignEntityMetaL>
+  </DesignMetas>
+  <Version>1713836784683</Version>
+  <BOSVersion>1.0</BOSVersion>
+</DeployMetadata>

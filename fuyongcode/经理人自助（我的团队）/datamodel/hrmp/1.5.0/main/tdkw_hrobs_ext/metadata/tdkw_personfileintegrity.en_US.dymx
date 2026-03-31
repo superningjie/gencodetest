@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DeployMetadata>
+  <MasterId>3BMFUD1Z2/AH</MasterId>
+  <Id>3BMFUD1Z2/AH</Id>
+  <DesignMetas>
+    <DesignFormMetaL>
+      <Number>tdkw_personfileintegrity</Number>
+      <PkId>3T+K3FLR1XYS</PkId>
+      <DataXml>
+        <FormMetadata>
+          <Name>Statement Template</Name>
+          <Items>
+            <FlexPanelAp action="edit" oid="7N72Yuclcb">
+              <Name>Flex容器</Name>
+            </FlexPanelAp>
+            <ToolbarAp action="edit" oid="FohRnuDXx2">
+              <ParentId>7N72Yuclcb</ParentId>
+            </ToolbarAp>
+            <FieldAp action="edit" oid="9C4kigUspT">
+              <Name>仅显示不完整人员</Name>
+            </FieldAp>
+            <BarItemAp action="edit" oid="O57MNyJh7N">
+              <Name>一键全选</Name>
+            </BarItemAp>
+            <BarItemAp action="edit" oid="LftJkuxko0">
+              <Name>发送提醒</Name>
+            </BarItemAp>
+            <BarItemAp action="edit" oid="IdKyssXPkz">
+              <Name>简历下载</Name>
+            </BarItemAp>
+            <FieldAp action="edit" oid="aPkw4UClHa">
+              <Name>家庭信息:与本人关系</Name>
+            </FieldAp>
+            <FieldAp action="edit" oid="UwplRFOtOX">
+              <Name>紧急联系人:手机</Name>
+            </FieldAp>
+            <FieldAp action="edit" oid="C0eZpBq2MH">
+              <Name>紧急联系人:联系人</Name>
+            </FieldAp>
+            <FieldAp action="edit" oid="pSnkmbm0do">
+              <Name>联系方式:公司邮箱</Name>
+            </FieldAp>
+            <FieldAp action="edit" oid="4Km2uBqeQ4">
+              <Name>联系方式:移动电话1</Name>
+            </FieldAp>
+            <FieldAp action="edit" oid="jy4QXplwdU">
+              <Name>履历记录:履历中途时间断档</Name>
+            </FieldAp>
+            <FieldAp action="edit" oid="WLLNM43kyM">
+              <Name>履历记录:履历开始时间断档</Name>
+            </FieldAp>
+            <FieldAp action="edit" oid="V2n9ayPBpE">
+              <Name>人员基本信息:婚姻状况</Name>
+            </FieldAp>
+            <FieldAp action="edit" oid="NG02e3HwJH">
+              <Name>人员基本信息:政治面貌</Name>
+            </FieldAp>
+            <FieldAp action="edit" oid="oJKhjQhzQa">
+              <Name>人员基本信息:年龄</Name>
+            </FieldAp>
+            <FieldAp action="edit" oid="TaDsJwhpQ5">
+              <Name>人员基本信息:参加工作日期</Name>
+            </FieldAp>
+            <FieldAp action="edit" oid="ejGgu2BzRv">
+              <Name>人员基本信息:常住地址</Name>
+            </FieldAp>
+            <FieldAp action="edit" oid="G0z4EjpxO2">
+              <Name>人员基本信息:家庭住址</Name>
+            </FieldAp>
+            <FieldAp action="edit" oid="YOzQmMvxme">
+              <Name>人员基本信息:户口所在地</Name>
+            </FieldAp>
+            <FieldAp action="edit" oid="ssT055rPwp">
+              <Name>人员基本信息:入党(团)日期</Name>
+            </FieldAp>
+            <FieldAp action="edit" oid="8RkS2WFdn0">
+              <Name>人员基本信息:出生地</Name>
+            </FieldAp>
+            <FieldAp action="edit" oid="hTNAiRHJHy">
+              <Name>学历信息:学位</Name>
+            </FieldAp>
+            <FieldAp action="edit" oid="LazMxdXBwr">
+              <Name>学历信息:学历</Name>
+            </FieldAp>
+            <FieldAp action="edit" oid="uEU3cFtH28">
+              <Name>全选/全消</Name>
+            </FieldAp>
+            <EntryFieldAp action="edit" oid="m54LhSuQZe">
+              <Name>personid</Name>
+            </EntryFieldAp>
+            <EntryFieldAp action="edit" oid="TjNSVJ6ab7">
+              <Name>人事id</Name>
+            </EntryFieldAp>
+            <EntryFieldAp action="edit" oid="zvoab61WNg">
+              <Name>公司</Name>
+            </EntryFieldAp>
+            <EntryFieldAp action="edit" oid="XypUtf1260">
+              <Name>部门</Name>
+            </EntryFieldAp>
+            <EntryFieldAp action="edit" oid="SnQelnw9R2">
+              <Name>姓名</Name>
+            </EntryFieldAp>
+            <EntryFieldAp action="edit" oid="Hb9fvKuCpO">
+              <Name>岗位</Name>
+            </EntryFieldAp>
+            <EntryFieldAp action="edit" oid="XwlYS3HRS3">
+              <Name>岗位层级</Name>
+            </EntryFieldAp>
+            <EntryFieldAp action="edit" oid="GalvfxfujK">
+              <Name>人员类型</Name>
+            </EntryFieldAp>
+            <EntryFieldAp action="edit" oid="xYszM5HCLG">
+              <Name>简历信息完整度</Name>
+            </EntryFieldAp>
+            <EntryFieldAp action="edit" oid="BJYr7Dsy8Y">
+              <Name>缺少信息</Name>
+            </EntryFieldAp>
+            <EntryFieldAp action="edit" oid="e82YhpuHmi7o8tVwOx">
+              <Name>工号</Name>
+            </EntryFieldAp>
+          </Items>
+        </FormMetadata>
+      </DataXml>
+      <Name>Statement Template</Name>
+      <Id>3BMFUD1Z2/AH</Id>
+      <LocaleId>en_US</LocaleId>
+    </DesignFormMetaL>
+    <DesignEntityMetaL>
+      <Number>tdkw_personfileintegrity</Number>
+      <PkId>3T+K3G+BC571</PkId>
+      <DataXml>
+        <EntityMetadata>
+          <Items>
+            <ReportEntity action="edit" oid="1b760aa100003cac">
+              <PermissionDimension>
+                <PermissionDimension>
+                  <Name>维度控制</Name>
+                </PermissionDimension>
+              </PermissionDimension>
+              <PermissionControl>
+                <PermissionControl>
+                  <Name>控制功能权限</Name>
+                </PermissionControl>
+              </PermissionControl>
+              <Operations>
+                <Operation action="edit" oid="1H856POC68R4">
+                  <ConfirmMsg>是否引出数据</ConfirmMsg>
+                </Operation>
+                <Operation action="edit" oid="3BPKBJ5VZA46">
+                  <Name>发送提醒</Name>
+                </Operation>
+                <Operation action="edit" oid="3H=O2J/G1J+1">
+                  <Name>简历下载</Name>
+                </Operation>
+                <Operation action="edit" oid="3P9+ZAPBCIIN">
+                  <Name>一键全选</Name>
+                </Operation>
+              </Operations>
+            </ReportEntity>
+            <OrgField action="edit" oid="zvoab61WNg">
+              <Name>公司</Name>
+            </OrgField>
+            <OrgField action="edit" oid="XypUtf1260">
+              <Name>部门</Name>
+            </OrgField>
+            <BasedataField action="edit" oid="Hb9fvKuCpO">
+              <Name>岗位</Name>
+            </BasedataField>
+            <ComboField action="edit" oid="XwlYS3HRS3">
+              <Name>岗位层级</Name>
+              <Items>
+                <ComboItem action="edit" oid="1">
+                  <Caption>集团高管</Caption>
+                </ComboItem>
+                <ComboItem action="edit" oid="2">
+                  <Caption>行业高管</Caption>
+                </ComboItem>
+                <ComboItem action="edit" oid="3">
+                  <Caption>其他高管</Caption>
+                </ComboItem>
+                <ComboItem action="edit" oid="4">
+                  <Caption>中层</Caption>
+                </ComboItem>
+                <ComboItem action="edit" oid="5">
+                  <Caption>基层</Caption>
+                </ComboItem>
+              </Items>
+            </ComboField>
+            <BasedataField action="edit" oid="GalvfxfujK">
+              <Name>人员类型</Name>
+            </BasedataField>
+            <MuliLangTextField action="edit" oid="SnQelnw9R2">
+              <Name>姓名</Name>
+            </MuliLangTextField>
+            <TextField action="edit" oid="TjNSVJ6ab7">
+              <Name>人事id</Name>
+            </TextField>
+            <CheckBoxField action="edit" oid="uEU3cFtH28">
+              <Name>全选/全消</Name>
+            </CheckBoxField>
+            <CheckBoxField action="edit" oid="aPkw4UClHa">
+              <Name>家庭信息:与本人关系</Name>
+            </CheckBoxField>
+            <CheckBoxField action="edit" oid="UwplRFOtOX">
+              <Name>紧急联系人:手机</Name>
+            </CheckBoxField>
+            <CheckBoxField action="edit" oid="C0eZpBq2MH">
+              <Name>紧急联系人:联系人</Name>
+            </CheckBoxField>
+            <CheckBoxField action="edit" oid="pSnkmbm0do">
+              <Name>联系方式:公司邮箱</Name>
+            </CheckBoxField>
+            <CheckBoxField action="edit" oid="4Km2uBqeQ4">
+              <Name>联系方式:移动电话1</Name>
+            </CheckBoxField>
+            <CheckBoxField action="edit" oid="jy4QXplwdU">
+              <Name>履历记录:履历中途时间断档</Name>
+            </CheckBoxField>
+            <CheckBoxField action="edit" oid="WLLNM43kyM">
+              <Name>履历记录:履历开始时间断档</Name>
+            </CheckBoxField>
+            <CheckBoxField action="edit" oid="V2n9ayPBpE">
+              <Name>人员基本信息:婚姻状况</Name>
+            </CheckBoxField>
+            <CheckBoxField action="edit" oid="NG02e3HwJH">
+              <Name>人员基本信息:政治面貌</Name>
+            </CheckBoxField>
+            <CheckBoxField action="edit" oid="oJKhjQhzQa">
+              <Name>人员基本信息:年龄</Name>
+            </CheckBoxField>
+            <CheckBoxField action="edit" oid="TaDsJwhpQ5">
+              <Name>人员基本信息:参加工作日期</Name>
+            </CheckBoxField>
+            <CheckBoxField action="edit" oid="ejGgu2BzRv">
+              <Name>人员基本信息:常住地址</Name>
+            </CheckBoxField>
+            <CheckBoxField action="edit" oid="G0z4EjpxO2">
+              <Name>人员基本信息:家庭住址</Name>
+            </CheckBoxField>
+            <CheckBoxField action="edit" oid="YOzQmMvxme">
+              <Name>人员基本信息:户口所在地</Name>
+            </CheckBoxField>
+            <CheckBoxField action="edit" oid="ssT055rPwp">
+              <Name>人员基本信息:入党(团)日期</Name>
+            </CheckBoxField>
+            <CheckBoxField action="edit" oid="8RkS2WFdn0">
+              <Name>人员基本信息:出生地</Name>
+            </CheckBoxField>
+            <CheckBoxField action="edit" oid="hTNAiRHJHy">
+              <Name>学历信息:学位</Name>
+            </CheckBoxField>
+            <CheckBoxField action="edit" oid="LazMxdXBwr">
+              <Name>学历信息:学历</Name>
+            </CheckBoxField>
+            <TextField action="edit" oid="m54LhSuQZe">
+              <Name>personid</Name>
+            </TextField>
+            <TextField action="edit" oid="xYszM5HCLG">
+              <Name>简历信息完整度</Name>
+            </TextField>
+            <CheckBoxField action="edit" oid="9C4kigUspT">
+              <Name>仅显示不完整人员</Name>
+            </CheckBoxField>
+            <TextField action="edit" oid="BJYr7Dsy8Y">
+              <Name>缺少信息</Name>
+            </TextField>
+            <TextField action="edit" oid="e82YhpuHmi7o8tVwOx">
+              <Name>工号</Name>
+            </TextField>
+          </Items>
+        </EntityMetadata>
+      </DataXml>
+      <Name>Statement Template</Name>
+      <Id>3BMFUD1Z2/AH</Id>
+      <LocaleId>en_US</LocaleId>
+    </DesignEntityMetaL>
+  </DesignMetas>
+  <Version>1703498293684</Version>
+  <BOSVersion>1.0</BOSVersion>
+</DeployMetadata>

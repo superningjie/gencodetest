@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DeployMetadata>
+  <MasterId>3EX1XT9V1+I8</MasterId>
+  <Id>3EX1XT9V1+I8</Id>
+  <DesignMetas>
+    <DesignFormMetaL>
+      <Number>tdkw_salaryinfo_pc</Number>
+      <PkId>3EXF9EWQROBC</PkId>
+      <DataXml>
+        <FormMetadata/>
+      </DataXml>
+      <Name>薪酬信息PC端</Name>
+      <Id>3EX1XT9V1+I8</Id>
+      <LocaleId>zh_CN</LocaleId>
+    </DesignFormMetaL>
+    <DesignEntityMetaL>
+      <Number>tdkw_salaryinfo_pc</Number>
+      <PkId>3EXF9EY7S=RA</PkId>
+      <DataXml>
+        <EntityMetadata/>
+      </DataXml>
+      <Name>薪酬信息PC端</Name>
+      <Id>3EX1XT9V1+I8</Id>
+      <LocaleId>zh_CN</LocaleId>
+    </DesignEntityMetaL>
+  </DesignMetas>
+  <Version>1689834786101</Version>
+  <BOSVersion>1.0</BOSVersion>
+</DeployMetadata>

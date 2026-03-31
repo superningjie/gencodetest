@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DeployMetadata>
+  <MasterId>2WMV+OLJEQYT</MasterId>
+  <Id>4HH/3S6K=B=B</Id>
+  <DesignMetas>
+    <DesignFormMetaL>
+      <Number>tdkw_hrobs_card_ext</Number>
+      <PkId>4HH/5BHT5RPK</PkId>
+      <DataXml>
+        <FormMetadata/>
+      </DataXml>
+      <Name>卡片</Name>
+      <Id>4HH/3S6K=B=B</Id>
+      <LocaleId>zh_CN</LocaleId>
+    </DesignFormMetaL>
+    <DesignEntityMetaL>
+      <Number>tdkw_hrobs_card_ext</Number>
+      <PkId>4HH/5BPEHKR=</PkId>
+      <DataXml>
+        <EntityMetadata/>
+      </DataXml>
+      <Name>卡片</Name>
+      <Id>4HH/3S6K=B=B</Id>
+      <LocaleId>zh_CN</LocaleId>
+    </DesignEntityMetaL>
+  </DesignMetas>
+  <Version>1730183060414</Version>
+  <BOSVersion>1.0</BOSVersion>
+</DeployMetadata>

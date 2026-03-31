@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DeployMetadata>
+  <MasterId>45OE+1TCJLSX</MasterId>
+  <Id>45OE+1TCJLSX</Id>
+  <DesignMetas>
+    <DesignFormMetaL>
+      <Number>cea_dimassesser</Number>
+      <PkId>4=0FGM9NQPOE</PkId>
+      <DataXml>
+        <FormMetadata/>
+      </DataXml>
+      <Name>维度测评人</Name>
+      <Id>45OE+1TCJLSX</Id>
+      <LocaleId>zh_CN</LocaleId>
+    </DesignFormMetaL>
+    <DesignEntityMetaL>
+      <Number>cea_dimassesser</Number>
+      <PkId>4=0FGM=OM=GA</PkId>
+      <DataXml>
+        <EntityMetadata/>
+      </DataXml>
+      <Name>维度测评人</Name>
+      <Id>45OE+1TCJLSX</Id>
+      <LocaleId>zh_CN</LocaleId>
+    </DesignEntityMetaL>
+  </DesignMetas>
+  <Version>1721982928726</Version>
+  <BOSVersion>1.0</BOSVersion>
+</DeployMetadata>

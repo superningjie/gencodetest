@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DeployMetadata>
+  <MasterId>3=QJWLSB/ZI=</MasterId>
+  <Id>3=QJWLSB/ZI=</Id>
+  <DesignMetas>
+    <DesignFormMetaL>
+      <Number>tdkw_myteam2</Number>
+      <PkId>3COX2=JWGDHL</PkId>
+      <DataXml>
+        <FormMetadata>
+          <Items>
+            <FlexPanelAp action="edit" oid="Fy43gzPozu">
+              <Name>Flex容器</Name>
+            </FlexPanelAp>
+            <FlexPanelAp action="edit" oid="kEGDycU4qZ">
+              <Name>Flex容器</Name>
+            </FlexPanelAp>
+            <FlexPanelAp action="edit" oid="It2ITaDwrM">
+              <Name>Flex容器</Name>
+            </FlexPanelAp>
+            <FlexPanelAp action="edit" oid="yBGt2kPkHa">
+              <Name>Flex容器</Name>
+            </FlexPanelAp>
+            <FlexPanelAp action="edit" oid="pEicyxy8Q6">
+              <Name>Flex容器</Name>
+            </FlexPanelAp>
+            <FlexPanelAp action="edit" oid="rvkB4X6EWZ">
+              <Name>真實標題區</Name>
+            </FlexPanelAp>
+            <FlexPanelAp action="edit" oid="7cXDisHpP6">
+              <Name>真實內容區</Name>
+            </FlexPanelAp>
+            <ImageAp action="edit" oid="y02jHUHUzb">
+              <Name>圖片展示</Name>
+            </ImageAp>
+            <LabelAp action="edit" oid="8LOQ70326Q">
+              <Name>團隊考勤</Name>
+            </LabelAp>
+            <ImageAp action="edit" oid="8v9bfIVGb7">
+              <Name>圖片展示</Name>
+            </ImageAp>
+            <LabelAp action="edit" oid="FwY3cdQvtj">
+              <Name>我的團隊</Name>
+            </LabelAp>
+            <ImageAp action="edit" oid="bwLIscCqL2">
+              <Name>圖片展示</Name>
+            </ImageAp>
+            <LabelAp action="edit" oid="uwK3iqkvtj">
+              <Name>團隊績效</Name>
+            </LabelAp>
+            <LabelAp action="edit" oid="u4veP2KElt">
+              <Name>我的團隊</Name>
+            </LabelAp>
+            <ImageAp action="edit" oid="mok1pKvIpw">
+              <Name>圖片展示</Name>
+            </ImageAp>
+            <LabelAp action="edit" oid="Qn7SUp6560">
+              <Name>團隊培訓</Name>
+            </LabelAp>
+          </Items>
+        </FormMetadata>
+      </DataXml>
+      <Name>卡片模板</Name>
+      <Id>3=QJWLSB/ZI=</Id>
+      <LocaleId>zh_TW</LocaleId>
+    </DesignFormMetaL>
+    <DesignEntityMetaL>
+      <Number>tdkw_myteam2</Number>
+      <PkId>3COX2=KIUJ7X</PkId>
+      <DataXml>
+        <EntityMetadata/>
+      </DataXml>
+      <Name>卡片模板</Name>
+      <Id>3=QJWLSB/ZI=</Id>
+      <LocaleId>zh_TW</LocaleId>
+    </DesignEntityMetaL>
+  </DesignMetas>
+  <Version>1684812029567</Version>
+  <BOSVersion>1.0</BOSVersion>
+</DeployMetadata>

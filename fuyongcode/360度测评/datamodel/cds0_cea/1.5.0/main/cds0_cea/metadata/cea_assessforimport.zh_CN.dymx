@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DeployMetadata>
+  <MasterId>482F8UHDN6U4</MasterId>
+  <Id>482F8UHDN6U4</Id>
+  <DesignMetas>
+    <DesignFormMetaL>
+      <Number>cea_assessforimport</Number>
+      <PkId>4=N+9DAUS2R=</PkId>
+      <DataXml>
+        <FormMetadata/>
+      </DataXml>
+      <Name>引入测评表</Name>
+      <Id>482F8UHDN6U4</Id>
+      <LocaleId>zh_CN</LocaleId>
+    </DesignFormMetaL>
+    <DesignEntityMetaL>
+      <Number>cea_assessforimport</Number>
+      <PkId>4=N+9E+7OG/J</PkId>
+      <DataXml>
+        <EntityMetadata/>
+      </DataXml>
+      <Name>引入测评表</Name>
+      <Id>482F8UHDN6U4</Id>
+      <LocaleId>zh_CN</LocaleId>
+    </DesignEntityMetaL>
+  </DesignMetas>
+  <Version>1722568486454</Version>
+  <BOSVersion>1.0</BOSVersion>
+</DeployMetadata>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DeployMetadata>
+  <MasterId>3NBUFM8QBL/Y</MasterId>
+  <Id>3NBUFM8QBL/Y</Id>
+  <DesignMetas>
+    <DesignFormMetaL>
+      <Number>tdkw_opera_monitor_log</Number>
+      <PkId>3Y=PHWE2SJ/6</PkId>
+      <DataXml>
+        <FormMetadata/>
+      </DataXml>
+      <Name>监控日志表</Name>
+      <Id>3NBUFM8QBL/Y</Id>
+      <LocaleId>zh_CN</LocaleId>
+    </DesignFormMetaL>
+    <DesignEntityMetaL>
+      <Number>tdkw_opera_monitor_log</Number>
+      <PkId>3Y=PHWFDJB03</PkId>
+      <DataXml>
+        <EntityMetadata/>
+      </DataXml>
+      <Name>监控日志表</Name>
+      <Id>3NBUFM8QBL/Y</Id>
+      <LocaleId>zh_CN</LocaleId>
+    </DesignEntityMetaL>
+  </DesignMetas>
+  <Version>1708652384667</Version>
+  <BOSVersion>1.0</BOSVersion>
+</DeployMetadata>

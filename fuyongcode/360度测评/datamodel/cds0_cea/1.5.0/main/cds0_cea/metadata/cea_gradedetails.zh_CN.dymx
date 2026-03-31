@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DeployMetadata>
+  <MasterId>475F=993/YQV</MasterId>
+  <Id>475F=993/YQV</Id>
+  <DesignMetas>
+    <DesignFormMetaL>
+      <Number>cea_gradedetails</Number>
+      <PkId>4=3RSLZR6D4B</PkId>
+      <DataXml>
+        <FormMetadata/>
+      </DataXml>
+      <Name>打分详情页</Name>
+      <Id>475F=993/YQV</Id>
+      <LocaleId>zh_CN</LocaleId>
+    </DesignFormMetaL>
+    <DesignEntityMetaL>
+      <Number>cea_gradedetails</Number>
+      <PkId>4=3RSM1CLLAL</PkId>
+      <DataXml>
+        <EntityMetadata/>
+      </DataXml>
+      <Name>打分详情页</Name>
+      <Id>475F=993/YQV</Id>
+      <LocaleId>zh_CN</LocaleId>
+    </DesignEntityMetaL>
+  </DesignMetas>
+  <Version>1722065428032</Version>
+  <BOSVersion>1.0</BOSVersion>
+</DeployMetadata>

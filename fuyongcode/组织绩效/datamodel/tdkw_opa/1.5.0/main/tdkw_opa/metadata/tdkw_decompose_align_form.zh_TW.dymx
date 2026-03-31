@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DeployMetadata>
+  <MasterId>4BVQI=HJ1UWU</MasterId>
+  <Id>4BVQI=HJ1UWU</Id>
+  <DesignMetas>
+    <DesignFormMetaL>
+      <Number>tdkw_decompose_align_form</Number>
+      <PkId>4BWG/YYUY8TG</PkId>
+      <DataXml>
+        <FormMetadata>
+          <Name>指標分解對齊嵌套表單</Name>
+          <Items>
+            <FormAp action="edit" oid="4BVQI=H5K6T0">
+              <Name>指標分解對齊嵌套表單</Name>
+            </FormAp>
+            <TabAp action="edit" oid="NlQQugOQa5sgUE5vg3">
+              <Name>頁簽控件</Name>
+            </TabAp>
+          </Items>
+        </FormMetadata>
+      </DataXml>
+      <Name>指標分解對齊嵌套表單</Name>
+      <Id>4BVQI=HJ1UWU</Id>
+      <LocaleId>zh_TW</LocaleId>
+    </DesignFormMetaL>
+    <DesignEntityMetaL>
+      <Number>tdkw_decompose_align_form</Number>
+      <PkId>4BWG/YZKYL/U</PkId>
+      <DataXml>
+        <EntityMetadata>
+          <Name>指標分解對齊嵌套表單</Name>
+          <Items>
+            <MainEntity action="edit" oid="4BVQI=I/6YIN">
+              <Operations>
+                <Operation action="edit" oid="4BWG/T0QHN08">
+                  <Name>關閉</Name>
+                </Operation>
+              </Operations>
+              <Name>指標分解對齊嵌套表單</Name>
+            </MainEntity>
+          </Items>
+        </EntityMetadata>
+      </DataXml>
+      <Name>指標分解對齊嵌套表單</Name>
+      <Id>4BVQI=HJ1UWU</Id>
+      <LocaleId>zh_TW</LocaleId>
+    </DesignEntityMetaL>
+  </DesignMetas>
+  <Version>1724745219497</Version>
+  <BOSVersion>1.0</BOSVersion>
+</DeployMetadata>

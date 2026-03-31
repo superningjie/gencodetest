@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DeployMetadata>
+  <MasterId>3ZX3ZZ4TPARM</MasterId>
+  <Id>3ZX3ZZ4TPARM</Id>
+  <DesignMetas>
+    <DesignFormMetaL>
+      <Number>dgdl_plancollect</Number>
+      <PkId>4HL/8T1+D628</PkId>
+      <DataXml>
+        <FormMetadata/>
+      </DataXml>
+      <Name>年度编制职级汇总表</Name>
+      <Id>3ZX3ZZ4TPARM</Id>
+      <LocaleId>zh_CN</LocaleId>
+    </DesignFormMetaL>
+    <DesignEntityMetaL>
+      <Number>dgdl_plancollect</Number>
+      <PkId>4HL/8T3DNZEA</PkId>
+      <DataXml>
+        <EntityMetadata/>
+      </DataXml>
+      <Name>年度编制职级汇总表</Name>
+      <Id>3ZX3ZZ4TPARM</Id>
+      <LocaleId>zh_CN</LocaleId>
+    </DesignEntityMetaL>
+  </DesignMetas>
+  <Version>1730282646285</Version>
+  <BOSVersion>1.0</BOSVersion>
+</DeployMetadata>

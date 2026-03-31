@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DeployMetadata>
+  <MasterId>3GIFMTR3JBBY</MasterId>
+  <Id>3GIFMTR3JBBY</Id>
+  <DesignMetas>
+    <DesignFormMetaL>
+      <Number>tdkw_depart_report</Number>
+      <PkId>4K17C74901SD</PkId>
+      <DataXml>
+        <FormMetadata/>
+      </DataXml>
+      <Name>离职分析详情报表</Name>
+      <Id>3GIFMTR3JBBY</Id>
+      <LocaleId>zh_CN</LocaleId>
+    </DesignFormMetaL>
+    <DesignEntityMetaL>
+      <Number>tdkw_depart_report</Number>
+      <PkId>4K17C78BKBY7</PkId>
+      <DataXml>
+        <EntityMetadata/>
+      </DataXml>
+      <Name>离职分析详情报表</Name>
+      <Id>3GIFMTR3JBBY</Id>
+      <LocaleId>zh_CN</LocaleId>
+    </DesignEntityMetaL>
+  </DesignMetas>
+  <Version>1732676529073</Version>
+  <BOSVersion>1.0</BOSVersion>
+</DeployMetadata>

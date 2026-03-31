@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DeployMetadata>
+  <MasterId>3EX/WOT3GY4Z</MasterId>
+  <Id>3EX/WOT3GY4Z</Id>
+  <DesignMetas>
+    <DesignFormMetaL>
+      <Number>tdkw_leaguecommittee_pc</Number>
+      <PkId>3EX/XNHT0GLH</PkId>
+      <DataXml>
+        <FormMetadata/>
+      </DataXml>
+      <Name>团委PC端</Name>
+      <Id>3EX/WOT3GY4Z</Id>
+      <LocaleId>zh_CN</LocaleId>
+    </DesignFormMetaL>
+    <DesignEntityMetaL>
+      <Number>tdkw_leaguecommittee_pc</Number>
+      <PkId>3EX/XNIQ=N6W</PkId>
+      <DataXml>
+        <EntityMetadata/>
+      </DataXml>
+      <Name>团委PC端</Name>
+      <Id>3EX/WOT3GY4Z</Id>
+      <LocaleId>zh_CN</LocaleId>
+    </DesignEntityMetaL>
+  </DesignMetas>
+  <Version>1689824352540</Version>
+  <BOSVersion>1.0</BOSVersion>
+</DeployMetadata>

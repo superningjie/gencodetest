@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DeployMetadata>
+  <MasterId>3UGN=A9+23FD</MasterId>
+  <Id>3UGN=A9+23FD</Id>
+  <DesignMetas>
+    <DesignFormMetaL>
+      <Number>tdkw_hrobs_pcpwdinit</Number>
+      <PkId>3UYJVYYI95GC</PkId>
+      <DataXml>
+        <FormMetadata/>
+      </DataXml>
+      <Name>简历薪资初始化密码弹窗</Name>
+      <Id>3UGN=A9+23FD</Id>
+      <LocaleId>zh_CN</LocaleId>
+    </DesignFormMetaL>
+    <DesignEntityMetaL>
+      <Number>tdkw_hrobs_pcpwdinit</Number>
+      <PkId>3UYJVYYWRTK5</PkId>
+      <DataXml>
+        <EntityMetadata/>
+      </DataXml>
+      <Name>简历薪资初始化密码弹窗</Name>
+      <Id>3UGN=A9+23FD</Id>
+      <LocaleId>zh_CN</LocaleId>
+    </DesignEntityMetaL>
+  </DesignMetas>
+  <Version>1705389197587</Version>
+  <BOSVersion>1.0</BOSVersion>
+</DeployMetadata>

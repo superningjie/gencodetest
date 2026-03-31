@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DeployMetadata>
+  <MasterId>3VL68+WTYR4Y</MasterId>
+  <Id>3VL68+WTYR4Y</Id>
+  <DesignMetas>
+    <DesignFormMetaL>
+      <Number>dgdl_planyear_detail</Number>
+      <PkId>4I/9+Z2XU=6R</PkId>
+      <DataXml>
+        <FormMetadata/>
+      </DataXml>
+      <Name>年度编制详情</Name>
+      <Id>3VL68+WTYR4Y</Id>
+      <LocaleId>zh_CN</LocaleId>
+    </DesignFormMetaL>
+    <DesignEntityMetaL>
+      <Number>dgdl_planyear_detail</Number>
+      <PkId>4I/9+ZC8ALB/</PkId>
+      <DataXml>
+        <EntityMetadata/>
+      </DataXml>
+      <Name>年度编制详情</Name>
+      <Id>3VL68+WTYR4Y</Id>
+      <LocaleId>zh_CN</LocaleId>
+    </DesignEntityMetaL>
+  </DesignMetas>
+  <Version>1730686983064</Version>
+  <BOSVersion>1.0</BOSVersion>
+</DeployMetadata>

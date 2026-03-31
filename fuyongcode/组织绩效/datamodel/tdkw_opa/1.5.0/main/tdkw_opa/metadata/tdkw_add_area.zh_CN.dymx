@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DeployMetadata>
+  <MasterId>4B/GBYMOBA42</MasterId>
+  <Id>4B/GBYMOBA42</Id>
+  <DesignMetas>
+    <DesignFormMetaL>
+      <Number>tdkw_add_area</Number>
+      <PkId>4EMEH++JMS0K</PkId>
+      <DataXml>
+        <FormMetadata/>
+      </DataXml>
+      <Name>添加区域</Name>
+      <Id>4B/GBYMOBA42</Id>
+      <LocaleId>zh_CN</LocaleId>
+    </DesignFormMetaL>
+    <DesignEntityMetaL>
+      <Number>tdkw_add_area</Number>
+      <PkId>4EMEH+5PURJA</PkId>
+      <DataXml>
+        <EntityMetadata/>
+      </DataXml>
+      <Name>添加区域</Name>
+      <Id>4B/GBYMOBA42</Id>
+      <LocaleId>zh_CN</LocaleId>
+    </DesignEntityMetaL>
+  </DesignMetas>
+  <Version>1727406650843</Version>
+  <BOSVersion>1.0</BOSVersion>
+</DeployMetadata>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DeployMetadata>
+  <MasterId>3EXGY+0YMCQB</MasterId>
+  <Id>3EXGY+0YMCQB</Id>
+  <DesignMetas>
+    <DesignFormMetaL>
+      <Number>tdkw_ryxxjlwzd_pc</Number>
+      <PkId>3EXGYWM7MIQD</PkId>
+      <DataXml>
+        <FormMetadata/>
+      </DataXml>
+      <Name>人员信息简历完整度（%）PC端</Name>
+      <Id>3EXGY+0YMCQB</Id>
+      <LocaleId>zh_CN</LocaleId>
+    </DesignFormMetaL>
+    <DesignEntityMetaL>
+      <Number>tdkw_ryxxjlwzd_pc</Number>
+      <PkId>3EXGYWN8I25S</PkId>
+      <DataXml>
+        <EntityMetadata/>
+      </DataXml>
+      <Name>人员信息简历完整度（%）PC端</Name>
+      <Id>3EXGY+0YMCQB</Id>
+      <LocaleId>zh_CN</LocaleId>
+    </DesignEntityMetaL>
+  </DesignMetas>
+  <Version>1689835856888</Version>
+  <BOSVersion>1.0</BOSVersion>
+</DeployMetadata>

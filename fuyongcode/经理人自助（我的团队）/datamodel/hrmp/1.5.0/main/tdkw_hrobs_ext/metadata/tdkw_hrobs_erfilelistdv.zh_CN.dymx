@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DeployMetadata>
+  <MasterId>3JMYOCVIVXN=</MasterId>
+  <Id>3JMYOCVIVXN=</Id>
+  <DesignMetas>
+    <DesignFormMetaL>
+      <Number>tdkw_hrobs_erfilelistdv</Number>
+      <PkId>4NMZLO3AGDSZ</PkId>
+      <DataXml>
+        <FormMetadata/>
+      </DataXml>
+      <Name>pc端人员档案详细</Name>
+      <Id>3JMYOCVIVXN=</Id>
+      <LocaleId>zh_CN</LocaleId>
+    </DesignFormMetaL>
+    <DesignEntityMetaL>
+      <Number>tdkw_hrobs_erfilelistdv</Number>
+      <PkId>4NMZLO48QL1L</PkId>
+      <DataXml>
+        <EntityMetadata/>
+      </DataXml>
+      <Name>pc端人员档案详细</Name>
+      <Id>3JMYOCVIVXN=</Id>
+      <LocaleId>zh_CN</LocaleId>
+    </DesignEntityMetaL>
+  </DesignMetas>
+  <Version>1736153834108</Version>
+  <BOSVersion>1.0</BOSVersion>
+</DeployMetadata>

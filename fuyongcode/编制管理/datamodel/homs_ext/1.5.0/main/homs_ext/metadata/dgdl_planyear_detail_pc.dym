@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DeployMetadata>
+  <Multilanguage>false</Multilanguage>
+  <MasterId>3W3P9CUBVEE2</MasterId>
+  <BizappId>4E/7AN1DAFA1</BizappId>
+  <Id>3W3P9CUBVEE2</Id>
+  <DesignMetas>
+    <DesignFormMeta>
+      <DevType>0</DevType>
+      <ModifyDate>1730282939787</ModifyDate>
+      <DataXml>
+        <FormMetadata>
+          <Id>3W3P9CUBVEE2</Id>
+          <Key>dgdl_planyear_detail_pc</Key>
+          <ParentId>3VL68+WTYR4Y</ParentId>
+          <Name>编制审批页面</Name>
+          <InheritPath>00305e8b000006ac,0LI5VZUESHUD,3VL68+WTYR4Y</InheritPath>
+          <Items>
+            <BillFormAp action="edit" oid="00305e8b000005ac">
+              <Id>3W3P9CUBVEE2</Id>
+              <Name>编制审批页面</Name>
+              <Key>dgdl_planyear_detail_pc</Key>
+            </BillFormAp>
+            <TabPageAp action="edit" oid="CR9aNiWJFC">
+              <Index action="reset"/>
+            </TabPageAp>
+            <TabPageAp action="edit" oid="80NEEBxDA1">
+              <Index>1</Index>
+            </TabPageAp>
+            <FlexPanelAp action="edit" oid="sb5ReliwR1">
+              <BackColor>#ffffff</BackColor>
+            </FlexPanelAp>
+            <FieldAp action="edit" oid="Ea1Qa49hqwZ5lZsYUj">
+              <Index>13</Index>
+            </FieldAp>
+            <FieldAp action="edit" oid="3JI68HVdx4GDg3q8h9">
+              <Index>14</Index>
+            </FieldAp>
+            <FieldAp action="edit" oid="Y7Eg2fUfYhVn4HTu1d">
+              <Index>15</Index>
+            </FieldAp>
+            <FieldAp action="edit" oid="BQSZEFXGOyDamjn9St">
+              <Index>16</Index>
+            </FieldAp>
+            <FieldAp action="edit" oid="siE7f6zohs0OsH5Ph5">
+              <Invisible>true</Invisible>
+            </FieldAp>
+            <FieldsetPanelAp action="edit" oid="mqK0FWAH2I">
+              <Invisible action="reset"/>
+            </FieldsetPanelAp>
+          </Items>
+        </FormMetadata>
+      </DataXml>
+      <ModifierId>2027699484829418496</ModifierId>
+      <EntityId>3VL68+WTYR4Y</EntityId>
+      <ModelType>BillFormModel</ModelType>
+      <Isv>tdkw</Isv>
+      <Version>1730282939787</Version>
+      <ParentId>3VL68+WTYR4Y</ParentId>
+      <MasterId></MasterId>
+      <Number>dgdl_planyear_detail_pc</Number>
+      <BizappId>4E/7AN1DAFA1</BizappId>
+      <IsvSign></IsvSign>
+      <Id>3W3P9CUBVEE2</Id>
+      <InheritPath>00305e8b000006ac,0LI5VZUESHUD,3VL68+WTYR4Y</InheritPath>
+    </DesignFormMeta>
+  </DesignMetas>
+  <Version>1730282939787</Version>
+  <BOSVersion>1.0</BOSVersion>
+  <BizunitId>4HKZ/X71T/VS</BizunitId>
+</DeployMetadata>

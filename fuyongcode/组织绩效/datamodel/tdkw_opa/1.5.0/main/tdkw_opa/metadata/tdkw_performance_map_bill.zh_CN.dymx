@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DeployMetadata>
+  <MasterId>4C0T+=6V2N2E</MasterId>
+  <Id>4C0T+=6V2N2E</Id>
+  <DesignMetas>
+    <DesignFormMetaL>
+      <Number>tdkw_performance_map_bill</Number>
+      <PkId>4D7GVEO8DK76</PkId>
+      <DataXml>
+        <FormMetadata/>
+      </DataXml>
+      <Name>组织绩效地图单据</Name>
+      <Id>4C0T+=6V2N2E</Id>
+      <LocaleId>zh_CN</LocaleId>
+    </DesignFormMetaL>
+    <DesignEntityMetaL>
+      <Number>tdkw_performance_map_bill</Number>
+      <PkId>4D7GVEUUT3GW</PkId>
+      <DataXml>
+        <EntityMetadata/>
+      </DataXml>
+      <Name>组织绩效地图单据</Name>
+      <Id>4C0T+=6V2N2E</Id>
+      <LocaleId>zh_CN</LocaleId>
+    </DesignEntityMetaL>
+  </DesignMetas>
+  <Version>1726039633536</Version>
+  <BOSVersion>1.0</BOSVersion>
+</DeployMetadata>

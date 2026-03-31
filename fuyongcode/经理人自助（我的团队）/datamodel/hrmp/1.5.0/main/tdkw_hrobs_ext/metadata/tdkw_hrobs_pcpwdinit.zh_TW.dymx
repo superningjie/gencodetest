@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DeployMetadata>
+  <MasterId>3UGN=A9+23FD</MasterId>
+  <Id>3UGN=A9+23FD</Id>
+  <DesignMetas>
+    <DesignFormMetaL>
+      <Number>tdkw_hrobs_pcpwdinit</Number>
+      <PkId>3UYJVYYI94T3</PkId>
+      <DataXml>
+        <FormMetadata>
+          <Name>簡曆薪資初始化密碼彈窗</Name>
+          <Items>
+            <FormAp action="edit" oid="3UGN=A9+22S4">
+              <Name>簡曆薪資初始化密碼彈窗</Name>
+            </FormAp>
+            <FlexPanelAp action="edit" oid="paU2oTOYqa">
+              <Name>Flex容器</Name>
+            </FlexPanelAp>
+            <ButtonAp action="edit" oid="0NJiXW2Cvy">
+              <Name>確定</Name>
+            </ButtonAp>
+            <ButtonAp action="edit" oid="x6Kgd5fz0Y">
+              <Name>×</Name>
+            </ButtonAp>
+            <FlexPanelAp action="edit" oid="x604iJxNev">
+              <Name>Flex容器</Name>
+            </FlexPanelAp>
+            <FlexPanelAp action="edit" oid="ujUlsN1mDz">
+              <Name>Flex容器</Name>
+            </FlexPanelAp>
+            <FlexPanelAp action="edit" oid="yknwK7dNUZ">
+              <Name>Flex容器</Name>
+            </FlexPanelAp>
+            <FlexPanelAp action="edit" oid="3aoBBdu1hm">
+              <Name>Flex容器</Name>
+            </FlexPanelAp>
+            <ImageAp action="edit" oid="mDUOwDXj25">
+              <Name>圖片展示</Name>
+            </ImageAp>
+            <FlexPanelAp action="edit" oid="Xf7OTPS4Sw">
+              <Name>Flex容器</Name>
+            </FlexPanelAp>
+            <FlexPanelAp action="edit" oid="LAhNW19q5f">
+              <Name>Flex容器</Name>
+            </FlexPanelAp>
+            <FieldAp action="edit" oid="fCktYndpVL">
+              <Name>計薪人員id</Name>
+            </FieldAp>
+            <FlexPanelAp action="edit" oid="g4c2xfjaeW">
+              <Name>Flex容器</Name>
+            </FlexPanelAp>
+            <FieldAp action="edit" oid="7EiLdN7K6p">
+              <Name>請輸入新密碼</Name>
+            </FieldAp>
+            <LabelAp action="edit" oid="cuQ4oJBoGy">
+              <Name>Hi， 為保證信息安全，請先設置查詢密碼</Name>
+            </LabelAp>
+            <FieldAp action="edit" oid="XBwyMp3JW7">
+              <Name>確認密碼</Name>
+            </FieldAp>
+          </Items>
+        </FormMetadata>
+      </DataXml>
+      <Name>簡曆薪資初始化密碼彈窗</Name>
+      <Id>3UGN=A9+23FD</Id>
+      <LocaleId>zh_TW</LocaleId>
+    </DesignFormMetaL>
+    <DesignEntityMetaL>
+      <Number>tdkw_hrobs_pcpwdinit</Number>
+      <PkId>3UYJVYYWRU8E</PkId>
+      <DataXml>
+        <EntityMetadata>
+          <Name>簡曆薪資初始化密碼彈窗</Name>
+          <Items>
+            <MainEntity action="edit" oid="3UGN=A9XB8P9">
+              <Operations>
+                <Operation action="edit" oid="3UH133JNR2XS">
+                  <Name>確認</Name>
+                </Operation>
+              </Operations>
+              <Name>簡曆薪資初始化密碼彈窗</Name>
+            </MainEntity>
+            <TextField action="edit" oid="7EiLdN7K6p">
+              <EmptyText>請輸入新密碼</EmptyText>
+              <Name>請輸入新密碼</Name>
+            </TextField>
+            <TextField action="edit" oid="XBwyMp3JW7">
+              <EmptyText>請再次輸入新密碼</EmptyText>
+              <Name>確認密碼</Name>
+            </TextField>
+            <BigIntField action="edit" oid="fCktYndpVL">
+              <Name>計薪人員id</Name>
+            </BigIntField>
+          </Items>
+        </EntityMetadata>
+      </DataXml>
+      <Name>簡曆薪資初始化密碼彈窗</Name>
+      <Id>3UGN=A9+23FD</Id>
+      <LocaleId>zh_TW</LocaleId>
+    </DesignEntityMetaL>
+  </DesignMetas>
+  <Version>1705389197587</Version>
+  <BOSVersion>1.0</BOSVersion>
+</DeployMetadata>

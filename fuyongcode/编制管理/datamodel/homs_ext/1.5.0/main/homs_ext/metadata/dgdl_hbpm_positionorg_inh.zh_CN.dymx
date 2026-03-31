@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DeployMetadata>
+  <MasterId>3VYFYW0YR=YP</MasterId>
+  <Id>3VYFYW0YR=YP</Id>
+  <DesignMetas>
+    <DesignFormMetaL>
+      <Number>dgdl_hbpm_positionorg_inh</Number>
+      <PkId>4HL/5I36KF+Y</PkId>
+      <DataXml>
+        <FormMetadata/>
+      </DataXml>
+      <Name>编制组织树列表</Name>
+      <Id>3VYFYW0YR=YP</Id>
+      <LocaleId>zh_CN</LocaleId>
+    </DesignFormMetaL>
+    <DesignEntityMetaL>
+      <Number>dgdl_hbpm_positionorg_inh</Number>
+      <PkId>4HL/5I9WNBJ3</PkId>
+      <DataXml>
+        <EntityMetadata/>
+      </DataXml>
+      <Name>编制组织树列表</Name>
+      <Id>3VYFYW0YR=YP</Id>
+      <LocaleId>zh_CN</LocaleId>
+    </DesignEntityMetaL>
+  </DesignMetas>
+  <Version>1730282592617</Version>
+  <BOSVersion>1.0</BOSVersion>
+</DeployMetadata>

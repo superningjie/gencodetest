@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DeployMetadata>
+  <MasterId>47T16PE1O3MO</MasterId>
+  <Id>47T16PE1O3MO</Id>
+  <DesignMetas>
+    <DesignFormMetaL>
+      <Number>cea_processmanage</Number>
+      <PkId>4=0CUDLO28PM</PkId>
+      <DataXml>
+        <FormMetadata/>
+      </DataXml>
+      <Name>过程执行管理</Name>
+      <Id>47T16PE1O3MO</Id>
+      <LocaleId>zh_CN</LocaleId>
+    </DesignFormMetaL>
+    <DesignEntityMetaL>
+      <Number>cea_processmanage</Number>
+      <PkId>4=0CUDMOZT5/</PkId>
+      <DataXml>
+        <EntityMetadata/>
+      </DataXml>
+      <Name>过程执行管理</Name>
+      <Id>47T16PE1O3MO</Id>
+      <LocaleId>zh_CN</LocaleId>
+    </DesignEntityMetaL>
+  </DesignMetas>
+  <Version>1721981240089</Version>
+  <BOSVersion>1.0</BOSVersion>
+</DeployMetadata>

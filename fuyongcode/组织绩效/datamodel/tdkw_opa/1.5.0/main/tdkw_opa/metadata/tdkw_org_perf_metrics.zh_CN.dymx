@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DeployMetadata>
+  <MasterId>4AMXM1RJEHG=</MasterId>
+  <Id>4AMXM1RJEHG=</Id>
+  <DesignMetas>
+    <DesignFormMetaL>
+      <Number>tdkw_org_perf_metrics</Number>
+      <PkId>59DXT+A2279C</PkId>
+      <DataXml>
+        <FormMetadata/>
+      </DataXml>
+      <Name>组织绩效指标</Name>
+      <Id>4AMXM1RJEHG=</Id>
+      <LocaleId>zh_CN</LocaleId>
+    </DesignFormMetaL>
+    <DesignEntityMetaL>
+      <Number>tdkw_org_perf_metrics</Number>
+      <PkId>59DXT+J2TG9V</PkId>
+      <DataXml>
+        <EntityMetadata/>
+      </DataXml>
+      <Name>组织绩效指标</Name>
+      <Id>4AMXM1RJEHG=</Id>
+      <LocaleId>zh_CN</LocaleId>
+    </DesignEntityMetaL>
+  </DesignMetas>
+  <Version>1759218625065</Version>
+  <BOSVersion>1.0</BOSVersion>
+</DeployMetadata>

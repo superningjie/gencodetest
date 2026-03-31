@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DeployMetadata>
+  <MasterId>46K5582K9OJZ</MasterId>
+  <Id>46K5582K9OJZ</Id>
+  <DesignMetas>
+    <DesignFormMetaL>
+      <Number>cea_assactivity_list</Number>
+      <PkId>4=A55KGU7IBX</PkId>
+      <DataXml>
+        <FormMetadata/>
+      </DataXml>
+      <Name>测评活动</Name>
+      <Id>46K5582K9OJZ</Id>
+      <LocaleId>zh_CN</LocaleId>
+    </DesignFormMetaL>
+    <DesignEntityMetaL>
+      <Number>cea_assactivity_list</Number>
+      <PkId>4=A55L/6AEVZ</PkId>
+      <DataXml>
+        <EntityMetadata/>
+      </DataXml>
+      <Name>测评活动</Name>
+      <Id>46K5582K9OJZ</Id>
+      <LocaleId>zh_CN</LocaleId>
+    </DesignEntityMetaL>
+  </DesignMetas>
+  <Version>1722249419403</Version>
+  <BOSVersion>1.0</BOSVersion>
+</DeployMetadata>

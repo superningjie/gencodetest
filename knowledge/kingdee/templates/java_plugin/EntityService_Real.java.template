@@ -1,0 +1,107 @@
+/**
+ * {{entity_description}}实体服务
+ * 
+ * @author {{author}}
+ * @since {{date}}
+ */
+package {{package_name}};
+
+import kd.bos.dataentity.entity.DynamicObject;
+import kd.bos.dataentity.entity.DynamicObjectCollection;
+import kd.bos.orm.query.QCP;
+import kd.bos.orm.query.QFilter;
+import kd.bos.servicehelper.BusinessDataServiceHelper;
+import kd.bos.servicehelper.operation.SaveServiceHelper;
+
+import java.util.*;
+
+public class {{class_name}} {
+    
+    private static final String ENTITY_NAME = "{{entity_name}}";
+    
+    private static volatile {{class_name}} instance;
+    
+    /**
+     * 获取单例实例
+     */
+    public static {{class_name}} getInstance() {
+        if (instance == null) {
+            synchronized ({{class_name}}.class) {
+                if (instance == null) {
+                    instance = new {{class_name}}();
+                }
+            }
+        }
+        return instance;
+    }
+    
+    /**
+     * 根据主键查询
+     * @param pkId 主键ID
+     * @return 实体对象
+     */
+    public DynamicObject queryByPk(Long pkId) {
+        return BusinessDataServiceHelper.loadSingle(pkId, ENTITY_NAME);
+    }
+    
+    /**
+     * 根据主键列表查询
+     * @param pkIds 主键ID列表
+     * @return 实体对象数组
+     */
+    public DynamicObject[] queryByPks(List<Long> pkIds) {
+        return BusinessDataServiceHelper.load(pkIds.toArray(new Long[0]), ENTITY_NAME);
+    }
+    
+    /**
+     * 条件查询
+     * @param filters 查询条件
+     * @return 实体对象列表
+     */
+    public List<DynamicObject> query(List<QFilter> filters) {
+        DynamicObject[] results = BusinessDataServiceHelper.loadFromCache(ENTITY_NAME, filters.toArray(new QFilter[0]));
+        return results != null ? Arrays.asList(results) : new ArrayList<>();
+    }
+    
+    /**
+     * 保存单个实体
+     * @param entity 实体对象
+     * @return 保存后的实体
+     */
+    public DynamicObject saveOne(DynamicObject entity) {
+        return (DynamicObject) SaveServiceHelper.save(new DynamicObject[]{entity})[0];
+    }
+    
+    /**
+     * 批量保存
+     * @param entities 实体对象列表
+     * @return 保存后的实体数组
+     */
+    public DynamicObject[] save(List<DynamicObject> entities) {
+        return (DynamicObject[]) SaveServiceHelper.save(entities.toArray(new DynamicObject[0]));
+    }
+    
+    /**
+     * 删除
+     * @param pkIds 主键ID列表
+     */
+    public void delete(List<Long> pkIds) {
+        BusinessDataServiceHelper.delete(ENTITY_NAME, pkIds.toArray(new Long[0]));
+    }
+    
+{% for method in custom_methods %}
+    /**
+     * {{method.description}}
+{% for param in method.params %}
+     * @param {{param.name}} {{param.description}}
+{% endfor %}
+{% if method.return_type %}
+     * @return {{method.return_description}}
+{% endif %}
+     */
+    public {{method.return_type | default('void')}} {{method.name}}({{method.param_list}}) {
+        {{method.body}}
+    }
+    
+{% endfor %}
+}

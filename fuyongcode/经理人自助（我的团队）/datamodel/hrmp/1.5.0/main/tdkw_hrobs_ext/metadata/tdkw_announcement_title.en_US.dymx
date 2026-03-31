@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DeployMetadata>
+  <MasterId>3DV/XY0W/6EJ</MasterId>
+  <Id>3DV/XY0W/6EJ</Id>
+  <DesignMetas>
+    <DesignFormMetaL>
+      <Number>tdkw_announcement_title</Number>
+      <PkId>4CL7I9C+F8W0</PkId>
+      <DataXml>
+        <FormMetadata>
+          <Items>
+            <BasedataFormAp action="edit" oid="1942c188000064ac">
+              <ListMeta>
+                <FormMetadata>
+                  <Items>
+                    <ListColumnAp action="edit" oid="3I/94/N2R5IY">
+                      <Name>公告类型</Name>
+                    </ListColumnAp>
+                    <DateListColumnAp action="edit" oid="3I/966GWWNHW">
+                      <Name>创建时间</Name>
+                    </DateListColumnAp>
+                  </Items>
+                </FormMetadata>
+              </ListMeta>
+            </BasedataFormAp>
+            <FieldAp action="edit" oid="PjAJedd7ce">
+              <Name>标题</Name>
+            </FieldAp>
+            <FieldAp action="edit" oid="X09MqxfQkD">
+              <Name>公告类型</Name>
+            </FieldAp>
+            <FieldAp action="edit" oid="b24OfpBo53">
+              <Name>URL</Name>
+            </FieldAp>
+          </Items>
+        </FormMetadata>
+      </DataXml>
+      <Name>Basic Data Template</Name>
+      <Id>3DV/XY0W/6EJ</Id>
+      <LocaleId>en_US</LocaleId>
+    </DesignFormMetaL>
+    <DesignEntityMetaL>
+      <Number>tdkw_announcement_title</Number>
+      <PkId>4CL7I9DNNNJH</PkId>
+      <DataXml>
+        <EntityMetadata>
+          <Items>
+            <BasedataField action="edit" oid="X09MqxfQkD">
+              <Name>公告类型</Name>
+            </BasedataField>
+            <TextField action="edit" oid="PjAJedd7ce">
+              <Name>标题</Name>
+            </TextField>
+            <TextField action="edit" oid="b24OfpBo53">
+              <Name>URL</Name>
+            </TextField>
+          </Items>
+        </EntityMetadata>
+      </DataXml>
+      <Name>Basic Data Template</Name>
+      <Id>3DV/XY0W/6EJ</Id>
+      <LocaleId>en_US</LocaleId>
+    </DesignEntityMetaL>
+  </DesignMetas>
+  <Version>1725435861515</Version>
+  <BOSVersion>1.0</BOSVersion>
+</DeployMetadata>

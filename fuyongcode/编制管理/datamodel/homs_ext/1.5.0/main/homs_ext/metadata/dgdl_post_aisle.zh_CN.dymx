@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DeployMetadata>
+  <MasterId>37M03OURTEF/</MasterId>
+  <Id>37M03OURTEF/</Id>
+  <DesignMetas>
+    <DesignFormMetaL>
+      <Number>dgdl_post_aisle</Number>
+      <PkId>4BX31GTOLS/Z</PkId>
+      <DataXml>
+        <FormMetadata/>
+      </DataXml>
+      <Name>岗位通道</Name>
+      <Id>37M03OURTEF/</Id>
+      <LocaleId>zh_CN</LocaleId>
+    </DesignFormMetaL>
+    <DesignEntityMetaL>
+      <Number>dgdl_post_aisle</Number>
+      <PkId>4BX31H2/2VDW</PkId>
+      <DataXml>
+        <EntityMetadata/>
+      </DataXml>
+      <Name>岗位通道</Name>
+      <Id>37M03OURTEF/</Id>
+      <LocaleId>zh_CN</LocaleId>
+    </DesignEntityMetaL>
+  </DesignMetas>
+  <Version>1724761194816</Version>
+  <BOSVersion>1.0</BOSVersion>
+</DeployMetadata>

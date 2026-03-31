@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DeployMetadata>
+  <MasterId>4BZC/2FTXOQX</MasterId>
+  <Id>4BZC/2FTXOQX</Id>
+  <DesignMetas>
+    <DesignFormMetaL>
+      <Number>tdkw_use_annual_goal</Number>
+      <PkId>52TZH82KRJ7Y</PkId>
+      <DataXml>
+        <FormMetadata/>
+      </DataXml>
+      <Name>引用个人年度目标</Name>
+      <Id>4BZC/2FTXOQX</Id>
+      <LocaleId>zh_CN</LocaleId>
+    </DesignFormMetaL>
+    <DesignEntityMetaL>
+      <Number>tdkw_use_annual_goal</Number>
+      <PkId>52TZH89CFUM3</PkId>
+      <DataXml>
+        <EntityMetadata/>
+      </DataXml>
+      <Name>引用个人年度目标</Name>
+      <Id>4BZC/2FTXOQX</Id>
+      <LocaleId>zh_CN</LocaleId>
+    </DesignEntityMetaL>
+  </DesignMetas>
+  <Version>1752824942475</Version>
+  <BOSVersion>1.0</BOSVersion>
+</DeployMetadata>

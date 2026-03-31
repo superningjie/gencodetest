@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DeployMetadata>
+  <MasterId>3UGN=A9+23FD</MasterId>
+  <Id>3UGN=A9+23FD</Id>
+  <DesignMetas>
+    <DesignFormMetaL>
+      <Number>tdkw_hrobs_pcpwdinit</Number>
+      <PkId>3UYJVYYLWKNW</PkId>
+      <DataXml>
+        <FormMetadata>
+          <Name>简历薪资初始化密码弹窗</Name>
+          <Items>
+            <FormAp action="edit" oid="3UGN=A9+22S4">
+              <Name>简历薪资初始化密码弹窗</Name>
+            </FormAp>
+            <FlexPanelAp action="edit" oid="paU2oTOYqa">
+              <Name>Flex容器</Name>
+            </FlexPanelAp>
+            <ButtonAp action="edit" oid="0NJiXW2Cvy">
+              <Name>确定</Name>
+            </ButtonAp>
+            <ButtonAp action="edit" oid="x6Kgd5fz0Y">
+              <Name>×</Name>
+            </ButtonAp>
+            <FlexPanelAp action="edit" oid="x604iJxNev">
+              <Name>Flex容器</Name>
+            </FlexPanelAp>
+            <FlexPanelAp action="edit" oid="ujUlsN1mDz">
+              <Name>Flex容器</Name>
+            </FlexPanelAp>
+            <FlexPanelAp action="edit" oid="yknwK7dNUZ">
+              <Name>Flex容器</Name>
+            </FlexPanelAp>
+            <FlexPanelAp action="edit" oid="3aoBBdu1hm">
+              <Name>Flex容器</Name>
+            </FlexPanelAp>
+            <ImageAp action="edit" oid="mDUOwDXj25">
+              <Name>图片展示</Name>
+            </ImageAp>
+            <FlexPanelAp action="edit" oid="Xf7OTPS4Sw">
+              <Name>Flex容器</Name>
+            </FlexPanelAp>
+            <FlexPanelAp action="edit" oid="LAhNW19q5f">
+              <Name>Flex容器</Name>
+            </FlexPanelAp>
+            <FieldAp action="edit" oid="fCktYndpVL">
+              <Name>计薪人员id</Name>
+            </FieldAp>
+            <FlexPanelAp action="edit" oid="g4c2xfjaeW">
+              <Name>Flex容器</Name>
+            </FlexPanelAp>
+            <FieldAp action="edit" oid="7EiLdN7K6p">
+              <Name>请输入新密码</Name>
+            </FieldAp>
+            <LabelAp action="edit" oid="cuQ4oJBoGy">
+              <Name>Hi， 为保证信息安全，请先设置查询密码</Name>
+            </LabelAp>
+            <FieldAp action="edit" oid="XBwyMp3JW7">
+              <Name>确认密码</Name>
+            </FieldAp>
+          </Items>
+        </FormMetadata>
+      </DataXml>
+      <Name>简历薪资初始化密码弹窗</Name>
+      <Id>3UGN=A9+23FD</Id>
+      <LocaleId>en_US</LocaleId>
+    </DesignFormMetaL>
+    <DesignEntityMetaL>
+      <Number>tdkw_hrobs_pcpwdinit</Number>
+      <PkId>3UYJVYYWRTK6</PkId>
+      <DataXml>
+        <EntityMetadata>
+          <Name>简历薪资初始化密码弹窗</Name>
+          <Items>
+            <MainEntity action="edit" oid="3UGN=A9XB8P9">
+              <Operations>
+                <Operation action="edit" oid="3UH133JNR2XS">
+                  <Name>确认</Name>
+                </Operation>
+              </Operations>
+              <Name>简历薪资初始化密码弹窗</Name>
+            </MainEntity>
+            <TextField action="edit" oid="7EiLdN7K6p">
+              <EmptyText>请输入新密码</EmptyText>
+              <Name>请输入新密码</Name>
+            </TextField>
+            <TextField action="edit" oid="XBwyMp3JW7">
+              <EmptyText>请再次输入新密码</EmptyText>
+              <Name>确认密码</Name>
+            </TextField>
+            <BigIntField action="edit" oid="fCktYndpVL">
+              <Name>计薪人员id</Name>
+            </BigIntField>
+          </Items>
+        </EntityMetadata>
+      </DataXml>
+      <Name>简历薪资初始化密码弹窗</Name>
+      <Id>3UGN=A9+23FD</Id>
+      <LocaleId>en_US</LocaleId>
+    </DesignEntityMetaL>
+  </DesignMetas>
+  <Version>1705389197587</Version>
+  <BOSVersion>1.0</BOSVersion>
+</DeployMetadata>

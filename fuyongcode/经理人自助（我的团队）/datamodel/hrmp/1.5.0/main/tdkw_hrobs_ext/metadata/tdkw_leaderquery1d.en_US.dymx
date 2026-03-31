@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DeployMetadata>
+  <MasterId>3=QNWT5CW=KY</MasterId>
+  <Id>3=QNWT5CW=KY</Id>
+  <DesignMetas>
+    <DesignFormMetaL>
+      <Number>tdkw_leaderquery1d</Number>
+      <PkId>43ERFSZOIIFH</PkId>
+      <DataXml>
+        <FormMetadata>
+          <Items>
+            <FlexPanelAp action="edit" oid="Fy43gzPozu">
+              <Name>Flex容器</Name>
+            </FlexPanelAp>
+            <FlexPanelAp action="edit" oid="z6WE4yByHM">
+              <Name>Flex容器</Name>
+            </FlexPanelAp>
+            <LabelAp action="edit" oid="07jC5uhvgR">
+              <Name>本月入职</Name>
+            </LabelAp>
+            <LabelAp action="edit" oid="Z5X7rZM2km">
+              <Name>本月入职</Name>
+            </LabelAp>
+            <LabelAp action="edit" oid="G38Yf6P6M6">
+              <Name>组织变动</Name>
+            </LabelAp>
+            <LabelAp action="edit" oid="WDnsWIipoc">
+              <Name>组织变动</Name>
+            </LabelAp>
+            <LabelAp action="edit" oid="OzMxVdxIrU">
+              <Name>本月异动</Name>
+            </LabelAp>
+            <LabelAp action="edit" oid="H2EFk46rW4">
+              <Name>本月轮动</Name>
+            </LabelAp>
+            <FlexPanelAp action="edit" oid="rvkB4X6EWZ">
+              <Name>真实标题区</Name>
+            </FlexPanelAp>
+            <FlexPanelAp action="edit" oid="7cXDisHpP6">
+              <Name>真实内容区</Name>
+            </FlexPanelAp>
+            <LabelAp action="edit" oid="TffabofH75">
+              <Name>组织撤销</Name>
+            </LabelAp>
+            <LabelAp action="edit" oid="59anSUK43J">
+              <Name>组织撤销</Name>
+            </LabelAp>
+            <FlexPanelAp action="edit" oid="8RsZ7TT7mj">
+              <Name>Flex容器</Name>
+            </FlexPanelAp>
+            <FlexPanelAp action="edit" oid="bJ5DdIHbOG">
+              <Name>Flex容器</Name>
+            </FlexPanelAp>
+            <FlexPanelAp action="edit" oid="CqB8p78LZw">
+              <Name>Flex容器</Name>
+            </FlexPanelAp>
+            <LabelAp action="edit" oid="uC7qAMbb2x">
+              <Name>本月离职</Name>
+            </LabelAp>
+            <LabelAp action="edit" oid="6wSuUt1XlA">
+              <Name>本月离职</Name>
+            </LabelAp>
+            <LabelAp action="edit" oid="tmgN2wJhHZ">
+              <Name>本月入职</Name>
+            </LabelAp>
+            <LabelAp action="edit" oid="oovWkrvxRa">
+              <Name>本月入职</Name>
+            </LabelAp>
+            <FlexPanelAp action="edit" oid="RlOqms9OCe">
+              <Name>Flex容器</Name>
+            </FlexPanelAp>
+            <LabelAp action="edit" oid="pZoRHStuJF">
+              <Name>标签</Name>
+            </LabelAp>
+            <FlexPanelAp action="edit" oid="ZAF7r1Y28t">
+              <Name>Flex容器</Name>
+            </FlexPanelAp>
+            <FlexPanelAp action="edit" oid="sYRSQ0bcbf">
+              <Name>Flex容器</Name>
+            </FlexPanelAp>
+            <FlexPanelAp action="edit" oid="IRm1uUVb7g">
+              <Name>Flex容器</Name>
+            </FlexPanelAp>
+            <FlexPanelAp action="edit" oid="AyKboxG7aM">
+              <Name>Flex容器</Name>
+            </FlexPanelAp>
+            <LabelAp action="edit" oid="u4veP2KElt">
+              <Name>领导查询</Name>
+            </LabelAp>
+            <LabelAp action="edit" oid="1rIcRq32uI">
+              <Name>组织新增</Name>
+            </LabelAp>
+            <LabelAp action="edit" oid="Nl54tmQz2G">
+              <Name>组织新增</Name>
+            </LabelAp>
+            <FlexPanelAp action="edit" oid="Rg32XS55gp">
+              <Name>Flex容器</Name>
+            </FlexPanelAp>
+            <FlexPanelAp action="edit" oid="l5JlbTQ7DM">
+              <Name>Flex容器</Name>
+            </FlexPanelAp>
+          </Items>
+        </FormMetadata>
+      </DataXml>
+      <Name>PC_Custom Card Template</Name>
+      <Id>3=QNWT5CW=KY</Id>
+      <LocaleId>en_US</LocaleId>
+    </DesignFormMetaL>
+    <DesignEntityMetaL>
+      <Number>tdkw_leaderquery1d</Number>
+      <PkId>43ERFT+I59VD</PkId>
+      <DataXml>
+        <EntityMetadata/>
+      </DataXml>
+      <Name>PC_Custom Card Template</Name>
+      <Id>3=QNWT5CW=KY</Id>
+      <LocaleId>en_US</LocaleId>
+    </DesignEntityMetaL>
+  </DesignMetas>
+  <Version>1715570922502</Version>
+  <BOSVersion>1.0</BOSVersion>
+</DeployMetadata>

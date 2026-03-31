@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DeployMetadata>
+  <MasterId>2WTRYQE+EA1W</MasterId>
+  <Id>3ERCT5ZHP52S</Id>
+  <DesignMetas>
+    <DesignFormMetaL>
+      <Number>tdkw_hrobs_portalsche_ext</Number>
+      <PkId>3ERELW=KN75W</PkId>
+      <DataXml>
+        <FormMetadata/>
+      </DataXml>
+      <Name>门户视图方案</Name>
+      <Id>3ERCT5ZHP52S</Id>
+      <LocaleId>zh_CN</LocaleId>
+    </DesignFormMetaL>
+    <DesignEntityMetaL>
+      <Number>tdkw_hrobs_portalsche_ext</Number>
+      <PkId>3ERELWASSL/=</PkId>
+      <DataXml>
+        <EntityMetadata/>
+      </DataXml>
+      <Name>门户视图方案</Name>
+      <Id>3ERCT5ZHP52S</Id>
+      <LocaleId>zh_CN</LocaleId>
+    </DesignEntityMetaL>
+  </DesignMetas>
+  <Version>1689685073906</Version>
+  <BOSVersion>1.0</BOSVersion>
+</DeployMetadata>

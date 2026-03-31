@@ -1,0 +1,515 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DeployMetadata>
+  <Multilanguage>false</Multilanguage>
+  <MasterId>4=XC2R/KUWBO</MasterId>
+  <BizappId>4A6IGSR0AFR3</BizappId>
+  <Id>4=XC2R/KUWBO</Id>
+  <DesignMetas>
+    <DesignFormMeta>
+      <DevType>0</DevType>
+      <ModifyDate>1726126048969</ModifyDate>
+      <DataXml>
+        <FormMetadata>
+          <Isv>tdkw</Isv>
+          <Id>4=XC2R/KUWBO</Id>
+          <Key>tdkw_perf_metrics</Key>
+          <EntityId>4=XC2R/KUWBO</EntityId>
+          <ParentId>5f7203ba00002eac</ParentId>
+          <BizappId>4A6IGSR0AFR3</BizappId>
+          <IsvSign/>
+          <Name>指标项</Name>
+          <InheritPath>1942c188000065ac,5f7203ba00002eac</InheritPath>
+          <Items>
+            <BasedataFormAp action="edit" oid="1942c188000064ac">
+              <MobListMeta>
+                <FormMetadata>
+                  <Items>
+                    <BillListAp action="edit" oid="_BillList_">
+                      <EntityId>4=XC2R/KUWBO</EntityId>
+                    </BillListAp>
+                  </Items>
+                </FormMetadata>
+              </MobListMeta>
+              <Id>4=XC2R/KUWBO</Id>
+              <BackColor>#E2E7EF</BackColor>
+              <Name>指标项</Name>
+              <Key>tdkw_perf_metrics</Key>
+              <ListMeta>
+                <FormMetadata>
+                  <Name>组织绩效指标库</Name>
+                  <Items>
+                    <FormAp action="edit" oid="b5994054000024ac">
+                      <Name>组织绩效指标库</Name>
+                      <ListFormId>bos_treelist</ListFormId>
+                    </FormAp>
+                    <FilterGridViewAp action="edit" oid="filtergridview">
+                      <NewFilter>true</NewFilter>
+                    </FilterGridViewAp>
+                    <BarItemAp action="edit" oid="FUMD89PFCB">
+                      <Invisible>true</Invisible>
+                    </BarItemAp>
+                    <BarItemAp action="edit" oid="C1IXIpJx1c">
+                      <DropdownItems>
+                        <DropdownItem action="remove" oid="PQLEDWKM3DH"/>
+                      </DropdownItems>
+                    </BarItemAp>
+                    <BarItemAp action="edit" oid="ms32Hsufcq">
+                      <Invisible>true</Invisible>
+                    </BarItemAp>
+                    <BarItemAp action="edit" oid="BTjy6Ie3Bc">
+                      <Invisible>true</Invisible>
+                    </BarItemAp>
+                    <BarItemAp action="edit" oid="A3zkgmttgA">
+                      <Invisible>true</Invisible>
+                    </BarItemAp>
+                    <BarItemAp action="edit" oid="NVARV5u7I4">
+                      <Invisible>true</Invisible>
+                    </BarItemAp>
+                    <BarItemAp>
+                      <DropdownItems>
+                        <DropdownItem>
+                          <Visible>,init,new,edit,view,submit,audit,</Visible>
+                          <Index>1</Index>
+                          <Title>禁用</Title>
+                          <OperationKey>disable</OperationKey>
+                          <SubTitle/>
+                          <Background/>
+                          <IsSwitch>true</IsSwitch>
+                          <Lock>,,</Lock>
+                          <Id>4ALWWAOKQP0G</Id>
+                          <Key>disablebtn</Key>
+                        </DropdownItem>
+                      </DropdownItems>
+                      <OperationKey>enable</OperationKey>
+                      <Id>HMuhMolOtF</Id>
+                      <Key>tdkw_enablebtn</Key>
+                      <OperationStyle>0</OperationStyle>
+                      <Index>7</Index>
+                      <ParentId>_toolbar_</ParentId>
+                      <Name>启用</Name>
+                    </BarItemAp>
+                    <BarItemAp action="edit" oid="v71lQcKgcH">
+                      <DropdownItems>
+                        <DropdownItem action="edit" oid="/VN+=NRAR9/D">
+                          <Index>1</Index>
+                          <Title>引出</Title>
+                          <OperationKey>exportlist_expt</OperationKey>
+                        </DropdownItem>
+                        <DropdownItem action="remove" oid="/VN+=NRARQ6A"/>
+                        <DropdownItem action="remove" oid="/VN+=NR4HWT="/>
+                        <DropdownItem action="remove" oid="/VN+=NRAR9/E"/>
+                        <DropdownItem action="remove" oid="/VN+=NRARQ6B"/>
+                        <DropdownItem action="remove" oid="0H1S0CCVINBG"/>
+                        <DropdownItem action="remove" oid="1V3RMD/F250C"/>
+                      </DropdownItems>
+                      <OperationKey>importdata</OperationKey>
+                      <Index>10</Index>
+                      <Name>引入</Name>
+                    </BarItemAp>
+                    <BillListAp action="edit" oid="_BillList_">
+                      <Name>组织绩效指标库</Name>
+                      <EntityId>4=XC2R/KUWBO</EntityId>
+                    </BillListAp>
+                    <ListColumnAp action="edit" oid="b5994054000029ac">
+                      <Hyperlink>true</Hyperlink>
+                      <Index>1</Index>
+                      <Name>指标名称</Name>
+                    </ListColumnAp>
+                    <ListColumnAp>
+                      <SeqColumnType>NotSeq</SeqColumnType>
+                      <Id>4ALXDVFR647V</Id>
+                      <Key>tdkw_listcolumnap1</Key>
+                      <Order>NotOrder</Order>
+                      <Index>2</Index>
+                      <ParentId>gridview</ParentId>
+                      <ListFieldId>tdkw_metric_type.name</ListFieldId>
+                      <Name>指标类型</Name>
+                    </ListColumnAp>
+                    <ListColumnAp>
+                      <SeqColumnType>NotSeq</SeqColumnType>
+                      <Id>4ALXFA1F9Y09</Id>
+                      <Key>tdkw_listcolumnap2</Key>
+                      <Order>NotOrder</Order>
+                      <Index>3</Index>
+                      <ParentId>gridview</ParentId>
+                      <ListFieldId>group.name</ListFieldId>
+                      <Name>指标用途分类</Name>
+                    </ListColumnAp>
+                    <ListColumnAp>
+                      <SeqColumnType>NotSeq</SeqColumnType>
+                      <Id>4ALXHDESAZXB</Id>
+                      <Key>tdkw_listcolumnap3</Key>
+                      <Order>NotOrder</Order>
+                      <Index>4</Index>
+                      <ParentId>gridview</ParentId>
+                      <ListFieldId>tdkw_description</ListFieldId>
+                      <Name>指标描述</Name>
+                    </ListColumnAp>
+                    <ListColumnAp>
+                      <SeqColumnType>NotSeq</SeqColumnType>
+                      <Id>4ALXITJ+NMWP</Id>
+                      <Key>tdkw_listcolumnap4</Key>
+                      <Order>NotOrder</Order>
+                      <Index>5</Index>
+                      <ParentId>gridview</ParentId>
+                      <ListFieldId>tdkw_rating_standard</ListFieldId>
+                      <Name>评分标准</Name>
+                    </ListColumnAp>
+                    <ComboListColumnAp action="edit" oid="UGA0V8HS=6S">
+                      <Index>6</Index>
+                    </ComboListColumnAp>
+                    <ListColumnAp>
+                      <SeqColumnType>NotSeq</SeqColumnType>
+                      <Id>4ALX91V0S222</Id>
+                      <Key>tdkw_listcolumnap</Key>
+                      <Order>NotOrder</Order>
+                      <Index>7</Index>
+                      <ParentId>gridview</ParentId>
+                      <ListFieldId>modifier.name</ListFieldId>
+                      <Name>最近修改人</Name>
+                    </ListColumnAp>
+                    <DateListColumnAp>
+                      <SeqColumnType>NotSeq</SeqColumnType>
+                      <Id>4ALXOZP3QO0Q</Id>
+                      <Key>tdkw_datelistcolumnap</Key>
+                      <Order>NotOrder</Order>
+                      <Index>8</Index>
+                      <ParentId>gridview</ParentId>
+                      <ListFieldId>modifytime</ListFieldId>
+                      <Name>最近修改时间</Name>
+                    </DateListColumnAp>
+                    <ListColumnAp action="edit" oid="b5994054000028ac">
+                      <Visible/>
+                      <Index>9</Index>
+                    </ListColumnAp>
+                    <ComboListColumnAp>
+                      <ColumnOrderAndFilter>1</ColumnOrderAndFilter>
+                      <SeqColumnType>NotSeq</SeqColumnType>
+                      <Id>4BAP0H7==754</Id>
+                      <Key>tdkw_combolistcolumnap</Key>
+                      <Order>NotOrder</Order>
+                      <Visible/>
+                      <Index>10</Index>
+                      <ParentId>gridview</ParentId>
+                      <ListFieldId>status</ListFieldId>
+                      <Name>数据状态</Name>
+                    </ComboListColumnAp>
+                  </Items>
+                </FormMetadata>
+              </ListMeta>
+            </BasedataFormAp>
+            <FlexPanelAp action="edit" oid="PxNfkkak4s">
+              <Grow>0</Grow>
+              <BackColor>#ffffff</BackColor>
+              <Style>
+                <Style>
+                  <Border>
+                    <Border>
+                      <Top>10px_solid_#E2E7EF</Top>
+                      <Left>10px_solid_#E2E7EF</Left>
+                      <Bottom>10px_solid_#E2E7EF</Bottom>
+                      <Right>10px_solid_#E2E7EF</Right>
+                    </Border>
+                  </Border>
+                  <Padding>
+                    <Padding>
+                      <Left>2px</Left>
+                      <Right action="reset"/>
+                    </Padding>
+                  </Padding>
+                </Style>
+              </Style>
+            </FlexPanelAp>
+            <FlexPanelAp>
+              <Id>at0PViVzXI12FEQskV</Id>
+              <AlignItems>flex-start</AlignItems>
+              <Index>8</Index>
+              <Name>Flex容器</Name>
+              <Key>tdkw_flexpanelap1</Key>
+              <ParentId>I8M9X0FOPr</ParentId>
+              <Width>100%</Width>
+              <Wrap>false</Wrap>
+            </FlexPanelAp>
+            <FlexPanelAp>
+              <Id>S2F9kUg9qiy16UV8bC</Id>
+              <AlignItems>flex-start</AlignItems>
+              <Index>9</Index>
+              <JustifyContent>space-between</JustifyContent>
+              <Name>Flex容器</Name>
+              <Key>tdkw_flexpanelap</Key>
+              <Direction>column</Direction>
+              <ParentId>I8M9X0FOPr</ParentId>
+              <Width>80%</Width>
+              <Wrap>false</Wrap>
+            </FlexPanelAp>
+            <BarItemAp action="edit" oid="4CNTAsZdaN">
+              <DropdownItems>
+                <DropdownItem action="remove" oid="T2KFDA1SF0H"/>
+              </DropdownItems>
+              <Invisible>true</Invisible>
+            </BarItemAp>
+            <BarItemAp action="edit" oid="ZcIwi70dTc">
+              <Visible>init,new,edit,audit</Visible>
+              <Index>1</Index>
+            </BarItemAp>
+            <BarItemAp action="edit" oid="V8H211iajj">
+              <Invisible>true</Invisible>
+              <Index>2</Index>
+            </BarItemAp>
+            <BarItemAp action="edit" oid="zlTJbHhEqT">
+              <Invisible>true</Invisible>
+            </BarItemAp>
+            <BarItemAp action="edit" oid="z20rAqlGP8">
+              <DropdownItems>
+                <DropdownItem action="remove" oid="T2KIT9MASWF"/>
+              </DropdownItems>
+              <Invisible>true</Invisible>
+            </BarItemAp>
+            <BarItemAp action="edit" oid="8XYTQ7uc8H">
+              <Invisible>true</Invisible>
+            </BarItemAp>
+            <BarItemAp action="edit" oid="HVX5nv5C2i">
+              <Invisible>true</Invisible>
+            </BarItemAp>
+            <BarItemAp action="edit" oid="TK7j147AL2">
+              <Invisible>true</Invisible>
+            </BarItemAp>
+            <FieldsetPanelAp action="edit" oid="STdfsCCFTj">
+              <Invisible>true</Invisible>
+              <Hidden action="reset"/>
+            </FieldsetPanelAp>
+            <FieldsetPanelAp action="edit" oid="I8M9X0FOPr">
+              <AlignItems>flex-start</AlignItems>
+              <JustifyContent>space-between</JustifyContent>
+              <Direction>column</Direction>
+              <ContainerType>FlexPanelAp</ContainerType>
+              <Wrap>false</Wrap>
+            </FieldsetPanelAp>
+            <FieldAp>
+              <Lock>submit</Lock>
+              <Id>mqL6wc2dPgHd95E8nc</Id>
+              <FieldId>mqL6wc2dPgHd95E8nc</FieldId>
+              <Height>130px</Height>
+              <Name>指标描述</Name>
+              <Key>tdkw_description</Key>
+              <FieldStyle>2</FieldStyle>
+              <ParentId>S2F9kUg9qiy16UV8bC</ParentId>
+              <Width>80%</Width>
+            </FieldAp>
+            <FieldAp>
+              <Lock>submit</Lock>
+              <Id>NANLlMzr0A5uDkuxVH</Id>
+              <FieldId>NANLlMzr0A5uDkuxVH</FieldId>
+              <Height>130px</Height>
+              <Index>1</Index>
+              <Name>评分标准</Name>
+              <Key>tdkw_rating_standard</Key>
+              <FieldStyle>2</FieldStyle>
+              <ParentId>S2F9kUg9qiy16UV8bC</ParentId>
+              <Width>80%</Width>
+            </FieldAp>
+            <FieldAp action="edit" oid="h736cFwZ6e">
+              <Invisible>true</Invisible>
+              <ParentId>at0PViVzXI12FEQskV</ParentId>
+            </FieldAp>
+            <FieldAp action="edit" oid="8oq6R4m9CF">
+              <Lock>submit</Lock>
+              <Name>指标名称</Name>
+              <ParentId>at0PViVzXI12FEQskV</ParentId>
+            </FieldAp>
+            <FieldAp>
+              <Lock>submit</Lock>
+              <Id>QEa47ZQgrLUTH7WVHA</Id>
+              <FieldId>QEa47ZQgrLUTH7WVHA</FieldId>
+              <Index>2</Index>
+              <Name>指标分类</Name>
+              <Key>tdkw_metric_type</Key>
+              <ParentId>at0PViVzXI12FEQskV</ParentId>
+              <QuickAddNew>false</QuickAddNew>
+            </FieldAp>
+            <FieldAp action="edit" oid="AkId5S4yTs">
+              <Invisible>true</Invisible>
+              <Index>3</Index>
+              <ParentId>at0PViVzXI12FEQskV</ParentId>
+            </FieldAp>
+            <FieldAp action="edit" oid="jiRpZNc99A">
+              <Invisible>true</Invisible>
+              <Index>4</Index>
+              <ParentId>at0PViVzXI12FEQskV</ParentId>
+            </FieldAp>
+            <FieldAp action="edit" oid="ac5Y5Dax1q">
+              <Invisible>true</Invisible>
+              <Index>5</Index>
+              <ParentId>at0PViVzXI12FEQskV</ParentId>
+            </FieldAp>
+            <FieldAp action="edit" oid="O75mQrM58q">
+              <Invisible>true</Invisible>
+              <Index>6</Index>
+              <ParentId>at0PViVzXI12FEQskV</ParentId>
+            </FieldAp>
+            <FieldAp action="edit" oid="cFK1ZS05Mg">
+              <Lock>submit</Lock>
+              <Index>7</Index>
+              <Name>指标用途</Name>
+              <ParentId>at0PViVzXI12FEQskV</ParentId>
+              <QuickAddNew>false</QuickAddNew>
+            </FieldAp>
+          </Items>
+        </FormMetadata>
+      </DataXml>
+      <ModifierId>2005809205306574848</ModifierId>
+      <EntityId>4=XC2R/KUWBO</EntityId>
+      <ModelType>BaseFormModel</ModelType>
+      <Isv>tdkw</Isv>
+      <Version>1726126048969</Version>
+      <ParentId>5f7203ba00002eac</ParentId>
+      <MasterId></MasterId>
+      <Number>tdkw_perf_metrics</Number>
+      <BizappId>4A6IGSR0AFR3</BizappId>
+      <IsvSign></IsvSign>
+      <Id>4=XC2R/KUWBO</Id>
+      <InheritPath>1942c188000065ac,5f7203ba00002eac</InheritPath>
+    </DesignFormMeta>
+    <DesignEntityMeta>
+      <DevType>0</DevType>
+      <ModifyDate>1726126049144</ModifyDate>
+      <DataXml>
+        <EntityMetadata>
+          <Isv>tdkw</Isv>
+          <Id>4=XC2R/KUWBO</Id>
+          <ParentId>5f7203ba00002eac</ParentId>
+          <BizappId>4A6IGSR0AFR3</BizappId>
+          <IsvSign/>
+          <Name>指标项</Name>
+          <InheritPath>1942c188000065ac,5f7203ba00002eac</InheritPath>
+          <Items>
+            <BaseEntity action="edit" oid="1942c188000066ac">
+              <LinkSet>
+                <LinkSet>
+                  <TrackerTable>tk_tdkw_perf_metrics_tc</TrackerTable>
+                  <WbSnapTable>tk_tdkw_perf_metrics_wb</WbSnapTable>
+                </LinkSet>
+              </LinkSet>
+              <dbRoute>opmc</dbRoute>
+              <TableName>tk_tdkw_perf_metrics</TableName>
+              <Id>4=XC2R/KUWBO</Id>
+              <Name>指标项</Name>
+              <Template action="reset"/>
+              <Operations>
+                <Operation action="edit" oid="b599405400001aac">
+                  <Validations>
+                    <GrpfieldsuniqueValidation>
+                      <CustomPromp/>
+                      <Description>组合字段唯一性校验</Description>
+                      <Enabled>true</Enabled>
+                      <LevelId>2</LevelId>
+                      <RuleType>GroupFieldUnique</RuleType>
+                      <Id>4CSGAS9HYN69</Id>
+                      <Fields>
+                        <FieldId>
+                          <Id>number</Id>
+                        </FieldId>
+                      </Fields>
+                    </GrpfieldsuniqueValidation>
+                  </Validations>
+                </Operation>
+                <Operation action="edit" oid="b599405400001bac">
+                  <Validations>
+                    <ConditionValidation action="edit" oid="1cc0054f000016ac">
+                      <Enabled action="reset"/>
+                    </ConditionValidation>
+                  </Validations>
+                </Operation>
+              </Operations>
+              <BusinessControl>
+                <BusinessControl>
+                  <CodeNumber>true</CodeNumber>
+                  <WorkFlow>false</WorkFlow>
+                </BusinessControl>
+              </BusinessControl>
+              <Key>tdkw_perf_metrics</Key>
+              <NetworkControl>
+                <NetCtrlOperation>
+                  <OperationKey>submit</OperationKey>
+                  <GroupId>default_netctrl</GroupId>
+                  <Id>c91d5125000034ac</Id>
+                  <Key>default_netctrl_submit</Key>
+                </NetCtrlOperation>
+              </NetworkControl>
+              <DefaultPageSetting>{"mblist":"","pclist":"","pcbill":"","mbbill":""}</DefaultPageSetting>
+            </BaseEntity>
+            <MuliLangTextField action="edit" oid="8oq6R4m9CF">
+              <Name>指标名称</Name>
+              <GL>true</GL>
+            </MuliLangTextField>
+            <BillStatusField action="edit" oid="AkId5S4yTs">
+              <DefValue>C</DefValue>
+            </BillStatusField>
+            <GroupField action="edit" oid="cFK1ZS05Mg">
+              <DefValue/>
+              <Name>指标用途</Name>
+              <ViewDetail>false</ViewDetail>
+              <MustInput>true</MustInput>
+              <RefLayout/>
+              <BaseEntityId>4=XC5DD5T0=/</BaseEntityId>
+            </GroupField>
+            <BasedataField>
+              <Features>
+                <Features>
+                  <Ver>1</Ver>
+                </Features>
+              </Features>
+              <Id>QEa47ZQgrLUTH7WVHA</Id>
+              <LableHyperlink>false</LableHyperlink>
+              <DefValue/>
+              <Name>指标分类</Name>
+              <ViewDetail>false</ViewDetail>
+              <FieldName>fk_tdkw_metric_type</FieldName>
+              <Key>tdkw_metric_type</Key>
+              <MustInput>true</MustInput>
+              <RefLayout/>
+              <BaseEntityId>4=XG6A4++B=N</BaseEntityId>
+            </BasedataField>
+            <TextAreaField>
+              <FieldName>fk_tdkw_description</FieldName>
+              <Features>
+                <Features>
+                  <Ver>1</Ver>
+                </Features>
+              </Features>
+              <Id>mqL6wc2dPgHd95E8nc</Id>
+              <Key>tdkw_description</Key>
+              <Name>指标描述</Name>
+              <MaxLength>1000</MaxLength>
+            </TextAreaField>
+            <TextAreaField>
+              <FieldName>fk_tdkw_rating_standard</FieldName>
+              <Features>
+                <Features>
+                  <Ver>1</Ver>
+                </Features>
+              </Features>
+              <Id>NANLlMzr0A5uDkuxVH</Id>
+              <Key>tdkw_rating_standard</Key>
+              <Name>评分标准</Name>
+              <MaxLength>1000</MaxLength>
+            </TextAreaField>
+          </Items>
+        </EntityMetadata>
+      </DataXml>
+      <ModelType>BaseFormModel</ModelType>
+      <Isv>tdkw</Isv>
+      <Version>1726126049144</Version>
+      <ParentId>5f7203ba00002eac</ParentId>
+      <MasterId></MasterId>
+      <Number>tdkw_perf_metrics</Number>
+      <BizappId>4A6IGSR0AFR3</BizappId>
+      <Id>4=XC2R/KUWBO</Id>
+      <InheritPath>1942c188000065ac,5f7203ba00002eac</InheritPath>
+    </DesignEntityMeta>
+  </DesignMetas>
+  <Version>1726126048969</Version>
+  <BOSVersion>1.0</BOSVersion>
+  <BizunitId>4A6IUEPW=Y26</BizunitId>
+</DeployMetadata>

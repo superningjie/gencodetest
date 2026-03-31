@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DeployMetadata>
+  <MasterId>4B8AB61Y3IEV</MasterId>
+  <Id>4B8AB61Y3IEV</Id>
+  <DesignMetas>
+    <DesignFormMetaL>
+      <Number>tdkw_map_detail</Number>
+      <PkId>4FP0DJD+4MPE</PkId>
+      <DataXml>
+        <FormMetadata/>
+      </DataXml>
+      <Name>查看详情</Name>
+      <Id>4B8AB61Y3IEV</Id>
+      <LocaleId>zh_CN</LocaleId>
+    </DesignFormMetaL>
+    <DesignEntityMetaL>
+      <Number>tdkw_map_detail</Number>
+      <PkId>4FP0DJNZ/LRO</PkId>
+      <DataXml>
+        <EntityMetadata/>
+      </DataXml>
+      <Name>查看详情</Name>
+      <Id>4B8AB61Y3IEV</Id>
+      <LocaleId>zh_CN</LocaleId>
+    </DesignEntityMetaL>
+  </DesignMetas>
+  <Version>1728442083778</Version>
+  <BOSVersion>1.0</BOSVersion>
+</DeployMetadata>

@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DeployMetadata>
+  <MasterId>3=QIGK4LQ6XX</MasterId>
+  <Id>3=QIGK4LQ6XX</Id>
+  <DesignMetas>
+    <DesignFormMetaL>
+      <Number>tdkw_myteam1</Number>
+      <PkId>3COXE5/QWRLT</PkId>
+      <DataXml>
+        <FormMetadata>
+          <Items>
+            <FlexPanelAp action="edit" oid="Fy43gzPozu">
+              <Name>Flex容器</Name>
+            </FlexPanelAp>
+            <FieldAp action="edit" oid="eq0KTs18EQ">
+              <Name>人数</Name>
+            </FieldAp>
+            <LabelAp action="edit" oid="E97g56Or3M">
+              <Name>人</Name>
+            </LabelAp>
+            <LabelAp action="edit" oid="cTGE8u0KgQ">
+              <Name>平均司龄</Name>
+            </LabelAp>
+            <FlexPanelAp action="edit" oid="nHz7639Zxq">
+              <Name>Flex容器</Name>
+            </FlexPanelAp>
+            <FieldAp action="edit" oid="sHpWlYR1TF">
+              <Name>年龄</Name>
+            </FieldAp>
+            <LabelAp action="edit" oid="tvY95l7V9d">
+              <Name>岁</Name>
+            </LabelAp>
+            <FlexPanelAp action="edit" oid="rvkB4X6EWZ">
+              <Name>真实标题区</Name>
+            </FlexPanelAp>
+            <FlexPanelAp action="edit" oid="7cXDisHpP6">
+              <Name>真实内容区</Name>
+            </FlexPanelAp>
+            <FlexPanelAp action="edit" oid="jWp2xfPLNP">
+              <Name>Flex容器</Name>
+            </FlexPanelAp>
+            <FlexPanelAp action="edit" oid="6YrmG8Xxnl">
+              <Name>Flex容器</Name>
+            </FlexPanelAp>
+            <LabelAp action="edit" oid="d6P4GvrtrC">
+              <Name>平均年龄</Name>
+            </LabelAp>
+            <FlexPanelAp action="edit" oid="CIojwg3iou">
+              <Name>Flex容器</Name>
+            </FlexPanelAp>
+            <FlexPanelAp action="edit" oid="Y0GYCEN9fH">
+              <Name>Flex容器</Name>
+            </FlexPanelAp>
+            <FieldAp action="edit" oid="RfWN9qICrf">
+              <Name>小数</Name>
+            </FieldAp>
+            <LabelAp action="edit" oid="5OVcV5rS7S">
+              <Name>年</Name>
+            </LabelAp>
+            <FlexPanelAp action="edit" oid="zx7Tn0LR22">
+              <Name>Flex容器</Name>
+            </FlexPanelAp>
+            <FlexPanelAp action="edit" oid="PCbwCkF7yV">
+              <Name>Flex容器</Name>
+            </FlexPanelAp>
+            <FlexPanelAp action="edit" oid="aeCSKrsRrs">
+              <Name>Flex容器</Name>
+            </FlexPanelAp>
+            <LabelAp action="edit" oid="u4veP2KElt">
+              <Name>我的团队</Name>
+            </LabelAp>
+            <LabelAp action="edit" oid="MEkAPjJZNI">
+              <Name>团队人数</Name>
+            </LabelAp>
+            <FlexPanelAp action="edit" oid="5yXs7Be1ej">
+              <Name>Flex容器</Name>
+            </FlexPanelAp>
+            <FlexPanelAp action="edit" oid="v8z1uO3736">
+              <Name>Flex容器</Name>
+            </FlexPanelAp>
+          </Items>
+        </FormMetadata>
+      </DataXml>
+      <Name>Card Template</Name>
+      <Id>3=QIGK4LQ6XX</Id>
+      <LocaleId>en_US</LocaleId>
+    </DesignFormMetaL>
+    <DesignEntityMetaL>
+      <Number>tdkw_myteam1</Number>
+      <PkId>3COXE50GWAIM</PkId>
+      <DataXml>
+        <EntityMetadata>
+          <Items>
+            <IntegerField action="edit" oid="eq0KTs18EQ">
+              <Name>人数</Name>
+            </IntegerField>
+            <IntegerField action="edit" oid="sHpWlYR1TF">
+              <Name>年龄</Name>
+            </IntegerField>
+            <DecimalField action="edit" oid="RfWN9qICrf">
+              <Name>小数</Name>
+            </DecimalField>
+          </Items>
+        </EntityMetadata>
+      </DataXml>
+      <Name>Card Template</Name>
+      <Id>3=QIGK4LQ6XX</Id>
+      <LocaleId>en_US</LocaleId>
+    </DesignEntityMetaL>
+  </DesignMetas>
+  <Version>1684811582336</Version>
+  <BOSVersion>1.0</BOSVersion>
+</DeployMetadata>

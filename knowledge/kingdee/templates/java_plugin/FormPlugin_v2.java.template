@@ -1,0 +1,128 @@
+/**
+ * {{plugin_description}}
+ * 
+{% if extend_type == 'extend' %}
+ * 扩展类型: 扩展标品
+ * 扩展目标: {{extend_target}}
+{% elif extend_type == 'inherit' %}
+ * 扩展类型: 继承模板
+ * 父模板: {{parent_template}}
+{% else %}
+ * 扩展类型: 新建
+{% endif %}
+ * 
+ * @author {{author}}
+ * @since {{date}}
+ */
+package {{package_name}};
+
+import kd.bos.form.plugin.AbstractFormPlugin;
+import kd.bos.entity.datamodel.IDataModel;
+import kd.bos.form.IFormView;
+import kd.bos.form.control.events.BeforeDoOperationArgs;
+import kd.bos.form.control.events.AfterDoOperationArgs;
+import kd.bos.form.events.PropertyChangedArgs;
+
+public class {{class_name}} extends AbstractFormPlugin {
+    
+{% if extend_type == 'extend' %}
+    /**
+     * 扩展：绑定数据后
+     * 在标品数据绑定完成后执行扩展逻辑
+     */
+    @Override
+    public void afterBindData(AfterBindDataEvent e) {
+        // 先执行标品逻辑
+        super.afterBindData(e);
+        
+        // 扩展逻辑
+        IDataModel model = this.getModel();
+        
+        // {{extend_logic_description | default('扩展字段初始化或修改')}}
+        {{extend_logic_code | default('// TODO: 实现扩展逻辑')}}
+    }
+    
+{% elif extend_type == 'inherit' %}
+    /**
+     * 继承：重写创建新数据
+     */
+    @Override
+    public void createNewData(CreateNewDataEvent e) {
+        // 调用父模板逻辑
+        super.createNewData(e);
+        
+        // 继承增强
+        IDataModel model = this.getModel();
+        
+        // {{inherit_logic_description | default('增强默认值设置')}}
+        {{inherit_logic_code | default('// TODO: 实现增强逻辑')}}
+    }
+    
+{% else %}
+    /**
+     * 新建：创建新数据时设置默认值
+     */
+    @Override
+    public void createNewData(CreateNewDataEvent e) {
+        super.createNewData(e);
+        
+        IDataModel model = this.getModel();
+        
+        // 设置默认值
+{% for field in default_fields %}
+        model.setValue("{{field.id}}", {{field.value}});
+{% endfor %}
+    }
+    
+    /**
+     * 字段值变更事件
+     */
+    @Override
+    public void propertyChanged(PropertyChangedArgs e) {
+        super.propertyChanged(e);
+        
+        String fieldName = e.getProperty().getName();
+        Object newValue = e.getNewValue();
+        
+        // 字段联动逻辑
+{% for rule in field_rules %}
+        if ("{{rule.field}}".equals(fieldName)) {
+            // {{rule.description}}
+            {{rule.logic}}
+        }
+{% endfor %}
+    }
+    
+{% endif %}
+    
+    /**
+     * 操作执行前校验
+     */
+    @Override
+    public void beforeDoOperation(BeforeDoOperationArgs e) {
+        super.beforeDoOperation(e);
+        
+        String operationKey = e.getOperationKey();
+        
+        if ("save".equals(operationKey)) {
+            IDataModel model = this.getModel();
+            
+            // 校验逻辑
+{% for validation in validations %}
+            Object {{validation.field}} = model.getValue("{{validation.field}}");
+            if ({{validation.condition_java}}) {
+                this.getView().showMessage("{{validation.message}}");
+                e.setCancel(true);
+                return;
+            }
+{% endfor %}
+        }
+    }
+    
+    /**
+     * 自定义业务方法
+     */
+    private void {{custom_method_name}}({{custom_method_params}}) {
+        {{custom_method_logic}}
+    }
+}

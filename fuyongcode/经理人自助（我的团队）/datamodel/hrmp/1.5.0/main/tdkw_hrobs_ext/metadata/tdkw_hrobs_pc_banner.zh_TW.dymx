@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DeployMetadata>
+  <MasterId>3=MXMCU9D72M</MasterId>
+  <Id>3=MXMCU9D72M</Id>
+  <DesignMetas>
+    <DesignFormMetaL>
+      <Number>tdkw_hrobs_pc_banner</Number>
+      <PkId>3PKCP0Q/KXZD</PkId>
+      <DataXml>
+        <FormMetadata>
+          <Items>
+            <FieldAp action="edit" oid="MQnlyHxDzy">
+              <Name>圖片</Name>
+            </FieldAp>
+            <LabelAp action="edit" oid="u4veP2KElt">
+              <Name>Banner</Name>
+            </LabelAp>
+          </Items>
+        </FormMetadata>
+      </DataXml>
+      <Name>PC_自定義卡片模板</Name>
+      <Id>3=MXMCU9D72M</Id>
+      <LocaleId>zh_TW</LocaleId>
+    </DesignFormMetaL>
+    <DesignEntityMetaL>
+      <Number>tdkw_hrobs_pc_banner</Number>
+      <PkId>3PKCP0QNXRI7</PkId>
+      <DataXml>
+        <EntityMetadata>
+          <Items>
+            <PictureField action="edit" oid="MQnlyHxDzy">
+              <Name>圖片</Name>
+            </PictureField>
+          </Items>
+        </EntityMetadata>
+      </DataXml>
+      <Name>PC_自定義卡片模板</Name>
+      <Id>3=MXMCU9D72M</Id>
+      <LocaleId>zh_TW</LocaleId>
+    </DesignEntityMetaL>
+  </DesignMetas>
+  <Version>1700184205430</Version>
+  <BOSVersion>1.0</BOSVersion>
+</DeployMetadata>

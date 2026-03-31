@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DeployAppMetadata>
+  <MasterId>4513U+LB/HOD</MasterId>
+  <Id>4513U+LB/HOD</Id>
+  <DesignMetas>
+    <DesignAppMetaL>
+      <PkId>590AQ0FU5C=M</PkId>
+      <DataXml>
+        <AppMetadata/>
+      </DataXml>
+      <Name></Name>
+      <Description></Description>
+      <Id>4513U+LB/HOD</Id>
+      <LocaleId>en_US</LocaleId>
+    </DesignAppMetaL>
+  </DesignMetas>
+  <BOSVersion>1.0</BOSVersion>
+</DeployAppMetadata>

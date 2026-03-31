@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DeployMetadata>
+  <MasterId>3EWTKDSOYXOB</MasterId>
+  <Id>3EWTKDSOYXOB</Id>
+  <DesignMetas>
+    <DesignFormMetaL>
+      <Number>tdkw_organizationchange</Number>
+      <PkId>3FBC3AWQ=JJX</PkId>
+      <DataXml>
+        <FormMetadata/>
+      </DataXml>
+      <Name>领导自助-组织变动移动端</Name>
+      <Id>3EWTKDSOYXOB</Id>
+      <LocaleId>zh_CN</LocaleId>
+    </DesignFormMetaL>
+    <DesignEntityMetaL>
+      <Number>tdkw_organizationchange</Number>
+      <PkId>3FBC3AXR64BT</PkId>
+      <DataXml>
+        <EntityMetadata/>
+      </DataXml>
+      <Name>领导自助-组织变动移动端</Name>
+      <Id>3EWTKDSOYXOB</Id>
+      <LocaleId>zh_CN</LocaleId>
+    </DesignEntityMetaL>
+  </DesignMetas>
+  <Version>1690255772355</Version>
+  <BOSVersion>1.0</BOSVersion>
+</DeployMetadata>

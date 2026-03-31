@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DeployMetadata>
+  <MasterId>3ED22MNSKH7N</MasterId>
+  <Id>3ED22MNSKH7N</Id>
+  <DesignMetas>
+    <DesignFormMetaL>
+      <Number>tdkw_thismonthdepart</Number>
+      <PkId>3FBC/DD4THWX</PkId>
+      <DataXml>
+        <FormMetadata/>
+      </DataXml>
+      <Name>领导自助-本月离职移动端</Name>
+      <Id>3ED22MNSKH7N</Id>
+      <LocaleId>zh_CN</LocaleId>
+    </DesignFormMetaL>
+    <DesignEntityMetaL>
+      <Number>tdkw_thismonthdepart</Number>
+      <PkId>3FBC/DE21OH=</PkId>
+      <DataXml>
+        <EntityMetadata/>
+      </DataXml>
+      <Name>领导自助-本月离职移动端</Name>
+      <Id>3ED22MNSKH7N</Id>
+      <LocaleId>zh_CN</LocaleId>
+    </DesignEntityMetaL>
+  </DesignMetas>
+  <Version>1690255707966</Version>
+  <BOSVersion>1.0</BOSVersion>
+</DeployMetadata>

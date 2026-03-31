@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DeployMetadata>
+  <Multilanguage>false</Multilanguage>
+  <MasterId>4DDQABMRR+LM</MasterId>
+  <BizappId>4A6IGSR0AFR3</BizappId>
+  <Id>4DDQABMRR+LM</Id>
+  <DesignMetas>
+    <DesignFormMeta>
+      <DevType>0</DevType>
+      <ModifyDate>1726727677491</ModifyDate>
+      <DataXml>
+        <FormMetadata>
+          <Isv>tdkw</Isv>
+          <Id>4DDQABMRR+LM</Id>
+          <Key>tdkw_opa_ermanfilef7</Key>
+          <ParentId>2+QR=HBNB0FI</ParentId>
+          <BizappId>4A6IGSR0AFR3</BizappId>
+          <IsvSign/>
+          <Name>人事业务档案_组织绩效</Name>
+          <InheritPath>0NKB12K4VH2O,2/TXG194/JP1,2+QR=HBNB0FI</InheritPath>
+          <Items>
+            <BasedataFormAp action="edit" oid="0NKB12K4W9D7">
+              <MobListMeta>
+                <FormMetadata>
+                  <Items>
+                    <BillListAp action="edit" oid="_BillList_">
+                      <EntityId>2+QR=HBNB0FI</EntityId>
+                    </BillListAp>
+                  </Items>
+                </FormMetadata>
+              </MobListMeta>
+              <Id>4DDQABMRR+LM</Id>
+              <Name>人事业务档案_组织绩效</Name>
+              <Key>tdkw_opa_ermanfilef7</Key>
+              <ListMeta>
+                <FormMetadata>
+                  <Items>
+                    <ListFormAp action="edit" oid="1A3IB8USRG8G">
+                      <F7ListFormId action="reset"/>
+                    </ListFormAp>
+                    <BillListAp action="edit" oid="_BillList_">
+                      <EntityId>2+QR=HBNB0FI</EntityId>
+                    </BillListAp>
+                    <ListColumnAp action="edit" oid="2/J0CE3D70ZC">
+                      <Visible/>
+                    </ListColumnAp>
+                    <ComboListColumnAp action="edit" oid="3AC38OL7X860">
+                      <Visible>default</Visible>
+                    </ComboListColumnAp>
+                    <ComboListColumnAp action="edit" oid="3BX54//J/DX/">
+                      <Visible>default</Visible>
+                    </ComboListColumnAp>
+                    <ListColumnAp action="edit" oid="3GHAK3M5KIX1">
+                      <Visible/>
+                    </ListColumnAp>
+                    <ListColumnAp action="edit" oid="3GHAK4U02SA9">
+                      <Visible/>
+                    </ListColumnAp>
+                  </Items>
+                </FormMetadata>
+              </ListMeta>
+            </BasedataFormAp>
+          </Items>
+        </FormMetadata>
+      </DataXml>
+      <ModifierId>2005809205306574848</ModifierId>
+      <EntityId>2+QR=HBNB0FI</EntityId>
+      <ModelType>BaseFormModel</ModelType>
+      <Isv>tdkw</Isv>
+      <Version>1726727677491</Version>
+      <ParentId>2+QR=HBNB0FI</ParentId>
+      <MasterId></MasterId>
+      <Number>tdkw_opa_ermanfilef7</Number>
+      <BizappId>4A6IGSR0AFR3</BizappId>
+      <IsvSign></IsvSign>
+      <Id>4DDQABMRR+LM</Id>
+      <InheritPath>0NKB12K4VH2O,2/TXG194/JP1,2+QR=HBNB0FI</InheritPath>
+    </DesignFormMeta>
+  </DesignMetas>
+  <Version>1726727677491</Version>
+  <BOSVersion>1.0</BOSVersion>
+  <BizunitId>4A6IUEPW=Y26</BizunitId>
+</DeployMetadata>

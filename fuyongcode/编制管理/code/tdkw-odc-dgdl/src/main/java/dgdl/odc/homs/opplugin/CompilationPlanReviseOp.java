@@ -1,0 +1,52 @@
+package dgdl.odc.homs.opplugin;
+
+import kd.bos.dataentity.entity.DynamicObject;
+import kd.bos.entity.ExtendedDataEntity;
+import kd.bos.entity.plugin.AbstractOperationServicePlugIn;
+import kd.bos.entity.plugin.AddValidatorsEventArgs;
+import kd.bos.entity.plugin.PreparePropertysEventArgs;
+import kd.bos.entity.validate.AbstractValidator;
+import kd.bos.logging.Log;
+import kd.bos.logging.LogFactory;
+
+/**
+ * @Author：CW
+ * @version：1.0
+ * @date：11:14
+ * @description: 年度编制计划 月度编制计划 修订前校验:单据已经启用，不允许变更！
+ */
+public class CompilationPlanReviseOp extends AbstractOperationServicePlugIn {
+    private static Log logger = LogFactory.getLog(CompilationPlanReviseOp.class);
+
+    @Override
+    public void onPreparePropertys(PreparePropertysEventArgs e) {
+        super.onPreparePropertys(e);
+        e.getFieldKeys().add("enable");
+    }
+
+    @Override
+    public void onAddValidators(AddValidatorsEventArgs e) {
+        // 添加自定义的校验器
+        e.addValidator(new CompilationPlanReviseOpVal());
+    }
+}
+
+/*
+ * 自定义校验器
+ * */
+class CompilationPlanReviseOpVal extends AbstractValidator {
+    private static final Log logger = LogFactory.getLog(CompilationPlanReviseOpVal.class.getName());
+
+    @Override
+    public void validate() {
+        ExtendedDataEntity[] dataEntities = this.getDataEntities();
+        for (ExtendedDataEntity dataEntity : dataEntities) {
+            DynamicObject obj = dataEntity.getDataEntity();//单据对象
+            String enable = obj.getString("enable");
+            if ("1".equals(enable)){
+                addErrorMessage(dataEntity, "当前计划已启用，不允许变更！");
+                return;
+            }
+        }
+    }
+}

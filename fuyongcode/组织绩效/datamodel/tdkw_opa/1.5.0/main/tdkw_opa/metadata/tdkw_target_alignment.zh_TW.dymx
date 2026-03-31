@@ -1,0 +1,294 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<DeployMetadata>
+  <MasterId>4ATVIUON732=</MasterId>
+  <Id>4ATVIUON732=</Id>
+  <DesignMetas>
+    <DesignFormMetaL>
+      <Number>tdkw_target_alignment</Number>
+      <PkId>4FME6+CGG3+4</PkId>
+      <DataXml>
+        <FormMetadata>
+          <Name>指標對齊</Name>
+          <Items>
+            <BillFormAp action="edit" oid="00305e8b000005ac">
+              <MobListMeta>
+                <FormMetadata>
+                  <Items>
+                    <CardListColumnAp action="edit" oid="4ATVIUXV6752">
+                      <Name>單據狀態</Name>
+                    </CardListColumnAp>
+                    <CardListColumnAp action="edit" oid="4ATVIUXYTKAT">
+                      <Name>創建人.姓名</Name>
+                    </CardListColumnAp>
+                    <CardFlexPanelAp action="edit" oid="4ATVIUXV654A">
+                      <Name>卡片佈局容器</Name>
+                    </CardFlexPanelAp>
+                    <MobSortPanelAp action="edit" oid="mobsortpanel">
+                      <Name>排序項1</Name>
+                    </MobSortPanelAp>
+                    <MobFilterPanelAp action="edit" oid="mobfilterpanel">
+                      <Name>過濾項1</Name>
+                    </MobFilterPanelAp>
+                    <MobFilterPanelAp action="edit" oid="4ATVIUXV6751">
+                      <Name>過濾項2</Name>
+                    </MobFilterPanelAp>
+                  </Items>
+                </FormMetadata>
+              </MobListMeta>
+              <Name>指標對齊</Name>
+              <MobMeta>
+                <FormMetadata>
+                  <Items>
+                    <LayoutFlexAp action="edit" oid="4ATVIUXRJSZK">
+                      <Name>字段佈局容器</Name>
+                    </LayoutFlexAp>
+                    <LayoutFlexAp action="edit" oid="4ATVIUXRJQYT">
+                      <Name>字段佈局容器</Name>
+                    </LayoutFlexAp>
+                    <FieldAp action="edit" oid="4ATVIUXRJQYU">
+                      <Name>審核人</Name>
+                    </FieldAp>
+                    <FieldAp action="edit" oid="4ATVIUXRJSZM">
+                      <Name>創建人</Name>
+                    </FieldAp>
+                    <FieldAp action="edit" oid="4ATVIUXRJSZL">
+                      <Name>單據狀態</Name>
+                    </FieldAp>
+                    <MBarItemAp action="edit" oid="4ATVIUXV654=">
+                      <Name>提交</Name>
+                    </MBarItemAp>
+                  </Items>
+                </FormMetadata>
+              </MobMeta>
+              <ListMeta>
+                <FormMetadata>
+                  <Items>
+                    <ListColumnAp action="edit" oid="4C87TXKTWV/I">
+                      <Name>需對齊組織.行政組織名稱</Name>
+                    </ListColumnAp>
+                    <DecimalListColumnAp action="edit" oid="4C87U++F=X+5">
+                      <Name>分解單主鍵id</Name>
+                    </DecimalListColumnAp>
+                    <DateListColumnAp action="edit" oid="4C87U/ZLXJWK">
+                      <Name>日期</Name>
+                    </DateListColumnAp>
+                  </Items>
+                </FormMetadata>
+              </ListMeta>
+            </BillFormAp>
+            <AdvConSummaryPanelAp action="edit" oid="4ATVIUXK=ZKI">
+              <Name>高級面板摘要容器</Name>
+            </AdvConSummaryPanelAp>
+            <AdvConToolbarAp action="edit" oid="4ATVIUXK=XJR">
+              <Name>高級面板工具欄</Name>
+            </AdvConToolbarAp>
+            <AdvConChildPanelAp action="edit" oid="4ATVIUXK=ZKJ">
+              <Name>高級面板子容器</Name>
+            </AdvConChildPanelAp>
+            <AdvConBarItemAp action="edit" oid="4ATVIUXK=XJS">
+              <Name>增行</Name>
+            </AdvConBarItemAp>
+            <AdvConBarItemAp action="edit" oid="4ATVIUXNYCS0">
+              <Name>刪行</Name>
+            </AdvConBarItemAp>
+            <EntryAp action="edit" oid="4ATVIUXNYAR9">
+              <Name>單據體</Name>
+            </EntryAp>
+            <EntryFieldAp action="edit" oid="4ATVIUXNYCS1">
+              <Name>修改人</Name>
+            </EntryFieldAp>
+            <EntryFieldAp action="edit" oid="4ATVIUXNYAR=">
+              <Name>修改時間</Name>
+            </EntryFieldAp>
+            <EntryFieldAp action="edit" oid="Wm3uA5I7z0O9DkHQwl">
+              <Name>來源上級分解單id</Name>
+            </EntryFieldAp>
+            <EntryFieldAp action="edit" oid="0Q1lD22bRUZHjU0CZO">
+              <Name>指標來源</Name>
+            </EntryFieldAp>
+            <EntryFieldAp action="edit" oid="G7hwnNKomAhTk8UEUA">
+              <Name>指標名稱</Name>
+            </EntryFieldAp>
+            <EntryFieldAp action="edit" oid="hffmFFudPQpghzfaNE">
+              <Name>指標名稱</Name>
+            </EntryFieldAp>
+            <EntryFieldAp action="edit" oid="nqKsi5poqWVCiinTat">
+              <Name>指標類型</Name>
+            </EntryFieldAp>
+            <EntryFieldAp action="edit" oid="39i02f10rrLPy4nugL">
+              <Name>指標描述</Name>
+            </EntryFieldAp>
+            <EntryFieldAp action="edit" oid="xyvNngG7pXI3QjST0X">
+              <Name>分解說明</Name>
+            </EntryFieldAp>
+            <EntryFieldAp action="edit" oid="K5CIwvTITekQArd10g">
+              <Name>對齊狀態</Name>
+            </EntryFieldAp>
+            <EntryFieldAp action="edit" oid="hVvG2vUAKa83UOFEEG">
+              <Name>已對齊指標</Name>
+            </EntryFieldAp>
+            <EntryFieldAp action="edit" oid="Ui4qtvrDblSTxfKiXy">
+              <Name>已對齊指標描述</Name>
+            </EntryFieldAp>
+            <EntryFieldAp action="edit" oid="D8eBJBoGHCDCyA6asB">
+              <Name>已對齊指標權重</Name>
+            </EntryFieldAp>
+            <EntryFieldAp action="edit" oid="GmFdUT66iB4hYLSgUI">
+              <Name>已對齊指標目標值</Name>
+            </EntryFieldAp>
+            <EntryFieldAp action="edit" oid="QRGCHd0gB4LDPfY9zq">
+              <Name>單位</Name>
+            </EntryFieldAp>
+            <ToolbarAp action="edit" oid="zFqA4k82D6">
+              <Name>工具欄</Name>
+            </ToolbarAp>
+            <LabelAp action="edit" oid="4Nqid2zgOXnGadOydJ">
+              <Name>需對齊組織：</Name>
+            </LabelAp>
+            <FieldAp action="edit" oid="NXh7JqN6nwj6qeRjPo">
+              <Name>對齊組織</Name>
+            </FieldAp>
+            <LabelAp action="edit" oid="S1QJJEfTNY">
+              <Name>考核年份：</Name>
+            </LabelAp>
+            <FieldAp action="edit" oid="VZb8Oear8eKtYOSyUG">
+              <Name>日期</Name>
+            </FieldAp>
+            <AdvConAp action="edit" oid="4ATVIUXGOHC8">
+              <Name>分錄</Name>
+            </AdvConAp>
+            <FlexPanelAp action="edit" oid="QpJ7LNnXn6">
+              <Name>Flex容器</Name>
+            </FlexPanelAp>
+            <FieldAp action="edit" oid="SzEaZpm4R8YjFn00V4">
+              <Name>描述</Name>
+            </FieldAp>
+            <FieldAp action="edit" oid="ztQfK0XHgHsIHSvqwD">
+              <Name>組織績效kpi類區id</Name>
+            </FieldAp>
+            <BarItemAp action="edit" oid="QWYhLJxZ42">
+              <Name>退出</Name>
+            </BarItemAp>
+            <BarItemAp action="edit" oid="SVrR3MREwi">
+              <Name>保存</Name>
+            </BarItemAp>
+          </Items>
+        </FormMetadata>
+      </DataXml>
+      <Name>指標對齊</Name>
+      <Id>4ATVIUON732=</Id>
+      <LocaleId>zh_TW</LocaleId>
+    </DesignFormMetaL>
+    <DesignEntityMetaL>
+      <Number>tdkw_target_alignment</Number>
+      <PkId>4FME6+NMKXEE</PkId>
+      <DataXml>
+        <EntityMetadata>
+          <Name>指標對齊</Name>
+          <Items>
+            <BillEntity action="edit" oid="00305e8b000007ac">
+              <Operations>
+                <Operation action="edit" oid="4ATVIUXRJSZJ">
+                  <Name>新增分錄</Name>
+                </Operation>
+                <Operation action="edit" oid="4ATVIUXRJQYS">
+                  <Name>刪除分錄</Name>
+                </Operation>
+                <Operation action="edit" oid="4BE4PGL/8F1B">
+                  <Name>取消對齊</Name>
+                  <Validations>
+                    <ConditionValidation action="edit" oid="4BE7RORTKX3U">
+                      <Description>合法性校驗</Description>
+                      <Message>請選擇一條已對齊的指標分解記錄！</Message>
+                    </ConditionValidation>
+                  </Validations>
+                </Operation>
+                <Operation action="edit" oid="4BE4S1VL/YKP">
+                  <Name>關聯對齊</Name>
+                </Operation>
+                <Operation action="edit" oid="4BX/EJPMU0SS">
+                  <Name>退出</Name>
+                </Operation>
+              </Operations>
+              <Name>指標對齊</Name>
+            </BillEntity>
+            <EntryEntity action="edit" oid="4ATVIUXNYAR9">
+              <Name>單據體</Name>
+            </EntryEntity>
+            <ModifierField action="edit" oid="4ATVIUXNYCS1">
+              <Name>修改人</Name>
+            </ModifierField>
+            <ModifyDateField action="edit" oid="4ATVIUXNYAR=">
+              <Name>修改時間</Name>
+            </ModifyDateField>
+            <TextField action="edit" oid="SzEaZpm4R8YjFn00V4">
+              <Name>描述</Name>
+            </TextField>
+            <BasedataField action="edit" oid="NXh7JqN6nwj6qeRjPo">
+              <Name>對齊組織</Name>
+            </BasedataField>
+            <BigIntField action="edit" oid="ztQfK0XHgHsIHSvqwD">
+              <Name>組織績效kpi類區id</Name>
+            </BigIntField>
+            <BasedataField action="edit" oid="0Q1lD22bRUZHjU0CZO">
+              <Name>指標來源</Name>
+            </BasedataField>
+            <BasedataField action="edit" oid="G7hwnNKomAhTk8UEUA">
+              <Name>指標名稱</Name>
+            </BasedataField>
+            <MulBasedataField action="edit" oid="hVvG2vUAKa83UOFEEG">
+              <Name>已對齊指標</Name>
+            </MulBasedataField>
+            <ComboField action="edit" oid="K5CIwvTITekQArd10g">
+              <Name>對齊狀態</Name>
+              <Items>
+                <ComboItem action="edit" oid="10">
+                  <Caption>已對齊</Caption>
+                </ComboItem>
+                <ComboItem action="edit" oid="20">
+                  <Caption>未對齊</Caption>
+                </ComboItem>
+              </Items>
+            </ComboField>
+            <TextField action="edit" oid="Ui4qtvrDblSTxfKiXy">
+              <Name>已對齊指標描述</Name>
+            </TextField>
+            <TextField action="edit" oid="D8eBJBoGHCDCyA6asB">
+              <Name>已對齊指標權重</Name>
+            </TextField>
+            <TextField action="edit" oid="GmFdUT66iB4hYLSgUI">
+              <Name>已對齊指標目標值</Name>
+            </TextField>
+            <DateField action="edit" oid="VZb8Oear8eKtYOSyUG">
+              <Name>日期</Name>
+            </DateField>
+            <TextField action="edit" oid="QRGCHd0gB4LDPfY9zq">
+              <Name>單位</Name>
+            </TextField>
+            <BasedataField action="edit" oid="nqKsi5poqWVCiinTat">
+              <Name>指標類型</Name>
+            </BasedataField>
+            <TextField action="edit" oid="hffmFFudPQpghzfaNE">
+              <Name>指標名稱</Name>
+            </TextField>
+            <TextField action="edit" oid="39i02f10rrLPy4nugL">
+              <Name>指標描述</Name>
+            </TextField>
+            <TextField action="edit" oid="xyvNngG7pXI3QjST0X">
+              <Name>分解說明</Name>
+            </TextField>
+            <BigIntField action="edit" oid="Wm3uA5I7z0O9DkHQwl">
+              <Name>來源上級分解單id</Name>
+            </BigIntField>
+          </Items>
+        </EntityMetadata>
+      </DataXml>
+      <Name>指標對齊</Name>
+      <Id>4ATVIUON732=</Id>
+      <LocaleId>zh_TW</LocaleId>
+    </DesignEntityMetaL>
+  </DesignMetas>
+  <Version>1728376866706</Version>
+  <BOSVersion>1.0</BOSVersion>
+</DeployMetadata>
